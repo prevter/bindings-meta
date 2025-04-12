@@ -1606,6 +1606,7 @@ GameObject::groupOpacityMod - 0x5a7040
 GameObject::groupWasDisabled - 0x5a6a20
 GameObject::isColorTrigger - 0x5b3020
 GameObject::isSettingsObject - 0x5b3690
+GameObject::isSpawnableTrigger - 0x5b2ac0
 GameObject::isSpeedObject - 0x5b30f0
 GameObject::makeInvisible - 0x5a53a0
 GameObject::playDestroyObjectAnim - 0x24c560
@@ -2475,6 +2476,7 @@ EditorUI::clickOnPosition - 0x2dfa0
 EditorUI::constrainGameLayerPosition - 0x2afb0
 EditorUI::copyObjects - 0x31280
 EditorUI::createCustomItems - 0x31b80
+EditorUI::createLoop - 0x45d70
 EditorUI::createMoveMenu - 0x464d0
 EditorUI::createObject - 0x3aa80
 EditorUI::createRockBases - 0x5fd600

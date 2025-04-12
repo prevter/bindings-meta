@@ -1863,6 +1863,7 @@ GJBaseGameLayer::toggleAudioVisualizer - 0x242550
 GJBaseGameLayer::toggleDualMode - 0x2113f0
 GJBaseGameLayer::toggleFlipped - 0x240240
 GJBaseGameLayer::toggleGroup - 0x21e810
+GJBaseGameLayer::triggerAdvancedFollowEditCommand - 0x2297e0
 GJBaseGameLayer::triggerAreaEffect - 0x221ee0
 GJBaseGameLayer::triggerGradientCommand - 0x21a3a0
 GJBaseGameLayer::triggerShaderCommand - 0x21bc80
@@ -1878,6 +1879,7 @@ GJBaseGameLayer::updateCameraOffsetX - 0x230810
 GJBaseGameLayer::updateCameraOffsetY - 0x2308b0
 GJBaseGameLayer::updateCounters - 0x22e760
 GJBaseGameLayer::updateDualGround - 0x20dcc0
+GJBaseGameLayer::updateEnterEffects - 0x209630
 GJBaseGameLayer::updateGradientLayers - 0x21a830
 GJBaseGameLayer::updateGuideArt - 0x240130
 GJBaseGameLayer::updateKeyframeOrder - 0x22e4b0

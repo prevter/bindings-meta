@@ -1555,6 +1555,7 @@ GameObject::init - 0x4d7914
 GameObject::isFacingDown - 0x4ea740
 GameObject::isFacingLeft - 0x4ea7d0
 GameObject::isSettingsObject - 0x4ebf78
+GameObject::isSpawnableTrigger - 0x4eb740
 GameObject::isTrigger - 0x4dca68
 GameObject::playDestroyObjectAnim - 0x1f9910
 GameObject::playShineEffect - 0x4df690
@@ -2411,6 +2412,7 @@ EditorUI::clickOnPosition - 0x2d9d4
 EditorUI::constrainGameLayerPosition - 0x2b208
 EditorUI::copyObjects - 0x309d4
 EditorUI::createCustomItems - 0x3122c
+EditorUI::createLoop - 0x3fa34
 EditorUI::createMoveMenu - 0x400a8
 EditorUI::createObject - 0x35d7c
 EditorUI::createUndoObject - 0x37f50

@@ -1566,6 +1566,7 @@ GameObject::getGroupID - 0x25c624
 GameObject::getLastPosition - 0x261674
 GameObject::init - 0x253dc0
 GameObject::isSettingsObject - 0x261dfc
+GameObject::isSpawnableTrigger - 0x261684
 GameObject::makeInvisible - 0x25b45c
 GameObject::playDestroyObjectAnim - 0x349078
 GameObject::playShineEffect - 0x25b4d8
@@ -2231,7 +2232,9 @@ EditorUI::clickOnPosition - 0x3dea18
 EditorUI::constrainGameLayerPosition - 0x3dc880
 EditorUI::copyObjects - 0x3e0a08
 EditorUI::createCustomItems - 0x3e0ec8
+EditorUI::createLoop - 0x3eb930
 EditorUI::createMoveMenu - 0x3ebe14
+EditorUI::createObject - 0x3e4914
 EditorUI::createUndoObject - 0x3e62ac
 EditorUI::deselectAll - 0x3e1f84
 EditorUI::doCopyObjects - 0x3e6d64
@@ -3202,6 +3205,7 @@ LevelEditorLayer::createObject - 0x359a70
 LevelEditorLayer::createObjectsFromSetup - 0x3576e8
 LevelEditorLayer::createObjectsFromString - 0x3590e4
 LevelEditorLayer::findStartPosObject - 0x362134
+LevelEditorLayer::getNextFreeGroupID - 0x35ef38
 LevelEditorLayer::handleAction - 0x35b654
 LevelEditorLayer::init - 0x35643c
 LevelEditorLayer::objectAtPosition - 0x35a5f4
