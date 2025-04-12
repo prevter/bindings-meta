@@ -2550,7 +2550,10 @@ GameStatsManager::init - 0x3259a0
 GameStatsManager::addStoreItem - 0x32bb90
 GameStatsManager::awardSecretKey - 0x33e2ec
 GameStatsManager::checkCoinAchievement - 0x33052c
+GameStatsManager::collectReward - 0x333564
+GameStatsManager::completedDemonLevel - 0x330e60
 GameStatsManager::completedLevel - 0x330d54
+GameStatsManager::completedStarLevel - 0x330f2c
 GameStatsManager::createStoreItems - 0x325a70
 GameStatsManager::encodeDataTo - 0x33ec78
 GameStatsManager::getAwardedCurrencyForLevel - 0x3326e0
@@ -2563,14 +2566,18 @@ GameStatsManager::getGauntletRewardKey - 0x3129e8
 GameStatsManager::getItemKey - 0x32ba84
 GameStatsManager::getItemUnlockState - 0x336148
 GameStatsManager::getQueuedChallenge - 0x333d78
+GameStatsManager::getRewardItem - 0x3333b8
+GameStatsManager::getRewardKey - 0x3333e8
 GameStatsManager::getSpecialUnlockDescription - 0x336794
+GameStatsManager::getStarLevelKey - 0x330a04
 GameStatsManager::getStat - 0x32bf54
 GameStatsManager::getTotalCollectedCurrency - 0x3349f0
 GameStatsManager::hasClaimedListReward - 0x334154
-GameStatsManager::hasCompletedLevel - 0x3334f4
+GameStatsManager::hasCompletedLevel - 0x330af4
 GameStatsManager::hasCompletedMainLevel - 0x330a74
 GameStatsManager::hasCompletedOnlineLevel - 0x330b64
 GameStatsManager::hasPendingUserCoin - 0x331ee0
+GameStatsManager::hasRewardBeenCollected - 0x3334f4
 GameStatsManager::hasSecretCoin - 0x33078c
 GameStatsManager::hasUserCoin - 0x331f50
 GameStatsManager::incrementChallenge - 0x32f8b4
@@ -2581,6 +2588,7 @@ GameStatsManager::isItemUnlocked - 0x32fb64
 GameStatsManager::isSpecialChestUnlocked - 0x3360cc
 GameStatsManager::purchaseItem - 0x32bdb0
 GameStatsManager::recountSpecialStats - 0x3351a4
+GameStatsManager::registerRewardsFromItem - 0x333604
 GameStatsManager::setStat - 0x32c038
 GameStatsManager::toggleEnableItem - 0x3362b8
 GameStatsManager::unlockGoldChest - 0x33e16c
@@ -3842,6 +3850,7 @@ RewardsPage::show - 0x1c5a10
 RewardsPage::FLAlert_Clicked - 0x1c5b48
 RewardsPage::rewardsStatusFinished - 0x1c57bc
 RewardsPage::rewardsStatusFailed - 0x1c597c
+RewardsPage::updateTimers - 0x1c53ac
 RewardUnlockLayer::create - 0x1c56d8
 RewardUnlockLayer::keyBackClicked - 0x1c8e14
 RewardUnlockLayer::currencyWillExit - 0x1c8dec
