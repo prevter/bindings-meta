@@ -1471,6 +1471,7 @@ AchievementManager::sharedState - 0xb9e4c
 AchievementManager::init - 0xb9ecc
 AchievementManager::achievementForUnlock - 0xeb6d8
 AchievementManager::addAchievement - 0xeb16c
+AchievementManager::addManualAchievements - 0xb9f54
 AchievementManager::isAchievementEarned - 0xeb53c
 AchievementManager::limitForAchievement - 0xeb63c
 AchievementManager::notifyAchievement - 0xeba9c
@@ -2556,6 +2557,7 @@ GameStatsManager::getAwardedCurrencyForLevel - 0x3326e0
 GameStatsManager::getAwardedDiamondsForLevel - 0x332bac
 GameStatsManager::getBaseCurrencyForLevel - 0x3325b8
 GameStatsManager::getChallenge - 0x333cf4
+GameStatsManager::getCollectedCoinsForLevel - 0x330730
 GameStatsManager::getCompletedMapPacks - 0x331520
 GameStatsManager::getGauntletRewardKey - 0x3129e8
 GameStatsManager::getItemKey - 0x32ba84
@@ -3868,6 +3870,7 @@ SetTextPopup::keyBackClicked - 0x2dfde0
 SetTextPopup::show - 0x2dfd94
 SetTextPopup::textInputClosed - 0x2dfcf0
 SetTextPopup::textChanged - 0x2dfd0c
+SecretLayer::scene - 0x3b57a0
 SecretLayer::init - 0x3b58ac
 SecretLayer::keyBackClicked - 0x3b85a4
 SecretLayer::textInputOpened - 0x3b7ab0

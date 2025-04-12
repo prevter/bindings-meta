@@ -4870,6 +4870,7 @@ SecretGame01Layer::resetGameTimer - 0x46d630
 SecretGame01Layer::scaleOutGame - 0x46d6c0
 SecretGame01Layer::showGameOver - 0x46d6a0
 SecretGame01Layer::showGameWon - 0x46dab0
+SecretLayer::scene - 0x5e2f90
 SecretLayer::init - 0x5e31b0
 SecretLayer::keyBackClicked - 0x5e6fe0
 SecretLayer::textInputOpened - 0x5e60c0
