@@ -2520,6 +2520,7 @@ EditorUI::onCopyState - 0x2c960
 EditorUI::onCreate - 0x2e600
 EditorUI::onCreateButton - 0x34d30
 EditorUI::onCreateObject - 0x35170
+EditorUI::onDeleteCustomItem - 0x31960
 EditorUI::onDeleteInfo - 0x32320
 EditorUI::onDeleteSelected - 0xc7a0
 EditorUI::onDeleteSelectedType - 0x32240

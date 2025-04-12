@@ -2256,6 +2256,7 @@ EditorUI::moveObjectCall - 0x3ee190
 EditorUI::onCreate - 0x3dee84
 EditorUI::onCreateButton - 0x3e32f0
 EditorUI::onCreateObject - 0x3e35c0
+EditorUI::onDeleteCustomItem - 0x3e0dbc
 EditorUI::onDeselectAll - 0x3dda90
 EditorUI::onDuplicate - 0x3dcae4
 EditorUI::onGoToBaseLayer - 0x3ddd20
