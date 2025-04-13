@@ -130,6 +130,7 @@ cocos2d::CCEaseSineInOut::copyWithZone - 0x45f48c
 cocos2d::CCEaseSineInOut::update - 0x45f574
 cocos2d::CCEaseSineInOut::reverse - 0x45f5c0
 cocos2d::CCNode::create - 0x20cad4
+cocos2d::CCNode::resetGlobalOrderOfArrival - 0x20c198
 cocos2d::CCNode::CCNode - 0x20c1a8
 cocos2d::CCNode::~CCNode - 0x20c334
 cocos2d::CCNode::getActionByTag - 0x20dd80
@@ -720,6 +721,7 @@ cocos2d::CCIMEDispatcher::dispatchInsertText - 0x4124b4
 cocos2d::CCIMEDispatcher::hasDelegate - 0x4124a0
 cocos2d::CCKeyboardDispatcher::dispatchKeyboardMSG - 0x1a8028
 cocos2d::CCKeyboardDispatcher::keyToString - 0x1a82e0
+cocos2d::CCKeyboardDispatcher::removeDelegate - 0x1a7e48
 cocos2d::CCKeyboardDispatcher::updateModifierKeys - 0x1a82c8
 cocos2d::CCDirector::sharedDirector - 0x3de6d0
 cocos2d::CCDirector::getNotificationNode - 0x3e07cc
@@ -1122,6 +1124,7 @@ cocos2d::CCSpriteFrameCache::removeSpriteFramesFromFile - 0x2a030c
 cocos2d::CCSpriteFrameCache::removeSpriteFramesFromTexture - 0x2a0830
 cocos2d::CCSpriteFrameCache::removeUnusedSpriteFrames - 0x29ff90
 cocos2d::CCSpriteFrameCache::spriteFrameByName - 0x2a0b38
+cocos2d::CCString::createWithContentsOfFile - 0x6a8d88
 cocos2d::CCString::createWithData - 0x6a8b3c
 cocos2d::CCString::getCString - 0x6a84a8
 cocos2d::CCString::boolValue - 0x6a8838
@@ -4343,6 +4346,7 @@ PlatformToolbox::getDisplaySize - 0x41a190
 PlatformToolbox::hideCursor - 0x41a144
 PlatformToolbox::isControllerConnected - 0x41a254
 PlatformToolbox::showCursor - 0x419648
+PlayerCheckpoint::create - 0xab5b8
 PlayerCheckpoint::init - 0xae214
 PlayerControlGameObject::init - 0x194730
 PlayerControlGameObject::customObjectSetup - 0x195378
@@ -4513,6 +4517,7 @@ PlayLayer::pauseGame - 0xadc74
 PlayLayer::playEndAnimationToPos - 0xa664c
 PlayLayer::playPlatformerEndAnimationToPos - 0xa6b84
 PlayLayer::prepareCreateObjectsFromSetup - 0x9dac0
+PlayLayer::prepareMusic - 0xb3ae0
 PlayLayer::processCreateObjectsFromSetup - 0x9de44
 PlayLayer::removeCheckpoint - 0xaca08
 PlayLayer::resetLevel - 0xa3120

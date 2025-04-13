@@ -90,6 +90,7 @@ cocos2d::CCEaseExponentialOut::copyWithZone - 0x26b8ec
 cocos2d::CCEaseExponentialOut::update - 0x26b9b4
 cocos2d::CCEaseExponentialOut::reverse - 0x26ba00
 cocos2d::CCNode::create - 0x23b3f0
+cocos2d::CCNode::resetGlobalOrderOfArrival - 0x23ab14
 cocos2d::CCNode::CCNode - 0x23ab24
 cocos2d::CCNode::~CCNode - 0x23ad98
 cocos2d::CCNode::getActionByTag - 0x23c214
@@ -97,6 +98,7 @@ cocos2d::CCNode::boundingBox - 0x23b390
 cocos2d::CCNode::convertToNodeSpace - 0x23ccb8
 cocos2d::CCNode::convertToWorldSpace - 0x23cd00
 cocos2d::CCNode::convertTouchToNodeSpace - 0x23cd48
+cocos2d::CCNode::pauseSchedulerAndActions - 0x23c0c4
 cocos2d::CCNode::resumeSchedulerAndActions - 0x23bed0
 cocos2d::CCNode::runAction - 0x23c1d0
 cocos2d::CCNode::schedule - 0x23c2fc
@@ -610,6 +612,7 @@ cocos2d::CCIMEDelegate::detachWithIME - 0x1d48b8
 cocos2d::CCIMEDelegate::deleteForward - 0xd590
 cocos2d::CCIMEDispatcher::dispatchDeleteBackward - 0x1d49c4
 cocos2d::CCIMEDispatcher::dispatchInsertText - 0x1d4998
+cocos2d::CCKeyboardDispatcher::removeDelegate - 0x239960
 cocos2d::CCDirector::sharedDirector - 0x178534
 cocos2d::CCDirector::getWinSize - 0x1791c4
 cocos2d::CCDirector::getWinSizeInPixels - 0x1794e0
@@ -882,6 +885,7 @@ cocos2d::CCSpriteFrameCache::addSpriteFramesWithDictionary - 0x3b47bc
 cocos2d::CCSpriteFrameCache::addSpriteFramesWithFile - 0x3b5070
 cocos2d::CCSpriteFrameCache::removeSpriteFramesFromDictionary - 0x3b53e4
 cocos2d::CCSpriteFrameCache::spriteFrameByName - 0x3b5508
+cocos2d::CCString::createWithContentsOfFile - 0x268148
 cocos2d::CCString::createWithData - 0x26800c
 cocos2d::CCString::getCString - 0x267ca4
 cocos2d::CCString::boolValue - 0x267e58
@@ -1498,6 +1502,7 @@ CCSpritePlus::initWithSpriteFrameName - 0x1b9c64
 CCSpritePlus::setFlipX - 0x1b9e54
 CCSpritePlus::setFlipY - 0x1b9f04
 GameObject::GameObject - 0x22ee90
+GameObject::createWithFrame - 0x253d3c
 GameObject::createWithKey - 0x253594
 GameObject::objectFromVector - 0x25d1e4
 GameObject::update - 0x255980
@@ -2171,6 +2176,7 @@ EditLevelLayer::onClosePopup - 0xef5c8
 EditLevelLayer::confirmDelete - 0xee16c
 EditLevelLayer::init - 0xebed4
 EditLevelLayer::onLevelInfo - 0xee63c
+EditLevelLayer::onPlay - 0xed444
 EditLevelLayer::onSetFolder - 0xee43c
 EditLevelLayer::onShare - 0xed54c
 GJOptionsLayer::setupOptions - 0x2d3b84
@@ -2321,6 +2327,7 @@ EndLevelLayer::showLayer - 0x2f74d8
 EndLevelLayer::enterAnimFinished - 0x2f8174
 EndLevelLayer::keyUp - 0x2f8980
 EndLevelLayer::onHideLayer - 0x2f7420
+EndLevelLayer::onMenu - 0x2f70d4
 EndPortalObject::init - 0x3f66b0
 EndPortalObject::setPosition - 0x3f6b38
 EndPortalObject::setVisible - 0x3f6c30
@@ -3358,6 +3365,7 @@ LevelSelectLayer::keyBackClicked - 0x3fb7b0
 LevelSelectLayer::keyDown - 0x3fb7bc
 LevelSelectLayer::updatePageWithObject - 0x3fa324
 LevelSelectLayer::scrollLayerMoved - 0x3fb4a4
+LevelSelectLayer::colorForPage - 0x3fb724
 LevelSelectLayer::init - 0x3f98b8
 LevelSelectLayer::onInfo - 0x3fa308
 LevelSettingsLayer::create - 0x17c8d0
@@ -3519,7 +3527,9 @@ MusicDownloadManager::onDownloadSongCompleted - 0x159f80
 MusicDownloadManager::onGetSongInfoCompleted - 0x157414
 MusicDownloadManager::onProcessHttpRequestCompleted - 0x15701c
 MusicDownloadManager::pathForSFX - 0x15a508
+MusicDownloadManager::pathForSFXFolder - 0x15a5d4
 MusicDownloadManager::pathForSong - 0x1598e4
+MusicDownloadManager::pathForSongFolder - 0x15a2f8
 MusicDownloadManager::removeMusicDownloadDelegate - 0x157894
 MusicDownloadManager::songStateChanged - 0x157abc
 MusicSearchResult::updateObjects - 0x15ff50
@@ -3545,6 +3555,7 @@ OptionsLayer::customSetup - 0xef91c
 OptionsLayer::layerHidden - 0xf0688
 OptionsLayer::FLAlert_Clicked - 0xf0714
 OptionsLayer::musicSliderChanged - 0xf0478
+OptionsLayer::onAccount - 0xf0224
 OptionsLayer::onOptions - 0xf0250
 OptionsLayer::onSecretVault - 0xf02a0
 OptionsLayer::sfxSliderChanged - 0xf04e4
@@ -3601,6 +3612,7 @@ PlatformToolbox::hideCursor - 0x16f40c
 PlatformToolbox::isControllerConnected - 0x16f3d8
 PlatformToolbox::showCursor - 0x16f410
 PlatformToolbox::toggleLockCursor - 0x16f41c
+PlayerCheckpoint::create - 0x123974
 PlayerCheckpoint::init - 0x126030
 PlayerControlGameObject::init - 0x390144
 PlayerControlGameObject::customObjectSetup - 0x3904f0
@@ -3902,6 +3914,7 @@ SecretLayer::textInputOpened - 0x3b7ab0
 SecretLayer::textInputClosed - 0x3b7b9c
 SecretLayer::textChanged - 0x3b7c1c
 SecretLayer::FLAlert_Clicked - 0x3b7aa8
+SecretLayer::onSubmit - 0x3b65c0
 SecretLayer2::SecretLayer2 - 0x311b7c
 SecretLayer2::create - 0x3098ec
 SecretLayer2::scene - 0x3098a8
