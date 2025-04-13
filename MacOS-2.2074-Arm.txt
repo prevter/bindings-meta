@@ -1543,6 +1543,7 @@ GameObject::setType - 0x1999e4
 GameObject::getStartPos - 0x1999ec
 GameObject::addColorSprite - 0x4d83b4
 GameObject::addEmptyGlow - 0x4d825c
+GameObject::addGlow - 0x4d7bd0
 GameObject::copyGroups - 0x4e0b44
 GameObject::createAndAddParticle - 0x4dc810
 GameObject::createSpriteColor - 0x4d7afc
@@ -1557,6 +1558,7 @@ GameObject::isFacingLeft - 0x4ea7d0
 GameObject::isSettingsObject - 0x4ebf78
 GameObject::isSpawnableTrigger - 0x4eb740
 GameObject::isTrigger - 0x4dca68
+GameObject::loadGroupsFromString - 0x4e1100
 GameObject::playDestroyObjectAnim - 0x1f9910
 GameObject::playShineEffect - 0x4df690
 GameObject::resetGroupDisabled - 0x4d9220

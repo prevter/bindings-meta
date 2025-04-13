@@ -1497,6 +1497,7 @@ CCSpritePlus::setFlipX - 0x1b9e54
 CCSpritePlus::setFlipY - 0x1b9f04
 GameObject::GameObject - 0x22ee90
 GameObject::createWithKey - 0x253594
+GameObject::objectFromVector - 0x25d1e4
 GameObject::update - 0x255980
 GameObject::setScaleX - 0x25a750
 GameObject::setScaleY - 0x25a7e8
@@ -1562,12 +1563,14 @@ GameObject::getType - 0x22ea8c
 GameObject::setType - 0x22ea94
 GameObject::getStartPos - 0x22ea9c
 GameObject::addColorSprite - 0x254690
+GameObject::addGlow - 0x254034
 GameObject::determineSlopeDirection - 0x25c100
 GameObject::getGroupID - 0x25c624
 GameObject::getLastPosition - 0x261674
 GameObject::init - 0x253dc0
 GameObject::isSettingsObject - 0x261dfc
 GameObject::isSpawnableTrigger - 0x261684
+GameObject::loadGroupsFromString - 0x25c9f8
 GameObject::makeInvisible - 0x25b45c
 GameObject::playDestroyObjectAnim - 0x349078
 GameObject::playShineEffect - 0x25b4d8
