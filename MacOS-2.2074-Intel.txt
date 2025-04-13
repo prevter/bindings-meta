@@ -3852,6 +3852,7 @@ LevelAreaInnerLayer::onDoor - 0x268bd0
 LevelAreaInnerLayer::onInfo - 0x268e70
 LevelAreaInnerLayer::onNextFloor - 0x268d00
 LevelAreaInnerLayer::showFloor1CompleteDialog - 0x269470
+LevelAreaLayer::scene - 0x265710
 LevelAreaLayer::init - 0x2658d0
 LevelAreaLayer::keyBackClicked - 0x267ab0
 LevelAreaLayer::dialogClosed - 0x267810
@@ -5005,6 +5006,7 @@ SelectSettingLayer::keyBackClicked - 0x25f2e0
 SelectSettingLayer::getSelectedFrame - 0x25ccd0
 SelectSettingLayer::getSelectedValue - 0x25cca0
 SelectSettingLayer::init - 0x25e9f0
+SelectSettingLayer::onClose - 0x25f260
 SelectSettingLayer::onSelect - 0x25f1b0
 SelectSFXSortLayer::create - 0x42c860
 SelectSFXSortLayer::keyBackClicked - 0x42d760
@@ -5093,6 +5095,7 @@ SetupArtSwitchPopup::selectArtClosed - 0x56ee90
 SetupArtSwitchPopup::init - 0x56e840
 SetupAudioLineGuidePopup::selectSettingClosed - 0x56d390
 SetupAudioLineGuidePopup::init - 0x56cbf0
+SetupAudioLineGuidePopup::onSpeed - 0x56d340
 SetupAudioTriggerPopup::valueDidChange - 0x4a4700
 SetupBGSpeedTrigger::init - 0x4f4910
 SetupCameraEdgePopup::determineStartValues - 0x5720f0

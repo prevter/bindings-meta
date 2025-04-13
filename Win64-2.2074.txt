@@ -3579,6 +3579,7 @@ SelectSettingLayer::create - 0x30e580
 SelectSettingLayer::frameForItem - 0x30ede0
 SelectSettingLayer::keyBackClicked - 0x30f380
 SelectSettingLayer::init - 0x30e690
+SelectSettingLayer::onClose - 0x30f330
 SelectSettingLayer::onSelect - 0x30f280
 SelectSFXSortLayer::keyBackClicked - 0x84650
 SelectSFXSortLayer::init - 0x468b50

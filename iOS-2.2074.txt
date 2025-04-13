@@ -3154,6 +3154,7 @@ LevelAreaInnerLayer::onDoor - 0x345c64
 LevelAreaInnerLayer::onInfo - 0x345ecc
 LevelAreaInnerLayer::playStep1 - 0x3466a8
 LevelAreaInnerLayer::showFloor1CompleteDialog - 0x346294
+LevelAreaLayer::scene - 0x343450
 LevelAreaLayer::init - 0x34353c
 LevelAreaLayer::keyBackClicked - 0x344fe4
 LevelAreaLayer::dialogClosed - 0x344e04
@@ -3986,7 +3987,15 @@ SelectFontLayer::onChangeFont - 0x2d28e4
 SelectListIconLayer::keyBackClicked - 0x246fb0
 SelectPremadeLayer::init - 0x66fa4
 SelectPremadeLayer::keyBackClicked - 0x6745c
+SelectSettingLayer::create - 0x17f228
+SelectSettingLayer::frameForItem - 0x180b3c
+SelectSettingLayer::frameForValue - 0x17f09c
 SelectSettingLayer::keyBackClicked - 0x180cbc
+SelectSettingLayer::getSelectedFrame - 0x17f484
+SelectSettingLayer::getSelectedValue - 0x17f450
+SelectSettingLayer::init - 0x18061c
+SelectSettingLayer::onClose - 0x180c5c
+SelectSettingLayer::onSelect - 0x180b9c
 SelectSFXSortLayer::keyBackClicked - 0x16e780
 SequenceTriggerGameObject::init - 0x382e50
 SequenceTriggerGameObject::resetObject - 0x382ea0
@@ -4041,6 +4050,7 @@ SetupAreaAnimTriggerPopup::valueDidChange - 0x3ea50
 SetupArtSwitchPopup::selectArtClosed - 0x4092dc
 SetupAudioLineGuidePopup::selectSettingClosed - 0x408070
 SetupAudioLineGuidePopup::init - 0x407a7c
+SetupAudioLineGuidePopup::onSpeed - 0x408028
 SetupAudioTriggerPopup::valueDidChange - 0x182804
 SetupCameraEdgePopup::determineStartValues - 0x23a898
 SetupCameraEdgePopup::onClose - 0x23aa70

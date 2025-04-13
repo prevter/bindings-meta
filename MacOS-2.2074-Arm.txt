@@ -3679,6 +3679,7 @@ LevelAreaInnerLayer::onDoor - 0x2143f8
 LevelAreaInnerLayer::onInfo - 0x2146cc
 LevelAreaInnerLayer::onNextFloor - 0x21453c
 LevelAreaInnerLayer::showFloor1CompleteDialog - 0x214c58
+LevelAreaLayer::scene - 0x211068
 LevelAreaLayer::init - 0x2111e8
 LevelAreaLayer::keyBackClicked - 0x2133f4
 LevelAreaLayer::dialogClosed - 0x213170
@@ -4804,9 +4805,16 @@ SelectListIconLayer::init - 0x2e241c
 SelectListIconLayer::onSelect - 0x2e297c
 SelectPremadeLayer::init - 0x28ef80
 SelectPremadeLayer::keyBackClicked - 0x28f4c8
+SelectSettingLayer::create - 0x208e98
 SelectSettingLayer::frameForItem - 0x20b08c
+SelectSettingLayer::frameForValue - 0x208c2c
+SelectSettingLayer::idxToValue - 0x20b404
+SelectSettingLayer::valueToIdx - 0x20b060
 SelectSettingLayer::keyBackClicked - 0x20b430
+SelectSettingLayer::getSelectedFrame - 0x209154
+SelectSettingLayer::getSelectedValue - 0x209120
 SelectSettingLayer::init - 0x20aaac
+SelectSettingLayer::onClose - 0x20b3a4
 SelectSettingLayer::onSelect - 0x20b2cc
 SelectSFXSortLayer::keyBackClicked - 0x3a84bc
 SelectSFXSortLayer::init - 0x3a7f78
@@ -4896,6 +4904,7 @@ SetupArtSwitchPopup::selectArtClosed - 0x4c38e4
 SetupArtSwitchPopup::init - 0x4c32b0
 SetupAudioLineGuidePopup::selectSettingClosed - 0x4c21ac
 SetupAudioLineGuidePopup::init - 0x4c1b08
+SetupAudioLineGuidePopup::onSpeed - 0x4c2164
 SetupAudioTriggerPopup::valueDidChange - 0x40e62c
 SetupAudioTriggerPopup::addProxVolControls - 0x40d928
 SetupBGSpeedTrigger::init - 0x455408
