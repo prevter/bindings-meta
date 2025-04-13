@@ -653,6 +653,7 @@ cocos2d::CCTexture2D::initWithImage - 0x3d5890
 cocos2d::CCTexture2D::initWithPVRFile - 0x3d64dc
 cocos2d::CCTexture2D::initWithString - 0x3d6128
 cocos2d::CCTexture2D::initWithString - 0x3d6198
+cocos2d::CCTexture2D::getContentSizeInPixels - 0x3d54cc
 cocos2d::CCTexture2D::setAliasTexParameters - 0x3d6778
 cocos2d::CCTexture2D::setTexParameters - 0x3d66e0
 cocos2d::CCTexture2D::~CCTexture2D - 0x3d5378
@@ -1349,6 +1350,7 @@ cocos2d::CCLightning::updateDisplayedColor - 0x4fadb8
 cocos2d::CCLightning::isCascadeColorEnabled - 0x4fade0
 cocos2d::CCLightning::setCascadeColorEnabled - 0x4fadf0
 cocos2d::CCConfiguration::sharedConfiguration - 0x4634e8
+cocos2d::CCConfiguration::checkForGLExtension - 0x4634b4
 cocos2d::CCPoolManager::pop - 0x367288
 cocos2d::CCDisplayLinkDirector::setAnimationInterval - 0x3e0aa8
 cocos2d::CCDisplayLinkDirector::stopAnimation - 0x3e0a9c
@@ -3229,6 +3231,7 @@ GJGameLevel::lengthKeyToString - 0x49e59c
 GJGameLevel::encodeWithCoder - 0x4a0bd0
 GJGameLevel::canEncode - 0x4a1674
 GJGameLevel::init - 0x49de78
+GJGameLevel::copyLevelInfo - 0x49f54c
 GJGameLevel::createWithCoder - 0x49fcbc
 GJGameLevel::dataLoaded - 0x49fd40
 GJGameLevel::demonIconForDifficulty - 0x4a1794
@@ -5324,6 +5327,7 @@ SongInfoObject::create - 0x4d21ac
 SongInfoObject::encodeWithCoder - 0x4d2d3c
 SongInfoObject::canEncode - 0x4d2ed0
 SongInfoObject::createWithCoder - 0x4d2740
+SongObject::create - 0x1f12d0
 SongOptionsLayer::keyBackClicked - 0x1baab4
 SongOptionsLayer::init - 0x1b9c60
 SongOptionsLayer::onInfo - 0x1ba820

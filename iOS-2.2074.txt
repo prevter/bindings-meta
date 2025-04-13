@@ -560,6 +560,7 @@ cocos2d::CCLayerGradient::isCompressedInterpolation - 0x14da54
 cocos2d::CCTargetedTouchHandler::getClaimedTouches - 0x10540
 cocos2d::CCTexture2D::initWithData - 0x1307ac
 cocos2d::CCTexture2D::initWithImage - 0x130a5c
+cocos2d::CCTexture2D::getContentSizeInPixels - 0x130738
 cocos2d::CCTexture2D::setAliasTexParameters - 0x1311e0
 cocos2d::CCTexture2D::setTexParameters - 0x131148
 cocos2d::CCTexture2D::~CCTexture2D - 0x130660
@@ -1056,6 +1057,7 @@ cocos2d::CCLightning::updateDisplayedColor - 0x3474ec
 cocos2d::CCLightning::isCascadeColorEnabled - 0x347514
 cocos2d::CCLightning::setCascadeColorEnabled - 0x347524
 cocos2d::CCConfiguration::sharedConfiguration - 0x3252e4
+cocos2d::CCConfiguration::checkForGLExtension - 0x3252b0
 cocos2d::CCPoolManager::pop - 0x1b43d0
 cocos2d::CCDisplayLinkDirector::setAnimationInterval - 0x179e68
 cocos2d::CCDisplayLinkDirector::stopAnimation - 0x179e5c
@@ -2635,6 +2637,9 @@ GauntletSelectLayer::setupGauntlets - 0x1c10e4
 GauntletSprite::create - 0x233794
 GhostTrailEffect::init - 0x2f4eec
 GhostTrailEffect::draw - 0x2f5450
+GhostTrailEffect::runWithTarget - 0x2f4f48
+GhostTrailEffect::stopTrail - 0x2f53f0
+GhostTrailEffect::trailSnapshot - 0x2f4ff8
 GJAccountManager::sharedState - 0x3977dc
 GJAccountManager::init - 0x399040
 GJAccountManager::handleIt - 0x157254
@@ -2831,6 +2836,7 @@ GJGameLevel::lengthKeyToString - 0xb0008
 GJGameLevel::encodeWithCoder - 0xb2118
 GJGameLevel::canEncode - 0xb2bb0
 GJGameLevel::init - 0xaf984
+GJGameLevel::copyLevelInfo - 0xb0cf8
 GJGameLevel::createWithCoder - 0xb12c4
 GJGameLevel::dataLoaded - 0xb12f4
 GJGameLevel::getAudioFileName - 0xb0188
@@ -4235,6 +4241,7 @@ SongCell::updateBGColor - 0x10862c
 SongInfoLayer::keyBackClicked - 0x3a1940
 SongInfoObject::encodeWithCoder - 0x15f0b0
 SongInfoObject::canEncode - 0x15f244
+SongObject::create - 0x112d44
 SongOptionsLayer::keyBackClicked - 0x1491e0
 SongSelectNode::create - 0x14a4a8
 SongSelectNode::FLAlert_Clicked - 0x14b1a4
