@@ -2151,8 +2151,10 @@ DialogLayer::onClose - 0x8b334
 DialogLayer::updateChatPlacement - 0x8b158
 DialogLayer::updateNavButtonFrame - 0x8b0f8
 DialogObject::create - 0x8a650
+DrawGridLayer::create - 0x3575ac
 DrawGridLayer::update - 0x3657b8
 DrawGridLayer::draw - 0x3658c8
+DrawGridLayer::init - 0x3655bc
 DrawGridLayer::timeForPos - 0x360104
 DungeonBarsSprite::init - 0x3119ac
 DungeonBarsSprite::visit - 0x311a2c
