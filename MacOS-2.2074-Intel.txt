@@ -556,6 +556,7 @@ cocos2d::CCScheduler::pauseTarget - 0x42f860
 cocos2d::CCScheduler::scheduleSelector - 0x42e250
 cocos2d::CCScheduler::scheduleSelector - 0x42e230
 cocos2d::CCScheduler::scheduleUpdateForTarget - 0x42ee60
+cocos2d::CCScheduler::unscheduleAll - 0x42e060
 cocos2d::CCScheduler::unscheduleAllForTarget - 0x42f420
 cocos2d::CCScheduler::unscheduleSelector - 0x42dd60
 cocos2d::CCScheduler::update - 0x42fea0
@@ -753,6 +754,7 @@ cocos2d::CCDirector::CCDirector - 0x46f5d0
 cocos2d::CCDirector::~CCDirector - 0x46fa50
 cocos2d::CCDirector::convertToGL - 0x470e50
 cocos2d::CCDirector::drawScene - 0x46fe90
+cocos2d::CCDirector::end - 0x4714b0
 cocos2d::CCDirector::popScene - 0x471430
 cocos2d::CCDirector::popSceneWithTransition - 0x4714c0
 cocos2d::CCDirector::popToRootScene - 0x4715a0
@@ -2692,6 +2694,7 @@ FMODAudioEngine::setup - 0x3ca220
 FMODAudioEngine::setupAudioEngine - 0x3ca670
 FMODAudioEngine::stopAllEffects - 0x3cb410
 FMODAudioEngine::stopAllMusic - 0x3cbbf0
+FMODAudioEngine::unloadAllEffects - 0x3d4540
 FMODAudioEngine::updateChannelTweens - 0x3cd220
 FMODAudioEngine::updateReverb - 0x3cac50
 FMODAudioEngine::updateTemporaryEffects - 0x3cc820
@@ -3260,6 +3263,7 @@ GJBaseGameLayer::removeKeyframe - 0x13bae0
 GJBaseGameLayer::removeObjectFromSection - 0x12e500
 GJBaseGameLayer::removeTemporaryParticles - 0x148cb0
 GJBaseGameLayer::resetActiveEnterEffects - 0x10d800
+GJBaseGameLayer::resetAudio - 0x141e50
 GJBaseGameLayer::resetCamera - 0x148d80
 GJBaseGameLayer::resetGroupCounters - 0x13e800
 GJBaseGameLayer::resetLevelVariables - 0x147d80

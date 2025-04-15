@@ -549,6 +549,7 @@ cocos2d::CCScheduler::pauseTarget - 0x3aa664
 cocos2d::CCScheduler::scheduleSelector - 0x3a8f7c
 cocos2d::CCScheduler::scheduleSelector - 0x3a8f6c
 cocos2d::CCScheduler::scheduleUpdateForTarget - 0x3a9bec
+cocos2d::CCScheduler::unscheduleAll - 0x3a8d94
 cocos2d::CCScheduler::unscheduleSelector - 0x3a8a88
 cocos2d::CCScheduler::update - 0x3aac3c
 cocos2d::CCLayer::create - 0x408478
@@ -737,11 +738,13 @@ cocos2d::CCDirector::CCDirector - 0x3de790
 cocos2d::CCDirector::~CCDirector - 0x3deb9c
 cocos2d::CCDirector::convertToGL - 0x3dfd04
 cocos2d::CCDirector::drawScene - 0x3deef0
+cocos2d::CCDirector::end - 0x3e02dc
 cocos2d::CCDirector::popScene - 0x3e025c
 cocos2d::CCDirector::popSceneWithTransition - 0x3e02e8
 cocos2d::CCDirector::popToRootScene - 0x3e03b8
 cocos2d::CCDirector::popToSceneInStack - 0x3e0514
 cocos2d::CCDirector::popToSceneStackLevel - 0x3e03c0
+cocos2d::CCDirector::purgeDirector - 0x3e0564
 cocos2d::CCDirector::pushScene - 0x3e0034
 cocos2d::CCDirector::removeStatsLabel - 0x3e0734
 cocos2d::CCDirector::replaceScene - 0x3e00fc
@@ -2614,6 +2617,7 @@ FMODAudioEngine::setupAudioEngine - 0x352f40
 FMODAudioEngine::stopAllEffects - 0x353c3c
 FMODAudioEngine::stopAllMusic - 0x353f28
 FMODAudioEngine::stopAndGetFade - 0x35a2bc
+FMODAudioEngine::unloadAllEffects - 0x35aa94
 FMODAudioEngine::updateReverb - 0x353444
 FMODLevelVisualizer::create - 0x244748
 FMODLevelVisualizer::init - 0x2447d0
