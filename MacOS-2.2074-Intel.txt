@@ -716,6 +716,7 @@ cocos2d::CCTouchDispatcher::touchesCancelled - 0x4b9900
 cocos2d::CCTouchHandler::getDelegate - 0x46e1c0
 cocos2d::CCTouchHandler::getPriority - 0x46e240
 cocos2d::CCTouchHandler::initWithDelegate - 0x46e330
+cocos2d::CCEGLView::end - 0x4f0140
 cocos2d::CCEGLView::swapBuffers - 0x4f01b0
 cocos2d::CCImage::initWithImageData - 0x476d80
 cocos2d::CCImage::initWithImageFile - 0x476b70
@@ -4525,9 +4526,11 @@ PauseLayer::onSettings - 0x3c4840
 PauseLayer::onTryEdit - 0x3c44c0
 PauseLayer::sfxSliderChanged - 0x3c48b0
 PauseLayer::tryQuit - 0x3c4700
+PlatformToolbox::gameDidSave - 0x4b17a0
 PlatformToolbox::getDisplaySize - 0x4b18f0
 PlatformToolbox::hideCursor - 0x4b0b30
 PlatformToolbox::isControllerConnected - 0x4b1a30
+PlatformToolbox::platformShutdown - 0x4b1950
 PlatformToolbox::showCursor - 0x4b0b50
 PlatformToolbox::toggleLockCursor - 0x4b1850
 PlayerCheckpoint::create - 0xbc400

@@ -600,6 +600,7 @@ cocos2d::CCTouchDispatcher::touchesEnded - 0x152dc0
 cocos2d::CCTouchDispatcher::touchesCancelled - 0x152dec
 cocos2d::CCTouchHandler::getDelegate - 0x10c34
 cocos2d::CCTouchHandler::initWithDelegate - 0x103d4
+cocos2d::CCEGLView::end - 0x12da5c
 cocos2d::CCEGLView::swapBuffers - 0x12da84
 cocos2d::CCImage::initWithImageData - 0x2f5f0
 cocos2d::CCImage::initWithImageFile - 0x2f4dc
