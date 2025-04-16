@@ -1706,6 +1706,7 @@ BoomListView::loadCell - 0x1d1048
 BoomListView::init - 0x1d0c00
 BoomScrollLayer::BoomScrollLayer - 0x12fca0
 BoomScrollLayer::create - 0x12e27c
+BoomScrollLayer::create - 0x12e5b4
 BoomScrollLayer::visit - 0x12f1dc
 BoomScrollLayer::ccTouchBegan - 0x12f7d0
 BoomScrollLayer::ccTouchMoved - 0x12f88c
@@ -1716,6 +1717,7 @@ BoomScrollLayer::init - 0x12e320
 BoomScrollLayer::instantMoveToPage - 0x12f2c0
 BoomScrollLayer::moveToPage - 0x12f398
 BoomScrollLayer::moveToPageEnded - 0x12f234
+BoomScrollLayer::pageNumberForPosition - 0x12f030
 BoomScrollLayer::quickUpdate - 0x12f5f0
 BoomScrollLayer::repositionPagesLooped - 0x12e79c
 BoomScrollLayer::setPagesIndicatorPosition - 0x12e65c
@@ -3239,6 +3241,7 @@ LevelEditorLayer::createObject - 0x359a70
 LevelEditorLayer::createObjectsFromSetup - 0x3576e8
 LevelEditorLayer::createObjectsFromString - 0x3590e4
 LevelEditorLayer::findStartPosObject - 0x362134
+LevelEditorLayer::getLevelString - 0x35bcb8
 LevelEditorLayer::getNextFreeGroupID - 0x35ef38
 LevelEditorLayer::handleAction - 0x35b654
 LevelEditorLayer::init - 0x35643c
@@ -3338,6 +3341,7 @@ LevelOptionsLayer::getValue - 0x181248
 LevelOptionsLayer::setupOptions - 0x180d58
 LevelOptionsLayer::didToggle - 0x181264
 LevelOptionsLayer2::setupOptions - 0x1814e4
+LevelPage::create - 0x3fa19c
 LevelPage::ccTouchBegan - 0x3fdab4
 LevelPage::ccTouchMoved - 0x3fdbb0
 LevelPage::ccTouchEnded - 0x3fdbb8
@@ -3349,6 +3353,8 @@ LevelPage::addSecretDoor - 0x3fcd1c
 LevelPage::init - 0x3fbe78
 LevelPage::onInfo - 0x3fbac4
 LevelPage::onPlay - 0x3fb8bc
+LevelPage::onSecretDoor - 0x3fd2c8
+LevelPage::onTheTower - 0x3fc938
 LevelPage::updateDynamicPage - 0x3fa3a0
 LevelSearchLayer::create - 0x54d78
 LevelSearchLayer::scene - 0x54d2c
