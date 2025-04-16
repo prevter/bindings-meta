@@ -14,7 +14,7 @@ cocos2d::CCEGLViewProtocol::setViewName - 0x459f38
 cocos2d::CCEGLViewProtocol::pollInputEvents - 0x45a69c
 cocos2d::CCObject::createWithCoder - 0x3e6390
 cocos2d::CCObject::CCObject - 0x3e6090
-cocos2d::CCObject::~CCObject - 0x3e61b0
+cocos2d::CCObject::~CCObject - 0x3e6120
 cocos2d::CCObject::autorelease - 0x3e6314
 cocos2d::CCObject::release - 0x3e62e0
 cocos2d::CCObject::retain - 0x3e6304
@@ -1358,11 +1358,15 @@ cocos2d::CCLightning::isCascadeColorEnabled - 0x4fade0
 cocos2d::CCLightning::setCascadeColorEnabled - 0x4fadf0
 cocos2d::CCConfiguration::sharedConfiguration - 0x4634e8
 cocos2d::CCConfiguration::checkForGLExtension - 0x4634b4
+cocos2d::CCPoolManager::addObject - 0x367390
 cocos2d::CCPoolManager::pop - 0x367288
+cocos2d::CCPoolManager::sharedPoolManager - 0x366e98
 cocos2d::CCDisplayLinkDirector::setAnimationInterval - 0x3e0aa8
 cocos2d::CCDisplayLinkDirector::stopAnimation - 0x3e0a9c
 cocos2d::CCDisplayLinkDirector::startAnimation - 0x3e0a24
 cocos2d::CCDisplayLinkDirector::mainLoop - 0x3e0a60
+cocos2d::CCScriptEngineManager::setScriptEngine - 0x29eaa8
+cocos2d::CCScriptEngineManager::sharedManager - 0x29e3d8
 GJDropDownLayer::create - 0x503e08
 GJDropDownLayer::draw - 0x5046c0
 GJDropDownLayer::ccTouchBegan - 0x5046fc
@@ -4472,6 +4476,8 @@ PlayerObject::updateRotation - 0x37a378
 PlayerObject::updateStreakBlend - 0x36ce30
 PlayerObject::updateSwingFire - 0x382814
 PlayerObject::updateTimeMod - 0x36c61c
+PlayLayer::PlayLayer - 0xae588
+PlayLayer::~PlayLayer - 0x9c9c4
 PlayLayer::create - 0x9ccd0
 PlayLayer::scene - 0x9cc10
 PlayLayer::onEnterTransitionDidFinish - 0xae0cc
@@ -5085,7 +5091,7 @@ SetupPulsePopup::init - 0x3250b8
 SetupPulsePopup::onPaste - 0x328b68
 SetupPulsePopup::onSelectPulseMode - 0x328698
 SetupPulsePopup::onSelectTargetMode - 0x328320
-SetupPulsePopup::onUpdateCopyColor - 0x328578
+SetupPulsePopup::onUpdateCopyColor - 0x328bec
 SetupPulsePopup::onUpdateCustomColor - 0x328578
 SetupPulsePopup::updateCopyColorTextInputLabel - 0x328f04
 SetupPulsePopup::updateTextInputLabel - 0x328ce8

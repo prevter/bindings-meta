@@ -13,7 +13,7 @@ cocos2d::CCEGLViewProtocol::getScissorRect - 0x4f9e30
 cocos2d::CCEGLViewProtocol::setViewName - 0x4f9ed0
 cocos2d::CCEGLViewProtocol::pollInputEvents - 0x4fa610
 cocos2d::CCObject::CCObject - 0x477bd0
-cocos2d::CCObject::~CCObject - 0x477ce0
+cocos2d::CCObject::~CCObject - 0x477c70
 cocos2d::CCObject::autorelease - 0x477e10
 cocos2d::CCObject::isSingleReference - 0x477e40
 cocos2d::CCObject::release - 0x477de0
@@ -1400,11 +1400,15 @@ cocos2d::CCLightning::isCascadeColorEnabled - 0x5c6050
 cocos2d::CCLightning::setCascadeColorEnabled - 0x5c6070
 cocos2d::CCConfiguration::sharedConfiguration - 0x503d50
 cocos2d::CCConfiguration::checkForGLExtension - 0x503d20
+cocos2d::CCPoolManager::addObject - 0x3e5070
 cocos2d::CCPoolManager::pop - 0x3e4f70
+cocos2d::CCPoolManager::sharedPoolManager - 0x3e4b70
 cocos2d::CCDisplayLinkDirector::setAnimationInterval - 0x471d80
 cocos2d::CCDisplayLinkDirector::stopAnimation - 0x471d70
 cocos2d::CCDisplayLinkDirector::startAnimation - 0x471cf0
 cocos2d::CCDisplayLinkDirector::mainLoop - 0x471d30
+cocos2d::CCScriptEngineManager::setScriptEngine - 0x307980
+cocos2d::CCScriptEngineManager::sharedManager - 0x3072f0
 GJDropDownLayer::create - 0x5cfc90
 GJDropDownLayer::create - 0x5d01d0
 GJDropDownLayer::draw - 0x5d05d0
@@ -5274,7 +5278,7 @@ SetupPulsePopup::init - 0x397170
 SetupPulsePopup::onPaste - 0x39b340
 SetupPulsePopup::onSelectPulseMode - 0x39ad60
 SetupPulsePopup::onSelectTargetMode - 0x39a9b0
-SetupPulsePopup::onUpdateCopyColor - 0x39ac30
+SetupPulsePopup::onUpdateCopyColor - 0x39b3b0
 SetupPulsePopup::onUpdateCustomColor - 0x39ac30
 SetupPulsePopup::updateCopyColorTextInputLabel - 0x39b6e0
 SetupPulsePopup::updateTextInputLabel - 0x39b4c0

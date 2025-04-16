@@ -12,7 +12,7 @@ cocos2d::CCEGLViewProtocol::getScissorRect - 0x2e6974
 cocos2d::CCEGLViewProtocol::setViewName - 0x2e6a04
 cocos2d::CCEGLViewProtocol::pollInputEvents - 0x2e701c
 cocos2d::CCObject::CCObject - 0x88938
-cocos2d::CCObject::~CCObject - 0x88a10
+cocos2d::CCObject::~CCObject - 0x88980
 cocos2d::CCObject::autorelease - 0x88a6c
 cocos2d::CCObject::release - 0x88a38
 cocos2d::CCObject::retain - 0x88a5c
@@ -1066,11 +1066,14 @@ cocos2d::CCLightning::isCascadeColorEnabled - 0x347514
 cocos2d::CCLightning::setCascadeColorEnabled - 0x347524
 cocos2d::CCConfiguration::sharedConfiguration - 0x3252e4
 cocos2d::CCConfiguration::checkForGLExtension - 0x3252b0
+cocos2d::CCPoolManager::addObject - 0x1b448c
 cocos2d::CCPoolManager::pop - 0x1b43d0
+cocos2d::CCPoolManager::sharedPoolManager - 0x1b41f4
 cocos2d::CCDisplayLinkDirector::setAnimationInterval - 0x179e68
 cocos2d::CCDisplayLinkDirector::stopAnimation - 0x179e5c
 cocos2d::CCDisplayLinkDirector::startAnimation - 0x179de4
 cocos2d::CCDisplayLinkDirector::mainLoop - 0x179e20
+cocos2d::CCScriptEngineManager::sharedManager - 0x2726e0
 FMOD::Channel::getPosition - 0x44cf08
 FMOD::Channel::getPriority - 0x44ccfc
 FMOD::Channel::setPosition - 0x44cde0
@@ -2112,9 +2115,11 @@ CustomSongWidget::musicActionFailed - 0x1016a4
 CustomSongWidget::songStateChanged - 0x10057c
 CustomSongWidget::FLAlert_Clicked - 0x1016b0
 CustomSongWidget::deleteSong - 0xffe0c
+CustomSongWidget::getSongInfoIfUnloaded - 0x100140
 CustomSongWidget::init - 0xfca04
 CustomSongWidget::onDelete - 0xfdbac
 CustomSongWidget::onDownload - 0xfd9c0
+CustomSongWidget::onGetSongInfo - 0xfdcc4
 CustomSongWidget::onInfo - 0xfe5e8
 CustomSongWidget::onPlayback - 0xfdd58
 CustomSongWidget::onSelect - 0xfdc68
@@ -2353,6 +2358,7 @@ EndLevelLayer::showLayer - 0x2f74d8
 EndLevelLayer::enterAnimFinished - 0x2f8174
 EndLevelLayer::keyUp - 0x2f8980
 EndLevelLayer::onHideLayer - 0x2f7420
+EndLevelLayer::onLevelLeaderboard - 0x2f73ac
 EndLevelLayer::onMenu - 0x2f70d4
 EndPortalObject::init - 0x3f66b0
 EndPortalObject::setPosition - 0x3f6b38
@@ -3431,6 +3437,7 @@ LevelTools::getAudioFileName - 0x1ab7f0
 LevelTools::getAudioString - 0x1ab920
 LevelTools::getAudioTitle - 0x1ab7c0
 LevelTools::getLevel - 0x1aa160
+LevelTools::getSongObject - 0x1ac488
 LevelTools::nameForArtist - 0x1ab840
 LevelTools::ngURLForArtist - 0x1ab89c
 LevelTools::posForTime - 0x1abfb4
@@ -3777,6 +3784,7 @@ PlayerObject::updateStreakBlend - 0x21a244
 PlayerObject::updateSwingFire - 0x229e5c
 PlayerObject::updateTimeMod - 0x219b6c
 PlayLayer::PlayLayer - 0x12633c
+PlayLayer::~PlayLayer - 0x1184d4
 PlayLayer::create - 0x118740
 PlayLayer::scene - 0x1186d4
 PlayLayer::onEnterTransitionDidFinish - 0x125f5c
@@ -4210,7 +4218,7 @@ SetupPulsePopup::colorSelectClosed - 0x3af7cc
 SetupPulsePopup::init - 0x3abb88
 SetupPulsePopup::onSelectPulseMode - 0x3aebc0
 SetupPulsePopup::onSelectTargetMode - 0x3ae920
-SetupPulsePopup::onUpdateCopyColor - 0x3aeae4
+SetupPulsePopup::onUpdateCopyColor - 0x3aef74
 SetupPulsePopup::onUpdateCustomColor - 0x3aeae4
 SetupRandAdvTriggerPopup::onClose - 0x33a20
 SetupRandAdvTriggerPopup::textChanged - 0x33a18
