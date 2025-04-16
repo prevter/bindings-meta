@@ -2528,6 +2528,7 @@ EndLevelLayer::getCoinString - 0x4174b8
 EndLevelLayer::getEndText - 0x6c7abc
 EndLevelLayer::onEdit - 0x417a1c
 EndLevelLayer::onHideLayer - 0x417c94
+EndLevelLayer::onLevelLeaderboard - 0x417c20
 EndLevelLayer::onMenu - 0x417918
 EndLevelLayer::onReplay - 0x4177f4
 EndLevelLayer::onRestartCheckpoint - 0x417ab8
