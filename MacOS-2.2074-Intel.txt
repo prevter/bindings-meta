@@ -2049,6 +2049,7 @@ SetupTriggerPopup::createToggleValueControlAdvanced - 0x228d30
 SetupTriggerPopup::createValueControlAdvanced - 0x227b30
 SetupTriggerPopup::getTriggerValue - 0x229d20
 SetupTriggerPopup::init - 0x222f20
+SetupTriggerPopup::onToggleTriggerValue - 0x228f60
 SetupTriggerPopup::triggerArrowLeft - 0x2277b0
 SetupTriggerPopup::triggerArrowRight - 0x2278c0
 SetupTriggerPopup::updateValue - 0x2289d0
@@ -2069,6 +2070,7 @@ ColorSelectPopup::onDefault - 0x711930
 ColorSelectPopup::onPaste - 0x7118f0
 ColorSelectPopup::onToggleHSVMode - 0x711fb0
 ColorSelectPopup::onUpdateCopyColor - 0x712170
+ColorSelectPopup::onUpdateCustomColor - 0x712450
 ColorSelectPopup::updateDurLabel - 0x7116c0
 CommentCell::init - 0x242d60
 CommentCell::draw - 0x243070
@@ -2203,6 +2205,7 @@ CustomizeObjectLayer::highlightSelected - 0x1e6d00
 CustomizeObjectLayer::init - 0x1e3120
 CustomizeObjectLayer::onBreakApart - 0x1e6010
 CustomizeObjectLayer::onClose - 0x1e5320
+CustomizeObjectLayer::onEditColor - 0x1e5d20
 CustomizeObjectLayer::onHSV - 0x1e5740
 CustomizeObjectLayer::onLiveEdit - 0x1e5d80
 CustomizeObjectLayer::onSelectColor - 0x1e5a90
@@ -5041,6 +5044,7 @@ SetGroupIDLayer::onAddGroupParent - 0x300d40
 SetGroupIDLayer::onArrow - 0x302410
 SetGroupIDLayer::onArrowLeft - 0x3023b0
 SetGroupIDLayer::onArrowRight - 0x3023e0
+SetGroupIDLayer::onClose - 0x3004c0
 SetGroupIDLayer::onExtra - 0x3022c0
 SetGroupIDLayer::onNextGroupID1 - 0x300d00
 SetGroupIDLayer::onRemoveFromGroup - 0x3032f0
@@ -5269,6 +5273,8 @@ SetupPulsePopup::init - 0x397170
 SetupPulsePopup::onPaste - 0x39b340
 SetupPulsePopup::onSelectPulseMode - 0x39ad60
 SetupPulsePopup::onSelectTargetMode - 0x39a9b0
+SetupPulsePopup::onUpdateCopyColor - 0x39ac30
+SetupPulsePopup::onUpdateCustomColor - 0x39ac30
 SetupPulsePopup::updateCopyColorTextInputLabel - 0x39b6e0
 SetupPulsePopup::updateTextInputLabel - 0x39b4c0
 SetupRandAdvTriggerPopup::onClose - 0x37be30

@@ -797,6 +797,7 @@ CustomizeObjectLayer::highlightSelected - 0xa97d0
 CustomizeObjectLayer::init - 0xa4d00
 CustomizeObjectLayer::onClose - 0xa9900
 CustomizeObjectLayer::onCopy - 0xa7900
+CustomizeObjectLayer::onEditColor - 0xa7d70
 CustomizeObjectLayer::onHSV - 0xa8470
 CustomizeObjectLayer::onPaste - 0xa7960
 CustomizeObjectLayer::onSelectColor - 0xa95a0

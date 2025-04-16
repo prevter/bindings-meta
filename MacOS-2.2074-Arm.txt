@@ -1993,6 +1993,7 @@ SetupTriggerPopup::createToggleValueControlAdvanced - 0x1da73c
 SetupTriggerPopup::createValueControlAdvanced - 0x1d9550
 SetupTriggerPopup::getTriggerValue - 0x1db6b4
 SetupTriggerPopup::init - 0x1d5eb4
+SetupTriggerPopup::onToggleTriggerValue - 0x1da960
 SetupTriggerPopup::triggerArrowLeft - 0x1d91ac
 SetupTriggerPopup::triggerArrowRight - 0x1d92d8
 SetupTriggerPopup::updateValue - 0x1da380
@@ -2013,6 +2014,7 @@ ColorSelectPopup::onDefault - 0x630280
 ColorSelectPopup::onPaste - 0x630234
 ColorSelectPopup::onToggleHSVMode - 0x630820
 ColorSelectPopup::onUpdateCopyColor - 0x6309c0
+ColorSelectPopup::onUpdateCustomColor - 0x630c80
 ColorSelectPopup::updateDurLabel - 0x630004
 CommentCell::init - 0x1f202c
 CommentCell::draw - 0x1f22f4
@@ -2141,6 +2143,7 @@ CustomizeObjectLayer::highlightSelected - 0x19e1b8
 CustomizeObjectLayer::init - 0x19a9d0
 CustomizeObjectLayer::onBreakApart - 0x19d61c
 CustomizeObjectLayer::onClose - 0x19c978
+CustomizeObjectLayer::onEditColor - 0x19d354
 CustomizeObjectLayer::onHSV - 0x19cd5c
 CustomizeObjectLayer::onLiveEdit - 0x19d3a8
 CustomizeObjectLayer::onSelectColor - 0x19d08c
@@ -4903,6 +4906,7 @@ SetupAreaTintTriggerPopup::init - 0x42ad84
 SetupAreaAnimTriggerPopup::updateDefaultTriggerValues - 0x42e564
 SetupAreaAnimTriggerPopup::valueDidChange - 0x42e720
 SetupAreaAnimTriggerPopup::init - 0x42cb08
+SetupAreaAnimTriggerPopup::updateTargetIDLabel - 0x42e6ac
 SetupAreaFadeTriggerPopup::init - 0x42a2a4
 SetupAreaRotateTriggerPopup::init - 0x4297c8
 SetupAreaTransformTriggerPopup::init - 0x428ba8
@@ -5080,6 +5084,8 @@ SetupPulsePopup::init - 0x3250b8
 SetupPulsePopup::onPaste - 0x328b68
 SetupPulsePopup::onSelectPulseMode - 0x328698
 SetupPulsePopup::onSelectTargetMode - 0x328320
+SetupPulsePopup::onUpdateCopyColor - 0x328578
+SetupPulsePopup::onUpdateCustomColor - 0x328578
 SetupPulsePopup::updateCopyColorTextInputLabel - 0x328f04
 SetupPulsePopup::updateTextInputLabel - 0x328ce8
 SetupRandAdvTriggerPopup::onClose - 0x30bc4c
