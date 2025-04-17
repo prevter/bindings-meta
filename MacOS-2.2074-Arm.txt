@@ -4535,7 +4535,7 @@ PlayLayer::pauseGame - 0xadc74
 PlayLayer::playEndAnimationToPos - 0xa664c
 PlayLayer::playPlatformerEndAnimationToPos - 0xa6b84
 PlayLayer::prepareCreateObjectsFromSetup - 0x9dac0
-PlayLayer::prepareMusic - 0xb3ae0
+PlayLayer::prepareMusic - 0xa3b18
 PlayLayer::processCreateObjectsFromSetup - 0x9de44
 PlayLayer::removeCheckpoint - 0xaca08
 PlayLayer::resetLevel - 0xa3120
