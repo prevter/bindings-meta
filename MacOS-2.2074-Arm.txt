@@ -3122,6 +3122,7 @@ GJAccountSettingsLayer::textInputShouldOffset - 0x237af0
 GJAccountSettingsLayer::textInputReturn - 0x237bc0
 GJAccountSettingsLayer::init - 0x235dd4
 GJActionManager::init - 0x521a8c
+GJBaseGameLayer::~GJBaseGameLayer - 0xe02d8
 GJBaseGameLayer::update - 0x119128
 GJBaseGameLayer::init - 0xe0fb8
 GJBaseGameLayer::visit - 0x126ac4

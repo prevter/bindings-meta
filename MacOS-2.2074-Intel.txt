@@ -3225,6 +3225,7 @@ GJAccountSettingsLayer::onClose - 0x28ef80
 GJActionManager::init - 0x5f1e50
 GJActionManager::runInternalAction - 0x5f1e80
 GJActionManager::stopInternalAction - 0x5f1ed0
+GJBaseGameLayer::~GJBaseGameLayer - 0xfd6a0
 GJBaseGameLayer::update - 0x141f90
 GJBaseGameLayer::init - 0xfe730
 GJBaseGameLayer::visit - 0x152a70
