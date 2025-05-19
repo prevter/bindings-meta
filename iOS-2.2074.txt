@@ -3019,7 +3019,6 @@ GJGarageLayer::selectTab - 0x304d0c
 GJGarageLayer::setupIconSelect - 0x303b74
 GJGarageLayer::setupPage - 0x304de4
 GJGarageLayer::setupSpecialPage - 0x3053b0
-GJGarageLayer::showUnlockPopupNew - 0x306750
 GJGarageLayer::updatePlayerColors - 0x3035e8
 GJGradientLayer::init - 0x20b450
 GJItemIcon::create - 0x307bd8
@@ -3110,9 +3109,11 @@ GJRewardItem::canEncode - 0x34021c
 GJRewardObject::create - 0x33315c
 GJRewardObject::encodeWithCoder - 0x33fdd0
 GJRewardObject::canEncode - 0x33fe50
-GJRobotSprite::create - 0x23ff78
+GJRobotSprite::create - 0x23eff0
 GJRobotSprite::setOpacity - 0x23fe10
 GJRobotSprite::hideSecondary - 0x23fef4
+GJRobotSprite::init - 0x23f13c
+GJRobotSprite::init - 0x23f0b8
 GJRobotSprite::updateColors - 0x23faf0
 GJRobotSprite::updateFrame - 0x23f5ec
 GJRotationControl::init - 0x3f27d4
@@ -3175,8 +3176,8 @@ GJSongBrowser::getSelectedCellIdx - 0x265304
 GJSpecialColorSelect::textForColorIdx - 0x1b37b0
 GJSpecialColorSelect::keyBackClicked - 0x1b38d8
 GJSpecialColorSelect::init - 0x1b2268
-GJSpiderSprite::create - 0x23eff0
-GJSpiderSprite::init - 0x23f0b8
+GJSpiderSprite::create - 0x23ff78
+GJSpiderSprite::init - 0x240040
 GJStoreItem::create - 0x32bc54
 GJTransformControl::init - 0x3f3868
 GJTransformControl::ccTouchBegan - 0x3f3c00
@@ -4518,8 +4519,8 @@ ShareListLayer::keyBackClicked - 0x24836c
 SimplePlayer::create - 0x303450
 SimplePlayer::setOpacity - 0x307a98
 SimplePlayer::setColor - 0x307734
-SimplePlayer::createRobotSprite - 0x303560
-SimplePlayer::createSpiderSprite - 0x303500
+SimplePlayer::createRobotSprite - 0x303500
+SimplePlayer::createSpiderSprite - 0x303560
 SimplePlayer::init - 0x307278
 SimplePlayer::setFrames - 0x307878
 SimplePlayer::updateColors - 0x3062ec

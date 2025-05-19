@@ -3680,8 +3680,10 @@ GJRewardObject::createWithCoder - 0x8e800
 GJRewardObject::encodeWithCoder - 0x8e910
 GJRewardObject::canEncode - 0x8e990
 GJRewardObject::init - 0x8e7c0
+GJRobotSprite::create - 0x5c3a10
 GJRobotSprite::setOpacity - 0x5c4dd0
 GJRobotSprite::hideSecondary - 0x5c4ee0
+GJRobotSprite::init - 0x5c3bc0
 GJRobotSprite::init - 0x5c3b50
 GJRobotSprite::updateColor01 - 0x5c4a00
 GJRobotSprite::updateColors - 0x5c4a20
@@ -3774,6 +3776,7 @@ GJSpecialColorSelect::textForColorIdx - 0x610110
 GJSpecialColorSelect::keyBackClicked - 0x610360
 GJSpecialColorSelect::init - 0x60deb0
 GJSpecialColorSelect::onSelectColor - 0x610140
+GJSpiderSprite::create - 0x5c50e0
 GJSpiderSprite::init - 0x5c5230
 GJStoreItem::create - 0x66200
 GJStoreItem::getCurrencyKey - 0x665e0
