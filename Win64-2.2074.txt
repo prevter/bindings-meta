@@ -1,7 +1,6 @@
 cocos2d::CCLightning::lightningWithStrikePoint - 0x44540
 cocos2d::CCLightning::initWithStrikePoint - 0x439e0
 cocos2d::CCLightning::CCLightning - 0x44400
-cocos2d::CCLightning::~CCLightning - 0x444d0
 cocos2d::CCLightning::strike - 0x44880
 cocos2d::CCLightning::strikeFinished - 0x448f0
 cocos2d::CCLightning::draw - 0x44700
