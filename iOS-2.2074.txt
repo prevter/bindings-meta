@@ -1773,6 +1773,9 @@ CameraTriggerGameObject::customObjectSetup - 0x38c820
 CameraTriggerGameObject::getSaveString - 0x38baa4
 CCAnimateFrameCache::sharedSpriteFrameCache - 0x1b44d8
 CCAnimateFrameCache::addDict - 0x1b45f4
+CCAnimateFrameCache::addSpriteFramesWithFile - 0x1b47ec
+CCAnimateFrameCache::init - 0x1b4544
+CCAnimateFrameCache::removeSpriteFrames - 0x1b491c
 CCAnimateFrameCache::spriteFrameByName - 0x1b494c
 CCBlockLayer::init - 0x8a2e0
 CCBlockLayer::draw - 0x8a540
@@ -3147,6 +3150,7 @@ GJSearchObject::createFromKey - 0x9d57c
 GJSearchObject::getKey - 0xa1778
 GJSearchObject::isLevelSearchObject - 0xb4078
 GJShopLayer::create - 0x14dc8c
+GJShopLayer::scene - 0x14dc40
 GJShopLayer::onExit - 0x14f518
 GJShopLayer::ccTouchBegan - 0x150e28
 GJShopLayer::ccTouchMoved - 0x151120
@@ -3753,7 +3757,9 @@ OBB2D::calculateWithCenter - 0x12ffd4
 ObjectControlGameObject::init - 0x390708
 ObjectControlGameObject::customObjectSetup - 0x3908e8
 ObjectControlGameObject::getSaveString - 0x390758
+ObjectManager::instance - 0x24c1dc
 ObjectManager::init - 0x24c270
+ObjectManager::getDefinition - 0x24ce50
 ObjectToolbox::sharedState - 0x276bd8
 ObjectToolbox::init - 0x276cbc
 ObjectToolbox::gridNodeSizeForKey - 0x2aa858

@@ -4376,6 +4376,7 @@ ObjectControlGameObject::customObjectSetup - 0x195a5c
 ObjectControlGameObject::getSaveString - 0x1955ec
 ObjectManager::instance - 0x694044
 ObjectManager::init - 0x69410c
+ObjectManager::getDefinition - 0x695a18
 ObjectManager::loadCopiedSets - 0x6945cc
 ObjectManager::setup - 0x694934
 ObjectToolbox::sharedState - 0x57b4a8
