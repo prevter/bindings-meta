@@ -453,7 +453,9 @@ CCPartAnimSprite::setBlendFunc - 0x466f0
 CCPartAnimSprite::setDisplayFrame - 0x460c0
 CCPartAnimSprite::isFrameDisplayed - 0x46330
 CCPartAnimSprite::displayFrame - 0x46350
+CCPartAnimSprite::initWithAnimDesc - 0x45910
 CCPartAnimSprite::setColor - 0x467c0
+CCPartAnimSprite::tweenToFrame - 0x46360
 CCScrollLayerExt::CCScrollLayerExt - 0x46a50
 CCScrollLayerExt::visit - 0x47ad0
 CCScrollLayerExt::ccTouchBegan - 0x47580
@@ -3090,6 +3092,8 @@ ObjectManager::instance - 0x6e3d0
 ObjectManager::init - 0x6e460
 ObjectManager::getDefinition - 0x6f870
 ObjectManager::loadCopiedAnimations - 0x6e800
+ObjectManager::loadCopiedSets - 0x6ed50
+ObjectManager::replaceAllOccurencesOfString - 0x6f1a0
 ObjectManager::setup - 0x6e4c0
 ObjectToolbox::sharedState - 0x332f90
 ObjectToolbox::init - 0x333050

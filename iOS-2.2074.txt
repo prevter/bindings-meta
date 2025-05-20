@@ -1771,7 +1771,9 @@ ButtonSprite::updateSpriteOffset - 0x6375c
 CameraTriggerGameObject::triggerObject - 0x38b8e8
 CameraTriggerGameObject::customObjectSetup - 0x38c820
 CameraTriggerGameObject::getSaveString - 0x38baa4
+CCAnimateFrameCache::sharedSpriteFrameCache - 0x1b44d8
 CCAnimateFrameCache::addDict - 0x1b45f4
+CCAnimateFrameCache::spriteFrameByName - 0x1b494c
 CCBlockLayer::init - 0x8a2e0
 CCBlockLayer::draw - 0x8a540
 CCBlockLayer::ccTouchBegan - 0x8a57c
