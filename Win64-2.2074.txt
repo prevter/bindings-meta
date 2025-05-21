@@ -114,6 +114,7 @@ AchievementManager::isAchievementEarned - 0x39a70
 AchievementManager::percentForAchievement - 0x39a90
 AchievementNotifier::sharedState - 0x3ab20
 AchievementNotifier::init - 0x3abd0
+AchievementNotifier::achievementDisplayFinished - 0x3ae40
 AchievementNotifier::notifyAchievement - 0x3ac00
 AchievementNotifier::showNextAchievement - 0x3ace0
 AchievementsLayer::keyDown - 0x82260
