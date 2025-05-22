@@ -1499,6 +1499,7 @@ AccountRegisterLayer::updateLabel - 0x862d4
 AchievementBar::create - 0x269870
 AchievementBar::setOpacity - 0x26ab9c
 AchievementBar::init - 0x26992c
+AchievementBar::show - 0x26a97c
 TableViewCell::TableViewCell - 0x37ef0
 AchievementCell::init - 0x10ebb4
 AchievementCell::draw - 0x10ebbc
@@ -1516,6 +1517,7 @@ AchievementManager::percentForAchievement - 0xeb558
 AchievementManager::reportAchievementWithID - 0xebb58
 AchievementNotifier::sharedState - 0x21720c
 AchievementNotifier::init - 0x21727c
+AchievementNotifier::achievementDisplayFinished - 0x2173fc
 AchievementNotifier::notifyAchievement - 0x2172a8
 AchievementNotifier::showNextAchievement - 0x2172fc
 AchievementNotifier::willSwitchToScene - 0x217440

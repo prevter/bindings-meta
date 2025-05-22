@@ -685,6 +685,7 @@ ColorSelectPopup::updateCustomColorIdx - 0x93270
 ColorSelectPopup::updateHSVMode - 0x93540
 ColorSelectPopup::updateOpacity - 0x912b0
 ColorSelectPopup::updateOpacityLabel - 0x91430
+CommentCell::CommentCell - 0xb53c0
 CommentCell::init - 0xb5460
 CommentCell::draw - 0xad710
 CommentCell::likedItem - 0xb7750
@@ -819,6 +820,7 @@ CustomizeObjectLayer::onHSV - 0xa8470
 CustomizeObjectLayer::onPaste - 0xa7960
 CustomizeObjectLayer::onSelectColor - 0xa95a0
 CustomizeObjectLayer::onSelectMode - 0xa88e0
+CustomizeObjectLayer::onSettings - 0xa7ab0
 CustomizeObjectLayer::onUpdateCustomColor - 0xa8ea0
 CustomizeObjectLayer::toggleVisible - 0xa8af0
 CustomizeObjectLayer::updateColorSprite - 0xa7e20
@@ -834,6 +836,7 @@ CustomListView::getListCell - 0xaa140
 CustomListView::loadCell - 0xaaf00
 CustomListView::getCellHeight - 0xaadf0
 CustomListView::reloadAll - 0xabc90
+CustomSongCell::CustomSongCell - 0xb3e80
 CustomSongCell::init - 0xb3f00
 CustomSongCell::draw - 0xad710
 CustomSongCell::songIDChanged - 0xb40d0
@@ -841,6 +844,7 @@ CustomSongCell::getActiveSongID - 0xb4110
 CustomSongCell::getSongFileName - 0xb4130
 CustomSongCell::loadFromObject - 0xb3f10
 CustomMusicCell::loadFromObject - 0xb46f0
+CustomSFXCell::CustomSFXCell - 0xb4380
 CustomSFXCell::init - 0xb4410
 CustomSFXCell::draw - 0xad710
 CustomSFXCell::sfxObjectSelected - 0xb4520
@@ -2710,6 +2714,7 @@ LevelLeaderboard::onChangeMode - 0x2edd40
 LevelLeaderboard::onChangeType - 0x2edca0
 LevelLeaderboard::onClose - 0x84620
 LevelLeaderboard::onUpdate - 0x2eddc0
+LevelListCell::LevelListCell - 0xbdf10
 LevelListCell::draw - 0xad710
 LevelListCell::loadFromList - 0xbdf90
 LevelListCell::onClick - 0xbf3c0
@@ -4300,7 +4305,9 @@ ShardsPage::init - 0x471620
 ShardsPage::registerWithTouchDispatcher - 0x425d0
 ShardsPage::keyBackClicked - 0x84650
 ShardsPage::show - 0x867a0
+ShardsPage::onClose - 0x84620
 ShardsPage::onIconInfo - 0x474610
+ShardsPage::onSwitchPage - 0x474650
 ShareCommentLayer::create - 0x474930
 ShareCommentLayer::registerWithTouchDispatcher - 0x425d0
 ShareCommentLayer::keyBackClicked - 0x476170
