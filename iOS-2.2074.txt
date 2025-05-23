@@ -2828,6 +2828,7 @@ GJBaseGameLayer::checkCollisions - 0x1e87c8
 GJBaseGameLayer::checkRepellPlayer - 0x201988
 GJBaseGameLayer::checkSpawnObjects - 0x1ed910
 GJBaseGameLayer::clearActivatedAudioTriggers - 0x204818
+GJBaseGameLayer::collectedObject - 0x1fd4b8
 GJBaseGameLayer::collisionCheckObjects - 0x1e9420
 GJBaseGameLayer::createBackground - 0x1dea24
 GJBaseGameLayer::createGroundLayer - 0x1def60
@@ -2916,6 +2917,7 @@ GJBaseGameLayer::updateCameraMode - 0x1e7dc8
 GJBaseGameLayer::updateCameraOffsetX - 0x1ff1a0
 GJBaseGameLayer::updateCameraOffsetY - 0x1ff220
 GJBaseGameLayer::updateCollisionBlocks - 0x1ec828
+GJBaseGameLayer::updateCounters - 0x1fd510
 GJBaseGameLayer::updateDualGround - 0x1e7b4c
 GJBaseGameLayer::updateGradientLayers - 0x1f1910
 GJBaseGameLayer::updateGuideArt - 0x201694
@@ -2951,6 +2953,7 @@ GJDifficultySprite::updateDifficultyFrame - 0x2e5534
 GJDifficultySprite::updateFeatureState - 0x2e56ac
 GJDifficultySprite::updateFeatureStateFromLevel - 0x2e5674
 GJEffectManager::init - 0x125e8
+GJEffectManager::addCountToItem - 0x196d4
 GJEffectManager::colorExists - 0x13770
 GJEffectManager::getColorAction - 0x12b80
 GJEffectManager::playerButton - 0x1921c
@@ -2964,6 +2967,7 @@ GJEffectManager::reset - 0x128dc
 GJEffectManager::resetEffects - 0x12994
 GJEffectManager::updateEffects - 0x137b4
 GJEffectManager::updateSpawnTriggers - 0x18e14
+GJEffectManager::updateTimers - 0x19fcc
 GJGroundLayer::create - 0x2fddc
 GJGroundLayer::draw - 0x30c08
 GJGroundLayer::showGround - 0x30aa0
