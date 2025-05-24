@@ -1059,6 +1059,7 @@ cocos2d::ZipUtils::base64URLDecode - 0x23df70
 cocos2d::ZipUtils::base64URLEncode - 0x23e064
 cocos2d::ZipUtils::ccDeflateMemory - 0x23d50c
 cocos2d::ZipUtils::compressString - 0x23d2b8
+cocos2d::ZipUtils::decompressString2 - 0x23d618
 cocos2d::ZipUtils::decompressString - 0x23d8a0
 cocos2d::CCSpawn::createWithTwoActions - 0x18e290
 cocos2d::CCSpawn::copyWithZone - 0x18e464
