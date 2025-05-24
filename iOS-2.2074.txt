@@ -2965,6 +2965,7 @@ GJEffectManager::processColors - 0x12d30
 GJEffectManager::removePersistentFromAllItems - 0x19ab4
 GJEffectManager::reset - 0x128dc
 GJEffectManager::resetEffects - 0x12994
+GJEffectManager::updateCountForItem - 0x19748
 GJEffectManager::updateEffects - 0x137b4
 GJEffectManager::updateSpawnTriggers - 0x18e14
 GJEffectManager::updateTimers - 0x19fcc
