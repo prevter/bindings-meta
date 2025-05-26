@@ -1718,13 +1718,13 @@ AudioAssetsBrowser::getSelectedCellIdx - 0x1d3060
 AudioAssetsBrowser::getCellDelegateType - 0x1d3070
 AudioAssetsBrowser::init - 0x1d2340
 AudioAssetsBrowser::onInfo - 0x1d289c
+AudioEffectsLayer::create - 0x3bc848
 AudioEffectsLayer::draw - 0x3bcf70
 AudioEffectsLayer::updateTweenAction - 0x3bce70
 AudioEffectsLayer::resetAudioVars - 0x3bcc14
 AudioLineGuideGameObject::init - 0x38f09c
 AudioLineGuideGameObject::customObjectSetup - 0x38f408
 AudioLineGuideGameObject::getSaveString - 0x38f0ec
-BonusDropdown::create - 0x3bc848
 BoomListView::draw - 0x1d1398
 BoomListView::setupList - 0x1d0df4
 BoomListView::TableViewWillDisplayCellForRowAtIndexPath - 0x1d0e74
