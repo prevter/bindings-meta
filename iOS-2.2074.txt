@@ -2510,6 +2510,7 @@ FMODAudioEngine::setup - 0x13b128
 FMODAudioEngine::setupAudioEngine - 0x13b3b4
 FMODAudioEngine::stopAllEffects - 0x13bc58
 FMODAudioEngine::stopAllMusic - 0x13bd04
+FMODAudioEngine::stopAndRemoveMusic - 0x141c7c
 FMODAudioEngine::unloadAllEffects - 0x1400c8
 FMODLevelVisualizer::create - 0x2e0ba4
 FMODLevelVisualizer::init - 0x2e0c20
@@ -2521,6 +2522,7 @@ FollowRewardPage::show - 0x41db00
 FollowRewardPage::FLAlert_Clicked - 0x41dc74
 FollowRewardPage::rewardedVideoFinished - 0x41daf0
 FollowRewardPage::updateRate - 0x41d79c
+FollowRewardPage::onSpecialItem - 0x41d1d8
 ForceBlockGameObject::customObjectSetup - 0x38f9a8
 ForceBlockGameObject::getSaveString - 0x38f600
 FRequestProfilePage::registerWithTouchDispatcher - 0x1b91f4
@@ -2634,6 +2636,8 @@ GameManager::colorForIdx - 0x316f24
 GameManager::countForType - 0x3178fc
 GameManager::fadeInMenuMusic - 0x312450
 GameManager::fadeInMusic - 0x3124e0
+GameManager::followTwitch - 0x317578
+GameManager::followTwitter - 0x317480
 GameManager::getBGTexture - 0x318e30
 GameManager::getFontFile - 0x318378
 GameManager::getGameVariable - 0x312374
@@ -2647,6 +2651,9 @@ GameManager::getUnlockForAchievement - 0x313158
 GameManager::iconTypeToUnlockType - 0x312cb0
 GameManager::isColorUnlocked - 0x312fb8
 GameManager::isIconUnlocked - 0x312be8
+GameManager::joinDiscord - 0x3175f4
+GameManager::joinReddit - 0x317670
+GameManager::likeFacebook - 0x317404
 GameManager::loadBackground - 0x3185c0
 GameManager::loadDeathEffect - 0x318448
 GameManager::loadIcon - 0x317bac
@@ -2666,6 +2673,7 @@ GameManager::setIntGameVariable - 0x319274
 GameManager::setUGV - 0x3190a8
 GameManager::sheetNameForIcon - 0x317a00
 GameManager::stringForCustomObject - 0x3195f0
+GameManager::subYouTube - 0x3174fc
 GameManager::toggleGameVariable - 0x319068
 GameManager::unloadIcon - 0x317ea4
 GameManager::unloadIcons - 0x3181c0
@@ -3600,6 +3608,7 @@ LoadingCircle::show - 0x392dd0
 LoadingCircleSprite::create - 0x392fc0
 LoadingCircleSprite::fadeInCircle - 0x3930ec
 LoadingCircleSprite::init - 0x393058
+LoadingLayer::getLoadingString - 0x1d7514
 LoadingLayer::init - 0x1d6e44
 LoadingLayer::loadAssets - 0x1d75f0
 LoadingLayer::loadingFinished - 0x1d7c84

@@ -2909,6 +2909,8 @@ GameManager::didExitPlayscene - 0x308a38
 GameManager::dpadConfigToString - 0x304e14
 GameManager::fadeInMenuMusic - 0x2f6a1c
 GameManager::fadeInMusic - 0x2f6b18
+GameManager::followTwitch - 0x2fe874
+GameManager::followTwitter - 0x2fe774
 GameManager::getBGTexture - 0x3017dc
 GameManager::getFontFile - 0x300d14
 GameManager::getGameVariable - 0x2f6894
@@ -2920,7 +2922,9 @@ GameManager::getUnlockForAchievement - 0x2f7a94
 GameManager::iconTypeToUnlockType - 0x2f7498
 GameManager::isColorUnlocked - 0x2f78a8
 GameManager::isIconUnlocked - 0x2f7388
+GameManager::joinDiscord - 0x2fe8f4
 GameManager::joinReddit - 0x2fe974
+GameManager::likeFacebook - 0x2fe6f4
 GameManager::loadBackground - 0x300f5c
 GameManager::loadDeathEffect - 0x300de4
 GameManager::loadDpadFromString - 0x305914
@@ -2944,6 +2948,7 @@ GameManager::setUGV - 0x301c3c
 GameManager::setupGameAnimations - 0x1fa990
 GameManager::sheetNameForIcon - 0x2ff040
 GameManager::stringForCustomObject - 0x3025a0
+GameManager::subYouTube - 0x2fe7f4
 GameManager::toggleGameVariable - 0x301b54
 GameManager::unloadIcon - 0x30016c
 GameManager::unloadIcons - 0x3008e4

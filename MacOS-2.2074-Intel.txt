@@ -3002,6 +3002,8 @@ GameManager::didExitPlayscene - 0x378540
 GameManager::dpadConfigToString - 0x374330
 GameManager::fadeInMenuMusic - 0x363ca0
 GameManager::fadeInMusic - 0x363d80
+GameManager::followTwitch - 0x36d1e0
+GameManager::followTwitter - 0x36d100
 GameManager::getBGTexture - 0x370460
 GameManager::getFontFile - 0x36fa00
 GameManager::getGameVariable - 0x363b40
@@ -3016,7 +3018,9 @@ GameManager::iconTypeToUnlockType - 0x364990
 GameManager::isColorUnlocked - 0x364f40
 GameManager::isIconLoaded - 0x36d8f0
 GameManager::isIconUnlocked - 0x3648d0
+GameManager::joinDiscord - 0x36d250
 GameManager::joinReddit - 0x36d2c0
+GameManager::likeFacebook - 0x36d090
 GameManager::loadBackground - 0x36fc40
 GameManager::loadDeathEffect - 0x36fac0
 GameManager::loadDpadFromString - 0x375010
@@ -3044,6 +3048,7 @@ GameManager::setUGV - 0x370890
 GameManager::setupGameAnimations - 0x24d5f0
 GameManager::sheetNameForIcon - 0x36dcb0
 GameManager::stringForCustomObject - 0x371170
+GameManager::subYouTube - 0x36d170
 GameManager::toggleGameVariable - 0x3707d0
 GameManager::unloadIcon - 0x36ee80
 GameManager::unloadIcons - 0x36f5c0
@@ -3073,6 +3078,7 @@ GameStatsManager::completedDailyLevel - 0x73c90
 GameStatsManager::completedLevel - 0x6d6b0
 GameStatsManager::createSecretChestItems - 0x5d080
 GameStatsManager::createSpecialChestItems - 0x5d1d0
+GameStatsManager::createStoreItems - 0x5a9f0
 GameStatsManager::dataLoaded - 0x8cee0
 GameStatsManager::generateItemUnlockableData - 0x651f0
 GameStatsManager::getAwardedCurrencyForLevel - 0x70ab0
