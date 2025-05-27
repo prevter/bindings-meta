@@ -2575,6 +2575,7 @@ EditorUI::updateGridNodeSize - 0x2f000
 EditorUI::updateGroupIDLabel - 0x2c844
 EditorUI::updateObjectInfoLabel - 0x2f208
 EditorUI::updatePlaybackBtn - 0x2d08c
+EditorUI::updateSlider - 0x2b3c0
 EditorUI::updateZoom - 0x38b14
 EditorUI::zoomIn - 0xe218
 EditorUI::zoomOut - 0xe270

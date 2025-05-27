@@ -3406,6 +3406,7 @@ LevelEditorLayer::createObjectsFromSetup - 0x3576e8
 LevelEditorLayer::createObjectsFromString - 0x3590e4
 LevelEditorLayer::dirtifyTriggers - 0x36211c
 LevelEditorLayer::findStartPosObject - 0x362134
+LevelEditorLayer::getLastObjectX - 0x361490
 LevelEditorLayer::getLevelString - 0x35bcb8
 LevelEditorLayer::getNextFreeGroupID - 0x35ef38
 LevelEditorLayer::handleAction - 0x35b654
