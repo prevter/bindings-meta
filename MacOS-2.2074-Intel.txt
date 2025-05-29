@@ -4847,6 +4847,7 @@ PlayLayer::startGame - 0xb3c00
 PlayLayer::startGameDelayed - 0xb3fe0
 PlayLayer::startMusic - 0xb3ef0
 PlayLayer::storeCheckpoint - 0xbdf30
+PlayLayer::toggleDebugDraw - 0xacb60
 PlayLayer::toggleIgnoreDamage - 0xacbb0
 PlayLayer::togglePracticeMode - 0xbeca0
 PlayLayer::updateAttempts - 0xbeeb0
