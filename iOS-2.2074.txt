@@ -681,6 +681,8 @@ cocos2d::CCSprite::setFlipX - 0x238ea0
 cocos2d::CCSprite::setFlipY - 0x238ed4
 cocos2d::CCSprite::CCSprite - 0x2379f0
 cocos2d::CCSprite::~CCSprite - 0x237a78
+cocos2d::CCSprite::isFlipX - 0x238ecc
+cocos2d::CCSprite::isFlipY - 0x238f00
 cocos2d::CCSprite::init - 0x237660
 cocos2d::CCSprite::setVertexZ - 0x238d4c
 cocos2d::CCSprite::setScaleX - 0x238bc8
