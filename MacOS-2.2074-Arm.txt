@@ -1535,6 +1535,7 @@ AchievementNotifier::showNextAchievement - 0x6bec08
 AchievementNotifier::willSwitchToScene - 0x6bed64
 AchievementsLayer::keyDown - 0x2f3078
 AchievementsLayer::customSetup - 0x2f2c18
+AchievementsLayer::loadPage - 0x2f2ea8
 CCSpritePlus::setScaleX - 0x3de1dc
 CCSpritePlus::setScaleY - 0x3de258
 CCSpritePlus::setScale - 0x3de2d4

@@ -1538,6 +1538,7 @@ AchievementNotifier::willSwitchToScene - 0x217440
 AchievementsLayer::create - 0x419b94
 AchievementsLayer::keyDown - 0x41a244
 AchievementsLayer::customSetup - 0x419c40
+AchievementsLayer::loadPage - 0x419efc
 CCSpritePlus::setScaleX - 0x1b9fb4
 CCSpritePlus::setScaleY - 0x1ba030
 CCSpritePlus::setScale - 0x1ba0ac
@@ -3115,6 +3116,8 @@ GJPathsLayer::onExit - 0x3b0e34
 GJPathsLayer::registerWithTouchDispatcher - 0x3b1024
 GJPathsLayer::keyBackClicked - 0x3b1018
 GJPathsLayer::show - 0x3b105c
+GJPathSprite::create - 0x3b0c80
+GJPathSprite::updateState - 0x3b0d20
 GJPFollowCommandLayer::determineStartValues - 0x16384c
 GJPFollowCommandLayer::onClose - 0x16412c
 GJPFollowCommandLayer::textChanged - 0x163d48
