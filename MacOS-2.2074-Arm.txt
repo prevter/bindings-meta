@@ -1,3 +1,5 @@
+cocos2d::CCEGLViewProtocol::CCEGLViewProtocol - 0x459be0
+cocos2d::CCEGLViewProtocol::~CCEGLViewProtocol - 0x459c34
 cocos2d::CCEGLViewProtocol::getViewPortRect - 0x45a684
 cocos2d::CCEGLViewProtocol::getFrameSize - 0x459d60
 cocos2d::CCEGLViewProtocol::setFrameSize - 0x459d68
@@ -12,6 +14,10 @@ cocos2d::CCEGLViewProtocol::isScissorEnabled - 0x459e88
 cocos2d::CCEGLViewProtocol::getScissorRect - 0x459ea8
 cocos2d::CCEGLViewProtocol::setViewName - 0x459f38
 cocos2d::CCEGLViewProtocol::pollInputEvents - 0x45a69c
+cocos2d::CCEGLViewProtocol::handleTouchesBegin - 0x459f5c
+cocos2d::CCEGLViewProtocol::handleTouchesMove - 0x45a21c
+cocos2d::CCEGLViewProtocol::handleTouchesEnd - 0x45a54c
+cocos2d::CCEGLViewProtocol::handleTouchesCancel - 0x45a5e8
 cocos2d::CCObject::createWithCoder - 0x3e6390
 cocos2d::CCObject::CCObject - 0x3e6090
 cocos2d::CCObject::~CCObject - 0x3e6120
@@ -738,8 +744,16 @@ cocos2d::CCMouseHandler::~CCMouseHandler - 0x21da98
 cocos2d::CCMouseHandler::getDelegate - 0x21da3c
 cocos2d::CCMouseHandler::setDelegate - 0x21db44
 cocos2d::CCMouseHandler::initWithDelegate - 0x21dbb0
+cocos2d::CCEGLView::CCEGLView - 0x451210
+cocos2d::CCEGLView::~CCEGLView - 0x451260
 cocos2d::CCEGLView::end - 0x4512e4
 cocos2d::CCEGLView::swapBuffers - 0x45133c
+cocos2d::CCEGLView::isOpenGLReady - 0x4512b8
+cocos2d::CCEGLView::setIMEKeyboardState - 0x451358
+cocos2d::CCEGLView::setContentScaleFactor - 0x4512dc
+cocos2d::CCEGLView::setViewPortInPoints - 0x451390
+cocos2d::CCEGLView::setScissorInPoints - 0x451438
+cocos2d::CCEGLView::setMultiTouchMask - 0x4514e0
 cocos2d::CCImage::initWithImageData - 0x3e5670
 cocos2d::CCImage::initWithImageFile - 0x3e5430
 cocos2d::CCImage::initWithImageFileThreadSafe - 0x3e5a5c
