@@ -1536,6 +1536,8 @@ AchievementNotifier::willSwitchToScene - 0x6bed64
 AchievementsLayer::keyDown - 0x2f3078
 AchievementsLayer::customSetup - 0x2f2c18
 AchievementsLayer::loadPage - 0x2f2ea8
+AchievementsLayer::onNextPage - 0x2f2e9c
+AchievementsLayer::onPrevPage - 0x2f2e90
 CCSpritePlus::setScaleX - 0x3de1dc
 CCSpritePlus::setScaleY - 0x3de258
 CCSpritePlus::setScale - 0x3de2d4
@@ -3034,8 +3036,10 @@ GameStatsManager::incrementChallenge - 0x5eb10
 GameStatsManager::incrementStat - 0x5afdc
 GameStatsManager::isItemEnabled - 0x6ac58
 GameStatsManager::isItemUnlocked - 0x5ee84
+GameStatsManager::isSecretChestUnlocked - 0x6a68c
 GameStatsManager::isSecretCoin - 0x63c18
 GameStatsManager::isSpecialChestUnlocked - 0x6a794
+GameStatsManager::isStoreItemUnlocked - 0x5a978
 GameStatsManager::processChallengeQueue - 0x67160
 GameStatsManager::purchaseItem - 0x5aa80
 GameStatsManager::recountSpecialStats - 0x69188
@@ -4918,6 +4922,7 @@ SecretRewardsLayer::onGoldChest - 0x5476f8
 SecretRewardsLayer::onSelectItem - 0x5499c0
 SecretRewardsLayer::onShop - 0x547ad8
 SecretRewardsLayer::onSpecialItem - 0x547f04
+SecretRewardsLayer::onSwitchPage - 0x547c1c
 SecretRewardsLayer::showDialog01 - 0x549d5c
 SecretRewardsLayer::showDialog03 - 0x54b548
 SecretRewardsLayer::showDialogDiamond - 0x54d868
@@ -5398,6 +5403,7 @@ ShardsPage::keyBackClicked - 0x41c9ac
 ShardsPage::show - 0x41c824
 ShardsPage::goToPage - 0x41c6d8
 ShardsPage::onIconInfo - 0x41c660
+ShardsPage::onSwitchPage - 0x41c698
 ShareCommentLayer::registerWithTouchDispatcher - 0x4fd970
 ShareCommentLayer::keyBackClicked - 0x4fd8c8
 ShareCommentLayer::textInputOpened - 0x4fdb34

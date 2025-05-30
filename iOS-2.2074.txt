@@ -1539,6 +1539,8 @@ AchievementsLayer::create - 0x419b94
 AchievementsLayer::keyDown - 0x41a244
 AchievementsLayer::customSetup - 0x419c40
 AchievementsLayer::loadPage - 0x419efc
+AchievementsLayer::onNextPage - 0x419ef0
+AchievementsLayer::onPrevPage - 0x419ee4
 CCSpritePlus::setScaleX - 0x1b9fb4
 CCSpritePlus::setScaleY - 0x1ba030
 CCSpritePlus::setScale - 0x1ba0ac
@@ -2742,7 +2744,9 @@ GameStatsManager::incrementStat - 0x32c170
 GameStatsManager::incrementStat - 0x32c168
 GameStatsManager::isItemEnabled - 0x336220
 GameStatsManager::isItemUnlocked - 0x32fb64
+GameStatsManager::isSecretChestUnlocked - 0x336044
 GameStatsManager::isSpecialChestUnlocked - 0x3360cc
+GameStatsManager::isStoreItemUnlocked - 0x32bd28
 GameStatsManager::purchaseItem - 0x32bdb0
 GameStatsManager::recountSpecialStats - 0x3351a4
 GameStatsManager::registerRewardsFromItem - 0x333604
@@ -3614,6 +3618,8 @@ LikeItemLayer::onDislike - 0x24c078
 LikeItemLayer::onLike - 0x24c070
 LikeItemLayer::triggerLike - 0x24c080
 ListButtonBar::create - 0x16b2d8
+ListButtonBar::onLeft - 0x16b8c4
+ListButtonBar::onRight - 0x16b8d4
 ListCell::init - 0x1d139c
 ListCell::draw - 0x1d13a4
 LoadingCircle::create - 0x392c28
@@ -4241,6 +4247,7 @@ SecretRewardsLayer::onChestType - 0x2e9640
 SecretRewardsLayer::onGoldChest - 0x2e9920
 SecretRewardsLayer::onSelectItem - 0x2eb188
 SecretRewardsLayer::onSpecialItem - 0x2e9f98
+SecretRewardsLayer::onSwitchPage - 0x2e9d28
 SecretRewardsLayer::updateBackButton - 0x2ea340
 SecretRewardsLayer::updateUnlockedLabel - 0x2e9774
 SelectArtLayer::keyBackClicked - 0x18056c
@@ -4539,6 +4546,9 @@ ShardsPage::init - 0x39a9e4
 ShardsPage::registerWithTouchDispatcher - 0x39c3c8
 ShardsPage::keyBackClicked - 0x39c34c
 ShardsPage::show - 0x39c1d8
+ShardsPage::goToPage - 0x39c094
+ShardsPage::onIconInfo - 0x39c01c
+ShardsPage::onSwitchPage - 0x39c054
 ShareCommentLayer::registerWithTouchDispatcher - 0x1d673c
 ShareCommentLayer::keyBackClicked - 0x1d6694
 ShareCommentLayer::textInputOpened - 0x1d6848
