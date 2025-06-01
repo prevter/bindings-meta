@@ -3252,6 +3252,7 @@ PlayerObject::redirectPlayerForce - 0x389ed0
 PlayerObject::releaseAllButtons - 0x389370
 PlayerObject::releaseButton - 0x3823a0
 PlayerObject::removePendingCheckpoint - 0x38c400
+PlayerObject::resetAllParticles - 0x375a70
 PlayerObject::resetPlayerIcon - 0x385550
 PlayerObject::resetStreak - 0x375870
 PlayerObject::resetTouchedRings - 0x3824b0
