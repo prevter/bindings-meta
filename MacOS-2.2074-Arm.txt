@@ -3228,6 +3228,7 @@ GJBaseGameLayer::hasUniqueCoin - 0xf72cc
 GJBaseGameLayer::lightningFlash - 0xf089c
 GJBaseGameLayer::loadLevelSettings - 0x11d8c0
 GJBaseGameLayer::loadStartPosObject - 0x116658
+GJBaseGameLayer::parentForZLayer - 0xeec10
 GJBaseGameLayer::pickupItem - 0xf7400
 GJBaseGameLayer::playerTouchedRing - 0xf6eb0
 GJBaseGameLayer::playerTouchedTrigger - 0xf6f88

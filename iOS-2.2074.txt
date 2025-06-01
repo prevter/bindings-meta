@@ -2910,6 +2910,7 @@ GJBaseGameLayer::loadStartPosObject - 0x1feaec
 GJBaseGameLayer::objectTypeToGameEvent - 0x1e804c
 GJBaseGameLayer::optimizeMoveGroups - 0x1e109c
 GJBaseGameLayer::orderSpawnObjects - 0x209744
+GJBaseGameLayer::parentForZLayer - 0x1e4a2c
 GJBaseGameLayer::pauseAudio - 0x2009a4
 GJBaseGameLayer::pickupItem - 0x1eb1e4
 GJBaseGameLayer::playerTouchedRing - 0x1eadac
@@ -4547,6 +4548,7 @@ SetupTouchTogglePopup::init - 0x24a1a0
 SetupTouchTogglePopup::onTargetIDArrow - 0x24abf0
 SetupZoomTriggerPopup::determineStartValues - 0x1ba6e0
 SetupZoomTriggerPopup::onClose - 0x1ba6e4
+SFXBrowser::create - 0x16bec0
 SFXBrowser::registerWithTouchDispatcher - 0x16df88
 SFXBrowser::keyBackClicked - 0x16df7c
 SFXBrowser::musicActionFinished - 0x16d9b0
@@ -4556,6 +4558,7 @@ SFXBrowser::setTextPopupClosed - 0x16de50
 SFXBrowser::cellPerformedAction - 0x16deb4
 SFXBrowser::getSelectedCellIdx - 0x16df5c
 SFXBrowser::shouldSnapToSelected - 0x16df6c
+SFXBrowser::init - 0x16bf34
 SFXSearchResult::updateObjects - 0x1605b4
 SFXTriggerGameObject::customObjectSetup - 0x385ed0
 SFXTriggerGameObject::getSaveString - 0x384d08
