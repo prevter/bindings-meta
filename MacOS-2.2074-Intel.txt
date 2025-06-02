@@ -3839,6 +3839,8 @@ GJTransformControl::refreshControl - 0x4ab90
 GJTransformControl::updateButtons - 0x4b1b0
 GJUINode::create - 0x4b5100
 GJUINode::draw - 0x4b8390
+GJUINode::highlightButton - 0x4b7150
+GJUINode::toggleHighlight - 0x4b7070
 GJUINode::updateButtonFrames - 0x4b8000
 GJUserCell::init - 0x2443a0
 GJUserCell::draw - 0x244b10
@@ -5893,6 +5895,7 @@ UILayer::isJumpButtonPressed - 0x4b6720
 UILayer::onCheck - 0x4b5230
 UILayer::onPause - 0x4b51e0
 UILayer::processUINodesTouch - 0x4b6880
+UILayer::processUINodeTouch - 0x4b6bb0
 UILayer::refreshDpad - 0x4b55f0
 UILayer::resetAllButtons - 0x4b6620
 UILayer::resetUINodeState - 0x4b5990

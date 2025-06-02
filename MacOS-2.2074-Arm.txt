@@ -3677,6 +3677,8 @@ GJTransformControl::onToggleLockScale - 0x4a8fc
 GJTransformControl::refreshControl - 0x43948
 GJTransformControl::updateButtons - 0x43f04
 GJUINode::draw - 0x4200f4
+GJUINode::highlightButton - 0x41f110
+GJUINode::toggleHighlight - 0x41f018
 GJUINode::updateButtonFrames - 0x41fdb8
 GJUserCell::init - 0x1f31f8
 GJUserCell::draw - 0x1f399c
@@ -5693,6 +5695,7 @@ UILayer::isJumpButtonPressed - 0x41e598
 UILayer::onCheck - 0x41d3e8
 UILayer::onPause - 0x41d39c
 UILayer::processUINodesTouch - 0x41e6ec
+UILayer::processUINodeTouch - 0x41eb34
 UILayer::resetAllButtons - 0x41e4b4
 UILayer::resetUINodeState - 0x41dac0
 UILayer::toggleMenuVisibility - 0x41e384

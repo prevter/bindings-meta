@@ -3251,6 +3251,7 @@ GJTransformControl::ccTouchEnded - 0x3f42a4
 GJTransformControl::ccTouchCancelled - 0x3f447c
 GJTransformControl::onToggleLockScale - 0x3f3ae4
 GJUINode::draw - 0x4ed2c
+GJUINode::highlightButton - 0x4e370
 GJUserCell::init - 0x114208
 GJUserCell::draw - 0x11469c
 GJUserCell::FLAlert_Clicked - 0x114748
@@ -4766,6 +4767,8 @@ UILayer::handleKeypress - 0x4d858
 UILayer::init - 0x4cc00
 UILayer::onCheck - 0x4d1b0
 UILayer::onPause - 0x4d164
+UILayer::processUINodesTouch - 0x4de5c
+UILayer::processUINodeTouch - 0x4dfd0
 UILayer::refreshDpad - 0x4d47c
 UILayer::resetAllButtons - 0x4dcb4
 UILayer::resetUINodeState - 0x4d6c4
