@@ -1935,6 +1935,7 @@ GJBaseGameLayer::updateCameraOffsetY - 0x2308b0
 GJBaseGameLayer::updateCounters - 0x22e760
 GJBaseGameLayer::updateDualGround - 0x20dcc0
 GJBaseGameLayer::updateEnterEffects - 0x209630
+GJBaseGameLayer::updateExtraGameLayers - 0x21e4a0
 GJBaseGameLayer::updateGradientLayers - 0x21a830
 GJBaseGameLayer::updateGuideArt - 0x240130
 GJBaseGameLayer::updateKeyframeOrder - 0x22e4b0
@@ -2633,6 +2634,7 @@ LevelEditorLayer::removeObject - 0x2cda70
 LevelEditorLayer::removeSpecial - 0x2cfbb0
 LevelEditorLayer::resetToggledGroupsAndObjects - 0x2d5c80
 LevelEditorLayer::resetUnusedColorChannels - 0x2d2b80
+LevelEditorLayer::rotationForSlopeNearObject - 0x2cc7b0
 LevelEditorLayer::runColorEffect - 0x2d4ee0
 LevelEditorLayer::shouldBlend - 0x2cafe0
 LevelEditorLayer::spawnGroupPreview - 0x2d55b0
