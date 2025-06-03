@@ -515,6 +515,7 @@ ChallengesPage::createChallengeNode - 0x86090
 ChallengesPage::exitNodeAtSlot - 0x863c0
 ChallengesPage::onClose - 0x86940
 ChallengesPage::updateTimers - 0x864b0
+GJChallengeItem::create - 0x1f1520
 GJChallengeItem::encodeWithCoder - 0x1f16a0
 ChallengeNode::init - 0x86ce0
 ChallengeNode::onClaimReward - 0x87d30
@@ -1673,6 +1674,7 @@ GameStatsManager::removeErrorFromSpecialChests - 0x1f0310
 GameStatsManager::setStarsForMapPack - 0x1dc090
 GameStatsManager::setStat - 0x1d2300
 GameStatsManager::setupIconCredits - 0x1c1190
+GameStatsManager::storeQueuedChallenge - 0x1ded90
 GameStatsManager::storeUserCoin - 0x1dcdd0
 GameStatsManager::toggleEnableItem - 0x1e2c00
 GameStatsManager::tryFixPathBug - 0x1d1810
