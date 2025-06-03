@@ -797,6 +797,7 @@ cocos2d::CCDirector::purgeDirector - 0x3e0564
 cocos2d::CCDirector::pushScene - 0x3e0034
 cocos2d::CCDirector::removeStatsLabel - 0x3e0734
 cocos2d::CCDirector::replaceScene - 0x3e00fc
+cocos2d::CCDirector::runWithScene - 0x3dff70
 cocos2d::CCDirector::showFPSLabel - 0x3df4dc
 cocos2d::CCDirector::toggleShowFPS - 0x3df778
 cocos2d::CCDirector::updateContentScale - 0x3dfb18
@@ -2541,6 +2542,7 @@ EditorUI::getCreateMenuItemButton - 0x2eb94
 EditorUI::getGridSnappedPos - 0x35130
 EditorUI::getGroupCenter - 0x36e28
 EditorUI::getSelectedObjects - 0x37eac
+EditorUI::getSnapAngle - 0x43b14
 EditorUI::getSpriteButton - 0xd81c
 EditorUI::getSpriteButton - 0xd6b0
 EditorUI::getSpriteButton - 0x2e9a0
@@ -2585,6 +2587,7 @@ EditorUI::reloadCustomItems - 0x30fac
 EditorUI::resetSelectedObjectsColor - 0x43568
 EditorUI::resetUI - 0x2aeac
 EditorUI::rotateObjects - 0x37044
+EditorUI::rotationforCommand - 0x43788
 EditorUI::selectBuildTab - 0x33974
 EditorUI::selectObject - 0x2e5c8
 EditorUI::selectObjects - 0x3749c
@@ -2604,6 +2607,7 @@ EditorUI::toggleMode - 0x2b140
 EditorUI::toggleSnap - 0xd91c
 EditorUI::toggleStickyControls - 0x2d020
 EditorUI::toggleSwipe - 0xd7b4
+EditorUI::transformObject - 0x44924
 EditorUI::transformObjectCall - 0x43bc8
 EditorUI::updateButtons - 0x2c954
 EditorUI::updateCreateMenu - 0x2e0e4
@@ -3673,6 +3677,7 @@ GJTransformControl::ccTouchBegan - 0x4aa70
 GJTransformControl::ccTouchMoved - 0x4ae6c
 GJTransformControl::ccTouchEnded - 0x4b374
 GJTransformControl::ccTouchCancelled - 0x4b54c
+GJTransformControl::applyRotation - 0x3bb0c
 GJTransformControl::onToggleLockScale - 0x4a8fc
 GJTransformControl::refreshControl - 0x43948
 GJTransformControl::updateButtons - 0x43f04
@@ -3925,6 +3930,7 @@ LevelEditorLayer::processLoadedMoveActions - 0xa7448
 LevelEditorLayer::removeAllObjectsOfType - 0xc9e54
 LevelEditorLayer::removeObject - 0xc98e4
 LevelEditorLayer::removeSpecial - 0xc99a4
+LevelEditorLayer::rotationForSlopeNearObject - 0xc83a0
 LevelEditorLayer::tryUpdateSpeedObject - 0xcfe2c
 LevelEditorLayer::updateEditor - 0xc53b8
 LevelEditorLayer::updateEditorMode - 0xc6370

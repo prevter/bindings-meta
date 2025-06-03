@@ -659,6 +659,7 @@ cocos2d::CCDirector::purgeDirector - 0x17997c
 cocos2d::CCDirector::pushScene - 0x179580
 cocos2d::CCDirector::replaceScene - 0x179608
 cocos2d::CCDirector::resetSmoothFixCounter - 0x178ff4
+cocos2d::CCDirector::runWithScene - 0x179554
 cocos2d::CCDirector::updateContentScale - 0x1792dc
 cocos2d::CCDirector::willSwitchToScene - 0x1794fc
 cocos2d::CCDirector::init - 0x178608
@@ -2384,6 +2385,7 @@ EditorUI::getCreateBtn - 0x3e24b8
 EditorUI::getCreateMenuItemButton - 0x3df54c
 EditorUI::getGroupCenter - 0x3e5280
 EditorUI::getSelectedObjects - 0x3e6210
+EditorUI::getSnapAngle - 0x3ee4e4
 EditorUI::getSpriteButton - 0x3bf6f8
 EditorUI::getSpriteButton - 0x3df454
 EditorUI::init - 0x3bd3d4
@@ -2441,6 +2443,7 @@ EditorUI::toggleMode - 0x3dc7b8
 EditorUI::toggleSnap - 0x3bf7f8
 EditorUI::toggleStickyControls - 0x3de424
 EditorUI::toggleSwipe - 0x3bf690
+EditorUI::transformObject - 0x3ef1e0
 EditorUI::transformObjectCall - 0x3ee598
 EditorUI::undoLastAction - 0x3bf900
 EditorUI::updateButtons - 0x3dde88
@@ -3249,7 +3252,9 @@ GJTransformControl::ccTouchBegan - 0x3f3c00
 GJTransformControl::ccTouchMoved - 0x3f3da8
 GJTransformControl::ccTouchEnded - 0x3f42a4
 GJTransformControl::ccTouchCancelled - 0x3f447c
+GJTransformControl::applyRotation - 0x3e894c
 GJTransformControl::onToggleLockScale - 0x3f3ae4
+GJTransformControl::updateButtons - 0x3ee8a8
 GJUINode::draw - 0x4ed2c
 GJUINode::highlightButton - 0x4e370
 GJUserCell::init - 0x114208
@@ -3465,6 +3470,7 @@ LevelEditorLayer::removeAllObjectsOfType - 0x35b3f0
 LevelEditorLayer::removeObject - 0x35aedc
 LevelEditorLayer::removeSpecial - 0x35af54
 LevelEditorLayer::resetToggledGroupsAndObjects - 0x361304
+LevelEditorLayer::rotationForSlopeNearObject - 0x35a114
 LevelEditorLayer::transferDefaultColors - 0x35fdcc
 LevelEditorLayer::updateAnimateOnTriggerObjects - 0x358b20
 LevelEditorLayer::updateBlendValues - 0x360b9c

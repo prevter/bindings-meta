@@ -2653,6 +2653,7 @@ EditorUI::reloadCustomItems - 0x318f0
 EditorUI::resetSelectedObjectsColor - 0x4a720
 EditorUI::resetUI - 0x2ac40
 EditorUI::rotateObjects - 0x3c3d0
+EditorUI::rotationforCommand - 0x4a9b0
 EditorUI::selectAllWithDirection - 0x3d960
 EditorUI::selectBuildTab - 0x34340
 EditorUI::selectObject - 0x2ec30
@@ -3257,6 +3258,7 @@ GJAccountManager::dataLoaded - 0xd4730
 GJAccountManager::encodeDataTo - 0xd46d0
 GJAccountManager::getAccountBackupURL - 0xd3180
 GJAccountManager::getAccountSyncURL - 0xd3a10
+GJAccountManager::handleIt - 0xcfd00
 GJAccountManager::loginAccount - 0xd2940
 GJAccountManager::onGetAccountBackupURLCompleted - 0xd1e40
 GJAccountManager::onGetAccountSyncURLCompleted - 0xd2050
@@ -3834,6 +3836,7 @@ GJTransformControl::ccTouchBegan - 0x53940
 GJTransformControl::ccTouchMoved - 0x53dc0
 GJTransformControl::ccTouchEnded - 0x54360
 GJTransformControl::ccTouchCancelled - 0x54570
+GJTransformControl::applyRotation - 0x41470
 GJTransformControl::onToggleLockScale - 0x537b0
 GJTransformControl::refreshControl - 0x4ab90
 GJTransformControl::updateButtons - 0x4b1b0
