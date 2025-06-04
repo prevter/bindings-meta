@@ -5774,7 +5774,6 @@ UploadListPopup::show - 0x2e5060
 UploadListPopup::listUploadFinished - 0x2e4b64
 UploadListPopup::listUploadFailed - 0x2e4d68
 UploadListPopup::init - 0x2e46b4
-UploadPopup::create - 0x8fd4
 UploadPopup::keyBackClicked - 0x21b974
 UploadPopup::show - 0x21b914
 UploadPopup::levelUploadFinished - 0x21b4e4
