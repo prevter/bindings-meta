@@ -982,6 +982,8 @@ cocos2d::CCLabelTTF::getFontName - 0x3ab060
 cocos2d::CCLabelTTF::getTextDefinition - 0x3ab240
 cocos2d::CCLabelTTF::setFontName - 0x3ab080
 cocos2d::CCLabelTTF::setTextDefinition - 0x3ab220
+cocos2d::CCLabelTTF::CCLabelTTF - 0x3aa150
+cocos2d::CCLabelTTF::~CCLabelTTF - 0x3aa310
 cocos2d::CCLabelTTF::_prepareTextDefinition - 0x3ab390
 cocos2d::CCLabelTTF::_updateWithTextDefinition - 0x3aab40
 cocos2d::CCLabelTTF::description - 0x3aae90
@@ -1285,6 +1287,8 @@ cocos2d::CCDelayTime::create - 0x3a42c0
 cocos2d::CCDelayTime::copyWithZone - 0x3a8b50
 cocos2d::CCDelayTime::update - 0x3a8c20
 cocos2d::CCDelayTime::reverse - 0x3a8c30
+cocos2d::CCTextFieldTTF::CCTextFieldTTF - 0x269d00
+cocos2d::CCTextFieldTTF::~CCTextFieldTTF - 0x269e20
 cocos2d::CCTextFieldTTF::draw - 0x26ac00
 cocos2d::CCTextFieldTTF::getColorSpaceHolder - 0x26aca0
 cocos2d::CCTextFieldTTF::setColorSpaceHolder - 0x26acb0
