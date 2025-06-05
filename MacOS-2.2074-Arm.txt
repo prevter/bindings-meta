@@ -1499,6 +1499,7 @@ AccountHelpLayer::layerHidden - 0xb844c
 AccountHelpLayer::accountStatusChanged - 0xb8300
 AccountHelpLayer::FLAlert_Clicked - 0xb830c
 AccountHelpLayer::onAccountManagement - 0xb7bf0
+AccountHelpLayer::onReLogin - 0xb7b80
 AccountHelpLayer::onUnlink - 0xb7cc4
 AccountHelpLayer::updatePage - 0xb7e88
 AccountHelpLayer::verifyUnlink - 0xb81d4
@@ -1515,6 +1516,8 @@ AccountLayer::doBackup - 0xb6708
 AccountLayer::doSync - 0xb67e4
 AccountLayer::onBackup - 0xb5a14
 AccountLayer::onHelp - 0xb5f34
+AccountLayer::onLogin - 0xb5960
+AccountLayer::onMore - 0xb600c
 AccountLayer::onRegister - 0xb59f8
 AccountLayer::onSync - 0xb5d2c
 AccountLayer::updatePage - 0xb601c
@@ -1542,6 +1545,10 @@ AccountLoginLayer::textChanged - 0x3f51cc
 AccountLoginLayer::loginAccountFinished - 0x3f45bc
 AccountLoginLayer::loginAccountFailed - 0x3f493c
 AccountLoginLayer::init - 0x3f32c0
+AccountLoginLayer::onClose - 0x3f3e60
+AccountLoginLayer::onForgotPassword - 0x3f4598
+AccountLoginLayer::onForgotUser - 0x3f4574
+AccountLoginLayer::onSubmit - 0x3f3ec8
 AccountLoginLayer::updateLabel - 0x3f49d0
 AccountRegisterLayer::init - 0x3eff58
 AccountRegisterLayer::registerWithTouchDispatcher - 0x3f2690
@@ -2646,6 +2653,7 @@ EditorUI::updateObjectInfoLabel - 0x2f208
 EditorUI::updatePlaybackBtn - 0x2d08c
 EditorUI::updateSlider - 0x2b3c0
 EditorUI::updateZoom - 0x38b14
+EditorUI::zoomGameLayer - 0x38d98
 EditorUI::zoomIn - 0xe218
 EditorUI::zoomOut - 0xe270
 EditTriggersPopup::determineStartValues - 0x231fb4
@@ -3792,12 +3800,18 @@ InfoLayer::loadPage - 0x6ae3e8
 InfoLayer::onClose - 0x6adff8
 InfoLayer::onComment - 0x6ad908
 InfoLayer::onCopyLevelID - 0x6aef98
+InfoLayer::onGetComments - 0x6ae3dc
 InfoLayer::onLevelInfo - 0x6ae924
 InfoLayer::onMore - 0x6ad570
+InfoLayer::onNextPage - 0x6ae07c
+InfoLayer::onOriginal - 0x6ad7c8
+InfoLayer::onPrevPage - 0x6ae06c
 InfoLayer::onRefreshComments - 0x6aee78
 InfoLayer::setupCommentsBrowser - 0x6ae750
 InfoLayer::setupLevelInfo - 0x6ad5cc
 InfoLayer::toggleCommentMode - 0x6ae170
+InfoLayer::toggleExtendedMode - 0x6ae250
+InfoLayer::toggleSmallCommentMode - 0x6ae280
 ItemInfoPopup::create - 0x2eecf8
 ItemInfoPopup::nameForUnlockType - 0x2f26cc
 ItemInfoPopup::keyBackClicked - 0x2f2a7c

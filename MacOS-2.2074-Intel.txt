@@ -1513,6 +1513,7 @@ AccountHelpLayer::layerHidden - 0xcf810
 AccountHelpLayer::accountStatusChanged - 0xcf6d0
 AccountHelpLayer::FLAlert_Clicked - 0xcf700
 AccountHelpLayer::onAccountManagement - 0xcefa0
+AccountHelpLayer::onReLogin - 0xcef40
 AccountHelpLayer::onUnlink - 0xcf070
 AccountHelpLayer::updatePage - 0xcf230
 AccountHelpLayer::verifyUnlink - 0xcf580
@@ -1529,6 +1530,9 @@ AccountLayer::doBackup - 0xcd8a0
 AccountLayer::doSync - 0xcd970
 AccountLayer::onBackup - 0xccbf0
 AccountLayer::onHelp - 0xcd130
+AccountLayer::onLogin - 0xccb40
+AccountLayer::onMore - 0xcd1f0
+AccountLayer::onRegister - 0xccbd0
 AccountLayer::onSync - 0xccf40
 AccountLayer::updatePage - 0xcd210
 FLAlertLayer::create - 0x4880e0
@@ -1555,8 +1559,10 @@ AccountLoginLayer::textChanged - 0x487c30
 AccountLoginLayer::loginAccountFinished - 0x4870a0
 AccountLoginLayer::loginAccountFailed - 0x487430
 AccountLoginLayer::init - 0x485ce0
+AccountLoginLayer::onClose - 0x486990
 AccountLoginLayer::onForgotPassword - 0x487080
 AccountLoginLayer::onForgotUser - 0x487060
+AccountLoginLayer::onSubmit - 0x4869f0
 AccountLoginLayer::updateLabel - 0x4874c0
 AccountRegisterLayer::init - 0x482340
 AccountRegisterLayer::registerWithTouchDispatcher - 0x484e70
@@ -2691,6 +2697,7 @@ EditorUI::updateObjectInfoLabel - 0x2f870
 EditorUI::updatePlaybackBtn - 0x2d5f0
 EditorUI::updateSlider - 0x2b1b0
 EditorUI::updateZoom - 0x3e050
+EditorUI::zoomGameLayer - 0x3e320
 EditorUI::zoomIn - 0xced0
 EditorUI::zoomOut - 0xcf20
 EditTriggersPopup::determineStartValues - 0x288da0
@@ -3937,6 +3944,8 @@ InfoLayer::onRefreshComments - 0x79c870
 InfoLayer::setupCommentsBrowser - 0x79c0e0
 InfoLayer::setupLevelInfo - 0x79ae90
 InfoLayer::toggleCommentMode - 0x79bab0
+InfoLayer::toggleExtendedMode - 0x79bb90
+InfoLayer::toggleSmallCommentMode - 0x79bbc0
 ItemInfoPopup::create - 0x35b830
 ItemInfoPopup::nameForUnlockType - 0x35f670
 ItemInfoPopup::keyBackClicked - 0x35f9b0

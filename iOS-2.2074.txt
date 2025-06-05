@@ -617,7 +617,7 @@ cocos2d::CCTouchDispatcher::touchesBegan - 0x152d68
 cocos2d::CCTouchDispatcher::touchesMoved - 0x152d94
 cocos2d::CCTouchDispatcher::touchesEnded - 0x152dc0
 cocos2d::CCTouchDispatcher::touchesCancelled - 0x152dec
-cocos2d::CCTouchHandler::getDelegate - 0x10c34
+cocos2d::CCTouchHandler::getDelegate - 0x103c4
 cocos2d::CCTouchHandler::initWithDelegate - 0x103d4
 cocos2d::CCMouseHandler::handlerWithDelegate - 0x888b8
 cocos2d::CCMouseHandler::~CCMouseHandler - 0x88804
@@ -1477,6 +1477,7 @@ AccountHelpLayer::layerHidden - 0x16b0cc
 AccountHelpLayer::accountStatusChanged - 0x16b018
 AccountHelpLayer::FLAlert_Clicked - 0x16b024
 AccountHelpLayer::onAccountManagement - 0x16aa60
+AccountHelpLayer::onReLogin - 0x16a9e8
 AccountHelpLayer::onUnlink - 0x16ab14
 AccountHelpLayer::updatePage - 0x16ac58
 AccountHelpLayer::verifyUnlink - 0x16af54
@@ -1493,6 +1494,8 @@ AccountLayer::doBackup - 0x169c3c
 AccountLayer::doSync - 0x169cc4
 AccountLayer::onBackup - 0x169434
 AccountLayer::onHelp - 0x169770
+AccountLayer::onLogin - 0x169380
+AccountLayer::onMore - 0x169824
 AccountLayer::onRegister - 0x169418
 AccountLayer::onSync - 0x169620
 AccountLayer::updatePage - 0x169834
@@ -1521,6 +1524,10 @@ AccountLoginLayer::textChanged - 0x886f0
 AccountLoginLayer::loginAccountFinished - 0x87ee8
 AccountLoginLayer::loginAccountFailed - 0x880f8
 AccountLoginLayer::init - 0x871a0
+AccountLoginLayer::onClose - 0x878e4
+AccountLoginLayer::onForgotPassword - 0x87ec4
+AccountLoginLayer::onForgotUser - 0x87ea0
+AccountLoginLayer::onSubmit - 0x8794c
 AccountLoginLayer::updateLabel - 0x88134
 AccountRegisterLayer::init - 0x84fd8
 AccountRegisterLayer::registerWithTouchDispatcher - 0x868d0
@@ -3325,11 +3332,21 @@ InfoLayer::FLAlert_Clicked - 0x3523c0
 InfoLayer::confirmReport - 0x3513b8
 InfoLayer::init - 0x34f334
 InfoLayer::loadPage - 0x3518ac
+InfoLayer::onClose - 0x35157c
+InfoLayer::onComment - 0x3510a0
 InfoLayer::onCopyLevelID - 0x352274
+InfoLayer::onGetComments - 0x3518a0
 InfoLayer::onLevelInfo - 0x351d4c
 InfoLayer::onMore - 0x350d94
+InfoLayer::onNextPage - 0x351600
+InfoLayer::onOriginal - 0x350fe0
+InfoLayer::onPrevPage - 0x3515f0
 InfoLayer::onRefreshComments - 0x3521c4
 InfoLayer::setupCommentsBrowser - 0x351b78
+InfoLayer::setupLevelInfo - 0x350de8
+InfoLayer::toggleCommentMode - 0x3516f4
+InfoLayer::toggleExtendedMode - 0x351750
+InfoLayer::toggleSmallCommentMode - 0x351780
 ItemInfoPopup::create - 0x306750
 ItemInfoPopup::nameForUnlockType - 0x309430
 ItemInfoPopup::keyBackClicked - 0x3095a4
@@ -3900,6 +3917,7 @@ PlatformToolbox::hideCursor - 0x16f40c
 PlatformToolbox::isControllerConnected - 0x16f3d8
 PlatformToolbox::showCursor - 0x16f410
 PlatformToolbox::toggleLockCursor - 0x16f41c
+PlatformToolbox::tryShowRateDialog - 0x16efe4
 PlayerCheckpoint::create - 0x123974
 PlayerCheckpoint::init - 0x126030
 PlayerControlGameObject::init - 0x390144

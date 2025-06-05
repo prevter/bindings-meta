@@ -2431,6 +2431,7 @@ InfoLayer::loadPage - 0x2b6c80
 InfoLayer::onClose - 0x2b6ac0
 InfoLayer::onComment - 0x2b5f20
 InfoLayer::onCopyLevelID - 0x2b5ba0
+InfoLayer::onGetComments - 0x2b64d0
 InfoLayer::onLevelInfo - 0x2b64e0
 InfoLayer::onMore - 0x2b5e00
 InfoLayer::onNextPage - 0x2b7860
