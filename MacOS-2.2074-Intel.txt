@@ -799,6 +799,7 @@ cocos2d::CCDirector::setViewport - 0x470d60
 cocos2d::CCDirector::CCDirector - 0x46f5d0
 cocos2d::CCDirector::~CCDirector - 0x46fa50
 cocos2d::CCDirector::convertToGL - 0x470e50
+cocos2d::CCDirector::convertToUI - 0x470f70
 cocos2d::CCDirector::drawScene - 0x46fe90
 cocos2d::CCDirector::end - 0x4714b0
 cocos2d::CCDirector::pause - 0x4718c0
@@ -2597,6 +2598,8 @@ EditorUI::createMoveMenu - 0x464d0
 EditorUI::createObject - 0x3aa80
 EditorUI::createRockBases - 0x5fd600
 EditorUI::createUndoObject - 0x3d3e0
+EditorUI::deactivateRotationControl - 0xbf40
+EditorUI::deactivateTransformControl - 0xc200
 EditorUI::deleteObject - 0x32f70
 EditorUI::deselectAll - 0x33240
 EditorUI::deselectObject - 0x33450
@@ -2660,6 +2663,7 @@ EditorUI::onUpdateDeleteFilter - 0x32290
 EditorUI::pasteObjects - 0x3ac10
 EditorUI::playtestStopped - 0x3df80
 EditorUI::processSelectObjects - 0x3d880
+EditorUI::redoLastAction - 0xc740
 EditorUI::reloadCustomItems - 0x318f0
 EditorUI::resetSelectedObjectsColor - 0x4a720
 EditorUI::resetUI - 0x2ac40
@@ -2687,6 +2691,8 @@ EditorUI::toggleStickyControls - 0x2d590
 EditorUI::toggleSwipe - 0xc3d0
 EditorUI::transformObject - 0x4be30
 EditorUI::transformObjectCall - 0x4ae10
+EditorUI::transformObjects - 0x40ec0
+EditorUI::undoLastAction - 0xc6e0
 EditorUI::updateButtons - 0x2cdd0
 EditorUI::updateCreateMenu - 0x2e710
 EditorUI::updateDeleteButtons - 0x325d0
@@ -3756,13 +3762,14 @@ GJRotateCommandLayer::onClose - 0x5520
 GJRotateCommandLayer::textChanged - 0x4f80
 GJRotateCommandLayer::valuePopupClosed - 0x4af0
 GJRotateCommandLayer::init - 0x1d60
+GJRotationControl::create - 0xbe40
 GJRotationControl::init - 0x51c10
 GJRotationControl::draw - 0x52210
 GJRotationControl::ccTouchBegan - 0x51e80
 GJRotationControl::ccTouchMoved - 0x51fa0
 GJRotationControl::ccTouchEnded - 0x52100
 GJRotationControl::ccTouchCancelled - 0x521d0
-GJRotationControl::finishTouch - 0xbf40
+GJRotationControl::finishTouch - 0x4e840
 GJRotationControl::setAngle - 0x51d00
 GJRotationControl::updateSliderPosition - 0x51d80
 GJScaleControl::create - 0xbfe0
@@ -3851,6 +3858,7 @@ GJTransformControl::ccTouchCancelled - 0x54570
 GJTransformControl::applyRotation - 0x41470
 GJTransformControl::onToggleLockScale - 0x537b0
 GJTransformControl::refreshControl - 0x4ab90
+GJTransformControl::scaleButtons - 0x3e380
 GJTransformControl::updateButtons - 0x4b1b0
 GJUINode::create - 0x4b5100
 GJUINode::draw - 0x4b8390
@@ -4123,6 +4131,7 @@ LevelEditorLayer::saveEditorPosition - 0xe9730
 LevelEditorLayer::toggleGround - 0xdf280
 LevelEditorLayer::transferDefaultColors - 0xed150
 LevelEditorLayer::tryUpdateSpeedObject - 0xea170
+LevelEditorLayer::undoLastAction - 0xe3a40
 LevelEditorLayer::unlockAllLayers - 0xe9c60
 LevelEditorLayer::updateEditor - 0xddb40
 LevelEditorLayer::updateEditorMode - 0xdeeb0

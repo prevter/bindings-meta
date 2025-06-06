@@ -2374,6 +2374,8 @@ EditorUI::scaleXChanged - 0x3e7ad0
 EditorUI::scaleYChanged - 0x3e7ec4
 EditorUI::scaleXYChanged - 0x3e7f6c
 EditorUI::activateRotationControl - 0x3e6664
+EditorUI::activateScaleControl - 0x3e7408
+EditorUI::activateTransformControl - 0x3e803c
 EditorUI::canSelectObject - 0x3e57f8
 EditorUI::clickOnPosition - 0x3dea18
 EditorUI::constrainGameLayerPosition - 0x3dc880
@@ -2383,6 +2385,8 @@ EditorUI::createLoop - 0x3eb930
 EditorUI::createMoveMenu - 0x3ebe14
 EditorUI::createObject - 0x3e4914
 EditorUI::createUndoObject - 0x3e62ac
+EditorUI::deactivateRotationControl - 0x3bf430
+EditorUI::deactivateTransformControl - 0x3bf614
 EditorUI::deselectAll - 0x3e1f84
 EditorUI::doCopyObjects - 0x3e6d64
 EditorUI::doPasteObjects - 0x3e6e5c
@@ -2454,6 +2458,7 @@ EditorUI::toggleStickyControls - 0x3de424
 EditorUI::toggleSwipe - 0x3bf690
 EditorUI::transformObject - 0x3ef1e0
 EditorUI::transformObjectCall - 0x3ee598
+EditorUI::transformObjects - 0x3e8474
 EditorUI::undoLastAction - 0x3bf900
 EditorUI::updateButtons - 0x3dde88
 EditorUI::updateCreateMenu - 0x3def70
@@ -3192,12 +3197,15 @@ GJRobotSprite::init - 0x23f13c
 GJRobotSprite::init - 0x23f0b8
 GJRobotSprite::updateColors - 0x23faf0
 GJRobotSprite::updateFrame - 0x23f5ec
+GJRotationControl::GJRotationControl - 0x3f4734
+GJRotationControl::create - 0x3bf3bc
 GJRotationControl::init - 0x3f27d4
 GJRotationControl::draw - 0x3f2ba8
 GJRotationControl::ccTouchBegan - 0x3f29dc
 GJRotationControl::ccTouchMoved - 0x3f2adc
 GJRotationControl::ccTouchEnded - 0x3f2b58
 GJRotationControl::ccTouchCancelled - 0x3f2b8c
+GJRotationControl::finishTouch - 0x3f0188
 GJScaleControl::init - 0x3f2c10
 GJScaleControl::ccTouchBegan - 0x3f31a4
 GJScaleControl::ccTouchMoved - 0x3f3330
@@ -3263,6 +3271,8 @@ GJTransformControl::ccTouchEnded - 0x3f42a4
 GJTransformControl::ccTouchCancelled - 0x3f447c
 GJTransformControl::applyRotation - 0x3e894c
 GJTransformControl::onToggleLockScale - 0x3f3ae4
+GJTransformControl::refreshControl - 0x3ee31c
+GJTransformControl::scaleButtons - 0x3e6b10
 GJTransformControl::updateButtons - 0x3ee8a8
 GJUINode::draw - 0x4ed2c
 GJUINode::highlightButton - 0x4e370
@@ -3491,6 +3501,7 @@ LevelEditorLayer::removeSpecial - 0x35af54
 LevelEditorLayer::resetToggledGroupsAndObjects - 0x361304
 LevelEditorLayer::rotationForSlopeNearObject - 0x35a114
 LevelEditorLayer::transferDefaultColors - 0x35fdcc
+LevelEditorLayer::undoLastAction - 0x35bcac
 LevelEditorLayer::updateAnimateOnTriggerObjects - 0x358b20
 LevelEditorLayer::updateBlendValues - 0x360b9c
 LevelEditorLayer::updateEditor - 0x357bd8
