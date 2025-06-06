@@ -2563,6 +2563,7 @@ EditorUI::createLoop - 0x3fa34
 EditorUI::createMoveMenu - 0x400a8
 EditorUI::createObject - 0x35d7c
 EditorUI::createUndoObject - 0x37f50
+EditorUI::createUndoSelectObject - 0x2e58c
 EditorUI::deactivateRotationControl - 0xd338
 EditorUI::deactivateTransformControl - 0xd5dc
 EditorUI::deselectAll - 0x328b0
@@ -5787,6 +5788,7 @@ UISettingsGameObject::init - 0x1872d4
 UISettingsGameObject::customObjectSetup - 0x187f74
 UISettingsGameObject::getSaveString - 0x187324
 UndoObject::create - 0xc7594
+UndoObject::createWithArray - 0xca030
 UpdateAccountSettingsPopup::keyBackClicked - 0x238b68
 UpdateAccountSettingsPopup::updateSettingsFinished - 0x238964
 UpdateAccountSettingsPopup::updateSettingsFailed - 0x238a7c
