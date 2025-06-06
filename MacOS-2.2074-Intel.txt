@@ -53,6 +53,7 @@ cocos2d::CCActionEase::stop - 0x4fe580
 cocos2d::CCActionEase::update - 0x4fe5b0
 cocos2d::CCActionEase::reverse - 0x4fe5d0
 cocos2d::CCActionEase::getInnerAction - 0x4fe5f0
+cocos2d::CCEaseRateAction::create - 0x4fe600
 cocos2d::CCEaseRateAction::~CCEaseRateAction - 0x4fe860
 cocos2d::CCEaseRateAction::copyWithZone - 0x4fe710
 cocos2d::CCEaseRateAction::reverse - 0x4fe8e0
