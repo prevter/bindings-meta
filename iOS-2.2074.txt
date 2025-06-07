@@ -2647,6 +2647,7 @@ GameLevelManager::gotoLevelPage - 0x9cd20
 GameLevelManager::handleIt - 0x8c0bc
 GameLevelManager::hasDownloadedLevel - 0xa3854
 GameLevelManager::invalidateMessages - 0xa9250
+GameLevelManager::isDLActive - 0x9d250
 GameLevelManager::isFollowingUser - 0x9df80
 GameLevelManager::limitSavedLevels - 0x9d9e8
 GameLevelManager::makeTimeStamp - 0x9cf68
@@ -2654,6 +2655,7 @@ GameLevelManager::messageWasRemoved - 0xa933c
 GameLevelManager::onDeleteUserMessagesCompleted - 0x92294
 GameLevelManager::onGetGJDailyLevelStateCompleted - 0x93e20
 GameLevelManager::onGetGJSecretRewardCompleted - 0x955f4
+GameLevelManager::onGetGJUserInfoCompleted - 0x90bb4
 GameLevelManager::onGetOnlineLevelsCompleted - 0x8e490
 GameLevelManager::onProcessHttpRequestCompleted - 0x8be3c
 GameLevelManager::onUploadLevelListCompleted - 0x95464
@@ -2674,6 +2676,7 @@ GameLevelManager::updateLevel - 0xa44a0
 GameLevelManager::updateSavedLevelList - 0xa2948
 GameLevelManager::updateUserScore - 0xa5620
 GameLevelManager::uploadUserMessage - 0xa8ba4
+GameLevelManager::userInfoForAccountID - 0x9759c
 GameLevelManager::userNameForUserID - 0x9735c
 GameLevelManager::writeSpecialFilters - 0xa0d2c
 GameLevelOptionsLayer::create - 0x2e20cc

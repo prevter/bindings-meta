@@ -2931,6 +2931,7 @@ GameLevelManager::markLevelAsRatedDemon - 0x48b1c8
 GameLevelManager::onGetFriendRequestsCompleted - 0x46c964
 GameLevelManager::onGetGJChallengesCompleted - 0x46f5b0
 GameLevelManager::onGetGJDailyLevelStateCompleted - 0x470324
+GameLevelManager::onGetGJUserInfoCompleted - 0x46b2a8
 GameLevelManager::onGetLeaderboardScoresCompleted - 0x468fa0
 GameLevelManager::onGetOnlineLevelsCompleted - 0x46708c
 GameLevelManager::onProcessHttpRequestCompleted - 0x464438
@@ -2974,6 +2975,7 @@ GameLevelManager::uploadFriendRequest - 0x496bfc
 GameLevelManager::uploadLevel - 0x482908
 GameLevelManager::uploadLevelList - 0x486180
 GameLevelManager::uploadUserMessage - 0x491cac
+GameLevelManager::userInfoForAccountID - 0x475bfc
 GameLevelManager::userNameForUserID - 0x475748
 GameLevelManager::writeSpecialFilters - 0x4848d4
 GameLevelOptionsLayer::create - 0x246194

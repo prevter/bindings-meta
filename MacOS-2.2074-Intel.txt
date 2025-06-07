@@ -2986,6 +2986,7 @@ GameLevelManager::onDeleteServerLevelListCompleted - 0x514f40
 GameLevelManager::onGetFriendRequestsCompleted - 0x50e7b0
 GameLevelManager::onGetGJChallengesCompleted - 0x510b00
 GameLevelManager::onGetGJDailyLevelStateCompleted - 0x512730
+GameLevelManager::onGetGJUserInfoCompleted - 0x50d1a0
 GameLevelManager::onGetLeaderboardScoresCompleted - 0x50a9d0
 GameLevelManager::onGetLevelListsCompleted - 0x5145d0
 GameLevelManager::onGetOnlineLevelsCompleted - 0x508660
