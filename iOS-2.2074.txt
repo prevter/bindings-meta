@@ -4664,7 +4664,10 @@ SmartTemplateCell::draw - 0x1159a0
 SongCell::init - 0x112de8
 SongCell::draw - 0x112e18
 SongCell::loadFromObject - 0x1081fc
+SongCell::onClick - 0x112df4
 SongCell::updateBGColor - 0x10862c
+SongInfoLayer::create - 0x3a033c
+SongInfoLayer::create - 0x39ff80
 SongInfoLayer::keyBackClicked - 0x3a1940
 SongInfoObject::create - 0x158280
 SongInfoObject::create - 0x15c574

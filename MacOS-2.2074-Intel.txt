@@ -5736,6 +5736,9 @@ SmartTemplateCell::loadFromObject - 0x23b400
 SongCell::init - 0x241b80
 SongCell::draw - 0x241bc0
 SongCell::loadFromObject - 0x235330
+SongCell::onClick - 0x241ba0
+SongInfoLayer::create - 0x5e8d00
+SongInfoLayer::create - 0x5e8700
 SongInfoLayer::keyBackClicked - 0x5ea640
 SongInfoLayer::init - 0x5e9240
 SongInfoLayer::showCustomMusicUnlockInfo - 0x5ea430

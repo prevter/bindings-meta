@@ -4380,6 +4380,8 @@ SongCell::init - 0x3c7f0
 SongCell::draw - 0xad710
 SongCell::loadFromObject - 0xb3990
 SongCell::onClick - 0xb3da0
+SongInfoLayer::create - 0x47a130
+SongInfoLayer::create - 0x479f20
 SongInfoLayer::keyBackClicked - 0x84650
 SongInfoLayer::init - 0x47a450
 SongInfoObject::create - 0x32f0d0
