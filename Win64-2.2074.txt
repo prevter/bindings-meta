@@ -203,6 +203,7 @@ GameObject::getStartPos - 0x136060
 GameObject::addColorSprite - 0x18b830
 GameObject::addColorSpriteToParent - 0x199040
 GameObject::addColorSpriteToSelf - 0x199240
+GameObject::addCustomChild - 0x194330
 GameObject::addGlow - 0x18af60
 GameObject::commonSetup - 0x18ad70
 GameObject::copyGroups - 0x1999c0
@@ -1795,6 +1796,7 @@ GJBaseGameLayer::activateSFXTrigger - 0x23b6c0
 GJBaseGameLayer::activateSongEditTrigger - 0x23b3b0
 GJBaseGameLayer::activateSongTrigger - 0x23b030
 GJBaseGameLayer::addAreaEffect - 0x2221a0
+GJBaseGameLayer::addGuideArt - 0x23f940
 GJBaseGameLayer::addToGroups - 0x21eb90
 GJBaseGameLayer::addUIObject - 0x220c70
 GJBaseGameLayer::animateInDualGroundNew - 0x20deb0

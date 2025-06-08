@@ -1695,6 +1695,7 @@ GameObject::getStartPos - 0x1e1bd0
 GameObject::addColorSprite - 0x58cc00
 GameObject::addColorSpriteToParent - 0x592300
 GameObject::addColorSpriteToSelf - 0x5a6020
+GameObject::addCustomChild - 0x5a3240
 GameObject::addGlow - 0x58a5c0
 GameObject::assignUniqueID - 0x58a5a0
 GameObject::createAndAddParticle - 0x59d770
@@ -3444,6 +3445,7 @@ GJBaseGameLayer::updateDualGround - 0x113e30
 GJBaseGameLayer::updateEnterEffects - 0x10e8e0
 GJBaseGameLayer::updateExtraGameLayers - 0x12c410
 GJBaseGameLayer::updateGradientLayers - 0x129310
+GJBaseGameLayer::updateGuideArt - 0x143360
 GJBaseGameLayer::updateKeyframeOrder - 0x13b9d0
 GJBaseGameLayer::updateLevelColors - 0x103350
 GJBaseGameLayer::updateMaxGameplayY - 0x147b20

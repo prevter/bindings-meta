@@ -1676,6 +1676,7 @@ GameObject::getType - 0x1999dc
 GameObject::setType - 0x1999e4
 GameObject::getStartPos - 0x1999ec
 GameObject::addColorSprite - 0x4d83b4
+GameObject::addCustomChild - 0x4dd6a8
 GameObject::addEmptyGlow - 0x4d825c
 GameObject::addGlow - 0x4d7bd0
 GameObject::copyGroups - 0x4e0b44
@@ -3337,6 +3338,7 @@ GJBaseGameLayer::updateCamera - 0x11a738
 GJBaseGameLayer::updateCounters - 0x114398
 GJBaseGameLayer::updateDualGround - 0xf365c
 GJBaseGameLayer::updateEnterEffects - 0xedfd4
+GJBaseGameLayer::updateGuideArt - 0x11a0e0
 GJBaseGameLayer::updateKeyframeOrder - 0x11403c
 GJBaseGameLayer::updateLevelColors - 0xe5144
 GJBaseGameLayer::updateProximityVolumeEffects - 0x11c754

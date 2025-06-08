@@ -1653,6 +1653,7 @@ GameObject::getType - 0x22ea8c
 GameObject::setType - 0x22ea94
 GameObject::getStartPos - 0x22ea9c
 GameObject::addColorSprite - 0x254690
+GameObject::addCustomChild - 0x259a28
 GameObject::addGlow - 0x254034
 GameObject::determineSlopeDirection - 0x25c100
 GameObject::getGroupID - 0x25c624
@@ -2889,6 +2890,7 @@ GJBaseGameLayer::addKeyframe - 0x1fd18c
 GJBaseGameLayer::activatedAudioTrigger - 0x207e20
 GJBaseGameLayer::activateSFXTrigger - 0x204ff0
 GJBaseGameLayer::activateSongEditTrigger - 0x204e8c
+GJBaseGameLayer::addGuideArt - 0x2097dc
 GJBaseGameLayer::addToGroups - 0x1f3f3c
 GJBaseGameLayer::applyShake - 0x20574c
 GJBaseGameLayer::bumpPlayer - 0x1eab1c
