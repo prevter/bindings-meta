@@ -1010,6 +1010,7 @@ EditLevelLayer::confirmDelete - 0xd75d0
 EditLevelLayer::confirmMoveToTop - 0xd7e90
 EditLevelLayer::init - 0xd3f10
 EditLevelLayer::onBack - 0xd80e0
+EditLevelLayer::onEdit - 0xd6d80
 EditLevelLayer::onGuidelines - 0xd52e0
 EditLevelLayer::onHelp - 0xd7c50
 EditLevelLayer::onLevelInfo - 0xd5500
@@ -1147,6 +1148,7 @@ EditorUI::deselectTargetPortals - 0xe51b0
 EditorUI::doCopyObjects - 0x111900
 EditorUI::doPasteObjects - 0x111a90
 EditorUI::dynamicGroupUpdate - 0x117000
+EditorUI::editButtonUsable - 0x1182f0
 EditorUI::editGroup - 0x11d880
 EditorUI::editObject - 0x11a510
 EditorUI::editObjectSpecial - 0x11c4b0
@@ -4025,6 +4027,7 @@ SetupObjectOptionsPopup::onReverse - 0x3e8c60
 SetupObjectOptionsPopup::onSinglePlayerTouch - 0x3e8d20
 SetupObjectOptionsPopup::onToggleAreaParent - 0x3e8a10
 SetupObjectOptionsPopup::onToggleGroupParent - 0x3e8980
+SetupObjectTogglePopup::create - 0x411b70
 SetupObjectTogglePopup::onClose - 0x40c730
 SetupObjectTogglePopup::valueDidChange - 0x4125e0
 SetupObjectTogglePopup::init - 0x411c90
@@ -4129,6 +4132,7 @@ SetupRotateGameplayPopup::valueDidChange - 0x429cc0
 SetupRotateGameplayPopup::init - 0x429280
 SetupRotatePopup::onClose - 0x42acd0
 SetupRotatePopup::onCustomToggleTriggerValue - 0x42ad70
+SetupRotatePopup::init - 0x42a770
 SetupSequenceTriggerPopup::create - 0x42b000
 SetupSequenceTriggerPopup::onCustomToggleTriggerValue - 0x42c340
 SetupSequenceTriggerPopup::init - 0x42b130
@@ -4265,6 +4269,7 @@ SetupTimeWarpPopup::onClose - 0x287920
 SetupTimeWarpPopup::init - 0x44ae50
 SetupTimeWarpPopup::sliderChanged - 0x44b3d0
 SetupTimeWarpPopup::updateTimeWarpLabel - 0x44b4a0
+SetupTouchTogglePopup::create - 0x44b5e0
 SetupTouchTogglePopup::determineStartValues - 0x44c350
 SetupTouchTogglePopup::onClose - 0x44c880
 SetupTouchTogglePopup::textChanged - 0x44c760
@@ -4278,8 +4283,10 @@ SetupTouchTogglePopup::updateTargetID - 0x3fc130
 SetupTouchTogglePopup::updateTextInputLabel - 0x3fc0b0
 SetupTransformPopup::create - 0x44c920
 SetupTransformPopup::init - 0x44ca30
+SetupZoomTriggerPopup::create - 0x465b70
 SetupZoomTriggerPopup::determineStartValues - 0x287910
 SetupZoomTriggerPopup::onClose - 0x287920
+SetupZoomTriggerPopup::init - 0x465c80
 SFXBrowser::registerWithTouchDispatcher - 0x425d0
 SFXBrowser::keyBackClicked - 0x4687f0
 SFXBrowser::musicActionFinished - 0x467360

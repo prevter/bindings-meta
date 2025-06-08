@@ -2494,6 +2494,7 @@ EditLevelLayer::onClosePopup - 0x1ec7c0
 EditLevelLayer::confirmDelete - 0x1ead40
 EditLevelLayer::confirmMoveToTop - 0x1eafd0
 EditLevelLayer::init - 0x1e87a0
+EditLevelLayer::onEdit - 0x1e9db0
 EditLevelLayer::onGuidelines - 0x1eb5e0
 EditLevelLayer::onHelp - 0x1eae30
 EditLevelLayer::onLevelInfo - 0x1eb320
@@ -5291,6 +5292,7 @@ SetupAudioLineGuidePopup::init - 0x56cbf0
 SetupAudioLineGuidePopup::onSpeed - 0x56d340
 SetupAudioTriggerPopup::valueDidChange - 0x4a4700
 SetupBGSpeedTrigger::init - 0x4f4910
+SetupCameraEdgePopup::create - 0x570e20
 SetupCameraEdgePopup::determineStartValues - 0x5720f0
 SetupCameraEdgePopup::onClose - 0x572390
 SetupCameraEdgePopup::textChanged - 0x572280
@@ -5303,6 +5305,7 @@ SetupCameraModePopup::determineStartValues - 0x496b80
 SetupCameraModePopup::onClose - 0x496e70
 SetupCameraModePopup::init - 0x495d30
 SetupCameraModePopup::updateCameraPaddingLabel - 0x496a80
+SetupCameraOffsetTrigger::create - 0x64b110
 SetupCameraOffsetTrigger::determineStartValues - 0x64d090
 SetupCameraOffsetTrigger::onClose - 0x64dbc0
 SetupCameraOffsetTrigger::textChanged - 0x64d890
@@ -5327,6 +5330,7 @@ SetupCollisionTriggerPopup::init - 0x382240
 SetupCollisionTriggerPopup::onItemID2Arrow - 0x382f70
 SetupCollisionTriggerPopup::onItemIDArrow - 0x382eb0
 SetupCollisionTriggerPopup::onTargetIDArrow - 0x383030
+SetupCountTriggerPopup::create - 0x2a7700
 SetupCountTriggerPopup::determineStartValues - 0x2a8e10
 SetupCountTriggerPopup::onClose - 0x2a93a0
 SetupCountTriggerPopup::textChanged - 0x2a9140
@@ -5426,6 +5430,7 @@ SetupObjectOptionsPopup::show - 0x306bb0
 SetupObjectOptionsPopup::determineStartValues - 0x306760
 SetupObjectOptionsPopup::onClose - 0x306c10
 SetupObjectOptionsPopup::init - 0x3039a0
+SetupObjectTogglePopup::create - 0x3624f0
 SetupObjectTogglePopup::onClose - 0x3631a0
 SetupObjectTogglePopup::valueDidChange - 0x363120
 SetupObjectTogglePopup::init - 0x362720
@@ -5462,10 +5467,12 @@ SetupPulsePopup::onUpdateCopyColor - 0x39b3b0
 SetupPulsePopup::onUpdateCustomColor - 0x39ac30
 SetupPulsePopup::updateCopyColorTextInputLabel - 0x39b6e0
 SetupPulsePopup::updateTextInputLabel - 0x39b4c0
+SetupRandAdvTriggerPopup::create - 0x37a4e0
 SetupRandAdvTriggerPopup::onClose - 0x37be30
 SetupRandAdvTriggerPopup::textChanged - 0x37be10
 SetupRandAdvTriggerPopup::init - 0x37a720
 SetupRandAdvTriggerPopup::updateGroupIDButtons - 0x37b190
+SetupRandTriggerPopup::create - 0x5cce60
 SetupRandTriggerPopup::determineStartValues - 0x5ce3b0
 SetupRandTriggerPopup::onClose - 0x5ce990
 SetupRandTriggerPopup::textChanged - 0x5ce6a0
@@ -5572,12 +5579,14 @@ SetupTimeWarpPopup::init - 0x4ef830
 SetupTimeWarpPopup::sliderChanged - 0x4efc70
 SetupTimeWarpPopup::updateTimeWarp - 0x4efed0
 SetupTimeWarpPopup::updateTimeWarpLabel - 0x4efd80
+SetupTouchTogglePopup::create - 0x2a4f80
 SetupTouchTogglePopup::determineStartValues - 0x2a6270
 SetupTouchTogglePopup::onClose - 0x2a65b0
 SetupTouchTogglePopup::textChanged - 0x2a6490
 SetupTouchTogglePopup::init - 0x2a51e0
 SetupTouchTogglePopup::onTargetIDArrow - 0x2a5dd0
 SetupTransformPopup::init - 0x4faa20
+SetupZoomTriggerPopup::create - 0x30cb90
 SetupZoomTriggerPopup::determineStartValues - 0x30d1e0
 SetupZoomTriggerPopup::onClose - 0x30d1f0
 SetupZoomTriggerPopup::init - 0x30cdc0
