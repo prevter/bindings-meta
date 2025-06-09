@@ -2939,6 +2939,7 @@ GameLevelManager::onGetLeaderboardScoresCompleted - 0x468fa0
 GameLevelManager::onGetOnlineLevelsCompleted - 0x46708c
 GameLevelManager::onProcessHttpRequestCompleted - 0x464438
 GameLevelManager::onRestoreItemsCompleted - 0x46acc0
+GameLevelManager::onUpdateUserScoreCompleted - 0x468d5c
 GameLevelManager::onUploadCommentCompleted - 0x469db8
 GameLevelManager::performNetworkTest - 0x4642b0
 GameLevelManager::ProcessHttpRequest - 0x464634

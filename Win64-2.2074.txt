@@ -1527,6 +1527,7 @@ GameLevelManager::onGetLevelSaveDataCompleted - 0x14d020
 GameLevelManager::onGetMapPacksCompleted - 0x14d680
 GameLevelManager::onGetOnlineLevelsCompleted - 0x14c3d0
 GameLevelManager::onProcessHttpRequestCompleted - 0x140d10
+GameLevelManager::onUpdateUserScoreCompleted - 0x155180
 GameLevelManager::onUploadCommentCompleted - 0x15bde0
 GameLevelManager::onUploadLevelCompleted - 0x14b1a0
 GameLevelManager::ProcessHttpRequest - 0x140b70

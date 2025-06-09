@@ -2661,6 +2661,7 @@ GameLevelManager::onGetGJSecretRewardCompleted - 0x955f4
 GameLevelManager::onGetGJUserInfoCompleted - 0x90bb4
 GameLevelManager::onGetOnlineLevelsCompleted - 0x8e490
 GameLevelManager::onProcessHttpRequestCompleted - 0x8be3c
+GameLevelManager::onUpdateUserScoreCompleted - 0x8f694
 GameLevelManager::onUploadLevelListCompleted - 0x95464
 GameLevelManager::performNetworkTest - 0x8bcbc
 GameLevelManager::ProcessHttpRequest - 0x8bf54
