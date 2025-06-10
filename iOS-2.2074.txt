@@ -3521,6 +3521,7 @@ LevelEditorLayer::updateObjectColors - 0x35ea84
 LevelEditorLayer::updateOptions - 0x357150
 LevelEditorLayer::updatePreviewParticles - 0x35fd34
 LevelInfoLayer::create - 0x2874c
+LevelInfoLayer::scene - 0x286f0
 LevelInfoLayer::keyBackClicked - 0x2f294
 LevelInfoLayer::keyDown - 0x2f2a0
 LevelInfoLayer::numberInputClosed - 0x2ecd0
