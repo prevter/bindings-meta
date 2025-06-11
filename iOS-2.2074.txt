@@ -4132,6 +4132,7 @@ PlayLayer::showCompleteEffect - 0x11e048
 PlayLayer::showCompleteText - 0x11e3a0
 PlayLayer::showHint - 0x122db8
 PlayLayer::showNewBest - 0x11eb6c
+PlayLayer::showRetryLayer - 0x11fc60
 PlayLayer::showTwoPlayerGuide - 0x11b870
 PlayLayer::spawnCircle - 0x11dfa0
 PlayLayer::startGame - 0x11d400

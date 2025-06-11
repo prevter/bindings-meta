@@ -4913,6 +4913,7 @@ PlayLayer::showCompleteEffect - 0xb4c70
 PlayLayer::showCompleteText - 0xb50f0
 PlayLayer::showHint - 0xbb420
 PlayLayer::showNewBest - 0xb5d40
+PlayLayer::showRetryLayer - 0xb7400
 PlayLayer::showTwoPlayerGuide - 0xb1890
 PlayLayer::spawnFirework - 0xb5a80
 PlayLayer::startGame - 0xb3c00
