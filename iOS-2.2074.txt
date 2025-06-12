@@ -2489,6 +2489,9 @@ EndLevelLayer::onEdit - 0x2f71c0
 EndLevelLayer::onHideLayer - 0x2f7420
 EndLevelLayer::onLevelLeaderboard - 0x2f73ac
 EndLevelLayer::onMenu - 0x2f70d4
+EndLevelLayer::onReplay - 0x2f6fc8
+EndLevelLayer::onRestartCheckpoint - 0x2f725c
+EndLevelLayer::playCoinEffect - 0x2f7998
 EndPortalObject::init - 0x3f66b0
 EndPortalObject::setPosition - 0x3f6b38
 EndPortalObject::setVisible - 0x3f6c30
@@ -3839,6 +3842,7 @@ MusicDownloadManager::downloadCustomSong - 0x159d0c
 MusicDownloadManager::downloadSFX - 0x15ced4
 MusicDownloadManager::downloadSong - 0x159a58
 MusicDownloadManager::getCustomContentURL - 0x15ab1c
+MusicDownloadManager::getDLObject - 0x1579ec
 MusicDownloadManager::getDownloadedSongs - 0x1595bc
 MusicDownloadManager::getSongInfo - 0x157c10
 MusicDownloadManager::getSongInfoObject - 0x157b4c
@@ -4018,6 +4022,7 @@ PlayerObject::setSecondColor - 0x21af40
 PlayerObject::setupStreak - 0x219cd4
 PlayerObject::spiderTestJump - 0x21ea64
 PlayerObject::spiderTestJumpInternal - 0x225474
+PlayerObject::startDashing - 0x226cc0
 PlayerObject::stopDashing - 0x21d57c
 PlayerObject::stopParticles - 0x21ea18
 PlayerObject::stopPlatformerJumpAnimation - 0x21effc

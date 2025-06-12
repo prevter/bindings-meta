@@ -143,6 +143,7 @@ cocos2d::CCNode::~CCNode - 0x260520
 cocos2d::CCNode::getActionByTag - 0x261ff0
 cocos2d::CCNode::boundingBox - 0x260cd0
 cocos2d::CCNode::convertToNodeSpace - 0x262c40
+cocos2d::CCNode::convertToNodeSpaceAR - 0x262cc0
 cocos2d::CCNode::convertToWorldSpace - 0x262c80
 cocos2d::CCNode::convertToWorldSpaceAR - 0x262d20
 cocos2d::CCNode::convertTouchToNodeSpace - 0x262de0
@@ -4569,13 +4570,14 @@ MusicDownloadManager::downloadSFX - 0x57d0e0
 MusicDownloadManager::downloadSong - 0x577410
 MusicDownloadManager::generateCustomContentURL - 0x5796c0
 MusicDownloadManager::getCustomContentURL - 0x579470
+MusicDownloadManager::getDLObject - 0x573dd0
 MusicDownloadManager::getDownloadedSongs - 0x576c20
 MusicDownloadManager::getSFXDownloadKey - 0x5780c0
 MusicDownloadManager::getSongInfo - 0x574190
 MusicDownloadManager::getSongInfoObject - 0x574030
 MusicDownloadManager::handleIt - 0x572fd0
 MusicDownloadManager::incrementPriorityForSong - 0x574000
-MusicDownloadManager::isDLActive - 0x573dd0
+MusicDownloadManager::isDLActive - 0x573d20
 MusicDownloadManager::isRunningActionForSongID - 0x573cb0
 MusicDownloadManager::isSFXDownloaded - 0x5784f0
 MusicDownloadManager::isSongDownloaded - 0x576cc0
