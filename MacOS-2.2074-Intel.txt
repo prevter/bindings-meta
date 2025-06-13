@@ -2152,6 +2152,7 @@ SetupTriggerPopup::createValueControlAdvanced - 0x227b30
 SetupTriggerPopup::getTriggerValue - 0x229d20
 SetupTriggerPopup::goToPage - 0x223650
 SetupTriggerPopup::init - 0x222f20
+SetupTriggerPopup::onPage - 0x223570
 SetupTriggerPopup::onToggleTriggerValue - 0x228f60
 SetupTriggerPopup::triggerArrowLeft - 0x2277b0
 SetupTriggerPopup::triggerArrowRight - 0x2278c0
