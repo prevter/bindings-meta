@@ -2608,7 +2608,11 @@ FriendRequestPopup::uploadActionFailed - 0x2d9bc8
 FriendRequestPopup::onClosePopup - 0x2d9c60
 FriendRequestPopup::FLAlert_Clicked - 0x2d9cd8
 FriendRequestPopup::init - 0x2d889c
+FriendRequestPopup::loadFromGJFriendRequest - 0x2d8ed0
+FriendRequestPopup::onAccept - 0x2d9744
+FriendRequestPopup::onBlock - 0x2d9880
 FriendRequestPopup::onClose - 0x2d8e64
+FriendRequestPopup::onRemove - 0x2d97e0
 FriendsProfilePage::create - 0x1d9ac0
 FriendsProfilePage::registerWithTouchDispatcher - 0x1da854
 FriendsProfilePage::keyBackClicked - 0x1da848
@@ -2623,6 +2627,7 @@ GameCell::init - 0x1d1424
 GameCell::draw - 0x1d1468
 GameLevelManager::sharedState - 0x8bbdc
 GameLevelManager::init - 0x95d68
+GameLevelManager::acceptFriendRequest - 0xac1c4
 GameLevelManager::createNewLevelList - 0x96a04
 GameLevelManager::deleteFriendRequests - 0xabc4c
 GameLevelManager::deleteLevel - 0x967dc

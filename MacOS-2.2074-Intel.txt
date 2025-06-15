@@ -2870,6 +2870,7 @@ FriendRequestPopup::loadFromGJFriendRequest - 0x291cf0
 FriendRequestPopup::onAccept - 0x292650
 FriendRequestPopup::onBlock - 0x2927f0
 FriendRequestPopup::onClose - 0x291c80
+FriendRequestPopup::onRemove - 0x292720
 FriendsProfilePage::create - 0x641780
 FriendsProfilePage::registerWithTouchDispatcher - 0x6427d0
 FriendsProfilePage::keyBackClicked - 0x6427a0
