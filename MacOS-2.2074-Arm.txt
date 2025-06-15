@@ -1920,6 +1920,7 @@ CCCircleWave::updatePosition - 0x134ec0
 CCContentLayer::setPosition - 0x6bea40
 CCCountdown::init - 0x6c2084
 CCCountdown::setOpacity - 0x6c2434
+CCCounterLabel::create - 0x45b328
 CCLightFlash::create - 0x451614
 CCLightFlash::init - 0x451678
 CCLightFlash::fadeAndRemove - 0x451c20
@@ -3913,6 +3914,7 @@ LevelBrowserLayer::FLAlert_Clicked - 0x3ec7a4
 LevelBrowserLayer::setIDPopupClosed - 0x3ec01c
 LevelBrowserLayer::updateResultArray - 0x3ecf38
 LevelBrowserLayer::cellPerformedAction - 0x3eccf0
+LevelBrowserLayer::createNewLevel - 0x3ec4a8
 LevelBrowserLayer::getItemsMatchingSearch - 0x3eabe4
 LevelBrowserLayer::getSearchTitle - 0x3eb248
 LevelBrowserLayer::init - 0x3e66c8
@@ -3922,6 +3924,7 @@ LevelBrowserLayer::onDeleteSelected - 0x3e82d8
 LevelBrowserLayer::onGoToFolder - 0x3e95b4
 LevelBrowserLayer::onGoToPage - 0x3e81a8
 LevelBrowserLayer::onInfo - 0x3e91dc
+LevelBrowserLayer::onNew - 0x3e8664
 LevelBrowserLayer::onNextPage - 0x3e8068
 LevelBrowserLayer::onPrevPage - 0x3e8034
 LevelBrowserLayer::onRefresh - 0x3e909c

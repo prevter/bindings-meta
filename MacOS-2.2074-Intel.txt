@@ -1942,6 +1942,7 @@ CCCircleWave::updatePosition - 0x167e60
 CCContentLayer::setPosition - 0x7ad2b0
 CCCountdown::init - 0x7b0e20
 CCCountdown::setOpacity - 0x7b11e0
+CCCounterLabel::create - 0x4fb550
 CCLightFlash::create - 0x4f0560
 CCLightFlash::init - 0x4f05d0
 CCLightFlash::cleanupFlash - 0x4f0e50
@@ -4046,6 +4047,7 @@ LevelBrowserLayer::FLAlert_Clicked - 0x47e980
 LevelBrowserLayer::setIDPopupClosed - 0x47e1a0
 LevelBrowserLayer::updateResultArray - 0x47f180
 LevelBrowserLayer::cellPerformedAction - 0x47eef0
+LevelBrowserLayer::createNewLevel - 0x47e640
 LevelBrowserLayer::createNewList - 0x47e520
 LevelBrowserLayer::getItemsMatchingSearch - 0x47ca90
 LevelBrowserLayer::getSearchTitle - 0x47d170

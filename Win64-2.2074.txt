@@ -1928,6 +1928,7 @@ GJBaseGameLayer::toggleGroup - 0x21e810
 GJBaseGameLayer::triggerAdvancedFollowEditCommand - 0x2297e0
 GJBaseGameLayer::triggerAreaEffect - 0x221ee0
 GJBaseGameLayer::triggerGradientCommand - 0x21a3a0
+GJBaseGameLayer::triggerMoveCommand - 0x219690
 GJBaseGameLayer::triggerShaderCommand - 0x21bc80
 GJBaseGameLayer::triggerTransformCommand - 0x21a110
 GJBaseGameLayer::tryGetMainObject - 0x21f170
@@ -1984,6 +1985,7 @@ GJDifficultySprite::updateFeatureState - 0x29dbb0
 GJEffectManager::create - 0x2538f0
 GJEffectManager::init - 0x253950
 GJEffectManager::countForItem - 0x25b060
+GJEffectManager::createMoveCommand - 0x255370
 GJEffectManager::getColorAction - 0x254870
 GJEffectManager::getColorSprite - 0x254930
 GJEffectManager::loadFromState - 0x25cb40

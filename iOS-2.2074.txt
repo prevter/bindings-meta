@@ -1856,6 +1856,7 @@ CCCircleWave::draw - 0x16fb18
 CCCircleWave::updateTweenAction - 0x16f9e0
 CCCircleWave::init - 0x16f708
 CCContentLayer::setPosition - 0x1921c4
+CCCounterLabel::create - 0x3ec2c
 CCLightFlash::create - 0x34fb8
 CCLightFlash::init - 0x3501c
 CCLightFlash::playEffect - 0x35024
@@ -3444,6 +3445,7 @@ LevelBrowserLayer::FLAlert_Clicked - 0x4112c4
 LevelBrowserLayer::setIDPopupClosed - 0x410c4c
 LevelBrowserLayer::updateResultArray - 0x411900
 LevelBrowserLayer::cellPerformedAction - 0x411764
+LevelBrowserLayer::createNewLevel - 0x411048
 LevelBrowserLayer::getItemsMatchingSearch - 0x40fbbc
 LevelBrowserLayer::getSearchTitle - 0x4101ac
 LevelBrowserLayer::init - 0x40c1f8
@@ -3451,6 +3453,7 @@ LevelBrowserLayer::loadPage - 0x40ed84
 LevelBrowserLayer::onDeleteSelected - 0x40ddb4
 LevelBrowserLayer::onGoToPage - 0x40dcb0
 LevelBrowserLayer::onInfo - 0x40e7a0
+LevelBrowserLayer::onNew - 0x40e01c
 LevelBrowserLayer::onNextPage - 0x40db78
 LevelBrowserLayer::onPrevPage - 0x40db44
 LevelBrowserLayer::onSaved - 0x40e520
