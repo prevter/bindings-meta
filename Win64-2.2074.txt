@@ -1555,6 +1555,8 @@ GameLevelManager::updateLevelOrders - 0x145680
 GameLevelManager::updateLevelRewards - 0x144380
 GameLevelManager::updateSavedLevelList - 0x14ef40
 GameLevelManager::updateUserScore - 0x153790
+GameLevelManager::uploadComment - 0x15b510
+GameLevelManager::uploadFriendRequest - 0x15dba0
 GameLevelManager::uploadUserMessage - 0x1588b0
 GameLevelManager::userNameForUserID - 0x143e80
 GameLevelManager::writeSpecialFilters - 0x14b8b0

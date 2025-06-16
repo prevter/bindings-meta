@@ -2689,6 +2689,8 @@ GameLevelManager::tryGetUsername - 0x9742c
 GameLevelManager::updateLevel - 0xa44a0
 GameLevelManager::updateSavedLevelList - 0xa2948
 GameLevelManager::updateUserScore - 0xa5620
+GameLevelManager::uploadComment - 0xaa938
+GameLevelManager::uploadFriendRequest - 0xab968
 GameLevelManager::uploadUserMessage - 0xa8ba4
 GameLevelManager::userInfoForAccountID - 0x9759c
 GameLevelManager::userNameForUserID - 0x9735c
@@ -4660,6 +4662,10 @@ ShareCommentLayer::uploadActionFinished - 0x1d6a10
 ShareCommentLayer::uploadActionFailed - 0x1d6aa0
 ShareCommentLayer::onClosePopup - 0x1d6b24
 ShareCommentLayer::init - 0x1d53f0
+ShareCommentLayer::onClear - 0x1d61f0
+ShareCommentLayer::onClose - 0x1d62ac
+ShareCommentLayer::onPercent - 0x1d6124
+ShareCommentLayer::onShare - 0x1d6300
 ShareCommentLayer::updateCharCountLabel - 0x1d690c
 ShareLevelLayer::create - 0x27405c
 ShareLevelLayer::keyBackClicked - 0x275560

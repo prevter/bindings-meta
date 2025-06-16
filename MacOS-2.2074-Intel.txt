@@ -5682,6 +5682,7 @@ ShareCommentLayer::uploadActionFailed - 0x5c9660
 ShareCommentLayer::onClosePopup - 0x5c9780
 ShareCommentLayer::init - 0x5c7820
 ShareCommentLayer::onClear - 0x5c8b70
+ShareCommentLayer::onClose - 0x5c8c10
 ShareCommentLayer::onPercent - 0x5c89e0
 ShareCommentLayer::onShare - 0x5c8c60
 ShareCommentLayer::updateCharCountLabel - 0x5c9450
