@@ -1809,6 +1809,7 @@ AudioAssetsBrowser::init - 0x6b0f20
 AudioAssetsBrowser::onInfo - 0x6b1494
 AudioEffectsLayer::draw - 0x407cdc
 AudioEffectsLayer::updateTweenAction - 0x407ba0
+AudioEffectsLayer::audioStep - 0x407970
 AudioEffectsLayer::resetAudioVars - 0x407928
 AudioLineGuideGameObject::init - 0x19221c
 AudioLineGuideGameObject::customObjectSetup - 0x192cf8

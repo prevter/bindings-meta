@@ -1770,6 +1770,7 @@ AudioAssetsBrowser::onInfo - 0x1d289c
 AudioEffectsLayer::create - 0x3bc848
 AudioEffectsLayer::draw - 0x3bcf70
 AudioEffectsLayer::updateTweenAction - 0x3bce70
+AudioEffectsLayer::audioStep - 0x3bcc5c
 AudioEffectsLayer::resetAudioVars - 0x3bcc14
 AudioLineGuideGameObject::init - 0x38f09c
 AudioLineGuideGameObject::customObjectSetup - 0x38f408
