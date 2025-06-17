@@ -2770,6 +2770,8 @@ GameStatsManager::collectReward - 0x333564
 GameStatsManager::completedDemonLevel - 0x330e60
 GameStatsManager::completedLevel - 0x330d54
 GameStatsManager::completedStarLevel - 0x330f2c
+GameStatsManager::countSecretChests - 0x33e264
+GameStatsManager::countUnlockedSecretChests - 0x33e2a8
 GameStatsManager::createReward - 0x332fb4
 GameStatsManager::createStoreItems - 0x325a70
 GameStatsManager::dataLoaded - 0x33f030

@@ -3140,6 +3140,8 @@ GameStatsManager::checkCoinAchievement - 0x6c8d0
 GameStatsManager::checkCoinsForLevel - 0x6f9a0
 GameStatsManager::completedDailyLevel - 0x73c90
 GameStatsManager::completedLevel - 0x6d6b0
+GameStatsManager::countSecretChests - 0x8bdd0
+GameStatsManager::countUnlockedSecretChests - 0x8be30
 GameStatsManager::createSecretChestItems - 0x5d080
 GameStatsManager::createSpecialChestItems - 0x5d1d0
 GameStatsManager::createStoreItems - 0x5a9f0

@@ -3071,6 +3071,8 @@ GameStatsManager::completedChallenge - 0x67008
 GameStatsManager::completedDailyLevel - 0x67884
 GameStatsManager::completedDemonLevel - 0x613f8
 GameStatsManager::completedStarLevel - 0x61598
+GameStatsManager::countSecretChests - 0x7fa48
+GameStatsManager::countUnlockedSecretChests - 0x7fa8c
 GameStatsManager::createSecretChestItems - 0x5243c
 GameStatsManager::createSpecialChestItems - 0x52580
 GameStatsManager::createStoreItems - 0x504f8
