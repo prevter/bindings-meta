@@ -2999,6 +2999,7 @@ GameManager::dataLoaded - 0x306384
 GameManager::firstLoad - 0x3076a8
 GameManager::activeIconForType - 0x2feb3c
 GameManager::addNewCustomObject - 0x302400
+GameManager::calculateBaseKeyForIcons - 0x2f6240
 GameManager::colorForIdx - 0x2fdae8
 GameManager::completedAchievement - 0x2f8464
 GameManager::countForType - 0x2febfc
@@ -3230,6 +3231,7 @@ GJAccountSettingsLayer::keyBackClicked - 0x238098
 GJAccountSettingsLayer::textInputShouldOffset - 0x237af0
 GJAccountSettingsLayer::textInputReturn - 0x237bc0
 GJAccountSettingsLayer::init - 0x235dd4
+GJActionManager::create - 0x5219f8
 GJActionManager::init - 0x521a8c
 GJBaseGameLayer::~GJBaseGameLayer - 0xe02d8
 GJBaseGameLayer::update - 0x119128
@@ -4586,6 +4588,7 @@ PlayerCheckpoint::init - 0xae214
 PlayerControlGameObject::init - 0x194730
 PlayerControlGameObject::customObjectSetup - 0x195378
 PlayerControlGameObject::getSaveString - 0x194780
+PlayerFireBoostSprite::create - 0x36c2a4
 PlayerFireBoostSprite::init - 0x388cac
 PlayerFireBoostSprite::animateFireIn - 0x384370
 PlayerFireBoostSprite::animateFireOut - 0x3843f0
@@ -4657,6 +4660,7 @@ PlayerObject::runNormalRotation - 0x36f618
 PlayerObject::runRotateAction - 0x371934
 PlayerObject::setSecondColor - 0x36dd8c
 PlayerObject::setupStreak - 0x36c84c
+PlayerObject::setYVelocity - 0x36c5dc
 PlayerObject::spiderTestJump - 0x3727c8
 PlayerObject::spiderTestJumpInternal - 0x37ad3c
 PlayerObject::startDashing - 0x37e290
@@ -4675,6 +4679,7 @@ PlayerObject::toggleSpiderMode - 0x38525c
 PlayerObject::toggleSwingMode - 0x383a5c
 PlayerObject::toggleVisibility - 0x37219c
 PlayerObject::tryPlaceCheckpoint - 0x371f50
+PlayerObject::updateCheckpointMode - 0x36cbb8
 PlayerObject::updateCollide - 0x379b88
 PlayerObject::updateDashAnimation - 0x370a18
 PlayerObject::updateEffects - 0x371df0
@@ -4692,9 +4697,11 @@ PlayerObject::updatePlayerRollFrame - 0x384bec
 PlayerObject::updatePlayerScale - 0x3827c8
 PlayerObject::updatePlayerShipFrame - 0x382d90
 PlayerObject::updatePlayerSpiderFrame - 0x386958
+PlayerObject::updatePlayerSpriteExtra - 0x36be6c
 PlayerObject::updatePlayerSwingFrame - 0x383e58
 PlayerObject::updateRotation - 0x371b20
 PlayerObject::updateRotation - 0x37a378
+PlayerObject::updateShipSpriteExtra - 0x36bf50
 PlayerObject::updateStreakBlend - 0x36ce30
 PlayerObject::updateSwingFire - 0x382814
 PlayerObject::updateTimeMod - 0x36c61c

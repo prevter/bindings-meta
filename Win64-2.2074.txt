@@ -3323,11 +3323,13 @@ PlayerObject::updatePlayerJetpackFrame - 0x388320
 PlayerObject::updatePlayerRollFrame - 0x3887f0
 PlayerObject::updatePlayerScale - 0x38a490
 PlayerObject::updatePlayerShipFrame - 0x3880f0
+PlayerObject::updatePlayerSpriteExtra - 0x388e80
 PlayerObject::updatePlayerSwingFrame - 0x388a20
 PlayerObject::updateRobotAnimationSpeed - 0x38b350
 PlayerObject::updateRotation - 0x377370
 PlayerObject::updateRotation - 0x37b1f0
 PlayerObject::updateShipRotation - 0x37ae10
+PlayerObject::updateShipSpriteExtra - 0x388f90
 PlayerObject::updateStreakBlend - 0x372f30
 PlayerObject::updateSwingFire - 0x385040
 PlayerObject::updateTimeMod - 0x38afc0

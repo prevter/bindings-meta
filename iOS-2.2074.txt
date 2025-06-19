@@ -2707,6 +2707,7 @@ GameManager::dataLoaded - 0x31b6a4
 GameManager::firstLoad - 0x31c908
 GameManager::activeIconForType - 0x31781c
 GameManager::addNewCustomObject - 0x319548
+GameManager::calculateBaseKeyForIcons - 0x311f24
 GameManager::checkUsedIcons - 0x316a40
 GameManager::colorForIdx - 0x316f24
 GameManager::countForType - 0x3178fc
@@ -2747,6 +2748,7 @@ GameManager::safePopScene - 0x31dab8
 GameManager::setGameVariable - 0x318f14
 GameManager::setIntGameVariable - 0x319274
 GameManager::setUGV - 0x3190a8
+GameManager::setupGameAnimations - 0x349e78
 GameManager::sheetNameForIcon - 0x317a00
 GameManager::stringForCustomObject - 0x3195f0
 GameManager::subYouTube - 0x3174fc
@@ -2873,6 +2875,7 @@ GJAccountSettingsLayer::keyBackClicked - 0x2d7798
 GJAccountSettingsLayer::textInputShouldOffset - 0x2d734c
 GJAccountSettingsLayer::textInputReturn - 0x2d73b8
 GJAccountSettingsLayer::init - 0x2d5888
+GJActionManager::create - 0x2fe5b8
 GJActionManager::init - 0x2fe634
 GJBaseGameLayer::~GJBaseGameLayer - 0x1dae3c
 GJBaseGameLayer::update - 0x200aec
@@ -3962,6 +3965,7 @@ PlayerCheckpoint::init - 0x126030
 PlayerControlGameObject::init - 0x390144
 PlayerControlGameObject::customObjectSetup - 0x3904f0
 PlayerControlGameObject::getSaveString - 0x390194
+PlayerFireBoostSprite::create - 0x219854
 PlayerFireBoostSprite::init - 0x22e9e0
 PlayerFireBoostSprite::animateFireIn - 0x22b19c
 PlayerFireBoostSprite::animateFireOut - 0x22b214
@@ -4034,6 +4038,7 @@ PlayerObject::runBallRotation - 0x21f098
 PlayerObject::runNormalRotation - 0x21c204
 PlayerObject::setSecondColor - 0x21af40
 PlayerObject::setupStreak - 0x219cd4
+PlayerObject::setYVelocity - 0x219b38
 PlayerObject::spiderTestJump - 0x21ea64
 PlayerObject::spiderTestJumpInternal - 0x225474
 PlayerObject::startDashing - 0x226cc0

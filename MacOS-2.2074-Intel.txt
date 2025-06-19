@@ -1710,6 +1710,7 @@ GameObject::getLastPosition - 0x5b2a90
 GameObject::getRelativeSpriteColor - 0x5b1ab0
 GameObject::groupOpacityMod - 0x5a7040
 GameObject::groupWasDisabled - 0x5a6a20
+GameObject::init - 0x58a2f0
 GameObject::isColorTrigger - 0x5b3020
 GameObject::isSettingsObject - 0x5b3690
 GameObject::isSpawnableTrigger - 0x5b2ac0
@@ -3058,6 +3059,7 @@ GameManager::dataLoaded - 0x375ba0
 GameManager::firstLoad - 0x377060
 GameManager::activeIconForType - 0x36d480
 GameManager::addNewCustomObject - 0x370fd0
+GameManager::calculateBaseKeyForIcons - 0x363550
 GameManager::checkUsedIcons - 0x36b860
 GameManager::colorForIdx - 0x36c520
 GameManager::completedAchievement - 0x365aa0
@@ -3300,6 +3302,7 @@ GJAccountSettingsLayer::textInputReturn - 0x28f440
 GJAccountSettingsLayer::createToggleButton - 0x28ec10
 GJAccountSettingsLayer::init - 0x28d440
 GJAccountSettingsLayer::onClose - 0x28ef80
+GJActionManager::create - 0x5f1dc0
 GJActionManager::init - 0x5f1e50
 GJActionManager::runInternalAction - 0x5f1e80
 GJActionManager::stopInternalAction - 0x5f1ed0
@@ -4732,6 +4735,7 @@ PlayerFireBoostSprite::create - 0x3ea580
 PlayerFireBoostSprite::init - 0x40b6c0
 PlayerFireBoostSprite::animateFireIn - 0x4066d0
 PlayerFireBoostSprite::animateFireOut - 0x406740
+PlayerFireBoostSprite::loopFireAnimation - 0x4063f0
 PlayerObject::create - 0x3e88e0
 PlayerObject::update - 0x3eb270
 PlayerObject::setPosition - 0x407b70
@@ -4804,6 +4808,7 @@ PlayerObject::runRotateAction - 0x3f0b00
 PlayerObject::saveToCheckpoint - 0x40a6b0
 PlayerObject::setSecondColor - 0x3ec3a0
 PlayerObject::setupStreak - 0x3eab20
+PlayerObject::setYVelocity - 0x3ea920
 PlayerObject::spawnScaleCircle - 0x401fe0
 PlayerObject::spiderTestJump - 0x3f1ae0
 PlayerObject::spiderTestJumpInternal - 0x3fbe50
@@ -4823,6 +4828,7 @@ PlayerObject::toggleSpiderMode - 0x4076c0
 PlayerObject::toggleSwingMode - 0x405d60
 PlayerObject::toggleVisibility - 0x3f1460
 PlayerObject::touchedObject - 0x40ad70
+PlayerObject::updateCheckpointMode - 0x3eaeb0
 PlayerObject::updateCollide - 0x3faae0
 PlayerObject::updateDashAnimation - 0x3efb90
 PlayerObject::updateEffects - 0x3f0ff0
@@ -4840,9 +4846,11 @@ PlayerObject::updatePlayerRollFrame - 0x406ff0
 PlayerObject::updatePlayerScale - 0x4049a0
 PlayerObject::updatePlayerShipFrame - 0x404fc0
 PlayerObject::updatePlayerSpiderFrame - 0x408f80
+PlayerObject::updatePlayerSpriteExtra - 0x3ea100
 PlayerObject::updatePlayerSwingFrame - 0x4061a0
 PlayerObject::updateRotation - 0x3f0d20
 PlayerObject::updateRotation - 0x3fb360
+PlayerObject::updateShipSpriteExtra - 0x3ea1d0
 PlayerObject::updateSpecial - 0x3f0f70
 PlayerObject::updateStreakBlend - 0x3eb160
 PlayerObject::updateSwingFire - 0x4049f0
