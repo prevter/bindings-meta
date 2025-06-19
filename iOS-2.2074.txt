@@ -288,7 +288,12 @@ cocos2d::CCSet::containsObject - 0x1af9b4
 cocos2d::CCSet::copy - 0x1af8e4
 cocos2d::CCSet::end - 0x1afa10
 cocos2d::CCSet::acceptVisitor - 0x1af8cc
+cocos2d::CCShaderCache::purgeSharedShaderCache - 0x12b69c
 cocos2d::CCShaderCache::sharedShaderCache - 0x12b5e4
+cocos2d::CCShaderCache::init - 0x12b64c
+cocos2d::CCShaderCache::addProgram - 0x12bd34
+cocos2d::CCShaderCache::loadDefaultShader - 0x12bac4
+cocos2d::CCShaderCache::loadDefaultShaders - 0x12b718
 cocos2d::CCShaderCache::programForKey - 0x12bcc8
 cocos2d::CCParticleSystem::initParticle - 0x197e0c
 cocos2d::CCParticleSystem::initWithDictionary - 0x196b0c

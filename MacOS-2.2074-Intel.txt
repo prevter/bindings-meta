@@ -362,10 +362,14 @@ cocos2d::CCSet::end - 0x79e4c0
 cocos2d::CCSet::mutableCopy - 0x79e2b0
 cocos2d::CCSet::removeObject - 0x79e3b0
 cocos2d::CCSet::acceptVisitor - 0x79e1c0
+cocos2d::CCShaderCache::purgeSharedShaderCache - 0x1f0430
 cocos2d::CCShaderCache::sharedShaderCache - 0x1f0310
+cocos2d::CCShaderCache::init - 0x1f03e0
+cocos2d::CCShaderCache::addProgram - 0x1f12e0
 cocos2d::CCShaderCache::loadDefaultShader - 0x1f0c90
 cocos2d::CCShaderCache::loadDefaultShaders - 0x1f0550
 cocos2d::CCShaderCache::programForKey - 0x1f11f0
+cocos2d::CCShaderCache::reloadDefaultShaders - 0x1f0e70
 cocos2d::CCParticleSystem::create - 0x7b1480
 cocos2d::CCParticleSystem::initParticle - 0x7b3670
 cocos2d::CCParticleSystem::initWithDictionary - 0x7b1800
@@ -573,7 +577,7 @@ cocos2d::CCGLProgram::setUniformLocationWithMatrix3fv - 0x419110
 cocos2d::CCGLProgram::setUniformLocationWithMatrix4fv - 0x4191b0
 cocos2d::CCGLProgram::setUniformsForBuiltins - 0x419200
 cocos2d::CCGLProgram::~CCGLProgram - 0x417cb0
-cocos2d::CCGLProgram::CCGLProgram - 0x417c10
+cocos2d::CCGLProgram::CCGLProgram - 0x417c60
 cocos2d::CCGLProgram::addAttribute - 0x4180e0
 cocos2d::CCGLProgram::compileShader - 0x417f00
 cocos2d::CCGLProgram::description - 0x4180b0
