@@ -4835,6 +4835,7 @@ PlayerObject::touchedObject - 0x40ad70
 PlayerObject::updateCheckpointMode - 0x3eaeb0
 PlayerObject::updateCollide - 0x3faae0
 PlayerObject::updateDashAnimation - 0x3efb90
+PlayerObject::updateDashArt - 0x37dbd0
 PlayerObject::updateEffects - 0x3f0ff0
 PlayerObject::updateGlowColor - 0x4088a0
 PlayerObject::updateInternalActions - 0x40b720

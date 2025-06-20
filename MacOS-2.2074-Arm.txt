@@ -4686,6 +4686,7 @@ PlayerObject::tryPlaceCheckpoint - 0x371f50
 PlayerObject::updateCheckpointMode - 0x36cbb8
 PlayerObject::updateCollide - 0x379b88
 PlayerObject::updateDashAnimation - 0x370a18
+PlayerObject::updateDashArt - 0x3ff300
 PlayerObject::updateEffects - 0x371df0
 PlayerObject::updateGlowColor - 0x386264
 PlayerObject::updateInternalActions - 0x388d0c
