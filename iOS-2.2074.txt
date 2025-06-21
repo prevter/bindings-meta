@@ -4017,6 +4017,7 @@ PlayerObject::isInNormalMode - 0x21c1bc
 PlayerObject::isSafeFlip - 0x22415c
 PlayerObject::isSafeHeadTest - 0x22d9b8
 PlayerObject::levelFlipping - 0x21d2fc
+PlayerObject::loadFromCheckpoint - 0x22e1c0
 PlayerObject::lockPlayer - 0x22d0b8
 PlayerObject::placeStreakPoint - 0x21e8b8
 PlayerObject::playCompleteEffect - 0x60a60
