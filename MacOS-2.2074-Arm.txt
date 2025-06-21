@@ -2695,6 +2695,8 @@ EndLevelLayer::onMenu - 0x417918
 EndLevelLayer::onReplay - 0x4177f4
 EndLevelLayer::onRestartCheckpoint - 0x417ab8
 EndLevelLayer::playCoinEffect - 0x41825c
+EndLevelLayer::playDiamondEffect - 0x418728
+EndLevelLayer::playEndEffect - 0x418c38
 EndPortalObject::init - 0x318a2c
 EndPortalObject::setPosition - 0x318ec4
 EndPortalObject::setVisible - 0x318fbc

@@ -2500,6 +2500,8 @@ EndLevelLayer::onMenu - 0x2f70d4
 EndLevelLayer::onReplay - 0x2f6fc8
 EndLevelLayer::onRestartCheckpoint - 0x2f725c
 EndLevelLayer::playCoinEffect - 0x2f7998
+EndLevelLayer::playDiamondEffect - 0x2f7e48
+EndLevelLayer::playEndEffect - 0x2f831c
 EndPortalObject::init - 0x3f66b0
 EndPortalObject::setPosition - 0x3f6b38
 EndPortalObject::setVisible - 0x3f6c30
@@ -2816,6 +2818,7 @@ GameStatsManager::isItemUnlocked - 0x32fb64
 GameStatsManager::isSecretChestUnlocked - 0x336044
 GameStatsManager::isSpecialChestUnlocked - 0x3360cc
 GameStatsManager::isStoreItemUnlocked - 0x32bd28
+GameStatsManager::processChallengeQueue - 0x334078
 GameStatsManager::purchaseItem - 0x32bdb0
 GameStatsManager::recountSpecialStats - 0x3351a4
 GameStatsManager::registerRewardsFromItem - 0x333604
@@ -3820,6 +3823,8 @@ MoreOptionsLayer::textInputReturn - 0xf2c18
 MoreOptionsLayer::googlePlaySignedIn - 0xf2c78
 MoreOptionsLayer::dropDownLayerWillClose - 0xf2ac4
 MoreOptionsLayer::goToPage - 0xf2024
+MoreOptionsLayer::onFMODDebug - 0xf1e00
+MoreOptionsLayer::onSongBrowser - 0xf1da8
 MoreSearchLayer::create - 0x57e9c
 MoreSearchLayer::audioNext - 0x5a488
 MoreSearchLayer::audioPrevious - 0x5a444
