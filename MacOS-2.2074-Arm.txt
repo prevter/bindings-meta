@@ -4633,6 +4633,7 @@ PlayerObject::disableSwingFire - 0x3807b8
 PlayerObject::doReversePlayer - 0x371620
 PlayerObject::enablePlayerControls - 0x386b50
 PlayerObject::fadeOutStreak2 - 0x38071c
+PlayerObject::flashPlayer - 0x37c04c
 PlayerObject::flipGravity - 0x372910
 PlayerObject::gameEventTriggered - 0x372c80
 PlayerObject::getActiveMode - 0x38294c

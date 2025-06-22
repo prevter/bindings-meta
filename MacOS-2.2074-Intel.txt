@@ -2640,6 +2640,7 @@ EditorUI::getSpriteButton - 0x2efb0
 EditorUI::getXMin - 0x2f470
 EditorUI::init - 0x9710
 EditorUI::isSpecialSnapObject - 0x4c2f0
+EditorUI::menuItemFromObjectString - 0x31f10
 EditorUI::moveForCommand - 0x4a7d0
 EditorUI::moveGamelayer - 0x2f800
 EditorUI::moveObject - 0x3ef90
