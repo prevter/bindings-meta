@@ -4007,6 +4007,7 @@ PlayerObject::createSpider - 0x2198e4
 PlayerObject::deactivateParticle - 0x21d328
 PlayerObject::deactivateStreak - 0x21a1dc
 PlayerObject::destroyFromHitHead - 0x22bf34
+PlayerObject::didHitHead - 0x2252b8
 PlayerObject::disableSwingFire - 0x2286b8
 PlayerObject::doReversePlayer - 0x21dd68
 PlayerObject::fadeOutStreak2 - 0x22861c
