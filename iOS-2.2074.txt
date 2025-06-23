@@ -3008,6 +3008,7 @@ GJBaseGameLayer::spawnPlayer2 - 0x1eb934
 GJBaseGameLayer::stopCameraShake - 0x20569c
 GJBaseGameLayer::switchToFlyMode - 0x1e7904
 GJBaseGameLayer::syncBGTextures - 0x204004
+GJBaseGameLayer::teleportPlayer - 0x1e53a8
 GJBaseGameLayer::toggleAudioVisualizer - 0x1dc3c8
 GJBaseGameLayer::toggleDualMode - 0x1e76c4
 GJBaseGameLayer::toggleFlipped - 0x1ea9b8
@@ -4034,6 +4035,7 @@ PlayerObject::playSpawnEffect - 0x227ff8
 PlayerObject::playSpiderDashEffect - 0x225fe0
 PlayerObject::postCollision - 0x21f410
 PlayerObject::preCollision - 0x21f300
+PlayerObject::preSlopeCollision - 0x223cb4
 PlayerObject::propellPlayer - 0x22d548
 PlayerObject::pushButton - 0x228864
 PlayerObject::releaseAllButtons - 0x22d074

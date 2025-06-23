@@ -4654,6 +4654,7 @@ PlayerObject::playingEndEffect - 0x386d90
 PlayerObject::playSpawnEffect - 0x37fe98
 PlayerObject::playSpiderDashEffect - 0x37b928
 PlayerObject::postCollision - 0x373790
+PlayerObject::preSlopeCollision - 0x379014
 PlayerObject::propellPlayer - 0x387134
 PlayerObject::pushButton - 0x380a44
 PlayerObject::releaseAllButtons - 0x386970
