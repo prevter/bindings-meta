@@ -3846,6 +3846,7 @@ SetupCameraOffsetTrigger::updateValueYLabel - 0x3ff560
 SetupCameraRotatePopup2::create - 0x3ffd20
 SetupCameraRotatePopup2::init - 0x3ffe30
 SetupCheckpointPopup::init - 0x450a20
+SetupCoinLayer::init - 0x457000
 SetupInstantCollisionTriggerPopup::updateDefaultTriggerValues - 0x402bc0
 SetupInstantCollisionTriggerPopup::valueDidChange - 0x402990
 SetupInstantCollisionTriggerPopup::init - 0x402270

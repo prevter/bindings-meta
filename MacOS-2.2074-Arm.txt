@@ -2122,7 +2122,10 @@ SetupTriggerPopup::getValue - 0x1dd09c
 SetupTriggerPopup::triggerValueFromSliderValue - 0x1dd478
 SetupTriggerPopup::triggerSliderValueFromValue - 0x1dd504
 SetupTriggerPopup::valuePopupClosed - 0x1de14c
+SetupTriggerPopup::addCloseButton - 0x1d6d74
+SetupTriggerPopup::addHelpButton - 0x1d6df4
 SetupTriggerPopup::addObjectToPage - 0x1d6a04
+SetupTriggerPopup::addTitle - 0x1d6cac
 SetupTriggerPopup::createEasingControls - 0x1dd5b4
 SetupTriggerPopup::createMultiTriggerItems - 0x1d71b0
 SetupTriggerPopup::createMultiTriggerItemsDefault - 0x1d70d0
@@ -2134,6 +2137,8 @@ SetupTriggerPopup::goToPage - 0x1d6540
 SetupTriggerPopup::init - 0x1d5eb4
 SetupTriggerPopup::onPage - 0x1d6454
 SetupTriggerPopup::onToggleTriggerValue - 0x1da960
+SetupTriggerPopup::postSetup - 0x1db304
+SetupTriggerPopup::preSetup - 0x1db2f0
 SetupTriggerPopup::triggerArrowLeft - 0x1d91ac
 SetupTriggerPopup::triggerArrowRight - 0x1d92d8
 SetupTriggerPopup::updateValue - 0x1da380
@@ -5201,6 +5206,7 @@ SetupCameraRotatePopup::valuePopupClosed - 0x4142ec
 SetupCameraRotatePopup::init - 0x412998
 SetupCameraRotatePopup2::init - 0x414974
 SetupCheckpointPopup::init - 0x4baeb4
+SetupCoinLayer::create - 0x4c0ddc
 SetupCoinLayer::init - 0x4c0f68
 SetupInstantCollisionTriggerPopup::updateDefaultTriggerValues - 0x314a58
 SetupInstantCollisionTriggerPopup::valueDidChange - 0x314748
