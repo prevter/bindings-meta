@@ -950,8 +950,8 @@ cocos2d::CCMenuItemSprite::setSelectedImage - 0x50840
 cocos2d::CCMenuItemSprite::getDisabledImage - 0x508e8
 cocos2d::CCMenuItemSprite::setDisabledImage - 0x508f0
 cocos2d::CCMenuItemSprite::updateImagesVisibility - 0x50bdc
-cocos2d::CCMenuItemImage::init - 0x50cb8
 cocos2d::CCMenuItemImage::initWithNormalImage - 0x50ce8
+cocos2d::CCMenuItemImage::init - 0x50cb8
 cocos2d::CCMenu::create - 0x1d8d04
 cocos2d::CCMenu::createWithArray - 0x1d8db0
 cocos2d::CCMenu::createWithItem - 0x1d8ff0

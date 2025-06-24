@@ -1246,8 +1246,16 @@ cocos2d::CCMenuItemSprite::setSelectedImage - 0x338a40
 cocos2d::CCMenuItemSprite::getDisabledImage - 0x338ae8
 cocos2d::CCMenuItemSprite::setDisabledImage - 0x338af0
 cocos2d::CCMenuItemSprite::updateImagesVisibility - 0x338f6c
-cocos2d::CCMenuItemImage::init - 0x339194
+cocos2d::CCMenuItemImage::create - 0x339058
+cocos2d::CCMenuItemImage::create - 0x3393cc
+cocos2d::CCMenuItemImage::create - 0x3395ec
+cocos2d::CCMenuItemImage::create - 0x339534
+cocos2d::CCMenuItemImage::create - 0x339470
 cocos2d::CCMenuItemImage::initWithNormalImage - 0x33927c
+cocos2d::CCMenuItemImage::setNormalSpriteFrame - 0x339694
+cocos2d::CCMenuItemImage::setSelectedSpriteFrame - 0x3396c8
+cocos2d::CCMenuItemImage::setDisabledSpriteFrame - 0x3396fc
+cocos2d::CCMenuItemImage::init - 0x339194
 cocos2d::CCMenu::create - 0x691950
 cocos2d::CCMenu::createWithArray - 0x691aa8
 cocos2d::CCMenu::createWithItem - 0x691cf4
