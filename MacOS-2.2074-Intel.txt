@@ -2067,6 +2067,7 @@ ChallengesPage::createChallengeNode - 0x38abe0
 ChallengesPage::exitNodeAtSlot - 0x38b0a0
 ChallengesPage::onClose - 0x38a930
 ChallengesPage::updateTimers - 0x38a970
+GJChallengeItem::create - 0x8f100
 GJChallengeItem::createFromString - 0x8ef00
 GJChallengeItem::createWithCoder - 0x8f320
 GJChallengeItem::encodeWithCoder - 0x8f4c0

@@ -1956,7 +1956,9 @@ ChallengesPage::challengeStatusFinished - 0x369ac
 ChallengesPage::challengeStatusFailed - 0x36bb0
 ChallengesPage::currencyWillExit - 0x37010
 ChallengesPage::createChallengeNode - 0x36770
+ChallengesPage::onClose - 0x36530
 ChallengesPage::updateTimers - 0x3657c
+GJChallengeItem::create - 0x340380
 GJChallengeItem::encodeWithCoder - 0x340730
 GJChallengeItem::canEncode - 0x34080c
 ChallengeNode::create - 0x36c94
@@ -2828,6 +2830,7 @@ GameStatsManager::purchaseItem - 0x32bdb0
 GameStatsManager::recountSpecialStats - 0x3351a4
 GameStatsManager::registerRewardsFromItem - 0x333604
 GameStatsManager::setStat - 0x32c038
+GameStatsManager::storeQueuedChallenge - 0x333ae4
 GameStatsManager::toggleEnableItem - 0x3362b8
 GameStatsManager::unlockGoldChest - 0x33e16c
 GameStatsManager::unlockSecretChest - 0x33e00c
