@@ -1263,6 +1263,8 @@ cocos2d::CCMenuItemSprite::setSelectedImage - 0x3accf0
 cocos2d::CCMenuItemSprite::getDisabledImage - 0x3acd80
 cocos2d::CCMenuItemSprite::setDisabledImage - 0x3acd90
 cocos2d::CCMenuItemSprite::updateImagesVisibility - 0x3ad200
+cocos2d::CCMenuItemImage::init - 0x3ad430
+cocos2d::CCMenuItemImage::initWithNormalImage - 0x3ad500
 cocos2d::CCMenu::create - 0x77c950
 cocos2d::CCMenu::createWithArray - 0x77cb50
 cocos2d::CCMenu::createWithItem - 0x77cda0
@@ -5760,13 +5762,16 @@ SlideInLayer::layerHidden - 0x27cd60
 SlideInLayer::enterAnimFinished - 0x27cd30
 SlideInLayer::disableUI - 0x27ca30
 SlideInLayer::enableUI - 0x27ca50
+SliderThumb::create - 0x2ef2e0
 SliderThumb::getValue - 0x2ef4f0
+SliderThumb::init - 0x2ef3d0
 SliderThumb::setValue - 0x2ef590
 SliderTouchLogic::create - 0x2ef7b0
 SliderTouchLogic::ccTouchBegan - 0x2efc70
 SliderTouchLogic::ccTouchMoved - 0x2efea0
 SliderTouchLogic::ccTouchEnded - 0x2efde0
 SliderTouchLogic::registerWithTouchDispatcher - 0x2f01a0
+SliderTouchLogic::init - 0x2ef8f0
 Slider::create - 0x2f0420
 Slider::create - 0x2f01e0
 Slider::create - 0x2f0300

@@ -950,6 +950,8 @@ cocos2d::CCMenuItemSprite::setSelectedImage - 0x50840
 cocos2d::CCMenuItemSprite::getDisabledImage - 0x508e8
 cocos2d::CCMenuItemSprite::setDisabledImage - 0x508f0
 cocos2d::CCMenuItemSprite::updateImagesVisibility - 0x50bdc
+cocos2d::CCMenuItemImage::init - 0x50cb8
+cocos2d::CCMenuItemImage::initWithNormalImage - 0x50ce8
 cocos2d::CCMenu::create - 0x1d8d04
 cocos2d::CCMenu::createWithArray - 0x1d8db0
 cocos2d::CCMenu::createWithItem - 0x1d8ff0
@@ -4717,13 +4719,18 @@ SimplePlayer::init - 0x307278
 SimplePlayer::setFrames - 0x307878
 SimplePlayer::updateColors - 0x3062ec
 SimplePlayer::updatePlayerFrame - 0x303714
+SliderThumb::create - 0x2ee934
 SliderThumb::getValue - 0x2eea84
 SliderThumb::setValue - 0x2eeb08
+SliderTouchLogic::create - 0x2eec80
 SliderTouchLogic::ccTouchBegan - 0x2eeeb0
 SliderTouchLogic::ccTouchMoved - 0x2eefa8
 SliderTouchLogic::ccTouchEnded - 0x2eef58
 SliderTouchLogic::registerWithTouchDispatcher - 0x2ef108
+SliderTouchLogic::init - 0x2eedc4
 Slider::create - 0x2ef18c
+Slider::create - 0x2ef140
+Slider::create - 0x2ef168
 Slider::ccTouchBegan - 0x2ef61c
 Slider::ccTouchMoved - 0x2ef65c
 Slider::ccTouchEnded - 0x2ef63c
