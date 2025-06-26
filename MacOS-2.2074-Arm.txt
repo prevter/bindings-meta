@@ -2731,7 +2731,10 @@ EventLinkTrigger::init - 0x17dc54
 EventLinkTrigger::triggerObject - 0x17dca4
 EventLinkTrigger::customObjectSetup - 0x17e8e0
 EventLinkTrigger::getSaveString - 0x17dd78
+ExplodeItemNode::create - 0x1b6f88
 ExplodeItemNode::update - 0x1b7f14
+ExplodeItemNode::createSprites - 0x1b703c
+ExplodeItemNode::init - 0x1b7e18
 ExplodeItemSprite::init - 0x1b8200
 ExtendedLayer::init - 0x322be4
 ExtendedLayer::setPosition - 0x322be8
@@ -3313,6 +3316,7 @@ GJBaseGameLayer::hasUniqueCoin - 0xf72cc
 GJBaseGameLayer::lightningFlash - 0xf089c
 GJBaseGameLayer::loadLevelSettings - 0x11d8c0
 GJBaseGameLayer::loadStartPosObject - 0x116658
+GJBaseGameLayer::moveObjects - 0x111020
 GJBaseGameLayer::parentForZLayer - 0xeec10
 GJBaseGameLayer::pickupItem - 0xf7400
 GJBaseGameLayer::playerTouchedRing - 0xf6eb0
@@ -3348,6 +3352,7 @@ GJBaseGameLayer::setStartPosObject - 0xf2870
 GJBaseGameLayer::setupLayers - 0xe24c4
 GJBaseGameLayer::setupLevelStart - 0xf28b8
 GJBaseGameLayer::setupReplay - 0x11cd28
+GJBaseGameLayer::shakeCamera - 0x11f9ac
 GJBaseGameLayer::shouldExitHackedLevel - 0xe49d0
 GJBaseGameLayer::sortSectionVector - 0x10a4a8
 GJBaseGameLayer::spawnParticle - 0x120f7c

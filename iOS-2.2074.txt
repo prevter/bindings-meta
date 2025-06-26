@@ -2529,7 +2529,10 @@ EventLinkTrigger::init - 0x386e24
 EventLinkTrigger::triggerObject - 0x386e74
 EventLinkTrigger::customObjectSetup - 0x387270
 EventLinkTrigger::getSaveString - 0x386ef8
+ExplodeItemNode::create - 0x6031c
 ExplodeItemNode::update - 0x6105c
+ExplodeItemNode::createSprites - 0x603a8
+ExplodeItemNode::init - 0x60f6c
 ExplodeItemSprite::init - 0x6132c
 ExtendedLayer::init - 0x12fc48
 ExtendedLayer::setPosition - 0x12fc4c
@@ -2969,6 +2972,7 @@ GJBaseGameLayer::increaseBatchNodeCapacity - 0x1df834
 GJBaseGameLayer::lightningFlash - 0x1e5a24
 GJBaseGameLayer::loadLevelSettings - 0x203d78
 GJBaseGameLayer::loadStartPosObject - 0x1feaec
+GJBaseGameLayer::moveObjects - 0x1fb324
 GJBaseGameLayer::objectTypeToGameEvent - 0x1e804c
 GJBaseGameLayer::optimizeMoveGroups - 0x1e109c
 GJBaseGameLayer::orderSpawnObjects - 0x209744
@@ -2986,6 +2990,7 @@ GJBaseGameLayer::preResumeGame - 0x200998
 GJBaseGameLayer::processActivatedAudioTriggers - 0x208724
 GJBaseGameLayer::processCommands - 0x201880
 GJBaseGameLayer::processItems - 0x1eb7a4
+GJBaseGameLayer::processMoveActions - 0x1fa624
 GJBaseGameLayer::processMoveActionsStep - 0x1f9088
 GJBaseGameLayer::processQueuedAudioTriggers - 0x204bdc
 GJBaseGameLayer::processQueuedButtons - 0x1fcb04
@@ -3010,6 +3015,7 @@ GJBaseGameLayer::resumeAudio - 0x2009d0
 GJBaseGameLayer::setGroupParent - 0x1f4398
 GJBaseGameLayer::setStartPosObject - 0x1e7374
 GJBaseGameLayer::setupLevelStart - 0x1e73bc
+GJBaseGameLayer::shakeCamera - 0x205614
 GJBaseGameLayer::shouldExitHackedLevel - 0x1de628
 GJBaseGameLayer::sortGroups - 0x1e0e5c
 GJBaseGameLayer::sortStickyGroups - 0x1e2084
