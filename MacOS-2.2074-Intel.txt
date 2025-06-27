@@ -779,7 +779,6 @@ cocos2d::CCIMEDelegate::CCIMEDelegate - 0x4a88b0
 cocos2d::CCIMEDelegate::~CCIMEDelegate - 0x4a8c30
 cocos2d::CCIMEDelegate::attachWithIME - 0x4a8c50
 cocos2d::CCIMEDelegate::detachWithIME - 0x4a8e40
-cocos2d::CCIMEDelegate::deleteForward - 0x7150
 cocos2d::CCIMEDispatcher::sharedDispatcher - 0x4a89a0
 cocos2d::CCIMEDispatcher::dispatchDeleteBackward - 0x4a9140
 cocos2d::CCIMEDispatcher::dispatchDeleteForward - 0x4a9160
@@ -1733,6 +1732,7 @@ GameObject::loadGroupsFromString - 0x5a6d00
 GameObject::makeInvisible - 0x5a53a0
 GameObject::playDestroyObjectAnim - 0x24c560
 GameObject::playShineEffect - 0x5a5440
+GameObject::quickUpdatePosition - 0x5a3cd0
 GameObject::removeGlow - 0x58cb90
 GameObject::resetGroupDisabled - 0x591eb0
 GameObject::resetGroups - 0x5a66a0
@@ -2526,6 +2526,8 @@ EditLevelLayer::onPlay - 0x1e9f10
 EditLevelLayer::onSetFolder - 0x1eb0b0
 EditLevelLayer::onShare - 0x1ea050
 EditLevelLayer::onUpdateDescription - 0x1eac60
+EditLevelLayer::playStep2 - 0x1ec070
+EditLevelLayer::playStep3 - 0x1ec130
 EditLevelLayer::setupLevelInfo - 0x1ea490
 GJOptionsLayer::create - 0x289c00
 GJOptionsLayer::setupOptions - 0x28a640
@@ -3416,17 +3418,24 @@ GJBaseGameLayer::playSpeedParticle - 0x14c000
 GJBaseGameLayer::positionUIObjects - 0x10bbf0
 GJBaseGameLayer::preResumeGame - 0x141dd0
 GJBaseGameLayer::processActivatedAudioTriggers - 0x14f3a0
+GJBaseGameLayer::processAdvancedFollowActions - 0x136c60
+GJBaseGameLayer::processAreaActions - 0x133460
 GJBaseGameLayer::processAreaEffects - 0x1308e0
 GJBaseGameLayer::processAreaMoveGroupAction - 0x132070
 GJBaseGameLayer::processAreaVisualActions - 0x1339e0
 GJBaseGameLayer::processCameraObject - 0x112ba0
 GJBaseGameLayer::processCommands - 0x1435a0
+GJBaseGameLayer::processDynamicObjectActions - 0x1348e0
+GJBaseGameLayer::processFollowActions - 0x136e50
 GJBaseGameLayer::processMoveActions - 0x136810
 GJBaseGameLayer::processMoveActionsStep - 0x1347b0
 GJBaseGameLayer::processOptionsTrigger - 0x12c930
+GJBaseGameLayer::processPlayerFollowActions - 0x1369f0
 GJBaseGameLayer::processQueuedAudioTriggers - 0x1491f0
 GJBaseGameLayer::processQueuedButtons - 0x13af40
+GJBaseGameLayer::processRotationActions - 0x135f40
 GJBaseGameLayer::processSFXObjects - 0x525060
+GJBaseGameLayer::processTransformActions - 0x135010
 GJBaseGameLayer::queueButton - 0x13ad90
 GJBaseGameLayer::reAddToStickyGroup - 0x12df20
 GJBaseGameLayer::refreshCounterLabels - 0x13dda0
@@ -3543,6 +3552,7 @@ GJEffectManager::resetEffects - 0x2c93a0
 GJEffectManager::setColorAction - 0x2cb570
 GJEffectManager::shouldBlend - 0x2ca4e0
 GJEffectManager::storeTriggeredID - 0x2d5e20
+GJEffectManager::tryGetMoveCommandNode - 0x2d0bd0
 GJEffectManager::updateColorEffects - 0x2cb7d0
 GJEffectManager::updateCountForItem - 0x2d6b10
 GJEffectManager::updateEffects - 0x2cb6a0
@@ -4230,6 +4240,7 @@ LevelInfoLayer::onRateStarsMod - 0x2ae230
 LevelInfoLayer::onSetFolder - 0x2aeda0
 LevelInfoLayer::onUpdate - 0x2adcb0
 LevelInfoLayer::onViewProfile - 0x2abc20
+LevelInfoLayer::playStep4 - 0x2b0880
 LevelInfoLayer::setupLevelInfo - 0x2ac500
 LevelInfoLayer::setupPlatformerStats - 0x2ad140
 LevelInfoLayer::setupProgressBars - 0x2ad480

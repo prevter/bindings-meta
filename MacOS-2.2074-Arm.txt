@@ -770,7 +770,6 @@ cocos2d::CCIMEDelegate::CCIMEDelegate - 0x411c08
 cocos2d::CCIMEDelegate::~CCIMEDelegate - 0x411f78
 cocos2d::CCIMEDelegate::attachWithIME - 0x411f90
 cocos2d::CCIMEDelegate::detachWithIME - 0x4121d0
-cocos2d::CCIMEDelegate::deleteForward - 0x8fb0
 cocos2d::CCIMEDispatcher::sharedDispatcher - 0x411d04
 cocos2d::CCIMEDispatcher::dispatchDeleteBackward - 0x412500
 cocos2d::CCIMEDispatcher::dispatchDeleteForward - 0x4124e0
@@ -1711,6 +1710,7 @@ GameObject::isTrigger - 0x4dca68
 GameObject::loadGroupsFromString - 0x4e1100
 GameObject::playDestroyObjectAnim - 0x1f9910
 GameObject::playShineEffect - 0x4df690
+GameObject::quickUpdatePosition - 0x4de084
 GameObject::resetGroupDisabled - 0x4d9220
 GameObject::resetGroups - 0x4e0b1c
 GameObject::updateCustomScaleX - 0x4d922c
@@ -2493,6 +2493,7 @@ EditLevelLayer::onSetFolder - 0x1a21b8
 EditLevelLayer::onShare - 0x1a1164
 EditLevelLayer::onTest - 0x1a3298
 EditLevelLayer::onUpdateDescription - 0x1a1d60
+EditLevelLayer::playStep2 - 0x1a3184
 EditLevelLayer::playStep3 - 0x1a3248
 EditLevelLayer::setupLevelInfo - 0x1a1540
 GJOptionsLayer::setupOptions - 0x2333c8
@@ -3325,15 +3326,22 @@ GJBaseGameLayer::playerWillSwitchMode - 0xf3a44
 GJBaseGameLayer::playExitDualEffect - 0xf7ff0
 GJBaseGameLayer::playSpeedParticle - 0x121058
 GJBaseGameLayer::positionUIObjects - 0xebbe0
+GJBaseGameLayer::processAdvancedFollowActions - 0x110348
+GJBaseGameLayer::processAreaActions - 0x10d458
 GJBaseGameLayer::processAreaEffects - 0x10afe8
 GJBaseGameLayer::processAreaMoveGroupAction - 0x10c484
 GJBaseGameLayer::processAreaVisualActions - 0x10d908
 GJBaseGameLayer::processCameraObject - 0xf2584
 GJBaseGameLayer::processCommands - 0x11a2d0
+GJBaseGameLayer::processDynamicObjectActions - 0x10e6e4
+GJBaseGameLayer::processFollowActions - 0x110514
 GJBaseGameLayer::processMoveActions - 0x10ffa0
 GJBaseGameLayer::processMoveActionsStep - 0x10e5b8
 GJBaseGameLayer::processOptionsTrigger - 0x107a5c
+GJBaseGameLayer::processPlayerFollowActions - 0x110124
 GJBaseGameLayer::processQueuedButtons - 0x113650
+GJBaseGameLayer::processRotationActions - 0x10f80c
+GJBaseGameLayer::processTransformActions - 0x10ecc4
 GJBaseGameLayer::queueButton - 0x1134ec
 GJBaseGameLayer::refreshKeyframeAnims - 0xecb14
 GJBaseGameLayer::removeFromGroups - 0x107f34
@@ -3414,6 +3422,7 @@ GJEffectManager::getColorAction - 0x26d3c4
 GJEffectManager::playerButton - 0x277110
 GJEffectManager::reset - 0x26cb18
 GJEffectManager::setColorAction - 0x26e4cc
+GJEffectManager::tryGetMoveCommandNode - 0x272cb0
 GJEffectManager::updateColorEffects - 0x26e6c0
 GJEffectManager::updateCountForItem - 0x27791c
 GJEffectManager::updateEffects - 0x26e5bc

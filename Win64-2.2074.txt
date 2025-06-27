@@ -1019,6 +1019,8 @@ EditLevelLayer::onLevelOptions - 0xd54d0
 EditLevelLayer::onPlay - 0xd6920
 EditLevelLayer::onSetFolder - 0xd7fc0
 EditLevelLayer::onShare - 0xd6f20
+EditLevelLayer::playStep2 - 0xd6ae0
+EditLevelLayer::playStep3 - 0xd6bc0
 EditLevelLayer::setupLevelInfo - 0xd5720
 EditLevelLayer::verifyLevelName - 0xd8290
 GJOptionsLayer::GJOptionsLayer - 0x285940
