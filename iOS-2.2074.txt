@@ -2171,10 +2171,12 @@ CustomizeObjectLayer::colorSetupClosed - 0x53ed8
 CustomizeObjectLayer::getActiveMode - 0x53ad0
 CustomizeObjectLayer::highlightSelected - 0x54060
 CustomizeObjectLayer::init - 0x50fa4
+CustomizeObjectLayer::onClear - 0x538a8
 CustomizeObjectLayer::onClose - 0x52e0c
 CustomizeObjectLayer::onEditColor - 0x53640
 CustomizeObjectLayer::onHSV - 0x53190
 CustomizeObjectLayer::onSelectColor - 0x534a4
+CustomizeObjectLayer::onSelectMode - 0x52f90
 CustomizeObjectLayer::onUpdateCustomColor - 0x53524
 CustomizeObjectLayer::toggleVisible - 0x542c0
 CustomizeObjectLayer::updateChannelLabel - 0x53ce0
