@@ -4195,6 +4195,7 @@ LevelSearchLayer::confirmClearFilters - 0x53f9d8
 LevelSearchLayer::getSearchDiffKey - 0x541e38
 LevelSearchLayer::getSearchObject - 0x541ae4
 LevelSearchLayer::init - 0x53d3b8
+LevelSearchLayer::onBack - 0x540dc8
 LevelSearchLayer::onClearFreeSearch - 0x540128
 LevelSearchLayer::onMostRecent - 0x540424
 LevelSearchLayer::onSearch - 0x53fe68

@@ -4340,6 +4340,7 @@ LevelSearchLayer::clearFilters - 0x6151b0
 LevelSearchLayer::confirmClearFilters - 0x6136c0
 LevelSearchLayer::getSearchObject - 0x615780
 LevelSearchLayer::init - 0x611100
+LevelSearchLayer::onBack - 0x614a90
 LevelSearchLayer::onClearFreeSearch - 0x613e40
 LevelSearchLayer::onMoreOptions - 0x6137a0
 LevelSearchLayer::onMostRecent - 0x614110

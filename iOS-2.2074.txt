@@ -3685,6 +3685,7 @@ LevelSearchLayer::FLAlert_Clicked - 0x58100
 LevelSearchLayer::demonFilterSelectClosed - 0x57db8
 LevelSearchLayer::getSearchObject - 0x58384
 LevelSearchLayer::init - 0x54e44
+LevelSearchLayer::onBack - 0x57a90
 LevelSearchLayer::onMostRecent - 0x572dc
 LevelSearchLayer::onSearch - 0x56c98
 LevelSearchLayer::onSearchUser - 0x56ddc
