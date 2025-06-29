@@ -1702,6 +1702,7 @@ GameToolbox::addBackButton - 0x65010
 GameToolbox::addRThumbScrollButton - 0x650f0
 GameToolbox::alignItemsHorisontally - 0x64110
 GameToolbox::createToggleButton - 0x64670
+GameToolbox::easeToText - 0x68570
 GameToolbox::getEasedValue - 0x68b40
 GameToolbox::getRelativeOffset - 0x64970
 GameToolbox::getResponse - 0x64310
@@ -1709,6 +1710,7 @@ GameToolbox::getTimeString - 0x65e20
 GameToolbox::hsvFromString - 0x654e0
 GameToolbox::intToShortString - 0x69120
 GameToolbox::intToString - 0x69060
+GameToolbox::msToTimeString - 0x69630
 GameToolbox::particleFromStruct - 0x68000
 GameToolbox::particleStringToStruct - 0x67540
 GameToolbox::pointsToString - 0x69760

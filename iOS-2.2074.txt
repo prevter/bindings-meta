@@ -2855,10 +2855,12 @@ GameToolbox::addRThumbScrollButton - 0x48380
 GameToolbox::alignItemsHorisontally - 0x47414
 GameToolbox::createToggleButton - 0x47a98
 GameToolbox::createToggleButton - 0x47bcc
+GameToolbox::easeToText - 0x4b720
 GameToolbox::fast_rand_0_1 - 0x49540
 GameToolbox::fast_srand - 0x49534
 GameToolbox::getTimeString - 0x49338
 GameToolbox::intToShortString - 0x4bd08
+GameToolbox::msToTimeString - 0x4c158
 GameToolbox::particleFromString - 0x4b190
 GameToolbox::particleFromStruct - 0x4b264
 GameToolbox::particleStringToStruct - 0x4a7fc
