@@ -1882,7 +1882,10 @@ CCMenuItemToggler::activate - 0x19494c
 CCMenuItemToggler::selected - 0x19490c
 CCMenuItemToggler::unselected - 0x19498c
 CCMenuItemToggler::setEnabled - 0x1949cc
+CCMenuItemToggler::activeItem - 0x1948f0
 CCMenuItemToggler::init - 0x1945fc
+CCMenuItemToggler::normalTouch - 0x1947ac
+CCMenuItemToggler::selectedTouch - 0x1947c0
 CCMenuItemToggler::setSizeMult - 0x1948ac
 CCMenuItemToggler::toggle - 0x1947d4
 CCNodeContainer::init - 0x20b410
@@ -2412,6 +2415,8 @@ EditorUI::createUndoSelectObject - 0x3df104
 EditorUI::deactivateRotationControl - 0x3bf430
 EditorUI::deactivateTransformControl - 0x3bf614
 EditorUI::deselectAll - 0x3e1f84
+EditorUI::deselectObject - 0x3e2010
+EditorUI::deselectObject - 0x3e1f00
 EditorUI::doCopyObjects - 0x3e6d64
 EditorUI::doPasteObjects - 0x3e6e5c
 EditorUI::dynamicGroupUpdate - 0x3eafa8
@@ -2421,6 +2426,7 @@ EditorUI::flipObjectsX - 0x3ea3d4
 EditorUI::flipObjectsY - 0x3ea24c
 EditorUI::getCreateBtn - 0x3e24b8
 EditorUI::getCreateMenuItemButton - 0x3df54c
+EditorUI::getGridSnappedPos - 0x3e3cc8
 EditorUI::getGroupCenter - 0x3e5280
 EditorUI::getSelectedObjects - 0x3e6210
 EditorUI::getSnapAngle - 0x3ee4e4

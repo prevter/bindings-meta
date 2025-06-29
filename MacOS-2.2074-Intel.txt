@@ -1979,8 +1979,10 @@ CCMenuItemToggler::activate - 0x5a330
 CCMenuItemToggler::selected - 0x5a300
 CCMenuItemToggler::unselected - 0x5a360
 CCMenuItemToggler::setEnabled - 0x5a390
+CCMenuItemToggler::activeItem - 0x5a2e0
 CCMenuItemToggler::init - 0x59d40
 CCMenuItemToggler::normalTouch - 0x59f80
+CCMenuItemToggler::selectedTouch - 0x5a050
 CCMenuItemToggler::setSizeMult - 0x5a1f0
 CCMenuItemToggler::toggle - 0x5a120
 CCNodeContainer::create - 0x102b20

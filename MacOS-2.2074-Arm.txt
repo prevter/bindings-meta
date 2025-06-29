@@ -1957,7 +1957,10 @@ CCMenuItemToggler::activate - 0x4ffc4
 CCMenuItemToggler::selected - 0x4ff84
 CCMenuItemToggler::unselected - 0x50004
 CCMenuItemToggler::setEnabled - 0x50044
+CCMenuItemToggler::activeItem - 0x4ff68
 CCMenuItemToggler::init - 0x4f964
+CCMenuItemToggler::normalTouch - 0x4fbbc
+CCMenuItemToggler::selectedTouch - 0x4fcac
 CCMenuItemToggler::setSizeMult - 0x4fe70
 CCMenuItemToggler::toggle - 0x4fd98
 CCNodeContainer::create - 0xe4920
@@ -3421,6 +3424,8 @@ GJEffectManager::colorExists - 0x26e578
 GJEffectManager::countForItem - 0x2777b8
 GJEffectManager::getColorAction - 0x26d3c4
 GJEffectManager::playerButton - 0x277110
+GJEffectManager::postMoveActions - 0x275628
+GJEffectManager::prepareMoveActions - 0x27353c
 GJEffectManager::reset - 0x26cb18
 GJEffectManager::setColorAction - 0x26e4cc
 GJEffectManager::tryGetMoveCommandNode - 0x272cb0
@@ -3428,6 +3433,7 @@ GJEffectManager::updateColorEffects - 0x26e6c0
 GJEffectManager::updateCountForItem - 0x27791c
 GJEffectManager::updateEffects - 0x26e5bc
 GJEffectManager::updatePulseEffects - 0x26e850
+GJEffectManager::updateTimers - 0x2789fc
 GJGroundLayer::create - 0x50636c
 GJGroundLayer::draw - 0x50745c
 GJGroundLayer::showGround - 0x507250
