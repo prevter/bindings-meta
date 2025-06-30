@@ -5113,6 +5113,7 @@ ScrollingLayer::ccTouchCancelled - 0x70aaa0
 ScrollingLayer::setStartOffset - 0x70a760
 SearchButton::create - 0x613e90
 SearchButton::init - 0x616050
+SetTextPopup::create - 0x29abf0
 SetTextPopup::keyBackClicked - 0x29bf80
 SetTextPopup::show - 0x29bf20
 SetTextPopup::textInputClosed - 0x29bdf0

@@ -3515,6 +3515,7 @@ LevelBrowserLayer::onNew - 0x40e01c
 LevelBrowserLayer::onNextPage - 0x40db78
 LevelBrowserLayer::onPrevPage - 0x40db44
 LevelBrowserLayer::onSaved - 0x40e520
+LevelBrowserLayer::onSearch - 0x40eb2c
 LevelBrowserLayer::setupLevelBrowser - 0x40ff18
 LevelBrowserLayer::show - 0x41185c
 LevelCell::LevelCell - 0x10ed34
@@ -4317,6 +4318,7 @@ ScrollingLayer::ccTouchCancelled - 0x1bac98
 ScrollingLayer::getViewRect - 0x1ba8bc
 SearchButton::create - 0x56f84
 SearchButton::init - 0x588f0
+SetTextPopup::create - 0x2df0cc
 SetTextPopup::keyBackClicked - 0x2dfde0
 SetTextPopup::show - 0x2dfd94
 SetTextPopup::textInputClosed - 0x2dfcf0
