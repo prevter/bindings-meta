@@ -1806,10 +1806,12 @@ GJBaseGameLayer::activatedAudioTrigger - 0x23c8c0
 GJBaseGameLayer::activateEventTrigger - 0x22c9c0
 GJBaseGameLayer::activateItemCompareTrigger - 0x22eed0
 GJBaseGameLayer::activateItemEditTrigger - 0x22eaf0
+GJBaseGameLayer::activatePersistentItemTrigger - 0x22f2e0
 GJBaseGameLayer::activateSFXEditTrigger - 0x23b8c0
 GJBaseGameLayer::activateSFXTrigger - 0x23b6c0
 GJBaseGameLayer::activateSongEditTrigger - 0x23b3b0
 GJBaseGameLayer::activateSongTrigger - 0x23b030
+GJBaseGameLayer::activateTimerTrigger - 0x22f700
 GJBaseGameLayer::addAreaEffect - 0x2221a0
 GJBaseGameLayer::addGuideArt - 0x23f940
 GJBaseGameLayer::addToGroups - 0x21eb90
@@ -2014,6 +2016,7 @@ GJEffectManager::saveToState - 0x25c520
 GJEffectManager::setColorAction - 0x254a90
 GJEffectManager::setupFromString - 0x25c290
 GJEffectManager::spawnGroup - 0x25a920
+GJEffectManager::startTimer - 0x25b5f0
 GJEffectManager::storeTriggeredID - 0x25ac60
 GJEffectManager::timeForItem - 0x25bfd0
 GJEffectManager::updateCountForItem - 0x25b120
