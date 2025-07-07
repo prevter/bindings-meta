@@ -692,7 +692,11 @@ cocos2d::CCActionCamera::reverse - 0x3541a0
 cocos2d::CCOrbitCamera::copyWithZone - 0x3543a0
 cocos2d::CCOrbitCamera::update - 0x354800
 cocos2d::CCOrbitCamera::startWithTarget - 0x3544f0
+cocos2d::CCMouseDispatcher::addDelegate - 0x55a410
 cocos2d::CCMouseDispatcher::dispatchScrollMSG - 0x55a490
+cocos2d::CCMouseDispatcher::forceAddDelegate - 0x55a460
+cocos2d::CCMouseDispatcher::forceRemoveDelegate - 0x55a380
+cocos2d::CCMouseDispatcher::removeDelegate - 0x55a2e0
 cocos2d::CCTargetedTouchHandler::getClaimedTouches - 0x46e5e0
 cocos2d::CCTexture2D::PVRImagesHavePremultipliedAlpha - 0x466800
 cocos2d::CCTexture2D::setDefaultAlphaPixelFormat - 0x4669c0
@@ -857,8 +861,8 @@ cocos2d::CCSprite::createWithTexture - 0x2761b0
 cocos2d::CCSprite::createWithTexture - 0x276340
 cocos2d::CCSprite::setFlipX - 0x278420
 cocos2d::CCSprite::setFlipY - 0x278470
-cocos2d::CCSprite::CCSprite - 0x2762a0
-cocos2d::CCSprite::~CCSprite - 0x276d00
+cocos2d::CCSprite::CCSprite - 0x276c00
+cocos2d::CCSprite::~CCSprite - 0x276ca0
 cocos2d::CCSprite::isFlipX - 0x278460
 cocos2d::CCSprite::isFlipY - 0x2784b0
 cocos2d::CCSprite::init - 0x276850
@@ -1375,8 +1379,13 @@ cocos2d::extension::CCControl::removeTargetWithActionForControlEvents - 0x33e300
 cocos2d::extension::CCControl::getTouchLocation - 0x33e7b0
 cocos2d::extension::CCControl::isTouchInside - 0x33e800
 cocos2d::extension::CCControlColourPicker::colourPicker - 0x3424e0
+cocos2d::extension::CCControlColourPicker::hueSliderValueChanged - 0x342180
+cocos2d::extension::CCControlColourPicker::colourSliderValueChanged - 0x3422b0
+cocos2d::extension::CCControlColourPicker::updateControlPicker - 0x342700
+cocos2d::extension::CCControlColourPicker::updateHueAndControlPicker - 0x342390
 cocos2d::extension::CCControlColourPicker::init - 0x341e50
 cocos2d::extension::CCControlColourPicker::ccTouchBegan - 0x342760
+cocos2d::extension::CCControlColourPicker::setColorValue - 0x3425b0
 cocos2d::extension::CCControlHuePicker::CCControlHuePicker - 0x342fa0
 cocos2d::extension::CCControlHuePicker::~CCControlHuePicker - 0x3431b0
 cocos2d::extension::CCControlHuePicker::checkSliderPosition - 0x343900
@@ -1474,6 +1483,7 @@ pugi::xml_document::~xml_document - 0x62ab90
 cocos2d::CCLightning::lightningWithStrikePoint - 0x5c5940
 cocos2d::CCLightning::lightningWithStrikePoint - 0x5c5780
 cocos2d::CCLightning::initWithStrikePoint - 0x5c5a90
+cocos2d::CCLightning::initWithStrikePoint - 0x5c58e0
 cocos2d::CCLightning::strikeFinished - 0x5c5e60
 cocos2d::CCLightning::strikeWithSeed - 0x5c5df0
 cocos2d::CCLightning::draw - 0x5c5c30
@@ -1697,7 +1707,6 @@ GameObject::saveActiveColors - 0x5b05d0
 GameObject::spawnXPosition - 0x1e1b50
 GameObject::updateParticleColor - 0x5b0960
 GameObject::updateParticleOpacity - 0x5a4aa0
-GameObject::getObjectLabel - 0x7160
 GameObject::shouldDrawEditorHitbox - 0x5b37c0
 GameObject::getObjectRectDirty - 0x1e1b70
 GameObject::setObjectRectDirty - 0x1e1b80
@@ -3683,6 +3692,7 @@ GJLocalLevelScoreCell::init - 0x243bf0
 GJLocalLevelScoreCell::draw - 0x243c10
 GJLocalLevelScoreCell::loadFromScore - 0x239740
 GJLocalScore::create - 0x5496e0
+GJMapPack::create - 0x51c560
 GJMapPack::create - 0x5490c0
 GJMapPack::init - 0x549550
 GJMapPack::completedMaps - 0x5495d0
@@ -3930,6 +3940,7 @@ GJUserCell::loadFromScore - 0x239a60
 GJUserCell::onRemoveFriend - 0x2447c0
 GJUserCell::onUnblockUser - 0x2443f0
 GJUserMessage::create - 0x549f70
+GJUserMessage::create - 0x537410
 GJUserMessage::init - 0x54a010
 GJUserScore::create - 0x51d290
 GJUserScore::create - 0x549900
@@ -4602,7 +4613,7 @@ MusicBrowser::FLAlert_Clicked - 0x5f8610
 MusicBrowser::init - 0x5f6470
 MusicBrowser::onArtistFilters - 0x5f73a0
 MusicBrowser::onClearSearch - 0x5f72e0
-MusicBrowser::onPage - 0x42b670
+MusicBrowser::onPage - 0x5f70b0
 MusicBrowser::onPlaybackControl - 0x5f7860
 MusicBrowser::onSearch - 0x5f71b0
 MusicBrowser::onTagFilters - 0x5f7340
@@ -5103,7 +5114,8 @@ RotateGameplayGameObject::init - 0x1dfcf0
 RotateGameplayGameObject::updateStartValues - 0x1e1a10
 RotateGameplayGameObject::customObjectSetup - 0x1e1690
 RotateGameplayGameObject::getSaveString - 0x1dfd40
-ScrollingLayer::create - 0x340380
+ScrollingLayer::ScrollingLayer - 0x70aae0
+ScrollingLayer::create - 0x70a2c0
 ScrollingLayer::draw - 0x70a580
 ScrollingLayer::visit - 0x70a650
 ScrollingLayer::ccTouchBegan - 0x70a7a0
@@ -5456,8 +5468,8 @@ SetupInstantCountPopup::onClose - 0x5d23f0
 SetupInstantCountPopup::textChanged - 0x5d2100
 SetupInstantCountPopup::init - 0x5d09c0
 SetupInstantCountPopup::onTargetCountArrow - 0x5d1780
-SetupInstantCountPopup::onTargetID2Arrow - 0x5d16c0
-SetupInstantCountPopup::onTargetIDArrow - 0x5d1830
+SetupInstantCountPopup::onTargetID2Arrow - 0x5d1830
+SetupInstantCountPopup::onTargetIDArrow - 0x5d16c0
 SetupInteractObjectPopup::onClose - 0x4f8bf0
 SetupInteractObjectPopup::onPlusButton - 0x4f8b00
 SetupInteractObjectPopup::valueDidChange - 0x4f8b40
@@ -5668,6 +5680,7 @@ SFXBrowser::shouldSnapToSelected - 0x42ce70
 SFXBrowser::init - 0x42a690
 SFXBrowser::onClearSearch - 0x42b9a0
 SFXBrowser::onExitFolder - 0x42b5b0
+SFXBrowser::onPage - 0x42b670
 SFXBrowser::onSorting - 0x42b780
 SFXBrowser::onToggleCompactMode - 0x42b7d0
 SFXBrowser::setupList - 0x42bba0

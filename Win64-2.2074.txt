@@ -4441,6 +4441,7 @@ SongSelectNode::getLevelSettings - 0xc7180
 SongSelectNode::audioNext - 0xc6ab0
 SongSelectNode::audioPrevious - 0xc6af0
 SongSelectNode::init - 0xc60b0
+SongSelectNode::onSongMode - 0xc6b20
 SongSelectNode::onSongMode - 0xc6b50
 SongSelectNode::showCustomSongSelect - 0xc6e80
 SongSelectNode::updateAudioLabel - 0xc69c0

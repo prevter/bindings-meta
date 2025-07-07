@@ -666,6 +666,7 @@ cocos2d::CCLayerColor::setBlendFunc - 0x40a254
 cocos2d::CCLayerColor::getBlendFunc - 0x40a244
 cocos2d::CCLayerGradient::create - 0x40ad84
 cocos2d::CCLayerGradient::create - 0x40afac
+cocos2d::CCLayerGradient::create - 0x40b05c
 cocos2d::CCLayerGradient::init - 0x40b0e8
 cocos2d::CCLayerGradient::updateColor - 0x40b218
 cocos2d::CCLayerGradient::initWithColor - 0x40b120
@@ -687,7 +688,11 @@ cocos2d::CCActionCamera::reverse - 0x2e8004
 cocos2d::CCOrbitCamera::copyWithZone - 0x2e8180
 cocos2d::CCOrbitCamera::update - 0x2e853c
 cocos2d::CCOrbitCamera::startWithTarget - 0x2e82a8
+cocos2d::CCMouseDispatcher::addDelegate - 0x4b0c20
 cocos2d::CCMouseDispatcher::dispatchScrollMSG - 0x4b0cb4
+cocos2d::CCMouseDispatcher::forceAddDelegate - 0x4b0c78
+cocos2d::CCMouseDispatcher::forceRemoveDelegate - 0x4b0b8c
+cocos2d::CCMouseDispatcher::removeDelegate - 0x4b0ad4
 cocos2d::CCTargetedTouchHandler::getClaimedTouches - 0x3dd8b8
 cocos2d::CCTexture2D::setDefaultAlphaPixelFormat - 0x3d683c
 cocos2d::CCTexture2D::initPremultipliedATextureWithImage - 0x3d590c
@@ -702,6 +707,8 @@ cocos2d::CCTexture2D::setAliasTexParameters - 0x3d6778
 cocos2d::CCTexture2D::setTexParameters - 0x3d66e0
 cocos2d::CCTexture2D::~CCTexture2D - 0x3d5378
 cocos2d::CCTexture2D::CCTexture2D - 0x3d52b0
+cocos2d::CCTexture2D::bitsPerPixelForFormat - 0x3d582c
+cocos2d::CCTexture2D::bitsPerPixelForFormat - 0x3d6854
 cocos2d::CCTexture2D::description - 0x3d584c
 cocos2d::CCTexture2D::drawAtPoint - 0x3d62d0
 cocos2d::CCTexture2D::drawInRect - 0x3d63e8
@@ -771,8 +778,8 @@ cocos2d::CCIMEDelegate::~CCIMEDelegate - 0x411f78
 cocos2d::CCIMEDelegate::attachWithIME - 0x411f90
 cocos2d::CCIMEDelegate::detachWithIME - 0x4121d0
 cocos2d::CCIMEDispatcher::sharedDispatcher - 0x411d04
-cocos2d::CCIMEDispatcher::dispatchDeleteBackward - 0x412500
-cocos2d::CCIMEDispatcher::dispatchDeleteForward - 0x4124e0
+cocos2d::CCIMEDispatcher::dispatchDeleteBackward - 0x4124e0
+cocos2d::CCIMEDispatcher::dispatchDeleteForward - 0x412500
 cocos2d::CCIMEDispatcher::dispatchInsertText - 0x4124b4
 cocos2d::CCIMEDispatcher::hasDelegate - 0x4124a0
 cocos2d::CCKeyboardDispatcher::dispatchKeyboardMSG - 0x1a8028
@@ -844,7 +851,7 @@ cocos2d::CCSprite::createWithTexture - 0x220fd8
 cocos2d::CCSprite::setFlipX - 0x222e04
 cocos2d::CCSprite::setFlipY - 0x222e38
 cocos2d::CCSprite::CCSprite - 0x221864
-cocos2d::CCSprite::~CCSprite - 0x221938
+cocos2d::CCSprite::~CCSprite - 0x2218ec
 cocos2d::CCSprite::isFlipX - 0x222e30
 cocos2d::CCSprite::isFlipY - 0x222e64
 cocos2d::CCSprite::init - 0x2214d4
@@ -1028,6 +1035,7 @@ cocos2d::CCDictionary::copyWithZone - 0x294174
 cocos2d::CCDictionary::acceptVisitor - 0x2945e8
 cocos2d::CCRenderTexture::create - 0x510d58
 cocos2d::CCRenderTexture::create - 0x510844
+cocos2d::CCRenderTexture::create - 0x510924
 cocos2d::CCRenderTexture::initWithWidthAndHeight - 0x510a0c
 cocos2d::CCRenderTexture::CCRenderTexture - 0x510664
 cocos2d::CCRenderTexture::~CCRenderTexture - 0x5106fc
@@ -1035,6 +1043,7 @@ cocos2d::CCRenderTexture::begin - 0x510e4c
 cocos2d::CCRenderTexture::beginWithClear - 0x5110d8
 cocos2d::CCRenderTexture::beginWithClear - 0x511038
 cocos2d::CCRenderTexture::beginWithClear - 0x511220
+cocos2d::CCRenderTexture::beginWithClear - 0x5112f0
 cocos2d::CCRenderTexture::end - 0x5112f8
 cocos2d::CCRenderTexture::newCCImage - 0x5117a4
 cocos2d::CCRenderTexture::draw - 0x511588
@@ -1070,6 +1079,7 @@ cocos2d::CCTransitionMoveInL::action - 0xbe484
 cocos2d::CCTransitionMoveInL::easeActionWithAction - 0xbe4c4
 cocos2d::CCTransitionMoveInT::create - 0xbe858
 cocos2d::CCTransitionFade::create - 0xc122c
+cocos2d::CCTransitionFade::create - 0xc1190
 cocos2d::CCTransitionFade::onEnter - 0xc1318
 cocos2d::CCTransitionFade::onExit - 0xc1454
 cocos2d::CCTransitionFade::initWithDuration - 0xc12f0
@@ -1359,8 +1369,13 @@ cocos2d::extension::CCControl::removeTargetWithActionForControlEvents - 0x2d4520
 cocos2d::extension::CCControl::getTouchLocation - 0x2d49b8
 cocos2d::extension::CCControl::isTouchInside - 0x2d4a04
 cocos2d::extension::CCControlColourPicker::colourPicker - 0x2d7fe0
+cocos2d::extension::CCControlColourPicker::hueSliderValueChanged - 0x2d7d44
+cocos2d::extension::CCControlColourPicker::colourSliderValueChanged - 0x2d7e2c
+cocos2d::extension::CCControlColourPicker::updateControlPicker - 0x2d8170
+cocos2d::extension::CCControlColourPicker::updateHueAndControlPicker - 0x2d7eec
 cocos2d::extension::CCControlColourPicker::init - 0x2d7a70
 cocos2d::extension::CCControlColourPicker::ccTouchBegan - 0x2d81b8
+cocos2d::extension::CCControlColourPicker::setColorValue - 0x2d8074
 cocos2d::extension::CCControlHuePicker::CCControlHuePicker - 0x2d8834
 cocos2d::extension::CCControlHuePicker::~CCControlHuePicker - 0x2d89a4
 cocos2d::extension::CCControlHuePicker::checkSliderPosition - 0x2d8f7c
@@ -1490,6 +1505,7 @@ cocos2d::CCDisplayLinkDirector::mainLoop - 0x3e0a60
 cocos2d::CCScriptEngineManager::setScriptEngine - 0x29eaa8
 cocos2d::CCScriptEngineManager::sharedManager - 0x29e3d8
 GJDropDownLayer::create - 0x503e08
+GJDropDownLayer::create - 0x50432c
 GJDropDownLayer::draw - 0x5046c0
 GJDropDownLayer::ccTouchBegan - 0x5046fc
 GJDropDownLayer::ccTouchMoved - 0x50471c
@@ -2622,6 +2638,7 @@ EditorUI::menuItemFromObjectString - 0x315a4
 EditorUI::moveForCommand - 0x435fc
 EditorUI::moveGamelayer - 0x2f18c
 EditorUI::moveObject - 0x399d4
+EditorUI::moveObjectCall - 0x42a38
 EditorUI::moveObjectCall - 0x437a8
 EditorUI::onColorFilter - 0x31b94
 EditorUI::onCopyState - 0x2c538
@@ -2707,7 +2724,7 @@ EndLevelLayer::keyUp - 0x419320
 EndLevelLayer::coinEnterFinished - 0x418e98
 EndLevelLayer::coinEnterFinishedO - 0x418e4c
 EndLevelLayer::getCoinString - 0x4174b8
-EndLevelLayer::getEndText - 0x6c7abc
+EndLevelLayer::getEndText - 0x41770c
 EndLevelLayer::onEdit - 0x417a1c
 EndLevelLayer::onHideLayer - 0x417c94
 EndLevelLayer::onLevelLeaderboard - 0x417c20
@@ -4622,7 +4639,7 @@ PauseLayer::sfxSliderChanged - 0x34db2c
 PauseLayer::tryQuit - 0x34d988
 PlatformToolbox::gameDidSave - 0x41a0c4
 PlatformToolbox::getDisplaySize - 0x41a190
-PlatformToolbox::hideCursor - 0x41a144
+PlatformToolbox::hideCursor - 0x419630
 PlatformToolbox::isControllerConnected - 0x41a254
 PlatformToolbox::platformShutdown - 0x41a1d4
 PlatformToolbox::showCursor - 0x419648
@@ -4958,6 +4975,7 @@ RotateGameplayGameObject::init - 0x198058
 RotateGameplayGameObject::updateStartValues - 0x199834
 RotateGameplayGameObject::customObjectSetup - 0x199544
 RotateGameplayGameObject::getSaveString - 0x1980a8
+ScrollingLayer::ScrollingLayer - 0x629f88
 ScrollingLayer::create - 0x629898
 ScrollingLayer::draw - 0x629b24
 ScrollingLayer::visit - 0x629bc8
@@ -5686,6 +5704,7 @@ SongSelectNode::getLevelSettings - 0x1bd008
 SongSelectNode::audioNext - 0x1bc9d4
 SongSelectNode::audioPrevious - 0x1bc9a0
 SongSelectNode::init - 0x1bc070
+SongSelectNode::onSongMode - 0x1bca0c
 SongSelectNode::onSongMode - 0x1bcabc
 SongSelectNode::showCustomSongSelect - 0x1bcd0c
 SongSelectNode::updateAudioLabel - 0x1bc888
