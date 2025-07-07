@@ -1506,6 +1506,7 @@ cocos2d::CCConfiguration::checkForGLExtension - 0x503d20
 cocos2d::CCPoolManager::addObject - 0x3e5070
 cocos2d::CCPoolManager::pop - 0x3e4f70
 cocos2d::CCPoolManager::sharedPoolManager - 0x3e4b70
+cocos2d::CCZone::CCZone - 0xfc970
 cocos2d::CCDisplayLinkDirector::setAnimationInterval - 0x471d80
 cocos2d::CCDisplayLinkDirector::stopAnimation - 0x471d70
 cocos2d::CCDisplayLinkDirector::startAnimation - 0x471cf0
