@@ -17,6 +17,7 @@ cocos2d::CCEGLViewProtocol::handleTouchesBegin - 0x2e6a20
 cocos2d::CCEGLViewProtocol::handleTouchesMove - 0x2e6c58
 cocos2d::CCEGLViewProtocol::handleTouchesEnd - 0x2e6ecc
 cocos2d::CCEGLViewProtocol::handleTouchesCancel - 0x2e6f68
+cocos2d::CCObject::createWithCoder - 0x88ad0
 cocos2d::CCObject::CCObject - 0x88938
 cocos2d::CCObject::~CCObject - 0x88980
 cocos2d::CCObject::autorelease - 0x88a6c
@@ -110,6 +111,7 @@ cocos2d::CCNode::runAction - 0x23c1d0
 cocos2d::CCNode::schedule - 0x23c2fc
 cocos2d::CCNode::schedule - 0x23c320
 cocos2d::CCNode::scheduleUpdate - 0x23c278
+cocos2d::CCNode::scheduleUpdateWithPriority - 0x23c294
 cocos2d::CCNode::stopActionByTag - 0x23c208
 cocos2d::CCNode::stopAllActions - 0x23b4fc
 cocos2d::CCNode::transform - 0x23bd34
@@ -241,6 +243,7 @@ cocos2d::CCMotionStreak::enableRepeatMode - 0x17a5b4
 cocos2d::CCMotionStreak::reset - 0x17ab00
 cocos2d::CCMotionStreak::resumeStroke - 0x17a618
 cocos2d::CCMotionStreak::stopStroke - 0x17a610
+cocos2d::CCMotionStreak::updateFade - 0x17a600
 cocos2d::CCMotionStreak::~CCMotionStreak - 0x17a104
 cocos2d::CCMotionStreak::update - 0x17a624
 cocos2d::CCMotionStreak::setPosition - 0x17a4f4
@@ -287,6 +290,7 @@ cocos2d::CCSet::begin - 0x1afa04
 cocos2d::CCSet::containsObject - 0x1af9b4
 cocos2d::CCSet::copy - 0x1af8e4
 cocos2d::CCSet::end - 0x1afa10
+cocos2d::CCSet::removeObject - 0x1af980
 cocos2d::CCSet::acceptVisitor - 0x1af8cc
 cocos2d::CCShaderCache::purgeSharedShaderCache - 0x12b69c
 cocos2d::CCShaderCache::sharedShaderCache - 0x12b5e4
@@ -492,10 +496,12 @@ cocos2d::CCGLProgram::reset - 0x138f20
 cocos2d::CCGLProgram::updateUniformLocation - 0x138588
 cocos2d::CCGLProgram::updateUniforms - 0x1383f0
 cocos2d::CCGLProgram::use - 0x1384e8
+cocos2d::CCScheduler::resumeTarget - 0x1aeb90
 cocos2d::CCScheduler::scheduleSelector - 0x1ad808
 cocos2d::CCScheduler::scheduleSelector - 0x1ad7f8
 cocos2d::CCScheduler::scheduleUpdateForTarget - 0x1ae428
 cocos2d::CCScheduler::unscheduleAll - 0x1ad6a0
+cocos2d::CCScheduler::unscheduleAllForTarget - 0x1ae9ec
 cocos2d::CCScheduler::unscheduleSelector - 0x1ad400
 cocos2d::CCScheduler::update - 0x1aef78
 cocos2d::CCLayer::create - 0x14bd1c
@@ -587,6 +593,8 @@ cocos2d::CCMouseDispatcher::addDelegate - 0x2fe4e0
 cocos2d::CCMouseDispatcher::forceRemoveDelegate - 0x2fe44c
 cocos2d::CCMouseDispatcher::removeDelegate - 0x2fe404
 cocos2d::CCTargetedTouchHandler::getClaimedTouches - 0x10540
+cocos2d::CCTexture2D::PVRImagesHavePremultipliedAlpha - 0x13113c
+cocos2d::CCTexture2D::initPremultipliedATextureWithImage - 0x130acc
 cocos2d::CCTexture2D::initWithData - 0x1307ac
 cocos2d::CCTexture2D::initWithImage - 0x130a5c
 cocos2d::CCTexture2D::getContentSizeInPixels - 0x130738
@@ -614,9 +622,12 @@ cocos2d::CCTextureCache::removeTextureForKey - 0x1175f0
 cocos2d::CCTextureCache::textureForKey - 0x117670
 cocos2d::CCTouch::getLocationInView - 0x2fe8d0
 cocos2d::CCTouch::getLocation - 0x2fe8dc
+cocos2d::CCTouchDispatcher::init - 0x15220c
 cocos2d::CCTouchDispatcher::addPrioTargetedDelegate - 0x152430
 cocos2d::CCTouchDispatcher::addTargetedDelegate - 0x152448
 cocos2d::CCTouchDispatcher::findHandler - 0x1528d8
+cocos2d::CCTouchDispatcher::forceRemoveDelegate - 0x1526c0
+cocos2d::CCTouchDispatcher::isUsingForcePrio - 0x152420
 cocos2d::CCTouchDispatcher::registerForcePrio - 0x152340
 cocos2d::CCTouchDispatcher::removeDelegate - 0x1527ac
 cocos2d::CCTouchDispatcher::touches - 0x152998
@@ -651,6 +662,9 @@ cocos2d::CCIMEDispatcher::dispatchInsertText - 0x1d4998
 cocos2d::CCDirector::sharedDirector - 0x178534
 cocos2d::CCDirector::getWinSize - 0x1791c4
 cocos2d::CCDirector::getWinSizeInPixels - 0x1794e0
+cocos2d::CCDirector::setDepthTest - 0x178abc
+cocos2d::CCDirector::setGLDefaultValues - 0x178a70
+cocos2d::CCDirector::setNextScene - 0x178d8c
 cocos2d::CCDirector::setProjection - 0x178aec
 cocos2d::CCDirector::setViewport - 0x179380
 cocos2d::CCDirector::CCDirector - 0x1785a4
@@ -666,6 +680,7 @@ cocos2d::CCDirector::purgeDirector - 0x17997c
 cocos2d::CCDirector::pushScene - 0x179580
 cocos2d::CCDirector::replaceScene - 0x179608
 cocos2d::CCDirector::resetSmoothFixCounter - 0x178ff4
+cocos2d::CCDirector::resume - 0x179ac8
 cocos2d::CCDirector::runWithScene - 0x179554
 cocos2d::CCDirector::updateContentScale - 0x1792dc
 cocos2d::CCDirector::willSwitchToScene - 0x1794fc
@@ -821,6 +836,7 @@ cocos2d::CCLabelTTF::setString - 0x7283c
 cocos2d::CCLabelTTF::getString - 0x729a4
 cocos2d::CCActionManager::addAction - 0x2f4378
 cocos2d::CCActionManager::removeAction - 0x2f493c
+cocos2d::CCActionManager::resumeTarget - 0x2f4280
 cocos2d::CCAnimate::create - 0x1908e8
 cocos2d::CCAnimate::copyWithZone - 0x190be4
 cocos2d::CCAnimate::update - 0x190e38
@@ -849,6 +865,7 @@ cocos2d::CCDictionary::count - 0x41a6b8
 cocos2d::CCDictionary::objectForKey - 0x41a8fc
 cocos2d::CCDictionary::objectForKey - 0x41aba8
 cocos2d::CCDictionary::removeAllObjects - 0x41a564
+cocos2d::CCDictionary::removeObjectForElememt - 0x41bca0
 cocos2d::CCDictionary::removeObjectForKey - 0x41b9d8
 cocos2d::CCDictionary::removeObjectForKey - 0x41bdcc
 cocos2d::CCDictionary::valueForKey - 0x41a868
@@ -1012,6 +1029,7 @@ DS_Dictionary::getObjectForKey - 0x165ff0
 DS_Dictionary::loadRootSubDictFromString - 0x1645d4
 DS_Dictionary::saveRootSubDictToString - 0x164824
 DS_Dictionary::setBoolForKey - 0x165750
+DS_Dictionary::setBoolMapForKey - 0x1663b4
 DS_Dictionary::setDictForKey - 0x1662a8
 DS_Dictionary::setIntegerForKey - 0x16551c
 DS_Dictionary::setStringForKey - 0x165acc
@@ -1127,6 +1145,7 @@ cocos2d::CCLightning::initWithStrikePoint - 0x3471b0
 cocos2d::CCLightning::CCLightning - 0x347014
 cocos2d::CCLightning::~CCLightning - 0x3470bc
 cocos2d::CCLightning::strike - 0x347290
+cocos2d::CCLightning::strikeFinished - 0x3473fc
 cocos2d::CCLightning::draw - 0x3472fc
 cocos2d::CCLightning::isOpacityModifyRGB - 0x34748c
 cocos2d::CCLightning::setOpacityModifyRGB - 0x34749c
@@ -1974,6 +1993,7 @@ ChallengesPage::createChallengeNode - 0x36770
 ChallengesPage::onClose - 0x36530
 ChallengesPage::updateTimers - 0x3657c
 GJChallengeItem::create - 0x340380
+GJChallengeItem::createWithCoder - 0x340598
 GJChallengeItem::encodeWithCoder - 0x340730
 GJChallengeItem::canEncode - 0x34080c
 ChallengeNode::create - 0x36c94
@@ -3269,9 +3289,11 @@ GJRequestCell::markAsRead - 0x114de4
 GJRequestCell::onViewFriendRequest - 0x114c80
 GJRequestCell::updateBGColor - 0x10cca8
 GJRewardItem::create - 0x33feac
+GJRewardItem::createWithCoder - 0x34011c
 GJRewardItem::encodeWithCoder - 0x3401b0
 GJRewardItem::canEncode - 0x34021c
 GJRewardObject::create - 0x33315c
+GJRewardObject::createWithCoder - 0x33fd24
 GJRewardObject::encodeWithCoder - 0x33fdd0
 GJRewardObject::canEncode - 0x33fe50
 GJRobotSprite::create - 0x23eff0
@@ -3333,8 +3355,10 @@ GJSmartBlockPreviewSprite::init - 0xd46c
 GJSmartBlockPreviewSprite::visit - 0xd470
 GJSmartPrefab::encodeWithCoder - 0xc604
 GJSmartPrefab::canEncode - 0xc550
+GJSmartPrefab::createWithCoder - 0xc558
 GJSmartTemplate::encodeWithCoder - 0xc430
 GJSmartTemplate::canEncode - 0xc1c4
+GJSmartTemplate::createWithCoder - 0xc1cc
 GJSongBrowser::create - 0x2649ac
 GJSongBrowser::init - 0x264ad4
 GJSongBrowser::customSetup - 0x264cb4
@@ -4731,6 +4755,7 @@ ShardsPage::show - 0x39c1d8
 ShardsPage::goToPage - 0x39c094
 ShardsPage::onIconInfo - 0x39c01c
 ShardsPage::onSwitchPage - 0x39c054
+ShareCommentLayer::create - 0x1d52a0
 ShareCommentLayer::registerWithTouchDispatcher - 0x1d673c
 ShareCommentLayer::keyBackClicked - 0x1d6694
 ShareCommentLayer::textInputOpened - 0x1d6848
@@ -4799,6 +4824,7 @@ SongInfoObject::create - 0x15c574
 SongInfoObject::create - 0x15e750
 SongInfoObject::encodeWithCoder - 0x15f0b0
 SongInfoObject::canEncode - 0x15f244
+SongInfoObject::createWithCoder - 0x15ebf0
 SongInfoObject::init - 0x15e928
 SongObject::create - 0x112d44
 SongOptionsLayer::keyBackClicked - 0x1491e0

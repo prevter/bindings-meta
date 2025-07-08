@@ -18,6 +18,7 @@ cocos2d::CCEGLViewProtocol::handleTouchesBegin - 0x4f9f00
 cocos2d::CCEGLViewProtocol::handleTouchesMove - 0x4fa1d0
 cocos2d::CCEGLViewProtocol::handleTouchesEnd - 0x4fa4e0
 cocos2d::CCEGLViewProtocol::handleTouchesCancel - 0x4fa560
+cocos2d::CCObject::createWithCoder - 0x477ec0
 cocos2d::CCObject::CCObject - 0x477bd0
 cocos2d::CCObject::~CCObject - 0x477c70
 cocos2d::CCObject::autorelease - 0x477e10
@@ -374,6 +375,8 @@ cocos2d::CCParticleSystem::create - 0x7b1480
 cocos2d::CCParticleSystem::initParticle - 0x7b3670
 cocos2d::CCParticleSystem::initWithDictionary - 0x7b1800
 cocos2d::CCParticleSystem::initWithDictionary - 0x7b31f0
+cocos2d::CCParticleSystem::initWithFile - 0x7b14e0
+cocos2d::CCParticleSystem::CCParticleSystem - 0x7b12c0
 cocos2d::CCParticleSystem::~CCParticleSystem - 0x7b34f0
 cocos2d::CCParticleSystem::loadScaledDefaults - 0x7b60e0
 cocos2d::CCParticleSystem::resetSystem - 0x7b4740
@@ -591,6 +594,7 @@ cocos2d::CCGLProgram::updateUniforms - 0x418100
 cocos2d::CCGLProgram::use - 0x418200
 cocos2d::CCGLProgram::vertexShaderLog - 0x4183c0
 cocos2d::CCScheduler::pauseTarget - 0x42f860
+cocos2d::CCScheduler::resumeTarget - 0x42f630
 cocos2d::CCScheduler::scheduleSelector - 0x42e250
 cocos2d::CCScheduler::scheduleSelector - 0x42e230
 cocos2d::CCScheduler::scheduleUpdateForTarget - 0x42ee60
@@ -700,6 +704,7 @@ cocos2d::CCMouseDispatcher::removeDelegate - 0x55a2e0
 cocos2d::CCTargetedTouchHandler::getClaimedTouches - 0x46e5e0
 cocos2d::CCTexture2D::PVRImagesHavePremultipliedAlpha - 0x466800
 cocos2d::CCTexture2D::setDefaultAlphaPixelFormat - 0x4669c0
+cocos2d::CCTexture2D::initPremultipliedATextureWithImage - 0x465a10
 cocos2d::CCTexture2D::initWithData - 0x465650
 cocos2d::CCTexture2D::initWithETCFile - 0x466730
 cocos2d::CCTexture2D::initWithImage - 0x4659b0
@@ -714,6 +719,8 @@ cocos2d::CCTexture2D::CCTexture2D - 0x4652f0
 cocos2d::CCTexture2D::bitsPerPixelForFormat - 0x465950
 cocos2d::CCTexture2D::bitsPerPixelForFormat - 0x4669e0
 cocos2d::CCTexture2D::description - 0x465970
+cocos2d::CCTexture2D::drawAtPoint - 0x466450
+cocos2d::CCTexture2D::drawInRect - 0x466560
 cocos2d::CCTexture2D::generateMipmap - 0x466810
 cocos2d::CCTexture2D::releaseGLTexture - 0x4655f0
 cocos2d::CCTexture2D::stringForFormat - 0x466990
@@ -1003,6 +1010,7 @@ cocos2d::CCLabelTTF::setString - 0x3aac10
 cocos2d::CCLabelTTF::getString - 0x3aae40
 cocos2d::CCActionManager::addAction - 0x221dd0
 cocos2d::CCActionManager::pauseTarget - 0x221b10
+cocos2d::CCActionManager::resumeTarget - 0x221bf0
 cocos2d::CCActionManager::numberOfRunningActionsInTarget - 0x2227b0
 cocos2d::CCAnimate::create - 0x3a90d0
 cocos2d::CCAnimate::copyWithZone - 0x3a9660
@@ -1047,6 +1055,8 @@ cocos2d::CCDictionary::acceptVisitor - 0x2fc180
 cocos2d::CCRenderTexture::create - 0x5ddfa0
 cocos2d::CCRenderTexture::create - 0x5dda60
 cocos2d::CCRenderTexture::create - 0x5ddb30
+cocos2d::CCRenderTexture::initWithWidthAndHeight - 0x5ddb20
+cocos2d::CCRenderTexture::initWithWidthAndHeight - 0x5ddc00
 cocos2d::CCRenderTexture::CCRenderTexture - 0x5dd7c0
 cocos2d::CCRenderTexture::~CCRenderTexture - 0x5dd880
 cocos2d::CCRenderTexture::begin - 0x5de080
@@ -1342,6 +1352,7 @@ DS_Dictionary::loadRootSubDictFromString - 0x16a9f0
 DS_Dictionary::saveRootSubDictToString - 0x16c030
 DS_Dictionary::setArrayForKey - 0x170440
 DS_Dictionary::setBoolForKey - 0x16e790
+DS_Dictionary::setBoolMapForKey - 0x170fe0
 DS_Dictionary::setDictForKey - 0x170db0
 DS_Dictionary::setFloatForKey - 0x16e9c0
 DS_Dictionary::setIntegerForKey - 0x16e4c0
@@ -1451,6 +1462,7 @@ cocos2d::extension::CCScale9Sprite::initWithSpriteFrameName - 0x3e3d20
 cocos2d::extension::CCScale9Sprite::updateWithBatchNode - 0x3e21c0
 cocos2d::extension::CCScale9Sprite::setSpriteFrame - 0x3e4380
 cocos2d::extension::CCHttpClient::getInstance - 0x425520
+cocos2d::extension::CCHttpClient::destroyInstance - 0x425580
 cocos2d::extension::CCHttpClient::send - 0x426430
 cocos2d::extension::CCHttpClient::lazyInitThreadSemphore - 0x425880
 cocos2d::ZipUtils::base64EncodeEnc - 0x1f3b90
@@ -1484,7 +1496,9 @@ cocos2d::CCLightning::lightningWithStrikePoint - 0x5c5940
 cocos2d::CCLightning::lightningWithStrikePoint - 0x5c5780
 cocos2d::CCLightning::initWithStrikePoint - 0x5c5a90
 cocos2d::CCLightning::initWithStrikePoint - 0x5c58e0
+cocos2d::CCLightning::strike - 0x5c5bd0
 cocos2d::CCLightning::strikeFinished - 0x5c5e60
+cocos2d::CCLightning::strikeRandom - 0x5c5d80
 cocos2d::CCLightning::strikeWithSeed - 0x5c5df0
 cocos2d::CCLightning::draw - 0x5c5c30
 cocos2d::CCLightning::isOpacityModifyRGB - 0x5c5f50
@@ -2496,6 +2510,7 @@ DialogLayer::animateInRandomSide - 0x3b5510
 DialogLayer::displayDialogObject - 0x3b4980
 DialogLayer::displayNextObject - 0x3b48d0
 DialogLayer::finishCurrentAnimation - 0x3b4ff0
+DialogLayer::handleDialogTap - 0x3b4eb0
 DialogLayer::init - 0x3b43e0
 DialogLayer::updateChatPlacement - 0x3b4de0
 DialogLayer::updateNavButtonFrame - 0x3b4d70
@@ -3609,6 +3624,7 @@ GJGameLevel::encodeWithCoder - 0x5482f0
 GJGameLevel::canEncode - 0x548e40
 GJGameLevel::init - 0x544f30
 GJGameLevel::copyLevelInfo - 0x5468b0
+GJGameLevel::createWithCoder - 0x547250
 GJGameLevel::dataLoaded - 0x5472c0
 GJGameLevel::demonIconForDifficulty - 0x548f50
 GJGameLevel::getAudioFileName - 0x545b00
@@ -3675,6 +3691,7 @@ GJLevelList::canEncode - 0x54d4a0
 GJLevelList::init - 0x54b420
 GJLevelList::addLevelToList - 0x54bdf0
 GJLevelList::completedLevels - 0x54ca00
+GJLevelList::createWithCoder - 0x54cec0
 GJLevelList::dataLoaded - 0x54cef0
 GJLevelList::frameForListDifficulty - 0x54d4b0
 GJLevelList::getUnpackedDescription - 0x54b670
@@ -5744,6 +5761,7 @@ ShardsPage::show - 0x4b45d0
 ShardsPage::goToPage - 0x4b4480
 ShardsPage::onIconInfo - 0x4b4410
 ShardsPage::onSwitchPage - 0x4b4440
+ShareCommentLayer::create - 0x5c7580
 ShareCommentLayer::registerWithTouchDispatcher - 0x5c9120
 ShareCommentLayer::keyBackClicked - 0x5c9070
 ShareCommentLayer::textInputOpened - 0x5c92d0
@@ -5841,6 +5859,7 @@ SongInfoObject::create - 0x57c260
 SongInfoObject::create - 0x57f2e0
 SongInfoObject::encodeWithCoder - 0x5800d0
 SongInfoObject::canEncode - 0x580290
+SongInfoObject::createWithCoder - 0x57f980
 SongObject::create - 0x241a00
 SongOptionsLayer::keyBackClicked - 0x205a20
 SongOptionsLayer::onInfo - 0x2057b0

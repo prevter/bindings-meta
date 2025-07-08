@@ -22,6 +22,7 @@ cocos2d::CCObject::createWithCoder - 0x3e6390
 cocos2d::CCObject::CCObject - 0x3e6090
 cocos2d::CCObject::~CCObject - 0x3e6120
 cocos2d::CCObject::autorelease - 0x3e6314
+cocos2d::CCObject::isSingleReference - 0x3e6340
 cocos2d::CCObject::release - 0x3e62e0
 cocos2d::CCObject::retain - 0x3e6304
 cocos2d::CCObject::getTag - 0x3e637c
@@ -157,6 +158,8 @@ cocos2d::CCNode::schedule - 0x20df28
 cocos2d::CCNode::schedule - 0x20df0c
 cocos2d::CCNode::scheduleOnce - 0x20df48
 cocos2d::CCNode::scheduleUpdate - 0x20ddf0
+cocos2d::CCNode::scheduleUpdateWithPriority - 0x20de0c
+cocos2d::CCNode::scheduleUpdateWithPriorityLua - 0x20de28
 cocos2d::CCNode::stopAction - 0x20dd6c
 cocos2d::CCNode::stopActionByTag - 0x20dd74
 cocos2d::CCNode::stopAllActions - 0x20cbec
@@ -290,6 +293,7 @@ cocos2d::CCMotionStreak::enableRepeatMode - 0x4b64ac
 cocos2d::CCMotionStreak::reset - 0x4b6c48
 cocos2d::CCMotionStreak::resumeStroke - 0x4b6510
 cocos2d::CCMotionStreak::stopStroke - 0x4b6508
+cocos2d::CCMotionStreak::updateFade - 0x4b64f8
 cocos2d::CCMotionStreak::~CCMotionStreak - 0x4b5e2c
 cocos2d::CCMotionStreak::update - 0x4b651c
 cocos2d::CCMotionStreak::setPosition - 0x4b6324
@@ -357,6 +361,7 @@ cocos2d::CCSet::containsObject - 0x6b0984
 cocos2d::CCSet::count - 0x6b07e4
 cocos2d::CCSet::end - 0x6b09e0
 cocos2d::CCSet::mutableCopy - 0x6b079c
+cocos2d::CCSet::removeObject - 0x6b08b0
 cocos2d::CCSet::acceptVisitor - 0x6b06b4
 cocos2d::CCShaderCache::purgeSharedShaderCache - 0x1a6c20
 cocos2d::CCShaderCache::sharedShaderCache - 0x1a6b00
@@ -371,6 +376,7 @@ cocos2d::CCParticleSystem::initParticle - 0x6c4620
 cocos2d::CCParticleSystem::initWithDictionary - 0x6c29f0
 cocos2d::CCParticleSystem::initWithDictionary - 0x6c425c
 cocos2d::CCParticleSystem::initWithFile - 0x6c26d8
+cocos2d::CCParticleSystem::CCParticleSystem - 0x6c250c
 cocos2d::CCParticleSystem::~CCParticleSystem - 0x6c44c4
 cocos2d::CCParticleSystem::loadScaledDefaults - 0x6c66b4
 cocos2d::CCParticleSystem::resetSystem - 0x6c5358
@@ -588,10 +594,12 @@ cocos2d::CCGLProgram::updateUniforms - 0x393c44
 cocos2d::CCGLProgram::use - 0x393d70
 cocos2d::CCGLProgram::vertexShaderLog - 0x393f60
 cocos2d::CCScheduler::pauseTarget - 0x3aa664
+cocos2d::CCScheduler::resumeTarget - 0x3aa474
 cocos2d::CCScheduler::scheduleSelector - 0x3a8f7c
 cocos2d::CCScheduler::scheduleSelector - 0x3a8f6c
 cocos2d::CCScheduler::scheduleUpdateForTarget - 0x3a9bec
 cocos2d::CCScheduler::unscheduleAll - 0x3a8d94
+cocos2d::CCScheduler::unscheduleAllForTarget - 0x3aa208
 cocos2d::CCScheduler::unscheduleSelector - 0x3a8a88
 cocos2d::CCScheduler::update - 0x3aac3c
 cocos2d::CCLayer::create - 0x408478
@@ -694,6 +702,7 @@ cocos2d::CCMouseDispatcher::forceAddDelegate - 0x4b0c78
 cocos2d::CCMouseDispatcher::forceRemoveDelegate - 0x4b0b8c
 cocos2d::CCMouseDispatcher::removeDelegate - 0x4b0ad4
 cocos2d::CCTargetedTouchHandler::getClaimedTouches - 0x3dd8b8
+cocos2d::CCTexture2D::PVRImagesHavePremultipliedAlpha - 0x3d667c
 cocos2d::CCTexture2D::setDefaultAlphaPixelFormat - 0x3d683c
 cocos2d::CCTexture2D::initPremultipliedATextureWithImage - 0x3d590c
 cocos2d::CCTexture2D::initWithData - 0x3d557c
@@ -714,6 +723,7 @@ cocos2d::CCTexture2D::drawAtPoint - 0x3d62d0
 cocos2d::CCTexture2D::drawInRect - 0x3d63e8
 cocos2d::CCTexture2D::generateMipmap - 0x3d6688
 cocos2d::CCTexture2D::releaseGLTexture - 0x3d5538
+cocos2d::CCTexture2D::stringForFormat - 0x3d6818
 cocos2d::CCTexture2D::getPixelFormat - 0x3d5454
 cocos2d::CCTexture2D::getPixelsWide - 0x3d545c
 cocos2d::CCTexture2D::getPixelsHigh - 0x3d5464
@@ -738,10 +748,13 @@ cocos2d::CCTouch::getLocation - 0x4f740
 cocos2d::CCTouch::getPreviousLocation - 0x4f76c
 cocos2d::CCTouch::getStartLocation - 0x4f798
 cocos2d::CCTouch::getDelta - 0x4f7c4
+cocos2d::CCTouchDispatcher::init - 0x4203d4
 cocos2d::CCTouchDispatcher::setPriority - 0x420e50
 cocos2d::CCTouchDispatcher::addPrioTargetedDelegate - 0x420668
 cocos2d::CCTouchDispatcher::addTargetedDelegate - 0x420680
 cocos2d::CCTouchDispatcher::findHandler - 0x420cec
+cocos2d::CCTouchDispatcher::forceRemoveDelegate - 0x420a38
+cocos2d::CCTouchDispatcher::isUsingForcePrio - 0x420658
 cocos2d::CCTouchDispatcher::registerForcePrio - 0x420540
 cocos2d::CCTouchDispatcher::removeDelegate - 0x420b2c
 cocos2d::CCTouchDispatcher::touches - 0x420fc0
@@ -792,6 +805,9 @@ cocos2d::CCDirector::getVisibleSize - 0x3dfed0
 cocos2d::CCDirector::getWinSize - 0x3df874
 cocos2d::CCDirector::getWinSizeInPixels - 0x3dfeb4
 cocos2d::CCDirector::setDefaultValues - 0x3dea54
+cocos2d::CCDirector::setDepthTest - 0x3ded0c
+cocos2d::CCDirector::setGLDefaultValues - 0x3decac
+cocos2d::CCDirector::setNextScene - 0x3df328
 cocos2d::CCDirector::setNotificationNode - 0x3e07d4
 cocos2d::CCDirector::setProjection - 0x3ded3c
 cocos2d::CCDirector::setViewport - 0x3dfc30
@@ -811,6 +827,8 @@ cocos2d::CCDirector::purgeDirector - 0x3e0564
 cocos2d::CCDirector::pushScene - 0x3e0034
 cocos2d::CCDirector::removeStatsLabel - 0x3e0734
 cocos2d::CCDirector::replaceScene - 0x3e00fc
+cocos2d::CCDirector::resetSmoothFixCounter - 0x3df678
+cocos2d::CCDirector::resume - 0x3e06bc
 cocos2d::CCDirector::runWithScene - 0x3dff70
 cocos2d::CCDirector::showFPSLabel - 0x3df4dc
 cocos2d::CCDirector::toggleShowFPS - 0x3df778
@@ -1027,6 +1045,7 @@ cocos2d::CCDictionary::count - 0x292434
 cocos2d::CCDictionary::objectForKey - 0x29288c
 cocos2d::CCDictionary::objectForKey - 0x292b98
 cocos2d::CCDictionary::removeAllObjects - 0x292260
+cocos2d::CCDictionary::removeObjectForElememt - 0x293dbc
 cocos2d::CCDictionary::removeObjectForKey - 0x293a98
 cocos2d::CCDictionary::removeObjectForKey - 0x293f08
 cocos2d::CCDictionary::valueForKey - 0x2927ec
@@ -1036,6 +1055,7 @@ cocos2d::CCDictionary::acceptVisitor - 0x2945e8
 cocos2d::CCRenderTexture::create - 0x510d58
 cocos2d::CCRenderTexture::create - 0x510844
 cocos2d::CCRenderTexture::create - 0x510924
+cocos2d::CCRenderTexture::initWithWidthAndHeight - 0x51091c
 cocos2d::CCRenderTexture::initWithWidthAndHeight - 0x510a0c
 cocos2d::CCRenderTexture::CCRenderTexture - 0x510664
 cocos2d::CCRenderTexture::~CCRenderTexture - 0x5106fc
@@ -1192,6 +1212,7 @@ cocos2d::CCDrawNode::drawPreciseCubicBezier - 0x528ce8
 cocos2d::CCDrawNode::drawRect - 0x529d94
 cocos2d::CCDrawNode::drawSegment - 0x5298c0
 cocos2d::CCDrawNode::ensureCapacity - 0x528728
+cocos2d::CCDrawNode::listenBackToForeground - 0x52a110
 cocos2d::CCDrawNode::render - 0x5288b4
 cocos2d::CCDrawNode::init - 0x52877c
 cocos2d::CCDrawNode::draw - 0x52893c
@@ -1476,6 +1497,7 @@ cocos2d::CCLightning::lightningWithStrikePoint - 0x4fa6c4
 cocos2d::CCLightning::initWithStrikePoint - 0x4fa950
 cocos2d::CCLightning::initWithStrikePoint - 0x4fa7dc
 cocos2d::CCLightning::strike - 0x4faa74
+cocos2d::CCLightning::strikeFinished - 0x4facc8
 cocos2d::CCLightning::strikeRandom - 0x4fabe0
 cocos2d::CCLightning::strikeWithSeed - 0x4fac58
 cocos2d::CCLightning::draw - 0x4faae0
@@ -5591,6 +5613,7 @@ ShardsPage::show - 0x41c824
 ShardsPage::goToPage - 0x41c6d8
 ShardsPage::onIconInfo - 0x41c660
 ShardsPage::onSwitchPage - 0x41c698
+ShareCommentLayer::create - 0x4fc050
 ShareCommentLayer::registerWithTouchDispatcher - 0x4fd970
 ShareCommentLayer::keyBackClicked - 0x4fd8c8
 ShareCommentLayer::textInputOpened - 0x4fdb34
