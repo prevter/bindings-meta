@@ -821,6 +821,7 @@ CustomizeObjectLayer::onClose - 0xa9900
 CustomizeObjectLayer::onCopy - 0xa7900
 CustomizeObjectLayer::onEditColor - 0xa7d70
 CustomizeObjectLayer::onHSV - 0xa8470
+CustomizeObjectLayer::onNextColorChannel - 0xa87d0
 CustomizeObjectLayer::onPaste - 0xa7960
 CustomizeObjectLayer::onSelectColor - 0xa95a0
 CustomizeObjectLayer::onSelectMode - 0xa88e0
@@ -2652,6 +2653,7 @@ LevelEditorLayer::handleAction - 0x2cde30
 LevelEditorLayer::init - 0x2c96e0
 LevelEditorLayer::objectAtPosition - 0x2cc940
 LevelEditorLayer::objectsAtPosition - 0x2ccd00
+LevelEditorLayer::onPausePlaytest - 0x2d7240
 LevelEditorLayer::onPlaytest - 0x2d7330
 LevelEditorLayer::onResumePlaytest - 0x2d7d60
 LevelEditorLayer::onStopPlaytest - 0x2d7f50

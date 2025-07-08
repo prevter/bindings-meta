@@ -2344,6 +2344,7 @@ CustomizeObjectLayer::onClose - 0x19c978
 CustomizeObjectLayer::onEditColor - 0x19d354
 CustomizeObjectLayer::onHSV - 0x19cd5c
 CustomizeObjectLayer::onLiveEdit - 0x19d3a8
+CustomizeObjectLayer::onNextColorChannel - 0x19d788
 CustomizeObjectLayer::onSelectColor - 0x19d08c
 CustomizeObjectLayer::onSelectMode - 0x19cb14
 CustomizeObjectLayer::onUpdateCustomColor - 0x19d154
