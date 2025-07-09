@@ -2890,6 +2890,7 @@ GameToolbox::createToggleButton - 0x47a98
 GameToolbox::createToggleButton - 0x47bcc
 GameToolbox::easeToText - 0x4b720
 GameToolbox::fast_rand_0_1 - 0x49540
+GameToolbox::fast_rand_minus1_1 - 0x49578
 GameToolbox::fast_srand - 0x49534
 GameToolbox::getTimeString - 0x49338
 GameToolbox::intToShortString - 0x4bd08

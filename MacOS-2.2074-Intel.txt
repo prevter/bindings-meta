@@ -3270,10 +3270,13 @@ GameToolbox::createToggleButton - 0x4dbd60
 GameToolbox::createToggleButton - 0x4dbe90
 GameToolbox::doWeHaveInternet - 0x4db770
 GameToolbox::easeToText - 0x4e34f0
+GameToolbox::fast_rand - 0x4dea50
 GameToolbox::fast_rand_0_1 - 0x4dea80
+GameToolbox::fast_rand_minus1_1 - 0x4deac0
 GameToolbox::fast_srand - 0x4dea30
 GameToolbox::gen_random - 0x504920
 GameToolbox::getEasedAction - 0x4de7b0
+GameToolbox::getfast_srand - 0x4dea40
 GameToolbox::getResponse - 0x4dba00
 GameToolbox::getTimeString - 0x4de620
 GameToolbox::hsvFromString - 0x4dd030
