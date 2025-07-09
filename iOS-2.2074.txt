@@ -1699,6 +1699,7 @@ GameObject::isSettingsObject - 0x261dfc
 GameObject::isSpawnableTrigger - 0x261684
 GameObject::loadGroupsFromString - 0x25c9f8
 GameObject::makeInvisible - 0x25b45c
+GameObject::parentForZLayer - 0x25552c
 GameObject::playDestroyObjectAnim - 0x349078
 GameObject::playShineEffect - 0x25b4d8
 GameObject::quickUpdatePosition - 0x25a1d0

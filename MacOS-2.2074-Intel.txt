@@ -1754,6 +1754,7 @@ GameObject::isSpawnableTrigger - 0x5b2ac0
 GameObject::isSpeedObject - 0x5b30f0
 GameObject::loadGroupsFromString - 0x5a6d00
 GameObject::makeInvisible - 0x5a53a0
+GameObject::parentForZLayer - 0x592280
 GameObject::playDestroyObjectAnim - 0x24c560
 GameObject::playShineEffect - 0x5a5440
 GameObject::quickUpdatePosition - 0x5a3cd0
