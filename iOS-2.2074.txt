@@ -496,6 +496,7 @@ cocos2d::CCGLProgram::reset - 0x138f20
 cocos2d::CCGLProgram::updateUniformLocation - 0x138588
 cocos2d::CCGLProgram::updateUniforms - 0x1383f0
 cocos2d::CCGLProgram::use - 0x1384e8
+cocos2d::CCScheduler::pauseTarget - 0x1aed80
 cocos2d::CCScheduler::resumeTarget - 0x1aeb90
 cocos2d::CCScheduler::scheduleSelector - 0x1ad808
 cocos2d::CCScheduler::scheduleSelector - 0x1ad7f8
@@ -836,6 +837,7 @@ cocos2d::CCLabelTTF::setString - 0x7283c
 cocos2d::CCLabelTTF::getString - 0x729a4
 cocos2d::CCActionManager::addAction - 0x2f4378
 cocos2d::CCActionManager::removeAction - 0x2f493c
+cocos2d::CCActionManager::pauseTarget - 0x2f4184
 cocos2d::CCActionManager::resumeTarget - 0x2f4280
 cocos2d::CCAnimate::create - 0x1908e8
 cocos2d::CCAnimate::copyWithZone - 0x190be4
@@ -904,6 +906,7 @@ cocos2d::CCTransitionFade::onEnter - 0x1cef04
 cocos2d::CCTransitionFade::onExit - 0x1cf008
 cocos2d::CCTransitionFade::initWithDuration - 0x1ceedc
 cocos2d::CCTransitionFade::initWithDuration - 0x1cee98
+cocos2d::CCBlink::create - 0x18fd00
 cocos2d::CCBlink::copyWithZone - 0x18fe10
 cocos2d::CCBlink::update - 0x18fefc
 cocos2d::CCBlink::startWithTarget - 0x18fdcc
