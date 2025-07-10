@@ -4592,6 +4592,7 @@ SetupGradientPopup::determineStartValues - 0x343010
 SetupGradientPopup::onPlusButton - 0x343120
 SetupGradientPopup::updateToggleItem - 0x34317c
 SetupGradientPopup::valueDidChange - 0x343234
+SetupGradientPopup::init - 0x341f78
 SetupGravityTriggerPopup::valueDidChange - 0x419a94
 SetupInstantCountPopup::create - 0x1bdc18
 SetupInstantCountPopup::determineStartValues - 0x1bebe0
