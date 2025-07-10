@@ -3487,6 +3487,7 @@ KeyframeGameObject::init - 0x383c34
 KeyframeGameObject::setOpacity - 0x383ef8
 KeyframeGameObject::customObjectSetup - 0x383fa4
 KeyframeGameObject::getSaveString - 0x3843ac
+KeyframeGameObject::updateShadowObjects - 0x383c98
 LabelGameObject::init - 0x38166c
 LabelGameObject::setOpacity - 0x38198c
 LabelGameObject::setupCustomSprites - 0x38169c
@@ -4129,6 +4130,7 @@ PlayerObject::resetStreak - 0x21e73c
 PlayerObject::resetTouchedRings - 0x22798c
 PlayerObject::reversePlayer - 0x2297ac
 PlayerObject::ringJump - 0x228ac0
+PlayerObject::rotateGameplay - 0x227648
 PlayerObject::runBallRotation - 0x21f098
 PlayerObject::runNormalRotation - 0x21c204
 PlayerObject::setSecondColor - 0x21af40
