@@ -848,6 +848,12 @@ cocos2d::CCAnimate::reverse - 0x191034
 cocos2d::CCAnimation::createWithSpriteFrames - 0x1a73f4
 cocos2d::CCAnimation::copyWithZone - 0x1a7710
 cocos2d::CCAnimation::getDuration - 0x1a7704
+cocos2d::CCAnimationCache::sharedAnimationCache - 0x1d4ed8
+cocos2d::CCAnimationCache::purgeSharedAnimationCache - 0x1d4f88
+cocos2d::CCAnimationCache::init - 0x1d4f40
+cocos2d::CCAnimationCache::~CCAnimationCache - 0x1d4fb4
+cocos2d::CCAnimationCache::addAnimation - 0x1d5008
+cocos2d::CCAnimationCache::animationByName - 0x1d5078
 cocos2d::CCApplication::sharedApplication - 0x1af428
 cocos2d::CCApplication::~CCApplication - 0x1af2ec
 cocos2d::CCApplication::setAnimationInterval - 0x1af3fc
@@ -1061,6 +1067,7 @@ cocos2d::extension::CCControl::addTargetWithActionForControlEvents - 0x1a8eb4
 cocos2d::extension::CCControl::removeTargetWithActionForControlEvents - 0x1a8f7c
 cocos2d::extension::CCControl::getTouchLocation - 0x1a91b4
 cocos2d::extension::CCControl::isTouchInside - 0x1a9200
+cocos2d::extension::CCControlColourPicker::~CCControlColourPicker - 0x1b1d3c
 cocos2d::extension::CCControlColourPicker::colourPicker - 0x1b1bd8
 cocos2d::extension::CCControlColourPicker::hueSliderValueChanged - 0x1b19d8
 cocos2d::extension::CCControlColourPicker::colourSliderValueChanged - 0x1b1abc

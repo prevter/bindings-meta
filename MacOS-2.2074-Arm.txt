@@ -1026,6 +1026,18 @@ cocos2d::CCAnimation::initWithAnimationFrames - 0x22e3fc
 cocos2d::CCAnimation::initWithSpriteFrames - 0x22e1b0
 cocos2d::CCAnimation::copyWithZone - 0x22e720
 cocos2d::CCAnimation::getDuration - 0x22e714
+cocos2d::CCAnimationCache::sharedAnimationCache - 0x3cb55c
+cocos2d::CCAnimationCache::purgeSharedAnimationCache - 0x3cb66c
+cocos2d::CCAnimationCache::init - 0x3cb624
+cocos2d::CCAnimationCache::CCAnimationCache - 0x3cb698
+cocos2d::CCAnimationCache::~CCAnimationCache - 0x3cb6bc
+cocos2d::CCAnimationCache::addAnimation - 0x3cb774
+cocos2d::CCAnimationCache::addAnimationsWithDictionary - 0x3cc124
+cocos2d::CCAnimationCache::addAnimationsWithFile - 0x3cc37c
+cocos2d::CCAnimationCache::animationByName - 0x3cb988
+cocos2d::CCAnimationCache::parseVersion1 - 0x3cba7c
+cocos2d::CCAnimationCache::parseVersion2 - 0x3cbce8
+cocos2d::CCAnimationCache::removeAnimationByName - 0x3cb880
 cocos2d::CCApplication::sharedApplication - 0x2ab200
 cocos2d::CCApplication::~CCApplication - 0x2ab124
 cocos2d::CCApplication::setAnimationInterval - 0x2ab1cc
@@ -1389,6 +1401,7 @@ cocos2d::extension::CCControl::addTargetWithActionForControlEvents - 0x2d4060
 cocos2d::extension::CCControl::removeTargetWithActionForControlEvents - 0x2d4520
 cocos2d::extension::CCControl::getTouchLocation - 0x2d49b8
 cocos2d::extension::CCControl::isTouchInside - 0x2d4a04
+cocos2d::extension::CCControlColourPicker::~CCControlColourPicker - 0x2d81c8
 cocos2d::extension::CCControlColourPicker::colourPicker - 0x2d7fe0
 cocos2d::extension::CCControlColourPicker::hueSliderValueChanged - 0x2d7d44
 cocos2d::extension::CCControlColourPicker::colourSliderValueChanged - 0x2d7e2c
