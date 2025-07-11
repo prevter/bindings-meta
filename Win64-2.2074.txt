@@ -123,6 +123,7 @@ AchievementsLayer::loadPage - 0x82300
 AchievementsLayer::onNextPage - 0x824e0
 AchievementsLayer::onPrevPage - 0x824f0
 CCSpritePlus::CCSpritePlus - 0x456a0
+CCSpritePlus::~CCSpritePlus - 0x47cc0
 CCSpritePlus::createWithSpriteFrameName - 0x47d10
 CCSpritePlus::setScaleX - 0x481d0
 CCSpritePlus::setScaleY - 0x48250

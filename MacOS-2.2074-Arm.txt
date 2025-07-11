@@ -1662,6 +1662,9 @@ AchievementsLayer::customSetup - 0x2f2c18
 AchievementsLayer::loadPage - 0x2f2ea8
 AchievementsLayer::onNextPage - 0x2f2e9c
 AchievementsLayer::onPrevPage - 0x2f2e90
+CCSpritePlus::~CCSpritePlus - 0x3ddc34
+CCSpritePlus::createWithSpriteFrame - 0x3ddd1c
+CCSpritePlus::createWithSpriteFrameName - 0x3dddcc
 CCSpritePlus::setScaleX - 0x3de1dc
 CCSpritePlus::setScaleY - 0x3de258
 CCSpritePlus::setScale - 0x3de2d4
@@ -1673,6 +1676,11 @@ CCSpritePlus::initWithTexture - 0x3dde98
 CCSpritePlus::initWithSpriteFrameName - 0x3dde8c
 CCSpritePlus::setFlipX - 0x3de07c
 CCSpritePlus::setFlipY - 0x3de12c
+CCSpritePlus::addFollower - 0x3de350
+CCSpritePlus::followSprite - 0x3de3ec
+CCSpritePlus::getFollower - 0x3de494
+CCSpritePlus::removeFollower - 0x3de3a4
+CCSpritePlus::stopFollow - 0x3de444
 GameObject::GameObject - 0x199f78
 GameObject::createWithFrame - 0x4d7884
 GameObject::createWithKey - 0x4d73bc
