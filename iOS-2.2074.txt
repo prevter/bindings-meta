@@ -4497,6 +4497,7 @@ SetGroupIDLayer::onArrowRight - 0x4222c
 SetGroupIDLayer::onClose - 0x40b20
 SetGroupIDLayer::onExtra - 0x4211c
 SetGroupIDLayer::onNextGroupID1 - 0x411d4
+SetGroupIDLayer::onPaste - 0x420a8
 SetGroupIDLayer::onRemoveFromGroup - 0x42ac8
 SetGroupIDLayer::updateGroupIDButtons - 0x41bd8
 SetGroupIDLayer::updateGroupIDLabel - 0x418c4

@@ -5210,6 +5210,7 @@ SetGroupIDLayer::onArrowRight - 0x29a138
 SetGroupIDLayer::onClose - 0x298444
 SetGroupIDLayer::onExtra - 0x29a028
 SetGroupIDLayer::onNextGroupID1 - 0x298c40
+SetGroupIDLayer::onPaste - 0x299f48
 SetGroupIDLayer::onRemoveFromGroup - 0x29ae48
 SetGroupIDLayer::updateGroupIDButtons - 0x299a60
 SetGroupIDLayer::updateGroupIDLabel - 0x29950c
