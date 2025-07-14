@@ -2709,6 +2709,7 @@ GameCell::draw - 0x1d1468
 GameLevelManager::sharedState - 0x8bbdc
 GameLevelManager::init - 0x95d68
 GameLevelManager::acceptFriendRequest - 0xac1c4
+GameLevelManager::createAndGetMapPacks - 0x99610
 GameLevelManager::createNewLevelList - 0x96a04
 GameLevelManager::deleteFriendRequests - 0xabc4c
 GameLevelManager::deleteLevel - 0x967dc
@@ -2750,6 +2751,7 @@ GameLevelManager::onDeleteUserMessagesCompleted - 0x92294
 GameLevelManager::onGetGJDailyLevelStateCompleted - 0x93e20
 GameLevelManager::onGetGJSecretRewardCompleted - 0x955f4
 GameLevelManager::onGetGJUserInfoCompleted - 0x90bb4
+GameLevelManager::onGetMapPacksCompleted - 0x8ebfc
 GameLevelManager::onGetOnlineLevelsCompleted - 0x8e490
 GameLevelManager::onProcessHttpRequestCompleted - 0x8be3c
 GameLevelManager::onUpdateUserScoreCompleted - 0x8f694
@@ -3576,6 +3578,8 @@ LevelBrowserLayer::onSaved - 0x40e520
 LevelBrowserLayer::onSearch - 0x40eb2c
 LevelBrowserLayer::setupLevelBrowser - 0x40ff18
 LevelBrowserLayer::show - 0x41185c
+LevelBrowserLayer::updateLevelsLabel - 0x410bb8
+LevelBrowserLayer::updatePageLabel - 0x40dbac
 LevelCell::LevelCell - 0x10ed34
 LevelCell::init - 0x10edb8
 LevelCell::draw - 0x111dd4

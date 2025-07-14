@@ -2943,6 +2943,7 @@ GameLevelManager::acceptFriendRequest - 0x497a7c
 GameLevelManager::accountIDForUserID - 0x475c08
 GameLevelManager::addDLToActive - 0x47e834
 GameLevelManager::blockUser - 0x498a24
+GameLevelManager::createAndGetMapPacks - 0x478bc4
 GameLevelManager::createNewLevel - 0x473a40
 GameLevelManager::createNewLevelList - 0x474704
 GameLevelManager::createPageInfo - 0x47e660
@@ -3033,6 +3034,7 @@ GameLevelManager::onGetGJChallengesCompleted - 0x46f5b0
 GameLevelManager::onGetGJDailyLevelStateCompleted - 0x470324
 GameLevelManager::onGetGJUserInfoCompleted - 0x46b2a8
 GameLevelManager::onGetLeaderboardScoresCompleted - 0x468fa0
+GameLevelManager::onGetMapPacksCompleted - 0x467ce8
 GameLevelManager::onGetOnlineLevelsCompleted - 0x46708c
 GameLevelManager::onProcessHttpRequestCompleted - 0x464438
 GameLevelManager::onRestoreItemsCompleted - 0x46acc0
