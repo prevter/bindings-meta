@@ -2472,6 +2472,8 @@ EditorUI::doPasteObjects - 0x3e6e5c
 EditorUI::dynamicGroupUpdate - 0x3eafa8
 EditorUI::editButtonUsable - 0x3eccac
 EditorUI::editObject - 0x3dcd18
+EditorUI::editObject2 - 0x3dcd10
+EditorUI::editObjectSpecial - 0x3ed75c
 EditorUI::flipObjectsX - 0x3ea3d4
 EditorUI::flipObjectsY - 0x3ea24c
 EditorUI::getCreateBtn - 0x3e24b8
@@ -2793,6 +2795,7 @@ GameManager::calculateBaseKeyForIcons - 0x311f24
 GameManager::checkUsedIcons - 0x316a40
 GameManager::colorForIdx - 0x316f24
 GameManager::countForType - 0x3178fc
+GameManager::didExitPlayscene - 0x31d618
 GameManager::fadeInMenuMusic - 0x312450
 GameManager::fadeInMusic - 0x3124e0
 GameManager::followTwitch - 0x317578

@@ -2667,6 +2667,8 @@ EditorUI::dynamicGroupUpdate - 0x3ed20
 EditorUI::editButtonUsable - 0x41e60
 EditorUI::editGroup - 0x2c4d0
 EditorUI::editObject - 0x2b750
+EditorUI::editObject2 - 0x2b748
+EditorUI::editObject3 - 0x4304c
 EditorUI::editObjectSpecial - 0x42aa0
 EditorUI::flipObjectsX - 0x3ddc0
 EditorUI::flipObjectsY - 0x3dc18

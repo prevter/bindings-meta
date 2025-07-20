@@ -2691,6 +2691,8 @@ EditorUI::editButton2Usable - 0x492e0
 EditorUI::editButtonUsable - 0x48580
 EditorUI::editGroup - 0x2c8f0
 EditorUI::editObject - 0x2b550
+EditorUI::editObject2 - 0x2b540
+EditorUI::editObject3 - 0x4a0e0
 EditorUI::editObjectSpecial - 0x499d0
 EditorUI::flipObjectsX - 0x43d70
 EditorUI::flipObjectsY - 0x43ba0

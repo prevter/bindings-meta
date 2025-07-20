@@ -1156,6 +1156,7 @@ EditorUI::dynamicGroupUpdate - 0x117000
 EditorUI::editButtonUsable - 0x1182f0
 EditorUI::editGroup - 0x11d880
 EditorUI::editObject - 0x11a510
+EditorUI::editObject2 - 0x11c4a0
 EditorUI::editObjectSpecial - 0x11c4b0
 EditorUI::findSnapObject - 0x121790
 EditorUI::findSnapObject - 0x121690
@@ -4301,7 +4302,7 @@ SetupTouchTogglePopup::onClose - 0x44c880
 SetupTouchTogglePopup::textChanged - 0x44c760
 SetupTouchTogglePopup::init - 0x44b720
 SetupTouchTogglePopup::onControlMode - 0x44c6a0
-SetupTouchTogglePopup::onDualTouchMode - 0x44c4b0
+SetupTouchTogglePopup::onDualTouchMode - 0x44c540
 SetupTouchTogglePopup::onHoldMode - 0x44c4b0
 SetupTouchTogglePopup::onTargetIDArrow - 0x3fbf70
 SetupTouchTogglePopup::onTouchMode - 0x44c5d0
