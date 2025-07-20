@@ -2852,6 +2852,8 @@ GameOptionsTrigger::getSaveString - 0x378c58
 GameStatsManager::sharedState - 0x325804
 GameStatsManager::init - 0x3259a0
 GameStatsManager::addStoreItem - 0x32bb90
+GameStatsManager::awardCurrencyForLevel - 0x33282c
+GameStatsManager::awardDiamondsForLevel - 0x332ce4
 GameStatsManager::awardSecretKey - 0x33e2ec
 GameStatsManager::checkCoinAchievement - 0x33052c
 GameStatsManager::collectReward - 0x333564
