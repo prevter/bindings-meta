@@ -5299,6 +5299,8 @@ SetupCameraGuidePopup::init - 0x4c2408
 SetupCameraModePopup::determineStartValues - 0x402fc0
 SetupCameraModePopup::onClose - 0x403274
 SetupCameraModePopup::init - 0x4022e4
+SetupCameraModePopup::sliderChanged - 0x402d08
+SetupCameraModePopup::updateCameraEasingLabel - 0x402e88
 SetupCameraModePopup::updateCameraPaddingLabel - 0x402ed4
 SetupCameraOffsetTrigger::create - 0x5732f0
 SetupCameraOffsetTrigger::determineStartValues - 0x57505c

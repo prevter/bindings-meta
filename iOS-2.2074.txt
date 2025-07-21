@@ -4568,6 +4568,10 @@ SetupCameraEdgePopup::onTargetIDArrow - 0x23a694
 SetupCameraEdgePopup::onUnlockEdge - 0x23a868
 SetupCameraModePopup::determineStartValues - 0x3a3b64
 SetupCameraModePopup::onClose - 0x3a3dec
+SetupCameraModePopup::init - 0x3a30d8
+SetupCameraModePopup::sliderChanged - 0x3a3970
+SetupCameraModePopup::updateCameraEasingLabel - 0x3a3a2c
+SetupCameraModePopup::updateCameraPaddingLabel - 0x3a3a78
 SetupCameraOffsetTrigger::create - 0x192364
 SetupCameraOffsetTrigger::determineStartValues - 0x193bc8
 SetupCameraOffsetTrigger::onClose - 0x194458
