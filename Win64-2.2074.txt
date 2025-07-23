@@ -1248,6 +1248,7 @@ EditorUI::transformObject - 0x11ed00
 EditorUI::transformObjectCall - 0x11e780
 EditorUI::transformObjectCall - 0x11e7b0
 EditorUI::transformObjects - 0x11fec0
+EditorUI::transformObjectsActive - 0x11fe00
 EditorUI::triggerSwipeMode - 0x121b80
 EditorUI::undoLastAction - 0x110120
 EditorUI::updateButtons - 0xe07e0

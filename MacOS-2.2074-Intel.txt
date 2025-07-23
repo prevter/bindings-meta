@@ -2608,6 +2608,8 @@ EditorPauseLayer::onBuildHelper - 0x281fc0
 EditorPauseLayer::onCreateLoop - 0x281fe0
 EditorPauseLayer::onExitEditor - 0x282f40
 EditorPauseLayer::onExitNoSave - 0x281ad0
+EditorPauseLayer::onNewGroupX - 0x2820f0
+EditorPauseLayer::onNewGroupY - 0x282110
 EditorPauseLayer::onResetUnusedColors - 0x281e30
 EditorPauseLayer::onResume - 0x2818a0
 EditorPauseLayer::onSave - 0x2819f0
@@ -2665,6 +2667,7 @@ EditorUI::scaleXYChanged - 0x40590
 EditorUI::activateRotationControl - 0x3dc70
 EditorUI::activateScaleControl - 0x3f250
 EditorUI::activateTransformControl - 0x40720
+EditorUI::alignObjects - 0x4de50
 EditorUI::assignNewGroups - 0x45970
 EditorUI::canSelectObject - 0x3c770
 EditorUI::clickOnPosition - 0x2dfa0
@@ -2716,6 +2719,7 @@ EditorUI::moveGamelayer - 0x2f800
 EditorUI::moveObject - 0x3ef90
 EditorUI::moveObjectCall - 0x49970
 EditorUI::moveObjectCall - 0x4a9d0
+EditorUI::offsetForKey - 0x35d10
 EditorUI::onColorFilter - 0x324d0
 EditorUI::onCopyState - 0x2c960
 EditorUI::onCreate - 0x2e600
@@ -2775,6 +2779,9 @@ EditorUI::toggleSwipe - 0xc3d0
 EditorUI::transformObject - 0x4be30
 EditorUI::transformObjectCall - 0x4ae10
 EditorUI::transformObjects - 0x40ec0
+EditorUI::transformObjectsActive - 0x4d0b0
+EditorUI::transformObjectsReset - 0x4ddb0
+EditorUI::triggerSwipeMode - 0x4f010
 EditorUI::undoLastAction - 0xc6e0
 EditorUI::updateButtons - 0x2cdd0
 EditorUI::updateCreateMenu - 0x2e710
@@ -4221,8 +4228,12 @@ LevelEditorLayer::createObjectsFromString - 0xdf9e0
 LevelEditorLayer::dirtifyTriggers - 0xf0a00
 LevelEditorLayer::getLastObjectX - 0xef3e0
 LevelEditorLayer::getLevelString - 0xe3a60
+LevelEditorLayer::getNextColorChannel - 0xecb90
+LevelEditorLayer::getNextFreeAreaEffectID - 0xec660
+LevelEditorLayer::getNextFreeGradientID - 0xeca40
 LevelEditorLayer::getNextFreeGroupID - 0xebbf0
 LevelEditorLayer::getNextFreeItemID - 0xebf10
+LevelEditorLayer::getObjectRect - 0xe1bd0
 LevelEditorLayer::getSavedEditorPosition - 0xe9750
 LevelEditorLayer::getSavedEditorPositions - 0xe9790
 LevelEditorLayer::getSectionCount - 0xe9bb0
@@ -4232,6 +4243,7 @@ LevelEditorLayer::handleAction - 0xe3140
 LevelEditorLayer::init - 0xdb280
 LevelEditorLayer::objectAtPosition - 0xe1870
 LevelEditorLayer::objectMoved - 0xea300
+LevelEditorLayer::objectsAtPosition - 0xe2010
 LevelEditorLayer::onPlaytest - 0xf0f00
 LevelEditorLayer::onResumePlaytest - 0xf1990
 LevelEditorLayer::onStopPlaytest - 0xf1ae0
@@ -4247,6 +4259,7 @@ LevelEditorLayer::saveEditorPosition - 0xe9730
 LevelEditorLayer::toggleGround - 0xdf280
 LevelEditorLayer::transferDefaultColors - 0xed150
 LevelEditorLayer::tryUpdateSpeedObject - 0xea170
+LevelEditorLayer::typeExistsAtPosition - 0xe0c40
 LevelEditorLayer::undoLastAction - 0xe3a40
 LevelEditorLayer::unlockAllLayers - 0xe9c60
 LevelEditorLayer::updateEditor - 0xddb40
@@ -5450,6 +5463,7 @@ SetupAreaMoveTriggerPopup::triggerValueFromSliderValue - 0x4c17c0
 SetupAreaMoveTriggerPopup::triggerSliderValueFromValue - 0x4c1800
 SetupAreaMoveTriggerPopup::addAreaDefaultControls - 0x4bfbb0
 SetupAreaMoveTriggerPopup::init - 0x4bec20
+SetupAreaMoveTriggerPopup::onNextFreeEffectID - 0x4c11b0
 SetupAreaTintTriggerPopup::determineStartValues - 0x4c58d0
 SetupAreaTintTriggerPopup::onClose - 0x4c5bd0
 SetupAreaTintTriggerPopup::valueDidChange - 0x4c57e0

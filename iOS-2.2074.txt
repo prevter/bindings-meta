@@ -2398,9 +2398,13 @@ EditorPauseLayer::keyDown - 0x3976e0
 EditorPauseLayer::customSetup - 0x394ef0
 EditorPauseLayer::FLAlert_Clicked - 0x397610
 EditorPauseLayer::init - 0x394950
+EditorPauseLayer::onAlignX - 0x396e30
+EditorPauseLayer::onAlignY - 0x396e64
 EditorPauseLayer::onCreateLoop - 0x396e14
 EditorPauseLayer::onExitEditor - 0x3975d8
 EditorPauseLayer::onExitNoSave - 0x396a80
+EditorPauseLayer::onNewGroupX - 0x396ec4
+EditorPauseLayer::onNewGroupY - 0x396ed4
 EditorPauseLayer::onResume - 0x396874
 EditorPauseLayer::onSave - 0x3969c4
 EditorPauseLayer::onSaveAndExit - 0x396970
@@ -2453,6 +2457,8 @@ EditorUI::scaleXYChanged - 0x3e7f6c
 EditorUI::activateRotationControl - 0x3e6664
 EditorUI::activateScaleControl - 0x3e7408
 EditorUI::activateTransformControl - 0x3e803c
+EditorUI::alignObjects - 0x3efa20
+EditorUI::assignNewGroups - 0x3eb650
 EditorUI::canSelectObject - 0x3e57f8
 EditorUI::clickOnPosition - 0x3dea18
 EditorUI::constrainGameLayerPosition - 0x3dc880
@@ -2465,6 +2471,7 @@ EditorUI::createUndoObject - 0x3e62ac
 EditorUI::createUndoSelectObject - 0x3df104
 EditorUI::deactivateRotationControl - 0x3bf430
 EditorUI::deactivateTransformControl - 0x3bf614
+EditorUI::deleteObject - 0x3e1e9c
 EditorUI::deselectAll - 0x3e1f84
 EditorUI::deselectObject - 0x3e2010
 EditorUI::deselectObject - 0x3e1f00
@@ -2492,6 +2499,7 @@ EditorUI::moveGamelayer - 0x3dfa64
 EditorUI::moveObject - 0x3e7270
 EditorUI::moveObjectCall - 0x3ed6f4
 EditorUI::moveObjectCall - 0x3ee190
+EditorUI::offsetForKey - 0x3e3d3c
 EditorUI::onCopyState - 0x3ddb38
 EditorUI::onCreate - 0x3dee84
 EditorUI::onCreateButton - 0x3e32f0
@@ -2545,6 +2553,9 @@ EditorUI::toggleSwipe - 0x3bf690
 EditorUI::transformObject - 0x3ef1e0
 EditorUI::transformObjectCall - 0x3ee598
 EditorUI::transformObjects - 0x3e8474
+EditorUI::transformObjectsActive - 0x3ef7d0
+EditorUI::transformObjectsReset - 0x3ef998
+EditorUI::triggerSwipeMode - 0x3f0680
 EditorUI::undoLastAction - 0x3bf900
 EditorUI::updateButtons - 0x3dde88
 EditorUI::updateCreateMenu - 0x3def70
@@ -3621,6 +3632,7 @@ LevelEditorLayer::activatedAudioTrigger - 0x362fa8
 LevelEditorLayer::checkpointActivated - 0x362fc0
 LevelEditorLayer::addKeyframe - 0x363cfc
 LevelEditorLayer::levelSettingsUpdated - 0x358cb4
+LevelEditorLayer::addObjectToGroup - 0x36152c
 LevelEditorLayer::addSpecial - 0x3595d8
 LevelEditorLayer::addToUndoList - 0x3594f4
 LevelEditorLayer::copyObjectState - 0x363454
@@ -3631,11 +3643,16 @@ LevelEditorLayer::dirtifyTriggers - 0x36211c
 LevelEditorLayer::findStartPosObject - 0x362134
 LevelEditorLayer::getLastObjectX - 0x361490
 LevelEditorLayer::getLevelString - 0x35bcb8
+LevelEditorLayer::getNextColorChannel - 0x35f9e0
+LevelEditorLayer::getNextFreeAreaEffectID - 0x35f678
+LevelEditorLayer::getNextFreeGradientID - 0x35f90c
 LevelEditorLayer::getNextFreeGroupID - 0x35ef38
 LevelEditorLayer::getNextFreeItemID - 0x35f1a4
+LevelEditorLayer::getObjectRect - 0x35a84c
 LevelEditorLayer::handleAction - 0x35b654
 LevelEditorLayer::init - 0x35643c
 LevelEditorLayer::objectAtPosition - 0x35a5f4
+LevelEditorLayer::objectsAtPosition - 0x35ac18
 LevelEditorLayer::onPlaytest - 0x3624a8
 LevelEditorLayer::onResumePlaytest - 0x362b04
 LevelEditorLayer::onStopPlaytest - 0x362c30
@@ -3646,6 +3663,7 @@ LevelEditorLayer::removeSpecial - 0x35af54
 LevelEditorLayer::resetToggledGroupsAndObjects - 0x361304
 LevelEditorLayer::rotationForSlopeNearObject - 0x35a114
 LevelEditorLayer::transferDefaultColors - 0x35fdcc
+LevelEditorLayer::typeExistsAtPosition - 0x359ca0
 LevelEditorLayer::undoLastAction - 0x35bcac
 LevelEditorLayer::updateAnimateOnTriggerObjects - 0x358b20
 LevelEditorLayer::updateBlendValues - 0x360b9c
@@ -4611,7 +4629,9 @@ SetupAreaMoveTriggerPopup::updateInputNode - 0x3a550
 SetupAreaMoveTriggerPopup::valueDidChange - 0x3a440
 SetupAreaMoveTriggerPopup::triggerValueFromSliderValue - 0x3a4c8
 SetupAreaMoveTriggerPopup::triggerSliderValueFromValue - 0x3a51c
+SetupAreaMoveTriggerPopup::addAreaDefaultControls - 0x38fd4
 SetupAreaMoveTriggerPopup::init - 0x38410
+SetupAreaMoveTriggerPopup::onNextFreeEffectID - 0x39fd0
 SetupAreaTintTriggerPopup::determineStartValues - 0x3c694
 SetupAreaTintTriggerPopup::onClose - 0x3c800
 SetupAreaTintTriggerPopup::valueDidChange - 0x3c5cc
