@@ -5169,6 +5169,7 @@ RateDemonLayer::onClose - 0x272420
 RateDemonLayer::onRate - 0x272470
 RateDemonLayer::selectRating - 0x272330
 RateLevelLayer::keyBackClicked - 0x5519b0
+RateLevelLayer::init - 0x551170
 RateLevelLayer::onRate - 0x551960
 RateLevelLayer::selectRating - 0x551830
 RateStarsLayer::create - 0x279820
