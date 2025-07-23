@@ -2751,6 +2751,7 @@ EditorUI::resetSelectedObjectsColor - 0x4a720
 EditorUI::resetUI - 0x2ac40
 EditorUI::rotateObjects - 0x3c3d0
 EditorUI::rotationforCommand - 0x4a9b0
+EditorUI::scaleObjects - 0x3fd70
 EditorUI::selectAllWithDirection - 0x3d960
 EditorUI::selectBuildTab - 0x34340
 EditorUI::selectObject - 0x2ec30
@@ -4666,6 +4667,7 @@ MusicBrowser::onPlaybackControl - 0x5f7860
 MusicBrowser::onSearch - 0x5f71b0
 MusicBrowser::onTagFilters - 0x5f7340
 MusicBrowser::setupList - 0x5f7a00
+MusicDownloadManager::responseToDict - 0x5749f0
 MusicDownloadManager::sharedState - 0x572a00
 MusicDownloadManager::init - 0x573980
 MusicDownloadManager::addDLToActive - 0x577e40
@@ -5476,6 +5478,7 @@ SetupCameraEdgePopup::onCameraEdge - 0x571f20
 SetupCameraEdgePopup::onTargetIDArrow - 0x571d40
 SetupCameraEdgePopup::onUnlockEdge - 0x572050
 SetupCameraGuidePopup::init - 0x56d690
+SetupCameraModePopup::create - 0x495af0
 SetupCameraModePopup::determineStartValues - 0x496b80
 SetupCameraModePopup::onClose - 0x496e70
 SetupCameraModePopup::init - 0x495d30
@@ -5938,6 +5941,7 @@ SongInfoLayer::create - 0x5e8700
 SongInfoLayer::keyBackClicked - 0x5ea640
 SongInfoLayer::init - 0x5e9240
 SongInfoLayer::showCustomMusicUnlockInfo - 0x5ea430
+SongInfoObject::create - 0x574cd0
 SongInfoObject::create - 0x57c260
 SongInfoObject::create - 0x57f2e0
 SongInfoObject::encodeWithCoder - 0x5800d0

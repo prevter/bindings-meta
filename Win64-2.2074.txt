@@ -3069,6 +3069,7 @@ MusicBrowser::onSearch - 0x3258b0
 MusicBrowser::onTagFilters - 0x325aa0
 MusicBrowser::setupList - 0x325050
 MusicBrowser::setupSongControls - 0x3248b0
+MusicDownloadManager::responseToDict - 0x328e50
 MusicDownloadManager::sharedState - 0x3277b0
 MusicDownloadManager::init - 0x327d90
 MusicDownloadManager::addDLToActive - 0x3299f0

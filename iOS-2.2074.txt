@@ -2402,6 +2402,7 @@ EditorPauseLayer::onCreateLoop - 0x396e14
 EditorPauseLayer::onExitEditor - 0x3975d8
 EditorPauseLayer::onExitNoSave - 0x396a80
 EditorPauseLayer::onResume - 0x396874
+EditorPauseLayer::onSave - 0x3969c4
 EditorPauseLayer::onSaveAndExit - 0x396970
 EditorPauseLayer::onSaveAndPlay - 0x3968e0
 EditorPauseLayer::onSelectAll - 0x396e98
@@ -2524,6 +2525,7 @@ EditorUI::reloadCustomItems - 0x3e0d50
 EditorUI::resetSelectedObjectsColor - 0x3edf7c
 EditorUI::resetUI - 0x3dc538
 EditorUI::rotateObjects - 0x3e5484
+EditorUI::scaleObjects - 0x3e7b70
 EditorUI::selectAll - 0x3e6388
 EditorUI::selectAllWithDirection - 0x3e651c
 EditorUI::selectBuildTab - 0x3e29c0
@@ -3630,6 +3632,7 @@ LevelEditorLayer::findStartPosObject - 0x362134
 LevelEditorLayer::getLastObjectX - 0x361490
 LevelEditorLayer::getLevelString - 0x35bcb8
 LevelEditorLayer::getNextFreeGroupID - 0x35ef38
+LevelEditorLayer::getNextFreeItemID - 0x35f1a4
 LevelEditorLayer::handleAction - 0x35b654
 LevelEditorLayer::init - 0x35643c
 LevelEditorLayer::objectAtPosition - 0x35a5f4
@@ -4597,6 +4600,7 @@ SetupAreaMoveTriggerPopup::updateInputNode - 0x3a550
 SetupAreaMoveTriggerPopup::valueDidChange - 0x3a440
 SetupAreaMoveTriggerPopup::triggerValueFromSliderValue - 0x3a4c8
 SetupAreaMoveTriggerPopup::triggerSliderValueFromValue - 0x3a51c
+SetupAreaMoveTriggerPopup::init - 0x38410
 SetupAreaTintTriggerPopup::determineStartValues - 0x3c694
 SetupAreaTintTriggerPopup::onClose - 0x3c800
 SetupAreaTintTriggerPopup::valueDidChange - 0x3c5cc
@@ -4617,6 +4621,7 @@ SetupCameraEdgePopup::init - 0x239b84
 SetupCameraEdgePopup::onCameraEdge - 0x23a778
 SetupCameraEdgePopup::onTargetIDArrow - 0x23a694
 SetupCameraEdgePopup::onUnlockEdge - 0x23a868
+SetupCameraModePopup::create - 0x3a2ffc
 SetupCameraModePopup::determineStartValues - 0x3a3b64
 SetupCameraModePopup::onClose - 0x3a3dec
 SetupCameraModePopup::init - 0x3a30d8
@@ -4662,6 +4667,7 @@ SetupEnterEffectPopup::triggerValueFromSliderValue - 0x3f9594
 SetupEnterEffectPopup::triggerSliderValueFromValue - 0x3f95e8
 SetupEnterEffectPopup::hsvPopupClosed - 0x3f94cc
 SetupEnterTriggerPopup::determineStartValues - 0x2d3498
+SetupEventLinkPopup::init - 0x3fef1c
 SetupForceBlockPopup::valueDidChange - 0x408c84
 SetupGameplayOffsetPopup::updateInputValue - 0x1a29f8
 SetupGameplayOffsetPopup::updateInputNode - 0x1a29e0
@@ -4723,6 +4729,7 @@ SetupOpacityPopup::textChanged - 0x28390
 SetupOpacityPopup::init - 0x272b0
 SetupOpacityPopup::onTargetIDArrow - 0x27dbc
 SetupOptionsTriggerPopup::onCustomToggleTriggerValue - 0x40be4c
+SetupOptionsTriggerPopup::init - 0x40b5ec
 SetupPickupTriggerPopup::onPlusButton - 0x47158
 SetupPickupTriggerPopup::onCustomToggleTriggerValue - 0x47190
 SetupPickupTriggerPopup::init - 0x46b80
@@ -4798,6 +4805,7 @@ SetupSpawnPopup::queueUpdateButtons - 0xfbc20
 SetupSpawnPopup::updateRemapButtons - 0xfb69c
 SetupStaticCameraPopup::valueDidChange - 0x1d207c
 SetupStaticCameraPopup::onCustomToggleTriggerValue - 0x1d2094
+SetupStaticCameraPopup::init - 0x1d1858
 SetupStopTriggerPopup::onClose - 0x409a2c
 SetupStopTriggerPopup::onCustomToggleTriggerValue - 0x4099b4
 SetupTeleportPopup::determineStartValues - 0x1008c
