@@ -4276,6 +4276,7 @@ LevelEditorLayer::updatePreviewParticle - 0x1a1820
 LevelEditorLayer::updatePreviewParticles - 0xecfe0
 LevelFeatureLayer::keyBackClicked - 0x4f2260
 LevelFeatureLayer::init - 0x4f1770
+LevelInfoLayer::~LevelInfoLayer - 0x2a9490
 LevelInfoLayer::create - 0x2a9700
 LevelInfoLayer::scene - 0x2a96b0
 LevelInfoLayer::keyBackClicked - 0x2b1280
