@@ -3876,8 +3876,11 @@ GJUserCell::uploadActionFinished - 0x1f3c94
 GJUserCell::uploadActionFailed - 0x1f3ea8
 GJUserCell::onClosePopup - 0x1f4010
 GJUserCell::loadFromScore - 0x1e9a54
+GJUserCell::onCancelFriendRequest - 0x1f34f4
 GJUserCell::onRemoveFriend - 0x1f3644
+GJUserCell::onSendMessage - 0x1f3608
 GJUserCell::onUnblockUser - 0x1f3244
+GJUserCell::onViewProfile - 0x1f3208
 GJUserMessage::create - 0x4a264c
 GJUserMessage::create - 0x490df0
 GJUserMessage::init - 0x4a26e8
