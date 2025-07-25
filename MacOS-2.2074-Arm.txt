@@ -1209,6 +1209,7 @@ cocos2d::CCClippingNode::onEnterTransitionDidFinish - 0x628808
 cocos2d::CCClippingNode::onExit - 0x628864
 cocos2d::CCClippingNode::onExitTransitionDidStart - 0x628834
 cocos2d::CCClippingNode::visit - 0x628894
+cocos2d::CCClippingNode::getStencil - 0x628bbc
 cocos2d::CCClippingNode::setStencil - 0x628bc4
 cocos2d::CCClippingNode::setAlphaThreshold - 0x628c10
 cocos2d::CCClippingNode::setInverted - 0x628c20
@@ -1639,6 +1640,7 @@ AchievementBar::setOpacity - 0x53086c
 AchievementBar::init - 0x52f0fc
 AchievementBar::show - 0x53062c
 TableViewCell::TableViewCell - 0x53c9ec
+TableViewCell::updateVisibility - 0x53ce88
 AchievementCell::init - 0x1ec614
 AchievementCell::draw - 0x1ec61c
 AchievementCell::loadFromDict - 0x1e0ec4
@@ -1647,6 +1649,9 @@ AchievementManager::init - 0x633ef4
 AchievementManager::achievementForUnlock - 0x682554
 AchievementManager::addAchievement - 0x681c8c
 AchievementManager::addManualAchievements - 0x633f7c
+AchievementManager::dataLoaded - 0x681ff4
+AchievementManager::encodeDataTo - 0x682060
+AchievementManager::getAchievementsWithID - 0x6822dc
 AchievementManager::isAchievementEarned - 0x682198
 AchievementManager::limitForAchievement - 0x68248c
 AchievementManager::notifyAchievement - 0x682bcc
@@ -1871,6 +1876,7 @@ AppDelegate::willSwitchToScene - 0x56ecd4
 AppDelegate::resumeSound - 0x56ea64
 ArtistCell::init - 0x1f1b40
 ArtistCell::draw - 0x1f1d04
+ArtistCell::loadFromObject - 0x1e58f0
 ArtTriggerGameObject::triggerObject - 0x194614
 ArtTriggerGameObject::customObjectSetup - 0x19459c
 ArtTriggerGameObject::getSaveString - 0x194120
@@ -1887,6 +1893,7 @@ AudioEffectsLayer::draw - 0x407cdc
 AudioEffectsLayer::updateTweenAction - 0x407ba0
 AudioEffectsLayer::audioStep - 0x407970
 AudioEffectsLayer::resetAudioVars - 0x407928
+AudioEffectsLayer::triggerEffect - 0x407a2c
 AudioLineGuideGameObject::init - 0x19221c
 AudioLineGuideGameObject::customObjectSetup - 0x192cf8
 AudioLineGuideGameObject::getSaveString - 0x19226c
@@ -1917,6 +1924,7 @@ BoomScrollLayer::ccTouchMoved - 0x3226b8
 BoomScrollLayer::ccTouchEnded - 0x322974
 BoomScrollLayer::ccTouchCancelled - 0x32241c
 BoomScrollLayer::registerWithTouchDispatcher - 0x3222a4
+BoomScrollLayer::addPage - 0x3220e0
 BoomScrollLayer::addPage - 0x322070
 BoomScrollLayer::cancelAndStoleTouch - 0x322340
 BoomScrollLayer::getPage - 0x3216c0
@@ -2458,6 +2466,7 @@ CustomSongWidget::updatePlaybackBtn - 0x534418
 CustomSongWidget::updateSongInfo - 0x533504
 CustomSongWidget::updateSongObject - 0x533468
 CustomSongWidget::updateWithMultiAssets - 0x535020
+DailyLevelNode::create - 0x1d30c0
 DailyLevelNode::FLAlert_Clicked - 0x1d4660
 DailyLevelNode::init - 0x1d3884
 DailyLevelNode::onClaimReward - 0x1d4358
@@ -2474,6 +2483,7 @@ DailyLevelPage::levelDownloadFailed - 0x1d2fec
 DailyLevelPage::claimLevelReward - 0x1d3470
 DailyLevelPage::createDailyNode - 0x1d2700
 DailyLevelPage::exitDailyNode - 0x1d2b34
+DailyLevelPage::getDailyTime - 0x1d3198
 DailyLevelPage::getDailyTimeString - 0x1d1e6c
 DailyLevelPage::init - 0x1d0ebc
 DailyLevelPage::onClose - 0x1d1db4
@@ -2497,6 +2507,7 @@ DemonInfoPopup::create - 0x6bd1f0
 DemonInfoPopup::createFromString - 0x6baf10
 DemonInfoPopup::keyBackClicked - 0x6bdcdc
 DemonInfoPopup::init - 0x6bd34c
+DialogLayer::create - 0x33f91c
 DialogLayer::createDialogLayer - 0x33f928
 DialogLayer::createWithObjects - 0x33fa38
 DialogLayer::onEnter - 0x3409f8
@@ -2510,6 +2521,7 @@ DialogLayer::keyDown - 0x340d70
 DialogLayer::fadeInTextFinished - 0x3409fc
 DialogLayer::addToMainScene - 0x340748
 DialogLayer::animateIn - 0x340b4c
+DialogLayer::animateInDialog - 0x340d68
 DialogLayer::animateInRandomSide - 0x340aec
 DialogLayer::displayDialogObject - 0x33ffc8
 DialogLayer::displayNextObject - 0x33ff28
@@ -2517,6 +2529,7 @@ DialogLayer::finishCurrentAnimation - 0x340620
 DialogLayer::handleDialogTap - 0x3404c4
 DialogLayer::init - 0x33fa48
 DialogLayer::updateChatPlacement - 0x340408
+DialogLayer::updateNavButtonFrame - 0x3403a8
 DialogObject::create - 0x33f4ac
 DialogObject::init - 0x33f664
 DrawGridLayer::create - 0xc4b04
@@ -2880,6 +2893,8 @@ FMODAudioEngine::resumeAllMusic - 0x35ae5c
 FMODAudioEngine::resumeAudio - 0x3539c0
 FMODAudioEngine::reverbToString - 0x353648
 FMODAudioEngine::setBackgroundMusicVolume - 0x35ad70
+FMODAudioEngine::setChannelPitch - 0x357f14
+FMODAudioEngine::setChannelVolume - 0x357d38
 FMODAudioEngine::setEffectsVolume - 0x35ad90
 FMODAudioEngine::setMusicTimeMS - 0x357488
 FMODAudioEngine::setup - 0x352b4c
@@ -2888,7 +2903,9 @@ FMODAudioEngine::stopAllEffects - 0x353c3c
 FMODAudioEngine::stopAllMusic - 0x353f28
 FMODAudioEngine::stopAndGetFade - 0x35a2bc
 FMODAudioEngine::unloadAllEffects - 0x35aa94
+FMODAudioEngine::updateChannelTweens - 0x3551f4
 FMODAudioEngine::updateReverb - 0x353444
+FMODAudioEngine::updateTemporaryEffects - 0x354898
 FMODLevelVisualizer::create - 0x244748
 FMODLevelVisualizer::init - 0x2447d0
 FMODLevelVisualizer::updateVisualizer - 0x244c40
@@ -2904,8 +2921,11 @@ FollowRewardPage::onRewardedVideo - 0x38b228
 FollowRewardPage::onSpecialItem - 0x38a858
 FollowRewardPage::switchToOpenedState - 0x38ae04
 FontObject::createWithConfigFile - 0x1c2f68
+FontObject::getFontWidth - 0x1c38d8
+FontObject::parseConfigFile - 0x1c2ff4
 ForceBlockGameObject::customObjectSetup - 0x193bfc
 ForceBlockGameObject::getSaveString - 0x192f78
+FRequestProfilePage::create - 0x68e8cc
 FRequestProfilePage::registerWithTouchDispatcher - 0x68ffa8
 FRequestProfilePage::keyBackClicked - 0x68ff9c
 FRequestProfilePage::FLAlert_Clicked - 0x68fe98
@@ -3976,6 +3996,7 @@ ItemTriggerGameObject::getSaveString - 0x18dce4
 KeybindingsLayer::init - 0x5220ec
 KeybindingsLayer::keyBackClicked - 0x523ab4
 KeybindingsManager::init - 0x4364a8
+KeybindingsManager::dataLoaded - 0x436984
 KeyframeAnimTriggerObject::init - 0x16bc30
 KeyframeAnimTriggerObject::customObjectSetup - 0x16c950
 KeyframeAnimTriggerObject::getSaveString - 0x16bc80
@@ -4675,7 +4696,10 @@ NewgroundsInfoLayer::init - 0x1baac0
 NewgroundsInfoLayer::keyBackClicked - 0x1bb5c4
 NewgroundsInfoLayer::FLAlert_Clicked - 0x1bb56c
 NewgroundsInfoLayer::onChanges - 0x1bb3ac
+NewgroundsInfoLayer::onGuidelines - 0x1bb364
 NewgroundsInfoLayer::onInfo - 0x1bb488
+NewgroundsInfoLayer::onNewgrounds - 0x1bb340
+NewgroundsInfoLayer::onSupporter - 0x1bb388
 NumberInputLayer::init - 0x3ed324
 NumberInputLayer::registerWithTouchDispatcher - 0x3ee1f0
 NumberInputLayer::keyBackClicked - 0x3ee174
@@ -4697,6 +4721,7 @@ ObjectManager::setup - 0x694934
 ObjectToolbox::sharedState - 0x57b4a8
 ObjectToolbox::init - 0x57b5d0
 ObjectToolbox::gridNodeSizeForKey - 0x6282d0
+OptionsCell::loadFromObject - 0x1e26f8
 OptionsLayer::create - 0x698218
 OptionsLayer::customSetup - 0x6983b0
 OptionsLayer::layerHidden - 0x699714
@@ -5064,6 +5089,7 @@ RateStarsLayer::uploadActionFailed - 0x224b18
 RateStarsLayer::onClosePopup - 0x224c78
 RateStarsLayer::init - 0x223bd8
 RateStarsLayer::onClose - 0x224850
+RateStarsLayer::onFeature - 0x224838
 RateStarsLayer::onRate - 0x2248ac
 RateStarsLayer::selectRating - 0x22466c
 RetryLevelLayer::keyBackClicked - 0x4485ec
@@ -5929,6 +5955,7 @@ TeleportPortalObject::removeFromGroup - 0x16df2c
 TeleportPortalObject::setRotation2 - 0x16de9c
 TeleportPortalObject::addToGroup2 - 0x16dea0
 TeleportPortalObject::removeFromGroup2 - 0x16dea4
+TeleportPortalObject::getTeleportXOff - 0x16dcb0
 TextAlertPopup::create - 0x2437f0
 TextAlertPopup::init - 0x243988
 TextAlertPopup::setAlertPosition - 0x243cc8
@@ -5945,13 +5972,19 @@ TextArea::fadeOut - 0x2a49b4
 TextArea::fadeOutAndRemove - 0x2a4944
 TextArea::finishFade - 0x2a4920
 TextArea::init - 0x2a41bc
+TextArea::setIgnoreColorCode - 0x2a4564
 TextArea::setString - 0x2a42b4
+TextArea::stopAllCharacterActions - 0x2a4648
 TextGameObject::customObjectSetup - 0x4ef584
 TextGameObject::getSaveString - 0x4ef6f0
 TextGameObject::updateTextKerning - 0x4ef2d0
 TextGameObject::getTextKerning - 0x4efef4
 TextGameObject::updateTextObject - 0x4ef2d8
+TextStyleSection::create - 0x3e4f90
+TextStyleSection::createColoredSection - 0x3e4c54
+TextStyleSection::createDelaySection - 0x3e4de4
 TextStyleSection::createInstantSection - 0x3e4cd8
+TextStyleSection::createShakeSection - 0x3e4d5c
 TextStyleSection::init - 0x3e5004
 TimerTriggerGameObject::triggerObject - 0x18bdc8
 TimerTriggerGameObject::customObjectSetup - 0x18d660
@@ -5994,6 +6027,9 @@ UILayer::registerWithTouchDispatcher - 0x41f2a0
 UILayer::keyBackClicked - 0x41e1a8
 UILayer::keyDown - 0x41e168
 UILayer::keyUp - 0x41e188
+UILayer::disableMenu - 0x41dd58
+UILayer::doPause - 0x41e268
+UILayer::editorPlaytest - 0x41dd6c
 UILayer::handleKeypress - 0x41de7c
 UILayer::init - 0x41cbc4
 UILayer::isJumpButtonPressed - 0x41e598
@@ -6001,6 +6037,7 @@ UILayer::onCheck - 0x41d3e8
 UILayer::onPause - 0x41d39c
 UILayer::processUINodesTouch - 0x41e6ec
 UILayer::processUINodeTouch - 0x41eb34
+UILayer::refreshDpad - 0x41d780
 UILayer::resetAllButtons - 0x41e4b4
 UILayer::resetUINodeState - 0x41dac0
 UILayer::toggleMenuVisibility - 0x41e384
@@ -6008,6 +6045,7 @@ UILayer::togglePlatformerMode - 0x41d60c
 UILayer::updateCheckState - 0x41d494
 UIObjectSettingsPopup::onCustomToggleTriggerValue - 0x4bc2fc
 UIObjectSettingsPopup::init - 0x4bb8b4
+UIOptionsLayer::create - 0x245c94
 UIOptionsLayer::ccTouchBegan - 0x248680
 UIOptionsLayer::ccTouchMoved - 0x248840
 UIOptionsLayer::ccTouchEnded - 0x248a2c
@@ -6056,6 +6094,7 @@ UploadPopup::levelUploadFailed - 0x21b71c
 UploadPopup::init - 0x21afc4
 URLCell::init - 0x1f5dc8
 URLCell::draw - 0x1f5e38
+URLCell::loadFromObject - 0x1e5cbc
 VideoOptionsLayer::init - 0x69d004
 VideoOptionsLayer::keyBackClicked - 0x69eb08
 VideoOptionsLayer::onApply - 0x69e330
@@ -6064,10 +6103,13 @@ VideoOptionsLayer::updateResolution - 0x69e634
 WorldLevelPage::keyBackClicked - 0x33f3cc
 WorldLevelPage::show - 0x33f284
 WorldLevelPage::init - 0x33dfa0
+WorldSelectLayer::create - 0x33a7a4
+WorldSelectLayer::scene - 0x33a6c0
 WorldSelectLayer::onExit - 0x33c594
 WorldSelectLayer::keyBackClicked - 0x33c4b4
 WorldSelectLayer::scrollLayerWillScrollToPage - 0x33c36c
 WorldSelectLayer::scrollLayerScrolledToPage - 0x33c224
 WorldSelectLayer::scrollLayerMoved - 0x33c5e4
+WorldSelectLayer::init - 0x33a868
 WorldSelectLayer::setupWorlds - 0x33b13c
 WorldSelectLayer::showCompleteDialog - 0x33b724

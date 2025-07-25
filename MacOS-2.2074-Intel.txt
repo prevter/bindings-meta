@@ -1209,6 +1209,7 @@ cocos2d::CCClippingNode::onEnterTransitionDidFinish - 0x708fa0
 cocos2d::CCClippingNode::onExit - 0x709000
 cocos2d::CCClippingNode::onExitTransitionDidStart - 0x708fd0
 cocos2d::CCClippingNode::visit - 0x709030
+cocos2d::CCClippingNode::getStencil - 0x709390
 cocos2d::CCClippingNode::setStencil - 0x7093a0
 cocos2d::CCClippingNode::setAlphaThreshold - 0x7093f0
 cocos2d::CCClippingNode::setInverted - 0x709410
@@ -1634,6 +1635,7 @@ AccountRegisterLayer::registerAccountFailed - 0x4841f0
 AccountRegisterLayer::resetLabel - 0x484700
 AccountRegisterLayer::resetLabels - 0x4845e0
 AccountRegisterLayer::updateLabel - 0x4842c0
+AchievementBar::create - 0x601520
 AchievementBar::setOpacity - 0x602ea0
 AchievementBar::init - 0x6015e0
 AchievementBar::show - 0x602c50
@@ -1652,6 +1654,7 @@ AchievementManager::encodeDataTo - 0x76ea90
 AchievementManager::getAchievementsWithID - 0x76ed50
 AchievementManager::isAchievementEarned - 0x76ec00
 AchievementManager::limitForAchievement - 0x76eec0
+AchievementManager::notifyAchievement - 0x76f700
 AchievementManager::percentForAchievement - 0x76ec20
 AchievementManager::reportAchievementWithID - 0x76f830
 AchievementNotifier::sharedState - 0x7ad380
@@ -1875,6 +1878,7 @@ AppDelegate::applicationWillBecomeActive - 0x645fd0
 AppDelegate::applicationWillResignActive - 0x645ff0
 AppDelegate::trySaveGame - 0x6464c0
 AppDelegate::willSwitchToScene - 0x6465a0
+AppDelegate::resumeSound - 0x646320
 ArtistCell::init - 0x242700
 ArtistCell::draw - 0x2428c0
 ArtistCell::loadFromObject - 0x235770
@@ -1898,6 +1902,8 @@ AudioEffectsLayer::triggerEffect - 0x49c930
 AudioLineGuideGameObject::init - 0x1d8d50
 AudioLineGuideGameObject::customObjectSetup - 0x1d9ac0
 AudioLineGuideGameObject::getSaveString - 0x1d8da0
+BitmapFontCache::sharedFontCache - 0x20e400
+BitmapFontCache::fontWithConfigFile - 0x20e5a0
 BonusDropdown::init - 0x480290
 BoomListLayer::init - 0x45b5a0
 BoomListView::create - 0x2f86d0
@@ -1924,6 +1930,7 @@ BoomScrollLayer::ccTouchEnded - 0x394160
 BoomScrollLayer::ccTouchCancelled - 0x393b90
 BoomScrollLayer::registerWithTouchDispatcher - 0x393a00
 BoomScrollLayer::addPage - 0x393840
+BoomScrollLayer::addPage - 0x3937c0
 BoomScrollLayer::cancelAndStoleTouch - 0x393ab0
 BoomScrollLayer::getPage - 0x392d00
 BoomScrollLayer::getRelativePageForNum - 0x393150
@@ -2510,6 +2517,7 @@ DashRingObject::customObjectSetup - 0x1a4340
 DashRingObject::getSaveString - 0x1a44b0
 DemonFilterSelectLayer::init - 0x618b50
 DemonFilterSelectLayer::keyBackClicked - 0x619140
+DemonFilterSelectLayer::selectRating - 0x619030
 DemonInfoPopup::create - 0x7aba80
 DemonInfoPopup::createFromString - 0x7a9640
 DemonInfoPopup::keyBackClicked - 0x7ac5b0
@@ -2907,13 +2915,15 @@ FMODAudioEngine::resumeAllMusic - 0x3d49c0
 FMODAudioEngine::resumeAudio - 0x3cb150
 FMODAudioEngine::reverbToString - 0x3caea0
 FMODAudioEngine::setBackgroundMusicVolume - 0x3d4890
-FMODAudioEngine::setChannelVolume - 0x3d0f40
+FMODAudioEngine::setChannelPitch - 0x3d0f40
+FMODAudioEngine::setChannelVolume - 0x3d0d50
 FMODAudioEngine::setEffectsVolume - 0x3d48d0
 FMODAudioEngine::setMusicTimeMS - 0x3d0290
 FMODAudioEngine::setup - 0x3ca220
 FMODAudioEngine::setupAudioEngine - 0x3ca670
 FMODAudioEngine::stopAllEffects - 0x3cb410
 FMODAudioEngine::stopAllMusic - 0x3cbbf0
+FMODAudioEngine::stopAndGetFade - 0x3d3cc0
 FMODAudioEngine::unloadAllEffects - 0x3d4540
 FMODAudioEngine::updateChannelTweens - 0x3cd220
 FMODAudioEngine::updateReverb - 0x3cac50
@@ -2921,6 +2931,7 @@ FMODAudioEngine::updateTemporaryEffects - 0x3cc820
 FMODLevelVisualizer::create - 0x29cfb0
 FMODLevelVisualizer::init - 0x29d020
 FMODLevelVisualizer::updateVisualizer - 0x29d460
+FollowRewardPage::create - 0x40d090
 FollowRewardPage::init - 0x40d200
 FollowRewardPage::registerWithTouchDispatcher - 0x40f3b0
 FollowRewardPage::keyBackClicked - 0x40f340
@@ -2928,6 +2939,7 @@ FollowRewardPage::show - 0x40f110
 FollowRewardPage::FLAlert_Clicked - 0x40f290
 FollowRewardPage::rewardedVideoFinished - 0x40f0f0
 FollowRewardPage::updateRate - 0x40e9e0
+FollowRewardPage::onRewardedVideo - 0x40ed30
 FollowRewardPage::onSpecialItem - 0x40e310
 FollowRewardPage::switchToOpenedState - 0x40e910
 FontObject::createWithConfigFile - 0x20e860
@@ -4808,6 +4820,7 @@ NumberInputLayer::keyBackClicked - 0x4800a0
 NumberInputLayer::deleteLast - 0x47fd60
 NumberInputLayer::inputNumber - 0x47ff90
 NumberInputLayer::onNumber - 0x47fc30
+NumberInputLayer::updateNumberState - 0x47fcb0
 OBB2D::create - 0x5dbcf0
 OBB2D::calculateWithCenter - 0x5dbe20
 OBB2D::init - 0x5dbdb0
@@ -4817,6 +4830,7 @@ ObjectControlGameObject::getSaveString - 0x1dcb20
 ObjectManager::instance - 0x77f670
 ObjectManager::init - 0x77f750
 ObjectManager::getDefinition - 0x7811e0
+ObjectManager::loadCopiedSets - 0x77fb60
 ObjectManager::setup - 0x77ff10
 ObjectToolbox::sharedState - 0x654080
 ObjectToolbox::init - 0x6541c0
@@ -5186,6 +5200,7 @@ RateDemonLayer::init - 0x271d40
 RateDemonLayer::onClose - 0x272420
 RateDemonLayer::onRate - 0x272470
 RateDemonLayer::selectRating - 0x272330
+RateLevelLayer::create - 0x551030
 RateLevelLayer::keyBackClicked - 0x5519b0
 RateLevelLayer::init - 0x551170
 RateLevelLayer::onRate - 0x551960
@@ -5217,13 +5232,16 @@ RewardsPage::rewardsStatusFinished - 0x209a70
 RewardsPage::rewardsStatusFailed - 0x209d00
 RewardsPage::onReward - 0x2094d0
 RewardsPage::unlockLayerClosed - 0x20a000
+RewardsPage::updateTimers - 0x2095d0
 RewardUnlockLayer::create - 0x209900
 RewardUnlockLayer::keyBackClicked - 0x20dd60
 RewardUnlockLayer::currencyWillExit - 0x20dd20
 RewardUnlockLayer::connectionTimeout - 0x20b430
 RewardUnlockLayer::init - 0x20a3e0
 RewardUnlockLayer::onClose - 0x20b3d0
+RewardUnlockLayer::playDropSound - 0x20b290
 RewardUnlockLayer::playLabelEffect - 0x20d5c0
+RewardUnlockLayer::playRewardEffect - 0x20b4a0
 RewardUnlockLayer::readyToCollect - 0x209c10
 RewardUnlockLayer::showCloseButton - 0x20dc90
 RewardUnlockLayer::showCollectReward - 0x209c30
@@ -6080,6 +6098,9 @@ TextArea::draw - 0x30e0f0
 TextArea::setOpacity - 0x30df50
 TextArea::colorAllCharactersTo - 0x30dfc0
 TextArea::colorAllLabels - 0x30e070
+TextArea::fadeIn - 0x30dc90
+TextArea::fadeInCharacters - 0x30e2a0
+TextArea::fadeOut - 0x30de50
 TextArea::fadeOutAndRemove - 0x30ddf0
 TextArea::finishFade - 0x30ddc0
 TextArea::init - 0x30d5f0
@@ -6108,6 +6129,7 @@ TopArtistsLayer::loadListFinished - 0x2fd250
 TopArtistsLayer::loadListFailed - 0x2fd310
 TopArtistsLayer::setupPageInfo - 0x2fd350
 TopArtistsLayer::loadPage - 0x2fd970
+TopArtistsLayer::setupLeaderboard - 0x2fd050
 TOSPopup::init - 0x29c720
 TOSPopup::keyBackClicked - 0x29cda0
 TransformTriggerGameObject::triggerObject - 0x1c7c90
@@ -6186,6 +6208,7 @@ UndoObject::createWithArray - 0xe2fa0
 UpdateAccountSettingsPopup::keyBackClicked - 0x2905c0
 UpdateAccountSettingsPopup::updateSettingsFinished - 0x2903b0
 UpdateAccountSettingsPopup::updateSettingsFailed - 0x2904d0
+UpdateAccountSettingsPopup::init - 0x28fd70
 UploadActionPopup::create - 0x290720
 UploadActionPopup::keyBackClicked - 0x291070
 UploadActionPopup::init - 0x2908c0
@@ -6207,6 +6230,7 @@ URLCell::loadFromObject - 0x235b20
 VideoOptionsLayer::init - 0x789140
 VideoOptionsLayer::keyBackClicked - 0x78adf0
 VideoOptionsLayer::onApply - 0x78a590
+VideoOptionsLayer::onInfo - 0x78ad30
 VideoOptionsLayer::updateResolution - 0x78a8b0
 WorldLevelPage::keyBackClicked - 0x3b3c50
 WorldLevelPage::show - 0x3b3b10
