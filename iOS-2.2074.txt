@@ -2639,6 +2639,7 @@ FindObjectPopup::init - 0x2de9e8
 FMODAudioEngine::FMODAudioEngine - 0x142378
 FMODAudioEngine::sharedEngine - 0x13b0c8
 FMODAudioEngine::update - 0x13becc
+FMODAudioEngine::clearAllAudio - 0x13bbd4
 FMODAudioEngine::disableMetering - 0x13e688
 FMODAudioEngine::enableMetering - 0x13e668
 FMODAudioEngine::fadeInBackgroundMusic - 0x140238
