@@ -410,6 +410,8 @@ cocos2d::CCParticleSystem::getBlendFunc - 0x199984
 cocos2d::CCParticleSystem::getTexture - 0x199678
 cocos2d::CCParticleSystem::setTexture - 0x1995a8
 cocos2d::CCParticleSystemQuad::create - 0x252a98
+cocos2d::CCParticleSystemQuad::createWithTotalParticles - 0x252b1c
+cocos2d::CCParticleSystemQuad::setDisplayFrame - 0x252dd4
 cocos2d::CCParticleSystemQuad::CCParticleSystemQuad - 0x25298c
 cocos2d::CCParticleSystemQuad::~CCParticleSystemQuad - 0x252a00
 cocos2d::CCParticleSystemQuad::draw - 0x25312c

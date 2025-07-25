@@ -487,6 +487,7 @@ cocos2d::CCParticleSystemQuad::create - 0x51c418
 cocos2d::CCParticleSystemQuad::create - 0x51d1bc
 cocos2d::CCParticleSystemQuad::createWithTotalParticles - 0x51c500
 cocos2d::CCParticleSystemQuad::initTexCoordsWithRect - 0x51c5f0
+cocos2d::CCParticleSystemQuad::setDisplayFrame - 0x51c9b8
 cocos2d::CCParticleSystemQuad::~CCParticleSystemQuad - 0x51c380
 cocos2d::CCParticleSystemQuad::allocMemory - 0x51c000
 cocos2d::CCParticleSystemQuad::setupVBOandVAO - 0x51c154
