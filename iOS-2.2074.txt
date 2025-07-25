@@ -2733,9 +2733,11 @@ GameLevelManager::deleteLevelList - 0x96d58
 GameLevelManager::deleteUserMessages - 0xa8ef4
 GameLevelManager::downloadLevel - 0xa337c
 GameLevelManager::encodeDataTo - 0x9e988
+GameLevelManager::getActiveDailyID - 0xaef3c
 GameLevelManager::getBoolForKey - 0xaf64c
 GameLevelManager::getCompletedLevels - 0x9b350
 GameLevelManager::getFolderName - 0x9e158
+GameLevelManager::getGJDailyLevelState - 0xaea0c
 GameLevelManager::getGJRewards - 0xae25c
 GameLevelManager::getGJUserInfo - 0xa7be0
 GameLevelManager::getIntForKey - 0xaf54c
