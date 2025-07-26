@@ -1710,7 +1710,9 @@ GameObject::getStartPos - 0x22ea9c
 GameObject::addColorSprite - 0x254690
 GameObject::addCustomChild - 0x259a28
 GameObject::addGlow - 0x254034
+GameObject::colorForMode - 0x261330
 GameObject::determineSlopeDirection - 0x25c100
+GameObject::getActiveColorForMode - 0x26151c
 GameObject::getGroupID - 0x25c624
 GameObject::getLastPosition - 0x261674
 GameObject::getRelativeSpriteColor - 0x260ed8
@@ -2024,6 +2026,7 @@ CharacterColorPage::init - 0x12bf2c
 CharacterColorPage::registerWithTouchDispatcher - 0x12d844
 CharacterColorPage::keyBackClicked - 0x12d7e8
 CharacterColorPage::show - 0x12d674
+CharacterColorPage::activeColorForMode - 0x12d5b4
 CharacterColorPage::createColorMenu - 0x12cc88
 CharacterColorPage::onClose - 0x12c8b0
 CharacterColorPage::onMode - 0x12c9c8
@@ -2301,8 +2304,11 @@ CustomSongWidget::updateMultiAssetInfo - 0x100a6c
 CustomSongWidget::updateSongInfo - 0xfee04
 CustomSongWidget::updateSongObject - 0xfed98
 CustomSongWidget::updateWithMultiAssets - 0x1005d0
+DailyLevelNode::create - 0x1bc7c8
 DailyLevelNode::FLAlert_Clicked - 0x1bda58
 DailyLevelNode::init - 0x1bcd9c
+DailyLevelNode::onClaimReward - 0x1bd830
+DailyLevelNode::onSkipLevel - 0x1bd928
 DailyLevelPage::create - 0x1baec4
 DailyLevelPage::registerWithTouchDispatcher - 0x1bca50
 DailyLevelPage::keyBackClicked - 0x1bca44
@@ -2312,8 +2318,14 @@ DailyLevelPage::dailyStatusFinished - 0x1bc164
 DailyLevelPage::dailyStatusFailed - 0x1bc4a8
 DailyLevelPage::levelDownloadFinished - 0x1bc67c
 DailyLevelPage::levelDownloadFailed - 0x1bc6f4
+DailyLevelPage::createDailyNode - 0x1bbfc4
+DailyLevelPage::createNodeIfLoaded - 0x1bc734
+DailyLevelPage::downloadAndCreateNode - 0x1bc3c4
+DailyLevelPage::getDailyTimeString - 0x1bbb24
 DailyLevelPage::init - 0x1baf38
+DailyLevelPage::onClose - 0x1bba6c
 DailyLevelPage::onTheSafe - 0x1bbab8
+DailyLevelPage::skipDailyLevel - 0x1bcbdc
 DailyLevelPage::updateTimers - 0x1bbe2c
 RingObject::setScale - 0x37b5e4
 RingObject::setRotation - 0x37b634
@@ -2738,6 +2750,7 @@ GameLevelManager::encodeDataTo - 0x9e988
 GameLevelManager::getActiveDailyID - 0xaef3c
 GameLevelManager::getBoolForKey - 0xaf64c
 GameLevelManager::getCompletedLevels - 0x9b350
+GameLevelManager::getDailyID - 0xaef08
 GameLevelManager::getFolderName - 0x9e158
 GameLevelManager::getGJDailyLevelState - 0xaea0c
 GameLevelManager::getGJRewards - 0xae25c
@@ -3170,6 +3183,8 @@ GJDifficultySprite::updateFeatureStateFromLevel - 0x2e5674
 GJEffectManager::init - 0x125e8
 GJEffectManager::addCountToItem - 0x196d4
 GJEffectManager::colorExists - 0x13770
+GJEffectManager::colorForGroupID - 0x18ca8
+GJEffectManager::countForItem - 0x19694
 GJEffectManager::getColorAction - 0x12b80
 GJEffectManager::playerButton - 0x1921c
 GJEffectManager::postCollisionCheck - 0x13cbc

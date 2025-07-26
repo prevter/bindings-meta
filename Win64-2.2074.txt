@@ -206,6 +206,7 @@ GameObject::addColorSpriteToParent - 0x199040
 GameObject::addColorSpriteToSelf - 0x199240
 GameObject::addCustomChild - 0x194330
 GameObject::addGlow - 0x18af60
+GameObject::colorForMode - 0x19f010
 GameObject::commonSetup - 0x18ad70
 GameObject::copyGroups - 0x1999c0
 GameObject::createAndAddParticle - 0x195ba0
@@ -214,6 +215,7 @@ GameObject::determineSlopeDirection - 0x199340
 GameObject::duplicateAttributes - 0x19ed00
 GameObject::duplicateValues - 0x19ee40
 GameObject::editorColorForMode - 0x19e0a0
+GameObject::getActiveColorForMode - 0x19f140
 GameObject::getObjectDirection - 0x1995a0
 GameObject::getRelativeSpriteColor - 0x19eb30
 GameObject::groupOpacityMod - 0x199d30
@@ -939,10 +941,13 @@ DailyLevelPage::levelDownloadFinished - 0xceb90
 DailyLevelPage::levelDownloadFailed - 0xcebf0
 DailyLevelPage::claimLevelReward - 0xd06b0
 DailyLevelPage::createDailyNode - 0xcee40
+DailyLevelPage::createNodeIfLoaded - 0xced50
+DailyLevelPage::downloadAndCreateNode - 0xceca0
 DailyLevelPage::getDailyTimeString - 0xcf200
 DailyLevelPage::init - 0xcd110
 DailyLevelPage::onClose - 0x86940
 DailyLevelPage::onTheSafe - 0xd0bb0
+DailyLevelPage::skipDailyLevel - 0xd0980
 DailyLevelPage::tryGetDailyStatus - 0xcec10
 DailyLevelPage::updateTimers - 0xd0360
 RingObject::create - 0x489570
@@ -2004,6 +2009,7 @@ GJDifficultySprite::updateDifficultyFrame - 0x29da90
 GJDifficultySprite::updateFeatureState - 0x29dbb0
 GJEffectManager::create - 0x2538f0
 GJEffectManager::init - 0x253950
+GJEffectManager::colorForGroupID - 0x25a780
 GJEffectManager::countForItem - 0x25b060
 GJEffectManager::createMoveCommand - 0x255370
 GJEffectManager::getColorAction - 0x254870

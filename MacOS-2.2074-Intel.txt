@@ -1760,6 +1760,7 @@ GameObject::addColorSpriteToSelf - 0x5a6020
 GameObject::addCustomChild - 0x5a3240
 GameObject::addGlow - 0x58a5c0
 GameObject::assignUniqueID - 0x58a5a0
+GameObject::colorForMode - 0x5b2260
 GameObject::createAndAddParticle - 0x59d770
 GameObject::createSpriteColor - 0x58a4e0
 GameObject::determineSlopeDirection - 0x5a6120
@@ -2497,12 +2498,14 @@ DailyLevelPage::levelDownloadFinished - 0x220030
 DailyLevelPage::levelDownloadFailed - 0x2200f0
 DailyLevelPage::claimLevelReward - 0x220580
 DailyLevelPage::createDailyNode - 0x21f7b0
+DailyLevelPage::createNodeIfLoaded - 0x220130
 DailyLevelPage::exitDailyNode - 0x21fc20
 DailyLevelPage::getDailyTime - 0x2202a0
 DailyLevelPage::getDailyTimeString - 0x21f120
 DailyLevelPage::init - 0x21e440
 DailyLevelPage::onClose - 0x21f070
 DailyLevelPage::onTheSafe - 0x21f0b0
+DailyLevelPage::skipDailyLevel - 0x220700
 DailyLevelPage::updateTimers - 0x21f570
 RingObject::setScale - 0x1a3520
 RingObject::setRotation - 0x1a3580
@@ -3022,6 +3025,7 @@ GameLevelManager::getBasePostString - 0x526da0
 GameLevelManager::getBoolForKey - 0x544a30
 GameLevelManager::getCommentKey - 0x5397d0
 GameLevelManager::getCompletedLevels - 0x51ef80
+GameLevelManager::getDailyID - 0x5439a0
 GameLevelManager::getDailyTimer - 0x543a00
 GameLevelManager::getDeleteCommentKey - 0x53afa0
 GameLevelManager::getDeleteMessageKey - 0x538ed0
@@ -3610,6 +3614,7 @@ GJEffectManager::activeColorForIndex - 0x2ca350
 GJEffectManager::activeOpacityForIndex - 0x2ca4b0
 GJEffectManager::colorActionChanged - 0x2cb670
 GJEffectManager::colorExists - 0x2cb640
+GJEffectManager::colorForGroupID - 0x2d5730
 GJEffectManager::countForItem - 0x2d6930
 GJEffectManager::getColorAction - 0x2ca1e0
 GJEffectManager::getColorSprite - 0x2ca3a0
