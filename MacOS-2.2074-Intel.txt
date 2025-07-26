@@ -1867,8 +1867,10 @@ CCAnimatedSprite::initWithType - 0x33c100
 CCAnimatedSprite::loadType - 0x33c2f0
 CCAnimatedSprite::runAnimation - 0x33cc20
 CCAnimatedSprite::runAnimationForced - 0x33cca0
+CCAnimatedSprite::stopTween - 0x33d160
 CCAnimatedSprite::switchToMode - 0x33cb00
 CCAnimatedSprite::tweenToAnimation - 0x33cd60
+CCAnimatedSprite::willPlayAnimation - 0x33cd30
 AnimatedShopKeeper::create - 0x3101f0
 AnimatedShopKeeper::animationFinished - 0x314230
 AnimatedShopKeeper::init - 0x314180
@@ -2018,7 +2020,9 @@ CCCounterLabel::create - 0x4fb550
 CCLightFlash::create - 0x4f0560
 CCLightFlash::init - 0x4f05d0
 CCLightFlash::cleanupFlash - 0x4f0e50
+CCLightFlash::fadeAndRemove - 0x4f0c70
 CCLightFlash::playEffect - 0x4f05e0
+CCLightFlash::removeLights - 0x4f0df0
 CCLightFlash::showFlash - 0x4f0b30
 CCLightStrip::create - 0x4f0a80
 CCLightStrip::draw - 0x4f10a0
@@ -2066,6 +2070,7 @@ CCScrollLayerExt::moveToTop - 0x41baa0
 CCScrollLayerExt::moveToTopWithOffset - 0x41ba00
 CCScrollLayerExt::scrollLayer - 0x41c650
 CCSpriteCOpacity::setOpacity - 0x46f410
+CCSpriteWithHue::create - 0x5d8330
 CCSpriteWithHue::createWithSpriteFrame - 0x5d8690
 CCSpriteWithHue::createWithSpriteFrameName - 0x5d8770
 CCSpriteWithHue::draw - 0x5d9120
@@ -2078,11 +2083,13 @@ CCSpriteWithHue::shaderBody - 0x5d8bc0
 CCSpriteWithHue::updateColor - 0x5d8be0
 CCSpriteWithHue::getAlpha - 0x5d9050
 CCSpriteWithHue::getUniformLocations - 0x5d8b50
+CCSpriteWithHue::initShader - 0x5d8810
 CCSpriteWithHue::setCustomLuminance - 0x5d9100
 CCSpriteWithHue::setEvenLuminance - 0x5d90d0
 CCSpriteWithHue::setHueDegrees - 0x5d9080
 CCSpriteWithHue::setLuminance - 0x5d8b20
 CCSpriteWithHue::setupDefaultSettings - 0x5d87f0
+CCSpriteWithHue::updateColorMatrix - 0x5d8c00
 CCSpriteWithHue::updateHue - 0x5d8ad0
 CCSpriteGrayscale::create - 0x5d95c0
 CCSpriteGrayscale::create - 0x5d9500
@@ -2121,6 +2128,7 @@ CCTextInputNode::setString - 0x9e6d0
 CCTextInputNode::updateBlinkLabel - 0x9ea80
 CCTextInputNode::updateBlinkLabelToChar - 0x9eb40
 CCTextInputNode::updateCursorPosition - 0xa0500
+CCTextInputNode::updateDefaultFontValues - 0x9e060
 CCTextInputNode::updateLabel - 0x9e320
 ChallengesPage::create - 0x389da0
 ChallengesPage::init - 0x389f10
@@ -2135,6 +2143,7 @@ ChallengesPage::claimItem - 0x38b610
 ChallengesPage::createChallengeNode - 0x38abe0
 ChallengesPage::exitNodeAtSlot - 0x38b0a0
 ChallengesPage::onClose - 0x38a930
+ChallengesPage::updateDots - 0x38add0
 ChallengesPage::updateTimers - 0x38a970
 GJChallengeItem::create - 0x8f100
 GJChallengeItem::createFromString - 0x8ef00
@@ -2269,6 +2278,7 @@ CommentCell::onLike - 0x242e90
 CommentCell::onUnhide - 0x242e70
 CommentCell::onViewProfile - 0x242d90
 CommunityCreditNode::init - 0x30a010
+CommunityCreditsPage::create - 0x30a3b0
 CommunityCreditsPage::init - 0x30a500
 CommunityCreditsPage::registerWithTouchDispatcher - 0x30ca60
 CommunityCreditsPage::keyBackClicked - 0x30c9f0
@@ -2283,6 +2293,7 @@ ConfigureHSVWidget::createTextInputNode - 0x41dcd0
 ConfigureHSVWidget::init - 0x41d320
 ConfigureHSVWidget::onClose - 0x41d040
 ConfigureHSVWidget::onResetHSV - 0x41e0f0
+ConfigureHSVWidget::sliderChanged - 0x41df00
 ConfigureHSVWidget::updateLabels - 0x41e170
 ConfigureHSVWidget::updateSliders - 0x41e750
 ConfigureValuePopup::keyBackClicked - 0x60d720
@@ -2332,6 +2343,7 @@ CreateParticlePopup::textInputClosed - 0x463ab0
 CreateParticlePopup::textChanged - 0x463af0
 CreateParticlePopup::init - 0x45be60
 CreateParticlePopup::onClose - 0x460450
+CreateParticlePopup::titleForParticleValue - 0x462430
 CreateParticlePopup::updateInputNodeStringForType - 0x462470
 CreateParticlePopup::updateParticleValueForType - 0x462960
 CreateParticlePopup::updateSliderForType - 0x462740
@@ -2375,6 +2387,7 @@ CurrencyRewardLayer::incrementStarsCount - 0x793870
 CurrencyRewardLayer::init - 0x78ffe0
 CurrencyRewardLayer::pulseSprite - 0x793fa0
 CurrencySprite::create - 0x792020
+CurrencySprite::createWithSprite - 0x792ed0
 CurrencySprite::spriteTypeToStat - 0x791f20
 CurrencySprite::init - 0x794180
 CurrencySprite::initWithSprite - 0x794ad0
@@ -2403,6 +2416,7 @@ CustomizeObjectLayer::updateChannelLabel - 0x1e6680
 CustomizeObjectLayer::updateColorSprite - 0x1e65b0
 CustomizeObjectLayer::updateCustomColorLabels - 0x1e5c10
 CustomizeObjectLayer::updateHSVButtons - 0x1e58e0
+CustomizeObjectLayer::updateKerningLabel - 0x1e5ec0
 CustomizeObjectLayer::updateSelected - 0x1e6b70
 CustomizeObjectSettingsPopup::onClose - 0x1e7d20
 CustomizeObjectSettingsPopup::onCustomToggleTriggerValue - 0x1e7cb0
@@ -2431,9 +2445,11 @@ CustomSFXWidget::songStateChanged - 0x5cc8a0
 CustomSFXWidget::FLAlert_Clicked - 0x5ccb90
 CustomSFXWidget::deleteSFX - 0x5cc3f0
 CustomSFXWidget::init - 0x5ca7d0
+CustomSFXWidget::onCancelDownload - 0x5cb850
 CustomSFXWidget::onDelete - 0x5cb890
 CustomSFXWidget::updateError - 0x5ccaa0
 CustomSFXWidget::updateSFXInfo - 0x5cbcc0
+CustomSongLayer::create - 0x202fb0
 CustomSongLayer::keyBackClicked - 0x2048b0
 CustomSongLayer::show - 0x2049a0
 CustomSongLayer::textChanged - 0x204340
@@ -2467,7 +2483,7 @@ CustomSongWidget::downloadAssetFinished - 0x608f70
 CustomSongWidget::downloadFailed - 0x608e20
 CustomSongWidget::getSongInfoIfUnloaded - 0x6074c0
 CustomSongWidget::init - 0x603240
-CustomSongWidget::onCancelDownload - 0x5cb850
+CustomSongWidget::onCancelDownload - 0x604640
 CustomSongWidget::onDelete - 0x604680
 CustomSongWidget::onDownload - 0x6043b0
 CustomSongWidget::onGetSongInfo - 0x6047c0
@@ -2477,6 +2493,8 @@ CustomSongWidget::onPlayback - 0x604850
 CustomSongWidget::onSelect - 0x604760
 CustomSongWidget::positionInfoObjects - 0x6059f0
 CustomSongWidget::processNextMultiAsset - 0x6094a0
+CustomSongWidget::showError - 0x607280
+CustomSongWidget::startMultiAssetDownload - 0x607610
 CustomSongWidget::updateDownloadProgress - 0x607ab0
 CustomSongWidget::updateError - 0x608cf0
 CustomSongWidget::updateLengthMod - 0x607c20
