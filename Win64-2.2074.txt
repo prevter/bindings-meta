@@ -2010,6 +2010,7 @@ GJDifficultySprite::updateFeatureState - 0x29dbb0
 GJEffectManager::create - 0x2538f0
 GJEffectManager::init - 0x253950
 GJEffectManager::colorForGroupID - 0x25a780
+GJEffectManager::colorForPulseEffect - 0x25a3d0
 GJEffectManager::countForItem - 0x25b060
 GJEffectManager::createMoveCommand - 0x255370
 GJEffectManager::getColorAction - 0x254870
