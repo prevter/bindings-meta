@@ -3688,6 +3688,7 @@ GJEffectManager::activeOpacityForIndex - 0x2ca4b0
 GJEffectManager::colorActionChanged - 0x2cb670
 GJEffectManager::colorExists - 0x2cb640
 GJEffectManager::colorForGroupID - 0x2d5730
+GJEffectManager::colorForPulseEffect - 0x2cb400
 GJEffectManager::countForItem - 0x2d6930
 GJEffectManager::getColorAction - 0x2ca1e0
 GJEffectManager::getColorSprite - 0x2ca3a0

@@ -3184,6 +3184,7 @@ GJEffectManager::init - 0x125e8
 GJEffectManager::addCountToItem - 0x196d4
 GJEffectManager::colorExists - 0x13770
 GJEffectManager::colorForGroupID - 0x18ca8
+GJEffectManager::colorForPulseEffect - 0x13580
 GJEffectManager::countForItem - 0x19694
 GJEffectManager::getColorAction - 0x12b80
 GJEffectManager::playerButton - 0x1921c
