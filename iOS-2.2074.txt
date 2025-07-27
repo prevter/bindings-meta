@@ -2063,6 +2063,7 @@ ColorAction::create - 0x10ea4
 ColorActionSprite::init - 0x10d8c
 ColorChannelSprite::create - 0x106c8
 ColorChannelSprite::init - 0x10764
+ColorChannelSprite::updateBlending - 0x10a6c
 ColorChannelSprite::updateCopyLabel - 0x10770
 ColorChannelSprite::updateOpacity - 0x10910
 ColorChannelSprite::updateValues - 0x10b74
@@ -3167,9 +3168,11 @@ GJBaseGameLayer::updateZoom - 0x1fef38
 GJChestSprite::setOpacity - 0x1c8f68
 GJChestSprite::setColor - 0x1c8e98
 GJChestSprite::switchToState - 0x1c7a00
+GJColorSetupLayer::create - 0x1912c0
 GJColorSetupLayer::keyBackClicked - 0x191cf8
 GJColorSetupLayer::colorSelectClosed - 0x191cec
 GJColorSetupLayer::init - 0x191334
+GJColorSetupLayer::onColor - 0x191990
 GJColorSetupLayer::updateSpriteColor - 0x191c58
 GJColorSetupLayer::updateSpriteColors - 0x191a18
 GJComment::init - 0xb41fc
