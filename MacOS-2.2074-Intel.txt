@@ -1842,6 +1842,7 @@ EffectGameObject::canBeOrdered - 0x1aa430
 EffectGameObject::getObjectLabel - 0x1e1d20
 EffectGameObject::setObjectLabel - 0x1e1d30
 EffectGameObject::stateSensitiveOff - 0x1a9f90
+EffectGameObject::init - 0x5b37d0
 EffectGameObject::setTargetID - 0x192130
 EffectGameObject::setTargetID2 - 0x192150
 AdvancedFollowTriggerObject::customObjectSetup - 0x19b5d0

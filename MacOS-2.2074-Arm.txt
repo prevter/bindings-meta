@@ -1843,6 +1843,7 @@ EffectGameObject::canBeOrdered - 0x16baec
 EffectGameObject::getObjectLabel - 0x199b10
 EffectGameObject::setObjectLabel - 0x199b18
 EffectGameObject::stateSensitiveOff - 0x16b578
+EffectGameObject::init - 0x4ec0c4
 EffectGameObject::setTargetID - 0x157c40
 EffectGameObject::setTargetID2 - 0x157c58
 AdvancedFollowTriggerObject::customObjectSetup - 0x15ee0c

@@ -1771,6 +1771,7 @@ EffectGameObject::canBeOrdered - 0x37f714
 EffectGameObject::getObjectLabel - 0x3922c0
 EffectGameObject::setObjectLabel - 0x3922c8
 EffectGameObject::stateSensitiveOff - 0x37f260
+EffectGameObject::init - 0x261f48
 AdvancedFollowTriggerObject::customObjectSetup - 0x377698
 AdvancedFollowTriggerObject::getSaveString - 0x375858
 AdvancedFollowEditObject::customObjectSetup - 0x378a1c
@@ -3143,6 +3144,7 @@ GJBaseGameLayer::resetSpawnChannelIndex - 0x204b10
 GJBaseGameLayer::resumeAudio - 0x2009d0
 GJBaseGameLayer::setGroupParent - 0x1f4398
 GJBaseGameLayer::setStartPosObject - 0x1e7374
+GJBaseGameLayer::setupLayers - 0x1dc590
 GJBaseGameLayer::setupLevelStart - 0x1e73bc
 GJBaseGameLayer::shakeCamera - 0x205614
 GJBaseGameLayer::shouldExitHackedLevel - 0x1de628
