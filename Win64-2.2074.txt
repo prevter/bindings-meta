@@ -2663,6 +2663,7 @@ LevelEditorLayer::handleAction - 0x2cde30
 LevelEditorLayer::init - 0x2c96e0
 LevelEditorLayer::objectAtPosition - 0x2cc940
 LevelEditorLayer::objectsAtPosition - 0x2ccd00
+LevelEditorLayer::objectsInRect - 0x2cd590
 LevelEditorLayer::onPlaytest - 0x2d7330
 LevelEditorLayer::onResumePlaytest - 0x2d7d60
 LevelEditorLayer::onStopPlaytest - 0x2d7f50

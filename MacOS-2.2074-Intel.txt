@@ -2810,6 +2810,7 @@ EditorUI::selectAllWithDirection - 0x3d960
 EditorUI::selectBuildTab - 0x34340
 EditorUI::selectObject - 0x2ec30
 EditorUI::selectObjects - 0x3c830
+EditorUI::selectObjectsInRect - 0x3d230
 EditorUI::setupCreateMenu - 0xdf10
 EditorUI::setupDeleteMenu - 0xd010
 EditorUI::setupEditMenu - 0x2ac00
@@ -2844,6 +2845,7 @@ EditorUI::updateGroupIDLabel - 0x2ccd0
 EditorUI::updateObjectInfoLabel - 0x2f870
 EditorUI::updatePlaybackBtn - 0x2d5f0
 EditorUI::updateSlider - 0x2b1b0
+EditorUI::updateSpecialUIElements - 0x2ed30
 EditorUI::updateZoom - 0x3e050
 EditorUI::zoomGameLayer - 0x3e320
 EditorUI::zoomIn - 0xced0
@@ -4353,6 +4355,7 @@ LevelEditorLayer::init - 0xdb280
 LevelEditorLayer::objectAtPosition - 0xe1870
 LevelEditorLayer::objectMoved - 0xea300
 LevelEditorLayer::objectsAtPosition - 0xe2010
+LevelEditorLayer::objectsInRect - 0xe12f0
 LevelEditorLayer::onPlaytest - 0xf0f00
 LevelEditorLayer::onResumePlaytest - 0xf1990
 LevelEditorLayer::onStopPlaytest - 0xf1ae0
