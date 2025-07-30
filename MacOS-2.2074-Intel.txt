@@ -1542,6 +1542,15 @@ cocos2d::CCDisplayLinkDirector::startAnimation - 0x471cf0
 cocos2d::CCDisplayLinkDirector::mainLoop - 0x471d30
 cocos2d::CCScriptEngineManager::setScriptEngine - 0x307980
 cocos2d::CCScriptEngineManager::sharedManager - 0x3072f0
+cocos2d::CCJumpBy::create - 0x3a5ef0
+cocos2d::CCJumpBy::initWithDuration - 0x3a6010
+cocos2d::CCJumpBy::copyWithZone - 0x3a6080
+cocos2d::CCJumpBy::update - 0x3a6240
+cocos2d::CCJumpBy::startWithTarget - 0x3a61f0
+cocos2d::CCJumpBy::reverse - 0x3a6370
+cocos2d::CCJumpTo::create - 0x3a63d0
+cocos2d::CCJumpTo::copyWithZone - 0x3a64f0
+cocos2d::CCJumpTo::startWithTarget - 0x3a6670
 GJDropDownLayer::create - 0x5cfc90
 GJDropDownLayer::create - 0x5d01d0
 GJDropDownLayer::draw - 0x5d05d0
