@@ -4808,10 +4808,12 @@ SetupMoveCommandPopup::onCustomToggleTriggerValue - 0x273eac
 SetupMoveCommandPopup::init - 0x272a50
 SetupMoveCommandPopup::updateControlVisibility - 0x273a1c
 SetupObjectOptions2Popup::onPlusButton - 0x45758
+SetupObjectOptionsPopup::create - 0x42654
 SetupObjectOptionsPopup::keyBackClicked - 0x45288
 SetupObjectOptionsPopup::show - 0x452ac
 SetupObjectOptionsPopup::determineStartValues - 0x450a4
 SetupObjectOptionsPopup::onClose - 0x452f8
+SetupObjectOptionsPopup::init - 0x42e7c
 SetupObjectTogglePopup::create - 0x1a5e38
 SetupObjectTogglePopup::onClose - 0x1a66f8
 SetupObjectTogglePopup::valueDidChange - 0x1a6688

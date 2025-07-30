@@ -5790,6 +5790,7 @@ SetupMoveCommandPopup::updateControlVisibility - 0x520f38
 SetupObjectControlPopup::init - 0x4c4328
 SetupObjectOptions2Popup::onPlusButton - 0x29e2d8
 SetupObjectOptions2Popup::init - 0x29de30
+SetupObjectOptionsPopup::create - 0x29a778
 SetupObjectOptionsPopup::keyBackClicked - 0x29dd48
 SetupObjectOptionsPopup::show - 0x29dd6c
 SetupObjectOptionsPopup::determineStartValues - 0x29da98
