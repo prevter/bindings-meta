@@ -3214,6 +3214,7 @@ GameManager::init - 0x2f6158
 GameManager::encodeDataTo - 0x307eec
 GameManager::dataLoaded - 0x306384
 GameManager::firstLoad - 0x3076a8
+GameManager::accountStatusChanged - 0x302bd8
 GameManager::activeIconForType - 0x2feb3c
 GameManager::addNewCustomObject - 0x302400
 GameManager::calculateBaseKeyForIcons - 0x2f6240
@@ -4722,6 +4723,7 @@ MenuLayer::openOptions - 0x30f360
 MenuLayer::showGCQuestion - 0x30f144
 MenuLayer::showTOS - 0x30f044
 MenuLayer::tryShowAd - 0x30f0a4
+MenuLayer::updateUserProfileButton - 0x30eef8
 MenuLayer::videoOptionsOpened - 0x30f3e8
 MenuLayer::willClose - 0x30d274
 MessagesProfilePage::create - 0x1ce7c4
