@@ -3389,9 +3389,12 @@ GJRewardObject::canEncode - 0x33fe50
 GJRobotSprite::create - 0x23eff0
 GJRobotSprite::setOpacity - 0x23fe10
 GJRobotSprite::hideSecondary - 0x23fef4
+GJRobotSprite::hideGlow - 0x23fac8
 GJRobotSprite::init - 0x23f13c
 GJRobotSprite::init - 0x23f0b8
 GJRobotSprite::showGlow - 0x23fab4
+GJRobotSprite::updateColor01 - 0x23fadc
+GJRobotSprite::updateColor02 - 0x23fd84
 GJRobotSprite::updateColors - 0x23faf0
 GJRobotSprite::updateFrame - 0x23f5ec
 GJRobotSprite::updateGlowColor - 0x23fd94
@@ -4310,6 +4313,7 @@ PlayerObject::startDashing - 0x226cc0
 PlayerObject::stopDashing - 0x21d57c
 PlayerObject::stopParticles - 0x21ea18
 PlayerObject::stopPlatformerJumpAnimation - 0x21effc
+PlayerObject::stopRotation - 0x21f088
 PlayerObject::stopStreak2 - 0x22d978
 PlayerObject::switchedToMode - 0x227a78
 PlayerObject::toggleBirdMode - 0x22a6e8

@@ -3308,6 +3308,7 @@ GameStatsManager::init - 0x50450
 GameStatsManager::accountIDForIcon - 0x2acc74
 GameStatsManager::addStoreItem - 0x5a758
 GameStatsManager::areChallengesLoaded - 0x663dc
+GameStatsManager::areRewardsLoaded - 0x6599c
 GameStatsManager::awardCurrencyForLevel - 0x64700
 GameStatsManager::checkAchievement - 0x5b28c
 GameStatsManager::checkCoinAchievement - 0x60414
@@ -3985,8 +3986,10 @@ GJRewardObject::isSpecialType - 0x81f48
 GJRobotSprite::create - 0x4f8c84
 GJRobotSprite::setOpacity - 0x4f9e1c
 GJRobotSprite::hideSecondary - 0x4f9f00
+GJRobotSprite::hideGlow - 0x4f9ad0
 GJRobotSprite::init - 0x4f8e44
 GJRobotSprite::init - 0x4f8db4
+GJRobotSprite::showGlow - 0x4f9abc
 GJRobotSprite::updateColor01 - 0x4f9ae4
 GJRobotSprite::updateColor02 - 0x4f9d90
 GJRobotSprite::updateColors - 0x4f9af8
@@ -5130,6 +5133,7 @@ PlayerObject::reversePlayer - 0x382044
 PlayerObject::ringJump - 0x380dec
 PlayerObject::rotateGameplay - 0x37f1a8
 PlayerObject::runBallRotation - 0x3732c0
+PlayerObject::runNormalRotation - 0x3731e8
 PlayerObject::runNormalRotation - 0x36f618
 PlayerObject::runRotateAction - 0x371934
 PlayerObject::saveToCheckpoint - 0x387f00
@@ -5142,6 +5146,7 @@ PlayerObject::spiderTestJumpInternal - 0x37ad3c
 PlayerObject::startDashing - 0x37e290
 PlayerObject::stopDashing - 0x370c60
 PlayerObject::stopPlatformerJumpAnimation - 0x37314c
+PlayerObject::stopRotation - 0x3731d8
 PlayerObject::stopStreak2 - 0x387654
 PlayerObject::switchedToMode - 0x37f824
 PlayerObject::toggleBirdMode - 0x383410
@@ -5501,6 +5506,7 @@ SecretLayer5::onlineRewardStatusFinished - 0x3da348
 SecretLayer5::onlineRewardStatusFailed - 0x3da4b0
 SecretLayer5::handleSecretResponse - 0x3d91dc
 SecretLayer5::onSubmit - 0x3d8188
+SecretLayer5::showFailAnimation - 0x3d9aec
 SecretLayer5::showFirstDialog - 0x3d8658
 SecretLayer5::showSuccessAnimation - 0x3d9294
 SecretLayer6::create - 0x3db37c
