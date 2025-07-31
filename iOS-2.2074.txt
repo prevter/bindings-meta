@@ -101,6 +101,7 @@ cocos2d::CCNode::resetGlobalOrderOfArrival - 0x23ab14
 cocos2d::CCNode::CCNode - 0x23ab24
 cocos2d::CCNode::~CCNode - 0x23ad98
 cocos2d::CCNode::getActionByTag - 0x23c214
+cocos2d::CCNode::setUseChildIndex - 0x23b978
 cocos2d::CCNode::boundingBox - 0x23b390
 cocos2d::CCNode::convertToNodeSpace - 0x23ccb8
 cocos2d::CCNode::convertToWorldSpace - 0x23cd00
@@ -2794,6 +2795,7 @@ GameLevelManager::getUsers - 0xa79b0
 GameLevelManager::gotoLevelPage - 0x9cd20
 GameLevelManager::handleIt - 0x8c0bc
 GameLevelManager::hasDownloadedLevel - 0xa3854
+GameLevelManager::hasLikedItemFullCheck - 0xad8d4
 GameLevelManager::invalidateMessages - 0xa9250
 GameLevelManager::isDLActive - 0x9d250
 GameLevelManager::isFollowingUser - 0x9df80
@@ -2904,6 +2906,7 @@ GameOptionsTrigger::getSaveString - 0x378c58
 GameStatsManager::sharedState - 0x325804
 GameStatsManager::init - 0x3259a0
 GameStatsManager::addStoreItem - 0x32bb90
+GameStatsManager::areRewardsLoaded - 0x3333c4
 GameStatsManager::awardCurrencyForLevel - 0x33282c
 GameStatsManager::awardDiamondsForLevel - 0x332ce4
 GameStatsManager::awardSecretKey - 0x33e2ec
@@ -3388,8 +3391,10 @@ GJRobotSprite::setOpacity - 0x23fe10
 GJRobotSprite::hideSecondary - 0x23fef4
 GJRobotSprite::init - 0x23f13c
 GJRobotSprite::init - 0x23f0b8
+GJRobotSprite::showGlow - 0x23fab4
 GJRobotSprite::updateColors - 0x23faf0
 GJRobotSprite::updateFrame - 0x23f5ec
+GJRobotSprite::updateGlowColor - 0x23fd94
 GJRotationControl::GJRotationControl - 0x3f4734
 GJRotationControl::create - 0x3bf3bc
 GJRotationControl::init - 0x3f27d4
@@ -3768,6 +3773,7 @@ LevelInfoLayer::setupPlatformerStats - 0x2bc9c
 LevelInfoLayer::setupProgressBars - 0x2bff8
 LevelInfoLayer::tryCloneLevel - 0x2cf6c
 LevelInfoLayer::updateLabelValues - 0x2d910
+LevelInfoLayer::updateSideButtons - 0x2cacc
 LevelLeaderboard::create - 0x24e3b8
 LevelLeaderboard::registerWithTouchDispatcher - 0x24fe80
 LevelLeaderboard::keyBackClicked - 0x24fe04
@@ -4294,6 +4300,7 @@ PlayerObject::ringJump - 0x228ac0
 PlayerObject::rotateGameplay - 0x227648
 PlayerObject::runBallRotation - 0x21f098
 PlayerObject::runNormalRotation - 0x21c204
+PlayerObject::runRotateAction - 0x21df28
 PlayerObject::setSecondColor - 0x21af40
 PlayerObject::setupStreak - 0x219cd4
 PlayerObject::setYVelocity - 0x219b38
@@ -4598,6 +4605,7 @@ SecretLayer5::onlineRewardStatusFinished - 0x7aa30
 SecretLayer5::onlineRewardStatusFailed - 0x7ab88
 SecretLayer5::handleSecretResponse - 0x79ac4
 SecretLayer5::onSubmit - 0x78d64
+SecretLayer5::showFailAnimation - 0x7a2e8
 SecretLayer5::showSuccessAnimation - 0x79b14
 SecretNumberLayer::init - 0x30dd14
 SecretRewardsLayer::SecretRewardsLayer - 0x2ee850
@@ -4942,6 +4950,23 @@ ShaderLayer::init - 0x26cd28
 ShaderLayer::update - 0x26e070
 ShaderLayer::visit - 0x272320
 ShaderLayer::performCalculations - 0x272244
+ShaderLayer::setupBulgeShader - 0x26dbbc
+ShaderLayer::setupChromaticGlitchUniforms - 0x26d94c
+ShaderLayer::setupChromaticUniforms - 0x26d8e8
+ShaderLayer::setupColorChangeShader - 0x26de88
+ShaderLayer::setupCommonUniforms - 0x26d2fc
+ShaderLayer::setupGlitchUniforms - 0x26d818
+ShaderLayer::setupGrayscaleShader - 0x26dd9c
+ShaderLayer::setupHueShiftShader - 0x26de24
+ShaderLayer::setupLensCircleShader - 0x26da64
+ShaderLayer::setupMotionBlurShader - 0x26dd14
+ShaderLayer::setupPinchShader - 0x26dc68
+ShaderLayer::setupRadialBlurShader - 0x26db58
+ShaderLayer::setupShader - 0x26cdd0
+ShaderLayer::setupShockLineUniforms - 0x26d64c
+ShaderLayer::setupShockWaveUniforms - 0x26d480
+ShaderLayer::setupSplitScreenShader - 0x26deec
+ShaderLayer::toggleAntiAlias - 0x26d298
 ShardsPage::init - 0x39a9e4
 ShardsPage::registerWithTouchDispatcher - 0x39c3c8
 ShardsPage::keyBackClicked - 0x39c34c

@@ -142,6 +142,7 @@ cocos2d::CCNode::resetGlobalOrderOfArrival - 0x20c198
 cocos2d::CCNode::CCNode - 0x20c1a8
 cocos2d::CCNode::~CCNode - 0x20c334
 cocos2d::CCNode::getActionByTag - 0x20dd80
+cocos2d::CCNode::setUseChildIndex - 0x20d228
 cocos2d::CCNode::boundingBox - 0x20ca74
 cocos2d::CCNode::convertToNodeSpace - 0x20e94c
 cocos2d::CCNode::convertToNodeSpaceAR - 0x20e9dc

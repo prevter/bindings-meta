@@ -111,6 +111,7 @@ AchievementManager::addAchievement - 0x7ef0
 AchievementManager::addManualAchievements - 0x8410
 AchievementManager::getAchievementsWithID - 0x39d70
 AchievementManager::isAchievementEarned - 0x39a70
+AchievementManager::notifyAchievementWithID - 0x3a470
 AchievementManager::percentForAchievement - 0x39a90
 AchievementNotifier::sharedState - 0x3ab20
 AchievementNotifier::init - 0x3abd0
@@ -3310,6 +3311,7 @@ PlayerObject::playCompleteEffect - 0x36e2b0
 PlayerObject::playDeathEffect - 0x3691a0
 PlayerObject::playDynamicSpiderRun - 0x38b740
 PlayerObject::playerDestroyed - 0x381f10
+PlayerObject::playerIsFallingBugged - 0x3846a0
 PlayerObject::playSpawnEffect - 0x381650
 PlayerObject::playSpiderDashEffect - 0x37f340
 PlayerObject::postCollision - 0x3777f0
