@@ -2379,6 +2379,7 @@ DrawGridLayer::create - 0x3575ac
 DrawGridLayer::update - 0x3657b8
 DrawGridLayer::draw - 0x3658c8
 DrawGridLayer::init - 0x3655bc
+DrawGridLayer::loadTimeMarkers - 0x358dbc
 DrawGridLayer::timeForPos - 0x360104
 DungeonBarsSprite::init - 0x3119ac
 DungeonBarsSprite::visit - 0x311a2c

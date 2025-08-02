@@ -3557,6 +3557,8 @@ GJBaseGameLayer::gameEventTriggered - 0x110ea0
 GJBaseGameLayer::generateSpawnRemap - 0x106400
 GJBaseGameLayer::generateTargetGroups - 0x109d00
 GJBaseGameLayer::getCameraEdgeValue - 0x13f630
+GJBaseGameLayer::getMaxPortalY - 0x114f30
+GJBaseGameLayer::getMinPortalY - 0x114e50
 GJBaseGameLayer::getModifiedDelta - 0x141ee0
 GJBaseGameLayer::getOtherPlayer - 0x1128b0
 GJBaseGameLayer::gravBumpPlayer - 0x117ef0
