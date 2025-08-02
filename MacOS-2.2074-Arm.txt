@@ -2203,6 +2203,14 @@ CheckpointGameObject::updateSyncedAnimation - 0x181770
 EnterEffectInstance::updateTransitions - 0x4f1338
 GJGameState::stopTweenAction - 0xdfb0c
 GJGameState::tweenValue - 0xdfa70
+GJShaderState::GJShaderState - 0xb43b8
+GJShaderState::reset - 0x34278c
+GJShaderState::stopTweenAction - 0x3422dc
+GJShaderState::timesyncShaderAction - 0x342628
+GJShaderState::timesyncShaderActions - 0x3425f0
+GJShaderState::tweenValue - 0x3421f8
+GJShaderState::updateTweenAction - 0x342300
+GJShaderState::updateTweenActions - 0x342554
 CheckpointObject::CheckpointObject - 0xb4190
 CheckpointObject::create - 0xab538
 CheckpointObject::init - 0xae344
@@ -6009,6 +6017,8 @@ SFXTriggerGameObject::getSaveString - 0x177b40
 ShaderGameObject::customSetup - 0x1537ec
 ShaderGameObject::customObjectSetup - 0x1573c4
 ShaderGameObject::getSaveString - 0x153844
+ShaderLayer::ShaderLayer - 0x3492f8
+ShaderLayer::create - 0x342a7c
 ShaderLayer::init - 0x342afc
 ShaderLayer::update - 0x3442d4
 ShaderLayer::visit - 0x348f24
@@ -6026,6 +6036,7 @@ ShaderLayer::preRadialBlurShader - 0x347ae8
 ShaderLayer::preShockLineShader - 0x346300
 ShaderLayer::preShockWaveShader - 0x345d94
 ShaderLayer::preSplitScreenShader - 0x348a18
+ShaderLayer::resetAllShaders - 0x349270
 ShaderLayer::setupBulgeShader - 0x343da0
 ShaderLayer::setupChromaticGlitchUniforms - 0x343b30
 ShaderLayer::setupChromaticUniforms - 0x343acc
