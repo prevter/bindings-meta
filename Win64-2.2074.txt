@@ -217,6 +217,7 @@ GameObject::duplicateAttributes - 0x19ed00
 GameObject::duplicateValues - 0x19ee40
 GameObject::editorColorForMode - 0x19e0a0
 GameObject::getActiveColorForMode - 0x19f140
+GameObject::getColorKey - 0x199db0
 GameObject::getObjectDirection - 0x1995a0
 GameObject::getRelativeSpriteColor - 0x19eb30
 GameObject::groupOpacityMod - 0x199d30
@@ -1877,11 +1878,13 @@ GJBaseGameLayer::handleButton - 0x22e190
 GJBaseGameLayer::hasUniqueCoin - 0x211220
 GJBaseGameLayer::increaseBatchNodeCapacity - 0x2078e0
 GJBaseGameLayer::lightningFlash - 0x240770
+GJBaseGameLayer::loadGroupParentsFromString - 0x21f4b0
 GJBaseGameLayer::loadLevelSettings - 0x234770
 GJBaseGameLayer::loadStartPosObject - 0x230000
 GJBaseGameLayer::loadUpToPosition - 0x2301a0
 GJBaseGameLayer::moveAreaObject - 0x2257d0
 GJBaseGameLayer::moveObjects - 0x228a70
+GJBaseGameLayer::moveObjectToStaticGroup - 0x22c060
 GJBaseGameLayer::objectTypeToGameEvent - 0x22ce10
 GJBaseGameLayer::optimizeMoveGroups - 0x22b740
 GJBaseGameLayer::orderSpawnObjects - 0x23f7e0
@@ -2673,6 +2676,7 @@ LevelEditorLayer::onPlaytest - 0x2d7330
 LevelEditorLayer::onResumePlaytest - 0x2d7d60
 LevelEditorLayer::onStopPlaytest - 0x2d7f50
 LevelEditorLayer::quickUpdateAllPositions - 0x2d70c0
+LevelEditorLayer::recreateGroups - 0x2d6370
 LevelEditorLayer::removeAllObjectsOfType - 0x2cdbb0
 LevelEditorLayer::removeObject - 0x2cda70
 LevelEditorLayer::removeSpecial - 0x2cfbb0
