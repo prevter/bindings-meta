@@ -3764,6 +3764,9 @@ SetGroupIDLayer::onClose - 0x3e5f60
 SetGroupIDLayer::onCopy - 0x3e3ed0
 SetGroupIDLayer::onExtra - 0x3e40d0
 SetGroupIDLayer::onExtra2 - 0x3e4250
+SetGroupIDLayer::onNextFreeEditorLayer1 - 0x3e57b0
+SetGroupIDLayer::onNextFreeEditorLayer2 - 0x3e5820
+SetGroupIDLayer::onNextFreeOrderChannel - 0x3e5cc0
 SetGroupIDLayer::onNextGroupID1 - 0x3e48d0
 SetGroupIDLayer::onPaste - 0x3e3f30
 SetGroupIDLayer::onRemoveFromGroup - 0x3e51e0

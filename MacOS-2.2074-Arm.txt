@@ -2743,6 +2743,7 @@ EditorUI::createCustomItems - 0x3122c
 EditorUI::createLoop - 0x3fa34
 EditorUI::createMoveMenu - 0x400a8
 EditorUI::createObject - 0x35d7c
+EditorUI::createPrefab - 0x3dfc0
 EditorUI::createRockBases - 0x52bf0c
 EditorUI::createUndoObject - 0x37f50
 EditorUI::createUndoSelectObject - 0x2e58c
@@ -2763,6 +2764,8 @@ EditorUI::editObject - 0x2b750
 EditorUI::editObject2 - 0x2b748
 EditorUI::editObject3 - 0x4304c
 EditorUI::editObjectSpecial - 0x42aa0
+EditorUI::findSnapObject - 0x46738
+EditorUI::findSnapObject - 0x46620
 EditorUI::flipObjectsX - 0x3ddc0
 EditorUI::flipObjectsY - 0x3dc18
 EditorUI::getCreateBtn - 0x332f0
@@ -5619,6 +5622,9 @@ SetGroupIDLayer::onArrowLeft - 0x29a100
 SetGroupIDLayer::onArrowRight - 0x29a138
 SetGroupIDLayer::onClose - 0x298444
 SetGroupIDLayer::onExtra - 0x29a028
+SetGroupIDLayer::onNextFreeEditorLayer1 - 0x298608
+SetGroupIDLayer::onNextFreeEditorLayer2 - 0x298690
+SetGroupIDLayer::onNextFreeOrderChannel - 0x29944c
 SetGroupIDLayer::onNextGroupID1 - 0x298c40
 SetGroupIDLayer::onPaste - 0x299f48
 SetGroupIDLayer::onRemoveFromGroup - 0x29ae48
@@ -5939,6 +5945,7 @@ SetupSmartBlockLayer::keyBackClicked - 0x4383cc
 SetupSmartBlockLayer::show - 0x438368
 SetupSmartBlockLayer::selectArtClosed - 0x4383b4
 SetupSmartBlockLayer::init - 0x436e18
+SetupSmartBlockLayer::onCreateAll - 0x437f50
 SetupSmartBlockLayer::onPasteTemplate - 0x437d78
 SetupSmartTemplateLayer::keyBackClicked - 0x4396d4
 SetupSmartTemplateLayer::FLAlert_Clicked - 0x439378

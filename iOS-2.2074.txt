@@ -2234,6 +2234,7 @@ CreatorLayer::onTreasureRoom - 0xb97c8
 CreatorLayer::onWeeklyLevel - 0xb9274
 CurrencyRewardLayer::create - 0x31e9b4
 CurrencyRewardLayer::update - 0x3212a4
+CurrencyRewardLayer::createObjectsFull - 0x320790
 CurrencyRewardLayer::createUnlockObject - 0x320734
 CurrencyRewardLayer::init - 0x31eabc
 CustomizeObjectLayer::keyBackClicked - 0x546e4
@@ -2501,6 +2502,7 @@ EditorUI::createCustomItems - 0x3e0ec8
 EditorUI::createLoop - 0x3eb930
 EditorUI::createMoveMenu - 0x3ebe14
 EditorUI::createObject - 0x3e4914
+EditorUI::createPrefab - 0x3ea55c
 EditorUI::createUndoObject - 0x3e62ac
 EditorUI::createUndoSelectObject - 0x3df104
 EditorUI::deactivateRotationControl - 0x3bf430
@@ -2516,6 +2518,8 @@ EditorUI::editButtonUsable - 0x3eccac
 EditorUI::editObject - 0x3dcd18
 EditorUI::editObject2 - 0x3dcd10
 EditorUI::editObjectSpecial - 0x3ed75c
+EditorUI::findSnapObject - 0x3f0448
+EditorUI::findSnapObject - 0x3f0338
 EditorUI::flipObjectsX - 0x3ea3d4
 EditorUI::flipObjectsY - 0x3ea24c
 EditorUI::getCreateBtn - 0x3e24b8
@@ -4691,6 +4695,9 @@ SetGroupIDLayer::onArrowLeft - 0x421f4
 SetGroupIDLayer::onArrowRight - 0x4222c
 SetGroupIDLayer::onClose - 0x40b20
 SetGroupIDLayer::onExtra - 0x4211c
+SetGroupIDLayer::onNextFreeEditorLayer1 - 0x40ce4
+SetGroupIDLayer::onNextFreeEditorLayer2 - 0x40d20
+SetGroupIDLayer::onNextFreeOrderChannel - 0x41888
 SetGroupIDLayer::onNextGroupID1 - 0x411d4
 SetGroupIDLayer::onPaste - 0x420a8
 SetGroupIDLayer::onRemoveFromGroup - 0x42ac8
@@ -4915,9 +4922,12 @@ SetupShaderEffectPopup::valueDidChange - 0x18d3d8
 SetupShakePopup::determineStartValues - 0x3a292c
 SetupShakePopup::onClose - 0x3a2e60
 SetupShakePopup::textChanged - 0x3a2c1c
+SetupSmartBlockLayer::create - 0x72e9c
 SetupSmartBlockLayer::keyBackClicked - 0x74300
 SetupSmartBlockLayer::show - 0x7429c
 SetupSmartBlockLayer::selectArtClosed - 0x742e8
+SetupSmartBlockLayer::init - 0x72f8c
+SetupSmartBlockLayer::onCreateAll - 0x73f48
 SetupSmartTemplateLayer::keyBackClicked - 0x75228
 SetupSmartTemplateLayer::FLAlert_Clicked - 0x74f38
 SetupSmartTemplateLayer::textInputOpened - 0x750bc
