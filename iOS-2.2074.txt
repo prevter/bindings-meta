@@ -2526,6 +2526,7 @@ EditorUI::getCreateBtn - 0x3e24b8
 EditorUI::getCreateMenuItemButton - 0x3df54c
 EditorUI::getGridSnappedPos - 0x3e3cc8
 EditorUI::getGroupCenter - 0x3e5280
+EditorUI::getLimitedPosition - 0x3ee478
 EditorUI::getSelectedObjects - 0x3e6210
 EditorUI::getSnapAngle - 0x3ee4e4
 EditorUI::getSpriteButton - 0x3bf6f8
