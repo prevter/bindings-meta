@@ -1715,6 +1715,7 @@ GameObject::addCustomChild - 0x259a28
 GameObject::addGlow - 0x254034
 GameObject::colorForMode - 0x261330
 GameObject::determineSlopeDirection - 0x25c100
+GameObject::duplicateValues - 0x2610c4
 GameObject::getActiveColorForMode - 0x26151c
 GameObject::getColorKey - 0x25ccd4
 GameObject::getGroupID - 0x25c624
@@ -1775,6 +1776,7 @@ EffectGameObject::getObjectLabel - 0x3922c0
 EffectGameObject::setObjectLabel - 0x3922c8
 EffectGameObject::stateSensitiveOff - 0x37f260
 EffectGameObject::init - 0x261f48
+EffectGameObject::updateSpeedModType - 0x37f5ac
 AdvancedFollowTriggerObject::customObjectSetup - 0x377698
 AdvancedFollowTriggerObject::getSaveString - 0x375858
 AdvancedFollowEditObject::customObjectSetup - 0x378a1c
@@ -2493,6 +2495,7 @@ EditorUI::activateRotationControl - 0x3e6664
 EditorUI::activateScaleControl - 0x3e7408
 EditorUI::activateTransformControl - 0x3e803c
 EditorUI::alignObjects - 0x3efa20
+EditorUI::applyOffset - 0x3e4a18
 EditorUI::assignNewGroups - 0x3eb650
 EditorUI::canSelectObject - 0x3e57f8
 EditorUI::clickOnPosition - 0x3dea18
@@ -2570,6 +2573,8 @@ EditorUI::pasteObjects - 0x3e4a98
 EditorUI::playtestStopped - 0x3e68c0
 EditorUI::redoLastAction - 0x3bf964
 EditorUI::reloadCustomItems - 0x3e0d50
+EditorUI::removeOffset - 0x3e4998
+EditorUI::repositionObjectsToCenter - 0x3e30e4
 EditorUI::resetSelectedObjectsColor - 0x3edf7c
 EditorUI::resetUI - 0x3dc538
 EditorUI::rotateObjects - 0x3e5484
@@ -2989,6 +2994,7 @@ GameToolbox::easeToText - 0x4b720
 GameToolbox::fast_rand_0_1 - 0x49540
 GameToolbox::fast_rand_minus1_1 - 0x49578
 GameToolbox::fast_srand - 0x49534
+GameToolbox::getRelativeOffset - 0x47e70
 GameToolbox::getTimeString - 0x49338
 GameToolbox::hsvFromString - 0x487fc
 GameToolbox::intToShortString - 0x4bd08
