@@ -4397,6 +4397,7 @@ LevelEditorLayer::pasteAttributeState - 0xf2930
 LevelEditorLayer::pasteGroupState - 0xf2a30
 LevelEditorLayer::processLoadedMoveActions - 0xb7920
 LevelEditorLayer::recreateGroups - 0xef9c0
+LevelEditorLayer::refreshSpecial - 0xea7f0
 LevelEditorLayer::removeAllObjectsOfType - 0xe2db0
 LevelEditorLayer::removeObject - 0xe27e0
 LevelEditorLayer::removeSpecial - 0xe28a0

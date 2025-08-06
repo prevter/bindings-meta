@@ -1776,6 +1776,8 @@ EffectGameObject::getObjectLabel - 0x3922c0
 EffectGameObject::setObjectLabel - 0x3922c8
 EffectGameObject::stateSensitiveOff - 0x37f260
 EffectGameObject::init - 0x261f48
+EffectGameObject::setTargetID - 0x3756ec
+EffectGameObject::setTargetID2 - 0x375704
 EffectGameObject::updateSpeedModType - 0x37f5ac
 AdvancedFollowTriggerObject::customObjectSetup - 0x377698
 AdvancedFollowTriggerObject::getSaveString - 0x375858
@@ -3745,6 +3747,7 @@ LevelEditorLayer::onPlaytest - 0x3624a8
 LevelEditorLayer::onResumePlaytest - 0x362b04
 LevelEditorLayer::onStopPlaytest - 0x362c30
 LevelEditorLayer::recreateGroups - 0x36167c
+LevelEditorLayer::refreshSpecial - 0x35de50
 LevelEditorLayer::removeAllObjectsOfType - 0x35b3f0
 LevelEditorLayer::removeObject - 0x35aedc
 LevelEditorLayer::removeSpecial - 0x35af54
