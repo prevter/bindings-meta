@@ -4520,6 +4520,9 @@ RateDemonLayer::uploadActionFinished - 0x41e618
 RateDemonLayer::uploadActionFailed - 0x41e6ac
 RateDemonLayer::onClosePopup - 0x41e748
 RateDemonLayer::init - 0x41dfc8
+RateDemonLayer::onClose - 0x41e4b0
+RateDemonLayer::onRate - 0x41e50c
+RateDemonLayer::selectRating - 0x41e3b4
 RateLevelLayer::create - 0x621ac
 RateLevelLayer::keyBackClicked - 0x627b0
 RateLevelLayer::init - 0x62268
