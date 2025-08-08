@@ -913,6 +913,7 @@ CustomSongWidget::downloadAssetFailed - 0xcc4a0
 CustomSongWidget::downloadAssetFinished - 0xcc3e0
 CustomSongWidget::getSongInfoIfUnloaded - 0xc9af0
 CustomSongWidget::init - 0xc7700
+CustomSongWidget::onCancelDownload - 0xc9bb0
 CustomSongWidget::onDelete - 0xc9040
 CustomSongWidget::onDownload - 0xc9cd0
 CustomSongWidget::onGetSongInfo - 0xc9c40

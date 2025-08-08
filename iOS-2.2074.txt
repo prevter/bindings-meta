@@ -2317,12 +2317,18 @@ CustomSongWidget::FLAlert_Clicked - 0x1016b0
 CustomSongWidget::deleteSong - 0xffe0c
 CustomSongWidget::getSongInfoIfUnloaded - 0x100140
 CustomSongWidget::init - 0xfca04
+CustomSongWidget::onCancelDownload - 0xfdb70
 CustomSongWidget::onDelete - 0xfdbac
 CustomSongWidget::onDownload - 0xfd9c0
 CustomSongWidget::onGetSongInfo - 0xfdcc4
 CustomSongWidget::onInfo - 0xfe5e8
+CustomSongWidget::onMore - 0xfdf48
 CustomSongWidget::onPlayback - 0xfdd58
 CustomSongWidget::onSelect - 0xfdc68
+CustomSongWidget::positionInfoObjects - 0xfe8c8
+CustomSongWidget::processNextMultiAsset - 0x1014a8
+CustomSongWidget::showError - 0xfff40
+CustomSongWidget::startMultiAssetDownload - 0x1001cc
 CustomSongWidget::updateMultiAssetInfo - 0x100a6c
 CustomSongWidget::updateSongInfo - 0xfee04
 CustomSongWidget::updateSongObject - 0xfed98
@@ -3529,6 +3535,7 @@ GJUserMessage::init - 0xb35d0
 GJUserScore::create - 0x99f28
 GJUserScore::create - 0xb3264
 GJUserScore::init - 0xb32d8
+GJUserScore::isCurrentUser - 0xb3320
 GJWriteMessagePopup::registerWithTouchDispatcher - 0x2dccd0
 GJWriteMessagePopup::keyBackClicked - 0x2dccbc
 GJWriteMessagePopup::textInputOpened - 0x2dcd24
