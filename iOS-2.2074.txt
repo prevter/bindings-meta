@@ -2025,7 +2025,9 @@ ChallengesPage::FLAlert_Clicked - 0x36e94
 ChallengesPage::challengeStatusFinished - 0x369ac
 ChallengesPage::challengeStatusFailed - 0x36bb0
 ChallengesPage::currencyWillExit - 0x37010
+ChallengesPage::claimItem - 0x36ee0
 ChallengesPage::createChallengeNode - 0x36770
+ChallengesPage::exitNodeAtSlot - 0x36acc
 ChallengesPage::onClose - 0x36530
 ChallengesPage::updateTimers - 0x3657c
 GJChallengeItem::create - 0x340380
@@ -2034,6 +2036,7 @@ GJChallengeItem::encodeWithCoder - 0x340730
 GJChallengeItem::canEncode - 0x34080c
 ChallengeNode::create - 0x36c94
 ChallengeNode::init - 0x37094
+ChallengeNode::onClaimReward - 0x37cf4
 CharacterColorPage::create - 0x12be6c
 CharacterColorPage::init - 0x12bf2c
 CharacterColorPage::registerWithTouchDispatcher - 0x12d844
