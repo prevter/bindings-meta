@@ -1263,6 +1263,9 @@ cocos2d::CCString::getCString - 0x7950f0
 cocos2d::CCString::boolValue - 0x7954b0
 cocos2d::CCString::intValue - 0x7953c0
 cocos2d::CCString::floatValue - 0x795440
+cocos2d::CCString::copyWithZone - 0x795530
+cocos2d::CCString::isEqual - 0x795580
+cocos2d::CCString::acceptVisitor - 0x7959f0
 cocos2d::CCMenuItem::~CCMenuItem - 0x3ab940
 cocos2d::CCMenuItem::create - 0x3ab790
 cocos2d::CCMenuItem::create - 0x3ab6d0
