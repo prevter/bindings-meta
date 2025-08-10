@@ -3929,6 +3929,8 @@ LevelSettingsLayer::textInputClosed - 0x17f4f4
 LevelSettingsLayer::textChanged - 0x17f510
 LevelSettingsLayer::init - 0x17c954
 LevelSettingsLayer::onClose - 0x17ed10
+LevelSettingsLayer::onGameplayMode - 0x17eb20
+LevelSettingsLayer::updateGameplayModeButtons - 0x17eb60
 LevelSettingsObject::create - 0x357b18
 LevelSettingsObject::init - 0x366b34
 LevelSettingsObject::getSaveString - 0x35bf4c
