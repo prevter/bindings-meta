@@ -1449,6 +1449,7 @@ cocos2d::extension::CCScale9Sprite::create - 0x3e3710
 cocos2d::extension::CCScale9Sprite::create - 0x3e3900
 cocos2d::extension::CCScale9Sprite::CCScale9Sprite - 0x3e1e50
 cocos2d::extension::CCScale9Sprite::~CCScale9Sprite - 0x3e1f40
+cocos2d::extension::CCScale9Sprite::updatePositions - 0x3e31b0
 cocos2d::extension::CCScale9Sprite::init - 0x3e2060
 cocos2d::extension::CCScale9Sprite::setContentSize - 0x3e3190
 cocos2d::extension::CCScale9Sprite::visit - 0x3e44d0

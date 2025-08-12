@@ -1108,6 +1108,7 @@ cocos2d::extension::CCControlSaturationBrightnessPicker::updateDraggerWithHSV - 
 cocos2d::extension::CCScale9Sprite::create - 0x216814
 cocos2d::extension::CCScale9Sprite::CCScale9Sprite - 0x2151f4
 cocos2d::extension::CCScale9Sprite::~CCScale9Sprite - 0x215354
+cocos2d::extension::CCScale9Sprite::updatePositions - 0x21628c
 cocos2d::extension::CCScale9Sprite::init - 0x21536c
 cocos2d::extension::CCScale9Sprite::setContentSize - 0x216264
 cocos2d::extension::CCScale9Sprite::visit - 0x216f54
