@@ -921,6 +921,10 @@ cocos2d::CCBlink::update - 0x18fefc
 cocos2d::CCBlink::startWithTarget - 0x18fdcc
 cocos2d::CCBlink::stop - 0x18fd98
 cocos2d::CCBlink::reverse - 0x18ff84
+cocos2d::CCHide::create - 0x1b0f4c
+cocos2d::CCHide::copyWithZone - 0x1b1064
+cocos2d::CCHide::update - 0x1b104c
+cocos2d::CCHide::reverse - 0x1b1060
 cocos2d::CCCallFunc::create - 0x1b110c
 cocos2d::CCCallFunc::~CCCallFunc - 0x1b11f0
 cocos2d::CCCallFunc::copyWithZone - 0x1b1264
