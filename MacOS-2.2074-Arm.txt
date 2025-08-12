@@ -6207,6 +6207,8 @@ Slider::create - 0x28a29c
 Slider::ccTouchBegan - 0x28aa38
 Slider::ccTouchMoved - 0x28aa78
 Slider::ccTouchEnded - 0x28aa58
+Slider::disableSlider - 0x28a66c
+Slider::enableSlider - 0x28a8c0
 Slider::init - 0x28a4c0
 Slider::setValue - 0x28a7d8
 SmartGameObject::customObjectSetup - 0x1631f0
