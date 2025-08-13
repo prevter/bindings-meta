@@ -925,6 +925,10 @@ cocos2d::CCHide::create - 0x1b0f4c
 cocos2d::CCHide::copyWithZone - 0x1b1064
 cocos2d::CCHide::update - 0x1b104c
 cocos2d::CCHide::reverse - 0x1b1060
+cocos2d::CCShow::create - 0x1b0edc
+cocos2d::CCShow::copyWithZone - 0x1b0fa4
+cocos2d::CCShow::update - 0x1b0f34
+cocos2d::CCShow::reverse - 0x1b0f48
 cocos2d::CCCallFunc::create - 0x1b110c
 cocos2d::CCCallFunc::~CCCallFunc - 0x1b11f0
 cocos2d::CCCallFunc::copyWithZone - 0x1b1264
