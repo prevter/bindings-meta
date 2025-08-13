@@ -1113,7 +1113,6 @@ cocos2d::extension::CCControlSaturationBrightnessPicker::updateDraggerWithHSV - 
 cocos2d::extension::CCScale9Sprite::create - 0x216814
 cocos2d::extension::CCScale9Sprite::CCScale9Sprite - 0x2151f4
 cocos2d::extension::CCScale9Sprite::~CCScale9Sprite - 0x215354
-cocos2d::extension::CCScale9Sprite::updatePositions - 0x21628c
 cocos2d::extension::CCScale9Sprite::init - 0x21536c
 cocos2d::extension::CCScale9Sprite::setContentSize - 0x216264
 cocos2d::extension::CCScale9Sprite::visit - 0x216f54
@@ -1191,6 +1190,7 @@ cocos2d::CCConfiguration::sharedConfiguration - 0x3252e4
 cocos2d::CCConfiguration::checkForGLExtension - 0x3252b0
 cocos2d::CCPoolManager::addObject - 0x1b448c
 cocos2d::CCPoolManager::pop - 0x1b43d0
+cocos2d::CCPoolManager::removeObject - 0x1b4438
 cocos2d::CCPoolManager::sharedPoolManager - 0x1b41f4
 cocos2d::CCZone::CCZone - 0x2534b4
 cocos2d::CCDisplayLinkDirector::setAnimationInterval - 0x179e68
