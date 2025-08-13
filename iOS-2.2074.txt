@@ -1882,6 +1882,7 @@ BoomScrollLayer::ccTouchMoved - 0x12f88c
 BoomScrollLayer::ccTouchEnded - 0x12faa4
 BoomScrollLayer::ccTouchCancelled - 0x12f780
 BoomScrollLayer::registerWithTouchDispatcher - 0x12f648
+BoomScrollLayer::getPage - 0x12ef14
 BoomScrollLayer::init - 0x12e320
 BoomScrollLayer::instantMoveToPage - 0x12f2c0
 BoomScrollLayer::moveToPage - 0x12f398
