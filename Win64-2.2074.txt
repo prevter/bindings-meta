@@ -665,6 +665,7 @@ SetupTriggerPopup::triggerArrowRight - 0x45da70
 SetupTriggerPopup::triggerSliderChanged - 0x45d980
 SetupTriggerPopup::updateCustomEaseLabel - 0x465630
 SetupTriggerPopup::updateCustomEaseRateLabel - 0x465800
+SetupTriggerPopup::updateEditorLabel - 0x45d160
 SetupTriggerPopup::updateInputNodeLabel - 0x463be0
 SetupTriggerPopup::updateMultiTriggerBtn - 0x45d3c0
 SetupTriggerPopup::updateSpawnedByTrigger - 0x45d320
@@ -691,8 +692,10 @@ ColorSelectPopup::onToggleHSVMode - 0x93500
 ColorSelectPopup::onToggleTintMode - 0x909b0
 ColorSelectPopup::onUpdateCopyColor - 0x93420
 ColorSelectPopup::onUpdateCustomColor - 0x92c50
+ColorSelectPopup::sliderChanged - 0x91130
 ColorSelectPopup::updateCopyColor - 0x93830
 ColorSelectPopup::updateCustomColorIdx - 0x93270
+ColorSelectPopup::updateDuration - 0x91220
 ColorSelectPopup::updateHSVMode - 0x93540
 ColorSelectPopup::updateOpacity - 0x912b0
 ColorSelectPopup::updateOpacityLabel - 0x91430

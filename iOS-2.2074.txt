@@ -717,6 +717,7 @@ cocos2d::CCSprite::create - 0x2375ec
 cocos2d::CCSprite::createWithSpriteFrame - 0x237544
 cocos2d::CCSprite::createWithSpriteFrameName - 0x2375c4
 cocos2d::CCSprite::createWithTexture - 0x2373bc
+cocos2d::CCSprite::createWithTexture - 0x23743c
 cocos2d::CCSprite::setFlipX - 0x238ea0
 cocos2d::CCSprite::setFlipY - 0x238ed4
 cocos2d::CCSprite::CCSprite - 0x2379f0
@@ -2137,6 +2138,7 @@ SetupTriggerPopup::createToggleValueControl - 0x134e78
 SetupTriggerPopup::createToggleValueControlAdvanced - 0x134fb8
 SetupTriggerPopup::createValueControlAdvanced - 0x134204
 SetupTriggerPopup::getTriggerValue - 0x135bc8
+SetupTriggerPopup::getTruncatedValueByTag - 0x133f28
 SetupTriggerPopup::goToPage - 0x131bac
 SetupTriggerPopup::init - 0x13154c
 SetupTriggerPopup::onPage - 0x131ac0
@@ -2146,6 +2148,9 @@ SetupTriggerPopup::preSetup - 0x1358b4
 SetupTriggerPopup::triggerArrowChanged - 0x133fc8
 SetupTriggerPopup::triggerArrowLeft - 0x133f90
 SetupTriggerPopup::triggerArrowRight - 0x13405c
+SetupTriggerPopup::triggerSliderChanged - 0x133e84
+SetupTriggerPopup::updateEditorLabel - 0x132cf4
+SetupTriggerPopup::updateSlider - 0x133adc
 SetupTriggerPopup::updateValue - 0x134ca8
 SetupTriggerPopup::updateValueControls - 0x134094
 SetupTriggerPopup::valueChanged - 0x132fa0
@@ -2162,9 +2167,16 @@ ColorSelectPopup::colorSelectClosed - 0x418764
 ColorSelectPopup::keyBackClicked - 0x417888
 ColorSelectPopup::closeColorSelect - 0x4164b0
 ColorSelectPopup::init - 0x414324
+ColorSelectPopup::onCopy - 0x416828
+ColorSelectPopup::onDefault - 0x4168a8
+ColorSelectPopup::onPaste - 0x41685c
 ColorSelectPopup::onToggleHSVMode - 0x416d00
 ColorSelectPopup::onUpdateCopyColor - 0x416e98
 ColorSelectPopup::onUpdateCustomColor - 0x417000
+ColorSelectPopup::sliderChanged - 0x4165ec
+ColorSelectPopup::updateDuration - 0x417794
+ColorSelectPopup::updateOpacity - 0x417714
+ColorSelectPopup::updateOpacityLabel - 0x4167c4
 CommentCell::init - 0x11371c
 CommentCell::draw - 0x1139b8
 CommentCell::likedItem - 0x113a64
@@ -3295,6 +3307,11 @@ GJFollowCommandLayer::textChanged - 0x13ac1c
 GJFollowCommandLayer::init - 0x139368
 GJFollowCommandLayer::onUpdateGroupID - 0x13a3b8
 GJFollowCommandLayer::onUpdateGroupID2 - 0x13a420
+GJFollowCommandLayer::updateDuration - 0x13a9e4
+GJFollowCommandLayer::updateTargetGroupID - 0x13ab1c
+GJFollowCommandLayer::updateTargetGroupID2 - 0x13ab9c
+GJFollowCommandLayer::updateXMod - 0x13aa4c
+GJFollowCommandLayer::updateYMod - 0x13aab4
 GJFriendRequest::init - 0xb34b8
 GJGameLevel::create - 0x9637c
 GJGameLevel::create - 0x978ec
@@ -4806,6 +4823,9 @@ SetupCameraOffsetTrigger::onClose - 0x194458
 SetupCameraOffsetTrigger::textChanged - 0x194230
 SetupCameraOffsetTrigger::valuePopupClosed - 0x193f00
 SetupCameraOffsetTrigger::init - 0x192440
+SetupCameraOffsetTrigger::updateDuration - 0x194038
+SetupCameraOffsetTrigger::updateMoveCommandPosX - 0x194168
+SetupCameraOffsetTrigger::updateMoveCommandPosY - 0x1940a0
 SetupCoinLayer::create - 0x4070c0
 SetupCoinLayer::init - 0x40719c
 SetupInstantCollisionTriggerPopup::updateDefaultTriggerValues - 0x231200
@@ -4902,6 +4922,11 @@ SetupOpacityPopup::textInputClosed - 0x28374
 SetupOpacityPopup::textChanged - 0x28390
 SetupOpacityPopup::init - 0x272b0
 SetupOpacityPopup::onTargetIDArrow - 0x27dbc
+SetupOpacityPopup::sliderChanged - 0x27ea0
+SetupOpacityPopup::updateDuration - 0x28308
+SetupOpacityPopup::updateOpacity - 0x2829c
+SetupOpacityPopup::updateOpacityLabel - 0x28098
+SetupOpacityPopup::updateTargetID - 0x28218
 SetupOptionsTriggerPopup::onCustomToggleTriggerValue - 0x40be4c
 SetupOptionsTriggerPopup::init - 0x40b5ec
 SetupPickupTriggerPopup::onPlusButton - 0x47158
@@ -4920,6 +4945,9 @@ SetupPulsePopup::onSelectPulseMode - 0x3aebc0
 SetupPulsePopup::onSelectTargetMode - 0x3ae920
 SetupPulsePopup::onUpdateCopyColor - 0x3aef74
 SetupPulsePopup::onUpdateCustomColor - 0x3aeae4
+SetupPulsePopup::updateFadeInTime - 0x3afa10
+SetupPulsePopup::updateFadeOutTime - 0x3afae8
+SetupPulsePopup::updateHoldTime - 0x3afa7c
 SetupRandAdvTriggerPopup::create - 0x32990
 SetupRandAdvTriggerPopup::onClose - 0x33a20
 SetupRandAdvTriggerPopup::textChanged - 0x33a18
@@ -4932,6 +4960,9 @@ SetupRandTriggerPopup::textChanged - 0x1cbad0
 SetupRandTriggerPopup::init - 0x1ca9c0
 SetupRandTriggerPopup::onTargetID2Arrow - 0x1cb520
 SetupRandTriggerPopup::onTargetIDArrow - 0x1cb4cc
+SetupRandTriggerPopup::updateChance - 0x1cb9c8
+SetupRandTriggerPopup::updateTargetID - 0x1cb960
+SetupRandTriggerPopup::updateTargetID2 - 0x1cba4c
 SetupReverbPopup::onClose - 0x18304c
 SetupRotateCommandPopup::updateInputNode - 0x3fec80
 SetupRotateCommandPopup::valueDidChange - 0x3fec84
