@@ -787,9 +787,9 @@ cocos2d::CCImage::initWithImageData - 0x3e5670
 cocos2d::CCImage::initWithImageFile - 0x3e5430
 cocos2d::CCImage::initWithImageFileThreadSafe - 0x3e5a5c
 cocos2d::CCImage::CCImage - 0x3e534c
-cocos2d::CCImage::~CCImage - 0x3e53b4
+cocos2d::CCImage::~CCImage - 0x3e5378
 cocos2d::CCIMEDelegate::CCIMEDelegate - 0x411c08
-cocos2d::CCIMEDelegate::~CCIMEDelegate - 0x411f78
+cocos2d::CCIMEDelegate::~CCIMEDelegate - 0x411e18
 cocos2d::CCIMEDelegate::attachWithIME - 0x411f90
 cocos2d::CCIMEDelegate::detachWithIME - 0x4121d0
 cocos2d::CCIMEDispatcher::sharedDispatcher - 0x411d04
