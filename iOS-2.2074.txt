@@ -4684,6 +4684,7 @@ SetTextPopup::keyBackClicked - 0x2dfde0
 SetTextPopup::show - 0x2dfd94
 SetTextPopup::textInputClosed - 0x2dfcf0
 SetTextPopup::textChanged - 0x2dfd0c
+SecretLayer::~SecretLayer - 0x3b5700
 SecretLayer::scene - 0x3b57a0
 SecretLayer::init - 0x3b58ac
 SecretLayer::keyBackClicked - 0x3b85a4
@@ -4693,6 +4694,7 @@ SecretLayer::textChanged - 0x3b7c1c
 SecretLayer::FLAlert_Clicked - 0x3b7aa8
 SecretLayer::onSubmit - 0x3b65c0
 SecretLayer2::SecretLayer2 - 0x311b7c
+SecretLayer2::~SecretLayer2 - 0x3097f4
 SecretLayer2::create - 0x3098ec
 SecretLayer2::scene - 0x3098a8
 SecretLayer2::init - 0x309960
@@ -4715,12 +4717,15 @@ SecretLayer2::selectAThread - 0x30d504
 SecretLayer2::showSecretLevel - 0x30c5e4
 SecretLayer2::updateMessageLabel - 0x30a674
 SecretLayer2::updateSearchLabel - 0x30a754
+SecretLayer3::~SecretLayer3 - 0x30dd18
 SecretLayer3::create - 0x30ddb4
 SecretLayer3::scene - 0x30c760
 SecretLayer3::init - 0x30de60
 SecretLayer3::onExit - 0x31197c
 SecretLayer3::keyBackClicked - 0x311970
 SecretLayer3::dialogClosed - 0x311714
+SecretLayer4::SecretLayer4 - 0x355e30
+SecretLayer4::~SecretLayer4 - 0x353648
 SecretLayer4::init - 0x3537a8
 SecretLayer4::onExit - 0x355de0
 SecretLayer4::keyBackClicked - 0x355dd4
@@ -4729,6 +4734,8 @@ SecretLayer4::textInputClosed - 0x3558b0
 SecretLayer4::textChanged - 0x355930
 SecretLayer4::FLAlert_Clicked - 0x3557bc
 SecretLayer4::dialogClosed - 0x355454
+SecretLayer5::SecretLayer5 - 0x7aeac
+SecretLayer5::~SecretLayer5 - 0x77c88
 SecretLayer5::init - 0x77e28
 SecretLayer5::onExit - 0x7ae5c
 SecretLayer5::updateTweenActionInt - 0x79a9c
@@ -4746,6 +4753,7 @@ SecretLayer5::showFailAnimation - 0x7a2e8
 SecretLayer5::showSuccessAnimation - 0x79b14
 SecretNumberLayer::init - 0x30dd14
 SecretRewardsLayer::SecretRewardsLayer - 0x2ee850
+SecretRewardsLayer::~SecretRewardsLayer - 0x2e7a70
 SecretRewardsLayer::create - 0x2e7b5c
 SecretRewardsLayer::scene - 0x2e7b10
 SecretRewardsLayer::onExit - 0x2ee820
@@ -4769,9 +4777,11 @@ SelectArtLayer::keyBackClicked - 0x18056c
 SelectEventLayer::keyBackClicked - 0x401148
 SelectEventLayer::onClose - 0x401108
 SelectEventLayer::onCustomToggleTriggerValue - 0x400fe0
+SelectFontLayer::~SelectFontLayer - 0x2d21e0
 SelectFontLayer::keyBackClicked - 0x2d2a78
 SelectFontLayer::init - 0x2d2340
 SelectFontLayer::onChangeFont - 0x2d28e4
+SelectListIconLayer::~SelectListIconLayer - 0x24691c
 SelectListIconLayer::keyBackClicked - 0x246fb0
 SelectPremadeLayer::init - 0x66fa4
 SelectPremadeLayer::keyBackClicked - 0x6745c
@@ -4920,6 +4930,8 @@ SetupGameplayOffsetPopup::updateInputNode - 0x1a29e0
 SetupGameplayOffsetPopup::triggerValueFromSliderValue - 0x1a2990
 SetupGameplayOffsetPopup::triggerSliderValueFromValue - 0x1a29c8
 SetupGameplayOffsetPopup::onCustomToggleTriggerValue - 0x1a290c
+SetupGradientPopup::SetupGradientPopup - 0x343274
+SetupGradientPopup::~SetupGradientPopup - 0x341e38
 SetupGradientPopup::determineStartValues - 0x343010
 SetupGradientPopup::onPlusButton - 0x343120
 SetupGradientPopup::updateToggleItem - 0x34317c
@@ -4960,6 +4972,7 @@ SetupMoveCommandPopup::onCustomToggleTriggerValue - 0x273eac
 SetupMoveCommandPopup::init - 0x272a50
 SetupMoveCommandPopup::updateControlVisibility - 0x273a1c
 SetupObjectOptions2Popup::onPlusButton - 0x45758
+SetupObjectOptionsPopup::~SetupObjectOptionsPopup - 0x42dbc
 SetupObjectOptionsPopup::create - 0x42654
 SetupObjectOptionsPopup::keyBackClicked - 0x45288
 SetupObjectOptionsPopup::show - 0x452ac
@@ -5086,6 +5099,8 @@ SetupZoomTriggerPopup::create - 0x1ba2f4
 SetupZoomTriggerPopup::determineStartValues - 0x1ba6e0
 SetupZoomTriggerPopup::onClose - 0x1ba6e4
 SetupZoomTriggerPopup::init - 0x1ba3cc
+SFXBrowser::SFXBrowser - 0x16e7fc
+SFXBrowser::~SFXBrowser - 0x16bde4
 SFXBrowser::create - 0x16bec0
 SFXBrowser::registerWithTouchDispatcher - 0x16df88
 SFXBrowser::keyBackClicked - 0x16df7c
@@ -5097,6 +5112,7 @@ SFXBrowser::cellPerformedAction - 0x16deb4
 SFXBrowser::getSelectedCellIdx - 0x16df5c
 SFXBrowser::shouldSnapToSelected - 0x16df6c
 SFXBrowser::init - 0x16bf34
+SFXFolderObject::~SFXFolderObject - 0x15f994
 SFXSearchResult::updateObjects - 0x1605b4
 SFXTriggerGameObject::customObjectSetup - 0x385ed0
 SFXTriggerGameObject::getSaveString - 0x384d08
@@ -5178,6 +5194,7 @@ ShaderLayer::updateMotionBlurSpeedY - 0x27161c
 ShaderLayer::updateShockLineCenter - 0x26faa8
 ShaderLayer::updateShockWaveCenter - 0x26f56c
 ShaderLayer::updateZLayer - 0x26d224
+ShardsPage::~ShardsPage - 0x39a884
 ShardsPage::init - 0x39a9e4
 ShardsPage::registerWithTouchDispatcher - 0x39c3c8
 ShardsPage::keyBackClicked - 0x39c34c
@@ -5200,6 +5217,7 @@ ShareCommentLayer::onClose - 0x1d62ac
 ShareCommentLayer::onPercent - 0x1d6124
 ShareCommentLayer::onShare - 0x1d6300
 ShareCommentLayer::updateCharCountLabel - 0x1d690c
+ShareLevelLayer::~ShareLevelLayer - 0x273fac
 ShareLevelLayer::create - 0x27405c
 ShareLevelLayer::keyBackClicked - 0x275560
 ShareLevelLayer::init - 0x274118
@@ -5208,6 +5226,7 @@ ShareLevelLayer::selectRating - 0x27526c
 ShareLevelSettingsLayer::create - 0x2753e8
 ShareLevelSettingsLayer::keyBackClicked - 0x276b68
 ShareLevelSettingsLayer::init - 0x27603c
+ShareListLayer::~ShareListLayer - 0x246fbc
 ShareListLayer::keyBackClicked - 0x24836c
 SimplePlayer::create - 0x303450
 SimplePlayer::setOpacity - 0x307a98
@@ -5287,7 +5306,10 @@ SpecialAnimGameObject::getSaveString - 0x37b218
 SpecialAnimGameObject::updateMainColor - 0x37b18c
 SpecialAnimGameObject::updateSecondaryColor - 0x37b19c
 SpecialAnimGameObject::updateSyncedAnimation - 0x3487cc
+SpriteAnimationManager::~SpriteAnimationManager - 0x3249bc
 SpriteAnimationManager::doCleanup - 0x324994
+SpriteDescription::SpriteDescription - 0x1b4d00
+SpriteDescription::~SpriteDescription - 0x1b4cac
 StarInfoPopup::create - 0x1a0c18
 StarInfoPopup::createFromString - 0x19e8c8
 StarInfoPopup::createFromStringMoons - 0x19ea78
@@ -5303,6 +5325,7 @@ StatsCell::loadFromObject - 0x107ea4
 StatsCell::updateBGColor - 0x10819c
 StatsLayer::create - 0x241ac4
 StatsLayer::customSetup - 0x241bac
+SupportLayer::~SupportLayer - 0x194b5c
 SupportLayer::customSetup - 0x194c28
 SupportLayer::uploadActionFinished - 0x1964b8
 SupportLayer::uploadActionFailed - 0x1965a0

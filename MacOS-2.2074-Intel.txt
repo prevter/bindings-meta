@@ -2980,7 +2980,7 @@ FindBPMLayer::registerTouch - 0x4f7900
 FindBPMLayer::onInfo - 0x4f79f0
 FindBPMLayer::onRecord - 0x4f7760
 FindBPMLayer::recordingDidStop - 0x4f77a0
-SetIDPopup::~SetIDPopup - 0x297e20
+SetIDPopup::~SetIDPopup - 0x297d70
 SetIDPopup::create - 0x2980c0
 SetIDPopup::keyBackClicked - 0x2990b0
 SetIDPopup::show - 0x299030
@@ -5531,6 +5531,7 @@ SecretGame01Layer::resetGameTimer - 0x46d630
 SecretGame01Layer::scaleOutGame - 0x46d6c0
 SecretGame01Layer::showGameOver - 0x46d6a0
 SecretGame01Layer::showGameWon - 0x46dab0
+SecretLayer::~SecretLayer - 0x5e2c60
 SecretLayer::scene - 0x5e2f90
 SecretLayer::init - 0x5e31b0
 SecretLayer::keyBackClicked - 0x5e6fe0
@@ -5541,6 +5542,7 @@ SecretLayer::FLAlert_Clicked - 0x5e60a0
 SecretLayer::getBasicMessage - 0x5e5aa0
 SecretLayer::getThreadMessage - 0x5e6420
 SecretLayer::onSubmit - 0x5e4170
+SecretLayer2::~SecretLayer2 - 0x489bc0
 SecretLayer2::create - 0x489fc0
 SecretLayer2::scene - 0x489f80
 SecretLayer2::init - 0x48a0f0
@@ -5560,6 +5562,7 @@ SecretLayer2::onSubmit - 0x48b390
 SecretLayer2::showCompletedLevel - 0x48ce80
 SecretLayer2::updateMessageLabel - 0x48afb0
 SecretLayer2::updateSearchLabel - 0x48b090
+SecretLayer3::~SecretLayer3 - 0x4901b0
 SecretLayer3::create - 0x490490
 SecretLayer3::scene - 0x48dc80
 SecretLayer3::init - 0x490560
@@ -5573,6 +5576,7 @@ SecretLayer3::revealStep2 - 0x493f90
 SecretLayer3::revealStep4 - 0x494350
 SecretLayer3::revealStep5 - 0x494b70
 SecretLayer3::showUnlockDialog - 0x4939e0
+SecretLayer4::~SecretLayer4 - 0x39d6a0
 SecretLayer4::init - 0x39db60
 SecretLayer4::onExit - 0x3a2000
 SecretLayer4::keyBackClicked - 0x3a1f10
@@ -5585,6 +5589,7 @@ SecretLayer4::getBasicMessage - 0x3a1390
 SecretLayer4::getThreadMessage - 0x3a17a0
 SecretLayer4::onSubmit - 0x39eff0
 SecretLayer4::showFirstDialog - 0x39e7d0
+SecretLayer5::~SecretLayer5 - 0x467070
 SecretLayer5::init - 0x467390
 SecretLayer5::onExit - 0x46bbc0
 SecretLayer5::updateTweenActionInt - 0x469950
@@ -5608,6 +5613,7 @@ SecretLayer6::keyBackClicked - 0x46caa0
 SecretLayer6::onBack - 0x46c2e0
 SecretLayer6::startGame01 - 0x46c330
 SecretNumberLayer::init - 0x4901a0
+SecretRewardsLayer::~SecretRewardsLayer - 0x619250
 SecretRewardsLayer::create - 0x6195c0
 SecretRewardsLayer::scene - 0x619580
 SecretRewardsLayer::onExit - 0x623c00
@@ -5645,10 +5651,12 @@ SelectEventLayer::keyBackClicked - 0x5636b0
 SelectEventLayer::onClose - 0x5635e0
 SelectEventLayer::onCustomToggleTriggerValue - 0x5633b0
 SelectEventLayer::init - 0x561360
+SelectFontLayer::~SelectFontLayer - 0x287b90
 SelectFontLayer::keyBackClicked - 0x2887b0
 SelectFontLayer::init - 0x287fe0
 SelectFontLayer::onChangeFont - 0x2885f0
 SelectFontLayer::updateFontLabel - 0x288690
+SelectListIconLayer::~SelectListIconLayer - 0x34d990
 SelectListIconLayer::create - 0x34cd20
 SelectListIconLayer::keyBackClicked - 0x34e2e0
 SelectListIconLayer::init - 0x34dcc0
@@ -5844,6 +5852,7 @@ SetupGameplayOffsetPopup::triggerValueFromSliderValue - 0x7830d0
 SetupGameplayOffsetPopup::triggerSliderValueFromValue - 0x783100
 SetupGameplayOffsetPopup::onCustomToggleTriggerValue - 0x783030
 SetupGameplayOffsetPopup::init - 0x782840
+SetupGradientPopup::~SetupGradientPopup - 0x5d99e0
 SetupGradientPopup::create - 0x5d9de0
 SetupGradientPopup::determineStartValues - 0x5db910
 SetupGradientPopup::onPlusButton - 0x5dba30
@@ -5906,6 +5915,7 @@ SetupMoveCommandPopup::updateControlVisibility - 0x5f1140
 SetupObjectControlPopup::init - 0x56fae0
 SetupObjectOptions2Popup::onPlusButton - 0x307200
 SetupObjectOptions2Popup::init - 0x306cd0
+SetupObjectOptionsPopup::~SetupObjectOptionsPopup - 0x303650
 SetupObjectOptionsPopup::create - 0x302ae0
 SetupObjectOptionsPopup::keyBackClicked - 0x306b70
 SetupObjectOptionsPopup::show - 0x306bb0
@@ -6085,6 +6095,7 @@ SetupZoomTriggerPopup::create - 0x30cb90
 SetupZoomTriggerPopup::determineStartValues - 0x30d1e0
 SetupZoomTriggerPopup::onClose - 0x30d1f0
 SetupZoomTriggerPopup::init - 0x30cdc0
+SFXBrowser::~SFXBrowser - 0x42a350
 SFXBrowser::create - 0x42a4d0
 SFXBrowser::registerWithTouchDispatcher - 0x42cf30
 SFXBrowser::keyBackClicked - 0x42ce90
@@ -6108,6 +6119,7 @@ SFXBrowser::setupSFXBrowser - 0x42ba70
 SFXBrowser::trySetupSFXBrowser - 0x42ba00
 SFXBrowser::updatePageLabel - 0x42c710
 SFXInfoObject::init - 0x580f10
+SFXFolderObject::~SFXFolderObject - 0x581030
 SFXSearchResult::create - 0x582900
 SFXSearchResult::updateObjects - 0x582a20
 SFXSearchResult::init - 0x582990
@@ -6195,6 +6207,7 @@ ShaderLayer::updateMotionBlurSpeedY - 0x3bdd70
 ShaderLayer::updateShockLineCenter - 0x3bbb90
 ShaderLayer::updateShockWaveCenter - 0x3bb4d0
 ShaderLayer::updateZLayer - 0x3b82d0
+ShardsPage::~ShardsPage - 0x4b23b0
 ShardsPage::create - 0x4b26e0
 ShardsPage::init - 0x4b2820
 ShardsPage::registerWithTouchDispatcher - 0x4b47d0
@@ -6220,6 +6233,7 @@ ShareCommentLayer::onShare - 0x5c8c60
 ShareCommentLayer::updateCharCountLabel - 0x5c9450
 ShareCommentLayer::updateDescText - 0x5c9040
 ShareCommentLayer::updatePercentLabel - 0x5c8ab0
+ShareLevelLayer::~ShareLevelLayer - 0x26ddf0
 ShareLevelLayer::create - 0x26e170
 ShareLevelLayer::keyBackClicked - 0x26fa70
 ShareLevelLayer::init - 0x26e2c0
@@ -6230,6 +6244,7 @@ ShareLevelSettingsLayer::create - 0x26f7e0
 ShareLevelSettingsLayer::keyBackClicked - 0x271520
 ShareLevelSettingsLayer::init - 0x270760
 ShareLevelSettingsLayer::onUnlisted - 0x271250
+ShareListLayer::~ShareListLayer - 0x34e380
 ShareListLayer::create - 0x34cec0
 ShareListLayer::keyBackClicked - 0x34fe60
 ShareListLayer::init - 0x34e6b0
@@ -6346,6 +6361,7 @@ SpecialAnimGameObject::getSaveString - 0x1a2d50
 SpecialAnimGameObject::updateMainColor - 0x1a2c90
 SpecialAnimGameObject::updateSecondaryColor - 0x1a2cb0
 SpecialAnimGameObject::updateSyncedAnimation - 0x24b7d0
+SpriteAnimationManager::~SpriteAnimationManager - 0x70e370
 SpriteAnimationManager::createAnimations - 0x70af50
 SpriteAnimationManager::doCleanup - 0x70e340
 SpriteAnimationManager::loadAnimations - 0x70bf30
@@ -6354,6 +6370,7 @@ SpriteAnimationManager::overridePrio - 0x70dbc0
 SpriteAnimationManager::runAnimation - 0x70d190
 SpriteAnimationManager::stopAnimations - 0x70ddb0
 SpriteAnimationManager::updateAnimationSpeed - 0x70cf30
+SpriteDescription::~SpriteDescription - 0x556790
 SpriteDescription::createDescription - 0x555800
 SpriteDescription::createDescription - 0x555f80
 SpriteDescription::initDescription - 0x5563d0
@@ -6373,6 +6390,7 @@ StatsCell::getTitleFromKey - 0x240e50
 StatsCell::loadFromObject - 0x235030
 StatsLayer::create - 0x9b220
 StatsLayer::customSetup - 0x9b450
+SupportLayer::~SupportLayer - 0x3853b0
 SupportLayer::create - 0x3851e0
 SupportLayer::customSetup - 0x385810
 SupportLayer::uploadActionFinished - 0x3876b0
