@@ -32,7 +32,7 @@ cocos2d::CCObject::encodeWithCoder - 0x477eb0
 cocos2d::CCObject::canEncode - 0x477ed0
 cocos2d::CCObject::setTag - 0x477ea0
 cocos2d::CCAction::CCAction - 0x5dc9c0
-cocos2d::CCAction::~CCAction - 0x5dca60
+cocos2d::CCAction::~CCAction - 0x5dca40
 cocos2d::CCAction::description - 0x5dcb10
 cocos2d::CCAction::copyWithZone - 0x5dcb30
 cocos2d::CCAction::update - 0x5dcc30
@@ -47,7 +47,7 @@ cocos2d::CCActionInterval::isDone - 0x3a2400
 cocos2d::CCActionInterval::startWithTarget - 0x3a24a0
 cocos2d::CCActionInterval::step - 0x3a2420
 cocos2d::CCActionInterval::reverse - 0x3a24c0
-cocos2d::CCActionEase::~CCActionEase - 0x4fe4d0
+cocos2d::CCActionEase::~CCActionEase - 0x4fe490
 cocos2d::CCActionEase::copyWithZone - 0x4fe380
 cocos2d::CCActionEase::startWithTarget - 0x4fe550
 cocos2d::CCActionEase::stop - 0x4fe580
@@ -55,7 +55,7 @@ cocos2d::CCActionEase::update - 0x4fe5b0
 cocos2d::CCActionEase::reverse - 0x4fe5d0
 cocos2d::CCActionEase::getInnerAction - 0x4fe5f0
 cocos2d::CCEaseRateAction::create - 0x4fe600
-cocos2d::CCEaseRateAction::~CCEaseRateAction - 0x4fe860
+cocos2d::CCEaseRateAction::~CCEaseRateAction - 0x4fe820
 cocos2d::CCEaseRateAction::copyWithZone - 0x4fe710
 cocos2d::CCEaseRateAction::reverse - 0x4fe8e0
 cocos2d::CCEaseIn::create - 0x4fe910
@@ -140,7 +140,7 @@ cocos2d::CCEaseSineInOut::reverse - 0x4ffc00
 cocos2d::CCNode::create - 0x260d40
 cocos2d::CCNode::resetGlobalOrderOfArrival - 0x260200
 cocos2d::CCNode::CCNode - 0x260210
-cocos2d::CCNode::~CCNode - 0x260520
+cocos2d::CCNode::~CCNode - 0x2603c0
 cocos2d::CCNode::getActionByTag - 0x261ff0
 cocos2d::CCNode::setUseChildIndex - 0x261460
 cocos2d::CCNode::boundingBox - 0x260cd0
@@ -271,7 +271,7 @@ cocos2d::CCNode::updateTweenAction - 0x262eb0
 cocos2d::CCNode::updateTweenActionInt - 0x262ec0
 cocos2d::CCNodeRGBA::create - 0x2630c0
 cocos2d::CCNodeRGBA::CCNodeRGBA - 0x262fc0
-cocos2d::CCNodeRGBA::~CCNodeRGBA - 0x263070
+cocos2d::CCNodeRGBA::~CCNodeRGBA - 0x263060
 cocos2d::CCNodeRGBA::init - 0x2630a0
 cocos2d::CCNodeRGBA::setColor - 0x2634b0
 cocos2d::CCNodeRGBA::getColor - 0x263470
@@ -295,7 +295,7 @@ cocos2d::CCMotionStreak::reset - 0x560190
 cocos2d::CCMotionStreak::resumeStroke - 0x55fb40
 cocos2d::CCMotionStreak::stopStroke - 0x55fb30
 cocos2d::CCMotionStreak::updateFade - 0x55fb10
-cocos2d::CCMotionStreak::~CCMotionStreak - 0x55f3b0
+cocos2d::CCMotionStreak::~CCMotionStreak - 0x55f2c0
 cocos2d::CCMotionStreak::update - 0x55fb50
 cocos2d::CCMotionStreak::setPosition - 0x55f8b0
 cocos2d::CCMotionStreak::draw - 0x5601b0
@@ -351,7 +351,7 @@ cocos2d::CCTintTo::startWithTarget - 0x3a85d0
 cocos2d::CCScene::create - 0x27eef0
 cocos2d::CCScene::getHighestChildZ - 0x27efb0
 cocos2d::CCScene::CCScene - 0x27ed80
-cocos2d::CCScene::~CCScene - 0x27ee70
+cocos2d::CCScene::~CCScene - 0x27ee60
 cocos2d::CCScene::init - 0x27eea0
 cocos2d::CCSet::CCSet - 0x79def0
 cocos2d::CCSet::~CCSet - 0x79e050
@@ -378,7 +378,7 @@ cocos2d::CCParticleSystem::initWithDictionary - 0x7b1800
 cocos2d::CCParticleSystem::initWithDictionary - 0x7b31f0
 cocos2d::CCParticleSystem::initWithFile - 0x7b14e0
 cocos2d::CCParticleSystem::CCParticleSystem - 0x7b12c0
-cocos2d::CCParticleSystem::~CCParticleSystem - 0x7b34f0
+cocos2d::CCParticleSystem::~CCParticleSystem - 0x7b3470
 cocos2d::CCParticleSystem::loadScaledDefaults - 0x7b60e0
 cocos2d::CCParticleSystem::resetSystem - 0x7b4740
 cocos2d::CCParticleSystem::resumeSystem - 0x7b4730
@@ -606,7 +606,7 @@ cocos2d::CCScheduler::unscheduleSelector - 0x42dd60
 cocos2d::CCScheduler::update - 0x42fea0
 cocos2d::CCLayer::create - 0x49d570
 cocos2d::CCLayer::CCLayer - 0x49cfb0
-cocos2d::CCLayer::~CCLayer - 0x49d2a0
+cocos2d::CCLayer::~CCLayer - 0x49d170
 cocos2d::CCLayer::unregisterScriptKeypadHandler - 0x49d240
 cocos2d::CCLayer::init - 0x49d510
 cocos2d::CCLayer::onEnter - 0x49de10
@@ -645,7 +645,7 @@ cocos2d::CCLayer::keyBackClicked - 0x49dc70
 cocos2d::CCLayer::keyMenuClicked - 0x49dd10
 cocos2d::CCLayer::keyDown - 0x49dd90
 cocos2d::CCLayerRGBA::CCLayerRGBA - 0x49e3f0
-cocos2d::CCLayerRGBA::~CCLayerRGBA - 0x49e760
+cocos2d::CCLayerRGBA::~CCLayerRGBA - 0x49e690
 cocos2d::CCLayerRGBA::init - 0x49e9d0
 cocos2d::CCLayerRGBA::setColor - 0x49ec10
 cocos2d::CCLayerRGBA::getColor - 0x49ebd0
@@ -663,7 +663,7 @@ cocos2d::CCLayerColor::create - 0x49fbb0
 cocos2d::CCLayerColor::create - 0x49f9e0
 cocos2d::CCLayerColor::create - 0x49f800
 cocos2d::CCLayerColor::CCLayerColor - 0x49f1a0
-cocos2d::CCLayerColor::~CCLayerColor - 0x49f550
+cocos2d::CCLayerColor::~CCLayerColor - 0x49f480
 cocos2d::CCLayerColor::init - 0x49fd80
 cocos2d::CCLayerColor::setContentSize - 0x49ff70
 cocos2d::CCLayerColor::draw - 0x4a00b0
@@ -769,7 +769,7 @@ cocos2d::CCTouchHandler::getDelegate - 0x46e1c0
 cocos2d::CCTouchHandler::getPriority - 0x46e240
 cocos2d::CCTouchHandler::initWithDelegate - 0x46e330
 cocos2d::CCMouseHandler::handlerWithDelegate - 0x272be0
-cocos2d::CCMouseHandler::~CCMouseHandler - 0x272a60
+cocos2d::CCMouseHandler::~CCMouseHandler - 0x272a00
 cocos2d::CCMouseHandler::getDelegate - 0x2729f0
 cocos2d::CCMouseHandler::setDelegate - 0x272b20
 cocos2d::CCMouseHandler::initWithDelegate - 0x272b90
@@ -932,7 +932,7 @@ cocos2d::CCSpriteBatchNode::createWithTexture - 0x165920
 cocos2d::CCSpriteBatchNode::create - 0x165b50
 cocos2d::CCSpriteBatchNode::initWithTexture - 0x165a10
 cocos2d::CCSpriteBatchNode::CCSpriteBatchNode - 0x165ce0
-cocos2d::CCSpriteBatchNode::~CCSpriteBatchNode - 0x165d90
+cocos2d::CCSpriteBatchNode::~CCSpriteBatchNode - 0x165d30
 cocos2d::CCSpriteBatchNode::init - 0x165c90
 cocos2d::CCSpriteBatchNode::addChild - 0x166160
 cocos2d::CCSpriteBatchNode::addChild - 0x166170
@@ -959,7 +959,7 @@ cocos2d::CCLabelBMFont::getFntFile - 0x5c3320
 cocos2d::CCLabelBMFont::setFntFile - 0x5c3240
 cocos2d::CCLabelBMFont::createFontChars - 0x5c06b0
 cocos2d::CCLabelBMFont::limitLabelWidth - 0x5c3360
-cocos2d::CCLabelBMFont::~CCLabelBMFont - 0x5c0560
+cocos2d::CCLabelBMFont::~CCLabelBMFont - 0x5c0480
 cocos2d::CCLabelBMFont::init - 0x5c0300
 cocos2d::CCLabelBMFont::setScaleX - 0x5c3200
 cocos2d::CCLabelBMFont::setScaleY - 0x5c3220
@@ -1053,7 +1053,7 @@ cocos2d::CCDictionary::createWithContentsOfFileThreadSafe - 0x2fc090
 cocos2d::CCDictionary::setObject - 0x2fa5f0
 cocos2d::CCDictionary::setObject - 0x2faff0
 cocos2d::CCDictionary::CCDictionary - 0x2f9ab0
-cocos2d::CCDictionary::~CCDictionary - 0x2f9cb0
+cocos2d::CCDictionary::~CCDictionary - 0x2f9ae0
 cocos2d::CCDictionary::allKeys - 0x2f9d40
 cocos2d::CCDictionary::count - 0x2f9d20
 cocos2d::CCDictionary::objectForKey - 0x2fa0b0
@@ -1093,13 +1093,13 @@ cocos2d::CCRepeat::stop - 0x3a3510
 cocos2d::CCRepeat::reverse - 0x3a3680
 cocos2d::CCRepeatForever::create - 0x3a3770
 cocos2d::CCRepeatForever::initWithAction - 0x3a37e0
-cocos2d::CCRepeatForever::~CCRepeatForever - 0x3a36f0
+cocos2d::CCRepeatForever::~CCRepeatForever - 0x3a36b0
 cocos2d::CCRepeatForever::copyWithZone - 0x3a3800
 cocos2d::CCRepeatForever::isDone - 0x3a3990
 cocos2d::CCRepeatForever::startWithTarget - 0x3a38e0
 cocos2d::CCRepeatForever::step - 0x3a3920
 cocos2d::CCRepeatForever::reverse - 0x3a39a0
-cocos2d::CCTransitionScene::~CCTransitionScene - 0xd4e00
+cocos2d::CCTransitionScene::~CCTransitionScene - 0xd4db0
 cocos2d::CCTransitionScene::onEnter - 0xd5240
 cocos2d::CCTransitionScene::onExit - 0xd5290
 cocos2d::CCTransitionScene::cleanup - 0xd52f0
@@ -1210,7 +1210,7 @@ cocos2d::CCCallFuncO::execute - 0x797d60
 cocos2d::CCClippingNode::create - 0x708da0
 cocos2d::CCClippingNode::create - 0x708e30
 cocos2d::CCClippingNode::CCClippingNode - 0x708c50
-cocos2d::CCClippingNode::~CCClippingNode - 0x708d10
+cocos2d::CCClippingNode::~CCClippingNode - 0x708cd0
 cocos2d::CCClippingNode::init - 0x708ee0
 cocos2d::CCClippingNode::init - 0x708f00
 cocos2d::CCClippingNode::onEnter - 0x708f70
@@ -1225,7 +1225,7 @@ cocos2d::CCClippingNode::setInverted - 0x709410
 cocos2d::CCDrawNode::create - 0x5f94f0
 cocos2d::CCDrawNode::setBlendFunc - 0x5fb270
 cocos2d::CCDrawNode::CCDrawNode - 0x5f9230
-cocos2d::CCDrawNode::~CCDrawNode - 0x5f93c0
+cocos2d::CCDrawNode::~CCDrawNode - 0x5f9330
 cocos2d::CCDrawNode::clear - 0x5fb240
 cocos2d::CCDrawNode::drawCircle - 0x5fb090
 cocos2d::CCDrawNode::drawDot - 0x5f99d0
@@ -1250,7 +1250,7 @@ cocos2d::CCSpriteFrame::setOffsetInPixels - 0x344d00
 cocos2d::CCSpriteFrame::setRect - 0x344a90
 cocos2d::CCSpriteFrame::setRectInPixels - 0x344b70
 cocos2d::CCSpriteFrame::setTexture - 0x344a50
-cocos2d::CCSpriteFrame::~CCSpriteFrame - 0x344810
+cocos2d::CCSpriteFrame::~CCSpriteFrame - 0x3447a0
 cocos2d::CCSpriteFrame::copyWithZone - 0x3448f0
 cocos2d::CCSpriteFrameCache::sharedSpriteFrameCache - 0x307a40
 cocos2d::CCSpriteFrameCache::addSpriteFrame - 0x308cb0
@@ -1274,7 +1274,7 @@ cocos2d::CCString::floatValue - 0x795440
 cocos2d::CCString::copyWithZone - 0x795530
 cocos2d::CCString::isEqual - 0x795580
 cocos2d::CCString::acceptVisitor - 0x7959f0
-cocos2d::CCMenuItem::~CCMenuItem - 0x3ab940
+cocos2d::CCMenuItem::~CCMenuItem - 0x3ab8e0
 cocos2d::CCMenuItem::create - 0x3ab790
 cocos2d::CCMenuItem::create - 0x3ab6d0
 cocos2d::CCMenuItem::initWithTarget - 0x3ab860
@@ -1415,7 +1415,6 @@ cocos2d::extension::CCControl::addTargetWithActionForControlEvents - 0x33de60
 cocos2d::extension::CCControl::removeTargetWithActionForControlEvents - 0x33e300
 cocos2d::extension::CCControl::getTouchLocation - 0x33e7b0
 cocos2d::extension::CCControl::isTouchInside - 0x33e800
-cocos2d::extension::CCControlColourPicker::~CCControlColourPicker - 0x342780
 cocos2d::extension::CCControlColourPicker::colourPicker - 0x3424e0
 cocos2d::extension::CCControlColourPicker::hueSliderValueChanged - 0x342180
 cocos2d::extension::CCControlColourPicker::colourSliderValueChanged - 0x3422b0
@@ -1425,7 +1424,7 @@ cocos2d::extension::CCControlColourPicker::init - 0x341e50
 cocos2d::extension::CCControlColourPicker::ccTouchBegan - 0x342760
 cocos2d::extension::CCControlColourPicker::setColorValue - 0x3425b0
 cocos2d::extension::CCControlHuePicker::CCControlHuePicker - 0x342fa0
-cocos2d::extension::CCControlHuePicker::~CCControlHuePicker - 0x3431b0
+cocos2d::extension::CCControlHuePicker::~CCControlHuePicker - 0x343100
 cocos2d::extension::CCControlHuePicker::checkSliderPosition - 0x343900
 cocos2d::extension::CCControlHuePicker::updateSliderPosition - 0x343860
 cocos2d::extension::CCControlHuePicker::ccTouchBegan - 0x343a00
@@ -1435,7 +1434,7 @@ cocos2d::extension::CCControlHuePicker::initWithTargetAndPos - 0x343510
 cocos2d::extension::CCControlHuePicker::setHue - 0x3436f0
 cocos2d::extension::CCControlHuePicker::setHuePercentage - 0x343720
 cocos2d::extension::CCControlSaturationBrightnessPicker::CCControlSaturationBrightnessPicker - 0x354950
-cocos2d::extension::CCControlSaturationBrightnessPicker::~CCControlSaturationBrightnessPicker - 0x354b70
+cocos2d::extension::CCControlSaturationBrightnessPicker::~CCControlSaturationBrightnessPicker - 0x354ad0
 cocos2d::extension::CCControlSaturationBrightnessPicker::checkSliderPosition - 0x355430
 cocos2d::extension::CCControlSaturationBrightnessPicker::updateSliderPosition - 0x355230
 cocos2d::extension::CCControlSaturationBrightnessPicker::ccTouchBegan - 0x355580
@@ -1613,6 +1612,7 @@ AccountLayer::onMore - 0xcd1f0
 AccountLayer::onRegister - 0xccbd0
 AccountLayer::onSync - 0xccf40
 AccountLayer::updatePage - 0xcd210
+FLAlertLayer::~FLAlertLayer - 0x487cb0
 FLAlertLayer::create - 0x4880e0
 FLAlertLayer::create - 0x4882b0
 FLAlertLayer::ccTouchBegan - 0x489190
@@ -1871,6 +1871,7 @@ AdvancedFollowTriggerObject::customObjectSetup - 0x19b5d0
 AdvancedFollowTriggerObject::getSaveString - 0x192350
 AdvancedFollowEditObject::customObjectSetup - 0x19d870
 AdvancedFollowEditObject::getSaveString - 0x19c8a0
+AnimatedGameObject::~AnimatedGameObject - 0x1a5260
 AnimatedGameObject::create - 0x1a5410
 AnimatedGameObject::setOpacity - 0x1a64b0
 AnimatedGameObject::setChildColor - 0x1a80d0
@@ -1940,10 +1941,12 @@ AudioEffectsLayer::triggerEffect - 0x49c930
 AudioLineGuideGameObject::init - 0x1d8d50
 AudioLineGuideGameObject::customObjectSetup - 0x1d9ac0
 AudioLineGuideGameObject::getSaveString - 0x1d8da0
+BitmapFontCache::~BitmapFontCache - 0x20e4e0
 BitmapFontCache::sharedFontCache - 0x20e400
 BitmapFontCache::fontWithConfigFile - 0x20e5a0
 BonusDropdown::init - 0x480290
 BoomListLayer::init - 0x45b5a0
+BoomListView::~BoomListView - 0x2f83b0
 BoomListView::create - 0x2f86d0
 BoomListView::draw - 0x2f9360
 BoomListView::setupList - 0x2f8a30
@@ -1959,6 +1962,7 @@ BoomListView::getListCell - 0x2f8cb0
 BoomListView::loadCell - 0x2f8ef0
 BoomListView::init - 0x2f8800
 BoomListView::lockList - 0x2f89b0
+BoomScrollLayer::~BoomScrollLayer - 0x392d80
 BoomScrollLayer::create - 0x391a10
 BoomScrollLayer::create - 0x391e00
 BoomScrollLayer::visit - 0x393220
@@ -1990,6 +1994,7 @@ BoomScrollLayer::setupDynamicScrolling - 0x392710
 BoomScrollLayer::togglePageIndicators - 0x3931b0
 BoomScrollLayer::updateDots - 0x392990
 BoomScrollLayer::updatePages - 0x391f70
+BrowseSmartTemplateLayer::~BrowseSmartTemplateLayer - 0x4d5be0
 BrowseSmartTemplateLayer::keyBackClicked - 0x4d7a20
 BrowseSmartTemplateLayer::onBack - 0x4d7a60
 BrowseSmartTemplateLayer::init - 0x4d5f10
@@ -2049,6 +2054,7 @@ CCContentLayer::setPosition - 0x7ad2b0
 CCCountdown::init - 0x7b0e20
 CCCountdown::setOpacity - 0x7b11e0
 CCCounterLabel::create - 0x4fb550
+CCLightFlash::~CCLightFlash - 0x4f0e90
 CCLightFlash::create - 0x4f0560
 CCLightFlash::init - 0x4f05d0
 CCLightFlash::cleanupFlash - 0x4f0e50
@@ -2132,6 +2138,7 @@ CCSpriteGrayscale::createWithTexture - 0x5d9690
 CCSpriteGrayscale::getShaderName - 0x5d94e0
 CCSpriteGrayscale::shaderBody - 0x5d92d0
 CCSpritePart::setVisible - 0x362320
+CCTextInputNode::~CCTextInputNode - 0x9da20
 CCTextInputNode::create - 0x9dbd0
 CCTextInputNode::visit - 0x9e670
 CCTextInputNode::ccTouchBegan - 0xa0a80
@@ -2162,6 +2169,7 @@ CCTextInputNode::updateBlinkLabelToChar - 0x9eb40
 CCTextInputNode::updateCursorPosition - 0xa0500
 CCTextInputNode::updateDefaultFontValues - 0x9e060
 CCTextInputNode::updateLabel - 0x9e320
+ChallengesPage::~ChallengesPage - 0x389c00
 ChallengesPage::create - 0x389da0
 ChallengesPage::init - 0x389f10
 ChallengesPage::registerWithTouchDispatcher - 0x38b5d0
@@ -2183,9 +2191,11 @@ GJChallengeItem::createWithCoder - 0x8f320
 GJChallengeItem::encodeWithCoder - 0x8f4c0
 GJChallengeItem::canEncode - 0x8f590
 GJChallengeItem::dataLoaded - 0x8f360
+ChallengeNode::~ChallengeNode - 0x38b790
 ChallengeNode::create - 0x38b290
 ChallengeNode::init - 0x38b860
 ChallengeNode::onClaimReward - 0x38c470
+CharacterColorPage::~CharacterColorPage - 0x646660
 CharacterColorPage::create - 0x6467b0
 CharacterColorPage::init - 0x646910
 CharacterColorPage::registerWithTouchDispatcher - 0x6488c0
@@ -2223,6 +2233,7 @@ GJShaderState::tweenValue - 0x3b6b80
 GJShaderState::updateTweenAction - 0x3b6c90
 GJShaderState::updateTweenActions - 0x3b7130
 CheckpointObject::CheckpointObject - 0xcaa60
+CheckpointObject::~CheckpointObject - 0xbf860
 CheckpointObject::create - 0xbc3a0
 CheckpointObject::init - 0xbfa20
 CollisionBlockPopup::keyBackClicked - 0x2753b0
@@ -2294,6 +2305,7 @@ SetupTriggerPopup::updateSlider - 0x227070
 SetupTriggerPopup::updateValue - 0x2289d0
 SetupTriggerPopup::updateValueControls - 0x227950
 SetupTriggerPopup::valueChanged - 0x225210
+ColorSelectPopup::~ColorSelectPopup - 0x70e670
 ColorSelectPopup::create - 0x70e810
 ColorSelectPopup::create - 0x70eb10
 ColorSelectPopup::create - 0x70eaf0
@@ -2328,6 +2340,7 @@ CommentCell::onLike - 0x242e90
 CommentCell::onUnhide - 0x242e70
 CommentCell::onViewProfile - 0x242d90
 CommunityCreditNode::init - 0x30a010
+CommunityCreditsPage::~CommunityCreditsPage - 0x30a080
 CommunityCreditsPage::create - 0x30a3b0
 CommunityCreditsPage::init - 0x30a500
 CommunityCreditsPage::registerWithTouchDispatcher - 0x30ca60
@@ -2355,6 +2368,7 @@ ConfigureValuePopup::updateTextInputLabel - 0x60d4b0
 CountTriggerGameObject::triggerObject - 0x1c52f0
 CountTriggerGameObject::customObjectSetup - 0x1c5570
 CountTriggerGameObject::getSaveString - 0x1c59a0
+CreateGuidelinesLayer::~CreateGuidelinesLayer - 0x4f4e30
 CreateGuidelinesLayer::update - 0x4f6f90
 CreateGuidelinesLayer::ccTouchBegan - 0x4f7200
 CreateGuidelinesLayer::ccTouchMoved - 0x4f72f0
@@ -2436,6 +2450,7 @@ CurrencyRewardLayer::incrementSpecialCount2 - 0x793cc0
 CurrencyRewardLayer::incrementStarsCount - 0x793870
 CurrencyRewardLayer::init - 0x78ffe0
 CurrencyRewardLayer::pulseSprite - 0x793fa0
+CurrencySprite::~CurrencySprite - 0x794060
 CurrencySprite::create - 0x792020
 CurrencySprite::createWithSprite - 0x792ed0
 CurrencySprite::spriteTypeToStat - 0x791f20
@@ -2516,6 +2531,7 @@ CustomSongLayer::onOptions - 0x203f00
 CustomSongLayer::onSearch - 0x203f20
 CustomSongLayer::onSongBrowser - 0x203dd0
 CustomSongLayer::showNewgroundsMessage - 0x204090
+CustomSongWidget::~CustomSongWidget - 0x602fb0
 CustomSongWidget::create - 0x603090
 CustomSongWidget::loadSongInfoFinished - 0x608a80
 CustomSongWidget::loadSongInfoFailed - 0x608c60
@@ -2589,6 +2605,7 @@ RingObject::shouldDrawEditorHitbox - 0x1a3590
 RingObject::powerOnObject - 0x1a33b0
 DashRingObject::customObjectSetup - 0x1a4340
 DashRingObject::getSaveString - 0x1a44b0
+DemonFilterSelectLayer::~DemonFilterSelectLayer - 0x618820
 DemonFilterSelectLayer::init - 0x618b50
 DemonFilterSelectLayer::keyBackClicked - 0x619140
 DemonFilterSelectLayer::selectRating - 0x619030
@@ -2637,6 +2654,7 @@ EditButtonBar::onLeft - 0x5ca250
 EditButtonBar::onRight - 0x5ca2a0
 EditButtonBar::reloadItems - 0x5ca140
 EditGameObjectPopup::init - 0x297b50
+EditLevelLayer::~EditLevelLayer - 0x1e8350
 EditLevelLayer::create - 0x1e8670
 EditLevelLayer::scene - 0x1e8510
 EditLevelLayer::keyBackClicked - 0x1ec740
@@ -2712,6 +2730,8 @@ EditorPauseLayer::saveLevel - 0x282980
 EditorPauseLayer::togglePreviewAnim - 0x282270
 EditorPauseLayer::uncheckAllPortals - 0x281d60
 GameObjectEditorState::loadValues - 0x9370
+EditorUI::EditorUI - 0x54780
+EditorUI::~EditorUI - 0x93e0
 EditorUI::create - 0x96b0
 EditorUI::draw - 0x4e7d0
 EditorUI::ccTouchBegan - 0x4f290
@@ -2974,6 +2994,7 @@ SetIDPopup::onItemIDArrow - 0x298ca0
 SetIDPopup::onResetValue - 0x298c80
 SetIDPopup::updateTextInputLabel - 0x298d90
 FindObjectPopup::init - 0x299fd0
+FMODAudioEngine::~FMODAudioEngine - 0x3c99d0
 FMODAudioEngine::sharedEngine - 0x3c9e70
 FMODAudioEngine::update - 0x3cc160
 FMODAudioEngine::channelForChannelID - 0x3cd8a0
@@ -3454,6 +3475,7 @@ GameToolbox::stringSetupToDict - 0x4dded0
 GameToolbox::timestampToHumanReadable - 0x4e4690
 GameToolbox::transformColor - 0x4dcb20
 GameToolbox::transformColor - 0x4dcaf0
+GauntletLayer::~GauntletLayer - 0x37f200
 GauntletLayer::create - 0x37f700
 GauntletLayer::scene - 0x37f5f0
 GauntletLayer::keyBackClicked - 0x381960
@@ -3469,6 +3491,7 @@ GauntletNode::frameForType - 0x55e760
 GauntletNode::nameForType - 0x55e210
 GauntletNode::init - 0x55cb50
 GauntletNode::onClaimReward - 0x55ca80
+GauntletSelectLayer::~GauntletSelectLayer - 0x55a680
 GauntletSelectLayer::create - 0x55abc0
 GauntletSelectLayer::scene - 0x55aaa0
 GauntletSelectLayer::onExit - 0x55cac0
@@ -3517,6 +3540,7 @@ GJAccountManager::onSyncAccountCompleted - 0xd0e80
 GJAccountManager::registerAccount - 0xd2690
 GJAccountManager::syncAccount - 0xd3d60
 GJAccountManager::updateAccountSettings - 0xd4200
+GJAccountSettingsLayer::~GJAccountSettingsLayer - 0x28d120
 GJAccountSettingsLayer::create - 0x28d2c0
 GJAccountSettingsLayer::keyBackClicked - 0x28f970
 GJAccountSettingsLayer::textInputShouldOffset - 0x28f380
@@ -3524,6 +3548,7 @@ GJAccountSettingsLayer::textInputReturn - 0x28f440
 GJAccountSettingsLayer::createToggleButton - 0x28ec10
 GJAccountSettingsLayer::init - 0x28d440
 GJAccountSettingsLayer::onClose - 0x28ef80
+GJActionManager::~GJActionManager - 0x5f1cf0
 GJActionManager::create - 0x5f1dc0
 GJActionManager::init - 0x5f1e50
 GJActionManager::runInternalAction - 0x5f1e80
@@ -3831,6 +3856,7 @@ GJGameLoadingLayer::onEnter - 0x154bb0
 GJGameLoadingLayer::onEnterTransitionDidFinish - 0x154ba0
 GJGameLoadingLayer::init - 0x154a40
 GJGameLoadingLayer::loadLevel - 0x154b40
+GJGarageLayer::~GJGarageLayer - 0x355830
 GJGarageLayer::node - 0x355a30
 GJGarageLayer::scene - 0x3559f0
 GJGarageLayer::init - 0x355ba0
@@ -3867,6 +3893,7 @@ GJGarageLayer::setupSpecialPage - 0x359d80
 GJGarageLayer::updatePlayerColors - 0x3577a0
 GJGradientLayer::create - 0x1290e0
 GJGradientLayer::init - 0x154550
+GJItemIcon::~GJItemIcon - 0x35d7f0
 GJItemIcon::create - 0x35d940
 GJItemIcon::createBrowserItem - 0x35a800
 GJItemIcon::createStoreItem - 0x35d910
@@ -3903,6 +3930,7 @@ GJLocalLevelScoreCell::init - 0x243bf0
 GJLocalLevelScoreCell::draw - 0x243c10
 GJLocalLevelScoreCell::loadFromScore - 0x239740
 GJLocalScore::create - 0x5496e0
+GJMapPack::~GJMapPack - 0x548f70
 GJMapPack::create - 0x51c560
 GJMapPack::create - 0x5490c0
 GJMapPack::init - 0x549550
@@ -4086,6 +4114,7 @@ GJSearchObject::getPageObject - 0x54aca0
 GJSearchObject::getPrevPageObject - 0x54af60
 GJSearchObject::getSearchKey - 0x54a780
 GJSearchObject::isLevelSearchObject - 0x54af80
+GJShopLayer::~GJShopLayer - 0x30e6c0
 GJShopLayer::create - 0x30e990
 GJShopLayer::scene - 0x30e850
 GJShopLayer::onExit - 0x310710
@@ -4137,6 +4166,8 @@ GJSpiderSprite::init - 0x5c5230
 GJStoreItem::create - 0x66200
 GJStoreItem::getCurrencyKey - 0x665e0
 GJStoreItem::init - 0x8f5a0
+GJTransformControl::GJTransformControl - 0x55060
+GJTransformControl::~GJTransformControl - 0x53190
 GJTransformControl::init - 0x534a0
 GJTransformControl::ccTouchBegan - 0x53940
 GJTransformControl::ccTouchMoved - 0x53dc0
@@ -4205,6 +4236,7 @@ HardStreak::reset - 0x9d4e0
 HardStreak::resumeStroke - 0x9d480
 HardStreak::stopStroke - 0x9d4a0
 HardStreak::updateStroke - 0x9cc30
+HSVLiveOverlay::~HSVLiveOverlay - 0x258690
 HSVLiveOverlay::create - 0x258800
 HSVLiveOverlay::keyBackClicked - 0x259080
 HSVLiveOverlay::show - 0x259130
@@ -4303,6 +4335,7 @@ LevelAreaInnerLayer::onDoor - 0x268bd0
 LevelAreaInnerLayer::onInfo - 0x268e70
 LevelAreaInnerLayer::onNextFloor - 0x268d00
 LevelAreaInnerLayer::showFloor1CompleteDialog - 0x269470
+LevelAreaLayer::~LevelAreaLayer - 0x265430
 LevelAreaLayer::scene - 0x265710
 LevelAreaLayer::init - 0x2658d0
 LevelAreaLayer::keyBackClicked - 0x267ab0
@@ -4524,6 +4557,8 @@ LevelListCell::draw - 0x2475a0
 LevelListCell::loadFromList - 0x233ae0
 LevelListCell::onClick - 0x247470
 LevelListCell::onViewProfile - 0x247550
+LevelListLayer::LevelListLayer - 0x350d00
+LevelListLayer::~LevelListLayer - 0x3481e0
 LevelListLayer::create - 0x3484a0
 LevelListLayer::scene - 0x348410
 LevelListLayer::onEnter - 0x34b870
@@ -4568,6 +4603,7 @@ LevelOptionsLayer::onSettings - 0x25f920
 LevelOptionsLayer2::create - 0x25f960
 LevelOptionsLayer2::setupOptions - 0x25fec0
 LevelOptionsLayer2::init - 0x25fdc0
+LevelPage::~LevelPage - 0x4227a0
 LevelPage::create - 0x41fda0
 LevelPage::ccTouchBegan - 0x424bf0
 LevelPage::ccTouchMoved - 0x424d10
@@ -4804,6 +4840,7 @@ MessagesProfilePage::onClose - 0x21c5b0
 MessagesProfilePage::onDeleteSelected - 0x21c760
 MessagesProfilePage::onToggleAllObjects - 0x21c940
 MessagesProfilePage::untoggleAll - 0x21d4b0
+MoreOptionsLayer::~MoreOptionsLayer - 0x785690
 MoreOptionsLayer::create - 0x785240
 MoreOptionsLayer::init - 0x785810
 MoreOptionsLayer::keyBackClicked - 0x788ba0
@@ -4817,6 +4854,7 @@ MoreOptionsLayer::onClose - 0x787670
 MoreOptionsLayer::onFMODDebug - 0x787360
 MoreOptionsLayer::onKeybindings - 0x787c40
 MoreOptionsLayer::onSongBrowser - 0x787300
+MoreSearchLayer::~MoreSearchLayer - 0x6162b0
 MoreSearchLayer::create - 0x615070
 MoreSearchLayer::audioNext - 0x618230
 MoreSearchLayer::audioPrevious - 0x6181c0
@@ -4831,6 +4869,7 @@ MoreSearchLayer::init - 0x616620
 MoreSearchLayer::keyBackClicked - 0x6187f0
 MoreSearchLayer::textInputShouldOffset - 0x618680
 MoreSearchLayer::textInputReturn - 0x618740
+MoreVideoOptionsLayer::~MoreVideoOptionsLayer - 0x78aeb0
 MoreVideoOptionsLayer::init - 0x78b270
 MoreVideoOptionsLayer::keyBackClicked - 0x78d440
 MPLobbyLayer::keyBackClicked - 0x480e20
@@ -4849,6 +4888,7 @@ MPLobbyLayer::uploadActionFailed - 0x4818b0
 MPLobbyLayer::onClosePopup - 0x481a60
 MPLobbyLayer::onBtn1 - 0x480b40
 MPLobbyLayer::tryExitLobby - 0x480eb0
+MultilineBitmapFont::~MultilineBitmapFont - 0x4764a0
 MultilineBitmapFont::setOpacity - 0x476100
 MultilineBitmapFont::initWithFont - 0x474500
 MultilineBitmapFont::moveSpecialDescriptors - 0x476200
@@ -5106,6 +5146,8 @@ PlayerFireBoostSprite::init - 0x40b6c0
 PlayerFireBoostSprite::animateFireIn - 0x4066d0
 PlayerFireBoostSprite::animateFireOut - 0x406740
 PlayerFireBoostSprite::loopFireAnimation - 0x4063f0
+PlayerObject::PlayerObject - 0x40b740
+PlayerObject::~PlayerObject - 0x3e8600
 PlayerObject::create - 0x3e88e0
 PlayerObject::update - 0x3eb270
 PlayerObject::setPosition - 0x407b70
@@ -5390,6 +5432,7 @@ RandTriggerGameObject::init - 0x1b1b50
 RandTriggerGameObject::triggerObject - 0x1b1de0
 RandTriggerGameObject::customObjectSetup - 0x1b2040
 RandTriggerGameObject::getSaveString - 0x1b2680
+RateDemonLayer::~RateDemonLayer - 0x2717f0
 RateDemonLayer::create - 0x271bd0
 RateDemonLayer::keyBackClicked - 0x2728e0
 RateDemonLayer::uploadActionFinished - 0x2725a0
@@ -5399,6 +5442,7 @@ RateDemonLayer::init - 0x271d40
 RateDemonLayer::onClose - 0x272420
 RateDemonLayer::onRate - 0x272470
 RateDemonLayer::selectRating - 0x272330
+RateLevelLayer::~RateLevelLayer - 0x550d00
 RateLevelLayer::create - 0x551030
 RateLevelLayer::keyBackClicked - 0x5519b0
 RateLevelLayer::init - 0x551170
@@ -5421,6 +5465,7 @@ RetryLevelLayer::showLayer - 0x4e5ec0
 RetryLevelLayer::enterAnimFinished - 0x4e5fc0
 RetryLevelLayer::rewardedVideoFinished - 0x4e63c0
 RetryLevelLayer::keyUp - 0x4e6490
+RewardsPage::~RewardsPage - 0x208190
 RewardsPage::getRewardFrame - 0x2094b0
 RewardsPage::init - 0x208720
 RewardsPage::registerWithTouchDispatcher - 0x209fc0
@@ -6406,6 +6451,7 @@ TextStyleSection::init - 0x476690
 TimerTriggerGameObject::triggerObject - 0x1d1230
 TimerTriggerGameObject::customObjectSetup - 0x1d3110
 TimerTriggerGameObject::getSaveString - 0x1d1340
+TopArtistsLayer::~TopArtistsLayer - 0x2fc320
 TopArtistsLayer::init - 0x2fc850
 TopArtistsLayer::registerWithTouchDispatcher - 0x2fd200
 TopArtistsLayer::keyBackClicked - 0x2fd190
@@ -6488,8 +6534,10 @@ UISaveLoadLayer::onSave - 0x2a23a0
 UISettingsGameObject::init - 0x1cb1b0
 UISettingsGameObject::customObjectSetup - 0x1cc0f0
 UISettingsGameObject::getSaveString - 0x1cb200
+UndoObject::~UndoObject - 0xf52d0
 UndoObject::create - 0xe0290
 UndoObject::createWithArray - 0xe2fa0
+UpdateAccountSettingsPopup::~UpdateAccountSettingsPopup - 0x28f9a0
 UpdateAccountSettingsPopup::keyBackClicked - 0x2905c0
 UpdateAccountSettingsPopup::updateSettingsFinished - 0x2903b0
 UpdateAccountSettingsPopup::updateSettingsFailed - 0x2904d0
@@ -6499,11 +6547,13 @@ UploadActionPopup::keyBackClicked - 0x291070
 UploadActionPopup::init - 0x2908c0
 UploadActionPopup::showFailMessage - 0x290ee0
 UploadActionPopup::showSuccessMessage - 0x290d70
+UploadListPopup::~UploadListPopup - 0x34fed0
 UploadListPopup::keyBackClicked - 0x350cc0
 UploadListPopup::show - 0x350c50
 UploadListPopup::listUploadFinished - 0x350750
 UploadListPopup::listUploadFailed - 0x350970
 UploadListPopup::init - 0x350240
+UploadPopup::~UploadPopup - 0x26fae0
 UploadPopup::keyBackClicked - 0x2706b0
 UploadPopup::show - 0x270640
 UploadPopup::levelUploadFinished - 0x2701e0

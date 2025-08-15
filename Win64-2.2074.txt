@@ -3278,6 +3278,7 @@ PlayerControlGameObject::getSaveString - 0x4a9cd0
 PlayerFireBoostSprite::create - 0x38cf30
 PlayerFireBoostSprite::init - 0x38cfd0
 PlayerFireBoostSprite::loopFireAnimation - 0x38d030
+PlayerObject::~PlayerObject - 0x370730
 PlayerObject::create - 0x370960
 PlayerObject::update - 0x373010
 PlayerObject::setPosition - 0x3868b0
