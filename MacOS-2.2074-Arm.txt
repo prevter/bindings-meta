@@ -703,7 +703,11 @@ cocos2d::CCMouseDispatcher::dispatchScrollMSG - 0x4b0cb4
 cocos2d::CCMouseDispatcher::forceAddDelegate - 0x4b0c78
 cocos2d::CCMouseDispatcher::forceRemoveDelegate - 0x4b0b8c
 cocos2d::CCMouseDispatcher::removeDelegate - 0x4b0ad4
-cocos2d::CCTargetedTouchHandler::~CCTargetedTouchHandler - 0x46e7f0
+cocos2d::CCTouchHandler::~CCTouchHandler - 0x3dd690
+cocos2d::CCTouchHandler::getDelegate - 0x3dd4e4
+cocos2d::CCTouchHandler::getPriority - 0x3dd560
+cocos2d::CCTouchHandler::initWithDelegate - 0x3dd620
+cocos2d::CCTargetedTouchHandler::~CCTargetedTouchHandler - 0x3dda34
 cocos2d::CCTargetedTouchHandler::getClaimedTouches - 0x3dd8b8
 cocos2d::CCTexture2D::PVRImagesHavePremultipliedAlpha - 0x3d667c
 cocos2d::CCTexture2D::setDefaultAlphaPixelFormat - 0x3d683c
@@ -766,10 +770,6 @@ cocos2d::CCTouchDispatcher::touchesBegan - 0x421540
 cocos2d::CCTouchDispatcher::touchesMoved - 0x42156c
 cocos2d::CCTouchDispatcher::touchesEnded - 0x421598
 cocos2d::CCTouchDispatcher::touchesCancelled - 0x4215c4
-cocos2d::CCTouchHandler::~CCTouchHandler - 0x3dd6e4
-cocos2d::CCTouchHandler::getDelegate - 0x3dd4e4
-cocos2d::CCTouchHandler::getPriority - 0x3dd560
-cocos2d::CCTouchHandler::initWithDelegate - 0x3dd620
 cocos2d::CCMouseHandler::handlerWithDelegate - 0x21dc04
 cocos2d::CCMouseHandler::~CCMouseHandler - 0x21da44
 cocos2d::CCMouseHandler::getDelegate - 0x21da3c
