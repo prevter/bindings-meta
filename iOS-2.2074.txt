@@ -662,6 +662,11 @@ cocos2d::CCIMEDelegate::attachWithIME - 0x1d47b4
 cocos2d::CCIMEDelegate::detachWithIME - 0x1d48b8
 cocos2d::CCIMEDispatcher::dispatchDeleteBackward - 0x1d49c4
 cocos2d::CCIMEDispatcher::dispatchInsertText - 0x1d4998
+cocos2d::CCKeypadDispatcher::addDelegate - 0x1b0bb4
+cocos2d::CCKeypadDispatcher::dispatchKeypadMSG - 0x1b0c38
+cocos2d::CCKeypadDispatcher::forceAddDelegate - 0x1b0bfc
+cocos2d::CCKeypadDispatcher::forceRemoveDelegate - 0x1b0b20
+cocos2d::CCKeypadDispatcher::removeDelegate - 0x1b0ad8
 cocos2d::CCDirector::sharedDirector - 0x178534
 cocos2d::CCDirector::getWinSize - 0x1791c4
 cocos2d::CCDirector::getWinSizeInPixels - 0x1794e0
@@ -1532,7 +1537,7 @@ GJDropDownLayer::disableUI - 0x3aad30
 GJDropDownLayer::enableUI - 0x3aad44
 GJDropDownLayer::init - 0x3aa920
 GJDropDownLayer::init - 0x3aad1c
-AccountHelpLayer::create - 0x2655a4
+AccountHelpLayer::create - 0x16a4bc
 AccountHelpLayer::customSetup - 0x16a644
 AccountHelpLayer::layerHidden - 0x16b0cc
 AccountHelpLayer::accountStatusChanged - 0x16b018
@@ -1771,6 +1776,7 @@ EnhancedGameObject::powerOnObject - 0x262170
 EnhancedGameObject::powerOffObject - 0x262184
 EnhancedGameObject::updateSyncedAnimation - 0x347598
 EnhancedGameObject::updateAnimateOnTrigger - 0x348938
+EnhancedGameObject::init - 0x261f48
 EnhancedGameObject::updateUserCoin - 0x25e724
 EffectGameObject::EffectGameObject - 0x3925fc
 EffectGameObject::setOpacity - 0x37e130
@@ -1790,7 +1796,6 @@ EffectGameObject::canBeOrdered - 0x37f714
 EffectGameObject::getObjectLabel - 0x3922c0
 EffectGameObject::setObjectLabel - 0x3922c8
 EffectGameObject::stateSensitiveOff - 0x37f260
-EffectGameObject::init - 0x261f48
 EffectGameObject::setTargetID - 0x3756ec
 EffectGameObject::setTargetID2 - 0x375704
 EffectGameObject::updateSpeedModType - 0x37f5ac
@@ -1833,7 +1838,7 @@ AppDelegate::applicationWillEnterForeground - 0x2686b4
 AppDelegate::applicationWillBecomeActive - 0x268578
 AppDelegate::applicationWillResignActive - 0x26858c
 AppDelegate::trySaveGame - 0x268884
-AppDelegate::willSwitchToScene - 0x26885c
+AppDelegate::willSwitchToScene - 0x268954
 AppDelegate::bgScale - 0x268554
 AppDelegate::musicTest - 0x2687e8
 AppDelegate::resumeSound - 0x26879c
@@ -2617,13 +2622,14 @@ EditorUI::onGoToBaseLayer - 0x3ddd20
 EditorUI::onGroupDown - 0x3ddd04
 EditorUI::onGroupSticky - 0x3bff98
 EditorUI::onGroupUp - 0x3ddcec
-EditorUI::onLockLayer - 0x3e16e8
+EditorUI::onLockLayer - 0x3ddd34
 EditorUI::onNewCustomItem - 0x3e073c
 EditorUI::onPasteColor - 0x3ddbd0
 EditorUI::onPasteState - 0x3ddb7c
 EditorUI::onPause - 0x3dc64c
 EditorUI::onPlayback - 0x3bfb28
 EditorUI::onPlaytest - 0x3bfd14
+EditorUI::onResetSpecialFilter - 0x3e16e8
 EditorUI::onSelectBuildTab - 0x3e298c
 EditorUI::onSettings - 0x3dca74
 EditorUI::onStopPlaytest - 0x3bfea8
@@ -2932,6 +2938,7 @@ GameManager::addNewCustomObject - 0x319548
 GameManager::calculateBaseKeyForIcons - 0x311f24
 GameManager::checkUsedIcons - 0x316a40
 GameManager::colorForIdx - 0x316f24
+GameManager::colorKey - 0x312e84
 GameManager::countForType - 0x3178fc
 GameManager::didExitPlayscene - 0x31d618
 GameManager::fadeInMenuMusic - 0x312450
@@ -2948,6 +2955,7 @@ GameManager::getOrderedCustomObjectKeys - 0x319428
 GameManager::getPracticeMusicFile - 0x312140
 GameManager::getUGV - 0x319198
 GameManager::getUnlockForAchievement - 0x313158
+GameManager::iconKey - 0x3129e8
 GameManager::iconTypeToUnlockType - 0x312cb0
 GameManager::isColorUnlocked - 0x312fb8
 GameManager::isIconUnlocked - 0x312be8
@@ -3011,7 +3019,7 @@ GameStatsManager::getBaseCurrencyForLevel - 0x3325b8
 GameStatsManager::getChallenge - 0x333cf4
 GameStatsManager::getCollectedCoinsForLevel - 0x330730
 GameStatsManager::getCompletedMapPacks - 0x331520
-GameStatsManager::getGauntletRewardKey - 0x3129e8
+GameStatsManager::getGauntletRewardKey - 0x33648c
 GameStatsManager::getItemKey - 0x32ba84
 GameStatsManager::getItemUnlockState - 0x336148
 GameStatsManager::getQueuedChallenge - 0x333d78
@@ -3020,6 +3028,7 @@ GameStatsManager::getRewardKey - 0x3333e8
 GameStatsManager::getSpecialUnlockDescription - 0x336794
 GameStatsManager::getStarLevelKey - 0x330a04
 GameStatsManager::getStat - 0x32bf54
+GameStatsManager::getStatFromKey - 0x33027c
 GameStatsManager::getTotalCollectedCurrency - 0x3349f0
 GameStatsManager::hasClaimedListReward - 0x334154
 GameStatsManager::hasCompletedLevel - 0x330af4
@@ -3034,6 +3043,7 @@ GameStatsManager::incrementStat - 0x32c170
 GameStatsManager::incrementStat - 0x32c168
 GameStatsManager::isItemEnabled - 0x336220
 GameStatsManager::isItemUnlocked - 0x32fb64
+GameStatsManager::isPathChestUnlocked - 0x336a94
 GameStatsManager::isSecretChestUnlocked - 0x336044
 GameStatsManager::isSpecialChestUnlocked - 0x3360cc
 GameStatsManager::isStoreItemUnlocked - 0x32bd28
@@ -3115,6 +3125,7 @@ GJAccountSettingsLayer::onUpdate - 0x2d70f8
 GJActionManager::~GJActionManager - 0x2fe564
 GJActionManager::create - 0x2fe5b8
 GJActionManager::init - 0x2fe634
+GJActionManager::stopInternalAction - 0x2fe6a8
 GJBaseGameLayer::~GJBaseGameLayer - 0x1dae3c
 GJBaseGameLayer::update - 0x200aec
 GJBaseGameLayer::init - 0x1db7ec
@@ -3448,17 +3459,23 @@ GJMoreGamesLayer::customSetup - 0x6911c
 GJMultiplayerManager::init - 0x1cfeac
 GJObjectDecoder::init - 0x217784
 GJObjectDecoder::getDecodedObject - 0x217788
+GJPathPage::create - 0x3b0e84
 GJPathPage::registerWithTouchDispatcher - 0x3b3c68
 GJPathPage::keyBackClicked - 0x3b3c5c
 GJPathPage::show - 0x3b3ca0
 GJPathPage::didPurchaseItem - 0x3b2b2c
+GJPathRewardPopup::create - 0x3b0f64
 GJPathRewardPopup::keyBackClicked - 0x3b45c0
+GJPathRewardPopup::init - 0x3b3fb4
+GJPathRewardPopup::onClaim - 0x3b4448
 GJPathsLayer::nameForPath - 0x3b068c
 GJPathsLayer::init - 0x3b07ac
 GJPathsLayer::onExit - 0x3b0e34
 GJPathsLayer::registerWithTouchDispatcher - 0x3b1024
 GJPathsLayer::keyBackClicked - 0x3b1018
 GJPathsLayer::show - 0x3b105c
+GJPathsLayer::onClose - 0x3b0c18
+GJPathsLayer::onPath - 0x3b0da4
 GJPathSprite::create - 0x3b0c80
 GJPathSprite::updateState - 0x3b0d20
 GJPFollowCommandLayer::determineStartValues - 0x16384c
@@ -4471,7 +4488,6 @@ PlayerObject::updatePlayerGlow - 0x22995c
 PlayerObject::updatePlayerJetpackFrame - 0x22a390
 PlayerObject::updatePlayerRobotFrame - 0x22d044
 PlayerObject::updatePlayerRollFrame - 0x22b7d4
-PlayerObject::updatePlayerScale - 0x2fe6a8
 PlayerObject::updatePlayerShipFrame - 0x22a1dc
 PlayerObject::updatePlayerSpiderFrame - 0x22d05c
 PlayerObject::updatePlayerSpriteExtra - 0x21945c
@@ -4888,8 +4904,8 @@ SetupCameraOffsetTrigger::textChanged - 0x194230
 SetupCameraOffsetTrigger::valuePopupClosed - 0x193f00
 SetupCameraOffsetTrigger::init - 0x192440
 SetupCameraOffsetTrigger::updateDuration - 0x194038
-SetupCameraOffsetTrigger::updateMoveCommandPosX - 0x194168
-SetupCameraOffsetTrigger::updateMoveCommandPosY - 0x1940a0
+SetupCameraOffsetTrigger::updateMoveCommandPosX - 0x1940a0
+SetupCameraOffsetTrigger::updateMoveCommandPosY - 0x194168
 SetupCoinLayer::create - 0x4070c0
 SetupCoinLayer::init - 0x40719c
 SetupInstantCollisionTriggerPopup::updateDefaultTriggerValues - 0x231200
@@ -5027,8 +5043,8 @@ SetupRandTriggerPopup::textChanged - 0x1cbad0
 SetupRandTriggerPopup::init - 0x1ca9c0
 SetupRandTriggerPopup::onTargetID2Arrow - 0x1cb520
 SetupRandTriggerPopup::onTargetIDArrow - 0x1cb4cc
-SetupRandTriggerPopup::updateChance - 0x1cb9c8
-SetupRandTriggerPopup::updateTargetID - 0x1cb960
+SetupRandTriggerPopup::updateChance - 0x1cb960
+SetupRandTriggerPopup::updateTargetID - 0x1cb9c8
 SetupRandTriggerPopup::updateTargetID2 - 0x1cba4c
 SetupReverbPopup::onClose - 0x18304c
 SetupRotateCommandPopup::updateInputNode - 0x3fec80

@@ -797,10 +797,19 @@ cocos2d::CCIMEDispatcher::dispatchDeleteBackward - 0x4124e0
 cocos2d::CCIMEDispatcher::dispatchDeleteForward - 0x412500
 cocos2d::CCIMEDispatcher::dispatchInsertText - 0x4124b4
 cocos2d::CCIMEDispatcher::hasDelegate - 0x4124a0
+cocos2d::CCKeyboardDispatcher::convertKeyCode - 0x1a82ac
+cocos2d::CCKeyboardDispatcher::addDelegate - 0x1a7f94
 cocos2d::CCKeyboardDispatcher::dispatchKeyboardMSG - 0x1a8028
+cocos2d::CCKeyboardDispatcher::forceAddDelegate - 0x1a7fec
+cocos2d::CCKeyboardDispatcher::forceRemoveDelegate - 0x1a7f00
 cocos2d::CCKeyboardDispatcher::keyToString - 0x1a82e0
 cocos2d::CCKeyboardDispatcher::removeDelegate - 0x1a7e48
 cocos2d::CCKeyboardDispatcher::updateModifierKeys - 0x1a82c8
+cocos2d::CCKeypadDispatcher::addDelegate - 0x514590
+cocos2d::CCKeypadDispatcher::dispatchKeypadMSG - 0x514624
+cocos2d::CCKeypadDispatcher::forceAddDelegate - 0x5145e8
+cocos2d::CCKeypadDispatcher::forceRemoveDelegate - 0x5144fc
+cocos2d::CCKeypadDispatcher::removeDelegate - 0x514444
 cocos2d::CCDirector::sharedDirector - 0x3de6d0
 cocos2d::CCDirector::getNotificationNode - 0x3e07cc
 cocos2d::CCDirector::getVisibleSize - 0x3dfed0
@@ -1845,6 +1854,7 @@ EnhancedGameObject::powerOnObject - 0x4ec2b0
 EnhancedGameObject::powerOffObject - 0x4ec2c4
 EnhancedGameObject::updateSyncedAnimation - 0x1f7c7c
 EnhancedGameObject::updateAnimateOnTrigger - 0x1f903c
+EnhancedGameObject::init - 0x4ec0c4
 EnhancedGameObject::updateUserCoin - 0x4e3b94
 EffectGameObject::EffectGameObject - 0x199d84
 EffectGameObject::create - 0x16a0d4
@@ -1865,7 +1875,6 @@ EffectGameObject::canBeOrdered - 0x16baec
 EffectGameObject::getObjectLabel - 0x199b10
 EffectGameObject::setObjectLabel - 0x199b18
 EffectGameObject::stateSensitiveOff - 0x16b578
-EffectGameObject::init - 0x4ec0c4
 EffectGameObject::setTargetID - 0x157c40
 EffectGameObject::setTargetID2 - 0x157c58
 AdvancedFollowTriggerObject::customObjectSetup - 0x15ee0c
@@ -3285,6 +3294,7 @@ GameManager::addNewCustomObject - 0x302400
 GameManager::calculateBaseKeyForIcons - 0x2f6240
 GameManager::checkUsedIcons - 0x2fcce8
 GameManager::colorForIdx - 0x2fdae8
+GameManager::colorKey - 0x2f766c
 GameManager::completedAchievement - 0x2f8464
 GameManager::countForType - 0x2febfc
 GameManager::didExitPlayscene - 0x308a38
@@ -3303,6 +3313,7 @@ GameManager::getOrderedCustomObjectKeys - 0x302280
 GameManager::getPracticeMusicFile - 0x2f6540
 GameManager::getUGV - 0x301df0
 GameManager::getUnlockForAchievement - 0x2f7a94
+GameManager::iconKey - 0x2f7060
 GameManager::iconTypeToUnlockType - 0x2f7498
 GameManager::isColorUnlocked - 0x2f78a8
 GameManager::isIconLoaded - 0x2fec84
@@ -3402,6 +3413,7 @@ GameStatsManager::getSecretOnlineRewardKey - 0x6beb0
 GameStatsManager::getSpecialUnlockDescription - 0x6b4a4
 GameStatsManager::getStarLevelKey - 0x60ce4
 GameStatsManager::getStat - 0x5aca0
+GameStatsManager::getStatFromKey - 0x5ff6c
 GameStatsManager::getTotalCollectedCurrency - 0x67fc4
 GameStatsManager::getTotalCollectedDiamonds - 0x68c58
 GameStatsManager::hasClaimedListReward - 0x672c8
@@ -3419,6 +3431,7 @@ GameStatsManager::incrementChallenge - 0x5eb10
 GameStatsManager::incrementStat - 0x5afdc
 GameStatsManager::isItemEnabled - 0x6ac58
 GameStatsManager::isItemUnlocked - 0x5ee84
+GameStatsManager::isPathChestUnlocked - 0x6bb18
 GameStatsManager::isSecretChestUnlocked - 0x6a68c
 GameStatsManager::isSecretCoin - 0x63c18
 GameStatsManager::isSpecialChestUnlocked - 0x6a794
@@ -4007,6 +4020,7 @@ GJPathsLayer::registerWithTouchDispatcher - 0x285028
 GJPathsLayer::keyBackClicked - 0x284f58
 GJPathsLayer::show - 0x285060
 GJPathsLayer::darkenButtons - 0x284ce4
+GJPathsLayer::onClose - 0x284a6c
 GJPathsLayer::onPath - 0x284c04
 GJPathSprite::create - 0x284ad4
 GJPathSprite::addRankLabel - 0x288c2c
@@ -5977,10 +5991,10 @@ SetupRandTriggerPopup::determineStartValues - 0x5028bc
 SetupRandTriggerPopup::onClose - 0x502ddc
 SetupRandTriggerPopup::textChanged - 0x502b44
 SetupRandTriggerPopup::init - 0x5016b0
-SetupRandTriggerPopup::onTargetID2Arrow - 0x502228
-SetupRandTriggerPopup::onTargetIDArrow - 0x5022d0
-SetupRandTriggerPopup::updateChance - 0x502a3c
-SetupRandTriggerPopup::updateTargetID - 0x5029cc
+SetupRandTriggerPopup::onTargetID2Arrow - 0x5022d0
+SetupRandTriggerPopup::onTargetIDArrow - 0x502228
+SetupRandTriggerPopup::updateChance - 0x5029cc
+SetupRandTriggerPopup::updateTargetID - 0x502a3c
 SetupRandTriggerPopup::updateTargetID2 - 0x502ac0
 SetupResetTriggerPopup::init - 0x4bc558
 SetupReverbPopup::onClose - 0x40f038

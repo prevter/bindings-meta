@@ -1220,6 +1220,7 @@ EditorUI::onPasteState - 0x112b40
 EditorUI::onPause - 0xe03d0
 EditorUI::onPlayback - 0x110390
 EditorUI::onPlaytest - 0x1109a0
+EditorUI::onResetSpecialFilter - 0xe5d60
 EditorUI::onSelectBuildTab - 0x112f60
 EditorUI::onSettings - 0xe0350
 EditorUI::onStopPlaytest - 0x110d40
@@ -2083,6 +2084,7 @@ GJFollowCommandLayer::updateYMod - 0x26b0a0
 GJFollowCommandLayer::updateYModLabel - 0x26a6f0
 GJFriendRequest::create - 0x16fc70
 GJFriendRequest::init - 0x77db0
+GJGameLevel::GJGameLevel - 0x13f6d0
 GJGameLevel::create - 0x169b40
 GJGameLevel::create - 0x1683e0
 GJGameLevel::lengthKeyToString - 0x16a0d0
@@ -2093,6 +2095,7 @@ GJGameLevel::dataLoaded - 0x16b150
 GJGameLevel::getAudioFileName - 0x16a3f0
 GJGameLevel::getAverageDifficulty - 0x16a230
 GJGameLevel::getCoinKey - 0x16a2a0
+GJGameLevel::getLastBuildPageForTab - 0x16a320
 GJGameLevel::getUnpackedLevelDescription - 0x16d150
 GJGameLevel::handleStatsConflict - 0x16cc80
 GJGameLevel::savePercentage - 0x169db0
