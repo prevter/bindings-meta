@@ -1735,6 +1735,7 @@ GameObject::addColorSprite - 0x254690
 GameObject::addCustomChild - 0x259a28
 GameObject::addGlow - 0x254034
 GameObject::colorForMode - 0x261330
+GameObject::createAndAddParticle - 0x2589ec
 GameObject::determineSlopeDirection - 0x25c100
 GameObject::duplicateValues - 0x2610c4
 GameObject::getActiveColorForMode - 0x26151c
@@ -1781,6 +1782,7 @@ EnhancedGameObject::updateAnimateOnTrigger - 0x348938
 EnhancedGameObject::init - 0x261f48
 EnhancedGameObject::updateUserCoin - 0x25e724
 EffectGameObject::EffectGameObject - 0x3925fc
+EffectGameObject::create - 0x37de80
 EffectGameObject::setOpacity - 0x37e130
 EffectGameObject::firstSetup - 0x37f594
 EffectGameObject::customSetup - 0x370000
