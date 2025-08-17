@@ -1877,6 +1877,7 @@ EffectGameObject::canBeOrdered - 0x16baec
 EffectGameObject::getObjectLabel - 0x199b10
 EffectGameObject::setObjectLabel - 0x199b18
 EffectGameObject::stateSensitiveOff - 0x16b578
+EffectGameObject::init - 0x1405bc
 EffectGameObject::setTargetID - 0x157c40
 EffectGameObject::setTargetID2 - 0x157c58
 AdvancedFollowTriggerObject::customObjectSetup - 0x15ee0c
@@ -2606,6 +2607,7 @@ DailyLevelPage::onClose - 0x1d1db4
 DailyLevelPage::onTheSafe - 0x1d1e00
 DailyLevelPage::skipDailyLevel - 0x1d3620
 DailyLevelPage::updateTimers - 0x1d24a8
+RingObject::create - 0x165a10
 RingObject::setScale - 0x165ca8
 RingObject::setRotation - 0x165d08
 RingObject::resetObject - 0x165c7c
@@ -2615,6 +2617,7 @@ RingObject::setRScale - 0x165cd8
 RingObject::triggerActivated - 0x165b30
 RingObject::shouldDrawEditorHitbox - 0x165d0c
 RingObject::powerOnObject - 0x165b3c
+RingObject::init - 0x165ae0
 DashRingObject::customObjectSetup - 0x166864
 DashRingObject::getSaveString - 0x1669bc
 DemonFilterSelectLayer::~DemonFilterSelectLayer - 0x5447c4
@@ -4417,6 +4420,7 @@ LevelCell::onClick - 0x1ef99c
 LevelCell::onViewProfile - 0x1efb00
 LevelCell::updateCellMode - 0x1ec39c
 LevelEditorLayer::create - 0xc3090
+LevelEditorLayer::scene - 0xc2fe0
 LevelEditorLayer::updateObjectLabel - 0xcf94c
 LevelEditorLayer::draw - 0xd9514
 LevelEditorLayer::postUpdate - 0xd6df4

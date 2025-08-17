@@ -2414,6 +2414,7 @@ DailyLevelPage::onClose - 0x1bba6c
 DailyLevelPage::onTheSafe - 0x1bbab8
 DailyLevelPage::skipDailyLevel - 0x1bcbdc
 DailyLevelPage::updateTimers - 0x1bbe2c
+RingObject::create - 0x37b3a8
 RingObject::setScale - 0x37b5e4
 RingObject::setRotation - 0x37b634
 RingObject::resetObject - 0x37b5b8
@@ -3800,6 +3801,7 @@ LevelCell::onViewProfile - 0x111d94
 LevelCell::updateBGColor - 0x105dc0
 LevelEditorLayer::LevelEditorLayer - 0x3684d4
 LevelEditorLayer::create - 0x3563b8
+LevelEditorLayer::scene - 0x356354
 LevelEditorLayer::updateObjectLabel - 0x35d6a4
 LevelEditorLayer::draw - 0x365218
 LevelEditorLayer::postUpdate - 0x363080
