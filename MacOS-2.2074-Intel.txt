@@ -1834,6 +1834,7 @@ GameObject::spawnDefaultPickupParticle - 0x24c390
 GameObject::updateCustomScaleX - 0x591ed0
 GameObject::updateCustomScaleY - 0x591f50
 GameObject::updateIsOriented - 0x5b1730
+GameObject::updateObjectEditorColor - 0x5b0f10
 GameObject::updateStartPos - 0x591af0
 EnhancedGameObject::customSetup - 0x5b42e0
 EnhancedGameObject::resetObject - 0x5b3b10

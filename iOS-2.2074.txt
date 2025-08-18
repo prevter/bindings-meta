@@ -1758,6 +1758,7 @@ GameObject::updateBlendMode - 0x25be2c
 GameObject::updateCustomScaleX - 0x25529c
 GameObject::updateCustomScaleY - 0x2552fc
 GameObject::updateIsOriented - 0x260be4
+GameObject::updateObjectEditorColor - 0x260770
 EnhancedGameObject::EnhancedGameObject - 0x264720
 EnhancedGameObject::customSetup - 0x262680
 EnhancedGameObject::resetObject - 0x2620bc
