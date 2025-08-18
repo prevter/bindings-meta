@@ -260,6 +260,7 @@ EnhancedGameObject::powerOnObject - 0x1a1aa0
 EnhancedGameObject::powerOffObject - 0x1a1ac0
 EnhancedGameObject::updateSyncedAnimation - 0x1a4e30
 EnhancedGameObject::updateAnimateOnTrigger - 0x1a6af0
+EnhancedGameObject::createRotateAction - 0x1a4300
 EnhancedGameObject::init - 0x1a1800
 EnhancedGameObject::setupAnimationVariables - 0x1a6bf0
 EnhancedGameObject::updateUserCoin - 0x1a3970
