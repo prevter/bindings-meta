@@ -110,9 +110,11 @@ AchievementManager::achievementForUnlock - 0x3a1c0
 AchievementManager::addAchievement - 0x7ef0
 AchievementManager::addManualAchievements - 0x8410
 AchievementManager::getAchievementsWithID - 0x39d70
+AchievementManager::getAllAchievementsSorted - 0x39b50
 AchievementManager::isAchievementEarned - 0x39a70
 AchievementManager::notifyAchievementWithID - 0x3a470
 AchievementManager::percentForAchievement - 0x39a90
+AchievementManager::storeAchievementUnlocks - 0x39e20
 AchievementNotifier::sharedState - 0x3ab20
 AchievementNotifier::init - 0x3abd0
 AchievementNotifier::achievementDisplayFinished - 0x3ae40
@@ -1733,6 +1735,8 @@ GameToolbox::getTimeString - 0x65e20
 GameToolbox::hsvFromString - 0x654e0
 GameToolbox::intToShortString - 0x69120
 GameToolbox::intToString - 0x69060
+GameToolbox::mergeDictsSaveLargestInt - 0x64b70
+GameToolbox::mergeDictsSkipConflict - 0x64dd0
 GameToolbox::msToTimeString - 0x69630
 GameToolbox::particleFromStruct - 0x68000
 GameToolbox::particleStringToStruct - 0x67540
