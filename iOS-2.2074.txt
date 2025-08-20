@@ -4310,7 +4310,14 @@ NumberInputLayer::init - 0xfbfd4
 NumberInputLayer::registerWithTouchDispatcher - 0xfc794
 NumberInputLayer::keyBackClicked - 0xfc718
 NumberInputLayer::updateNumberState - 0xfc50c
+OBB2D::create - 0x12fde8
 OBB2D::calculateWithCenter - 0x12ffd4
+OBB2D::computeAxes - 0x13014c
+OBB2D::getBoundingRect - 0x1304d8
+OBB2D::init - 0x12ff54
+OBB2D::orderCorners - 0x13022c
+OBB2D::overlaps - 0x1303f4
+OBB2D::overlaps1Way - 0x130430
 ObjectControlGameObject::init - 0x390708
 ObjectControlGameObject::customObjectSetup - 0x3908e8
 ObjectControlGameObject::getSaveString - 0x390758

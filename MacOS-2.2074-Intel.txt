@@ -5091,7 +5091,12 @@ NumberInputLayer::onNumber - 0x47fc30
 NumberInputLayer::updateNumberState - 0x47fcb0
 OBB2D::create - 0x5dbcf0
 OBB2D::calculateWithCenter - 0x5dbe20
+OBB2D::computeAxes - 0x5dbfd0
+OBB2D::getBoundingRect - 0x5dc6d0
 OBB2D::init - 0x5dbdb0
+OBB2D::orderCorners - 0x5dc130
+OBB2D::overlaps - 0x5dc4b0
+OBB2D::overlaps1Way - 0x5dc4e0
 ObjectControlGameObject::init - 0x1dcad0
 ObjectControlGameObject::customObjectSetup - 0x1dd030
 ObjectControlGameObject::getSaveString - 0x1dcb20
