@@ -48,6 +48,7 @@ cocos2d::CCActionInterval::startWithTarget - 0x32f3b0
 cocos2d::CCActionInterval::step - 0x32f33c
 cocos2d::CCActionInterval::reverse - 0x32f3dc
 cocos2d::CCActionEase::~CCActionEase - 0x45ded4
+cocos2d::CCActionEase::initWithAction - 0x45dd90
 cocos2d::CCActionEase::copyWithZone - 0x45ddd8
 cocos2d::CCActionEase::startWithTarget - 0x45df8c
 cocos2d::CCActionEase::stop - 0x45dfbc
