@@ -1329,6 +1329,7 @@ cocos2d::CCMenu::createWithArray - 0x77cb50
 cocos2d::CCMenu::createWithItem - 0x77cda0
 cocos2d::CCMenu::initWithArray - 0x77cc20
 cocos2d::CCMenu::alignItemsHorizontallyWithPadding - 0x77d5c0
+cocos2d::CCMenu::alignItemsVerticallyWithPadding - 0x77d370
 cocos2d::CCMenu::init - 0x77cdb0
 cocos2d::CCMenu::addChild - 0x77cdc0
 cocos2d::CCMenu::addChild - 0x77cdd0
