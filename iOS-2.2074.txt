@@ -1740,8 +1740,12 @@ GameObject::getType - 0x22ea8c
 GameObject::setType - 0x22ea94
 GameObject::getStartPos - 0x22ea9c
 GameObject::addColorSprite - 0x254690
+GameObject::addColorSpriteToParent - 0x2555a8
+GameObject::addColorSpriteToSelf - 0x25c010
 GameObject::addCustomChild - 0x259a28
+GameObject::addCustomColorChild - 0x259ad0
 GameObject::addGlow - 0x254034
+GameObject::addInternalCustomColorChild - 0x259b68
 GameObject::colorForMode - 0x261330
 GameObject::createAndAddParticle - 0x2589ec
 GameObject::determineSlopeDirection - 0x25c100

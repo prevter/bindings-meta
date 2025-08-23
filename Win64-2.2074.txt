@@ -208,7 +208,9 @@ GameObject::addColorSprite - 0x18b830
 GameObject::addColorSpriteToParent - 0x199040
 GameObject::addColorSpriteToSelf - 0x199240
 GameObject::addCustomChild - 0x194330
+GameObject::addCustomColorChild - 0x1943f0
 GameObject::addGlow - 0x18af60
+GameObject::addInternalCustomColorChild - 0x194530
 GameObject::colorForMode - 0x19f010
 GameObject::commonSetup - 0x18ad70
 GameObject::copyGroups - 0x1999c0

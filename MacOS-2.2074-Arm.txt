@@ -1807,8 +1807,10 @@ GameObject::addColorSprite - 0x4d83b4
 GameObject::addColorSpriteToParent - 0x4d95b8
 GameObject::addColorSpriteToSelf - 0x4e045c
 GameObject::addCustomChild - 0x4dd6a8
+GameObject::addCustomColorChild - 0x4dd750
 GameObject::addEmptyGlow - 0x4d825c
 GameObject::addGlow - 0x4d7bd0
+GameObject::addInternalCustomColorChild - 0x4dd828
 GameObject::assignUniqueID - 0x4d7bb4
 GameObject::canRotateFree - 0x4e0904
 GameObject::colorForMode - 0x4eaf28
