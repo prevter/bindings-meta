@@ -3209,6 +3209,7 @@ GameLevelManager::getSavedLevel - 0x47d54c
 GameLevelManager::getSavedLevelList - 0x48795c
 GameLevelManager::getSavedLevels - 0x47af84
 GameLevelManager::getSearchScene - 0x47edb8
+GameLevelManager::getSplitIntFromKey - 0x48bed4
 GameLevelManager::getStoredLevelComments - 0x494a28
 GameLevelManager::getStoredOnlineLevels - 0x47e2d8
 GameLevelManager::getStoredUserList - 0x498928

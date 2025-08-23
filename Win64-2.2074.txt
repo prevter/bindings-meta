@@ -1531,6 +1531,7 @@ GameLevelManager::getSavedDailyLevel - 0x146ba0
 GameLevelManager::getSavedGauntletLevel - 0x146c70
 GameLevelManager::getSavedLevel - 0x146ad0
 GameLevelManager::getSavedLevels - 0x145410
+GameLevelManager::getSplitIntFromKey - 0x15b010
 GameLevelManager::getStoredLevelComments - 0x15b420
 GameLevelManager::getStoredOnlineLevels - 0x147780
 GameLevelManager::getTimeLeft - 0x147dd0
