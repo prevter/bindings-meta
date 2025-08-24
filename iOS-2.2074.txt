@@ -3631,8 +3631,10 @@ GJTransformControl::onToggleLockScale - 0x3f3ae4
 GJTransformControl::refreshControl - 0x3ee31c
 GJTransformControl::scaleButtons - 0x3e6b10
 GJTransformControl::updateButtons - 0x3ee8a8
+GJUINode::create - 0x4d0f0
 GJUINode::draw - 0x4ed2c
 GJUINode::highlightButton - 0x4e370
+GJUINode::updateButtonFrames - 0x4ea84
 GJUserCell::init - 0x114208
 GJUserCell::draw - 0x11469c
 GJUserCell::FLAlert_Clicked - 0x114748
