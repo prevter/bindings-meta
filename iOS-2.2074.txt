@@ -947,6 +947,7 @@ cocos2d::CCCallFuncO::create - 0x1b1470
 cocos2d::CCCallFuncO::copyWithZone - 0x1b157c
 cocos2d::CCCallFuncO::execute - 0x1b143c
 cocos2d::CCDrawNode::create - 0x45aa0
+cocos2d::CCDrawNode::getBlendFunc - 0x46a30
 cocos2d::CCDrawNode::setBlendFunc - 0x46a38
 cocos2d::CCDrawNode::CCDrawNode - 0x459a4
 cocos2d::CCDrawNode::~CCDrawNode - 0x45a1c
@@ -3678,6 +3679,7 @@ GravityEffectSprite::updateSpritesColor - 0x121f34
 HardStreak::create - 0x61464
 HardStreak::init - 0x614d8
 HardStreak::addPoint - 0x61c40
+HardStreak::createDuplicate - 0x61f30
 HardStreak::firstSetup - 0x61518
 HardStreak::reset - 0x61c1c
 HardStreak::resumeStroke - 0x61bd4

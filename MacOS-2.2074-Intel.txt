@@ -1235,6 +1235,7 @@ cocos2d::CCClippingNode::setStencil - 0x7093a0
 cocos2d::CCClippingNode::setAlphaThreshold - 0x7093f0
 cocos2d::CCClippingNode::setInverted - 0x709410
 cocos2d::CCDrawNode::create - 0x5f94f0
+cocos2d::CCDrawNode::getBlendFunc - 0x5fb260
 cocos2d::CCDrawNode::setBlendFunc - 0x5fb270
 cocos2d::CCDrawNode::CCDrawNode - 0x5f9230
 cocos2d::CCDrawNode::~CCDrawNode - 0x5f9330
@@ -4279,6 +4280,7 @@ GravityEffectSprite::draw - 0xbfc90
 GravityEffectSprite::updateSpritesColor - 0xba240
 HardStreak::init - 0x9ca80
 HardStreak::addPoint - 0x9d500
+HardStreak::createDuplicate - 0x9d850
 HardStreak::reset - 0x9d4e0
 HardStreak::resumeStroke - 0x9d480
 HardStreak::stopStroke - 0x9d4a0
