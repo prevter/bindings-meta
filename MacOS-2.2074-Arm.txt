@@ -1821,6 +1821,7 @@ GameObject::createAndAddParticle - 0x4dc810
 GameObject::createSpriteColor - 0x4d7afc
 GameObject::determineSlopeDirection - 0x4e0550
 GameObject::disableObject - 0x4df648
+GameObject::duplicateValues - 0x4eab88
 GameObject::getActiveColorForMode - 0x4eb568
 GameObject::getBallFrame - 0x4e937c
 GameObject::getColorKey - 0x4e1704
@@ -1875,6 +1876,7 @@ EnhancedGameObject::powerOnObject - 0x4ec2b0
 EnhancedGameObject::powerOffObject - 0x4ec2c4
 EnhancedGameObject::updateSyncedAnimation - 0x1f7c7c
 EnhancedGameObject::updateAnimateOnTrigger - 0x1f903c
+EnhancedGameObject::createRotateAction - 0x4ef08c
 EnhancedGameObject::init - 0x4ec0c4
 EnhancedGameObject::updateUserCoin - 0x4e3b94
 EffectGameObject::EffectGameObject - 0x199d84
@@ -1899,6 +1901,7 @@ EffectGameObject::stateSensitiveOff - 0x16b578
 EffectGameObject::init - 0x1405bc
 EffectGameObject::setTargetID - 0x157c40
 EffectGameObject::setTargetID2 - 0x157c58
+EffectGameObject::updateSpecialColor - 0x16b68c
 AdvancedFollowTriggerObject::customObjectSetup - 0x15ee0c
 AdvancedFollowTriggerObject::getSaveString - 0x157e00
 AdvancedFollowEditObject::customObjectSetup - 0x160b78
@@ -2810,6 +2813,7 @@ EditorUI::activateRotationControl - 0x3878c
 EditorUI::activateScaleControl - 0x39c78
 EditorUI::activateTransformControl - 0x3aec4
 EditorUI::alignObjects - 0x45afc
+EditorUI::applyOffset - 0x35e80
 EditorUI::assignNewGroups - 0x3f6a0
 EditorUI::canSelectObject - 0x373c8
 EditorUI::clickOnPosition - 0x2d9d4
@@ -2900,6 +2904,8 @@ EditorUI::playtestStopped - 0x38a54
 EditorUI::processSelectObjects - 0x38398
 EditorUI::redoLastAction - 0xdb14
 EditorUI::reloadCustomItems - 0x30fac
+EditorUI::removeOffset - 0x35e00
+EditorUI::repositionObjectsToCenter - 0x34094
 EditorUI::resetSelectedObjectsColor - 0x43568
 EditorUI::resetUI - 0x2aeac
 EditorUI::rotateObjects - 0x37044
@@ -3577,6 +3583,7 @@ GJAccountManager::loginAccount - 0xbb1b8
 GJAccountManager::onGetAccountBackupURLCompleted - 0xba684
 GJAccountManager::onGetAccountSyncURLCompleted - 0xba8b0
 GJAccountManager::onSyncAccountCompleted - 0xb9924
+GJAccountManager::ProcessHttpRequest - 0xb85c4
 GJAccountManager::registerAccount - 0xbaf14
 GJAccountManager::syncAccount - 0xbc4d8
 GJAccountManager::updateAccountSettings - 0xbc948
@@ -3635,6 +3642,7 @@ GJBaseGameLayer::addToGroups - 0x107cdc
 GJBaseGameLayer::animateInDualGroundNew - 0xf3ca8
 GJBaseGameLayer::animateOutGroundNew - 0xf3f2c
 GJBaseGameLayer::applyLevelSettings - 0x11da0c
+GJBaseGameLayer::assignNewStickyGroups - 0x108d18
 GJBaseGameLayer::bumpPlayer - 0xf6b04
 GJBaseGameLayer::canBeActivatedByPlayer - 0xf6710
 GJBaseGameLayer::checkCameraLimitAfterTeleport - 0xf0a1c
@@ -4363,6 +4371,7 @@ LabelGameObject::setObjectColor - 0x170f88
 LabelGameObject::updateTextKerning - 0x1707dc
 LabelGameObject::getTextKerning - 0x199b20
 LabelGameObject::updateLabel - 0x170ba0
+LabelGameObject::updatePreviewLabel - 0x1707f0
 LeaderboardsLayer::create - 0x45bf64
 LeaderboardsLayer::scene - 0x45be78
 LeaderboardsLayer::keyBackClicked - 0x45dbec
@@ -4741,7 +4750,9 @@ LevelSettingsLayer::showPicker - 0x2094f0
 LevelSettingsLayer::updateColorSprite - 0x209530
 LevelSettingsLayer::updateColorSprites - 0x20824c
 LevelSettingsLayer::updateGameplayModeButtons - 0x208678
+LevelSettingsObject::create - 0xc52ec
 LevelSettingsObject::objectFromDict - 0xdb500
+LevelSettingsObject::objectFromString - 0xc6d84
 LevelSettingsObject::init - 0xdb388
 LevelSettingsObject::getSaveString - 0xcacc0
 LevelSettingsObject::setupColorsFromLegacyMode - 0xdcba8
