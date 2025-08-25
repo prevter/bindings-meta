@@ -3759,6 +3759,8 @@ SequenceTriggerGameObject::triggerObject - 0x49bd20
 SequenceTriggerGameObject::customObjectSetup - 0x49c140
 SequenceTriggerGameObject::getSaveString - 0x49c470
 SetColorIDPopup::colorSelectClosed - 0x294cf0
+SetColorIDPopup::init - 0x294aa0
+SetColorIDPopup::onSelectSpecialColor - 0x294c80
 SetFolderPopup::create - 0x294e90
 SetFolderPopup::valueChanged - 0x295250
 SetFolderPopup::setTextPopupClosed - 0x295590
@@ -3769,6 +3771,7 @@ SetGroupIDLayer::textInputClosed - 0x8b790
 SetGroupIDLayer::textChanged - 0x3e4400
 SetGroupIDLayer::callRemoveFromGroup - 0x3e5000
 SetGroupIDLayer::createTextInput - 0x3e34b0
+SetGroupIDLayer::determineStartValues - 0x3e3b50
 SetGroupIDLayer::init - 0x3e1260
 SetGroupIDLayer::onAddGroup - 0x3e52b0
 SetGroupIDLayer::onAddGroupParent - 0x3e5420
@@ -3786,7 +3789,10 @@ SetGroupIDLayer::onNextFreeOrderChannel - 0x3e5cc0
 SetGroupIDLayer::onNextGroupID1 - 0x3e48d0
 SetGroupIDLayer::onPaste - 0x3e3f30
 SetGroupIDLayer::onRemoveFromGroup - 0x3e51e0
+SetGroupIDLayer::onToggleGuide - 0x3e3380
 SetGroupIDLayer::onToggleSelectedOrder - 0x3e3410
+SetGroupIDLayer::onZLayer - 0x3e5520
+SetGroupIDLayer::onZLayerShift - 0x3e55e0
 SetGroupIDLayer::updateEditorLabel - 0x3e5920
 SetGroupIDLayer::updateEditorLabel2 - 0x3e59b0
 SetGroupIDLayer::updateGroupIDButtons - 0x3e4940
