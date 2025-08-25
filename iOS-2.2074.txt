@@ -2499,6 +2499,7 @@ EditLevelLayer::uploadActionFailed - 0xef70c
 EditLevelLayer::onClosePopup - 0xef5c8
 EditLevelLayer::confirmDelete - 0xee16c
 EditLevelLayer::init - 0xebed4
+EditLevelLayer::onBack - 0xee518
 EditLevelLayer::onEdit - 0xed344
 EditLevelLayer::onLevelInfo - 0xee63c
 EditLevelLayer::onPlay - 0xed444
@@ -3391,6 +3392,7 @@ GJGameLevel::dataLoaded - 0xb12f4
 GJGameLevel::getAudioFileName - 0xb0188
 GJGameLevel::getAverageDifficulty - 0xb0034
 GJGameLevel::getCoinKey - 0xa76cc
+GJGameLevel::getLastBuildPageForTab - 0xb0060
 GJGameLevel::getUnpackedLevelDescription - 0xb2c14
 GJGameLevel::handleStatsConflict - 0x9f82c
 GJGameLevel::saveNewScore - 0xb0314

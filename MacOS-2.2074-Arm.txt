@@ -2704,6 +2704,7 @@ EditLevelLayer::onClosePopup - 0x1a3864
 EditLevelLayer::confirmDelete - 0x1a1e40
 EditLevelLayer::confirmMoveToTop - 0x1a20d8
 EditLevelLayer::init - 0x19f95c
+EditLevelLayer::onBack - 0x1a22a4
 EditLevelLayer::onClone - 0x1a3618
 EditLevelLayer::onDelete - 0x1a3328
 EditLevelLayer::onEdit - 0x1a0ec4
@@ -3885,6 +3886,7 @@ GJGameLevel::demonIconForDifficulty - 0x4a1794
 GJGameLevel::getAudioFileName - 0x49e8d8
 GJGameLevel::getAverageDifficulty - 0x49e674
 GJGameLevel::getCoinKey - 0x48f96c
+GJGameLevel::getLastBuildPageForTab - 0x49e6a0
 GJGameLevel::getLengthKey - 0x49e560
 GJGameLevel::getUnpackedLevelDescription - 0x4a16d8
 GJGameLevel::handleStatsConflict - 0x482228
