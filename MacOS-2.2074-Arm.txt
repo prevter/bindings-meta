@@ -706,7 +706,8 @@ cocos2d::CCMouseDispatcher::forceRemoveDelegate - 0x4b0b8c
 cocos2d::CCMouseDispatcher::removeDelegate - 0x4b0ad4
 cocos2d::CCTouchHandler::~CCTouchHandler - 0x3dd690
 cocos2d::CCTouchHandler::getDelegate - 0x3dd4e4
-cocos2d::CCTouchHandler::getPriority - 0x3dd560
+cocos2d::CCTouchHandler::getPriority - 0x3dd558
+cocos2d::CCTouchHandler::setPriority - 0x3dd560
 cocos2d::CCTouchHandler::initWithDelegate - 0x3dd620
 cocos2d::CCTargetedTouchHandler::~CCTargetedTouchHandler - 0x3dda34
 cocos2d::CCTargetedTouchHandler::getClaimedTouches - 0x3dd8b8
