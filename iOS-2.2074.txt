@@ -2671,6 +2671,7 @@ EditorUI::playtestStopped - 0x3e68c0
 EditorUI::redoLastAction - 0x3bf964
 EditorUI::reloadCustomItems - 0x3e0d50
 EditorUI::removeOffset - 0x3e4998
+EditorUI::replaceGroupID - 0x3eb3fc
 EditorUI::repositionObjectsToCenter - 0x3e30e4
 EditorUI::resetSelectedObjectsColor - 0x3edf7c
 EditorUI::resetUI - 0x3dc538

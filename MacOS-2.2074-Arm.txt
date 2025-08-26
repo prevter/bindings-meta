@@ -2907,6 +2907,7 @@ EditorUI::processSelectObjects - 0x38398
 EditorUI::redoLastAction - 0xdb14
 EditorUI::reloadCustomItems - 0x30fac
 EditorUI::removeOffset - 0x35e00
+EditorUI::replaceGroupID - 0x3f3c0
 EditorUI::repositionObjectsToCenter - 0x34094
 EditorUI::resetSelectedObjectsColor - 0x43568
 EditorUI::resetUI - 0x2aeac
