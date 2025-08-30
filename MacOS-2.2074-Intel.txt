@@ -1098,6 +1098,7 @@ cocos2d::CCRenderTexture::visit - 0x5de800
 cocos2d::CCRenderTexture::getSprite - 0x5dd970
 cocos2d::CCRenderTexture::setSprite - 0x5dd980
 cocos2d::CCRepeat::create - 0x3a3110
+cocos2d::CCRepeat::~CCRepeat - 0x3a3400
 cocos2d::CCRepeat::copyWithZone - 0x3a32a0
 cocos2d::CCRepeat::update - 0x3a3540
 cocos2d::CCRepeat::isDone - 0x3a3670
