@@ -3051,6 +3051,7 @@ FMODAudioEngine::getBackgroundMusicVolume - 0x35ad68
 FMODAudioEngine::getChannelGroup - 0x358208
 FMODAudioEngine::getFMODStatus - 0x35dce4
 FMODAudioEngine::getMeteringValue - 0x35805c
+FMODAudioEngine::getMusicLengthMS - 0x35d400
 FMODAudioEngine::getMusicTimeMS - 0x35d310
 FMODAudioEngine::isMusicPlaying - 0x35aeb0
 FMODAudioEngine::isMusicPlaying - 0x35ada4

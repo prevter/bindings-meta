@@ -3050,6 +3050,7 @@ FMODAudioEngine::getBackgroundMusicVolume - 0x3d4880
 FMODAudioEngine::getChannelGroup - 0x3d1240
 FMODAudioEngine::getFMODStatus - 0x3d82b0
 FMODAudioEngine::getMeteringValue - 0x3d10a0
+FMODAudioEngine::getMusicLengthMS - 0x3d7750
 FMODAudioEngine::getMusicTimeMS - 0x3d7660
 FMODAudioEngine::isMusicPlaying - 0x3d4a20
 FMODAudioEngine::isMusicPlaying - 0x3d48f0
