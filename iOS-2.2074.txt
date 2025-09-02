@@ -2921,6 +2921,7 @@ GameLevelManager::getMainLevel - 0x95e78
 GameLevelManager::getMapPacks - 0xa1ab4
 GameLevelManager::getOnlineLevels - 0xa0fec
 GameLevelManager::getSavedDailyLevel - 0x9c644
+GameLevelManager::getSavedGauntletLevel - 0x9c6c8
 GameLevelManager::getSavedLevel - 0x98f70
 GameLevelManager::getSavedLevel - 0x9c74c
 GameLevelManager::getSavedLevelList - 0xa2a30
