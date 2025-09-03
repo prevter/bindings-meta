@@ -5573,6 +5573,7 @@ TextArea::update - 0xf9ff4
 TextArea::draw - 0xf9ff0
 TextArea::setOpacity - 0xf9e54
 TextArea::colorAllCharactersTo - 0xf9ec0
+TextArea::colorAllLabels - 0xf9f7c
 TextArea::fadeInCharacters - 0xfa140
 TextArea::setString - 0xf9ab8
 TextArea::stopAllCharacterActions - 0xf9d3c
