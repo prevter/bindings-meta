@@ -3154,6 +3154,9 @@ GameLevelManager::acceptFriendRequest - 0x53e840
 GameLevelManager::accountIDForUserID - 0x518ae0
 GameLevelManager::addDLToActive - 0x5228d0
 GameLevelManager::blockUser - 0x53f840
+GameLevelManager::createAndGetAccountComments - 0x539da0
+GameLevelManager::createAndGetCommentsFull - 0x539e30
+GameLevelManager::createAndGetLevelComments - 0x5399b0
 GameLevelManager::createAndGetLevelLists - 0x51b840
 GameLevelManager::createAndGetMapPacks - 0x51c2d0
 GameLevelManager::createAndGetScores - 0x51cf60
@@ -3247,6 +3250,7 @@ GameLevelManager::invalidateRequests - 0x53e480
 GameLevelManager::invalidateUserList - 0x540580
 GameLevelManager::isDLActive - 0x5227e0
 GameLevelManager::isFollowingUser - 0x523fe0
+GameLevelManager::levelIDFromCommentKey - 0x5398a0
 GameLevelManager::likeItem - 0x540b40
 GameLevelManager::limitSavedLevels - 0x5236b0
 GameLevelManager::makeTimeStamp - 0x522290
@@ -3324,9 +3328,11 @@ GameLevelManager::saveLevel - 0x521650
 GameLevelManager::setBoolForKey - 0x544920
 GameLevelManager::setFolderName - 0x524790
 GameLevelManager::setIntForKey - 0x544720
+GameLevelManager::storeCommentsResult - 0x537d50
 GameLevelManager::storeDailyLevelState - 0x543800
 GameLevelManager::storeFriendRequest - 0x536f90
 GameLevelManager::storeSearchResult - 0x521fe0
+GameLevelManager::storeUserInfo - 0x536a60
 GameLevelManager::storeUserName - 0x5181b0
 GameLevelManager::storeUserNames - 0x5179d0
 GameLevelManager::submitUserInfo - 0x533e90
@@ -3936,6 +3942,8 @@ GJFollowCommandLayer::updateTargetGroupID - 0x2c3ea0
 GJFollowCommandLayer::updateTargetGroupID2 - 0x2c3f40
 GJFollowCommandLayer::updateXMod - 0x2c3da0
 GJFollowCommandLayer::updateYMod - 0x2c3e20
+GJFriendRequest::create - 0x549cf0
+GJFriendRequest::create - 0x536a90
 GJFriendRequest::init - 0x549d80
 GJGameLevel::create - 0x5168e0
 GJGameLevel::create - 0x519030
