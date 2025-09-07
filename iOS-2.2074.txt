@@ -3372,6 +3372,7 @@ GJBaseGameLayer::preResumeGame - 0x200998
 GJBaseGameLayer::processActivatedAudioTriggers - 0x208724
 GJBaseGameLayer::processAdvancedFollowActions - 0x1fa914
 GJBaseGameLayer::processAreaActions - 0x1f822c
+GJBaseGameLayer::processCameraObject - 0x1e7138
 GJBaseGameLayer::processCommands - 0x201880
 GJBaseGameLayer::processDynamicObjectActions - 0x1f91ac
 GJBaseGameLayer::processFollowActions - 0x1faabc
@@ -3415,6 +3416,9 @@ GJBaseGameLayer::spawnPlayer2 - 0x1eb934
 GJBaseGameLayer::speedForShaderTarget - 0x1f36d4
 GJBaseGameLayer::stopCameraShake - 0x20569c
 GJBaseGameLayer::switchToFlyMode - 0x1e7904
+GJBaseGameLayer::switchToRobotMode - 0x1e7a7c
+GJBaseGameLayer::switchToRollMode - 0x1e7a14
+GJBaseGameLayer::switchToSpiderMode - 0x1e7ae4
 GJBaseGameLayer::syncBGTextures - 0x204004
 GJBaseGameLayer::teleportPlayer - 0x1e53a8
 GJBaseGameLayer::toggleAudioVisualizer - 0x1dc3c8
@@ -3481,8 +3485,10 @@ GJEffectManager::preCollisionCheck - 0x13ca4
 GJEffectManager::prepareMoveActions - 0x16a74
 GJEffectManager::processColors - 0x12d30
 GJEffectManager::removePersistentFromAllItems - 0x19ab4
+GJEffectManager::removeTriggeredID - 0x190a4
 GJEffectManager::reset - 0x128dc
 GJEffectManager::resetEffects - 0x12994
+GJEffectManager::storeTriggeredID - 0x19070
 GJEffectManager::tryGetMoveCommandNode - 0x1667c
 GJEffectManager::updateCountForItem - 0x19748
 GJEffectManager::updateEffects - 0x137b4
@@ -4624,6 +4630,7 @@ PlayerObject::resetTouchedRings - 0x22798c
 PlayerObject::reversePlayer - 0x2297ac
 PlayerObject::ringJump - 0x228ac0
 PlayerObject::rotateGameplay - 0x227648
+PlayerObject::rotateGameplayOnly - 0x229e20
 PlayerObject::runBallRotation - 0x21f098
 PlayerObject::runNormalRotation - 0x21c204
 PlayerObject::runRotateAction - 0x21df28

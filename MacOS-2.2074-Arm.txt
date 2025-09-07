@@ -3905,6 +3905,7 @@ GJEffectManager::processColors - 0x26d6d0
 GJEffectManager::processCopyColorPulseActions - 0x26dc58
 GJEffectManager::processInheritedColors - 0x26d980
 GJEffectManager::removePersistentFromAllItems - 0x2780a0
+GJEffectManager::removeTriggeredID - 0x276e68
 GJEffectManager::reset - 0x26cb18
 GJEffectManager::resetEffects - 0x26cc10
 GJEffectManager::setColorAction - 0x26e4cc
@@ -5367,6 +5368,7 @@ PlayerObject::resetTouchedRings - 0x37f644
 PlayerObject::reversePlayer - 0x382044
 PlayerObject::ringJump - 0x380dec
 PlayerObject::rotateGameplay - 0x37f1a8
+PlayerObject::rotateGameplayOnly - 0x38270c
 PlayerObject::runBallRotation - 0x3732c0
 PlayerObject::runNormalRotation - 0x3731e8
 PlayerObject::runNormalRotation - 0x36f618
