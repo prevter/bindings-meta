@@ -1808,17 +1808,21 @@ GameObject::getStartPos - 0x1e1bd0
 GameObject::addColorSprite - 0x58cc00
 GameObject::addColorSpriteToParent - 0x592300
 GameObject::addColorSpriteToSelf - 0x5a6020
+GameObject::addCustomBlackChild - 0x5a30a0
 GameObject::addCustomChild - 0x5a3240
 GameObject::addCustomColorChild - 0x5a32e0
 GameObject::addEmptyGlow - 0x58ca90
 GameObject::addGlow - 0x58a5c0
+GameObject::addInternalChild - 0x5a3480
 GameObject::addInternalCustomColorChild - 0x5a33d0
+GameObject::addInternalGlowChild - 0x5a3510
 GameObject::assignUniqueID - 0x58a5a0
 GameObject::canRotateFree - 0x5a64b0
 GameObject::colorForMode - 0x5b2260
 GameObject::commonSetup - 0x58a320
 GameObject::copyGroups - 0x5a66d0
 GameObject::createAndAddParticle - 0x59d770
+GameObject::createGlow - 0x58c9f0
 GameObject::createSpriteColor - 0x58a4e0
 GameObject::determineSlopeDirection - 0x5a6120
 GameObject::disableObject - 0x5a5400
@@ -2540,6 +2544,7 @@ CustomSFXCell::init - 0x2421a0
 CustomSFXCell::draw - 0x2422a0
 CustomSFXCell::sfxObjectSelected - 0x2421c0
 CustomSFXCell::getActiveSFXID - 0x242240
+CustomSFXWidget::create - 0x5ca6b0
 CustomSFXWidget::downloadSFXFinished - 0x5cc910
 CustomSFXWidget::downloadSFXFailed - 0x5cc9b0
 CustomSFXWidget::songStateChanged - 0x5cc8a0
@@ -2548,6 +2553,9 @@ CustomSFXWidget::deleteSFX - 0x5cc3f0
 CustomSFXWidget::init - 0x5ca7d0
 CustomSFXWidget::onCancelDownload - 0x5cb850
 CustomSFXWidget::onDelete - 0x5cb890
+CustomSFXWidget::onDownload - 0x5cb6f0
+CustomSFXWidget::onPlayback - 0x5cb9a0
+CustomSFXWidget::onSelect - 0x5cb970
 CustomSFXWidget::updateError - 0x5ccaa0
 CustomSFXWidget::updateSFXInfo - 0x5cbcc0
 CustomSongLayer::create - 0x202fb0
@@ -5310,6 +5318,7 @@ PlayerObject::createRobot - 0x3ea2a0
 PlayerObject::createSpider - 0x3ea650
 PlayerObject::deactivateParticle - 0x3efb60
 PlayerObject::deactivateStreak - 0x3eb090
+PlayerObject::destroyFromHitHead - 0x407b10
 PlayerObject::didHitHead - 0x3fbb50
 PlayerObject::disablePlayerControls - 0x409140
 PlayerObject::disableSwingFire - 0x402500
@@ -5326,6 +5335,9 @@ PlayerObject::init - 0x3e8970
 PlayerObject::isFlying - 0x3efb00
 PlayerObject::isInBasicMode - 0x3fcbc0
 PlayerObject::isInNormalMode - 0x3ee1c0
+PlayerObject::isSafeFlip - 0x3fa350
+PlayerObject::isSafeHeadTest - 0x409d60
+PlayerObject::isSafeMode - 0x3fa310
 PlayerObject::levelFlipping - 0x3efb30
 PlayerObject::levelWillFlip - 0x3f1930
 PlayerObject::loadFromCheckpoint - 0x40a910
@@ -6164,6 +6176,7 @@ SetupSFXPopup::sfxObjectSelected - 0x4a7230
 SetupSFXPopup::getActiveSFXID - 0x4a7250
 SetupSFXPopup::overridePlaySFX - 0x4a7270
 SetupSFXPopup::sfxBrowserClosed - 0x4a74d0
+SetupSFXPopup::createSFXWidget - 0x4a6c60
 SetupSFXPopup::init - 0x4a5870
 SetupShaderEffectPopup::toggleGroup - 0x2bd2d0
 SetupShaderEffectPopup::onClose - 0x2bd310

@@ -209,13 +209,16 @@ GameObject::addColorSpriteToParent - 0x199040
 GameObject::addColorSpriteToSelf - 0x199240
 GameObject::addCustomChild - 0x194330
 GameObject::addCustomColorChild - 0x1943f0
+GameObject::addEmptyGlow - 0x18b6e0
 GameObject::addGlow - 0x18af60
 GameObject::addInternalCustomColorChild - 0x194530
+GameObject::addInternalGlowChild - 0x194600
 GameObject::addRotation - 0x194d50
 GameObject::colorForMode - 0x19f010
 GameObject::commonSetup - 0x18ad70
 GameObject::copyGroups - 0x1999c0
 GameObject::createAndAddParticle - 0x195ba0
+GameObject::createGlow - 0x18b750
 GameObject::createGroupContainer - 0x199740
 GameObject::determineSlopeDirection - 0x199340
 GameObject::duplicateAttributes - 0x19ed00
