@@ -1964,6 +1964,7 @@ ArtistCell::loadFromObject - 0x235770
 ArtTriggerGameObject::triggerObject - 0x1db7e0
 ArtTriggerGameObject::customObjectSetup - 0x1db780
 ArtTriggerGameObject::getSaveString - 0x1db260
+AudioAssetsBrowser::create - 0x79e830
 AudioAssetsBrowser::registerWithTouchDispatcher - 0x79fa30
 AudioAssetsBrowser::keyBackClicked - 0x79f9c0
 AudioAssetsBrowser::musicActionFinished - 0x79f8e0
