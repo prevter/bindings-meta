@@ -1819,6 +1819,7 @@ GameObject::addInternalGlowChild - 0x5a3510
 GameObject::assignUniqueID - 0x58a5a0
 GameObject::canRotateFree - 0x5a64b0
 GameObject::colorForMode - 0x5b2260
+GameObject::commonInteractiveSetup - 0x59d6a0
 GameObject::commonSetup - 0x58a320
 GameObject::copyGroups - 0x5a66d0
 GameObject::createAndAddParticle - 0x59d770
@@ -1904,6 +1905,7 @@ EffectGameObject::getObjectLabel - 0x1e1d20
 EffectGameObject::setObjectLabel - 0x1e1d30
 EffectGameObject::stateSensitiveOff - 0x1a9f90
 EffectGameObject::init - 0x174830
+EffectGameObject::playTriggerEffect - 0x1a8220
 EffectGameObject::setTargetID - 0x192130
 EffectGameObject::setTargetID2 - 0x192150
 EffectGameObject::updateSpecialColor - 0x1aa0b0
@@ -1974,6 +1976,7 @@ AudioAssetsBrowser::getSelectedCellIdx - 0x79f970
 AudioAssetsBrowser::getCellDelegateType - 0x79f990
 AudioAssetsBrowser::init - 0x79e9b0
 AudioAssetsBrowser::onInfo - 0x79ef60
+AudioEffectsLayer::create - 0x49c150
 AudioEffectsLayer::draw - 0x49cba0
 AudioEffectsLayer::updateTweenAction - 0x49ca70
 AudioEffectsLayer::audioStep - 0x49c860
@@ -2650,6 +2653,7 @@ RingObject::triggerActivated - 0x1a33a0
 RingObject::shouldDrawEditorHitbox - 0x1a3590
 RingObject::powerOnObject - 0x1a33b0
 RingObject::init - 0x1a3340
+RingObject::spawnCircle - 0x1a3410
 DashRingObject::customObjectSetup - 0x1a4340
 DashRingObject::getSaveString - 0x1a44b0
 DemonFilterSelectLayer::~DemonFilterSelectLayer - 0x618820
@@ -3330,6 +3334,7 @@ GameLevelManager::requestUserAccess - 0x5419f0
 GameLevelManager::resetCommentTimersForLevelID - 0x53c490
 GameLevelManager::resetDailyLevelState - 0x543920
 GameLevelManager::resetStoredUserInfo - 0x536fc0
+GameLevelManager::resetStoredUserList - 0x53ed30
 GameLevelManager::resetTimerForKey - 0x522d00
 GameLevelManager::restoreItems - 0x543a30
 GameLevelManager::saveFetchedLevels - 0x51b540
@@ -3725,6 +3730,7 @@ GJBaseGameLayer::collisionCheckObjects - 0x116130
 GJBaseGameLayer::createBackground - 0x1030e0
 GJBaseGameLayer::createGroundLayer - 0x103660
 GJBaseGameLayer::createMiddleground - 0x103870
+GJBaseGameLayer::createParticle - 0x14c650
 GJBaseGameLayer::createPlayer - 0x102d80
 GJBaseGameLayer::createPlayerCollisionBlock - 0x11a410
 GJBaseGameLayer::createTextLayers - 0x10f2e0
@@ -3885,6 +3891,7 @@ GJDifficultySprite::updateFeatureStateFromLevel - 0x2a38f0
 GJEffectManager::init - 0x2c8f30
 GJEffectManager::activeColorForIndex - 0x2ca350
 GJEffectManager::activeOpacityForIndex - 0x2ca4b0
+GJEffectManager::calculateLightBGColor - 0x2d8f40
 GJEffectManager::colorActionChanged - 0x2cb670
 GJEffectManager::colorExists - 0x2cb640
 GJEffectManager::colorForGroupID - 0x2d5730
@@ -3892,6 +3899,7 @@ GJEffectManager::colorForPulseEffect - 0x2cb400
 GJEffectManager::countForItem - 0x2d6930
 GJEffectManager::getColorAction - 0x2ca1e0
 GJEffectManager::getColorSprite - 0x2ca3a0
+GJEffectManager::getMixedColor - 0x2d90d0
 GJEffectManager::getSaveString - 0x2d9360
 GJEffectManager::hasBeenTriggered - 0x2d5fd0
 GJEffectManager::loadFromState - 0x2da290
@@ -5345,6 +5353,7 @@ PlayerObject::levelWillFlip - 0x3f1930
 PlayerObject::loadFromCheckpoint - 0x40a910
 PlayerObject::lockPlayer - 0x408fe0
 PlayerObject::placeStreakPoint - 0x3f18a0
+PlayerObject::playBumpEffect - 0x409610
 PlayerObject::playCompleteEffect - 0x2024c0
 PlayerObject::playDeathEffect - 0x1fa350
 PlayerObject::playerDestroyed - 0x402270
@@ -5377,6 +5386,9 @@ PlayerObject::saveToCheckpoint - 0x40a6b0
 PlayerObject::setSecondColor - 0x3ec3a0
 PlayerObject::setupStreak - 0x3eab20
 PlayerObject::setYVelocity - 0x3ea920
+PlayerObject::spawnCircle - 0x401d20
+PlayerObject::spawnDualCircle - 0x402130
+PlayerObject::spawnPortalCircle - 0x401eb0
 PlayerObject::spawnScaleCircle - 0x401fe0
 PlayerObject::spiderTestJump - 0x3f1ae0
 PlayerObject::spiderTestJumpInternal - 0x3fbe50
@@ -5465,6 +5477,8 @@ PlayLayer::currencyWillExit - 0xbb5b0
 PlayLayer::circleWaveWillBeRemoved - 0xbb650
 PlayLayer::dialogClosed - 0xbb5f0
 PlayLayer::addObject - 0xb2190
+PlayLayer::applyCustomEnterEffect - 0xb8c90
+PlayLayer::applyEnterEffect - 0xb9650
 PlayLayer::canPauseGame - 0xbf270
 PlayLayer::createCheckpoint - 0xbbd00
 PlayLayer::createObjectsFromSetupFinished - 0xb7490
@@ -5516,6 +5530,7 @@ PlayLayer::togglePracticeMode - 0xbeca0
 PlayLayer::updateAttempts - 0xbeeb0
 PlayLayer::updateEffectPositions - 0xbb690
 PlayLayer::updateInfoLabel - 0xafdc0
+PlayLayer::updateInvisibleBlock - 0xb8a10
 PlayLayer::updateProgressbar - 0xb1c20
 PlayLayer::updateTestModeLabel - 0xb3d10
 PointNode::create - 0x9d620

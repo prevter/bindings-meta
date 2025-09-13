@@ -215,6 +215,7 @@ GameObject::addInternalCustomColorChild - 0x194530
 GameObject::addInternalGlowChild - 0x194600
 GameObject::addRotation - 0x194d50
 GameObject::colorForMode - 0x19f010
+GameObject::commonInteractiveSetup - 0x193e00
 GameObject::commonSetup - 0x18ad70
 GameObject::copyGroups - 0x1999c0
 GameObject::createAndAddParticle - 0x195ba0
@@ -1568,6 +1569,7 @@ GameLevelManager::getSplitIntFromKey - 0x15b010
 GameLevelManager::getStarLevelsString - 0x145bf0
 GameLevelManager::getStoredLevelComments - 0x15b420
 GameLevelManager::getStoredOnlineLevels - 0x147780
+GameLevelManager::getStoredUserList - 0x1606b0
 GameLevelManager::getTimeLeft - 0x147dd0
 GameLevelManager::getTopArtists - 0x156a20
 GameLevelManager::getUserList - 0x15ffa0
@@ -1579,7 +1581,6 @@ GameLevelManager::hasDownloadedLevel - 0x151630
 GameLevelManager::hasLikedItem - 0x1623d0
 GameLevelManager::hasLikedItemFullCheck - 0x162340
 GameLevelManager::hasRatedDemon - 0x152280
-GameLevelManager::invalidateUserList - 0x160840
 GameLevelManager::isDLActive - 0x147960
 GameLevelManager::isFollowingUser - 0x148840
 GameLevelManager::isTimeValid - 0x147c90
@@ -1642,6 +1643,7 @@ GameLevelManager::removeFriend - 0x15efa0
 GameLevelManager::reportLevel - 0x167830
 GameLevelManager::requestUserAccess - 0x161cd0
 GameLevelManager::resetCommentTimersForLevelID - 0x15c770
+GameLevelManager::resetStoredUserList - 0x160840
 GameLevelManager::resetTimerForKey - 0x147fe0
 GameLevelManager::saveFetchedLevels - 0x144960
 GameLevelManager::saveLevel - 0x146d40
@@ -1963,6 +1965,7 @@ GJBaseGameLayer::convertToClosestDirection - 0x2295d0
 GJBaseGameLayer::createBackground - 0x2064e0
 GJBaseGameLayer::createGroundLayer - 0x206920
 GJBaseGameLayer::createMiddleground - 0x2067a0
+GJBaseGameLayer::createParticle - 0x23a060
 GJBaseGameLayer::createPlayer - 0x205fd0
 GJBaseGameLayer::createPlayerCollisionBlock - 0x212e90
 GJBaseGameLayer::createTextLayers - 0x209960
@@ -2143,6 +2146,7 @@ GJEffectManager::create - 0x2538f0
 GJEffectManager::init - 0x253950
 GJEffectManager::calculateBaseActiveColors - 0x2540d0
 GJEffectManager::calculateInheritedColor - 0x2544b0
+GJEffectManager::calculateLightBGColor - 0x25c090
 GJEffectManager::colorForGroupID - 0x25a780
 GJEffectManager::colorForPulseEffect - 0x25a3d0
 GJEffectManager::controlActionsForControlID - 0x2566c0
@@ -3498,7 +3502,10 @@ PlayerObject::saveToCheckpoint - 0x38b980
 PlayerObject::setSecondColor - 0x387610
 PlayerObject::setupStreak - 0x372a50
 PlayerObject::setYVelocity - 0x372fa0
+PlayerObject::spawnCircle - 0x381780
+PlayerObject::spawnDualCircle - 0x381d40
 PlayerObject::spawnPortalCircle - 0x381930
+PlayerObject::spawnScaleCircle - 0x381b40
 PlayerObject::spiderTestJump - 0x37e510
 PlayerObject::spiderTestJumpInternal - 0x37e5c0
 PlayerObject::startDashing - 0x37fae0

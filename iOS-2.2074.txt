@@ -1750,6 +1750,7 @@ GameObject::addGlow - 0x254034
 GameObject::addInternalCustomColorChild - 0x259b68
 GameObject::addInternalGlowChild - 0x259c18
 GameObject::colorForMode - 0x261330
+GameObject::commonInteractiveSetup - 0x25893c
 GameObject::createAndAddParticle - 0x2589ec
 GameObject::createGlow - 0x254544
 GameObject::determineSlopeDirection - 0x25c100
@@ -1818,6 +1819,7 @@ EffectGameObject::canBeOrdered - 0x37f714
 EffectGameObject::getObjectLabel - 0x3922c0
 EffectGameObject::setObjectLabel - 0x3922c8
 EffectGameObject::stateSensitiveOff - 0x37f260
+EffectGameObject::playTriggerEffect - 0x37df38
 EffectGameObject::setTargetID - 0x3756ec
 EffectGameObject::setTargetID2 - 0x375704
 EffectGameObject::updateSpecialColor - 0x37f374
@@ -1976,7 +1978,9 @@ CCCircleWave::setPosition - 0x16f8d0
 CCCircleWave::removeMeAndCleanup - 0x16fc40
 CCCircleWave::draw - 0x16fb18
 CCCircleWave::updateTweenAction - 0x16f9e0
+CCCircleWave::followObject - 0x16f950
 CCCircleWave::init - 0x16f708
+CCCircleWave::updatePosition - 0x16f904
 CCContentLayer::setPosition - 0x1921c4
 CCCounterLabel::create - 0x3ec2c
 CCLightFlash::~CCLightFlash - 0x35738
@@ -2454,6 +2458,7 @@ RingObject::setRScale - 0x37b60c
 RingObject::triggerActivated - 0x37b46c
 RingObject::shouldDrawEditorHitbox - 0x37b638
 RingObject::powerOnObject - 0x37b478
+RingObject::spawnCircle - 0x37b4d0
 DashRingObject::customObjectSetup - 0x37bacc
 DashRingObject::getSaveString - 0x37bc10
 DemonFilterSelectLayer::~DemonFilterSelectLayer - 0x5a8c4
@@ -2943,6 +2948,7 @@ GameLevelManager::getSavedLevels - 0x9afb4
 GameLevelManager::getSearchScene - 0x9d558
 GameLevelManager::getSplitIntFromKey - 0xa530c
 GameLevelManager::getStoredOnlineLevels - 0x9d020
+GameLevelManager::getStoredUserList - 0xac918
 GameLevelManager::getTopArtists - 0xa774c
 GameLevelManager::getUserList - 0xacef4
 GameLevelManager::getUserMessages - 0xa8114
@@ -2952,6 +2958,7 @@ GameLevelManager::handleIt - 0x8c0bc
 GameLevelManager::hasDownloadedLevel - 0xa3854
 GameLevelManager::hasLikedItemFullCheck - 0xad8d4
 GameLevelManager::invalidateMessages - 0xa9250
+GameLevelManager::invalidateUserList - 0xad0b0
 GameLevelManager::isDLActive - 0x9d250
 GameLevelManager::isFollowingUser - 0x9df80
 GameLevelManager::levelIDFromCommentKey - 0xa9854
@@ -3021,6 +3028,7 @@ GameLevelManager::removeFriend - 0xac6e0
 GameLevelManager::reportLevel - 0xaefa4
 GameLevelManager::requestUserAccess - 0xadc30
 GameLevelManager::resetCommentTimersForLevelID - 0xab1bc
+GameLevelManager::resetStoredUserList - 0xac410
 GameLevelManager::saveFetchedLevels - 0x98dac
 GameLevelManager::saveLevel - 0x9c808
 GameLevelManager::setBoolForKey - 0xaf5bc
@@ -3326,6 +3334,7 @@ GJBaseGameLayer::collisionCheckObjects - 0x1e9420
 GJBaseGameLayer::createBackground - 0x1dea24
 GJBaseGameLayer::createGroundLayer - 0x1def60
 GJBaseGameLayer::createMiddleground - 0x1df0e8
+GJBaseGameLayer::createParticle - 0x2068c0
 GJBaseGameLayer::createPlayer - 0x1de6e4
 GJBaseGameLayer::createPlayerCollisionBlock - 0x1ec548
 GJBaseGameLayer::createTextLayers - 0x1e4644
@@ -3472,12 +3481,14 @@ GJDifficultySprite::updateFeatureState - 0x2e56ac
 GJDifficultySprite::updateFeatureStateFromLevel - 0x2e5674
 GJEffectManager::init - 0x125e8
 GJEffectManager::addCountToItem - 0x196d4
+GJEffectManager::calculateLightBGColor - 0x1a4e8
 GJEffectManager::colorExists - 0x13770
 GJEffectManager::colorForGroupID - 0x18ca8
 GJEffectManager::colorForPulseEffect - 0x13580
 GJEffectManager::countForItem - 0x19694
 GJEffectManager::getColorAction - 0x12b80
 GJEffectManager::getColorSprite - 0x12c50
+GJEffectManager::getMixedColor - 0x1a5d4
 GJEffectManager::playerButton - 0x1921c
 GJEffectManager::postCollisionCheck - 0x13cbc
 GJEffectManager::postMoveActions - 0x180fc
@@ -4024,6 +4035,7 @@ LevelEditorLayer::removeObject - 0x35aedc
 LevelEditorLayer::removeSpecial - 0x35af54
 LevelEditorLayer::resetToggledGroupsAndObjects - 0x361304
 LevelEditorLayer::rotationForSlopeNearObject - 0x35a114
+LevelEditorLayer::toggleGround - 0x358ba0
 LevelEditorLayer::transferDefaultColors - 0x35fdcc
 LevelEditorLayer::tryUpdateSpeedObject - 0x35db50
 LevelEditorLayer::typeExistsAtPosition - 0x359ca0
@@ -4608,6 +4620,7 @@ PlayerObject::levelFlipping - 0x21d2fc
 PlayerObject::loadFromCheckpoint - 0x22e1c0
 PlayerObject::lockPlayer - 0x22d0b8
 PlayerObject::placeStreakPoint - 0x21e8b8
+PlayerObject::playBumpEffect - 0x22d428
 PlayerObject::playCompleteEffect - 0x60a60
 PlayerObject::playDeathEffect - 0x5b138
 PlayerObject::playerDestroyed - 0x22853c
@@ -4637,6 +4650,10 @@ PlayerObject::runRotateAction - 0x21df28
 PlayerObject::setSecondColor - 0x21af40
 PlayerObject::setupStreak - 0x219cd4
 PlayerObject::setYVelocity - 0x219b38
+PlayerObject::spawnCircle - 0x2280e4
+PlayerObject::spawnDualCircle - 0x228414
+PlayerObject::spawnPortalCircle - 0x2281c4
+PlayerObject::spawnScaleCircle - 0x2282e0
 PlayerObject::spiderTestJump - 0x21ea64
 PlayerObject::spiderTestJumpInternal - 0x225474
 PlayerObject::startDashing - 0x226cc0
@@ -4722,6 +4739,8 @@ PlayLayer::currencyWillExit - 0x122f34
 PlayLayer::circleWaveWillBeRemoved - 0x122f94
 PlayLayer::dialogClosed - 0x122f60
 PlayLayer::addObject - 0x11bef8
+PlayLayer::applyCustomEnterEffect - 0x120d98
+PlayLayer::applyEnterEffect - 0x121518
 PlayLayer::canPauseGame - 0x125b68
 PlayLayer::createCheckpoint - 0x123594
 PlayLayer::createObjectsFromSetupFinished - 0x11fdcc
@@ -4767,6 +4786,7 @@ PlayLayer::toggleIgnoreDamage - 0x1191f4
 PlayLayer::togglePracticeMode - 0x125760
 PlayLayer::updateAttempts - 0x1258d4
 PlayLayer::updateInfoLabel - 0x11b150
+PlayLayer::updateInvisibleBlock - 0x120b50
 PlayLayer::updateProgressbar - 0x11bb80
 PlayLayer::updateTestModeLabel - 0x11d4e8
 PointNode::create - 0x61d5c
