@@ -426,6 +426,8 @@ cocos2d::CCProgressTimer::create - 0x3f5550
 cocos2d::CCProgressTimer::initWithSprite - 0x3f55a8
 cocos2d::CCProgressTimer::setPercentage - 0x3f5678
 cocos2d::CCProgressTimer::setSprite - 0x3f56c4
+cocos2d::CCProgressTimer::CCProgressTimer - 0x3f54cc
+cocos2d::CCProgressTimer::~CCProgressTimer - 0x3f5744
 cocos2d::CCProgressTimer::boundaryTexCoord - 0x3f62fc
 cocos2d::CCProgressTimer::textureCoordFromAlphaPoint - 0x3f58f4
 cocos2d::CCProgressTimer::updateBar - 0x3f5de0

@@ -514,6 +514,8 @@ cocos2d::CCProgressTimer::create - 0x5ec770
 cocos2d::CCProgressTimer::setPercentage - 0x5ec9f0
 cocos2d::CCProgressTimer::setSprite - 0x5eca70
 cocos2d::CCProgressTimer::setType - 0x5ecc80
+cocos2d::CCProgressTimer::CCProgressTimer - 0x5ec630
+cocos2d::CCProgressTimer::~CCProgressTimer - 0x5ecb00
 cocos2d::CCProgressTimer::getColor - 0x5ece50
 cocos2d::CCProgressTimer::getOpacity - 0x5ecf50
 cocos2d::CCProgressTimer::draw - 0x5eeda0
