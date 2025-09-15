@@ -4373,6 +4373,7 @@ GravityEffectSprite::create - 0x9d8c0
 GravityEffectSprite::init - 0xae348
 GravityEffectSprite::draw - 0xae56c
 GravityEffectSprite::updateSpritesColor - 0xa97a4
+HardStreak::create - 0x8f63c
 HardStreak::init - 0x8f704
 HardStreak::addPoint - 0x8ffec
 HardStreak::createDuplicate - 0x90354
