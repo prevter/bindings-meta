@@ -2345,11 +2345,13 @@ CustomizeObjectLayer::onNextColorChannel - 0x53974
 CustomizeObjectLayer::onSelectColor - 0x534a4
 CustomizeObjectLayer::onSelectMode - 0x52f90
 CustomizeObjectLayer::onUpdateCustomColor - 0x53524
+CustomizeObjectLayer::sliderChanged - 0x536d4
 CustomizeObjectLayer::toggleVisible - 0x542c0
 CustomizeObjectLayer::updateChannelLabel - 0x53ce0
 CustomizeObjectLayer::updateColorSprite - 0x53c10
 CustomizeObjectLayer::updateCustomColorLabels - 0x535ac
 CustomizeObjectLayer::updateHSVButtons - 0x53348
+CustomizeObjectLayer::updateKerningLabel - 0x53720
 CustomizeObjectLayer::updateSelected - 0x53f4c
 CustomizeObjectSettingsPopup::onClose - 0x54abc
 CustomizeObjectSettingsPopup::onCustomToggleTriggerValue - 0x54a3c
@@ -3079,6 +3081,7 @@ GameManager::followTwitch - 0x317578
 GameManager::followTwitter - 0x317480
 GameManager::getBGTexture - 0x318e30
 GameManager::getFontFile - 0x318378
+GameManager::getFontTexture - 0x3183e0
 GameManager::getGameVariable - 0x312374
 GameManager::getIconRequestID - 0x3182c0
 GameManager::getIntGameVariable - 0x319324
@@ -3204,6 +3207,7 @@ GameToolbox::getRelativeOffset - 0x47e70
 GameToolbox::getTimeString - 0x49338
 GameToolbox::hsvFromString - 0x487fc
 GameToolbox::intToShortString - 0x4bd08
+GameToolbox::intToString - 0x4bc24
 GameToolbox::mergeDictsSaveLargestInt - 0x48050
 GameToolbox::mergeDictsSkipConflict - 0x48188
 GameToolbox::msToTimeString - 0x4c158
@@ -4758,6 +4762,8 @@ PlayLayer::loadFromCheckpoint - 0x124b9c
 PlayLayer::loadLastCheckpoint - 0x124b50
 PlayLayer::markCheckpoint - 0x123284
 PlayLayer::onQuit - 0x11d45c
+PlayLayer::optimizeColorGroups - 0x11a5b8
+PlayLayer::optimizeOpacityGroups - 0x11a718
 PlayLayer::pauseGame - 0x125b90
 PlayLayer::playEndAnimationToPos - 0x11f5e0
 PlayLayer::playPlatformerEndAnimationToPos - 0x11f9e8
@@ -4770,6 +4776,8 @@ PlayLayer::resetLevel - 0x11ca00
 PlayLayer::resetLevelFromStart - 0x12584c
 PlayLayer::resume - 0x125de8
 PlayLayer::resumeAndRestart - 0x125cc0
+PlayLayer::scanActiveSaveObjects - 0x11aef4
+PlayLayer::scanDynamicSaveObjects - 0x11a878
 PlayLayer::setupHasCompleted - 0x119a3c
 PlayLayer::showCompleteEffect - 0x11e048
 PlayLayer::showCompleteText - 0x11e3a0

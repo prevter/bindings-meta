@@ -2522,6 +2522,7 @@ CustomizeObjectLayer::onNextColorChannel - 0x1e6190
 CustomizeObjectLayer::onSelectColor - 0x1e5a90
 CustomizeObjectLayer::onSelectMode - 0x1e5500
 CustomizeObjectLayer::onUpdateCustomColor - 0x1e5b40
+CustomizeObjectLayer::sliderChanged - 0x1e5e50
 CustomizeObjectLayer::toggleVisible - 0x1e7220
 CustomizeObjectLayer::updateChannelLabel - 0x1e6680
 CustomizeObjectLayer::updateColorSprite - 0x1e65b0
@@ -3057,6 +3058,8 @@ FMODAudioEngine::sharedEngine - 0x3c9e70
 FMODAudioEngine::update - 0x3cc160
 FMODAudioEngine::channelForChannelID - 0x3cd8a0
 FMODAudioEngine::clearAllAudio - 0x3cb330
+FMODAudioEngine::disableMetering - 0x3d1090
+FMODAudioEngine::enableMetering - 0x3d1060
 FMODAudioEngine::fadeInBackgroundMusic - 0x3d4840
 FMODAudioEngine::fadeInMusic - 0x3d4f80
 FMODAudioEngine::fadeOutMusic - 0x3d7e20
@@ -3399,6 +3402,7 @@ GameManager::followTwitch - 0x36d1e0
 GameManager::followTwitter - 0x36d100
 GameManager::getBGTexture - 0x370460
 GameManager::getFontFile - 0x36fa00
+GameManager::getFontTexture - 0x36fa60
 GameManager::getGameVariable - 0x363b40
 GameManager::getGTexture - 0x370500
 GameManager::getIntGameVariable - 0x370ca0
@@ -3750,6 +3754,7 @@ GJBaseGameLayer::getOtherPlayer - 0x1128b0
 GJBaseGameLayer::gravBumpPlayer - 0x117ef0
 GJBaseGameLayer::handleButton - 0x13afc0
 GJBaseGameLayer::hasUniqueCoin - 0x118460
+GJBaseGameLayer::increaseBatchNodeCapacity - 0x104150
 GJBaseGameLayer::lightningFlash - 0x110c50
 GJBaseGameLayer::loadGroupParentsFromString - 0x12d9a0
 GJBaseGameLayer::loadLevelSettings - 0x147920
@@ -3854,6 +3859,7 @@ GJBaseGameLayer::updateExtraGameLayers - 0x12c410
 GJBaseGameLayer::updateGradientLayers - 0x129310
 GJBaseGameLayer::updateGuideArt - 0x143360
 GJBaseGameLayer::updateKeyframeOrder - 0x13b9d0
+GJBaseGameLayer::updateLayerCapacity - 0x1042f0
 GJBaseGameLayer::updateLevelColors - 0x103350
 GJBaseGameLayer::updateMaxGameplayY - 0x147b20
 GJBaseGameLayer::updateProximityVolumeEffects - 0x1465c0

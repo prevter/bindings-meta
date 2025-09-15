@@ -858,10 +858,12 @@ CustomizeObjectLayer::onSelectColor - 0xa95a0
 CustomizeObjectLayer::onSelectMode - 0xa88e0
 CustomizeObjectLayer::onSettings - 0xa7ab0
 CustomizeObjectLayer::onUpdateCustomColor - 0xa8ea0
+CustomizeObjectLayer::sliderChanged - 0xa77b0
 CustomizeObjectLayer::toggleVisible - 0xa8af0
 CustomizeObjectLayer::updateColorSprite - 0xa7e20
 CustomizeObjectLayer::updateCustomColorLabels - 0xa9490
 CustomizeObjectLayer::updateHSVButtons - 0xa8270
+CustomizeObjectLayer::updateKerningLabel - 0xa7600
 CustomizeObjectLayer::updateSelected - 0xa9660
 CustomizeObjectSettingsPopup::onClose - 0xa9e50
 CustomizeObjectSettingsPopup::onCustomToggleTriggerValue - 0xa9da0
@@ -3625,6 +3627,7 @@ PlayLayer::showCompleteText - 0x3919a0
 PlayLayer::showHint - 0x39d8c0
 PlayLayer::showNewBest - 0x3925f0
 PlayLayer::showRetryLayer - 0x3959c0
+PlayLayer::showTwoPlayerGuide - 0x395be0
 PlayLayer::startGame - 0x390bd0
 PlayLayer::startGameDelayed - 0x390c20
 PlayLayer::startMusic - 0x3a3c60
