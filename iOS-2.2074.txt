@@ -3387,6 +3387,7 @@ GJBaseGameLayer::preResumeGame - 0x200998
 GJBaseGameLayer::processActivatedAudioTriggers - 0x208724
 GJBaseGameLayer::processAdvancedFollowActions - 0x1fa914
 GJBaseGameLayer::processAreaActions - 0x1f822c
+GJBaseGameLayer::processAreaEffects - 0x1f61f4
 GJBaseGameLayer::processCameraObject - 0x1e7138
 GJBaseGameLayer::processCommands - 0x201880
 GJBaseGameLayer::processDynamicObjectActions - 0x1f91ac

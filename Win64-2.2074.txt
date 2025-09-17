@@ -1686,6 +1686,7 @@ GameManager::activeIconForType - 0x17ea70
 GameManager::addGameAnimation - 0x1aba70
 GameManager::addNewCustomObject - 0x1807d0
 GameManager::applicationWillEnterForeground - 0x186cd0
+GameManager::checkSteamAchievementUnlock - 0x17b1a0
 GameManager::checkUsedIcons - 0x1811b0
 GameManager::colorForIdx - 0x17e330
 GameManager::colorKey - 0x179790
@@ -1721,6 +1722,7 @@ GameManager::reloadMenu - 0x187460
 GameManager::reportAchievementWithID - 0x17afd0
 GameManager::reportPercentageForLevel - 0x17a5f0
 GameManager::resetAchievement - 0x17a390
+GameManager::resetCoinUnlocks - 0x17db50
 GameManager::resolutionForKey - 0x187890
 GameManager::returnToLastScene - 0x187030
 GameManager::safePopScene - 0x1873e0
