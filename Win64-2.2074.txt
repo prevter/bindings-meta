@@ -421,6 +421,7 @@ CCAnimateFrameCache::addDict - 0x41670
 CCAnimateFrameCache::addSpriteFramesWithFile - 0x414e0
 CCAnimateFrameCache::spriteFrameByName - 0x41c40
 CCBlockLayer::CCBlockLayer - 0x42360
+CCBlockLayer::~CCBlockLayer - 0x42430
 CCBlockLayer::init - 0x424e0
 CCBlockLayer::draw - 0x426f0
 CCBlockLayer::registerWithTouchDispatcher - 0x425d0
@@ -3422,6 +3423,7 @@ PauseLayer::onRestartFull - 0x368740
 PauseLayer::onResume - 0x368610
 PauseLayer::onSettings - 0x3677d0
 PauseLayer::onTryEdit - 0x3687e0
+PauseLayer::setupProgressBars - 0x367980
 PauseLayer::sfxSliderChanged - 0x35cd70
 PauseLayer::tryQuit - 0x368c50
 PlatformToolbox::getDisplaySize - 0x786d0

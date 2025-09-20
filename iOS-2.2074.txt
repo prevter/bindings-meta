@@ -1014,6 +1014,8 @@ cocos2d::CCMenu::createWithItem - 0x1d8ff0
 cocos2d::CCMenu::initWithArray - 0x1d8e5c
 cocos2d::CCMenu::alignItemsHorizontallyWithPadding - 0x1d95bc
 cocos2d::CCMenu::alignItemsVerticallyWithPadding - 0x1d93e0
+cocos2d::CCMenu::itemForTouch - 0x1d923c
+cocos2d::CCMenu::itemForTouch - 0x1d9790
 cocos2d::CCMenu::init - 0x1d9010
 cocos2d::CCMenu::addChild - 0x1d9018
 cocos2d::CCMenu::addChild - 0x1d901c
@@ -1955,6 +1957,7 @@ CCAnimateFrameCache::addSpriteFramesWithFile - 0x1b47ec
 CCAnimateFrameCache::init - 0x1b4544
 CCAnimateFrameCache::removeSpriteFrames - 0x1b491c
 CCAnimateFrameCache::spriteFrameByName - 0x1b494c
+CCBlockLayer::~CCBlockLayer - 0x8a228
 CCBlockLayer::init - 0x8a2e0
 CCBlockLayer::draw - 0x8a540
 CCBlockLayer::ccTouchBegan - 0x8a57c
@@ -1974,6 +1977,7 @@ CCBlockLayer::enterAnimFinished - 0x8a4dc
 CCBlockLayer::disableUI - 0x8a3e4
 CCBlockLayer::enableUI - 0x8a3e8
 CCBlockLayer::decrementForcePrio - 0x8a5a4
+CCBlockLayer::incrementForcePrio - 0x8a390
 CCCircleWave::create - 0x16f678
 CCCircleWave::create - 0x16f670
 CCCircleWave::setPosition - 0x16f8d0
@@ -2837,10 +2841,12 @@ FMODAudioEngine::setEffectsVolume - 0x1402a0
 FMODAudioEngine::setMusicTimeMS - 0x13e06c
 FMODAudioEngine::setup - 0x13b128
 FMODAudioEngine::setupAudioEngine - 0x13b3b4
+FMODAudioEngine::startMusic - 0x140b64
 FMODAudioEngine::stopAllEffects - 0x13bc58
 FMODAudioEngine::stopAllMusic - 0x13bd04
 FMODAudioEngine::stopAndGetFade - 0x13fa54
 FMODAudioEngine::stopAndRemoveMusic - 0x141c7c
+FMODAudioEngine::stopMusic - 0x141318
 FMODAudioEngine::unloadAllEffects - 0x1400c8
 FMODAudioEngine::updateChannel - 0x13fb50
 FMODAudioEngine::updateChannelTweens - 0x13c8dc
@@ -4545,6 +4551,7 @@ ParticleGameObject::setParticleString - 0x37a4ac
 ParticleGameObject::updateParticle - 0x37a4f8
 ParticlePreviewLayer::draw - 0x2d1c18
 ParticlePreviewLayer::visit - 0x2d1b38
+PauseLayer::create - 0x1453f8
 PauseLayer::keyBackClicked - 0x146f60
 PauseLayer::keyDown - 0x146eac
 PauseLayer::customSetup - 0x1454b8
@@ -4560,6 +4567,8 @@ PauseLayer::onRestart - 0x146b60
 PauseLayer::onRestartFull - 0x1469a0
 PauseLayer::onResume - 0x146a48
 PauseLayer::onSettings - 0x146b9c
+PauseLayer::onTryEdit - 0x1468bc
+PauseLayer::setupProgressBars - 0x145f70
 PauseLayer::sfxSliderChanged - 0x146bfc
 PauseLayer::tryQuit - 0x146a80
 PlatformToolbox::gameDidSave - 0x16f388
