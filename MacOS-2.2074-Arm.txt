@@ -1861,7 +1861,9 @@ GameObject::resetGroupDisabled - 0x4d9220
 GameObject::resetGroups - 0x4e0b1c
 GameObject::setLastPosition - 0x4eb738
 GameObject::shouldShowPickupEffects - 0x1f96ac
+GameObject::slopeYPos - 0x4ea200
 GameObject::slopeYPos - 0x4ea270
+GameObject::slopeYPos - 0x4ea160
 GameObject::spawnDefaultPickupParticle - 0x1f9738
 GameObject::updateCustomScaleX - 0x4d922c
 GameObject::updateCustomScaleY - 0x4d928c
@@ -5348,6 +5350,7 @@ PlayerObject::collidedWithObject - 0x37a504
 PlayerObject::collidedWithObjectInternal - 0x376dd8
 PlayerObject::collidedWithSlope - 0x375274
 PlayerObject::collidedWithSlopeInternal - 0x375914
+PlayerObject::convertToClosestRotation - 0x371c6c
 PlayerObject::copyAttributes - 0x3877bc
 PlayerObject::createFadeOutDartStreak - 0x382128
 PlayerObject::createRobot - 0x36c034

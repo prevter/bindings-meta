@@ -1860,6 +1860,9 @@ GameObject::resetGroupDisabled - 0x591eb0
 GameObject::resetGroups - 0x5a66a0
 GameObject::setLastPosition - 0x5b2aa0
 GameObject::shouldShowPickupEffects - 0x24c330
+GameObject::slopeYPos - 0x5b1380
+GameObject::slopeYPos - 0x5b13d0
+GameObject::slopeYPos - 0x5b1310
 GameObject::spawnDefaultPickupParticle - 0x24c390
 GameObject::updateCustomScaleX - 0x591ed0
 GameObject::updateCustomScaleY - 0x591f50
@@ -5347,6 +5350,7 @@ PlayerObject::collidedWithObject - 0x3fb520
 PlayerObject::collidedWithObjectInternal - 0x3f6de0
 PlayerObject::collidedWithSlope - 0x3f4d30
 PlayerObject::collidedWithSlopeInternal - 0x3f5410
+PlayerObject::convertToClosestRotation - 0x3f0e60
 PlayerObject::copyAttributes - 0x409ed0
 PlayerObject::createFadeOutDartStreak - 0x4042d0
 PlayerObject::createRobot - 0x3ea2a0
@@ -5459,7 +5463,9 @@ PlayerObject::updatePlayerSpriteExtra - 0x3ea100
 PlayerObject::updatePlayerSwingFrame - 0x4061a0
 PlayerObject::updateRotation - 0x3f0d20
 PlayerObject::updateRotation - 0x3fb360
+PlayerObject::updateShipRotation - 0x3fafc0
 PlayerObject::updateShipSpriteExtra - 0x3ea1d0
+PlayerObject::updateSlopeRotation - 0x3fae30
 PlayerObject::updateSpecial - 0x3f0f70
 PlayerObject::updateStreakBlend - 0x3eb160
 PlayerObject::updateSwingFire - 0x4049f0

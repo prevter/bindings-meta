@@ -1775,6 +1775,8 @@ GameObject::playDestroyObjectAnim - 0x349078
 GameObject::playShineEffect - 0x25b4d8
 GameObject::quickUpdatePosition - 0x25a1d0
 GameObject::setLastPosition - 0x26167c
+GameObject::slopeYPos - 0x26087c
+GameObject::slopeYPos - 0x2608e0
 GameObject::updateBlendMode - 0x25be2c
 GameObject::updateCustomScaleX - 0x25529c
 GameObject::updateCustomScaleY - 0x2552fc
@@ -4612,6 +4614,7 @@ PlayerObject::bumpPlayer - 0x22d2f8
 PlayerObject::collidedWithObject - 0x220ae4
 PlayerObject::collidedWithObject - 0x224e30
 PlayerObject::collidedWithSlope - 0x220b8c
+PlayerObject::convertToClosestRotation - 0x21e0a4
 PlayerObject::copyAttributes - 0x22da24
 PlayerObject::createFadeOutDartStreak - 0x229880
 PlayerObject::createRobot - 0x2195f4
@@ -4713,8 +4716,11 @@ PlayerObject::updatePlayerShipFrame - 0x22a1dc
 PlayerObject::updatePlayerSpiderFrame - 0x22d05c
 PlayerObject::updatePlayerSpriteExtra - 0x21945c
 PlayerObject::updatePlayerSwingFrame - 0x22ada0
+PlayerObject::updateRotation - 0x21df64
 PlayerObject::updateRotation - 0x224ca4
+PlayerObject::updateShipRotation - 0x224964
 PlayerObject::updateShipSpriteExtra - 0x219528
+PlayerObject::updateSlopeRotation - 0x2248e8
 PlayerObject::updateSpecial - 0x21e1a0
 PlayerObject::updateStreakBlend - 0x21a244
 PlayerObject::updateSwingFire - 0x229e5c
@@ -5366,6 +5372,8 @@ SetupTeleportPopup::valueDidChange - 0x10144
 SetupTimerControlTriggerPopup::onCustomToggleTriggerValue - 0x327c0
 SetupTimeWarpPopup::determineStartValues - 0x14b950
 SetupTimeWarpPopup::onClose - 0x14ba8c
+SetupTimeWarpPopup::init - 0x14b528
+SetupTimeWarpPopup::updateTimeWarpLabel - 0x14b900
 SetupTouchTogglePopup::create - 0x24a11c
 SetupTouchTogglePopup::determineStartValues - 0x24af20
 SetupTouchTogglePopup::onClose - 0x24b160

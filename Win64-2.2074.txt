@@ -3457,6 +3457,7 @@ PlayerObject::bumpPlayer - 0x389910
 PlayerObject::collidedWithObject - 0x37bb80
 PlayerObject::collidedWithObjectInternal - 0x37bc40
 PlayerObject::collidedWithSlopeInternal - 0x3799e0
+PlayerObject::convertToClosestRotation - 0x377370
 PlayerObject::copyAttributes - 0x38a710
 PlayerObject::createFadeOutDartStreak - 0x382830
 PlayerObject::createRobot - 0x372180
@@ -3551,10 +3552,11 @@ PlayerObject::updatePlayerShipFrame - 0x3880f0
 PlayerObject::updatePlayerSpriteExtra - 0x388e80
 PlayerObject::updatePlayerSwingFrame - 0x388a20
 PlayerObject::updateRobotAnimationSpeed - 0x38b350
-PlayerObject::updateRotation - 0x377370
+PlayerObject::updateRotation - 0x37b430
 PlayerObject::updateRotation - 0x37b1f0
 PlayerObject::updateShipRotation - 0x37ae10
 PlayerObject::updateShipSpriteExtra - 0x388f90
+PlayerObject::updateSlopeRotation - 0x37ad90
 PlayerObject::updateStreakBlend - 0x372f30
 PlayerObject::updateSwingFire - 0x385040
 PlayerObject::updateTimeMod - 0x38afc0
