@@ -5460,6 +5460,7 @@ PlayerObject::updatePlayerSpriteExtra - 0x36be6c
 PlayerObject::updatePlayerSwingFrame - 0x383e58
 PlayerObject::updateRotation - 0x371b20
 PlayerObject::updateRotation - 0x37a378
+PlayerObject::updateShipRotation - 0x379fb0
 PlayerObject::updateShipSpriteExtra - 0x36bf50
 PlayerObject::updateSlopeRotation - 0x379e4c
 PlayerObject::updateSpecial - 0x371d78

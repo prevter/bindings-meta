@@ -3205,6 +3205,7 @@ GameToolbox::addRThumbScrollButton - 0x48380
 GameToolbox::alignItemsHorisontally - 0x47414
 GameToolbox::createToggleButton - 0x47a98
 GameToolbox::createToggleButton - 0x47bcc
+GameToolbox::doWeHaveInternet - 0x4776c
 GameToolbox::easeToText - 0x4b720
 GameToolbox::fast_rand_0_1 - 0x49540
 GameToolbox::fast_rand_minus1_1 - 0x49578
@@ -3975,6 +3976,7 @@ LevelBrowserLayer::onInfo - 0x40e7a0
 LevelBrowserLayer::onNew - 0x40e01c
 LevelBrowserLayer::onNextPage - 0x40db78
 LevelBrowserLayer::onPrevPage - 0x40db44
+LevelBrowserLayer::onRefresh - 0x40e6f8
 LevelBrowserLayer::onSaved - 0x40e520
 LevelBrowserLayer::onSearch - 0x40eb2c
 LevelBrowserLayer::setupLevelBrowser - 0x40ff18
