@@ -1166,6 +1166,7 @@ EditorUI::activateTransformControl - 0x1138d0
 EditorUI::addObjectsToSmartTemplate - 0x114390
 EditorUI::alignObjects - 0x1203a0
 EditorUI::applyOffset - 0x120d40
+EditorUI::applySpecialOffset - 0x120ab0
 EditorUI::assignNewGroups - 0x1178c0
 EditorUI::canSelectObject - 0x10ec30
 EditorUI::checkDiffAfterTransformAnchor - 0x1140e0
@@ -1277,6 +1278,7 @@ EditorUI::selectObjects - 0x10f140
 EditorUI::setupCreateMenu - 0xe6910
 EditorUI::setupDeleteMenu - 0xe38d0
 EditorUI::shouldDeleteObject - 0xe4c50
+EditorUI::showMaxBasicError - 0x1112a0
 EditorUI::showMaxError - 0x111170
 EditorUI::showUI - 0x110200
 EditorUI::sliderChanged - 0xe13a0
@@ -1787,6 +1789,7 @@ GameStatsManager::getStat - 0x1d21e0
 GameStatsManager::getTotalCollectedCurrency - 0x1e08b0
 GameStatsManager::getTotalCollectedDiamonds - 0x1e1180
 GameStatsManager::hasClaimedListReward - 0x1dfc30
+GameStatsManager::hasCompletedChallenge - 0x1df870
 GameStatsManager::hasCompletedDailyLevel - 0x1dfd10
 GameStatsManager::hasCompletedGauntletLevel - 0x1db1a0
 GameStatsManager::hasCompletedLevel - 0x1dafb0

@@ -911,6 +911,16 @@ cocos2d::CCRepeatForever::isDone - 0x18e1c0
 cocos2d::CCRepeatForever::startWithTarget - 0x18e0e8
 cocos2d::CCRepeatForever::step - 0x18e128
 cocos2d::CCRepeatForever::reverse - 0x18e1c8
+cocos2d::CCBezierBy::create - 0x18f2f4
+cocos2d::CCBezierBy::initWithDuration - 0x18f3bc
+cocos2d::CCBezierBy::copyWithZone - 0x18f470
+cocos2d::CCBezierBy::update - 0x18f580
+cocos2d::CCBezierBy::startWithTarget - 0x18f41c
+cocos2d::CCBezierBy::reverse - 0x18f6ec
+cocos2d::CCBezierTo::create - 0x18f7c4
+cocos2d::CCBezierTo::initWithDuration - 0x18f844
+cocos2d::CCBezierTo::copyWithZone - 0x18f8a4
+cocos2d::CCBezierTo::startWithTarget - 0x18f96c
 cocos2d::CCTransitionScene::~CCTransitionScene - 0x1ce7a4
 cocos2d::CCTransitionScene::onEnter - 0x1ceaf4
 cocos2d::CCTransitionScene::onExit - 0x1ceb48
@@ -1782,6 +1792,7 @@ GameObject::updateCustomScaleX - 0x25529c
 GameObject::updateCustomScaleY - 0x2552fc
 GameObject::updateIsOriented - 0x260be4
 GameObject::updateObjectEditorColor - 0x260770
+GameObject::updateStartPos - 0x254f70
 EnhancedGameObject::EnhancedGameObject - 0x264720
 EnhancedGameObject::customSetup - 0x262680
 EnhancedGameObject::resetObject - 0x2620bc
@@ -2613,6 +2624,7 @@ EditorUI::activateScaleControl - 0x3e7408
 EditorUI::activateTransformControl - 0x3e803c
 EditorUI::alignObjects - 0x3efa20
 EditorUI::applyOffset - 0x3e4a18
+EditorUI::applySpecialOffset - 0x3effe8
 EditorUI::assignNewGroups - 0x3eb650
 EditorUI::canSelectObject - 0x3e57f8
 EditorUI::clickOnPosition - 0x3dea18
@@ -2628,6 +2640,7 @@ EditorUI::createUndoSelectObject - 0x3df104
 EditorUI::deactivateRotationControl - 0x3bf430
 EditorUI::deactivateTransformControl - 0x3bf614
 EditorUI::deleteObject - 0x3e1e9c
+EditorUI::deleteSmartBlocksFromObjects - 0x3e3184
 EditorUI::deselectAll - 0x3e1f84
 EditorUI::deselectObject - 0x3e2010
 EditorUI::deselectObject - 0x3e1f00
@@ -2647,6 +2660,7 @@ EditorUI::getCreateMenuItemButton - 0x3df54c
 EditorUI::getGridSnappedPos - 0x3e3cc8
 EditorUI::getGroupCenter - 0x3e5280
 EditorUI::getLimitedPosition - 0x3ee478
+EditorUI::getRelativeOffset - 0x3e482c
 EditorUI::getSelectedObjects - 0x3e6210
 EditorUI::getSnapAngle - 0x3ee4e4
 EditorUI::getSpriteButton - 0x3bf6f8
@@ -2692,6 +2706,7 @@ EditorUI::onUngroupSticky - 0x3bffdc
 EditorUI::onUpdateDeleteFilter - 0x3e1464
 EditorUI::pasteObjects - 0x3e4a98
 EditorUI::playtestStopped - 0x3e68c0
+EditorUI::positionWithoutOffset - 0x3eff88
 EditorUI::redoLastAction - 0x3bf964
 EditorUI::reloadCustomItems - 0x3e0d50
 EditorUI::removeOffset - 0x3e4998
@@ -2710,6 +2725,9 @@ EditorUI::selectObjectsInRect - 0x3e612c
 EditorUI::setupCreateMenu - 0x3c09dc
 EditorUI::setupDeleteMenu - 0x3c0020
 EditorUI::shouldDeleteObject - 0x3e1cd8
+EditorUI::showMaxBasicError - 0x3e340c
+EditorUI::showMaxCoinError - 0x3e34f0
+EditorUI::showMaxError - 0x3e332c
 EditorUI::showUI - 0x3e6770
 EditorUI::sliderChanged - 0x3bf328
 EditorUI::spriteFromObjectString - 0x3e2af4
@@ -3143,6 +3161,7 @@ GameOptionsTrigger::getSaveString - 0x378c58
 GameStatsManager::sharedState - 0x325804
 GameStatsManager::init - 0x3259a0
 GameStatsManager::addStoreItem - 0x32bb90
+GameStatsManager::areChallengesLoaded - 0x3339d0
 GameStatsManager::areRewardsLoaded - 0x3333c4
 GameStatsManager::awardCurrencyForLevel - 0x33282c
 GameStatsManager::awardDiamondsForLevel - 0x332ce4
@@ -3162,6 +3181,7 @@ GameStatsManager::getAwardedCurrencyForLevel - 0x3326e0
 GameStatsManager::getAwardedDiamondsForLevel - 0x332bac
 GameStatsManager::getBaseCurrencyForLevel - 0x3325b8
 GameStatsManager::getChallenge - 0x333cf4
+GameStatsManager::getChallengeKey - 0x333efc
 GameStatsManager::getCollectedCoinsForLevel - 0x330730
 GameStatsManager::getCompletedMapPacks - 0x331520
 GameStatsManager::getGauntletRewardKey - 0x33648c
@@ -3176,6 +3196,7 @@ GameStatsManager::getStat - 0x32bf54
 GameStatsManager::getStatFromKey - 0x33027c
 GameStatsManager::getTotalCollectedCurrency - 0x3349f0
 GameStatsManager::hasClaimedListReward - 0x334154
+GameStatsManager::hasCompletedChallenge - 0x333f44
 GameStatsManager::hasCompletedLevel - 0x330af4
 GameStatsManager::hasCompletedMainLevel - 0x330a74
 GameStatsManager::hasCompletedOnlineLevel - 0x330b64
@@ -3196,6 +3217,7 @@ GameStatsManager::processChallengeQueue - 0x334078
 GameStatsManager::purchaseItem - 0x32bdb0
 GameStatsManager::recountSpecialStats - 0x3351a4
 GameStatsManager::registerRewardsFromItem - 0x333604
+GameStatsManager::resetChallengeTimer - 0x3339c8
 GameStatsManager::setStat - 0x32c038
 GameStatsManager::storeQueuedChallenge - 0x333ae4
 GameStatsManager::toggleEnableItem - 0x3362b8
@@ -3782,7 +3804,11 @@ GJSmartPrefab::canEncode - 0xc550
 GJSmartPrefab::createWithCoder - 0xc558
 GJSmartTemplate::encodeWithCoder - 0xc430
 GJSmartTemplate::canEncode - 0xc1c4
+GJSmartTemplate::applyTransformationsForType - 0xb83c
 GJSmartTemplate::createWithCoder - 0xc1cc
+GJSmartTemplate::getPrefabWithID - 0xb2a8
+GJSmartTemplate::offsetForType - 0xb754
+GJSmartTemplate::smartTypeToObjectKey - 0xb910
 GJSongBrowser::create - 0x2649ac
 GJSongBrowser::init - 0x264ad4
 GJSongBrowser::customSetup - 0x264cb4
@@ -5358,6 +5384,7 @@ SetupSmartBlockLayer::show - 0x7429c
 SetupSmartBlockLayer::selectArtClosed - 0x742e8
 SetupSmartBlockLayer::init - 0x72f8c
 SetupSmartBlockLayer::onCreateAll - 0x73f48
+SetupSmartBlockLayer::onPasteTemplate - 0x73d94
 SetupSmartTemplateLayer::keyBackClicked - 0x75228
 SetupSmartTemplateLayer::FLAlert_Clicked - 0x74f38
 SetupSmartTemplateLayer::textInputOpened - 0x750bc
@@ -5553,6 +5580,7 @@ Slider::init - 0x2ef29c
 Slider::setValue - 0x2ef504
 SmartGameObject::customObjectSetup - 0x379920
 SmartGameObject::getSaveString - 0x37978c
+SmartGameObject::updateSmartFrame - 0x379684
 SmartTemplateCell::init - 0x1158f0
 SmartTemplateCell::draw - 0x1159a0
 SongCell::init - 0x112de8

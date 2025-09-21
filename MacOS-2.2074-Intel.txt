@@ -818,6 +818,7 @@ cocos2d::CCKeypadDispatcher::forceRemoveDelegate - 0x5e1e70
 cocos2d::CCKeypadDispatcher::removeDelegate - 0x5e1dd0
 cocos2d::CCDirector::sharedDirector - 0x46f500
 cocos2d::CCDirector::getNotificationNode - 0x471a60
+cocos2d::CCDirector::getVisibleOrigin - 0x471100
 cocos2d::CCDirector::getVisibleSize - 0x4710c0
 cocos2d::CCDirector::getWinSize - 0x470920
 cocos2d::CCDirector::getWinSizeInPixels - 0x471080
@@ -1115,6 +1116,16 @@ cocos2d::CCRepeatForever::isDone - 0x3a3990
 cocos2d::CCRepeatForever::startWithTarget - 0x3a38e0
 cocos2d::CCRepeatForever::step - 0x3a3920
 cocos2d::CCRepeatForever::reverse - 0x3a39a0
+cocos2d::CCBezierBy::create - 0x3a66f0
+cocos2d::CCBezierBy::initWithDuration - 0x3a6830
+cocos2d::CCBezierBy::copyWithZone - 0x3a68f0
+cocos2d::CCBezierBy::update - 0x3a6a80
+cocos2d::CCBezierBy::startWithTarget - 0x3a68a0
+cocos2d::CCBezierBy::reverse - 0x3a6c20
+cocos2d::CCBezierTo::create - 0x3a6cf0
+cocos2d::CCBezierTo::initWithDuration - 0x3a6dd0
+cocos2d::CCBezierTo::copyWithZone - 0x3a6e40
+cocos2d::CCBezierTo::startWithTarget - 0x3a6f70
 cocos2d::CCTransitionScene::~CCTransitionScene - 0xd4db0
 cocos2d::CCTransitionScene::onEnter - 0xd5240
 cocos2d::CCTransitionScene::onExit - 0xd5290
@@ -1219,7 +1230,19 @@ cocos2d::CCShow::copyWithZone - 0x7968c0
 cocos2d::CCShow::update - 0x796800
 cocos2d::CCShow::reverse - 0x796820
 cocos2d::CCCallFunc::create - 0x7972a0
+cocos2d::CCCallFunc::~CCCallFunc - 0x7973f0
+cocos2d::CCCallFunc::copyWithZone - 0x7974f0
+cocos2d::CCCallFunc::update - 0x7975f0
+cocos2d::CCCallFunc::initWithTarget - 0x7973b0
+cocos2d::CCCallFunc::execute - 0x797600
 cocos2d::CCCallFuncN::create - 0x7976c0
+cocos2d::CCCallFuncN::initWithTarget - 0x7977f0
+cocos2d::CCCallFuncN::copyWithZone - 0x797840
+cocos2d::CCCallFuncN::execute - 0x797660
+cocos2d::CCCallFuncND::create - 0x797930
+cocos2d::CCCallFuncND::initWithTarget - 0x797a20
+cocos2d::CCCallFuncND::copyWithZone - 0x797a90
+cocos2d::CCCallFuncND::execute - 0x797bb0
 cocos2d::CCCallFuncO::create - 0x797da0
 cocos2d::CCCallFuncO::copyWithZone - 0x797ef0
 cocos2d::CCCallFuncO::execute - 0x797d60
@@ -1916,6 +1939,7 @@ EffectGameObject::playTriggerEffect - 0x1a8220
 EffectGameObject::setTargetID - 0x192130
 EffectGameObject::setTargetID2 - 0x192150
 EffectGameObject::updateSpecialColor - 0x1aa0b0
+EffectGameObject::updateSpeedModType - 0x1aa2f0
 AdvancedFollowTriggerObject::customObjectSetup - 0x19b5d0
 AdvancedFollowTriggerObject::getSaveString - 0x192350
 AdvancedFollowEditObject::customObjectSetup - 0x19d870
@@ -2840,6 +2864,7 @@ EditorUI::activateScaleControl - 0x3f250
 EditorUI::activateTransformControl - 0x40720
 EditorUI::alignObjects - 0x4de50
 EditorUI::applyOffset - 0x3ab90
+EditorUI::applySpecialOffset - 0x4e5d0
 EditorUI::assignNewGroups - 0x45970
 EditorUI::canSelectObject - 0x3c770
 EditorUI::clickOnPosition - 0x2dfa0
@@ -2856,6 +2881,7 @@ EditorUI::createUndoSelectObject - 0x2ebf0
 EditorUI::deactivateRotationControl - 0xbf40
 EditorUI::deactivateTransformControl - 0xc200
 EditorUI::deleteObject - 0x32f70
+EditorUI::deleteSmartBlocksFromObjects - 0x34bb0
 EditorUI::deselectAll - 0x33240
 EditorUI::deselectObject - 0x33450
 EditorUI::deselectObject - 0x331a0
@@ -2879,6 +2905,7 @@ EditorUI::getCreateMenuItemButton - 0x2f190
 EditorUI::getEditColorTargets - 0x4a120
 EditorUI::getGridSnappedPos - 0x35c40
 EditorUI::getGroupCenter - 0x3c1b0
+EditorUI::getLimitedPosition - 0x4acf0
 EditorUI::getRelativeOffset - 0x3a960
 EditorUI::getSelectedObjects - 0x3d330
 EditorUI::getSnapAngle - 0x4ad60
@@ -2927,6 +2954,7 @@ EditorUI::onUngroupSticky - 0xcfc0
 EditorUI::onUpdateDeleteFilter - 0x32290
 EditorUI::pasteObjects - 0x3ac10
 EditorUI::playtestStopped - 0x3df80
+EditorUI::positionWithoutOffset - 0x4e560
 EditorUI::processSelectObjects - 0x3d880
 EditorUI::redoLastAction - 0xc740
 EditorUI::reloadCustomItems - 0x318f0
@@ -2947,6 +2975,7 @@ EditorUI::setupCreateMenu - 0xdf10
 EditorUI::setupDeleteMenu - 0xd010
 EditorUI::setupEditMenu - 0x2ac00
 EditorUI::shouldDeleteObject - 0x32d40
+EditorUI::shouldSnap - 0x4efe0
 EditorUI::showDeleteConfirmation - 0x33560
 EditorUI::showMaxBasicError - 0x34ec0
 EditorUI::showMaxCoinError - 0x35020
@@ -3552,6 +3581,7 @@ GameStatsManager::recountSpecialStats - 0x75760
 GameStatsManager::removeChallenge - 0x72ae0
 GameStatsManager::removeQueuedChallenge - 0x72cf0
 GameStatsManager::removeQueuedSecondaryChallenge - 0x72f00
+GameStatsManager::resetChallengeTimer - 0x72990
 GameStatsManager::resetSpecialStatAchievements - 0x76aa0
 GameStatsManager::setStat - 0x66770
 GameStatsManager::setupIconCredits - 0x3172c0
@@ -4303,11 +4333,15 @@ GJSmartPrefab::canEncode - 0x415b10
 GJSmartPrefab::createWithCoder - 0x415b20
 GJSmartTemplate::encodeWithCoder - 0x415960
 GJSmartTemplate::canEncode - 0x415580
+GJSmartTemplate::applyTransformationsForType - 0x413f70
 GJSmartTemplate::createWithCoder - 0x415590
 GJSmartTemplate::getPrefab - 0x412600
+GJSmartTemplate::getPrefabWithID - 0x4138e0
 GJSmartTemplate::getVerySimplifiedKey - 0x411170
 GJSmartTemplate::logTemplateStatus - 0x4148f0
+GJSmartTemplate::offsetForType - 0x413df0
 GJSmartTemplate::saveRemapToDict - 0x410e20
+GJSmartTemplate::smartTypeToObjectKey - 0x4140a0
 GJSongBrowser::create - 0x5e7120
 GJSongBrowser::init - 0x5e7530
 GJSongBrowser::customSetup - 0x5e7800
@@ -6522,6 +6556,7 @@ Slider::init - 0x2f0540
 Slider::setValue - 0x2f0880
 SmartGameObject::customObjectSetup - 0x1a0680
 SmartGameObject::getSaveString - 0x1a00c0
+SmartGameObject::updateSmartFrame - 0x19fe80
 SmartTemplateCell::init - 0x246ed0
 SmartTemplateCell::draw - 0x246fa0
 SmartTemplateCell::loadFromObject - 0x23b400
