@@ -3604,10 +3604,15 @@ GJGradientLayer::init - 0x20b450
 GJItemIcon::GJItemIcon - 0x3096bc
 GJItemIcon::~GJItemIcon - 0x307b58
 GJItemIcon::create - 0x307bd8
+GJItemIcon::createStoreItem - 0x307bbc
 GJItemIcon::scaleForType - 0x305b68
+GJItemIcon::unlockedColorForType - 0x3081e4
 GJItemIcon::setOpacity - 0x308148
 GJItemIcon::changeToLockedState - 0x306088
+GJItemIcon::darkenStoreItem - 0x308248
+GJItemIcon::darkenStoreItem - 0x306060
 GJItemIcon::init - 0x307c98
+GJItemIcon::toggleEnabledState - 0x306164
 GJLevelList::create - 0x96cac
 GJLevelList::create - 0x99114
 GJLevelList::encodeWithCoder - 0xb5668
@@ -3660,6 +3665,7 @@ GJPathPage::registerWithTouchDispatcher - 0x3b3c68
 GJPathPage::keyBackClicked - 0x3b3c5c
 GJPathPage::show - 0x3b3ca0
 GJPathPage::didPurchaseItem - 0x3b2b2c
+GJPathPage::init - 0x3b1208
 GJPathRewardPopup::create - 0x3b0f64
 GJPathRewardPopup::keyBackClicked - 0x3b45c0
 GJPathRewardPopup::init - 0x3b3fb4
@@ -3673,6 +3679,10 @@ GJPathsLayer::show - 0x3b105c
 GJPathsLayer::onClose - 0x3b0c18
 GJPathsLayer::onPath - 0x3b0da4
 GJPathSprite::create - 0x3b0c80
+GJPathSprite::addRankLabel - 0x3b3ebc
+GJPathSprite::addShardSprite - 0x3b3b44
+GJPathSprite::changeToLockedArt - 0x3b3298
+GJPathSprite::init - 0x3b3e14
 GJPathSprite::updateState - 0x3b0d20
 GJPFollowCommandLayer::determineStartValues - 0x16384c
 GJPFollowCommandLayer::onClose - 0x16412c

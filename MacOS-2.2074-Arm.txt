@@ -4060,6 +4060,7 @@ GJItemIcon::unlockedColorForType - 0x2f130c
 GJItemIcon::setOpacity - 0x2f11e0
 GJItemIcon::changeToLockedState - 0x2ee474
 GJItemIcon::darkenStoreItem - 0x2f1374
+GJItemIcon::darkenStoreItem - 0x2ee44c
 GJItemIcon::init - 0x2f0cb0
 GJItemIcon::toggleEnabledState - 0x2ee554
 GJLevelList::create - 0x474a98
