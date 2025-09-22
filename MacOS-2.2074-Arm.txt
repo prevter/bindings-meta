@@ -3532,6 +3532,7 @@ GameStatsManager::encodeDataTo - 0x803f4
 GameStatsManager::generateItemUnlockableData - 0x59b18
 GameStatsManager::getAwardedCurrencyForLevel - 0x6450c
 GameStatsManager::getAwardedDiamondsForLevel - 0x64cb4
+GameStatsManager::getBaseCurrency - 0x64264
 GameStatsManager::getBaseCurrencyForLevel - 0x642c4
 GameStatsManager::getBaseDiamonds - 0x64c64
 GameStatsManager::getBonusDiamonds - 0x64c78

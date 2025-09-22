@@ -3179,6 +3179,7 @@ GameStatsManager::dataLoaded - 0x33f030
 GameStatsManager::encodeDataTo - 0x33ec78
 GameStatsManager::getAwardedCurrencyForLevel - 0x3326e0
 GameStatsManager::getAwardedDiamondsForLevel - 0x332bac
+GameStatsManager::getBaseCurrency - 0x332558
 GameStatsManager::getBaseCurrencyForLevel - 0x3325b8
 GameStatsManager::getChallenge - 0x333cf4
 GameStatsManager::getChallengeKey - 0x333efc
