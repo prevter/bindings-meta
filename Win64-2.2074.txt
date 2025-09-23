@@ -2474,7 +2474,9 @@ GJShopLayer::dialogClosed - 0x2a6f60
 GJShopLayer::init - 0x2a2070
 GJShopLayer::onBack - 0x2a56b0
 GJShopLayer::onCommunityCredits - 0x2a43e0
+GJShopLayer::showCantAffordMessage - 0x2a4800
 GJShopLayer::showReactMessage - 0x2a58e0
+GJShopLayer::updateCurrencyCounter - 0x2a4580
 GJSmartBlockPreview::create - 0x2ae310
 GJSmartBlockPreview::addChance - 0x2af0b0
 GJSmartBlockPreview::addPreview - 0x2aef30
@@ -2694,9 +2696,11 @@ LeaderboardsLayer::loadLeaderboardFailed - 0x2bb2b0
 LeaderboardsLayer::init - 0x2b9cd0
 LeaderboardsLayer::isCorrect - 0x2bb4e0
 LeaderboardsLayer::onBack - 0x2bbed0
+LeaderboardsLayer::onInfo - 0x2bb9a0
 LeaderboardsLayer::refreshTabs - 0x2bac80
 LeaderboardsLayer::selectLeaderboard - 0x2badb0
 LeaderboardsLayer::setupLevelBrowser - 0x2bab20
+LeaderboardsLayer::setupTabs - 0x2ba5d0
 LeaderboardsLayer::toggleTabButtons - 0x2bb000
 LevelAreaInnerLayer::scene - 0x2be1d0
 LevelAreaInnerLayer::keyBackClicked - 0x2c0550
@@ -2761,6 +2765,7 @@ LevelBrowserLayer::onNew - 0x2c57c0
 LevelBrowserLayer::onNextPage - 0x2c4ba0
 LevelBrowserLayer::onPrevPage - 0x2c4c20
 LevelBrowserLayer::onRefresh - 0x2c6660
+LevelBrowserLayer::onRemoveAllFavorites - 0x2c6390
 LevelBrowserLayer::onSaved - 0x2c6110
 LevelBrowserLayer::onSavedMode - 0x2c5b90
 LevelBrowserLayer::onSearch - 0x2c6840
@@ -3678,6 +3683,7 @@ ProfilePage::onCopyName - 0x3ac290
 ProfilePage::onFollow - 0x3ad450
 ProfilePage::onFriend - 0x3ace10
 ProfilePage::onFriends - 0x3aeae0
+ProfilePage::onInfo - 0x3ac4c0
 ProfilePage::onMessages - 0x3aeab0
 ProfilePage::onMyLevels - 0x3ac8b0
 ProfilePage::onMyLists - 0x3aca60
