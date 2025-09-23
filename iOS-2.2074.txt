@@ -687,6 +687,8 @@ cocos2d::CCDirector::end - 0x179760
 cocos2d::CCDirector::pause - 0x179a84
 cocos2d::CCDirector::popScene - 0x1796e8
 cocos2d::CCDirector::popSceneWithTransition - 0x17976c
+cocos2d::CCDirector::popToRootScene - 0x17983c
+cocos2d::CCDirector::popToSceneInStack - 0x17992c
 cocos2d::CCDirector::popToSceneStackLevel - 0x179844
 cocos2d::CCDirector::purgeDirector - 0x17997c
 cocos2d::CCDirector::pushScene - 0x179580
