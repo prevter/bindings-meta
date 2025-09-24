@@ -231,6 +231,7 @@ GameObject::getColorKey - 0x199db0
 GameObject::getObjectDirection - 0x1995a0
 GameObject::getParentMode - 0x197bb0
 GameObject::getRelativeSpriteColor - 0x19eb30
+GameObject::getScalePosDelta - 0x199620
 GameObject::groupOpacityMod - 0x199d30
 GameObject::ignoreEditorDuration - 0x1a0180
 GameObject::isFacingDown - 0x19e990
@@ -3468,6 +3469,7 @@ PlayerObject::addAllParticles - 0x372900
 PlayerObject::animatePlatformerJump - 0x376ef0
 PlayerObject::boostPlayer - 0x38a150
 PlayerObject::bumpPlayer - 0x389910
+PlayerObject::checkSnapJumpToObject - 0x37de80
 PlayerObject::collidedWithObject - 0x37bb80
 PlayerObject::collidedWithObjectInternal - 0x37bc40
 PlayerObject::collidedWithSlopeInternal - 0x3799e0
@@ -3481,10 +3483,12 @@ PlayerObject::disablePlayerControls - 0x389620
 PlayerObject::disableSwingFire - 0x385170
 PlayerObject::doReversePlayer - 0x3826e0
 PlayerObject::enablePlayerControls - 0x389770
+PlayerObject::exitPlatformerAnimateJump - 0x3771a0
 PlayerObject::fadeOutStreak2 - 0x38a400
 PlayerObject::flipGravity - 0x384440
 PlayerObject::handleRotatedCollisionInternal - 0x379310
 PlayerObject::hitGround - 0x3861a0
+PlayerObject::hitGroundNoJump - 0x386140
 PlayerObject::incrementJumps - 0x376e10
 PlayerObject::init - 0x370a00
 PlayerObject::levelFlipFinished - 0x3759e0
@@ -3548,6 +3552,8 @@ PlayerObject::toggleVisibility - 0x3756d0
 PlayerObject::tryPlaceCheckpoint - 0x38c480
 PlayerObject::unrotateGameplayObject - 0x37b8b0
 PlayerObject::updateCollide - 0x37e1c0
+PlayerObject::updateCollideLeft - 0x37e3d0
+PlayerObject::updateCollideRight - 0x37e470
 PlayerObject::updateDashAnimation - 0x380ef0
 PlayerObject::updateDashArt - 0x380390
 PlayerObject::updateGlowColor - 0x3876a0

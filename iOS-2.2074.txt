@@ -1778,6 +1778,7 @@ GameObject::getColorKey - 0x25ccd4
 GameObject::getGroupID - 0x25c624
 GameObject::getLastPosition - 0x261674
 GameObject::getRelativeSpriteColor - 0x260ed8
+GameObject::getScalePosDelta - 0x25c3a4
 GameObject::init - 0x253dc0
 GameObject::isSettingsObject - 0x261dfc
 GameObject::isSpawnableTrigger - 0x261684
@@ -4690,6 +4691,7 @@ PlayerObject::addToTouchedRings - 0x229754
 PlayerObject::animatePlatformerJump - 0x21ecec
 PlayerObject::boostPlayer - 0x2208a8
 PlayerObject::bumpPlayer - 0x22d2f8
+PlayerObject::checkSnapJumpToObject - 0x224e8c
 PlayerObject::collidedWithObject - 0x220ae4
 PlayerObject::collidedWithObject - 0x224e30
 PlayerObject::collidedWithSlope - 0x220b8c
@@ -4704,6 +4706,7 @@ PlayerObject::destroyFromHitHead - 0x22bf34
 PlayerObject::didHitHead - 0x2252b8
 PlayerObject::disableSwingFire - 0x2286b8
 PlayerObject::doReversePlayer - 0x21dd68
+PlayerObject::exitPlatformerAnimateJump - 0x21de6c
 PlayerObject::fadeOutStreak2 - 0x22861c
 PlayerObject::flipGravity - 0x21eb30
 PlayerObject::getActiveMode - 0x229efc
@@ -4784,6 +4787,10 @@ PlayerObject::tryPlaceCheckpoint - 0x21e35c
 PlayerObject::updateCheckpointMode - 0x21a034
 PlayerObject::updateCheckpointTest - 0x21e288
 PlayerObject::updateCollide - 0x224768
+PlayerObject::updateCollideBottom - 0x225244
+PlayerObject::updateCollideLeft - 0x225384
+PlayerObject::updateCollideRight - 0x225308
+PlayerObject::updateCollideTop - 0x2251d0
 PlayerObject::updateDashArt - 0x2266ac
 PlayerObject::updateEffects - 0x21e210
 PlayerObject::updateGlowColor - 0x22ca94

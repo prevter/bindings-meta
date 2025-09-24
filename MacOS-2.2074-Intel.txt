@@ -1864,6 +1864,7 @@ GameObject::getGroupID - 0x5a66b0
 GameObject::getLastPosition - 0x5b2a90
 GameObject::getParentMode - 0x5a5250
 GameObject::getRelativeSpriteColor - 0x5b1ab0
+GameObject::getScalePosDelta - 0x5a63a0
 GameObject::groupOpacityMod - 0x5a7040
 GameObject::groupWasDisabled - 0x5a6a20
 GameObject::init - 0x58a2f0
@@ -5421,6 +5422,7 @@ PlayerObject::addToTouchedRings - 0x404180
 PlayerObject::animatePlatformerJump - 0x3f2020
 PlayerObject::boostPlayer - 0x3f49e0
 PlayerObject::bumpPlayer - 0x409440
+PlayerObject::checkSnapJumpToObject - 0x3fb5d0
 PlayerObject::collidedWithObject - 0x3f4c90
 PlayerObject::collidedWithObject - 0x3fb520
 PlayerObject::collidedWithObjectInternal - 0x3f6de0
@@ -5439,6 +5441,7 @@ PlayerObject::disablePlayerControls - 0x409140
 PlayerObject::disableSwingFire - 0x402500
 PlayerObject::doReversePlayer - 0x3f0850
 PlayerObject::enablePlayerControls - 0x4091a0
+PlayerObject::exitPlatformerAnimateJump - 0x3f09f0
 PlayerObject::fadeOutStreak2 - 0x402470
 PlayerObject::flashPlayer - 0x3fd3f0
 PlayerObject::flipGravity - 0x3f1c30
@@ -5448,6 +5451,7 @@ PlayerObject::getYVelocity - 0x3eb1f0
 PlayerObject::handleRotatedCollisionInternal - 0x3f4f20
 PlayerObject::handleRotatedObjectCollision - 0x3f4ec0
 PlayerObject::hitGround - 0x3fa390
+PlayerObject::hitGroundNoJump - 0x3fb970
 PlayerObject::incrementJumps - 0x3f1bf0
 PlayerObject::init - 0x3e8970
 PlayerObject::isFlying - 0x3efb00
@@ -5510,6 +5514,7 @@ PlayerObject::stopDashing - 0x3efe00
 PlayerObject::stopPlatformerJumpAnimation - 0x3f2500
 PlayerObject::stopRotation - 0x3f2590
 PlayerObject::stopStreak2 - 0x409d20
+PlayerObject::storeCollision - 0x3f2970
 PlayerObject::switchedToMode - 0x401440
 PlayerObject::toggleBirdMode - 0x405680
 PlayerObject::toggleDartMode - 0x406780
@@ -5526,6 +5531,10 @@ PlayerObject::tryPlaceCheckpoint - 0x3f1170
 PlayerObject::updateCheckpointMode - 0x3eaeb0
 PlayerObject::updateCheckpointTest - 0x3f10a0
 PlayerObject::updateCollide - 0x3faae0
+PlayerObject::updateCollideBottom - 0x3fba70
+PlayerObject::updateCollideLeft - 0x3fbcc0
+PlayerObject::updateCollideRight - 0x3fbc20
+PlayerObject::updateCollideTop - 0x3fb9d0
 PlayerObject::updateDashAnimation - 0x3efb90
 PlayerObject::updateDashArt - 0x3ff300
 PlayerObject::updateEffects - 0x3f0ff0

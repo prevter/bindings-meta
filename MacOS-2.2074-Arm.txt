@@ -5451,6 +5451,7 @@ PlayerObject::getYVelocity - 0x36cecc
 PlayerObject::handleRotatedCollisionInternal - 0x3754b4
 PlayerObject::handleRotatedObjectCollision - 0x375448
 PlayerObject::hitGround - 0x37951c
+PlayerObject::hitGroundNoJump - 0x37a92c
 PlayerObject::incrementJumps - 0x3728d8
 PlayerObject::init - 0x36a954
 PlayerObject::isFlying - 0x37097c
@@ -5513,6 +5514,7 @@ PlayerObject::stopDashing - 0x370c60
 PlayerObject::stopPlatformerJumpAnimation - 0x37314c
 PlayerObject::stopRotation - 0x3731d8
 PlayerObject::stopStreak2 - 0x387654
+PlayerObject::storeCollision - 0x373580
 PlayerObject::switchedToMode - 0x37f824
 PlayerObject::toggleBirdMode - 0x383410
 PlayerObject::toggleDartMode - 0x384438
@@ -5530,6 +5532,8 @@ PlayerObject::updateCheckpointMode - 0x36cbb8
 PlayerObject::updateCheckpointTest - 0x371e70
 PlayerObject::updateCollide - 0x379b88
 PlayerObject::updateCollideBottom - 0x37aa04
+PlayerObject::updateCollideLeft - 0x37abfc
+PlayerObject::updateCollideRight - 0x37ab80
 PlayerObject::updateCollideTop - 0x37a978
 PlayerObject::updateDashAnimation - 0x370a18
 PlayerObject::updateDashArt - 0x37dbd0
