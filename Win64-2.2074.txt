@@ -1213,6 +1213,7 @@ EditorUI::getSmartNeighbor - 0x116e10
 EditorUI::getSmartObjectKey - 0x12bbd0
 EditorUI::getSpriteButton - 0xe11d0
 EditorUI::getSpriteButton - 0xe1260
+EditorUI::getXMin - 0x121010
 EditorUI::init - 0xdde60
 EditorUI::isSpecialSnapObject - 0x1272b0
 EditorUI::menuItemFromObjectString - 0x10d090
@@ -1309,7 +1310,6 @@ EditorUI::updateObjectInfoLabel - 0xe17c0
 EditorUI::updatePlaybackBtn - 0x110850
 EditorUI::updateSlider - 0xe14a0
 EditorUI::updateZoom - 0x110ef0
-EditorUI::xPosFromValue - 0x121010
 EditorUI::zoomIn - 0x110e50
 EditorUI::zoomOut - 0x110ea0
 EditTriggersPopup::create - 0x2874a0
@@ -1708,6 +1708,7 @@ GameManager::iconTypeToUnlockType - 0x1795c0
 GameManager::isColorUnlocked - 0x1798c0
 GameManager::isIconUnlocked - 0x1794e0
 GameManager::loadBackground - 0x17f880
+GameManager::loadDpadFromString - 0x183830
 GameManager::loadFont - 0x17f7d0
 GameManager::loadGround - 0x17fc30
 GameManager::loadIcon - 0x17ecf0
@@ -1757,6 +1758,7 @@ GameStatsManager::addSimpleSpecialChestReward - 0x1e6d10
 GameStatsManager::addStoreItem - 0x1d1000
 GameStatsManager::awardCurrencyForLevel - 0x1dd990
 GameStatsManager::awardDiamondsForLevel - 0x1de170
+GameStatsManager::awardSecretKey - 0x1ee660
 GameStatsManager::checkAchievement - 0x1d2470
 GameStatsManager::checkCoinAchievement - 0x1da830
 GameStatsManager::completedDailyLevel - 0x1dfe10
@@ -1811,6 +1813,7 @@ GameStatsManager::processChallengeQueue - 0x1df950
 GameStatsManager::purchaseItem - 0x1d12e0
 GameStatsManager::registerRewardsFromItem - 0x1ee170
 GameStatsManager::removeErrorFromSpecialChests - 0x1f0310
+GameStatsManager::resetSpecialStatAchievements - 0x1e22e0
 GameStatsManager::setStarsForMapPack - 0x1dc090
 GameStatsManager::setStat - 0x1d2300
 GameStatsManager::setupIconCredits - 0x1c1190
@@ -2851,6 +2854,7 @@ LevelEditorLayer::toggleGroupPreview - 0x2d59b0
 LevelEditorLayer::transferDefaultColors - 0x2d3450
 LevelEditorLayer::tryUpdateSpeedObject - 0x2d0190
 LevelEditorLayer::typeExistsAtPosition - 0x2cc340
+LevelEditorLayer::updateAnimateOnTriggerObjects - 0x2d8e30
 LevelEditorLayer::updateBlendValues - 0x2d5d20
 LevelEditorLayer::updateEditor - 0x2d0330
 LevelEditorLayer::updateEditorMode - 0x2d2e10
@@ -2924,6 +2928,7 @@ LevelLeaderboard::FLAlert_Clicked - 0x2ed570
 LevelLeaderboard::updateUserScoreFinished - 0x2edb90
 LevelLeaderboard::updateUserScoreFailed - 0x2edba0
 LevelLeaderboard::getLocalScores - 0x2ed6f0
+LevelLeaderboard::getSpriteButton - 0x2ed250
 LevelLeaderboard::init - 0x2ec0c0
 LevelLeaderboard::isCorrect - 0x2edf40
 LevelLeaderboard::loadScores - 0x2ed8c0
@@ -2931,6 +2936,7 @@ LevelLeaderboard::onChangeMode - 0x2edd40
 LevelLeaderboard::onChangeType - 0x2edca0
 LevelLeaderboard::onClose - 0x84620
 LevelLeaderboard::onUpdate - 0x2eddc0
+LevelLeaderboard::reloadLeaderboard - 0x2edbb0
 LevelLeaderboard::setupLeaderboard - 0x2ee2f0
 LevelListCell::LevelListCell - 0xbdf10
 LevelListCell::draw - 0xad710
@@ -3625,6 +3631,7 @@ PlayLayer::playPlatformerEndAnimationToPos - 0x395430
 PlayLayer::prepareCreateObjectsFromSetup - 0x395f80
 PlayLayer::prepareMusic - 0x3a3ae0
 PlayLayer::processCreateObjectsFromSetup - 0x396230
+PlayLayer::processLoadedMoveActions - 0x398310
 PlayLayer::removeAllObjects - 0x3a3fb0
 PlayLayer::removeCheckpoint - 0x3a0ff0
 PlayLayer::resetLevel - 0x3a1f90
@@ -3638,10 +3645,13 @@ PlayLayer::screenFlipObject - 0x399880
 PlayLayer::setupHasCompleted - 0x38f9c0
 PlayLayer::showCompleteEffect - 0x391fd0
 PlayLayer::showCompleteText - 0x3919a0
+PlayLayer::showEndLayer - 0x395750
 PlayLayer::showHint - 0x39d8c0
 PlayLayer::showNewBest - 0x3925f0
 PlayLayer::showRetryLayer - 0x3959c0
 PlayLayer::showTwoPlayerGuide - 0x395be0
+PlayLayer::spawnCircle - 0x394f50
+PlayLayer::spawnFirework - 0x395040
 PlayLayer::startGame - 0x390bd0
 PlayLayer::startGameDelayed - 0x390c20
 PlayLayer::startMusic - 0x3a3c60
@@ -3740,6 +3750,7 @@ RetryLevelLayer::showLayer - 0x3b48a0
 RetryLevelLayer::enterAnimFinished - 0x3b49c0
 RetryLevelLayer::rewardedVideoFinished - 0x3b4a00
 RetryLevelLayer::onMenu - 0x3b4b20
+RetryLevelLayer::onReplay - 0x3b4a10
 RetryLevelLayer::setupLastProgress - 0x3b4460
 RewardsPage::init - 0x3b5120
 RewardsPage::registerWithTouchDispatcher - 0x425d0
@@ -3820,7 +3831,14 @@ SecretLayer3::init - 0x3d2b20
 SecretLayer3::onExit - 0x3d8430
 SecretLayer3::keyBackClicked - 0x3d8420
 SecretLayer3::dialogClosed - 0x3d7e20
+SecretLayer3::animateEyes - 0x3d4480
+SecretLayer3::firstInteractionStep2 - 0x3d45a0
+SecretLayer3::firstInteractionStep4 - 0x3d4b20
+SecretLayer3::onBack - 0x3d82b0
+SecretLayer3::onChest01 - 0x3d4180
+SecretLayer3::onChest02 - 0x3d4300
 SecretLayer3::onClick - 0x3d5090
+SecretLayer3::revealStep1 - 0x3d68b0
 SecretLayer3::revealStep2 - 0x3d6aa0
 SecretLayer3::revealStep4 - 0x3d6f30
 SecretLayer3::revealStep5 - 0x3d7780
@@ -4862,8 +4880,10 @@ UILayer::onPause - 0x4b53c0
 UILayer::processUINodesTouch - 0x4b5820
 UILayer::processUINodeTouch - 0x4b58d0
 UILayer::resetUINodeState - 0x4b4aa0
+UILayer::toggleCheckpointsMenu - 0x4b5340
 UILayer::togglePlatformerMode - 0x4b4a30
 UILayer::updateCheckState - 0x4b4840
+UILayer::updateUINodeVisibility - 0x4b4bb0
 UIObjectSettingsPopup::create - 0x451310
 UIObjectSettingsPopup::onCustomToggleTriggerValue - 0x451f60
 UIObjectSettingsPopup::init - 0x451420

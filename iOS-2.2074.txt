@@ -1765,6 +1765,8 @@ GameObject::addEmptyGlow - 0x2545d8
 GameObject::addGlow - 0x254034
 GameObject::addInternalCustomColorChild - 0x259b68
 GameObject::addInternalGlowChild - 0x259c18
+GameObject::addToCustomScaleX - 0x25aa34
+GameObject::addToCustomScaleY - 0x25aa5c
 GameObject::colorForMode - 0x261330
 GameObject::commonInteractiveSetup - 0x25893c
 GameObject::createAndAddParticle - 0x2589ec
@@ -1818,6 +1820,7 @@ EnhancedGameObject::updateSyncedAnimation - 0x347598
 EnhancedGameObject::updateAnimateOnTrigger - 0x348938
 EnhancedGameObject::createRotateAction - 0x263ed8
 EnhancedGameObject::init - 0x261f48
+EnhancedGameObject::updateState - 0x262198
 EnhancedGameObject::updateUserCoin - 0x25e724
 EffectGameObject::EffectGameObject - 0x3925fc
 EffectGameObject::create - 0x37de80
@@ -2353,6 +2356,7 @@ CustomizeObjectLayer::hsvPopupClosed - 0x54208
 CustomizeObjectLayer::colorSelectClosed - 0x541fc
 CustomizeObjectLayer::colorSetupClosed - 0x53ed8
 CustomizeObjectLayer::getActiveMode - 0x53ad0
+CustomizeObjectLayer::getButtonByTag - 0x5417c
 CustomizeObjectLayer::highlightSelected - 0x54060
 CustomizeObjectLayer::init - 0x50fa4
 CustomizeObjectLayer::onBreakApart - 0x53868
@@ -2629,6 +2633,7 @@ EditorUI::applyOffset - 0x3e4a18
 EditorUI::applySpecialOffset - 0x3effe8
 EditorUI::assignNewGroups - 0x3eb650
 EditorUI::canSelectObject - 0x3e57f8
+EditorUI::checkDiffAfterTransformAnchor - 0x3e8ae8
 EditorUI::clickOnPosition - 0x3dea18
 EditorUI::constrainGameLayerPosition - 0x3dc880
 EditorUI::copyObjects - 0x3e0a08
@@ -2667,6 +2672,7 @@ EditorUI::getSelectedObjects - 0x3e6210
 EditorUI::getSnapAngle - 0x3ee4e4
 EditorUI::getSpriteButton - 0x3bf6f8
 EditorUI::getSpriteButton - 0x3df454
+EditorUI::getXMin - 0x3df78c
 EditorUI::init - 0x3bd3d4
 EditorUI::isSpecialSnapObject - 0x3ef5f0
 EditorUI::menuItemFromObjectString - 0x3e1170
@@ -2736,6 +2742,7 @@ EditorUI::spriteFromObjectString - 0x3e2af4
 EditorUI::toggleEnableRotate - 0x3bf870
 EditorUI::toggleFreeMove - 0x3bf790
 EditorUI::toggleMode - 0x3dc7b8
+EditorUI::toggleObjectInfoLabel - 0x3de3cc
 EditorUI::toggleSnap - 0x3bf7f8
 EditorUI::toggleStickyControls - 0x3de424
 EditorUI::toggleSwipe - 0x3bf690
@@ -3097,12 +3104,14 @@ GameManager::firstLoad - 0x31c908
 GameManager::accountStatusChanged - 0x3198f0
 GameManager::activeIconForType - 0x31781c
 GameManager::addNewCustomObject - 0x319548
+GameManager::applicationWillEnterForeground - 0x31d68c
 GameManager::calculateBaseKeyForIcons - 0x311f24
 GameManager::checkUsedIcons - 0x316a40
 GameManager::colorForIdx - 0x316f24
 GameManager::colorKey - 0x312e84
 GameManager::countForType - 0x3178fc
 GameManager::didExitPlayscene - 0x31d618
+GameManager::dpadConfigToString - 0x31ac2c
 GameManager::fadeInMenuMusic - 0x312450
 GameManager::fadeInMusic - 0x3124e0
 GameManager::followTwitch - 0x317578
@@ -3127,6 +3136,7 @@ GameManager::joinReddit - 0x317670
 GameManager::likeFacebook - 0x317404
 GameManager::loadBackground - 0x3185c0
 GameManager::loadDeathEffect - 0x318448
+GameManager::loadDpadFromString - 0x31b20c
 GameManager::loadGround - 0x318ad8
 GameManager::loadIcon - 0x317bac
 GameManager::loadMiddleground - 0x3187ac
@@ -3187,6 +3197,7 @@ GameStatsManager::getChallenge - 0x333cf4
 GameStatsManager::getChallengeKey - 0x333efc
 GameStatsManager::getCollectedCoinsForLevel - 0x330730
 GameStatsManager::getCompletedMapPacks - 0x331520
+GameStatsManager::getDemonLevelKey - 0x330994
 GameStatsManager::getGauntletRewardKey - 0x33648c
 GameStatsManager::getItemKey - 0x32ba84
 GameStatsManager::getItemUnlockState - 0x336148
@@ -3220,8 +3231,12 @@ GameStatsManager::processChallengeQueue - 0x334078
 GameStatsManager::purchaseItem - 0x32bdb0
 GameStatsManager::recountSpecialStats - 0x3351a4
 GameStatsManager::registerRewardsFromItem - 0x333604
+GameStatsManager::removeQueuedChallenge - 0x333b6c
+GameStatsManager::removeQueuedSecondaryChallenge - 0x333c74
 GameStatsManager::resetChallengeTimer - 0x3339c8
+GameStatsManager::resetSpecialStatAchievements - 0x335d94
 GameStatsManager::setStat - 0x32c038
+GameStatsManager::storeChallenge - 0x3339e0
 GameStatsManager::storeQueuedChallenge - 0x333ae4
 GameStatsManager::toggleEnableItem - 0x3362b8
 GameStatsManager::unlockGoldChest - 0x33e16c
@@ -3389,6 +3404,7 @@ GJBaseGameLayer::getBumpMod - 0x1ec028
 GJBaseGameLayer::getCameraEdgeValue - 0x1ff2e4
 GJBaseGameLayer::getGroup - 0x1e39cc
 GJBaseGameLayer::getMaxPortalY - 0x1e8750
+GJBaseGameLayer::getMinDistance - 0x207a48
 GJBaseGameLayer::getMinPortalY - 0x1e8680
 GJBaseGameLayer::getModifiedDelta - 0x200a54
 GJBaseGameLayer::getOptimizedGroup - 0x1f4024
@@ -3444,6 +3460,7 @@ GJBaseGameLayer::removeFromGroups - 0x1f40ec
 GJBaseGameLayer::removeGroupParent - 0x1f4208
 GJBaseGameLayer::removeObjectFromSection - 0x1f4e48
 GJBaseGameLayer::removePlayer2 - 0x1ebe04
+GJBaseGameLayer::removeTemporaryParticles - 0x20484c
 GJBaseGameLayer::reorderObjectSection - 0x1ec7f4
 GJBaseGameLayer::resetActiveEnterEffects - 0x1e3a30
 GJBaseGameLayer::resetAudio - 0x2009f8
@@ -3475,8 +3492,10 @@ GJBaseGameLayer::toggleAudioVisualizer - 0x1dc3c8
 GJBaseGameLayer::toggleDualMode - 0x1e76c4
 GJBaseGameLayer::toggleFlipped - 0x1ea9b8
 GJBaseGameLayer::togglePlayerVisibility - 0x1feee8
+GJBaseGameLayer::triggerAdvancedFollowEditCommand - 0x1fb640
 GJBaseGameLayer::triggerShaderCommand - 0x1f27b0
 GJBaseGameLayer::tryGetMainObject - 0x1ec2b4
+GJBaseGameLayer::tryGetObject - 0x1e72e4
 GJBaseGameLayer::updateAudioVisualizer - 0x201760
 GJBaseGameLayer::updateCamera - 0x201b6c
 GJBaseGameLayer::updateCameraMode - 0x1e7dc8
@@ -3499,6 +3518,7 @@ GJBaseGameLayer::updateShaderLayer - 0x1f2de8
 GJBaseGameLayer::updateSpecialGroupData - 0x1e0c74
 GJBaseGameLayer::updateSpecialLabels - 0x20334c
 GJBaseGameLayer::updateStaticCameraPos - 0x1e8330
+GJBaseGameLayer::updateStaticCameraPosToGroup - 0x205ea4
 GJBaseGameLayer::updateTimeMod - 0x1e7bf4
 GJBaseGameLayer::updateTimerLabels - 0x1fe480
 GJBaseGameLayer::updateZoom - 0x1fef38
@@ -3540,7 +3560,9 @@ GJEffectManager::removePersistentFromAllItems - 0x19ab4
 GJEffectManager::removeTriggeredID - 0x190a4
 GJEffectManager::reset - 0x128dc
 GJEffectManager::resetEffects - 0x12994
+GJEffectManager::spawnGroup - 0x18068
 GJEffectManager::storeTriggeredID - 0x19070
+GJEffectManager::timeForItem - 0x1a4a0
 GJEffectManager::tryGetMoveCommandNode - 0x1667c
 GJEffectManager::updateCountForItem - 0x19748
 GJEffectManager::updateEffects - 0x137b4
@@ -3647,9 +3669,12 @@ GJLevelList::addLevelToList - 0xb4874
 GJLevelList::completedLevels - 0xb4fa4
 GJLevelList::createWithCoder - 0xb533c
 GJLevelList::dataLoaded - 0xb536c
+GJLevelList::frameForListDifficulty - 0xb58a8
 GJLevelList::getUnpackedDescription - 0xb44a8
 GJLevelList::hasMatchingLevels - 0xb4390
+GJLevelList::parseListLevels - 0xa2ab4
 GJLevelList::showListInfo - 0xb4ff8
+GJLevelList::totalLevels - 0xb4f94
 GJLevelScoreCell::init - 0x11405c
 GJLevelScoreCell::draw - 0x1140a4
 GJLevelScoreCell::loadFromScore - 0x10b8d4
@@ -3912,6 +3937,7 @@ InfoLayer::commentUploadFailed - 0x352aa8
 InfoLayer::updateUserScoreFinished - 0x35294c
 InfoLayer::FLAlert_Clicked - 0x3523c0
 InfoLayer::confirmReport - 0x3513b8
+InfoLayer::getSpriteButton - 0x351610
 InfoLayer::init - 0x34f334
 InfoLayer::loadPage - 0x3518ac
 InfoLayer::onClose - 0x35157c
@@ -3924,11 +3950,14 @@ InfoLayer::onNextPage - 0x351600
 InfoLayer::onOriginal - 0x350fe0
 InfoLayer::onPrevPage - 0x3515f0
 InfoLayer::onRefreshComments - 0x3521c4
+InfoLayer::reloadWindow - 0x352b7c
 InfoLayer::setupCommentsBrowser - 0x351b78
 InfoLayer::setupLevelInfo - 0x350de8
 InfoLayer::toggleCommentMode - 0x3516f4
 InfoLayer::toggleExtendedMode - 0x351750
 InfoLayer::toggleSmallCommentMode - 0x351780
+InfoLayer::updateCommentModeButtons - 0x3517fc
+InfoLayer::updateLevelsLabel - 0x3528dc
 ItemInfoPopup::create - 0x306750
 ItemInfoPopup::nameForUnlockType - 0x309430
 ItemInfoPopup::keyBackClicked - 0x3095a4
@@ -3956,6 +3985,8 @@ LabelGameObject::getSaveString - 0x382044
 LabelGameObject::setObjectColor - 0x381fa4
 LabelGameObject::updateTextKerning - 0x381a10
 LabelGameObject::getTextKerning - 0x3922d0
+LabelGameObject::updateLabel - 0x381d10
+LabelGameObject::updateLabelIfDirty - 0x381d60
 LabelGameObject::updatePreviewLabel - 0x381a24
 LeaderboardsLayer::create - 0x3a9128
 LeaderboardsLayer::scene - 0x3a90dc
@@ -4062,6 +4093,7 @@ LevelEditorLayer::levelSettingsUpdated - 0x358cb4
 LevelEditorLayer::addObjectToGroup - 0x36152c
 LevelEditorLayer::addSpecial - 0x3595d8
 LevelEditorLayer::addToUndoList - 0x3594f4
+LevelEditorLayer::breakApartTextObject - 0x361d3c
 LevelEditorLayer::copyObjectState - 0x363454
 LevelEditorLayer::createObject - 0x359a70
 LevelEditorLayer::createObjectsFromSetup - 0x3576e8
@@ -4076,6 +4108,7 @@ LevelEditorLayer::getNextFreeGradientID - 0x35f90c
 LevelEditorLayer::getNextFreeGroupID - 0x35ef38
 LevelEditorLayer::getNextFreeItemID - 0x35f1a4
 LevelEditorLayer::getObjectRect - 0x35a84c
+LevelEditorLayer::getSectionCount - 0x35d5c8
 LevelEditorLayer::handleAction - 0x35b654
 LevelEditorLayer::init - 0x35643c
 LevelEditorLayer::objectAtPosition - 0x35a5f4
@@ -4084,6 +4117,7 @@ LevelEditorLayer::objectsInRect - 0x35a2a4
 LevelEditorLayer::onPlaytest - 0x3624a8
 LevelEditorLayer::onResumePlaytest - 0x362b04
 LevelEditorLayer::onStopPlaytest - 0x362c30
+LevelEditorLayer::quickUpdateAllPositions - 0x36223c
 LevelEditorLayer::recreateGroups - 0x36167c
 LevelEditorLayer::refreshSpecial - 0x35de50
 LevelEditorLayer::removeAllObjectsOfType - 0x35b3f0
@@ -4158,9 +4192,12 @@ LevelLeaderboard::loadLeaderboardFailed - 0x250060
 LevelLeaderboard::FLAlert_Clicked - 0x24fadc
 LevelLeaderboard::updateUserScoreFinished - 0x24fcc0
 LevelLeaderboard::updateUserScoreFailed - 0x24fccc
+LevelLeaderboard::deleteLocalScores - 0x24f988
+LevelLeaderboard::getSpriteButton - 0x24f2ac
 LevelLeaderboard::init - 0x24e4a8
 LevelLeaderboard::onClose - 0x24f504
 LevelLeaderboard::onUpdate - 0x24f540
+LevelLeaderboard::reloadLeaderboard - 0x24fd28
 LevelListCell::init - 0x115ae0
 LevelListCell::draw - 0x115bf8
 LevelListCell::loadFromList - 0x10698c
@@ -4319,6 +4356,8 @@ LocalLevelManager::getCreatedLevels - 0x1c9dbc
 LocalLevelManager::getCreatedLists - 0x1c9f14
 LocalLevelManager::getMainLevelString - 0x1c9594
 LocalLevelManager::reorderLists - 0x1c9ec4
+LocalLevelManager::updateLevelOrder - 0x1c9ca0
+LocalLevelManager::updateLevelRevision - 0x1c99a0
 MapPackCell::init - 0x111f90
 MapPackCell::draw - 0x112380
 MapPackCell::loadFromMapPack - 0x105e40
@@ -4647,6 +4686,7 @@ PlayerObject::getObjectRotation - 0x22dcec
 PlayerObject::animationFinished - 0x22e720
 PlayerObject::activateStreak - 0x21e810
 PlayerObject::addAllParticles - 0x21a044
+PlayerObject::addToTouchedRings - 0x229754
 PlayerObject::animatePlatformerJump - 0x21ecec
 PlayerObject::boostPlayer - 0x2208a8
 PlayerObject::bumpPlayer - 0x22d2f8
@@ -4668,6 +4708,7 @@ PlayerObject::fadeOutStreak2 - 0x22861c
 PlayerObject::flipGravity - 0x21eb30
 PlayerObject::getActiveMode - 0x229efc
 PlayerObject::getYVelocity - 0x21a2c8
+PlayerObject::handleRotatedCollisionInternal - 0x220d34
 PlayerObject::hitGround - 0x224188
 PlayerObject::incrementJumps - 0x21eaf8
 PlayerObject::init - 0x218410
@@ -4676,6 +4717,7 @@ PlayerObject::isInBasicMode - 0x225fa0
 PlayerObject::isInNormalMode - 0x21c1bc
 PlayerObject::isSafeFlip - 0x22415c
 PlayerObject::isSafeHeadTest - 0x22d9b8
+PlayerObject::levelFlipFinished - 0x21e980
 PlayerObject::levelFlipping - 0x21d2fc
 PlayerObject::loadFromCheckpoint - 0x22e1c0
 PlayerObject::lockPlayer - 0x22d0b8
@@ -4692,8 +4734,10 @@ PlayerObject::preCollision - 0x21f300
 PlayerObject::preSlopeCollision - 0x223cb4
 PlayerObject::propellPlayer - 0x22d548
 PlayerObject::pushButton - 0x228864
+PlayerObject::redirectPlayerForce - 0x22d7e0
 PlayerObject::releaseAllButtons - 0x22d074
 PlayerObject::releaseButton - 0x229640
+PlayerObject::removeAllParticles - 0x21a164
 PlayerObject::removePendingCheckpoint - 0x227a2c
 PlayerObject::resetAllParticles - 0x21e6d8
 PlayerObject::resetCollisionLog - 0x21f2a0
@@ -4703,6 +4747,7 @@ PlayerObject::resetTouchedRings - 0x22798c
 PlayerObject::reversePlayer - 0x2297ac
 PlayerObject::ringJump - 0x228ac0
 PlayerObject::rotateGameplay - 0x227648
+PlayerObject::rotateGameplayObject - 0x220e94
 PlayerObject::rotateGameplayOnly - 0x229e20
 PlayerObject::runBallRotation - 0x21f098
 PlayerObject::runNormalRotation - 0x21c204
@@ -4712,6 +4757,7 @@ PlayerObject::setupStreak - 0x219cd4
 PlayerObject::setYVelocity - 0x219b38
 PlayerObject::spawnCircle - 0x2280e4
 PlayerObject::spawnDualCircle - 0x228414
+PlayerObject::spawnFromPlayer - 0x22dbb0
 PlayerObject::spawnPortalCircle - 0x2281c4
 PlayerObject::spawnScaleCircle - 0x2282e0
 PlayerObject::spiderTestJump - 0x21ea64
@@ -4814,7 +4860,9 @@ PlayLayer::getCurrentPercent - 0x121fd8
 PlayLayer::getEndPosition - 0x11d78c
 PlayLayer::init - 0x1187cc
 PlayLayer::levelComplete - 0x11d7e8
+PlayLayer::loadActiveSaveObjects - 0x12507c
 PlayLayer::loadDefaultColors - 0x11bcfc
+PlayLayer::loadDynamicSaveObjects - 0x124f3c
 PlayLayer::loadFromCheckpoint - 0x124b9c
 PlayLayer::loadLastCheckpoint - 0x124b50
 PlayLayer::markCheckpoint - 0x123284
@@ -4827,6 +4875,7 @@ PlayLayer::playPlatformerEndAnimationToPos - 0x11f9e8
 PlayLayer::prepareCreateObjectsFromSetup - 0x119218
 PlayLayer::prepareMusic - 0x11d2f4
 PlayLayer::processCreateObjectsFromSetup - 0x119504
+PlayLayer::processLoadedMoveActions - 0x12004c
 PlayLayer::removeAllObjects - 0x11d5a4
 PlayLayer::removeCheckpoint - 0x124a64
 PlayLayer::resetLevel - 0x11ca00
@@ -4838,11 +4887,13 @@ PlayLayer::scanDynamicSaveObjects - 0x11a878
 PlayLayer::setupHasCompleted - 0x119a3c
 PlayLayer::showCompleteEffect - 0x11e048
 PlayLayer::showCompleteText - 0x11e3a0
+PlayLayer::showEndLayer - 0x11eaf0
 PlayLayer::showHint - 0x122db8
 PlayLayer::showNewBest - 0x11eb6c
 PlayLayer::showRetryLayer - 0x11fc60
 PlayLayer::showTwoPlayerGuide - 0x11b870
 PlayLayer::spawnCircle - 0x11dfa0
+PlayLayer::spawnFirework - 0x11e8d8
 PlayLayer::startGame - 0x11d400
 PlayLayer::startGameDelayed - 0x11d77c
 PlayLayer::startMusic - 0x11d6a4
@@ -4930,6 +4981,9 @@ RetryLevelLayer::showLayer - 0x1b5aa8
 RetryLevelLayer::enterAnimFinished - 0x1b5bb0
 RetryLevelLayer::rewardedVideoFinished - 0x1b5be8
 RetryLevelLayer::keyUp - 0x1b5c3c
+RetryLevelLayer::onMenu - 0x1b5a04
+RetryLevelLayer::onReplay - 0x1b59b8
+RetryLevelLayer::setupLastProgress - 0x1b5658
 RewardsPage::~RewardsPage - 0x1c4608
 RewardsPage::create - 0x1c46cc
 RewardsPage::init - 0x1c4798
@@ -5018,6 +5072,21 @@ SecretLayer3::init - 0x30de60
 SecretLayer3::onExit - 0x31197c
 SecretLayer3::keyBackClicked - 0x311970
 SecretLayer3::dialogClosed - 0x311714
+SecretLayer3::animateEyes - 0x30f0d0
+SecretLayer3::firstInteractionStep1 - 0x30fee0
+SecretLayer3::firstInteractionStep2 - 0x30ff9c
+SecretLayer3::firstInteractionStep3 - 0x310288
+SecretLayer3::firstInteractionStep4 - 0x3103f0
+SecretLayer3::onBack - 0x30fe5c
+SecretLayer3::onChest01 - 0x30fc84
+SecretLayer3::onChest02 - 0x30fd70
+SecretLayer3::onClick - 0x30f1c0
+SecretLayer3::revealStep1 - 0x3106d8
+SecretLayer3::revealStep2 - 0x310bc4
+SecretLayer3::revealStep3 - 0x310e14
+SecretLayer3::revealStep4 - 0x310eb0
+SecretLayer3::revealStep5 - 0x311394
+SecretLayer3::showUnlockDialog - 0x310740
 SecretLayer4::SecretLayer4 - 0x355e30
 SecretLayer4::~SecretLayer4 - 0x353648
 SecretLayer4::init - 0x3537a8
@@ -5757,6 +5826,7 @@ UILayer::toggleMenuVisibility - 0x4dc58
 UILayer::togglePlatformerMode - 0x4d3a0
 UILayer::updateCheckState - 0x4d22c
 UILayer::updateDualMode - 0x4d438
+UILayer::updateUINodeVisibility - 0x4d63c
 UIObjectSettingsPopup::onCustomToggleTriggerValue - 0x403440
 UIOptionsLayer::create - 0x2e1d1c
 UIOptionsLayer::ccTouchBegan - 0x2e4038
