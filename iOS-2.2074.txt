@@ -1663,6 +1663,7 @@ AchievementNotifier::achievementDisplayFinished - 0x2173fc
 AchievementNotifier::notifyAchievement - 0x2172a8
 AchievementNotifier::showNextAchievement - 0x2172fc
 AchievementNotifier::willSwitchToScene - 0x217440
+AchievementsLayer::AchievementsLayer - 0x41a414
 AchievementsLayer::create - 0x419b94
 AchievementsLayer::keyDown - 0x41a244
 AchievementsLayer::customSetup - 0x419c40
@@ -2470,6 +2471,7 @@ DailyLevelPage::levelDownloadFailed - 0x1bc6f4
 DailyLevelPage::createDailyNode - 0x1bbfc4
 DailyLevelPage::createNodeIfLoaded - 0x1bc734
 DailyLevelPage::downloadAndCreateNode - 0x1bc3c4
+DailyLevelPage::exitDailyNode - 0x1bc310
 DailyLevelPage::getDailyTimeString - 0x1bbb24
 DailyLevelPage::init - 0x1baf38
 DailyLevelPage::onClose - 0x1bba6c
@@ -3610,7 +3612,9 @@ GJGameLoadingLayer::create - 0x20b54c
 GJGameLoadingLayer::transitionToLoadingLayer - 0x20b4c0
 GJGameLoadingLayer::onEnter - 0x20b7f4
 GJGameLoadingLayer::onEnterTransitionDidFinish - 0x20b7f0
+GJGameLoadingLayer::gameLayerDidUnload - 0x1db780
 GJGameLoadingLayer::init - 0x20b698
+GJGameLoadingLayer::loadLevel - 0x20b790
 GJGarageLayer::GJGarageLayer - 0x309620
 GJGarageLayer::~GJGarageLayer - 0x301c44
 GJGarageLayer::node - 0x301d84
@@ -4425,12 +4429,13 @@ MessagesProfilePage::isCorrect - 0x1ce054
 MessagesProfilePage::loadPage - 0x1cd974
 MessagesProfilePage::onClose - 0x1cd594
 MessagesProfilePage::onDeleteSelected - 0x1cd6e0
-MessagesProfilePage::onNextPage - 0x1cd8f8
-MessagesProfilePage::onPrevPage - 0x1cd904
+MessagesProfilePage::onNextPage - 0x1cd904
+MessagesProfilePage::onPrevPage - 0x1cd8f8
 MessagesProfilePage::onSentMessages - 0x1cd654
 MessagesProfilePage::onToggleAllObjects - 0x1cd860
 MessagesProfilePage::onUpdate - 0x1cd910
 MessagesProfilePage::setupCommentsBrowser - 0x1ce0a4
+MessagesProfilePage::untoggleAll - 0x1cdfa8
 MoreOptionsLayer::MoreOptionsLayer - 0xf6a54
 MoreOptionsLayer::~MoreOptionsLayer - 0xf071c
 MoreOptionsLayer::create - 0xf0558
@@ -4461,6 +4466,7 @@ MoreVideoOptionsLayer::create - 0xf4170
 MoreVideoOptionsLayer::init - 0xf4504
 MoreVideoOptionsLayer::keyBackClicked - 0xf5950
 MoreVideoOptionsLayer::addToggle - 0xf491c
+MoreVideoOptionsLayer::onClose - 0xf4cb4
 MoreVideoOptionsLayer::onInfo - 0xf573c
 MoreVideoOptionsLayer::onNextPage - 0xf4d18
 MoreVideoOptionsLayer::onPrevPage - 0xf4d0c
@@ -5001,6 +5007,7 @@ RewardsPage::FLAlert_Clicked - 0x1c5b48
 RewardsPage::rewardsStatusFinished - 0x1c57bc
 RewardsPage::rewardsStatusFailed - 0x1c597c
 RewardsPage::onFreeStuff - 0x1c5274
+RewardsPage::onReward - 0x1c52a0
 RewardsPage::updateTimers - 0x1c53ac
 RewardUnlockLayer::create - 0x1c56d8
 RewardUnlockLayer::keyBackClicked - 0x1c8e14
@@ -5027,6 +5034,8 @@ ScrollingLayer::ccTouchMoved - 0x1bab64
 ScrollingLayer::ccTouchEnded - 0x1bac60
 ScrollingLayer::ccTouchCancelled - 0x1bac98
 ScrollingLayer::getViewRect - 0x1ba8bc
+ScrollingLayer::init - 0x1ba800
+ScrollingLayer::setStartOffset - 0x1baa6c
 SearchButton::create - 0x56f84
 SearchButton::init - 0x588f0
 SetTextPopup::create - 0x2df0cc
@@ -5061,6 +5070,7 @@ SecretLayer2::textChanged - 0x30d484
 SecretLayer2::FLAlert_Clicked - 0x30d310
 SecretLayer2::dialogClosed - 0x30c6f4
 SecretLayer2::getBasicMessage - 0x30d5c8
+SecretLayer2::getErrorMessage - 0x30cfb0
 SecretLayer2::getMessage - 0x30a6c4
 SecretLayer2::getThreadMessage - 0x30d864
 SecretLayer2::onBack - 0x30a8f4
@@ -5069,6 +5079,7 @@ SecretLayer2::onSecretLevel - 0x30bd10
 SecretLayer2::onSubmit - 0x30a968
 SecretLayer2::playCoinEffect - 0x30c7a4
 SecretLayer2::selectAThread - 0x30d504
+SecretLayer2::showCompletedLevel - 0x30be6c
 SecretLayer2::showSecretLevel - 0x30c5e4
 SecretLayer2::updateMessageLabel - 0x30a674
 SecretLayer2::updateSearchLabel - 0x30a754
@@ -5890,5 +5901,7 @@ VideoOptionsLayer::init - 0xf2d28
 VideoOptionsLayer::keyBackClicked - 0xf4440
 VideoOptionsLayer::createToggleButton - 0xf3ab8
 VideoOptionsLayer::onAdvanced - 0xf4154
+VideoOptionsLayer::onApply - 0xf3dcc
 VideoOptionsLayer::onFullscreen - 0xf3d14
 VideoOptionsLayer::toggleResolution - 0xf4234
+VideoOptionsLayer::updateResolution - 0xf4094

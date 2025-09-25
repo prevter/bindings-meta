@@ -3184,6 +3184,7 @@ MessagesProfilePage::forceReloadMessages - 0x323450
 MessagesProfilePage::setupPageInfo - 0x323470
 MessagesProfilePage::deleteSelected - 0x3227d0
 MessagesProfilePage::init - 0x321850
+MessagesProfilePage::isCorrect - 0x13d500
 MessagesProfilePage::loadPage - 0x322d60
 MessagesProfilePage::onClose - 0x322bf0
 MessagesProfilePage::onDeleteSelected - 0x3224e0
@@ -3191,6 +3192,7 @@ MessagesProfilePage::onNextPage - 0x323610
 MessagesProfilePage::onPrevPage - 0x323620
 MessagesProfilePage::onSentMessages - 0x322450
 MessagesProfilePage::onToggleAllObjects - 0x322270
+MessagesProfilePage::onUpdate - 0x322350
 MessagesProfilePage::setupCommentsBrowser - 0x323170
 MessagesProfilePage::untoggleAll - 0x322cc0
 MoreOptionsLayer::init - 0x35da20
@@ -3766,6 +3768,7 @@ RewardsPage::rewardsStatusFinished - 0x3b6120
 RewardsPage::rewardsStatusFailed - 0x3b6370
 RewardsPage::onFreeStuff - 0x3b6920
 RewardsPage::onReward - 0x3b5fe0
+RewardsPage::updateTimers - 0x3b6470
 RewardUnlockLayer::create - 0x3b6950
 RewardUnlockLayer::currencyWillExit - 0x3ba210
 RewardUnlockLayer::connectionTimeout - 0x3b7850
