@@ -290,7 +290,10 @@ cocos2d::CCSet::addObject - 0x1af93c
 cocos2d::CCSet::begin - 0x1afa04
 cocos2d::CCSet::containsObject - 0x1af9b4
 cocos2d::CCSet::copy - 0x1af8e4
+cocos2d::CCSet::count - 0x1af930
 cocos2d::CCSet::end - 0x1afa10
+cocos2d::CCSet::mutableCopy - 0x1af92c
+cocos2d::CCSet::removeAllObjects - 0x1af83c
 cocos2d::CCSet::removeObject - 0x1af980
 cocos2d::CCSet::acceptVisitor - 0x1af8cc
 cocos2d::CCShaderCache::purgeSharedShaderCache - 0x12b69c
@@ -1046,6 +1049,7 @@ cocos2d::CCRotateBy::update - 0x18ec90
 cocos2d::CCRotateBy::startWithTarget - 0x18ec38
 cocos2d::CCRotateBy::reverse - 0x18ed0c
 cocos2d::CCRotateTo::create - 0x18e6f4
+cocos2d::CCRotateTo::initWithDuration - 0x18e794
 cocos2d::CCRotateTo::copyWithZone - 0x18e7c0
 cocos2d::CCRotateTo::update - 0x18e984
 cocos2d::CCRotateTo::startWithTarget - 0x18e8a4
@@ -1881,6 +1885,7 @@ AnimatedShopKeeper::animationFinished - 0x151d58
 AnimatedShopKeeper::init - 0x151ca4
 AnimatedShopKeeper::playReactAnimation - 0x150fc4
 AnimatedShopKeeper::startAnimating - 0x14f1e0
+AppDelegate::get - 0x268568
 AppDelegate::applicationDidFinishLaunching - 0x268414
 AppDelegate::applicationDidEnterBackground - 0x2685f8
 AppDelegate::applicationWillEnterForeground - 0x2686b4
@@ -1960,6 +1965,7 @@ BrowseSmartTemplateLayer::keyBackClicked - 0x76884
 BrowseSmartTemplateLayer::onBack - 0x768a8
 BrowseSmartKeyLayer::onBack - 0x779e0
 ButtonPage::create - 0x419250
+ButtonPage::init - 0x419398
 ButtonSprite::ButtonSprite - 0x63804
 ButtonSprite::create - 0x62f8c
 ButtonSprite::create - 0x62878
@@ -3608,6 +3614,7 @@ GJGameLevel::getUnpackedLevelDescription - 0xb2c14
 GJGameLevel::handleStatsConflict - 0x9f82c
 GJGameLevel::saveNewScore - 0xb0314
 GJGameLevel::savePercentage - 0xafc44
+GJGameLevel::storeNewLocalScore - 0xb049c
 GJGameLoadingLayer::create - 0x20b54c
 GJGameLoadingLayer::transitionToLoadingLayer - 0x20b4c0
 GJGameLoadingLayer::onEnter - 0x20b7f4
@@ -4185,6 +4192,7 @@ LevelInfoLayer::playStep3 - 0x2eb24
 LevelInfoLayer::playStep4 - 0x2ec60
 LevelInfoLayer::setupPlatformerStats - 0x2bc9c
 LevelInfoLayer::setupProgressBars - 0x2bff8
+LevelInfoLayer::shouldDownloadLevel - 0x2d84c
 LevelInfoLayer::tryCloneLevel - 0x2cf6c
 LevelInfoLayer::updateLabelValues - 0x2d910
 LevelInfoLayer::updateSideButtons - 0x2cacc
