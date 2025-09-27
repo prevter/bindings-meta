@@ -1784,7 +1784,10 @@ GameObject::getGroupID - 0x25c624
 GameObject::getLastPosition - 0x261674
 GameObject::getRelativeSpriteColor - 0x260ed8
 GameObject::getScalePosDelta - 0x25c3a4
+GameObject::groupOpacityMod - 0x25cb6c
 GameObject::init - 0x253dc0
+GameObject::isFacingDown - 0x260d28
+GameObject::isFacingLeft - 0x260db8
 GameObject::isSettingsObject - 0x261dfc
 GameObject::isSpawnableTrigger - 0x261684
 GameObject::isTrigger - 0x258c90
