@@ -2825,6 +2825,7 @@ GManager::setup - 0x249784
 GManager::encodeDataTo - 0x249bb8
 GManager::dataLoaded - 0x249ffc
 GManager::firstLoad - 0x24a000
+GManager::getCompressedSaveString - 0x249818
 GManager::save - 0x2499c4
 FindBPMLayer::onClose - 0x823f8
 FindBPMLayer::playMusic - 0x82284

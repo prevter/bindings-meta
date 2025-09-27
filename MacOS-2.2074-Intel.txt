@@ -3124,6 +3124,7 @@ GManager::setup - 0x498f20
 GManager::encodeDataTo - 0x499400
 GManager::dataLoaded - 0x499ab0
 GManager::firstLoad - 0x499ac0
+GManager::getCompressedSaveString - 0x498ff0
 GManager::loadDataFromFile - 0x499410
 GManager::save - 0x499190
 FileSaveManager::init - 0x73b0
