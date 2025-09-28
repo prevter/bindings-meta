@@ -1561,6 +1561,7 @@ GJDropDownLayer::disableUI - 0x3aad30
 GJDropDownLayer::enableUI - 0x3aad44
 GJDropDownLayer::init - 0x3aa920
 GJDropDownLayer::init - 0x3aad1c
+AccountHelpLayer::~AccountHelpLayer - 0x16a580
 AccountHelpLayer::create - 0x16a4bc
 AccountHelpLayer::customSetup - 0x16a644
 AccountHelpLayer::layerHidden - 0x16b0cc
@@ -2122,6 +2123,7 @@ ChallengesPage::createChallengeNode - 0x36770
 ChallengesPage::exitNodeAtSlot - 0x36acc
 ChallengesPage::onClose - 0x36530
 ChallengesPage::updateTimers - 0x3657c
+GJChallengeItem::create - 0x340484
 GJChallengeItem::create - 0x340380
 GJChallengeItem::createWithCoder - 0x340598
 GJChallengeItem::encodeWithCoder - 0x340730
@@ -2221,6 +2223,8 @@ SetupTriggerPopup::createEasingControls - 0x1368fc
 SetupTriggerPopup::createToggleValueControl - 0x134e78
 SetupTriggerPopup::createToggleValueControlAdvanced - 0x134fb8
 SetupTriggerPopup::createValueControlAdvanced - 0x134204
+SetupTriggerPopup::getGroupContainer - 0x131e94
+SetupTriggerPopup::getPageContainer - 0x131d50
 SetupTriggerPopup::getTriggerValue - 0x135bc8
 SetupTriggerPopup::getTruncatedValueByTag - 0x133f28
 SetupTriggerPopup::goToPage - 0x131bac
@@ -2463,6 +2467,8 @@ CustomSongWidget::updateMultiAssetInfo - 0x100a6c
 CustomSongWidget::updateSongInfo - 0xfee04
 CustomSongWidget::updateSongObject - 0xfed98
 CustomSongWidget::updateWithMultiAssets - 0x1005d0
+DailyLevelNode::DailyLevelNode - 0x1bdb20
+DailyLevelNode::~DailyLevelNode - 0x1bcd28
 DailyLevelNode::create - 0x1bc7c8
 DailyLevelNode::FLAlert_Clicked - 0x1bda58
 DailyLevelNode::init - 0x1bcd9c
@@ -3410,6 +3416,8 @@ GJBaseGameLayer::destroyObject - 0x1eb004
 GJBaseGameLayer::flipFinished - 0x2036ac
 GJBaseGameLayer::flipGravity - 0x1e7c68
 GJBaseGameLayer::gameEventTriggered - 0x1e5c54
+GJBaseGameLayer::generateEnterEasingBuffer - 0x1e421c
+GJBaseGameLayer::generateEnterEasingBuffers - 0x1e41d8
 GJBaseGameLayer::generateSpawnRemap - 0x1e0ce0
 GJBaseGameLayer::generateTargetGroups - 0x1e219c
 GJBaseGameLayer::generateVisibilityGroups - 0x1e306c
@@ -4269,6 +4277,7 @@ LevelPage::onPlay - 0x3fb8bc
 LevelPage::onSecretDoor - 0x3fd2c8
 LevelPage::onTheTower - 0x3fc938
 LevelPage::updateDynamicPage - 0x3fa3a0
+LevelSearchLayer::~LevelSearchLayer - 0x54c6c
 LevelSearchLayer::create - 0x54d78
 LevelSearchLayer::scene - 0x54d2c
 LevelSearchLayer::keyBackClicked - 0x588e4
@@ -4712,7 +4721,9 @@ PlayerObject::bumpPlayer - 0x22d2f8
 PlayerObject::checkSnapJumpToObject - 0x224e8c
 PlayerObject::collidedWithObject - 0x220ae4
 PlayerObject::collidedWithObject - 0x224e30
+PlayerObject::collidedWithObjectInternal - 0x22212c
 PlayerObject::collidedWithSlope - 0x220b8c
+PlayerObject::collidedWithSlopeInternal - 0x221030
 PlayerObject::convertToClosestRotation - 0x21e0a4
 PlayerObject::copyAttributes - 0x22da24
 PlayerObject::createFadeOutDartStreak - 0x229880
@@ -5794,6 +5805,7 @@ TextArea::colorAllCharactersTo - 0xf9ec0
 TextArea::colorAllLabels - 0xf9f7c
 TextArea::fadeInCharacters - 0xfa140
 TextArea::setString - 0xf9ab8
+TextArea::showAll - 0xf9df4
 TextArea::stopAllCharacterActions - 0xf9d3c
 TextGameObject::customObjectSetup - 0x264288
 TextGameObject::getSaveString - 0x2643c8
@@ -5828,6 +5840,8 @@ TutorialLayer::loadPage - 0x1bf678
 TutorialLayer::onClose - 0x1bf608
 TutorialLayer::onNext - 0x1bf660
 TutorialLayer::removeTutorialTexture - 0x1bfa18
+UILayer::UILayer - 0x4ef74
+UILayer::~UILayer - 0x4e518
 UILayer::create - 0x4cb8c
 UILayer::draw - 0x4dcc8
 UILayer::ccTouchBegan - 0x4dd08

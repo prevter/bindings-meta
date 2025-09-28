@@ -97,7 +97,7 @@ AccountRegisterLayer::textInputReturn - 0x7b620
 AccountRegisterLayer::allowTextInput - 0x7b670
 AccountRegisterLayer::registerAccountFinished - 0x79c90
 AccountRegisterLayer::registerAccountFailed - 0x79eb0
-AchievementBar::AchievementBar - 0x80620
+AccountRegisterLayer::updateLabel - 0x79ef0
 AchievementBar::setOpacity - 0x81ea0
 AchievementBar::init - 0x80670
 AchievementBar::show - 0x81c20
@@ -355,6 +355,7 @@ AudioAssetsBrowser::keyBackClicked - 0x84650
 AudioAssetsBrowser::musicActionFinished - 0x83cd0
 AudioAssetsBrowser::musicActionFailed - 0x83d50
 AudioAssetsBrowser::init - 0x83760
+AudioAssetsBrowser::onInfo - 0x83f70
 AudioEffectsLayer::updateTweenAction - 0x84fb0
 AudioEffectsLayer::audioStep - 0x84d80
 AudioEffectsLayer::init - 0x84b90
@@ -1274,6 +1275,7 @@ EditorUI::resetSelectedObjectsColor - 0x11dd50
 EditorUI::resetUI - 0xe36d0
 EditorUI::rotateObjects - 0x11f4b0
 EditorUI::scaleObjects - 0x11f8d0
+EditorUI::selectAllWithDirection - 0x10feb0
 EditorUI::selectBuildTab - 0x112f90
 EditorUI::selectObject - 0x10ee50
 EditorUI::selectObjects - 0x10f140
@@ -1817,6 +1819,7 @@ GameStatsManager::preProcessReward - 0x1deb00
 GameStatsManager::preSaveGameStats - 0x1f0630
 GameStatsManager::processChallengeQueue - 0x1df950
 GameStatsManager::purchaseItem - 0x1d12e0
+GameStatsManager::recountSpecialStats - 0x1e1480
 GameStatsManager::registerRewardsFromItem - 0x1ee170
 GameStatsManager::removeErrorFromSpecialChests - 0x1f0310
 GameStatsManager::resetSpecialStatAchievements - 0x1e22e0
@@ -2485,6 +2488,7 @@ GJShopLayer::dialogClosed - 0x2a6f60
 GJShopLayer::init - 0x2a2070
 GJShopLayer::onBack - 0x2a56b0
 GJShopLayer::onCommunityCredits - 0x2a43e0
+GJShopLayer::onSelectItem - 0x2a45f0
 GJShopLayer::showCantAffordMessage - 0x2a4800
 GJShopLayer::showReactMessage - 0x2a58e0
 GJShopLayer::updateCurrencyCounter - 0x2a4580
@@ -3785,6 +3789,7 @@ RewardUnlockLayer::connectionTimeout - 0x3b7850
 RewardUnlockLayer::init - 0x3b6a80
 RewardUnlockLayer::onClose - 0x3ba220
 RewardUnlockLayer::playDropSound - 0x3b78b0
+RewardUnlockLayer::playLabelEffect - 0x3b9180
 RewardUnlockLayer::playRewardEffect - 0x3b7a70
 RewardUnlockLayer::showCloseButton - 0x3b9110
 RewardUnlockLayer::showCollectReward - 0x3b7790
@@ -4666,6 +4671,7 @@ ShareCommentLayer::onClear - 0x475c20
 ShareCommentLayer::onClose - 0x476130
 ShareCommentLayer::onPercent - 0x475c90
 ShareCommentLayer::onShare - 0x475d90
+ShareCommentLayer::updateDescText - 0x476420
 ShareCommentLayer::updatePercentLabel - 0x475cb0
 ShareLevelLayer::keyBackClicked - 0x84650
 ShareLevelLayer::init - 0x4769e0
