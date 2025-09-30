@@ -687,6 +687,7 @@ SetupTriggerPopup::triggerArrowRight - 0x45da70
 SetupTriggerPopup::triggerSliderChanged - 0x45d980
 SetupTriggerPopup::updateCustomEaseLabel - 0x465630
 SetupTriggerPopup::updateCustomEaseRateLabel - 0x465800
+SetupTriggerPopup::updateEaseRateLabel - 0x4647d0
 SetupTriggerPopup::updateEditorLabel - 0x45d160
 SetupTriggerPopup::updateInputNodeLabel - 0x463be0
 SetupTriggerPopup::updateMultiTriggerBtn - 0x45d3c0
@@ -744,6 +745,7 @@ ConfigureHSVWidget::textChanged - 0x97560
 ConfigureHSVWidget::createTextInputNode - 0x97300
 ConfigureHSVWidget::init - 0x96a20
 ConfigureHSVWidget::onResetHSV - 0x97b10
+ConfigureHSVWidget::sliderChanged - 0x978f0
 ConfigureHSVWidget::updateLabels - 0x97b90
 ConfigureHSVWidget::updateSliders - 0x97820
 ConfigureValuePopup::create - 0x983a0
@@ -4228,6 +4230,7 @@ SetupGradientPopup::updateBlendingLabel - 0x40a380
 SetupGradientPopup::updateGradientLabels - 0x40a090
 SetupGradientPopup::updateZLayerButtons - 0x40a230
 SetupGravityTriggerPopup::valueDidChange - 0x411950
+SetupGravityTriggerPopup::init - 0x4114d0
 SetupInstantCountPopup::create - 0x40a520
 SetupInstantCountPopup::determineStartValues - 0x40b590
 SetupInstantCountPopup::onClose - 0x402140

@@ -2428,6 +2428,8 @@ SetupTriggerPopup::preSetup - 0x2298d0
 SetupTriggerPopup::triggerArrowLeft - 0x2277b0
 SetupTriggerPopup::triggerArrowRight - 0x2278c0
 SetupTriggerPopup::triggerSliderChanged - 0x227610
+SetupTriggerPopup::updateCustomEaseRateLabel - 0x22d590
+SetupTriggerPopup::updateEaseRateLabel - 0x22d2f0
 SetupTriggerPopup::updateEditorLabel - 0x224d40
 SetupTriggerPopup::updateSlider - 0x227070
 SetupTriggerPopup::updateValue - 0x2289d0

@@ -2237,6 +2237,8 @@ SetupTriggerPopup::triggerArrowChanged - 0x133fc8
 SetupTriggerPopup::triggerArrowLeft - 0x133f90
 SetupTriggerPopup::triggerArrowRight - 0x13405c
 SetupTriggerPopup::triggerSliderChanged - 0x133e84
+SetupTriggerPopup::updateCustomEaseRateLabel - 0x1373fc
+SetupTriggerPopup::updateEaseRateLabel - 0x1371dc
 SetupTriggerPopup::updateEditorLabel - 0x132cf4
 SetupTriggerPopup::updateSlider - 0x133adc
 SetupTriggerPopup::updateValue - 0x134ca8
@@ -2286,11 +2288,14 @@ ConfigureHSVWidget::textInputClosed - 0x103244
 ConfigureHSVWidget::textChanged - 0x103260
 ConfigureHSVWidget::init - 0x102110
 ConfigureHSVWidget::onResetHSV - 0x102d7c
+ConfigureHSVWidget::sliderChanged - 0x102b68
 ConfigureHSVWidget::updateLabels - 0x102df4
 ConfigureHSVWidget::updateSliders - 0x103180
 ConfigureValuePopup::keyBackClicked - 0x153e9c
 ConfigureValuePopup::textInputClosed - 0x153d98
 ConfigureValuePopup::textChanged - 0x153db4
+ConfigureValuePopup::sliderChanged - 0x153cc0
+ConfigureValuePopup::updateTextInputLabel - 0x153d04
 CountTriggerGameObject::triggerObject - 0x389674
 CountTriggerGameObject::customObjectSetup - 0x38981c
 CountTriggerGameObject::getSaveString - 0x389b1c
@@ -5367,6 +5372,7 @@ SetupGradientPopup::updateToggleItem - 0x34317c
 SetupGradientPopup::valueDidChange - 0x343234
 SetupGradientPopup::init - 0x341f78
 SetupGravityTriggerPopup::valueDidChange - 0x419a94
+SetupGravityTriggerPopup::init - 0x4196c8
 SetupInstantCountPopup::create - 0x1bdc18
 SetupInstantCountPopup::determineStartValues - 0x1bebe0
 SetupInstantCountPopup::onClose - 0x1befc0
