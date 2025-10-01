@@ -5897,6 +5897,7 @@ UIPOptionsLayer::registerWithTouchDispatcher - 0x2e61a0
 UIPOptionsLayer::onClose - 0x2e5e18
 UIPOptionsLayer::valueDidChange - 0x2e5e88
 UIPOptionsLayer::getValue - 0x2e5f3c
+UIPOptionsLayer::onReset - 0x2e5d70
 UISettingsGameObject::init - 0x38b2f0
 UISettingsGameObject::customObjectSetup - 0x38b69c
 UISettingsGameObject::getSaveString - 0x38b340

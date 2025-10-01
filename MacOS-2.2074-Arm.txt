@@ -7033,6 +7033,7 @@ UIPOptionsLayer::registerWithTouchDispatcher - 0x24b42c
 UIPOptionsLayer::onClose - 0x24afa8
 UIPOptionsLayer::valueDidChange - 0x24b018
 UIPOptionsLayer::getValue - 0x24b0cc
+UIPOptionsLayer::onReset - 0x24af00
 UISaveLoadLayer::init - 0x248bb8
 UISaveLoadLayer::onLoad - 0x2494ec
 UISaveLoadLayer::onSave - 0x2492ac
