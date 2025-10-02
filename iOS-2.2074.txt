@@ -3403,6 +3403,7 @@ GJBaseGameLayer::applyShake - 0x20574c
 GJBaseGameLayer::assignNewStickyGroups - 0x1f4a50
 GJBaseGameLayer::bumpPlayer - 0x1eab1c
 GJBaseGameLayer::canBeActivatedByPlayer - 0x1ea898
+GJBaseGameLayer::canProcessSFX - 0x20811c
 GJBaseGameLayer::checkCameraLimitAfterTeleport - 0x1e5b9c
 GJBaseGameLayer::checkCollisions - 0x1e87c8
 GJBaseGameLayer::checkRepellPlayer - 0x201988
@@ -3476,6 +3477,8 @@ GJBaseGameLayer::processQueuedAudioTriggers - 0x204bdc
 GJBaseGameLayer::processQueuedButtons - 0x1fcb04
 GJBaseGameLayer::processRotationActions - 0x1fa040
 GJBaseGameLayer::processSFXObjects - 0x1e36b8
+GJBaseGameLayer::processSFXState - 0x2082e0
+GJBaseGameLayer::processSongState - 0x209364
 GJBaseGameLayer::processStateObjects - 0x1ec358
 GJBaseGameLayer::processTransformActions - 0x1f9698
 GJBaseGameLayer::queueButton - 0x1fc9b8
