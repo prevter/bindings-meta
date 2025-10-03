@@ -5301,9 +5301,15 @@ SetupAreaTintTriggerPopup::determineStartValues - 0x3c694
 SetupAreaTintTriggerPopup::onClose - 0x3c800
 SetupAreaTintTriggerPopup::valueDidChange - 0x3c5cc
 SetupAreaTintTriggerPopup::hsvPopupClosed - 0x3c7d4
+SetupAreaTintTriggerPopup::init - 0x3bc1c
 SetupAreaAnimTriggerPopup::updateDefaultTriggerValues - 0x3e8ec
 SetupAreaAnimTriggerPopup::valueDidChange - 0x3ea50
+SetupAreaAnimTriggerPopup::init - 0x3cf44
 SetupAreaAnimTriggerPopup::updateTargetIDLabel - 0x3e9dc
+SetupAreaFadeTriggerPopup::init - 0x3b5b0
+SetupAreaRotateTriggerPopup::init - 0x3aed8
+SetupAreaTransformTriggerPopup::init - 0x3a6d8
+SetupAreaTriggerPopup::init - 0x3c9a8
 SetupArtSwitchPopup::selectArtClosed - 0x4092dc
 SetupAudioLineGuidePopup::selectSettingClosed - 0x408070
 SetupAudioLineGuidePopup::init - 0x407a7c
