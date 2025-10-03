@@ -2345,6 +2345,11 @@ CheckpointGameObject::getSaveString - 0x1c44f0
 CheckpointGameObject::triggerActivated - 0x1c3740
 CheckpointGameObject::restoreObject - 0x1c5190
 CheckpointGameObject::updateSyncedAnimation - 0x1c40f0
+EnterEffectInstance::animateValue - 0x5bb330
+EnterEffectInstance::getValue - 0x5bb830
+EnterEffectInstance::loadTransitions - 0x5ba960
+EnterEffectInstance::loadValuesFromObject - 0x5ba850
+EnterEffectInstance::setValue - 0x5bb4d0
 EnterEffectInstance::updateTransitions - 0x5bb680
 GJGameState::processStateTriggers - 0xfd2b0
 GJGameState::stopTweenAction - 0xfcd00

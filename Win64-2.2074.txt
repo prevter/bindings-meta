@@ -569,6 +569,7 @@ CheckpointGameObject::triggerActivated - 0x4a12e0
 CheckpointGameObject::restoreObject - 0x4a2680
 CheckpointGameObject::updateSyncedAnimation - 0x4a1d20
 CheckpointGameObject::resetCheckpoint - 0x4a24f0
+EnterEffectInstance::EnterEffectInstance - 0x1ff0b0
 EnterEffectInstance::animateValue - 0x1378e0
 EnterEffectInstance::loadTransitions - 0x136d00
 EnterEffectInstance::loadValuesFromObject - 0x136b60
