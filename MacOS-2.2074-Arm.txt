@@ -7059,7 +7059,9 @@ UpdateAccountSettingsPopup::updateSettingsFailed - 0x238a7c
 UpdateAccountSettingsPopup::init - 0x2383a0
 UploadActionPopup::create - 0x238c74
 UploadActionPopup::keyBackClicked - 0x239564
+UploadActionPopup::closePopup - 0x239528
 UploadActionPopup::init - 0x238df0
+UploadActionPopup::onClose - 0x23920c
 UploadActionPopup::showFailMessage - 0x2393d4
 UploadActionPopup::showSuccessMessage - 0x23926c
 UploadListPopup::~UploadListPopup - 0x2e4420
