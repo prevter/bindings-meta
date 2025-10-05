@@ -4007,11 +4007,16 @@ SetGroupIDLayer::onToggleGuide - 0x3e3380
 SetGroupIDLayer::onToggleSelectedOrder - 0x3e3410
 SetGroupIDLayer::onZLayer - 0x3e5520
 SetGroupIDLayer::onZLayerShift - 0x3e55e0
-SetGroupIDLayer::removeGroupID - 0x3e4940
 SetGroupIDLayer::updateEditorLabel - 0x3e5920
 SetGroupIDLayer::updateEditorLabel2 - 0x3e59b0
+SetGroupIDLayer::updateEditorLayerID - 0x3e56b0
+SetGroupIDLayer::updateEditorLayerID2 - 0x3e5730
+SetGroupIDLayer::updateEditorOrder - 0x3e5e90
+SetGroupIDLayer::updateEditorOrderLabel - 0x3e5b60
 SetGroupIDLayer::updateGroupIDButtons - 0x3e4940
 SetGroupIDLayer::updateGroupIDLabel - 0x3e5ad0
+SetGroupIDLayer::updateOrderChannel - 0x3e5dc0
+SetGroupIDLayer::updateOrderChannelLabel - 0x3e5c10
 SetGroupIDLayer::updateZLayerButtons - 0x3e5d30
 SetGroupIDLayer::updateZOrder - 0x3e5890
 SetGroupIDLayer::updateZOrderLabel - 0x3e5a40
