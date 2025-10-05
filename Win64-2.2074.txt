@@ -2182,6 +2182,7 @@ GJEffectManager::countForItem - 0x25b060
 GJEffectManager::createKeyframeCommand - 0x255980
 GJEffectManager::createMoveCommand - 0x255370
 GJEffectManager::createPlayerFollowCommand - 0x255860
+GJEffectManager::createRotateCommand - 0x255620
 GJEffectManager::getAllColorActions - 0x253f40
 GJEffectManager::getColorAction - 0x254870
 GJEffectManager::getColorSprite - 0x254930
@@ -4006,6 +4007,7 @@ SetGroupIDLayer::onToggleGuide - 0x3e3380
 SetGroupIDLayer::onToggleSelectedOrder - 0x3e3410
 SetGroupIDLayer::onZLayer - 0x3e5520
 SetGroupIDLayer::onZLayerShift - 0x3e55e0
+SetGroupIDLayer::removeGroupID - 0x3e4940
 SetGroupIDLayer::updateEditorLabel - 0x3e5920
 SetGroupIDLayer::updateEditorLabel2 - 0x3e59b0
 SetGroupIDLayer::updateGroupIDButtons - 0x3e4940
