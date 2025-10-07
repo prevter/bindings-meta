@@ -3313,6 +3313,9 @@ FMODAudioEngine::stopAllEffects - 0x3cb410
 FMODAudioEngine::stopAllMusic - 0x3cbbf0
 FMODAudioEngine::stopAndGetFade - 0x3d3cc0
 FMODAudioEngine::stopAndRemoveMusic - 0x3d7a20
+FMODAudioEngine::stopChannel - 0x3d3b10
+FMODAudioEngine::stopChannel - 0x3d33c0
+FMODAudioEngine::stopChannel - 0x3d2550
 FMODAudioEngine::stopMusic - 0x3d6260
 FMODAudioEngine::unloadAllEffects - 0x3d4540
 FMODAudioEngine::updateChannel - 0x3d3e10
@@ -6910,6 +6913,8 @@ SmartGameObject::updateSmartFrame - 0x19fe80
 SmartTemplateCell::init - 0x246ed0
 SmartTemplateCell::draw - 0x246fa0
 SmartTemplateCell::loadFromObject - 0x23b400
+SmartTemplateCell::onClick - 0x246ef0
+SmartTemplateCell::updateBGColor - 0x23b740
 SongCell::init - 0x241b80
 SongCell::draw - 0x241bc0
 SongCell::loadFromObject - 0x235330
@@ -6928,9 +6933,16 @@ SongInfoObject::canEncode - 0x580290
 SongInfoObject::createWithCoder - 0x57f980
 SongInfoObject::init - 0x57f4d0
 SongObject::create - 0x241a00
+SongOptionsLayer::create - 0x204140
 SongOptionsLayer::keyBackClicked - 0x205a20
 SongOptionsLayer::init - 0x204b20
+SongOptionsLayer::onClose - 0x2056b0
+SongOptionsLayer::onFadeIn - 0x2055f0
+SongOptionsLayer::onFadeOut - 0x205630
 SongOptionsLayer::onInfo - 0x2057b0
+SongOptionsLayer::onPlayback - 0x205860
+SongOptionsLayer::onSongPersistent - 0x205670
+SongOptionsLayer::updatePlaybackBtn - 0x2059b0
 SongSelectNode::create - 0x206f60
 SongSelectNode::FLAlert_Clicked - 0x207db0
 SongSelectNode::customSongLayerClosed - 0x207e90
