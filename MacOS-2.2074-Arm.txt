@@ -3609,6 +3609,7 @@ GameManager::dataLoaded - 0x306384
 GameManager::firstLoad - 0x3076a8
 GameManager::accountStatusChanged - 0x302bd8
 GameManager::activeIconForType - 0x2feb3c
+GameManager::addGameAnimation - 0x201188
 GameManager::addNewCustomObject - 0x302400
 GameManager::applicationWillEnterForeground - 0x308b48
 GameManager::calculateBaseKeyForIcons - 0x2f6240
