@@ -1542,6 +1542,7 @@ GameLevelManager::responseToDict - 0x168140
 GameLevelManager::sharedState - 0x140b20
 GameLevelManager::init - 0x142230
 GameLevelManager::acceptFriendRequest - 0x15e780
+GameLevelManager::accountIDForUserID - 0x144350
 GameLevelManager::addDLToActive - 0x147a20
 GameLevelManager::blockUser - 0x15f510
 GameLevelManager::cleanupDailyLevels - 0x1485e0
@@ -4820,6 +4821,7 @@ StarInfoPopup::createFromString - 0x3b0720
 StarInfoPopup::createFromStringMoons - 0x3b0a00
 StarInfoPopup::keyBackClicked - 0x84650
 StarInfoPopup::init - 0x3b0df0
+StarInfoPopup::onClose - 0x84620
 StartPosObject::init - 0x499450
 StartPosObject::customObjectSetup - 0x4995b0
 StartPosObject::getSaveString - 0x4995c0
