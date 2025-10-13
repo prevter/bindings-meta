@@ -2377,7 +2377,9 @@ CommentCell::onConfirmDelete - 0x1138fc
 CommentCell::onGoToLevel - 0x113768
 CommentCell::onLike - 0x11381c
 CommentCell::updateBGColor - 0x10a674
+CommunityCreditNode::create - 0x1a3508
 CommunityCreditsPage::~CommunityCreditsPage - 0x1a3628
+CommunityCreditsPage::create - 0x1a36cc
 CommunityCreditsPage::init - 0x1a3788
 CommunityCreditsPage::registerWithTouchDispatcher - 0x1a5d64
 CommunityCreditsPage::keyBackClicked - 0x1a5ce8

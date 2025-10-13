@@ -2582,6 +2582,7 @@ CommentCell::onLike - 0x1f212c
 CommentCell::onUnhide - 0x1f2120
 CommentCell::onViewProfile - 0x1f2044
 CommentCell::updateBGColor - 0x1e7a08
+CommunityCreditNode::create - 0x2a1050
 CommunityCreditNode::init - 0x2a1170
 CommunityCreditsPage::~CommunityCreditsPage - 0x2a11d4
 CommunityCreditsPage::create - 0x2a13f8
