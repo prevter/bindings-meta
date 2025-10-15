@@ -289,6 +289,7 @@ EnhancedGameObject::updateAnimateOnTrigger - 0x1a6af0
 EnhancedGameObject::createRotateAction - 0x1a4300
 EnhancedGameObject::init - 0x1a1800
 EnhancedGameObject::setupAnimationVariables - 0x1a6bf0
+EnhancedGameObject::updateRotateAction - 0x1a4390
 EnhancedGameObject::updateUserCoin - 0x1a3970
 EffectGameObject::EffectGameObject - 0x47d040
 EffectGameObject::setOpacity - 0x48d790
