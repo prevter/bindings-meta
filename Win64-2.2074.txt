@@ -1382,10 +1382,12 @@ ExplodeItemNode::createSprites - 0x36e840
 ExplodeItemSprite::init - 0x36f5c0
 ExtendedLayer::init - 0x3ec90
 ExtendedLayer::setPosition - 0x3ecb0
+GManager::GManager - 0x515d0
 GManager::init - 0x6a7c0
 GManager::setup - 0x6a7d0
 GManager::getCompressedSaveString - 0x6a7f0
 GManager::loadDataFromFile - 0x6aa90
+GManager::loadFromCompressedString - 0x6a8c0
 GManager::save - 0x6a9a0
 FindBPMLayer::create - 0x9b280
 FindBPMLayer::onClose - 0x9b870
