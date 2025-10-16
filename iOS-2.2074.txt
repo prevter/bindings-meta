@@ -3284,6 +3284,7 @@ GameManager::getUnlockForAchievement - 0x313158
 GameManager::iconKey - 0x3129e8
 GameManager::iconTypeToUnlockType - 0x312cb0
 GameManager::isColorUnlocked - 0x312fb8
+GameManager::isIconLoaded - 0x3179a4
 GameManager::isIconUnlocked - 0x312be8
 GameManager::joinDiscord - 0x3175f4
 GameManager::joinReddit - 0x317670
@@ -4284,6 +4285,7 @@ LevelEditorLayer::getObjectRect - 0x35a84c
 LevelEditorLayer::getSectionCount - 0x35d5c8
 LevelEditorLayer::handleAction - 0x35b654
 LevelEditorLayer::init - 0x35643c
+LevelEditorLayer::isLayerLocked - 0x35d62c
 LevelEditorLayer::objectAtPosition - 0x35a5f4
 LevelEditorLayer::objectsAtPosition - 0x35ac18
 LevelEditorLayer::objectsInRect - 0x35a2a4

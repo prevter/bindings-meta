@@ -4932,6 +4932,7 @@ LevelEditorLayer::getSFXIDs - 0xcf114
 LevelEditorLayer::getSongIDs - 0xcecb0
 LevelEditorLayer::handleAction - 0xca1b0
 LevelEditorLayer::init - 0xc3124
+LevelEditorLayer::isLayerLocked - 0xcf8d4
 LevelEditorLayer::objectAtPosition - 0xc8ab0
 LevelEditorLayer::objectMoved - 0xcfff4
 LevelEditorLayer::objectsAtPosition - 0xc9198
