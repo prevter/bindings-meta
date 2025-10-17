@@ -2134,6 +2134,7 @@ CCAnimatedSprite::runAnimationForced - 0x2d30f0
 CCAnimatedSprite::stopTween - 0x2d359c
 CCAnimatedSprite::switchToMode - 0x2d2f4c
 CCAnimatedSprite::tweenToAnimation - 0x2d31c4
+CCAnimatedSprite::tweenToAnimationFinished - 0x2d3480
 CCAnimatedSprite::willPlayAnimation - 0x2d3194
 AnimatedShopKeeper::create - 0x2a6b1c
 AnimatedShopKeeper::animationFinished - 0x2aa490
