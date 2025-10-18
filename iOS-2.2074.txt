@@ -2161,6 +2161,9 @@ CCMenuItemToggler::toggle - 0x1947d4
 CCNodeContainer::create - 0x1de584
 CCNodeContainer::init - 0x20b410
 CCNodeContainer::visit - 0x20b414
+CCPartAnimSprite::CCPartAnimSprite - 0x83808
+CCPartAnimSprite::~CCPartAnimSprite - 0x836e0
+CCPartAnimSprite::createWithAnimDesc - 0x8255c
 CCPartAnimSprite::setScaleX - 0x833f0
 CCPartAnimSprite::setScaleY - 0x83418
 CCPartAnimSprite::setScale - 0x833c8
@@ -2169,6 +2172,13 @@ CCPartAnimSprite::setBlendFunc - 0x83440
 CCPartAnimSprite::setDisplayFrame - 0x83094
 CCPartAnimSprite::isFrameDisplayed - 0x831c0
 CCPartAnimSprite::displayFrame - 0x831d8
+CCPartAnimSprite::getSpriteForKey - 0x83028
+CCPartAnimSprite::initWithAnimDesc - 0x825e8
+CCPartAnimSprite::setColor - 0x8351c
+CCPartAnimSprite::setFlipX - 0x83370
+CCPartAnimSprite::transformSprite - 0x82c44
+CCPartAnimSprite::tweenSpriteTo - 0x82e84
+CCPartAnimSprite::tweenToFrame - 0x831e0
 CCScrollLayerExt::CCScrollLayerExt - 0x300a10
 CCScrollLayerExt::visit - 0x3019ec
 CCScrollLayerExt::ccTouchBegan - 0x301428
@@ -2194,7 +2204,10 @@ CCSpriteGrayscale::createWithSpriteFrame - 0x1a7110
 CCSpriteGrayscale::createWithSpriteFrameName - 0x1a71fc
 CCSpriteGrayscale::getShaderName - 0x1a7100
 CCSpriteGrayscale::shaderBody - 0x1a702c
+CCSpritePart::create - 0x82b9c
 CCSpritePart::setVisible - 0x8375c
+CCSpritePart::createWithSpriteFrameName - 0x82aa4
+CCSpritePart::frameChanged - 0x82dc4
 CCTextInputNode::~CCTextInputNode - 0x16fd40
 CCTextInputNode::create - 0x16fe38
 CCTextInputNode::visit - 0x1704bc

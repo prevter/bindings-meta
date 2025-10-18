@@ -521,6 +521,7 @@ CCSpriteWithHue::updateColorMatrix - 0x48930
 CCSpriteGrayscale::createWithSpriteFrameName - 0x49020
 CCSpriteGrayscale::getShaderName - 0x48fc0
 CCSpriteGrayscale::shaderBody - 0x48e00
+CCSpritePart::CCSpritePart - 0x45820
 CCSpritePart::setVisible - 0x46a30
 CCSpritePart::frameChanged - 0x46980
 CCTextInputNode::create - 0x4f0f0
