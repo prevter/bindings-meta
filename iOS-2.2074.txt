@@ -3625,6 +3625,7 @@ GJBaseGameLayer::processFollowActions - 0x1faabc
 GJBaseGameLayer::processItems - 0x1eb7a4
 GJBaseGameLayer::processMoveActions - 0x1fa624
 GJBaseGameLayer::processMoveActionsStep - 0x1f9088
+GJBaseGameLayer::processOptionsTrigger - 0x1f3d50
 GJBaseGameLayer::processPlayerFollowActions - 0x1fa734
 GJBaseGameLayer::processQueuedAudioTriggers - 0x204bdc
 GJBaseGameLayer::processQueuedButtons - 0x1fcb04
@@ -3674,6 +3675,7 @@ GJBaseGameLayer::teleportPlayer - 0x1e53a8
 GJBaseGameLayer::toggleAudioVisualizer - 0x1dc3c8
 GJBaseGameLayer::toggleDualMode - 0x1e76c4
 GJBaseGameLayer::toggleFlipped - 0x1ea9b8
+GJBaseGameLayer::togglePlayerStreakBlend - 0x1f3ef0
 GJBaseGameLayer::togglePlayerVisibility - 0x1feee8
 GJBaseGameLayer::triggerAdvancedFollowEditCommand - 0x1fb640
 GJBaseGameLayer::triggerShaderCommand - 0x1f27b0
@@ -4914,8 +4916,10 @@ PlayerObject::deactivateParticle - 0x21d328
 PlayerObject::deactivateStreak - 0x21a1dc
 PlayerObject::destroyFromHitHead - 0x22bf34
 PlayerObject::didHitHead - 0x2252b8
+PlayerObject::disablePlayerControls - 0x22d13c
 PlayerObject::disableSwingFire - 0x2286b8
 PlayerObject::doReversePlayer - 0x21dd68
+PlayerObject::enablePlayerControls - 0x22d198
 PlayerObject::exitPlatformerAnimateJump - 0x21de6c
 PlayerObject::fadeOutStreak2 - 0x22861c
 PlayerObject::flipGravity - 0x21eb30
