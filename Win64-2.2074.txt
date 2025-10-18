@@ -854,6 +854,7 @@ CurrencyRewardLayer::init - 0x9f750
 CurrencyRewardLayer::pulseSprite - 0xa2c00
 CurrencySprite::CurrencySprite - 0x9f3c0
 CurrencySprite::createWithSprite - 0xa44b0
+CurrencySprite::rewardToSpriteType - 0xa46d0
 CurrencySprite::spriteTypeToStat - 0xa4780
 CurrencySprite::init - 0xa2cd0
 CustomizeObjectLayer::create - 0xa4b60
@@ -1345,6 +1346,8 @@ EndLevelLayer::customSetup - 0x131260
 EndLevelLayer::showLayer - 0x133070
 EndLevelLayer::coinEnterFinished - 0x134230
 EndLevelLayer::coinEnterFinishedO - 0x1341f0
+EndLevelLayer::currencyEnterFinished - 0x1348e0
+EndLevelLayer::diamondEnterFinished - 0x134d70
 EndLevelLayer::getCoinString - 0x132d30
 EndLevelLayer::getEndText - 0x135190
 EndLevelLayer::goEdit - 0x1336e0
