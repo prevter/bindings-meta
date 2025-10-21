@@ -1312,6 +1312,8 @@ cocos2d::CCSpriteFrame::initWithTexture - 0x2d95e0
 cocos2d::CCSpriteFrame::initWithTexture - 0x2d97ac
 cocos2d::CCSpriteFrame::initWithTextureFilename - 0x2d9434
 cocos2d::CCSpriteFrame::initWithTextureFilename - 0x2d9a18
+cocos2d::CCSpriteFrame::getOffset - 0x2d9f70
+cocos2d::CCSpriteFrame::getOffsetInPixels - 0x2d9fe4
 cocos2d::CCSpriteFrame::getTexture - 0x2da058
 cocos2d::CCSpriteFrame::setOffset - 0x2d9f78
 cocos2d::CCSpriteFrame::setOffsetInPixels - 0x2d9fec
