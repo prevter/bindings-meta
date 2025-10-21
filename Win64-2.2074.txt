@@ -1055,6 +1055,7 @@ DungeonBarsSprite::init - 0x3d8470
 DungeonBarsSprite::visit - 0x3d84f0
 DynamicBitset::resize - 0x38deb0
 EditButtonBar::create - 0xd2f40
+EditButtonBar::goToPage - 0xd39c0
 EditButtonBar::loadFromItems - 0xd30a0
 EditButtonBar::onLeft - 0xd3a90
 EditButtonBar::onRight - 0xd3a20

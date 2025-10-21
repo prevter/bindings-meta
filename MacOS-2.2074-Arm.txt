@@ -630,7 +630,7 @@ cocos2d::CCScheduler::unscheduleAllForTarget - 0x3aa208
 cocos2d::CCScheduler::unscheduleSelector - 0x3a8a88
 cocos2d::CCScheduler::update - 0x3aac3c
 cocos2d::CCLayer::create - 0x408478
-cocos2d::CCLayer::CCLayer - 0x408108
+cocos2d::CCLayer::CCLayer - 0x40805c
 cocos2d::CCLayer::~CCLayer - 0x4081b4
 cocos2d::CCLayer::unregisterScriptKeypadHandler - 0x408234
 cocos2d::CCLayer::init - 0x40841c
@@ -2211,6 +2211,7 @@ BoomScrollLayer::registerWithTouchDispatcher - 0x3222a4
 BoomScrollLayer::addPage - 0x3220e0
 BoomScrollLayer::addPage - 0x322070
 BoomScrollLayer::cancelAndStoleTouch - 0x322340
+BoomScrollLayer::claimTouch - 0x3222dc
 BoomScrollLayer::getPage - 0x3216c0
 BoomScrollLayer::getRelativePageForNum - 0x321a10
 BoomScrollLayer::getRelativePosForPage - 0x321670
@@ -2225,6 +2226,7 @@ BoomScrollLayer::quickUpdate - 0x322018
 BoomScrollLayer::removePage - 0x322148
 BoomScrollLayer::removePageWithNumber - 0x3221dc
 BoomScrollLayer::repositionPagesLooped - 0x320b14
+BoomScrollLayer::selectPage - 0x321f60
 BoomScrollLayer::setDotScale - 0x321608
 BoomScrollLayer::setPagesIndicatorPosition - 0x3209cc
 BoomScrollLayer::setupDynamicScrolling - 0x321124
@@ -2942,6 +2944,8 @@ DrawGridLayer::timeForPos - 0xd2ce4
 DungeonBarsSprite::init - 0x401c4c
 DungeonBarsSprite::visit - 0x401ccc
 EditButtonBar::create - 0x4fe2c0
+EditButtonBar::getPage - 0x4feb24
+EditButtonBar::goToPage - 0x4feb30
 EditButtonBar::init - 0x4fe3bc
 EditButtonBar::loadFromItems - 0x4fe468
 EditButtonBar::onLeft - 0x4fea94
@@ -3283,6 +3287,7 @@ ExplodeItemNode::update - 0x1b7f14
 ExplodeItemNode::createSprites - 0x1b703c
 ExplodeItemNode::init - 0x1b7e18
 ExplodeItemSprite::init - 0x1b8200
+ExtendedLayer::create - 0x320924
 ExtendedLayer::init - 0x322be4
 ExtendedLayer::setPosition - 0x322be8
 FileOperation::saveFile - 0x53a54c

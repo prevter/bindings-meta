@@ -2210,6 +2210,7 @@ BoomScrollLayer::registerWithTouchDispatcher - 0x393a00
 BoomScrollLayer::addPage - 0x393840
 BoomScrollLayer::addPage - 0x3937c0
 BoomScrollLayer::cancelAndStoleTouch - 0x393ab0
+BoomScrollLayer::claimTouch - 0x393a40
 BoomScrollLayer::getPage - 0x392d00
 BoomScrollLayer::getRelativePageForNum - 0x393150
 BoomScrollLayer::getRelativePosForPage - 0x392cb0
@@ -2224,6 +2225,7 @@ BoomScrollLayer::quickUpdate - 0x393760
 BoomScrollLayer::removePage - 0x3938b0
 BoomScrollLayer::removePageWithNumber - 0x393940
 BoomScrollLayer::repositionPagesLooped - 0x392090
+BoomScrollLayer::selectPage - 0x3936b0
 BoomScrollLayer::setDotScale - 0x392c40
 BoomScrollLayer::setPagesIndicatorPosition - 0x391f40
 BoomScrollLayer::setupDynamicScrolling - 0x392710
@@ -2941,6 +2943,8 @@ DrawGridLayer::timeForPos - 0xed530
 DungeonBarsSprite::init - 0x495430
 DungeonBarsSprite::visit - 0x4954b0
 EditButtonBar::create - 0x5c99e0
+EditButtonBar::getPage - 0x5ca2f0
+EditButtonBar::goToPage - 0x5ca310
 EditButtonBar::init - 0x5c9ad0
 EditButtonBar::loadFromItems - 0x5c9b80
 EditButtonBar::onLeft - 0x5ca250
@@ -3283,6 +3287,7 @@ ExplodeItemNode::update - 0x202b30
 ExplodeItemNode::createSprites - 0x201b70
 ExplodeItemNode::init - 0x202a40
 ExplodeItemSprite::init - 0x202eb0
+ExtendedLayer::create - 0x391e80
 ExtendedLayer::init - 0x394410
 ExtendedLayer::setPosition - 0x394420
 FileOperation::saveFile - 0x60d880
