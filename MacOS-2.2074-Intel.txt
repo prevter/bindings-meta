@@ -3716,6 +3716,8 @@ GameManager::loadGround - 0x370120
 GameManager::loadIcon - 0x36e7f0
 GameManager::loadMiddleground - 0x36fe10
 GameManager::loadVideoSettings - 0x375a90
+GameManager::lockColor - 0x365080
+GameManager::lockIcon - 0x364c50
 GameManager::playMenuMusic - 0x3639a0
 GameManager::playSFXTrigger - 0x363ea0
 GameManager::prepareDPadSettings - 0x375340
@@ -3742,6 +3744,8 @@ GameManager::subYouTube - 0x36d170
 GameManager::toggleGameVariable - 0x3707d0
 GameManager::unloadIcon - 0x36ee80
 GameManager::unloadIcons - 0x36f5c0
+GameManager::unlockColor - 0x364ff0
+GameManager::unlockIcon - 0x364bc0
 GameManager::unlockTypeToIconType - 0x364ba0
 GameManager::updateCustomFPS - 0x379480
 GameManager::verifyAchievementUnlocks - 0x366a80
@@ -3800,6 +3804,7 @@ GameStatsManager::getGauntletRewardKey - 0x77710
 GameStatsManager::getItemKey - 0x65e50
 GameStatsManager::getItemUnlockState - 0x77010
 GameStatsManager::getListRewardKey - 0x73610
+GameStatsManager::getPathRewardKey - 0x6c480
 GameStatsManager::getQueuedChallenge - 0x73100
 GameStatsManager::getRewardForSecretChest - 0x8bc30
 GameStatsManager::getRewardItem - 0x71f40
@@ -3853,7 +3858,10 @@ GameStatsManager::storeQueuedChallenge - 0x72be0
 GameStatsManager::toggleEnableItem - 0x77450
 GameStatsManager::tryFixPathBug - 0x6ba70
 GameStatsManager::trySelectActivePath - 0x6b5e0
+GameStatsManager::unlockGauntletChest - 0x78110
 GameStatsManager::unlockGoldChest - 0x8bc50
+GameStatsManager::unlockOnlineChest - 0x742e0
+GameStatsManager::unlockPathChest - 0x782b0
 GameStatsManager::unlockSecretChest - 0x8ba60
 GameStatsManager::unlockSpecialChest - 0x77ff0
 GameStatsManager::verifyPathAchievements - 0x6c680

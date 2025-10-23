@@ -3323,6 +3323,7 @@ GameManager::calculateBaseKeyForIcons - 0x311f24
 GameManager::checkUsedIcons - 0x316a40
 GameManager::colorForIdx - 0x316f24
 GameManager::colorKey - 0x312e84
+GameManager::completedAchievement - 0x31383c
 GameManager::countForType - 0x3178fc
 GameManager::didExitPlayscene - 0x31d618
 GameManager::dpadConfigToString - 0x31ac2c
@@ -3355,6 +3356,8 @@ GameManager::loadDpadFromString - 0x31b20c
 GameManager::loadGround - 0x318ad8
 GameManager::loadIcon - 0x317bac
 GameManager::loadMiddleground - 0x3187ac
+GameManager::lockColor - 0x3130f4
+GameManager::lockIcon - 0x312e20
 GameManager::playMenuMusic - 0x312208
 GameManager::playSFXTrigger - 0x31260c
 GameManager::recountUserStats - 0x319eac
@@ -3363,6 +3366,7 @@ GameManager::reloadAllStep2 - 0x31dc60
 GameManager::reloadAllStep5 - 0x31de38
 GameManager::reportAchievementWithID - 0x313e4c
 GameManager::reportPercentageForLevel - 0x313a44
+GameManager::resetAchievement - 0x313930
 GameManager::resolutionForKey - 0x31de78
 GameManager::returnToLastScene - 0x31d818
 GameManager::safePopScene - 0x31dab8
@@ -3376,6 +3380,8 @@ GameManager::subYouTube - 0x3174fc
 GameManager::toggleGameVariable - 0x319068
 GameManager::unloadIcon - 0x317ea4
 GameManager::unloadIcons - 0x3181c0
+GameManager::unlockColor - 0x31305c
+GameManager::unlockIcon - 0x312d88
 GameManager::unlockTypeToIconType - 0x312d64
 GameOptionsLayer::create - 0x2e122c
 GameOptionsLayer::setupOptions - 0x2e1350
@@ -3416,6 +3422,7 @@ GameStatsManager::getDemonLevelKey - 0x330994
 GameStatsManager::getGauntletRewardKey - 0x33648c
 GameStatsManager::getItemKey - 0x32ba84
 GameStatsManager::getItemUnlockState - 0x336148
+GameStatsManager::getPathRewardKey - 0x3302fc
 GameStatsManager::getQueuedChallenge - 0x333d78
 GameStatsManager::getRewardItem - 0x3333b8
 GameStatsManager::getRewardKey - 0x3333e8
@@ -3454,7 +3461,10 @@ GameStatsManager::setStat - 0x32c038
 GameStatsManager::storeChallenge - 0x3339e0
 GameStatsManager::storeQueuedChallenge - 0x333ae4
 GameStatsManager::toggleEnableItem - 0x3362b8
+GameStatsManager::unlockGauntletChest - 0x3369b8
 GameStatsManager::unlockGoldChest - 0x33e16c
+GameStatsManager::unlockOnlineChest - 0x3348c4
+GameStatsManager::unlockPathChest - 0x336b50
 GameStatsManager::unlockSecretChest - 0x33e00c
 GameStatsManager::unlockSpecialChest - 0x336884
 GameToolbox::addBackButton - 0x4829c
