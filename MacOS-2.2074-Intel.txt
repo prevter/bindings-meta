@@ -520,8 +520,10 @@ cocos2d::CCParticleSnow::createWithTotalParticles - 0x473c90
 cocos2d::CCParticleSnow::initWithTotalParticles - 0x473d10
 cocos2d::CCParticleFire::create - 0x472260
 cocos2d::CCParticleFire::createWithTotalParticles - 0x4722e0
+cocos2d::CCParticleFire::initWithTotalParticles - 0x472360
 cocos2d::CCParticleRain::create - 0x473f00
 cocos2d::CCParticleRain::createWithTotalParticles - 0x473f80
+cocos2d::CCParticleRain::initWithTotalParticles - 0x474000
 cocos2d::CCParticleExplosion::create - 0x473670
 cocos2d::CCParticleExplosion::createWithTotalParticles - 0x4736f0
 cocos2d::CCParticleExplosion::initWithTotalParticles - 0x473770
