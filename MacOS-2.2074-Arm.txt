@@ -4105,6 +4105,7 @@ GJBaseGameLayer::playSpeedParticle - 0x121058
 GJBaseGameLayer::positionForShaderTarget - 0x107208
 GJBaseGameLayer::positionUIObjects - 0xebbe0
 GJBaseGameLayer::prepareSavePositionObjects - 0xe89ec
+GJBaseGameLayer::prepareTransformParent - 0x10e178
 GJBaseGameLayer::preResumeGame - 0x118fa4
 GJBaseGameLayer::processActivatedAudioTriggers - 0x12402c
 GJBaseGameLayer::processAdvancedFollowActions - 0x110348
