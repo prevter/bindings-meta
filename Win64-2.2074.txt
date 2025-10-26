@@ -1578,6 +1578,7 @@ GameLevelManager::getCompletedEventLevels - 0x1468c0
 GameLevelManager::getCompletedLevels - 0x145860
 GameLevelManager::getCompletedWeeklyLevels - 0x1464b0
 GameLevelManager::getDemonLevelsString - 0x1459f0
+GameLevelManager::getDifficultyStr - 0x14b3b0
 GameLevelManager::getFolderName - 0x148910
 GameLevelManager::getFriendRequests - 0x15d2d0
 GameLevelManager::getGauntletLevels - 0x14fa90
@@ -1588,6 +1589,7 @@ GameLevelManager::getGJRewards - 0x1635e0
 GameLevelManager::getGJSecretReward - 0x1624b0
 GameLevelManager::getGJUserInfo - 0x157880
 GameLevelManager::getLeaderboardScores - 0x1554b0
+GameLevelManager::getLengthStr - 0x14b660
 GameLevelManager::getLevelComments - 0x159870
 GameLevelManager::getLevelLeaderboard - 0x155ff0
 GameLevelManager::getLevelLists - 0x14e6e0
@@ -3051,8 +3053,10 @@ LevelSearchLayer::textInputClosed - 0x2fae50
 LevelSearchLayer::textChanged - 0x2fae50
 LevelSearchLayer::FLAlert_Clicked - 0x2facc0
 LevelSearchLayer::demonFilterSelectClosed - 0x2f97f0
+LevelSearchLayer::checkDiff - 0x2fd2e0
+LevelSearchLayer::checkTime - 0x2fd8a0
 LevelSearchLayer::clearFilters - 0x2f9ca0
-LevelSearchLayer::getLevelLenKey - 0x14b660
+LevelSearchLayer::confirmClearFilters - 0x2f9b80
 LevelSearchLayer::getSearchObject - 0x2fb290
 LevelSearchLayer::init - 0x2f7740
 LevelSearchLayer::onBack - 0x2fd040
@@ -3074,6 +3078,7 @@ LevelSearchLayer::onTrending - 0x2fc700
 LevelSearchLayer::toggleDifficulty - 0x2fd3c0
 LevelSearchLayer::toggleDifficultyNum - 0x2fd720
 LevelSearchLayer::toggleStar - 0x2fd0b0
+LevelSearchLayer::toggleTime - 0x2fd980
 LevelSearchLayer::toggleTimeNum - 0x2fdb30
 LevelSearchLayer::updateSearchLabel - 0x2faf20
 LevelSelectLayer::scene - 0x303710
