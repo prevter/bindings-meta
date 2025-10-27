@@ -3496,6 +3496,7 @@ GameLevelManager::getDailyID - 0x5439a0
 GameLevelManager::getDailyTimer - 0x543a00
 GameLevelManager::getDeleteCommentKey - 0x53afa0
 GameLevelManager::getDeleteMessageKey - 0x538ed0
+GameLevelManager::getDemonLevelsString - 0x51f160
 GameLevelManager::getDescKey - 0x53af60
 GameLevelManager::getDifficultyStr - 0x5284f0
 GameLevelManager::getDiffKey - 0x544280
@@ -3535,6 +3536,7 @@ GameLevelManager::getSavedLevelList - 0x52c910
 GameLevelManager::getSavedLevels - 0x51e9f0
 GameLevelManager::getSearchScene - 0x522e00
 GameLevelManager::getSplitIntFromKey - 0x531620
+GameLevelManager::getStarLevelsString - 0x51f510
 GameLevelManager::getStoredLevelComments - 0x53b2f0
 GameLevelManager::getStoredOnlineLevels - 0x5223c0
 GameLevelManager::getStoredUserList - 0x53f790

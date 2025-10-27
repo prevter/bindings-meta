@@ -3176,6 +3176,7 @@ GameLevelManager::getActiveDailyID - 0xaef3c
 GameLevelManager::getBoolForKey - 0xaf64c
 GameLevelManager::getCompletedLevels - 0x9b350
 GameLevelManager::getDailyID - 0xaef08
+GameLevelManager::getDemonLevelsString - 0x9b474
 GameLevelManager::getDifficultyStr - 0xa0924
 GameLevelManager::getFolderName - 0x9e158
 GameLevelManager::getFriendRequests - 0xab778
@@ -3204,6 +3205,7 @@ GameLevelManager::getSavedLevelList - 0xa2a30
 GameLevelManager::getSavedLevels - 0x9afb4
 GameLevelManager::getSearchScene - 0x9d558
 GameLevelManager::getSplitIntFromKey - 0xa530c
+GameLevelManager::getStarLevelsString - 0x9b640
 GameLevelManager::getStoredOnlineLevels - 0x9d020
 GameLevelManager::getStoredUserList - 0xac918
 GameLevelManager::getTopArtists - 0xa774c
