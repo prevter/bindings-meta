@@ -495,6 +495,7 @@ CCPartAnimSprite::initWithAnimDesc - 0x45910
 CCPartAnimSprite::setColor - 0x467c0
 CCPartAnimSprite::tweenToFrame - 0x46360
 CCScrollLayerExt::CCScrollLayerExt - 0x46a50
+CCScrollLayerExt::~CCScrollLayerExt - 0x47090
 CCScrollLayerExt::visit - 0x47ad0
 CCScrollLayerExt::ccTouchBegan - 0x47580
 CCScrollLayerExt::ccTouchMoved - 0x47950
@@ -4744,6 +4745,7 @@ ShareListLayer::onInfo - 0x2f6270
 ShareListLayer::onShare - 0x2f6530
 ShareListLayer::onUnlisted - 0x2f63e0
 ShareListLayer::updateUnlistedF - 0x2f6450
+SimplePlayer::~SimplePlayer - 0x271900
 SimplePlayer::create - 0x271ac0
 SimplePlayer::setOpacity - 0x272e70
 SimplePlayer::setColor - 0x272320

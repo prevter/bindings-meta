@@ -2357,6 +2357,7 @@ CCPartAnimSprite::transformSprite - 0x2f3ee0
 CCPartAnimSprite::tweenSpriteTo - 0x2f4178
 CCPartAnimSprite::tweenToFrame - 0x2f4834
 CCScrollLayerExt::CCScrollLayerExt - 0x396eb8
+CCScrollLayerExt::~CCScrollLayerExt - 0x39766c
 CCScrollLayerExt::visit - 0x3980f4
 CCScrollLayerExt::ccTouchBegan - 0x397afc
 CCScrollLayerExt::ccTouchMoved - 0x397eb8
@@ -4847,6 +4848,7 @@ LabelGameObject::getTextKerning - 0x199b20
 LabelGameObject::updateLabel - 0x170ba0
 LabelGameObject::updateLabelIfDirty - 0x170cac
 LabelGameObject::updatePreviewLabel - 0x1707f0
+LeaderboardsLayer::~LeaderboardsLayer - 0x45bbb8
 LeaderboardsLayer::create - 0x45bf64
 LeaderboardsLayer::scene - 0x45be78
 LeaderboardsLayer::keyBackClicked - 0x45dbec
@@ -6989,6 +6991,7 @@ ShareListLayer::onInfo - 0x2e4024
 ShareListLayer::onShare - 0x2e3f10
 ShareListLayer::onUnlisted - 0x2e40dc
 ShareListLayer::updateUnlistedF - 0x2e41dc
+SimplePlayer::~SimplePlayer - 0x2efc74
 SimplePlayer::create - 0x2ead40
 SimplePlayer::setOpacity - 0x2f092c
 SimplePlayer::setColor - 0x2f05c0
@@ -7158,6 +7161,7 @@ SupportLayer::onRobTop - 0x317178
 SupportLayer::onSFX - 0x316714
 SupportLayer::onTOS - 0x3166f0
 SupportLayer::sendSupportMail - 0x317494
+TableView::~TableView - 0x536e74
 TableView::create - 0x536c94
 TableView::onEnter - 0x537ea4
 TableView::onExit - 0x537ea8

@@ -2188,6 +2188,7 @@ CCPartAnimSprite::transformSprite - 0x82c44
 CCPartAnimSprite::tweenSpriteTo - 0x82e84
 CCPartAnimSprite::tweenToFrame - 0x831e0
 CCScrollLayerExt::CCScrollLayerExt - 0x300a10
+CCScrollLayerExt::~CCScrollLayerExt - 0x3010ec
 CCScrollLayerExt::visit - 0x3019ec
 CCScrollLayerExt::ccTouchBegan - 0x301428
 CCScrollLayerExt::ccTouchMoved - 0x3017c4
@@ -4239,6 +4240,7 @@ LabelGameObject::getTextKerning - 0x3922d0
 LabelGameObject::updateLabel - 0x381d10
 LabelGameObject::updateLabelIfDirty - 0x381d60
 LabelGameObject::updatePreviewLabel - 0x381a24
+LeaderboardsLayer::~LeaderboardsLayer - 0x3a902c
 LeaderboardsLayer::create - 0x3a9128
 LeaderboardsLayer::scene - 0x3a90dc
 LeaderboardsLayer::keyBackClicked - 0x3aa800
@@ -4585,6 +4587,7 @@ LevelTools::getAudioTitle - 0x1ab7c0
 LevelTools::getLastGameplayRotated - 0x1ac47c
 LevelTools::getLastTimewarp - 0x1ac470
 LevelTools::getLevel - 0x1aa160
+LevelTools::getLevelList - 0x1aa0d4
 LevelTools::getSongObject - 0x1ac488
 LevelTools::nameForArtist - 0x1ab840
 LevelTools::ngURLForArtist - 0x1ab89c
@@ -5970,6 +5973,7 @@ ShareLevelSettingsLayer::keyBackClicked - 0x276b68
 ShareLevelSettingsLayer::init - 0x27603c
 ShareListLayer::~ShareListLayer - 0x246fbc
 ShareListLayer::keyBackClicked - 0x24836c
+SimplePlayer::~SimplePlayer - 0x307200
 SimplePlayer::create - 0x303450
 SimplePlayer::setOpacity - 0x307a98
 SimplePlayer::setColor - 0x307734
@@ -6087,6 +6091,7 @@ SupportLayer::uploadActionFinished - 0x1964b8
 SupportLayer::uploadActionFailed - 0x1965a0
 SupportLayer::onClosePopup - 0x196468
 SupportLayer::FLAlert_Clicked - 0x1967b4
+TableView::~TableView - 0x2feb48
 TableView::create - 0x2fe96c
 TableView::onEnter - 0x2ff6c4
 TableView::onExit - 0x2ff6c8
