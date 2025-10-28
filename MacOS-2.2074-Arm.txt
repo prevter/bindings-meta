@@ -3491,7 +3491,12 @@ GameLevelManager::getActiveDailyID - 0x49c9d0
 GameLevelManager::getBasePostString - 0x4826c4
 GameLevelManager::getBoolForKey - 0x49da8c
 GameLevelManager::getCommentKey - 0x492fb4
+GameLevelManager::getCompletedDailyLevels - 0x47cdd0
+GameLevelManager::getCompletedEventLevels - 0x47cfa8
+GameLevelManager::getCompletedGauntletDemons - 0x47d194
+GameLevelManager::getCompletedGauntletLevels - 0x47d26c
 GameLevelManager::getCompletedLevels - 0x47b4a4
+GameLevelManager::getCompletedWeeklyLevels - 0x47cbf0
 GameLevelManager::getDailyID - 0x49c99c
 GameLevelManager::getDailyTimer - 0x49ca04
 GameLevelManager::getDeleteCommentKey - 0x494660
@@ -3627,6 +3632,7 @@ GameLevelManager::purgeUnusedLevels - 0x47f7a0
 GameLevelManager::rateDemon - 0x48c020
 GameLevelManager::rateStars - 0x48a7c8
 GameLevelManager::readFriendRequest - 0x498000
+GameLevelManager::removeDelimiterChars - 0x483a50
 GameLevelManager::removeDLFromActive - 0x47e944
 GameLevelManager::removeFriend - 0x498490
 GameLevelManager::reportLevel - 0x49cd30
