@@ -1881,8 +1881,10 @@ GameStatsManager::verifyUserCoins - 0x1dcc30
 GameToolbox::addBackButton - 0x65010
 GameToolbox::addRThumbScrollButton - 0x650f0
 GameToolbox::alignItemsHorisontally - 0x64110
+GameToolbox::bounceTime - 0x68a90
 GameToolbox::createToggleButton - 0x64670
 GameToolbox::easeToText - 0x68570
+GameToolbox::gen_random - 0x66040
 GameToolbox::getEasedValue - 0x68b40
 GameToolbox::getRelativeOffset - 0x64970
 GameToolbox::getResponse - 0x64310
@@ -1901,6 +1903,7 @@ GameToolbox::saveParticleToString - 0x662d0
 GameToolbox::stringFromHSV - 0x656f0
 GameToolbox::stringSetupToDict - 0x65c30
 GameToolbox::stringSetupToMap - 0x65890
+GameToolbox::timestampToHumanReadable - 0x692c0
 GameToolbox::transformColor - 0x65290
 GauntletLayer::scene - 0x1f2920
 GauntletLayer::keyBackClicked - 0x1f4f50
