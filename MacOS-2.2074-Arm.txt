@@ -2302,6 +2302,15 @@ CCContentLayer::setPosition - 0x6bea40
 CCCountdown::init - 0x6c2084
 CCCountdown::setOpacity - 0x6c2434
 CCCounterLabel::create - 0x45b328
+CCCounterLabel::calculateStepSize - 0x45b618
+CCCounterLabel::disableCounter - 0x45b588
+CCCounterLabel::enableCounter - 0x45b4d0
+CCCounterLabel::fastUpdateCounter - 0x45b4c4
+CCCounterLabel::getTargetCount - 0x45b654
+CCCounterLabel::init - 0x45b43c
+CCCounterLabel::setTargetCount - 0x45b5a4
+CCCounterLabel::updateCounter - 0x45b508
+CCCounterLabel::updateString - 0x45b65c
 CCLightFlash::~CCLightFlash - 0x451e38
 CCLightFlash::create - 0x451614
 CCLightFlash::init - 0x451678
@@ -4536,6 +4545,7 @@ GJMapPack::completedMaps - 0x4a1dac
 GJMapPack::hasCompletedMapPack - 0x4a1e70
 GJMapPack::parsePackColors - 0x4a1ac8
 GJMapPack::parsePackLevels - 0x4a19b4
+GJMapPack::totalMaps - 0x4a1d9c
 GJMessageCell::init - 0x1f4e7c
 GJMessageCell::draw - 0x1f5164
 GJMessageCell::FLAlert_Clicked - 0x1f5210
@@ -4588,6 +4598,8 @@ GJPathPage::show - 0x288988
 GJPathPage::didPurchaseItem - 0x286f08
 GJPathPage::init - 0x285220
 GJPathPage::onActivatePath - 0x286ee0
+GJPathPage::onBack - 0x286b60
+GJPathPage::onIconInfo - 0x286c10
 GJPathPage::onUnlock - 0x286dd4
 GJPathPage::playUnlockAnimation - 0x286f0c
 GJPathPage::showCantAffordMessage - 0x2874bc
@@ -4596,6 +4608,7 @@ GJPathPage::unlockAnimationStep2 - 0x287b88
 GJPathPage::unlockAnimationStep3 - 0x287f2c
 GJPathRewardPopup::create - 0x284e5c
 GJPathRewardPopup::keyBackClicked - 0x289388
+GJPathRewardPopup::closePopup - 0x289320
 GJPathRewardPopup::init - 0x288d28
 GJPathRewardPopup::onClaim - 0x2891c4
 GJPathsLayer::create - 0x28446c
@@ -4733,6 +4746,7 @@ GJShopLayer::exitVideoAdItems - 0x2a7298
 GJShopLayer::init - 0x2a5450
 GJShopLayer::onBack - 0x2a6d78
 GJShopLayer::onCommunityCredits - 0x2a6d00
+GJShopLayer::onPlushies - 0x2a6cfc
 GJShopLayer::onSelectItem - 0x2a6f30
 GJShopLayer::onVideoAd - 0x2a6d2c
 GJShopLayer::showCantAffordMessage - 0x2a744c
@@ -5432,6 +5446,7 @@ MapPackCell::init - 0x1efea8
 MapPackCell::draw - 0x1f0368
 MapPackCell::loadFromMapPack - 0x1e2f88
 MapPackCell::onClaimReward - 0x1f00b0
+MapPackCell::onClick - 0x1efef0
 MapPackCell::playCompleteEffect - 0x1f012c
 MapPackCell::reloadCell - 0x1ec340
 MapPackCell::updateBGColor - 0x1e3a74

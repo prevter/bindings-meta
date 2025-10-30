@@ -3195,6 +3195,7 @@ LocalLevelManager::updateLevelRevision - 0x31b640
 MapPackCell::init - 0xb1480
 MapPackCell::draw - 0xad710
 MapPackCell::loadFromMapPack - 0xb14e0
+MapPackCell::onClaimReward - 0xb2120
 MapPackCell::onClick - 0xb2000
 MapPackCell::playCompleteEffect - 0xb21d0
 MenuGameLayer::update - 0x31d380
