@@ -102,6 +102,7 @@ AchievementBar::setOpacity - 0x81ea0
 AchievementBar::init - 0x80670
 AchievementBar::show - 0x81c20
 TableViewCell::TableViewCell - 0x76ad0
+TableViewCell::~TableViewCell - 0x76d30
 AchievementCell::draw - 0xad710
 AchievementCell::loadFromDict - 0xac150
 AchievementManager::sharedState - 0x7da0
@@ -362,6 +363,8 @@ AppDelegate::setupGLView - 0x82580
 ArtistCell::init - 0x3c7f0
 ArtistCell::draw - 0xad710
 ArtistCell::loadFromObject - 0xb4e90
+ArtistCell::onNewgrounds - 0xb51c0
+ArtistCell::onYouTube - 0xb5260
 ArtTriggerGameObject::triggerObject - 0x4a98a0
 ArtTriggerGameObject::customObjectSetup - 0x4a9820
 ArtTriggerGameObject::getSaveString - 0x4a96b0
@@ -750,6 +753,8 @@ CommentCell::onConfirmDelete - 0xb7850
 CommentCell::onGoToLevel - 0xb7b20
 CommentCell::onLike - 0xb75f0
 CommentCell::onUnhide - 0xb7b00
+CommentCell::onViewProfile - 0xb7980
+CommentCell::updateLabelValues - 0xb7790
 CommunityCreditNode::create - 0x93ec0
 CommunityCreditsPage::init - 0x94000
 CommunityCreditsPage::registerWithTouchDispatcher - 0x425d0
@@ -2389,6 +2394,11 @@ GJMessageCell::uploadActionFinished - 0xbd5e0
 GJMessageCell::uploadActionFailed - 0xbd760
 GJMessageCell::onClosePopup - 0xbb4b0
 GJMessageCell::loadFromMessage - 0xbc7e0
+GJMessageCell::markAsRead - 0xbd170
+GJMessageCell::onDeleteMessage - 0xbd280
+GJMessageCell::onToggle - 0xbd420
+GJMessageCell::onViewMessage - 0xbd0d0
+GJMessageCell::onViewProfile - 0xbd240
 GJMessagePopup::create - 0x28fd10
 GJMessagePopup::keyBackClicked - 0x84650
 GJMessagePopup::downloadMessageFinished - 0x2914b0
@@ -2477,7 +2487,9 @@ GJRequestCell::onClosePopup - 0xbb4b0
 GJRequestCell::loadFromScore - 0xbb640
 GJRequestCell::markAsRead - 0xbbf50
 GJRequestCell::onDeleteRequest - 0xbc030
+GJRequestCell::onToggle - 0xbc1d0
 GJRequestCell::onViewFriendRequest - 0xbbea0
+GJRequestCell::onViewProfile - 0xba800
 GJRewardItem::create - 0x1f0980
 GJRewardItem::create - 0x1f0cc0
 GJRewardItem::createSpecial - 0x1f0ad0
@@ -3006,6 +3018,7 @@ LevelListCell::LevelListCell - 0xbdf10
 LevelListCell::draw - 0xad710
 LevelListCell::loadFromList - 0xbdf90
 LevelListCell::onClick - 0xbf3c0
+LevelListCell::onListInfo - 0xbf4d0
 LevelListCell::onViewProfile - 0xbf4f0
 LevelListLayer::scene - 0x2ee9c0
 LevelListLayer::onEnter - 0x2f0680
