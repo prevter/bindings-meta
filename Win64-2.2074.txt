@@ -871,16 +871,19 @@ CustomizeObjectLayer::textChanged - 0xa9100
 CustomizeObjectLayer::hsvPopupClosed - 0xa86a0
 CustomizeObjectLayer::colorSelectClosed - 0xa8030
 CustomizeObjectLayer::colorSetupClosed - 0xa7c90
+CustomizeObjectLayer::determineStartValues - 0xa8040
 CustomizeObjectLayer::getActiveMode - 0xa8cb0
 CustomizeObjectLayer::getButtonByTag - 0xa9520
 CustomizeObjectLayer::highlightSelected - 0xa97d0
 CustomizeObjectLayer::init - 0xa4d00
 CustomizeObjectLayer::onBreakApart - 0xa9410
+CustomizeObjectLayer::onBrowse - 0xa7c00
 CustomizeObjectLayer::onClear - 0xa9380
 CustomizeObjectLayer::onClose - 0xa9900
 CustomizeObjectLayer::onCopy - 0xa7900
 CustomizeObjectLayer::onEditColor - 0xa7d70
 CustomizeObjectLayer::onHSV - 0xa8470
+CustomizeObjectLayer::onLiveEdit - 0xa7800
 CustomizeObjectLayer::onNextColorChannel - 0xa87d0
 CustomizeObjectLayer::onPaste - 0xa7960
 CustomizeObjectLayer::onSelectColor - 0xa95a0
@@ -890,6 +893,7 @@ CustomizeObjectLayer::onUpdateCustomColor - 0xa8ea0
 CustomizeObjectLayer::sliderChanged - 0xa77b0
 CustomizeObjectLayer::toggleVisible - 0xa8af0
 CustomizeObjectLayer::updateColorSprite - 0xa7e20
+CustomizeObjectLayer::updateCurrentSelection - 0xa8e40
 CustomizeObjectLayer::updateCustomColorLabels - 0xa9490
 CustomizeObjectLayer::updateHSVButtons - 0xa8270
 CustomizeObjectLayer::updateKerningLabel - 0xa7600
