@@ -699,6 +699,7 @@ cocos2d::CCDirector::replaceScene - 0x179608
 cocos2d::CCDirector::resetSmoothFixCounter - 0x178ff4
 cocos2d::CCDirector::resume - 0x179ac8
 cocos2d::CCDirector::runWithScene - 0x179554
+cocos2d::CCDirector::sceneCount - 0x179924
 cocos2d::CCDirector::updateContentScale - 0x1792dc
 cocos2d::CCDirector::willSwitchToScene - 0x1794fc
 cocos2d::CCDirector::init - 0x178608
@@ -1670,6 +1671,7 @@ AchievementManager::notifyAchievement - 0xeba9c
 AchievementManager::notifyAchievementWithID - 0xeb958
 AchievementManager::percentForAchievement - 0xeb558
 AchievementManager::reportAchievementWithID - 0xebb58
+AchievementManager::reportPlatformAchievementWithID - 0xebc48
 AchievementManager::resetAchievement - 0xebaf4
 AchievementManager::storeAchievementUnlocks - 0xeaf78
 AchievementNotifier::sharedState - 0x21720c
@@ -2053,6 +2055,7 @@ AudioLineGuideGameObject::init - 0x38f09c
 AudioLineGuideGameObject::customObjectSetup - 0x38f408
 AudioLineGuideGameObject::getSaveString - 0x38f0ec
 BitmapFontCache::~BitmapFontCache - 0x2f3740
+BitmapFontCache::purgeSharedFontCache - 0x2f3714
 BitmapFontCache::sharedFontCache - 0x2f36a8
 BitmapFontCache::fontWithConfigFile - 0x2f3794
 BoomListView::~BoomListView - 0x1d0b60
@@ -4109,7 +4112,22 @@ GJMessagePopup::loadFromGJMessage - 0x2da894
 GJMGLayer::draw - 0x31548
 GJMGLayer::showGround - 0x3153c
 GJMoreGamesLayer::customSetup - 0x6911c
+GJMultiplayerManager::sharedState - 0x1cf0a4
 GJMultiplayerManager::init - 0x1cfeac
+GJMultiplayerManager::addComment - 0x1d025c
+GJMultiplayerManager::createAndAddComment - 0x1d097c
+GJMultiplayerManager::dataLoaded - 0x1d0a94
+GJMultiplayerManager::encodeDataTo - 0x1d0a90
+GJMultiplayerManager::firstSetup - 0x1d0a8c
+GJMultiplayerManager::getBasePostString - 0x1cff6c
+GJMultiplayerManager::handleIt - 0x1cf554
+GJMultiplayerManager::onExitLobbyCompleted - 0x1cfcb0
+GJMultiplayerManager::onJoinLobbyCompleted - 0x1cf7cc
+GJMultiplayerManager::onProcessHttpRequestCompleted - 0x1cf43c
+GJMultiplayerManager::onUploadCommentCompleted - 0x1cfd74
+GJMultiplayerManager::ProcessHttpRequest - 0x1cf114
+GJMultiplayerManager::removeDLFromActive - 0x1cff08
+GJMultiplayerManager::uploadComment - 0x1d0440
 GJObjectDecoder::sharedDecoder - 0x2176e8
 GJObjectDecoder::init - 0x217784
 GJObjectDecoder::getDecodedObject - 0x217788
@@ -4398,7 +4416,11 @@ ItemTriggerGameObject::customSetup - 0x38d9e0
 ItemTriggerGameObject::triggerObject - 0x38da18
 ItemTriggerGameObject::customObjectSetup - 0x38e954
 ItemTriggerGameObject::getSaveString - 0x38db00
+KeybindingsManager::sharedState - 0x346c04
 KeybindingsManager::init - 0x346ccc
+KeybindingsManager::dataLoaded - 0x346d98
+KeybindingsManager::encodeDataTo - 0x346d54
+KeybindingsManager::firstSetup - 0x346cd4
 KeyframeAnimTriggerObject::init - 0x37f844
 KeyframeAnimTriggerObject::customObjectSetup - 0x37fc84
 KeyframeAnimTriggerObject::getSaveString - 0x37f894
@@ -5079,6 +5101,7 @@ ObjectToolbox::sharedState - 0x276bd8
 ObjectToolbox::init - 0x276cbc
 ObjectToolbox::gridNodeSizeForKey - 0x2aa858
 ObjectToolbox::intKeyToFrame - 0x2aa804
+ObjectToolbox::perspectiveBlockFrame - 0x2aab98
 OptionsCell::OptionsCell - 0x11332c
 OptionsCell::loadFromObject - 0x1055fc
 OptionsCell::onToggleOption - 0x113398

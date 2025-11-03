@@ -2425,6 +2425,15 @@ GJMoreGamesLayer::customSetup - 0x278cf0
 GJMoreGamesLayer::getMoreGamesList - 0x278950
 GJMultiplayerManager::sharedState - 0x27acc0
 GJMultiplayerManager::init - 0x27b410
+GJMultiplayerManager::addComment - 0x27c3e0
+GJMultiplayerManager::createAndAddComment - 0x27c200
+GJMultiplayerManager::getBasePostString - 0x27c5a0
+GJMultiplayerManager::handleIt - 0x27b180
+GJMultiplayerManager::onJoinLobbyCompleted - 0x27b540
+GJMultiplayerManager::onProcessHttpRequestCompleted - 0x27b080
+GJMultiplayerManager::ProcessHttpRequest - 0x27ad70
+GJMultiplayerManager::removeDLFromActive - 0x27b490
+GJMultiplayerManager::uploadComment - 0x27bca0
 GJObjectDecoder::sharedDecoder - 0x27c690
 GJObjectDecoder::init - 0x77db0
 GJObjectDecoder::getDecodedObject - 0x27c730
@@ -3454,6 +3463,7 @@ ObjectManager::setup - 0x6e4c0
 ObjectToolbox::sharedState - 0x332f90
 ObjectToolbox::init - 0x333050
 ObjectToolbox::gridNodeSizeForKey - 0x35ae80
+ObjectToolbox::intKeyToFrame - 0x35ae50
 ObjectToolbox::perspectiveBlockFrame - 0x35b8a0
 OptionsCell::loadFromObject - 0xb49f0
 OptionsCell::onToggleOption - 0xb4d90
