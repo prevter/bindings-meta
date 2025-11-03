@@ -1106,6 +1106,7 @@ cocos2d::CCDictionary::removeObjectForKey - 0x2fb510
 cocos2d::CCDictionary::removeObjectForKey - 0x2fba60
 cocos2d::CCDictionary::valueForKey - 0x2fa030
 cocos2d::CCDictionary::valueForKey - 0x2fa570
+cocos2d::CCDictionary::writeToFile - 0x2fc1c0
 cocos2d::CCDictionary::copyWithZone - 0x2fbcf0
 cocos2d::CCDictionary::acceptVisitor - 0x2fc180
 cocos2d::CCRenderTexture::create - 0x5ddfa0
