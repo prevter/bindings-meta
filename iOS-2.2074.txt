@@ -700,6 +700,7 @@ cocos2d::CCDirector::resetSmoothFixCounter - 0x178ff4
 cocos2d::CCDirector::resume - 0x179ac8
 cocos2d::CCDirector::runWithScene - 0x179554
 cocos2d::CCDirector::sceneCount - 0x179924
+cocos2d::CCDirector::toggleShowFPS - 0x1790c8
 cocos2d::CCDirector::updateContentScale - 0x1792dc
 cocos2d::CCDirector::willSwitchToScene - 0x1794fc
 cocos2d::CCDirector::init - 0x178608

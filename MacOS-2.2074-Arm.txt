@@ -5145,6 +5145,10 @@ GradientTriggerObject::create - 0x151ee4
 GradientTriggerObject::init - 0x151fc0
 GradientTriggerObject::customObjectSetup - 0x1533c4
 GradientTriggerObject::getSaveString - 0x152014
+GraphicsReloadLayer::create - 0x6a2b68
+GraphicsReloadLayer::scene - 0x6a2ac8
+GraphicsReloadLayer::init - 0x6a2ccc
+GraphicsReloadLayer::performReload - 0x6a2d90
 GravityEffectSprite::create - 0x9d8c0
 GravityEffectSprite::init - 0xae348
 GravityEffectSprite::draw - 0xae56c
