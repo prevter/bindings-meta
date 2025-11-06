@@ -2348,6 +2348,7 @@ GJGameLevel::create - 0x1683e0
 GJGameLevel::lengthKeyToString - 0x16a0d0
 GJGameLevel::encodeWithCoder - 0x16c090
 GJGameLevel::init - 0x169ba0
+GJGameLevel::areCoinsVerified - 0x16d030
 GJGameLevel::copyLevelInfo - 0x16aaa0
 GJGameLevel::dataLoaded - 0x16b150
 GJGameLevel::getAudioFileName - 0x16a3f0
@@ -2355,11 +2356,13 @@ GJGameLevel::getAverageDifficulty - 0x16a230
 GJGameLevel::getCoinKey - 0x16a2a0
 GJGameLevel::getLastBuildPageForTab - 0x16a320
 GJGameLevel::getListSnapshot - 0x16adc0
+GJGameLevel::getSongName - 0x16a4b0
 GJGameLevel::getUnpackedLevelDescription - 0x16d150
 GJGameLevel::handleStatsConflict - 0x16cc80
 GJGameLevel::savePercentage - 0x169db0
 GJGameLevel::scoreStringToVector - 0x16a910
 GJGameLevel::storeNewLocalScore - 0x16a690
+GJGameLevel::unverifyCoins - 0x16d090
 GJGameLoadingLayer::transitionToLoadingLayer - 0x242890
 GJGameLoadingLayer::onEnter - 0x52db0
 GJGameLoadingLayer::onEnterTransitionDidFinish - 0x242b20
