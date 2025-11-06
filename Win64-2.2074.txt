@@ -2423,6 +2423,7 @@ GJLevelList::hasMatchingLevels - 0x173970
 GJLevelList::parseListLevels - 0x173c40
 GJLevelList::reorderLevel - 0x174070
 GJLevelList::showListInfo - 0x174900
+GJLevelList::updateLevelsString - 0x174750
 GJLevelScoreCell::init - 0x3c7f0
 GJLevelScoreCell::draw - 0xad710
 GJLevelScoreCell::loadFromScore - 0xb93d0

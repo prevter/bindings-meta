@@ -4114,6 +4114,9 @@ GJColorSetupLayer::init - 0x191334
 GJColorSetupLayer::onColor - 0x191990
 GJColorSetupLayer::updateSpriteColor - 0x191c58
 GJColorSetupLayer::updateSpriteColors - 0x191a18
+GJComment::~GJComment - 0xb40c0
+GJComment::create - 0xb4144
+GJComment::create - 0xa9fb4
 GJComment::init - 0xb41fc
 GJCommentListLayer::create - 0x2d519c
 GJCommentListLayer::init - 0x2d5280
@@ -4342,12 +4345,20 @@ GJLevelList::addLevelToList - 0xb4874
 GJLevelList::completedLevels - 0xb4fa4
 GJLevelList::createWithCoder - 0xb533c
 GJLevelList::dataLoaded - 0xb536c
+GJLevelList::duplicateListLevels - 0xb4558
 GJLevelList::frameForListDifficulty - 0xb58a8
+GJLevelList::getListLevelsArray - 0xb45c4
 GJLevelList::getUnpackedDescription - 0xb44a8
+GJLevelList::handleStatsConflict - 0xb4378
 GJLevelList::hasMatchingLevels - 0xb4390
+GJLevelList::orderForLevel - 0xb4c10
 GJLevelList::parseListLevels - 0xa2ab4
+GJLevelList::removeLevelFromList - 0xb4b34
+GJLevelList::reorderLevel - 0xb4c48
+GJLevelList::reorderLevelStep - 0xb4f50
 GJLevelList::showListInfo - 0xb4ff8
 GJLevelList::totalLevels - 0xb4f94
+GJLevelList::updateLevelsString - 0xb49f4
 GJLevelScoreCell::init - 0x11405c
 GJLevelScoreCell::draw - 0x1140a4
 GJLevelScoreCell::loadFromScore - 0x10b8d4
@@ -4604,6 +4615,7 @@ GJUserCell::updateBGColor - 0x10c4b0
 GJUserMessage::create - 0xb3540
 GJUserMessage::create - 0xa8330
 GJUserMessage::init - 0xb35d0
+GJUserScore::GJUserScore - 0xb6538
 GJUserScore::create - 0x99f28
 GJUserScore::create - 0xb3264
 GJUserScore::init - 0xb32d8
@@ -4878,6 +4890,7 @@ LevelEditorLayer::updateGameObjects - 0x357eb4
 LevelEditorLayer::updateLevelFont - 0x3618c8
 LevelEditorLayer::updateObjectColors - 0x35ea84
 LevelEditorLayer::updateOptions - 0x357150
+LevelEditorLayer::updatePreviewParticle - 0x35da6c
 LevelEditorLayer::updatePreviewParticles - 0x35fd34
 LevelInfoLayer::LevelInfoLayer - 0x2f310
 LevelInfoLayer::~LevelInfoLayer - 0x285b0
@@ -5402,6 +5415,7 @@ OptionsScrollLayer::keyBackClicked - 0x3bb58c
 OptionsScrollLayer::cellPerformedAction - 0x3bb5d0
 ParentalOptionsLayer::init - 0xf5a0c
 ParentalOptionsLayer::keyBackClicked - 0xf69d8
+ParticleGameObject::create - 0x379970
 ParticleGameObject::init - 0x379a74
 ParticleGameObject::setScaleX - 0x37a8d4
 ParticleGameObject::setScaleY - 0x37a920
@@ -5425,8 +5439,15 @@ ParticleGameObject::updateMainParticleOpacity - 0x37aba0
 ParticleGameObject::updateSecondaryParticleOpacity - 0x37abec
 ParticleGameObject::updateSyncedAnimation - 0x37acd4
 ParticleGameObject::updateAnimateOnTrigger - 0x37adfc
+ParticleGameObject::applyParticleSettings - 0x379f4c
+ParticleGameObject::createAndAddCustomParticle - 0x379bfc
+ParticleGameObject::createParticlePreviewArt - 0x37a648
 ParticleGameObject::setParticleString - 0x37a4ac
 ParticleGameObject::updateParticle - 0x37a4f8
+ParticleGameObject::updateParticleAngle - 0x37a280
+ParticleGameObject::updateParticlePreviewArtOpacity - 0x37a76c
+ParticleGameObject::updateParticleScale - 0x37a5e8
+ParticleGameObject::updateParticleStruct - 0x379dc8
 ParticlePreviewLayer::draw - 0x2d1c18
 ParticlePreviewLayer::visit - 0x2d1b38
 PauseLayer::create - 0x1453f8
@@ -6500,8 +6521,10 @@ Slider::disableSlider - 0x2ef448
 Slider::enableSlider - 0x2ef530
 Slider::init - 0x2ef29c
 Slider::setValue - 0x2ef504
+SmartGameObject::create - 0x379590
 SmartGameObject::customObjectSetup - 0x379920
 SmartGameObject::getSaveString - 0x37978c
+SmartGameObject::init - 0x379634
 SmartGameObject::updateSmartFrame - 0x379684
 SmartTemplateCell::init - 0x1158f0
 SmartTemplateCell::draw - 0x1159a0
@@ -6557,6 +6580,7 @@ SpawnTriggerGameObject::init - 0x387770
 SpawnTriggerGameObject::triggerObject - 0x3879b8
 SpawnTriggerGameObject::customObjectSetup - 0x387d78
 SpawnTriggerGameObject::getSaveString - 0x3880cc
+SpecialAnimGameObject::create - 0x37b0f0
 SpecialAnimGameObject::resetObject - 0x37b1ac
 SpecialAnimGameObject::customObjectSetup - 0x37b1b8
 SpecialAnimGameObject::getSaveString - 0x37b218
@@ -6631,6 +6655,7 @@ TextArea::fadeInCharacters - 0xfa140
 TextArea::setString - 0xf9ab8
 TextArea::showAll - 0xf9df4
 TextArea::stopAllCharacterActions - 0xf9d3c
+TextGameObject::create - 0x253c20
 TextGameObject::customObjectSetup - 0x264288
 TextGameObject::getSaveString - 0x2643c8
 TextGameObject::updateTextKerning - 0x263fd0
