@@ -315,6 +315,7 @@ EffectGameObject::triggerEffectFinished - 0x48d780
 EffectGameObject::updateInteractiveHover - 0x48fe30
 EffectGameObject::updateSpecialColor - 0x48fdb0
 EffectGameObject::updateSpeedModType - 0x493010
+AdvancedFollowTriggerObject::AdvancedFollowTriggerObject - 0x47d510
 AdvancedFollowTriggerObject::customObjectSetup - 0x485150
 AdvancedFollowTriggerObject::getSaveString - 0x482f50
 AdvancedFollowEditObject::customObjectSetup - 0x486470
@@ -4755,6 +4756,7 @@ SFXBrowser::updatePageLabel - 0x468490
 SFXSearchResult::create - 0x331fa0
 SFXSearchResult::updateObjects - 0x332020
 SFXSearchResult::getSelectedPage - 0x332580
+SFXTriggerGameObject::SFXTriggerGameObject - 0x47dc30
 SFXTriggerGameObject::customObjectSetup - 0x49efd0
 SFXTriggerGameObject::getSaveString - 0x49da70
 ShaderGameObject::customSetup - 0x481460
@@ -4911,6 +4913,7 @@ SpawnTriggerGameObject::init - 0x4a0530
 SpawnTriggerGameObject::triggerObject - 0x4a06a0
 SpawnTriggerGameObject::customObjectSetup - 0x4a0a10
 SpawnTriggerGameObject::getSaveString - 0x4a0d50
+SpawnTriggerGameObject::changeRemap - 0x4a07c0
 SpawnTriggerGameObject::updateRemapKeys - 0x4a05a0
 SpecialAnimGameObject::resetObject - 0x489380
 SpecialAnimGameObject::customObjectSetup - 0x489390
