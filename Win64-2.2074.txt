@@ -4833,8 +4833,11 @@ ShareLevelSettingsLayer::keyBackClicked - 0x4799c0
 ShareLevelSettingsLayer::init - 0x478c00
 ShareLevelSettingsLayer::onClose - 0x479940
 ShareLevelSettingsLayer::onUnlisted - 0x479620
+ShareLevelSettingsLayer::onUnlistedFriendsOnly - 0x479840
+ShareLevelSettingsLayer::updateSettingsState - 0x479860
 ShareListLayer::keyBackClicked - 0x84650
 ShareListLayer::init - 0x2f50d0
+ShareListLayer::onClose - 0x84620
 ShareListLayer::onInfo - 0x2f6270
 ShareListLayer::onShare - 0x2f6530
 ShareListLayer::onUnlisted - 0x2f63e0
