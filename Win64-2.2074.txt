@@ -3104,9 +3104,11 @@ LevelListLayer::confirmDelete - 0x2f3a20
 LevelListLayer::confirmOwnerDelete - 0x2f3b50
 LevelListLayer::init - 0x2eebf0
 LevelListLayer::onClaimReward - 0x2f1650
+LevelListLayer::onDescription - 0x2f2e10
 LevelListLayer::onFavorite - 0x2f2ce0
 LevelListLayer::onInfo - 0x2f2fe0
 LevelListLayer::onLike - 0x2f3020
+LevelListLayer::onListInfo - 0x2f0670
 LevelListLayer::onRefreshLevelList - 0x2f1cc0
 LevelListLayer::onSelectIcon - 0x2f3260
 LevelListLayer::onShare - 0x2f33d0
@@ -4084,6 +4086,7 @@ SelectFontLayer::onChangeFont - 0x287400
 SelectFontLayer::updateFontLabel - 0x287200
 SelectListIconLayer::keyBackClicked - 0x2f5080
 SelectListIconLayer::init - 0x2f4790
+SelectListIconLayer::onClose - 0x2f5040
 SelectListIconLayer::onSelect - 0x2f4f80
 SelectPremadeLayer::init - 0x3eef30
 SelectPremadeLayer::keyBackClicked - 0x84650
