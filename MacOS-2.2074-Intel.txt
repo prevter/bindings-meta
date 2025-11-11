@@ -3180,7 +3180,10 @@ EditorUI::doPasteObjects - 0x3e820
 EditorUI::dynamicGroupUpdate - 0x44e10
 EditorUI::editButton2Usable - 0x492e0
 EditorUI::editButtonUsable - 0x48580
+EditorUI::editColor - 0x3ceb0
+EditorUI::editColorButtonUsable - 0x4a0f0
 EditorUI::editGroup - 0x2c8f0
+EditorUI::editHSV - 0x3d050
 EditorUI::editObject - 0x2b550
 EditorUI::editObject2 - 0x2b540
 EditorUI::editObject3 - 0x4a0e0
@@ -3194,6 +3197,7 @@ EditorUI::getCreateMenuItemButton - 0x2f190
 EditorUI::getEditColorTargets - 0x4a120
 EditorUI::getGridSnappedPos - 0x35c40
 EditorUI::getGroupCenter - 0x3c1b0
+EditorUI::getGroupInfo - 0x49190
 EditorUI::getLimitedPosition - 0x4acf0
 EditorUI::getRelativeOffset - 0x3a960
 EditorUI::getSelectedObjects - 0x3d330
@@ -3224,6 +3228,7 @@ EditorUI::onDeleteSelectedType - 0x32240
 EditorUI::onDeleteStartPos - 0x32210
 EditorUI::onDeselectAll - 0x2c890
 EditorUI::onDuplicate - 0x2b2e0
+EditorUI::onEditColor - 0x2b4e0
 EditorUI::onGoToBaseLayer - 0x2cc60
 EditorUI::onGoToLayer - 0x2ca60
 EditorUI::onGroupDown - 0x2cc30
@@ -3276,6 +3281,7 @@ EditorUI::showMaxError - 0x34d70
 EditorUI::showUI - 0x3de00
 EditorUI::sliderChanged - 0xbd50
 EditorUI::spriteFromObjectString - 0x344a0
+EditorUI::toggleEditObjectButton - 0x2d710
 EditorUI::toggleEnableRotate - 0xc5b0
 EditorUI::toggleFreeMove - 0xc4c0
 EditorUI::toggleMode - 0x2af00
