@@ -2575,6 +2575,7 @@ ColorChannelSprite::updateValues - 0x2c4bb0
 ColorSelectLiveOverlay::create - 0x551c50
 ColorSelectLiveOverlay::keyBackClicked - 0x553950
 ColorSelectLiveOverlay::show - 0x553a00
+ColorSelectLiveOverlay::closeColorSelect - 0x553090
 ColorSelectLiveOverlay::init - 0x551e20
 SetupTriggerPopup::~SetupTriggerPopup - 0x222a30
 SetupTriggerPopup::ccTouchBegan - 0x22e3e0
@@ -3157,6 +3158,8 @@ EditorUI::assignNewGroups - 0x45970
 EditorUI::canSelectObject - 0x3c770
 EditorUI::checkDiffAfterTransformAnchor - 0x41740
 EditorUI::clickOnPosition - 0x2dfa0
+EditorUI::closeLiveColorSelect - 0x3ce80
+EditorUI::closeLiveHSVSelect - 0x3d020
 EditorUI::constrainGameLayerPosition - 0x2afb0
 EditorUI::copyObjects - 0x31280
 EditorUI::createCustomItems - 0x31b80
@@ -5313,6 +5316,7 @@ HSVLiveOverlay::create - 0x258800
 HSVLiveOverlay::keyBackClicked - 0x259080
 HSVLiveOverlay::show - 0x259130
 HSVLiveOverlay::hsvChanged - 0x259200
+HSVLiveOverlay::closeColorSelect - 0x258d80
 HSVLiveOverlay::createHSVWidget - 0x258f00
 HSVLiveOverlay::determineStartValues - 0x258dd0
 HSVLiveOverlay::init - 0x258980
@@ -6894,6 +6898,8 @@ SecretLayer3::revealStep4 - 0x494350
 SecretLayer3::revealStep5 - 0x494b70
 SecretLayer3::showUnlockDialog - 0x4939e0
 SecretLayer4::~SecretLayer4 - 0x39d6a0
+SecretLayer4::create - 0x39da50
+SecretLayer4::scene - 0x39da10
 SecretLayer4::init - 0x39db60
 SecretLayer4::onExit - 0x3a2000
 SecretLayer4::keyBackClicked - 0x3a1f10

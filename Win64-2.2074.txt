@@ -1208,6 +1208,8 @@ EditorUI::canSelectObject - 0x10ec30
 EditorUI::checkDiffAfterTransformAnchor - 0x1140e0
 EditorUI::checkLiveColorSelect - 0x10ef50
 EditorUI::clickOnPosition - 0xe1040
+EditorUI::closeLiveColorSelect - 0x11d5c0
+EditorUI::closeLiveHSVSelect - 0x11d810
 EditorUI::constrainGameLayerPosition - 0x120dd0
 EditorUI::copyObjects - 0x111560
 EditorUI::createCustomItems - 0xe30e0
@@ -2744,6 +2746,7 @@ HardStreak::updateStroke - 0x2b1830
 HSVLiveOverlay::keyBackClicked - 0x2b2bb0
 HSVLiveOverlay::show - 0x8ba30
 HSVLiveOverlay::hsvChanged - 0x2b2c00
+HSVLiveOverlay::closeColorSelect - 0x2b2990
 HSVLiveOverlay::createHSVWidget - 0x2b2a10
 HSVLiveOverlay::determineStartValues - 0x2b2790
 HSVLiveOverlay::init - 0x2b22f0

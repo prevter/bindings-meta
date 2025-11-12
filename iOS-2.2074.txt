@@ -2370,6 +2370,7 @@ ColorChannelSprite::updateValues - 0x10b74
 ColorSelectLiveOverlay::create - 0xf81a4
 ColorSelectLiveOverlay::keyBackClicked - 0xf9668
 ColorSelectLiveOverlay::show - 0xf967c
+ColorSelectLiveOverlay::closeColorSelect - 0xf919c
 ColorSelectLiveOverlay::init - 0xf8238
 SetupTriggerPopup::SetupTriggerPopup - 0x10260
 SetupTriggerPopup::~SetupTriggerPopup - 0x1313a4
@@ -4694,6 +4695,7 @@ HSVLiveOverlay::~HSVLiveOverlay - 0x1a2a7c
 HSVLiveOverlay::keyBackClicked - 0x1a3304
 HSVLiveOverlay::show - 0x1a3318
 HSVLiveOverlay::hsvChanged - 0x1a3364
+HSVLiveOverlay::closeColorSelect - 0x1a302c
 HSVLiveOverlay::init - 0x1a2c40
 HSVLiveOverlay::onSelectTab - 0x1a315c
 HSVWidgetPopup::keyBackClicked - 0x1020a8
@@ -6018,6 +6020,8 @@ SecretLayer3::revealStep5 - 0x311394
 SecretLayer3::showUnlockDialog - 0x310740
 SecretLayer4::SecretLayer4 - 0x355e30
 SecretLayer4::~SecretLayer4 - 0x353648
+SecretLayer4::create - 0x353734
+SecretLayer4::scene - 0x3536f0
 SecretLayer4::init - 0x3537a8
 SecretLayer4::onExit - 0x355de0
 SecretLayer4::keyBackClicked - 0x355dd4
