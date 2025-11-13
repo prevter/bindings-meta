@@ -3496,6 +3496,7 @@ NewgroundsInfoLayer::init - 0xc4930
 NewgroundsInfoLayer::keyBackClicked - 0x84650
 NewgroundsInfoLayer::FLAlert_Clicked - 0xc5690
 NewgroundsInfoLayer::onArtists - 0xc5270
+NewgroundsInfoLayer::onInfo - 0xc53e0
 NumberInputLayer::init - 0x3326e0
 NumberInputLayer::registerWithTouchDispatcher - 0x52d60
 NumberInputLayer::keyBackClicked - 0x84650

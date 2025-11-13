@@ -5444,6 +5444,7 @@ NCSInfoLayer::keyBackClicked - 0x14a3ac
 NewgroundsInfoLayer::init - 0x1491ec
 NewgroundsInfoLayer::keyBackClicked - 0x149c54
 NewgroundsInfoLayer::FLAlert_Clicked - 0x149bfc
+NewgroundsInfoLayer::onInfo - 0x149b64
 NumberInputLayer::init - 0xfbfd4
 NumberInputLayer::registerWithTouchDispatcher - 0xfc794
 NumberInputLayer::keyBackClicked - 0xfc718
