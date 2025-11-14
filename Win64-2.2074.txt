@@ -1,5 +1,5 @@
 cocos2d::CCLightning::lightningWithStrikePoint - 0x44540
-cocos2d::CCLightning::initWithStrikePoint - 0x439e0
+cocos2d::CCLightning::initWithStrikePoint - 0x445e0
 cocos2d::CCLightning::CCLightning - 0x44400
 cocos2d::CCLightning::strike - 0x44880
 cocos2d::CCLightning::strikeFinished - 0x448f0
@@ -483,6 +483,7 @@ CCMenuItemToggler::unselected - 0x454e0
 CCMenuItemToggler::setEnabled - 0x45530
 CCMenuItemToggler::normalTouch - 0x45580
 CCMenuItemToggler::selectedTouch - 0x455a0
+CCMenuItemToggler::setSizeMult - 0x45410
 CCMenuItemToggler::toggle - 0x455c0
 CCNodeContainer::create - 0x242710
 CCNodeContainer::init - 0x77db0
@@ -597,6 +598,7 @@ EnterEffectInstance::loadValuesFromObject - 0x136b60
 EnterEffectInstance::setValue - 0x137d00
 EnterEffectInstance::updateTransitions - 0x137ad0
 GJValueTween::step - 0x2000b0
+GJGameState::controlTweenAction - 0x200200
 GJGameState::getGameObjectPhysics - 0x200400
 GJGameState::processStateTriggers - 0x200290
 GJGameState::tweenValue - 0x200140
@@ -606,6 +608,7 @@ GJShaderState::updateTweenAction - 0x469300
 FMODAudioState::FMODAudioState - 0x52e40
 KeyframeObject::setupSpline - 0x2b9730
 GroupCommandObject2::GroupCommandObject2 - 0x2506c0
+GroupCommandObject2::reset - 0x250730
 GroupCommandObject2::step - 0x250930
 GroupCommandObject2::updateAction - 0x250a00
 CheckpointObject::CheckpointObject - 0x38e330
@@ -704,6 +707,7 @@ SetupTriggerPopup::onToggleTriggerValue - 0x45f6c0
 SetupTriggerPopup::onTouchTriggered - 0x45d1e0
 SetupTriggerPopup::toggleCustomEaseRateVisibility - 0x465910
 SetupTriggerPopup::toggleDisableButtons - 0x45e820
+SetupTriggerPopup::toggleEaseRateVisibility - 0x4649b0
 SetupTriggerPopup::triggerArrowChanged - 0x45daa0
 SetupTriggerPopup::triggerArrowLeft - 0x45da40
 SetupTriggerPopup::triggerArrowRight - 0x45da70
@@ -1265,6 +1269,7 @@ EditorUI::moveObject - 0x11e290
 EditorUI::moveObjectCall - 0x11dfd0
 EditorUI::moveObjectCall - 0x11e000
 EditorUI::offsetForKey - 0x124bf0
+EditorUI::onAssignNewGroupID - 0x1209d0
 EditorUI::onColorFilter - 0xe5bd0
 EditorUI::onCopy - 0x1118f0
 EditorUI::onCopyState - 0x112ac0
@@ -1322,6 +1327,7 @@ EditorUI::selectObjects - 0x10f140
 EditorUI::setupCreateMenu - 0xe6910
 EditorUI::setupDeleteMenu - 0xe38d0
 EditorUI::shouldDeleteObject - 0xe4c50
+EditorUI::showLiveColorSelectForMode - 0x11d500
 EditorUI::showMaxBasicError - 0x1112a0
 EditorUI::showMaxError - 0x111170
 EditorUI::showUI - 0x110200
@@ -2055,6 +2061,7 @@ GJBaseGameLayer::activateSongEditTrigger - 0x23b3b0
 GJBaseGameLayer::activateSongTrigger - 0x23b030
 GJBaseGameLayer::activateTimerTrigger - 0x22f700
 GJBaseGameLayer::addAreaEffect - 0x2221a0
+GJBaseGameLayer::addCustomEnterEffect - 0x2090d0
 GJBaseGameLayer::addGuideArt - 0x23f940
 GJBaseGameLayer::addProximityVolumeEffect - 0x23bea0
 GJBaseGameLayer::addRemapTargets - 0x2088a0
@@ -2065,9 +2072,11 @@ GJBaseGameLayer::applyRemap - 0x215ce0
 GJBaseGameLayer::applySFXEditTrigger - 0x23bba0
 GJBaseGameLayer::assignNewStickyGroups - 0x21f990
 GJBaseGameLayer::bumpPlayer - 0x2124f0
+GJBaseGameLayer::calculateColorGroups - 0x208d80
 GJBaseGameLayer::canBeActivatedByPlayer - 0x2123e0
 GJBaseGameLayer::canProcessSFX - 0x23cc10
 GJBaseGameLayer::checkCameraLimitAfterTeleport - 0x2340b0
+GJBaseGameLayer::checkCollision - 0x213bb0
 GJBaseGameLayer::checkCollisionBlocks - 0x2139e0
 GJBaseGameLayer::checkCollisions - 0x20e330
 GJBaseGameLayer::checkRepellPlayer - 0x233de0
@@ -2075,6 +2084,9 @@ GJBaseGameLayer::checkSpawnObjects - 0x215410
 GJBaseGameLayer::claimMoveAction - 0x228900
 GJBaseGameLayer::claimRotationAction - 0x2286c0
 GJBaseGameLayer::collisionCheckObjects - 0x20f480
+GJBaseGameLayer::controlAreaEffect - 0x222710
+GJBaseGameLayer::controlAreaEffectWithID - 0x222510
+GJBaseGameLayer::controlEventLink - 0x22cc30
 GJBaseGameLayer::controlTriggersInGroup - 0x218de0
 GJBaseGameLayer::controlTriggersWithControlID - 0x219370
 GJBaseGameLayer::convertToClosestDirection - 0x2295d0
@@ -2103,6 +2115,8 @@ GJBaseGameLayer::getMaxPortalY - 0x20e2b0
 GJBaseGameLayer::getMinDistance - 0x23c430
 GJBaseGameLayer::getMinPortalY - 0x20e1d0
 GJBaseGameLayer::getModifiedDelta - 0x232060
+GJBaseGameLayer::getParticleKey - 0x239e30
+GJBaseGameLayer::getParticleKey2 - 0x239fb0
 GJBaseGameLayer::getSavedPosition - 0x213dc0
 GJBaseGameLayer::groupStickyObjects - 0x21f7b0
 GJBaseGameLayer::handleButton - 0x22e190
@@ -2189,6 +2203,7 @@ GJBaseGameLayer::spawnParticle - 0x239d50
 GJBaseGameLayer::spawnParticleTrigger - 0x239920
 GJBaseGameLayer::speedForShaderTarget - 0x21e250
 GJBaseGameLayer::staticObjectsInRect - 0x20bda0
+GJBaseGameLayer::stopCustomEnterEffect - 0x209430
 GJBaseGameLayer::switchToRobotMode - 0x20d760
 GJBaseGameLayer::switchToRollMode - 0x20d940
 GJBaseGameLayer::switchToSpiderMode - 0x20d850
@@ -2227,6 +2242,7 @@ GJBaseGameLayer::updateLayerCapacity - 0x2079c0
 GJBaseGameLayer::updateLevelColors - 0x207150
 GJBaseGameLayer::updateMaxGameplayY - 0x234930
 GJBaseGameLayer::updateMGOffsetY - 0x230950
+GJBaseGameLayer::updateParticles - 0x23adb0
 GJBaseGameLayer::updatePlatformerTime - 0x233bd0
 GJBaseGameLayer::updatePlayerCollisionBlocks - 0x2130c0
 GJBaseGameLayer::updateProximityVolumeEffects - 0x23bd90
@@ -3403,6 +3419,7 @@ MultilineBitmapFont::readColorInfo - 0x6c7d0
 MultilineBitmapFont::stringWithMaxWidth - 0x6d130
 MultiTriggerPopup::create - 0x450f80
 MultiTriggerPopup::init - 0x451090
+MusicArtistObject::create - 0x331da0
 MusicBrowser::create - 0x323840
 MusicBrowser::update - 0x3245b0
 MusicBrowser::registerWithTouchDispatcher - 0x425d0
@@ -3966,6 +3983,8 @@ SetTextPopup::init - 0x295940
 SetTextPopup::onCancel - 0x296370
 SetTextPopup::onClose - 0x296400
 SetTextPopup::onResetValue - 0x296220
+SearchSFXPopup::init - 0x468840
+SearchSFXPopup::onSearchFolders - 0x468b00
 SecretLayer::init - 0x3c5700
 SecretLayer::keyBackClicked - 0x3cabb0
 SecretLayer::textInputOpened - 0x3c84b0
@@ -4896,6 +4915,7 @@ SongInfoObject::create - 0x3300c0
 SongInfoObject::create - 0x32ef70
 SongInfoObject::encodeWithCoder - 0x3309a0
 SongInfoObject::createWithCoder - 0x330690
+SongInfoObject::getTagsString - 0x331140
 SongInfoObject::init - 0x3302f0
 SongOptionsLayer::keyBackClicked - 0xc4920
 SongOptionsLayer::init - 0xc3880

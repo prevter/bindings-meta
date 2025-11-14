@@ -4452,6 +4452,7 @@ GJBaseGameLayer::addGuideArt - 0x125938
 GJBaseGameLayer::addRemapTargets - 0xe7178
 GJBaseGameLayer::addToGroupParents - 0x108628
 GJBaseGameLayer::addToGroups - 0x107cdc
+GJBaseGameLayer::addToObjectsToShow - 0x118b7c
 GJBaseGameLayer::animateInDualGroundNew - 0xf3ca8
 GJBaseGameLayer::animateOutGroundNew - 0xf3f2c
 GJBaseGameLayer::applyLevelSettings - 0x11da0c
@@ -6631,6 +6632,7 @@ PlayLayer::fullReset - 0xad514
 PlayLayer::getCurrentPercent - 0xa9848
 PlayLayer::getCurrentPercentInt - 0xa9f18
 PlayLayer::getEndPosition - 0xa4004
+PlayLayer::getRelativeMod - 0xa93f4
 PlayLayer::incrementJumps - 0xadbcc
 PlayLayer::init - 0x9cd6c
 PlayLayer::levelComplete - 0xa406c
@@ -6659,6 +6661,7 @@ PlayLayer::resume - 0xadf54
 PlayLayer::resumeAndRestart - 0xaddbc
 PlayLayer::scanActiveSaveObjects - 0xa0398
 PlayLayer::scanDynamicSaveObjects - 0x9f780
+PlayLayer::screenFlipObject - 0xa9178
 PlayLayer::setupHasCompleted - 0x9e66c
 PlayLayer::showCompleteEffect - 0xa4af4
 PlayLayer::showCompleteText - 0xa4ecc
@@ -7864,6 +7867,7 @@ SupportLayer::onRobTop - 0x317178
 SupportLayer::onSFX - 0x316714
 SupportLayer::onTOS - 0x3166f0
 SupportLayer::sendSupportMail - 0x317494
+TableView::TableView - 0x536d4c
 TableView::~TableView - 0x536e74
 TableView::create - 0x536c94
 TableView::onEnter - 0x537ea4

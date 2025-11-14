@@ -2775,6 +2775,7 @@ DrawGridLayer::loadTimeMarkers - 0x358dbc
 DrawGridLayer::timeForPos - 0x360104
 DungeonBarsSprite::init - 0x3119ac
 DungeonBarsSprite::visit - 0x311a2c
+DynamicBitset::resize - 0x126dd8
 EditButtonBar::create - 0x418b98
 EditButtonBar::getPage - 0x419350
 EditButtonBar::goToPage - 0x41935c
@@ -2808,6 +2809,7 @@ EditLevelLayer::playStep2 - 0xef04c
 EditLevelLayer::playStep3 - 0xef110
 GJOptionsLayer::setupOptions - 0x2d3b84
 GJOptionsLayer::addToggle - 0x2d3c4c
+GJOptionsLayer::init - 0x2d3610
 EditorOptionsLayer::init - 0x2d46d8
 EditorOptionsLayer::onClose - 0x2d50d0
 EditorOptionsLayer::setupOptions - 0x2d46f4
@@ -4142,6 +4144,7 @@ GJBaseGameLayer::updateStaticCameraPosToGroup - 0x205ea4
 GJBaseGameLayer::updateTimeMod - 0x1e7bf4
 GJBaseGameLayer::updateTimerLabels - 0x1fe480
 GJBaseGameLayer::updateZoom - 0x1fef38
+GJBaseGameLayer::visitWithColorFlash - 0x20b260
 GJChestSprite::setOpacity - 0x1c8f68
 GJChestSprite::setColor - 0x1c8e98
 GJChestSprite::switchToState - 0x1c7a00
@@ -5798,6 +5801,7 @@ PlayLayer::resume - 0x125de8
 PlayLayer::resumeAndRestart - 0x125cc0
 PlayLayer::scanActiveSaveObjects - 0x11aef4
 PlayLayer::scanDynamicSaveObjects - 0x11a878
+PlayLayer::screenFlipObject - 0x1219f0
 PlayLayer::setupHasCompleted - 0x119a3c
 PlayLayer::showCompleteEffect - 0x11e048
 PlayLayer::showCompleteText - 0x11e3a0
@@ -6763,6 +6767,7 @@ SupportLayer::uploadActionFinished - 0x1964b8
 SupportLayer::uploadActionFailed - 0x1965a0
 SupportLayer::onClosePopup - 0x196468
 SupportLayer::FLAlert_Clicked - 0x1967b4
+TableView::TableView - 0x2701c
 TableView::~TableView - 0x2feb48
 TableView::create - 0x2fe96c
 TableView::onEnter - 0x2ff6c4
