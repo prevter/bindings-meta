@@ -2573,8 +2573,8 @@ CollisionBlockPopup::init - 0x21ec48
 CollisionBlockPopup::onClose - 0x21f6a4
 CollisionBlockPopup::onItemIDArrow - 0x21f87c
 ColorAction::create - 0x268edc
-ColorAction::loadFromState - 0x2693fc
-ColorAction::saveToState - 0x269224
+ColorAction::loadFromState - 0x269488
+ColorAction::saveToState - 0x2693fc
 ColorAction::setupFromString - 0x26b258
 ColorActionSprite::init - 0x268d18
 ColorChannelSprite::create - 0x2685c0
