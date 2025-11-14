@@ -2224,6 +2224,7 @@ CCScrollLayerExt::ccTouchCancelled - 0x301760
 CCScrollLayerExt::registerWithTouchDispatcher - 0x3013f0
 CCScrollLayerExt::preVisitWithClippingRect - 0x301ae0
 CCScrollLayerExt::postVisit - 0x301b74
+CCScrollLayerExt::getMaxY - 0x300fa4
 CCScrollLayerExt::moveToTop - 0x301054
 CCScrollLayerExt::moveToTopWithOffset - 0x300fac
 CCScrollLayerExt::scrollLayer - 0x301924
