@@ -2120,6 +2120,7 @@ ButtonSprite::create - 0x62f8c
 ButtonSprite::create - 0x62878
 ButtonSprite::create - 0x62f74
 ButtonSprite::init - 0x63060
+ButtonSprite::setColor - 0x63784
 ButtonSprite::setString - 0x632ac
 ButtonSprite::updateBGImage - 0x6364c
 ButtonSprite::updateSpriteOffset - 0x6375c
@@ -2360,6 +2361,8 @@ CollisionBlockPopup::init - 0x88cd0
 CollisionBlockPopup::onClose - 0x8967c
 CollisionBlockPopup::onItemIDArrow - 0x89734
 ColorAction::create - 0x10ea4
+ColorAction::loadFromState - 0x11154
+ColorAction::saveToState - 0x110c8
 ColorAction::setupFromString - 0x1196c
 ColorActionSprite::init - 0x10d8c
 ColorChannelSprite::create - 0x106c8
@@ -4011,6 +4014,7 @@ GJBaseGameLayer::generateVisibilityGroups - 0x1e306c
 GJBaseGameLayer::getBumpMod - 0x1ec028
 GJBaseGameLayer::getCameraEdgeValue - 0x1ff2e4
 GJBaseGameLayer::getGroup - 0x1e39cc
+GJBaseGameLayer::getGroupParent - 0x1f41fc
 GJBaseGameLayer::getMaxPortalY - 0x1e8750
 GJBaseGameLayer::getMinDistance - 0x207a48
 GJBaseGameLayer::getMinPortalY - 0x1e8680
@@ -4021,11 +4025,13 @@ GJBaseGameLayer::gravBumpPlayer - 0x1eac54
 GJBaseGameLayer::handleButton - 0x1fcb90
 GJBaseGameLayer::hasUniqueCoin - 0x1eb0e8
 GJBaseGameLayer::increaseBatchNodeCapacity - 0x1df834
+GJBaseGameLayer::isFlipping - 0x203690
 GJBaseGameLayer::lightningFlash - 0x1e5a24
 GJBaseGameLayer::loadGroupParentsFromString - 0x1f47a8
 GJBaseGameLayer::loadLevelSettings - 0x203d78
 GJBaseGameLayer::loadStartPosObject - 0x1feaec
 GJBaseGameLayer::moveObjects - 0x1fb324
+GJBaseGameLayer::moveObjectsSilent - 0x1f0684
 GJBaseGameLayer::moveObjectToStaticGroup - 0x1fc900
 GJBaseGameLayer::objectTypeToGameEvent - 0x1e804c
 GJBaseGameLayer::optimizeMoveGroups - 0x1e109c
@@ -5602,6 +5608,7 @@ PlayerObject::didHitHead - 0x2252b8
 PlayerObject::disablePlayerControls - 0x22d13c
 PlayerObject::disableSwingFire - 0x2286b8
 PlayerObject::doReversePlayer - 0x21dd68
+PlayerObject::enableCustomGlowColor - 0x22ca74
 PlayerObject::enablePlayerControls - 0x22d198
 PlayerObject::exitPlatformerAnimateJump - 0x21de6c
 PlayerObject::fadeOutStreak2 - 0x22861c
@@ -5673,6 +5680,7 @@ PlayerObject::toggleBirdMode - 0x22a6e8
 PlayerObject::toggleDartMode - 0x22b254
 PlayerObject::toggleFlyMode - 0x229f4c
 PlayerObject::toggleGhostEffect - 0x227ec0
+PlayerObject::togglePlatformerMode - 0x21a03c
 PlayerObject::togglePlayerScale - 0x227b9c
 PlayerObject::toggleRobotMode - 0x22b984
 PlayerObject::toggleRollMode - 0x22b698
@@ -5751,6 +5759,7 @@ PlayLayer::toggleMusicInPractice - 0x122368
 PlayLayer::currencyWillExit - 0x122f34
 PlayLayer::circleWaveWillBeRemoved - 0x122f94
 PlayLayer::dialogClosed - 0x122f60
+PlayLayer::addCircle - 0x122f8c
 PlayLayer::addObject - 0x11bef8
 PlayLayer::applyCustomEnterEffect - 0x120d98
 PlayLayer::applyEnterEffect - 0x121518
@@ -5780,6 +5789,7 @@ PlayLayer::prepareCreateObjectsFromSetup - 0x119218
 PlayLayer::prepareMusic - 0x11d2f4
 PlayLayer::processCreateObjectsFromSetup - 0x119504
 PlayLayer::processLoadedMoveActions - 0x12004c
+PlayLayer::queueCheckpoint - 0x124b40
 PlayLayer::removeAllObjects - 0x11d5a4
 PlayLayer::removeCheckpoint - 0x124a64
 PlayLayer::resetLevel - 0x11ca00
@@ -6613,12 +6623,17 @@ SimplePlayer::setOpacity - 0x307a98
 SimplePlayer::setColor - 0x307734
 SimplePlayer::createRobotSprite - 0x303500
 SimplePlayer::createSpiderSprite - 0x303560
+SimplePlayer::disableCustomGlowColor - 0x306728
+SimplePlayer::enableCustomGlowColor - 0x306708
 SimplePlayer::init - 0x307278
 SimplePlayer::setFrames - 0x307878
+SimplePlayer::setSecondColor - 0x307794
 SimplePlayer::updateColors - 0x3062ec
 SimplePlayer::updatePlayerFrame - 0x303714
 SliderThumb::create - 0x2ee934
 SliderThumb::getValue - 0x2eea84
+SliderThumb::setMaxOffset - 0x2eec14
+SliderThumb::setRotated - 0x2eea18
 SliderThumb::setValue - 0x2eeb08
 SliderTouchLogic::create - 0x2eec80
 SliderTouchLogic::ccTouchBegan - 0x2eeeb0
@@ -6634,8 +6649,16 @@ Slider::ccTouchMoved - 0x2ef65c
 Slider::ccTouchEnded - 0x2ef63c
 Slider::disableSlider - 0x2ef448
 Slider::enableSlider - 0x2ef530
+Slider::getLiveDragging - 0x2ef610
+Slider::getThumb - 0x2ef5e8
+Slider::getValue - 0x2ef5f4
+Slider::hideGroove - 0x2ef714
 Slider::init - 0x2ef29c
+Slider::setBarVisibility - 0x2ef600
+Slider::setMaxOffset - 0x2ef6cc
+Slider::setRotated - 0x2ef67c
 Slider::setValue - 0x2ef504
+Slider::updateBar - 0x2ef094
 SmartGameObject::create - 0x379590
 SmartGameObject::customObjectSetup - 0x379920
 SmartGameObject::getSaveString - 0x37978c

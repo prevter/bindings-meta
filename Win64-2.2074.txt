@@ -4871,7 +4871,10 @@ Slider::ccTouchBegan - 0x71d10
 Slider::ccTouchMoved - 0x71d50
 Slider::ccTouchEnded - 0x71d30
 Slider::init - 0x71850
+Slider::setMaxOffset - 0x71e10
+Slider::setRotated - 0x71d70
 Slider::setValue - 0x71c00
+Slider::updateBar - 0x71c90
 SmartGameObject::customObjectSetup - 0x4873d0
 SmartGameObject::getSaveString - 0x487260
 SmartGameObject::updateSmartFrame - 0x487070

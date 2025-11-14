@@ -1686,12 +1686,16 @@ AccountLayer::accountStatusChanged - 0xcda00
 AccountLayer::FLAlert_Clicked - 0xce400
 AccountLayer::doBackup - 0xcd8a0
 AccountLayer::doSync - 0xcd970
+AccountLayer::exitLayer - 0xcd9f0
+AccountLayer::hideLoadingUI - 0xcdb80
 AccountLayer::onBackup - 0xccbf0
 AccountLayer::onHelp - 0xcd130
 AccountLayer::onLogin - 0xccb40
 AccountLayer::onMore - 0xcd1f0
 AccountLayer::onRegister - 0xccbd0
 AccountLayer::onSync - 0xccf40
+AccountLayer::showLoadingUI - 0xcd920
+AccountLayer::toggleUI - 0xce3c0
 AccountLayer::updatePage - 0xcd210
 FLAlertLayer::~FLAlertLayer - 0x487cb0
 FLAlertLayer::create - 0x4880e0
@@ -2268,6 +2272,7 @@ ButtonSprite::create - 0x92640
 ButtonSprite::create - 0x91db0
 ButtonSprite::init - 0x92790
 ButtonSprite::init - 0x91f00
+ButtonSprite::setColor - 0x92f70
 ButtonSprite::setString - 0x92a40
 ButtonSprite::updateBGImage - 0x92e20
 ButtonSprite::updateSpriteBGSize - 0x92190
@@ -2362,6 +2367,7 @@ CCMenuItemToggler::normalTouch - 0x59f80
 CCMenuItemToggler::selectedTouch - 0x5a050
 CCMenuItemToggler::setSizeMult - 0x5a1f0
 CCMenuItemToggler::toggle - 0x5a120
+CCMoveCNode::init - 0x2dae70
 CCNodeContainer::create - 0x102b20
 CCNodeContainer::init - 0x154510
 CCNodeContainer::visit - 0x154520
@@ -2566,6 +2572,8 @@ CollisionBlockPopup::init - 0x273e80
 CollisionBlockPopup::onClose - 0x274950
 CollisionBlockPopup::onItemIDArrow - 0x274b60
 ColorAction::create - 0x2c5030
+ColorAction::loadFromState - 0x2c55f0
+ColorAction::saveToState - 0x2c5420
 ColorAction::setupFromString - 0x2c7390
 ColorActionSprite::init - 0x2c4e30
 ColorChannelSprite::create - 0x2c46d0
@@ -2579,6 +2587,8 @@ ColorSelectLiveOverlay::keyBackClicked - 0x553950
 ColorSelectLiveOverlay::show - 0x553a00
 ColorSelectLiveOverlay::closeColorSelect - 0x553090
 ColorSelectLiveOverlay::init - 0x551e20
+ColorSelectLiveOverlay::textChanged - 0x553a70
+ColorSelectLiveOverlay::textInputClosed - 0x553a80
 SetupTriggerPopup::~SetupTriggerPopup - 0x222a30
 SetupTriggerPopup::ccTouchBegan - 0x22e3e0
 SetupTriggerPopup::keyBackClicked - 0x227290
@@ -2620,6 +2630,7 @@ SetupTriggerPopup::onPage - 0x223570
 SetupTriggerPopup::onToggleTriggerValue - 0x228f60
 SetupTriggerPopup::postSetup - 0x2298f0
 SetupTriggerPopup::preSetup - 0x2298d0
+SetupTriggerPopup::triggerArrowChanged - 0x227840
 SetupTriggerPopup::triggerArrowLeft - 0x2277b0
 SetupTriggerPopup::triggerArrowRight - 0x2278c0
 SetupTriggerPopup::triggerSliderChanged - 0x227610
@@ -2877,6 +2888,7 @@ CustomSFXWidget::onDownload - 0x5cb6f0
 CustomSFXWidget::onPlayback - 0x5cb9a0
 CustomSFXWidget::onSelect - 0x5cb970
 CustomSFXWidget::updateError - 0x5ccaa0
+CustomSFXWidget::updatePlaybackBtn - 0x5cc3e0
 CustomSFXWidget::updateSFXInfo - 0x5cbcc0
 CustomSongLayer::create - 0x202fb0
 CustomSongLayer::keyBackClicked - 0x2048b0
@@ -3304,8 +3316,10 @@ EditorUI::undoLastAction - 0xc6e0
 EditorUI::updateButtons - 0x2cdd0
 EditorUI::updateCreateMenu - 0x2e710
 EditorUI::updateDeleteButtons - 0x325d0
+EditorUI::updateDeleteMenu - 0x2d910
 EditorUI::updateEditButtonColor - 0x3f120
 EditorUI::updateEditColorButton - 0x497f0
+EditorUI::updateEditMenu - 0x2ed00
 EditorUI::updateGridNodeSize - 0x2f620
 EditorUI::updateGroupIDLabel - 0x2ccd0
 EditorUI::updateObjectInfoLabel - 0x2f870
@@ -4444,6 +4458,8 @@ GJBaseGameLayer::applyLevelSettings - 0x147ac0
 GJBaseGameLayer::applyShake - 0x14a4a0
 GJBaseGameLayer::assignNewStickyGroups - 0x12dd80
 GJBaseGameLayer::bumpPlayer - 0x117ce0
+GJBaseGameLayer::cameraMoveX - 0x14aff0
+GJBaseGameLayer::cameraMoveY - 0x14b0a0
 GJBaseGameLayer::canBeActivatedByPlayer - 0x117880
 GJBaseGameLayer::canProcessSFX - 0x14e7d0
 GJBaseGameLayer::checkCameraLimitAfterTeleport - 0x110df0
@@ -4474,6 +4490,7 @@ GJBaseGameLayer::getBumpMod - 0x119a80
 GJBaseGameLayer::getCameraEdgeValue - 0x13f630
 GJBaseGameLayer::getGroundHeightForMode - 0x112730
 GJBaseGameLayer::getGroup - 0x10d760
+GJBaseGameLayer::getGroupParent - 0x12d010
 GJBaseGameLayer::getMaxPortalY - 0x114f30
 GJBaseGameLayer::getMinDistance - 0x14def0
 GJBaseGameLayer::getMinPortalY - 0x114e50
@@ -4485,11 +4502,14 @@ GJBaseGameLayer::gravBumpPlayer - 0x117ef0
 GJBaseGameLayer::handleButton - 0x13afc0
 GJBaseGameLayer::hasUniqueCoin - 0x118460
 GJBaseGameLayer::increaseBatchNodeCapacity - 0x104150
+GJBaseGameLayer::isFlipping - 0x146680
 GJBaseGameLayer::lightningFlash - 0x110c50
 GJBaseGameLayer::loadGroupParentsFromString - 0x12d9a0
 GJBaseGameLayer::loadLevelSettings - 0x147920
 GJBaseGameLayer::loadStartPosObject - 0x13e9f0
+GJBaseGameLayer::moveCameraToPos - 0x14ae90
 GJBaseGameLayer::moveObjects - 0x137c20
+GJBaseGameLayer::moveObjectsSilent - 0x127c60
 GJBaseGameLayer::moveObjectToStaticGroup - 0x13ac40
 GJBaseGameLayer::objectTypeToGameEvent - 0x1144d0
 GJBaseGameLayer::optimizeMoveGroups - 0x106b60
@@ -5235,6 +5255,7 @@ GJTransformControl::applyRotation - 0x41470
 GJTransformControl::onToggleLockScale - 0x537b0
 GJTransformControl::refreshControl - 0x4ab90
 GJTransformControl::scaleButtons - 0x3e380
+GJTransformControl::spriteByTag - 0x53810
 GJTransformControl::updateButtons - 0x4b1b0
 GJUINode::create - 0x4b5100
 GJUINode::draw - 0x4b8390
@@ -5340,6 +5361,7 @@ InfoLayer::commentUploadFailed - 0x79da40
 InfoLayer::updateUserScoreFinished - 0x79d750
 InfoLayer::FLAlert_Clicked - 0x79cb10
 InfoLayer::confirmReport - 0x79b630
+InfoLayer::getID - 0x79b8c0
 InfoLayer::getSpriteButton - 0x79b9d0
 InfoLayer::init - 0x798e00
 InfoLayer::loadPage - 0x79bd10
@@ -5982,6 +6004,7 @@ MenuLayer::onAchievements - 0x37e370
 MenuLayer::onCreator - 0x37e2e0
 MenuLayer::onDaily - 0x37e8b0
 MenuLayer::onDiscord - 0x37e5a0
+MenuLayer::onEveryplay - 0x37ec40
 MenuLayer::onFacebook - 0x37e520
 MenuLayer::onGarage - 0x37e250
 MenuLayer::onGooglePlayGames - 0x37eb00
@@ -6000,6 +6023,7 @@ MenuLayer::onTwitter - 0x37e540
 MenuLayer::onYouTube - 0x37e560
 MenuLayer::openOptions - 0x37ec50
 MenuLayer::showGCQuestion - 0x37e9f0
+MenuLayer::showMeltdownPromo - 0x37e930
 MenuLayer::showTOS - 0x37e8d0
 MenuLayer::tryShowAd - 0x37e940
 MenuLayer::updateUserProfileButton - 0x37e770
@@ -6424,14 +6448,17 @@ PlayerObject::deactivateParticle - 0x3efb60
 PlayerObject::deactivateStreak - 0x3eb090
 PlayerObject::destroyFromHitHead - 0x407b10
 PlayerObject::didHitHead - 0x3fbb50
+PlayerObject::disableCustomGlowColor - 0x408890
 PlayerObject::disablePlayerControls - 0x409140
 PlayerObject::disableSwingFire - 0x402500
 PlayerObject::doReversePlayer - 0x3f0850
+PlayerObject::enableCustomGlowColor - 0x408860
 PlayerObject::enablePlayerControls - 0x4091a0
 PlayerObject::exitPlatformerAnimateJump - 0x3f09f0
 PlayerObject::fadeOutStreak2 - 0x402470
 PlayerObject::flashPlayer - 0x3fd3f0
 PlayerObject::flipGravity - 0x3f1c30
+PlayerObject::flipMod - 0x3efae0
 PlayerObject::gameEventTriggered - 0x3f1ff0
 PlayerObject::getActiveMode - 0x404b10
 PlayerObject::getYVelocity - 0x3eb1f0
@@ -6477,6 +6504,7 @@ PlayerObject::resetCollisionLog - 0x3f2900
 PlayerObject::resetPlayerIcon - 0x405460
 PlayerObject::resetStreak - 0x3f16d0
 PlayerObject::resetTouchedRings - 0x4010d0
+PlayerObject::reverseMod - 0x3f27c0
 PlayerObject::reversePlayer - 0x4041e0
 PlayerObject::ringJump - 0x402c50
 PlayerObject::rotateGameplay - 0x400c30
@@ -6509,6 +6537,7 @@ PlayerObject::toggleBirdMode - 0x405680
 PlayerObject::toggleDartMode - 0x406780
 PlayerObject::toggleFlyMode - 0x404b70
 PlayerObject::toggleGhostEffect - 0x401a30
+PlayerObject::togglePlatformerMode - 0x3eaec0
 PlayerObject::togglePlayerScale - 0x401590
 PlayerObject::toggleRobotMode - 0x407240
 PlayerObject::toggleRollMode - 0x406e60
@@ -6589,6 +6618,7 @@ PlayLayer::toggleMusicInPractice - 0xba6b0
 PlayLayer::currencyWillExit - 0xbb5b0
 PlayLayer::circleWaveWillBeRemoved - 0xbb650
 PlayLayer::dialogClosed - 0xbb5f0
+PlayLayer::addCircle - 0xbb630
 PlayLayer::addObject - 0xb2190
 PlayLayer::applyCustomEnterEffect - 0xb8c90
 PlayLayer::applyEnterEffect - 0xb9650
@@ -6620,6 +6650,7 @@ PlayLayer::prepareCreateObjectsFromSetup - 0xacca0
 PlayLayer::prepareMusic - 0xb3ae0
 PlayLayer::processCreateObjectsFromSetup - 0xad090
 PlayLayer::processLoadedMoveActions - 0xb7920
+PlayLayer::queueCheckpoint - 0xbe0c0
 PlayLayer::removeAllObjects - 0xb3dd0
 PlayLayer::removeCheckpoint - 0xbdfd0
 PlayLayer::resetLevel - 0xb2f80
@@ -7636,12 +7667,15 @@ SimplePlayer::setColor - 0x35d330
 SimplePlayer::asyncLoadIcon - 0x35d120
 SimplePlayer::createRobotSprite - 0x3576c0
 SimplePlayer::createSpiderSprite - 0x357720
+SimplePlayer::disableCustomGlowColor - 0x35b7e0
+SimplePlayer::enableCustomGlowColor - 0x35b7b0
 SimplePlayer::hideAll - 0x35d230
 SimplePlayer::hideSecondary - 0x35d3c0
 SimplePlayer::iconFinishedLoading - 0x35d2e0
 SimplePlayer::init - 0x35ca00
 SimplePlayer::setColors - 0x35b770
 SimplePlayer::setFrames - 0x35d470
+SimplePlayer::setSecondColor - 0x35d390
 SimplePlayer::updateColors - 0x35b230
 SimplePlayer::updatePlayerFrame - 0x3578d0
 SlideInLayer::init - 0x27c670
@@ -7665,6 +7699,8 @@ SlideInLayer::enableUI - 0x27ca50
 SliderThumb::create - 0x2ef2e0
 SliderThumb::getValue - 0x2ef4f0
 SliderThumb::init - 0x2ef3d0
+SliderThumb::setMaxOffset - 0x2ef6d0
+SliderThumb::setRotated - 0x2ef410
 SliderThumb::setValue - 0x2ef590
 SliderTouchLogic::create - 0x2ef7b0
 SliderTouchLogic::ccTouchBegan - 0x2efc70
@@ -7672,6 +7708,8 @@ SliderTouchLogic::ccTouchMoved - 0x2efea0
 SliderTouchLogic::ccTouchEnded - 0x2efde0
 SliderTouchLogic::registerWithTouchDispatcher - 0x2f01a0
 SliderTouchLogic::init - 0x2ef8f0
+SliderTouchLogic::setMaxOffset - 0x2efa80
+SliderTouchLogic::setRotated - 0x2efb80
 Slider::create - 0x2f0420
 Slider::create - 0x2f01e0
 Slider::create - 0x2f0300
@@ -7680,8 +7718,17 @@ Slider::ccTouchMoved - 0x2f0c00
 Slider::ccTouchEnded - 0x2f0bc0
 Slider::disableSlider - 0x2f06f0
 Slider::enableSlider - 0x2f0990
+Slider::getLiveDragging - 0x2f0b40
+Slider::getThumb - 0x2f0a50
+Slider::getValue - 0x2f0a70
+Slider::hideGroove - 0x2f0e70
 Slider::init - 0x2f0540
+Slider::setBarVisibility - 0x2f0b20
+Slider::setLiveDragging - 0x2f0b60
+Slider::setMaxOffset - 0x2f0d60
+Slider::setRotated - 0x2f0c40
 Slider::setValue - 0x2f0880
+Slider::updateBar - 0x2f0090
 SmartGameObject::create - 0x19fd60
 SmartGameObject::customObjectSetup - 0x1a0680
 SmartGameObject::getSaveString - 0x1a00c0
