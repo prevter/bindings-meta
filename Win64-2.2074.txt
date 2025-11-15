@@ -1152,6 +1152,7 @@ EditorPauseLayer::playStep2 - 0xdca20
 EditorPauseLayer::playStep3 - 0xdcb50
 EditorPauseLayer::saveLevel - 0xdc310
 EditorPauseLayer::toggleDebugDraw - 0xdbdd0
+EditorPauseLayer::toggleEditorColorMode - 0xdbab0
 EditorPauseLayer::toggleEditorGrid - 0xdbee0
 EditorPauseLayer::toggleEditorGround - 0xdbe20
 EditorPauseLayer::toggleHideInvisible - 0xdbb10
