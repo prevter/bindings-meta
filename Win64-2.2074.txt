@@ -3246,6 +3246,7 @@ LevelTools::getAudioFileName - 0x313750
 LevelTools::getAudioString - 0x316950
 LevelTools::getAudioTitle - 0x312bd0
 LevelTools::getLevel - 0x310320
+LevelTools::moveTriggerObjectsToArray - 0x318720
 LevelTools::nameForArtist - 0x3143f0
 LevelTools::ngURLForArtist - 0x315a10
 LevelTools::posForTimeInternal - 0x317ea0
