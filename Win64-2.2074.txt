@@ -58,6 +58,7 @@ AccountLayer::onMore - 0x7e700
 AccountLayer::onRegister - 0x7de50
 AccountLayer::onSync - 0x7e360
 AccountLayer::updatePage - 0x7e760
+FLAlertLayer::FLAlertLayer - 0x516b0
 FLAlertLayer::~FLAlertLayer - 0x517e0
 FLAlertLayer::create - 0x51940
 FLAlertLayer::create - 0x51890
@@ -3989,6 +3990,8 @@ ScrollingLayer::ccTouchCancelled - 0x71210
 ScrollingLayer::getViewRect - 0x70df0
 SearchButton::create - 0x2fdcd0
 SearchButton::init - 0x2fdda0
+SetTextPopup::SetTextPopup - 0x286370
+SetTextPopup::~SetTextPopup - 0x295720
 SetTextPopup::create - 0x2957d0
 SetTextPopup::keyBackClicked - 0x296490
 SetTextPopup::show - 0x8ba30
