@@ -4977,9 +4977,9 @@ SpecialAnimGameObject::getSaveString - 0x489400
 SpecialAnimGameObject::updateMainColor - 0x489340
 SpecialAnimGameObject::updateSecondaryColor - 0x489360
 SpecialAnimGameObject::updateSyncedAnimation - 0x1a69c0
+SpriteAnimationManager::createAnimations - 0x72fa0
 SpriteAnimationManager::animationFinished - 0x745f0
 SpriteAnimationManager::callAnimationFinished - 0x74640
-SpriteAnimationManager::createAnimations - 0x72fa0
 SpriteAnimationManager::executeAnimation - 0x73f30
 SpriteAnimationManager::getPrio - 0x74720
 SpriteAnimationManager::initWithOwner - 0x72360
