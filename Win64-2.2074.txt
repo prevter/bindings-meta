@@ -22,6 +22,8 @@ cocos2d::CCDisplayLinkDirector::setAnimationInterval - 0xbcf10
 cocos2d::CCDisplayLinkDirector::stopAnimation - 0xbda50
 cocos2d::CCDisplayLinkDirector::startAnimation - 0xbda10
 cocos2d::CCDisplayLinkDirector::mainLoop - 0xbc600
+GJDropDownLayer::GJDropDownLayer - 0x7d1e0
+GJDropDownLayer::~GJDropDownLayer - 0x24fe00
 GJDropDownLayer::draw - 0x426f0
 GJDropDownLayer::registerWithTouchDispatcher - 0x425d0
 GJDropDownLayer::keyBackClicked - 0x250330
@@ -3563,6 +3565,7 @@ OptionsLayer::layerHidden - 0x35d840
 OptionsLayer::musicSliderChanged - 0x35cc70
 OptionsLayer::onAccount - 0x35d760
 OptionsLayer::onHelp - 0x35d710
+OptionsLayer::onMenuMusic - 0x35cb60
 OptionsLayer::onOptions - 0x35ce50
 OptionsLayer::onRate - 0x35d7b0
 OptionsLayer::onSecretVault - 0x35cfb0

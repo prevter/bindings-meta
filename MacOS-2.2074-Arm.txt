@@ -1643,6 +1643,7 @@ cocos2d::CCJumpBy::reverse - 0x332af0
 cocos2d::CCJumpTo::create - 0x332b48
 cocos2d::CCJumpTo::copyWithZone - 0x332c44
 cocos2d::CCJumpTo::startWithTarget - 0x332d94
+GJDropDownLayer::~GJDropDownLayer - 0x503ba8
 GJDropDownLayer::create - 0x503e08
 GJDropDownLayer::create - 0x50432c
 GJDropDownLayer::draw - 0x5046c0
@@ -1670,6 +1671,8 @@ AccountHelpLayer::customSetup - 0xb77d4
 AccountHelpLayer::layerHidden - 0xb844c
 AccountHelpLayer::accountStatusChanged - 0xb8300
 AccountHelpLayer::FLAlert_Clicked - 0xb830c
+AccountHelpLayer::doUnlink - 0xb82cc
+AccountHelpLayer::exitLayer - 0xb82f8
 AccountHelpLayer::onAccountManagement - 0xb7bf0
 AccountHelpLayer::onReLogin - 0xb7b80
 AccountHelpLayer::onUnlink - 0xb7cc4
@@ -1684,6 +1687,7 @@ AccountLayer::syncAccountFinished - 0xb6dd8
 AccountLayer::syncAccountFailed - 0xb6f40
 AccountLayer::accountStatusChanged - 0xb6874
 AccountLayer::FLAlert_Clicked - 0xb71cc
+AccountLayer::createToggleButton - 0xb6494
 AccountLayer::doBackup - 0xb6708
 AccountLayer::doSync - 0xb67e4
 AccountLayer::exitLayer - 0xb686c
@@ -1795,6 +1799,8 @@ AchievementsLayer::customSetup - 0x2f2c18
 AchievementsLayer::loadPage - 0x2f2ea8
 AchievementsLayer::onNextPage - 0x2f2e9c
 AchievementsLayer::onPrevPage - 0x2f2e90
+AchievementsLayer::setupLevelBrowser - 0x2f31dc
+AchievementsLayer::setupPageInfo - 0x2f3264
 CCSpritePlus::~CCSpritePlus - 0x3ddc34
 CCSpritePlus::createWithSpriteFrame - 0x3ddd1c
 CCSpritePlus::createWithSpriteFrameName - 0x3dddcc
@@ -5349,7 +5355,12 @@ GJSongBrowser::exitLayer - 0x519434
 GJSongBrowser::FLAlert_Clicked - 0x519990
 GJSongBrowser::cellPerformedAction - 0x519a4c
 GJSongBrowser::getSelectedCellIdx - 0x519aac
+GJSongBrowser::loadPage - 0x5191fc
 GJSongBrowser::onDeleteAll - 0x519790
+GJSongBrowser::onNextPage - 0x519784
+GJSongBrowser::onPrevPage - 0x519778
+GJSongBrowser::setupPageInfo - 0x5198f4
+GJSongBrowser::setupSongBrowser - 0x51986c
 GJSpecialColorSelect::create - 0x53a934
 GJSpecialColorSelect::textForColorIdx - 0x53c684
 GJSpecialColorSelect::keyBackClicked - 0x53c8cc
@@ -6447,10 +6458,16 @@ OptionsLayer::create - 0x698218
 OptionsLayer::customSetup - 0x6983b0
 OptionsLayer::layerHidden - 0x699714
 OptionsLayer::FLAlert_Clicked - 0x6997a0
+OptionsLayer::createToggleButton - 0x698e08
+OptionsLayer::exitLayer - 0x6993e8
 OptionsLayer::musicSliderChanged - 0x699300
 OptionsLayer::onAccount - 0x698d70
 OptionsLayer::onHelp - 0x698d80
+OptionsLayer::onMenuMusic - 0x6993b0
 OptionsLayer::onOptions - 0x698d9c
+OptionsLayer::onProgressBar - 0x699618
+OptionsLayer::onRate - 0x698dd4
+OptionsLayer::onRecordReplays - 0x699080
 OptionsLayer::onSecretVault - 0x6990b0
 OptionsLayer::onSoundtracks - 0x698de8
 OptionsLayer::onSupport - 0x698df8
@@ -6530,6 +6547,7 @@ PlatformToolbox::hideCursor - 0x419630
 PlatformToolbox::isControllerConnected - 0x41a254
 PlatformToolbox::platformShutdown - 0x41a1d4
 PlatformToolbox::reportAchievementWithID - 0x4195f8
+PlatformToolbox::sendMail - 0x41962c
 PlatformToolbox::showCursor - 0x419648
 PlatformToolbox::toggleLockCursor - 0x41a144
 PlatformToolbox::tryShowRateDialog - 0x419660
@@ -6920,6 +6938,8 @@ RateStarsLayer::onClose - 0x224850
 RateStarsLayer::onFeature - 0x224838
 RateStarsLayer::onRate - 0x2248ac
 RateStarsLayer::selectRating - 0x22466c
+RetryLevelLayer::~RetryLevelLayer - 0x4471c8
+RetryLevelLayer::create - 0x447070
 RetryLevelLayer::keyBackClicked - 0x4485ec
 RetryLevelLayer::keyDown - 0x448540
 RetryLevelLayer::customSetup - 0x4474c4
@@ -6927,8 +6947,11 @@ RetryLevelLayer::showLayer - 0x44805c
 RetryLevelLayer::enterAnimFinished - 0x44816c
 RetryLevelLayer::rewardedVideoFinished - 0x448530
 RetryLevelLayer::keyUp - 0x4485e4
+RetryLevelLayer::getEndText - 0x447ffc
+RetryLevelLayer::onEveryplay - 0x4481a4
 RetryLevelLayer::onMenu - 0x447f40
 RetryLevelLayer::onReplay - 0x447ef4
+RetryLevelLayer::onRewardedVideo - 0x4481a8
 RetryLevelLayer::setupLastProgress - 0x447b8c
 RewardsPage::~RewardsPage - 0x1bd0b4
 RewardsPage::create - 0x1bd3d0
@@ -8044,8 +8067,11 @@ SupportLayer::uploadActionFinished - 0x317218
 SupportLayer::uploadActionFailed - 0x31736c
 SupportLayer::onClosePopup - 0x3171c8
 SupportLayer::FLAlert_Clicked - 0x3176c4
+SupportLayer::createToggleButton - 0x316c70
+SupportLayer::exitLayer - 0x3171c0
 SupportLayer::onCocos2d - 0x31719c
 SupportLayer::onEmail - 0x316600
+SupportLayer::onGetReward - 0x3170c0
 SupportLayer::onLinks - 0x315d64
 SupportLayer::onLowDetail - 0x316f08
 SupportLayer::onPrivacy - 0x3166cc
@@ -8263,6 +8289,8 @@ URLCell::draw - 0x1f5e38
 URLCell::loadFromObject - 0x1e5cbc
 URLCell::onURL - 0x1f5dd4
 URLCell::updateBGColor - 0x1e5e94
+URLViewLayer::create - 0x249950
+URLViewLayer::init - 0x249af8
 VideoOptionsLayer::create - 0x699514
 VideoOptionsLayer::init - 0x69d004
 VideoOptionsLayer::keyBackClicked - 0x69eb08
