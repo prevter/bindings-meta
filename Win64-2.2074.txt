@@ -390,9 +390,12 @@ AudioAssetsBrowser::keyBackClicked - 0x84650
 AudioAssetsBrowser::musicActionFinished - 0x83cd0
 AudioAssetsBrowser::musicActionFailed - 0x83d50
 AudioAssetsBrowser::init - 0x83760
+AudioAssetsBrowser::onClose - 0x84620
 AudioAssetsBrowser::onInfo - 0x83f70
+AudioAssetsBrowser::setupList - 0x83d90
 AudioEffectsLayer::updateTweenAction - 0x84fb0
 AudioEffectsLayer::audioStep - 0x84d80
+AudioEffectsLayer::goingDown - 0x85120
 AudioEffectsLayer::init - 0x84b90
 AudioEffectsLayer::resetAudioVars - 0x84d20
 AudioLineGuideGameObject::init - 0x4a8900
