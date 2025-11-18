@@ -3091,6 +3091,8 @@ DailyLevelNode::FLAlert_Clicked - 0x2216d0
 DailyLevelNode::init - 0x2209a0
 DailyLevelNode::onClaimReward - 0x221400
 DailyLevelNode::onSkipLevel - 0x221500
+DailyLevelNode::showSkipButton - 0x21fd50
+DailyLevelNode::updateTimeLabel - 0x21fbe0
 DailyLevelPage::create - 0x21e2b0
 DailyLevelPage::registerWithTouchDispatcher - 0x220540
 DailyLevelPage::keyBackClicked - 0x2204b0
@@ -3110,7 +3112,9 @@ DailyLevelPage::getDailyTimeString - 0x21f120
 DailyLevelPage::init - 0x21e440
 DailyLevelPage::onClose - 0x21f070
 DailyLevelPage::onTheSafe - 0x21f0b0
+DailyLevelPage::refreshDailyPage - 0x2207f0
 DailyLevelPage::skipDailyLevel - 0x220700
+DailyLevelPage::tryGetDailyStatus - 0x21ffb0
 DailyLevelPage::updateTimers - 0x21f570
 RingObject::create - 0x1a3270
 RingObject::setScale - 0x1a3520
@@ -3185,8 +3189,10 @@ DrawGridLayer::sortSpeedObjects - 0xf5b30
 DrawGridLayer::timeForPos - 0xed530
 DrawGridLayer::updateMusicGuideTime - 0xf5da0
 DrawGridLayer::updateTimeMarkers - 0xed490
+DungeonBarsSprite::create - 0x491b30
 DungeonBarsSprite::init - 0x495430
 DungeonBarsSprite::visit - 0x4954b0
+DungeonBarsSprite::animateOutBars - 0x493e00
 EditButtonBar::create - 0x5c99e0
 EditButtonBar::getPage - 0x5ca2f0
 EditButtonBar::goToPage - 0x5ca310
@@ -3195,6 +3201,7 @@ EditButtonBar::loadFromItems - 0x5c9b80
 EditButtonBar::onLeft - 0x5ca250
 EditButtonBar::onRight - 0x5ca2a0
 EditButtonBar::reloadItems - 0x5ca140
+EditGameObjectPopup::create - 0x297920
 EditGameObjectPopup::init - 0x297b50
 EditLevelLayer::~EditLevelLayer - 0x1e8350
 EditLevelLayer::create - 0x1e8670
@@ -3529,6 +3536,7 @@ EditorUI::updateZoom - 0x3e050
 EditorUI::zoomGameLayer - 0x3e320
 EditorUI::zoomIn - 0xced0
 EditorUI::zoomOut - 0xcf20
+EditTriggersPopup::create - 0x2888b0
 EditTriggersPopup::determineStartValues - 0x288da0
 EditTriggersPopup::onClose - 0x288db0
 EditTriggersPopup::init - 0x288ae0
@@ -3569,6 +3577,7 @@ EndPortalObject::setPosition - 0x389750
 EndPortalObject::setVisible - 0x389860
 EndPortalObject::getSpawnPos - 0x3896d0
 EndPortalObject::triggerObject - 0x389640
+EndPortalObject::updateColors - 0x389580
 EndPortalObject::updateEndPos - 0x3898c0
 EndTriggerGameObject::create - 0x1ca070
 EndTriggerGameObject::init - 0x1ca130
@@ -3595,6 +3604,7 @@ ExplodeItemNode::create - 0x201ac0
 ExplodeItemNode::update - 0x202b30
 ExplodeItemNode::createSprites - 0x201b70
 ExplodeItemNode::init - 0x202a40
+ExplodeItemSprite::create - 0x202aa0
 ExplodeItemSprite::init - 0x202eb0
 ExtendedLayer::create - 0x391e80
 ExtendedLayer::init - 0x394410

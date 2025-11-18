@@ -2810,6 +2810,7 @@ DailyLevelNode::FLAlert_Clicked - 0x1bda58
 DailyLevelNode::init - 0x1bcd9c
 DailyLevelNode::onClaimReward - 0x1bd830
 DailyLevelNode::onSkipLevel - 0x1bd928
+DailyLevelNode::showSkipButton - 0x1bc434
 DailyLevelPage::create - 0x1baec4
 DailyLevelPage::registerWithTouchDispatcher - 0x1bca50
 DailyLevelPage::keyBackClicked - 0x1bca44
@@ -2819,15 +2820,19 @@ DailyLevelPage::dailyStatusFinished - 0x1bc164
 DailyLevelPage::dailyStatusFailed - 0x1bc4a8
 DailyLevelPage::levelDownloadFinished - 0x1bc67c
 DailyLevelPage::levelDownloadFailed - 0x1bc6f4
+DailyLevelPage::claimLevelReward - 0x1bca88
 DailyLevelPage::createDailyNode - 0x1bbfc4
 DailyLevelPage::createNodeIfLoaded - 0x1bc734
 DailyLevelPage::downloadAndCreateNode - 0x1bc3c4
 DailyLevelPage::exitDailyNode - 0x1bc310
+DailyLevelPage::getDailyTime - 0x1bc854
 DailyLevelPage::getDailyTimeString - 0x1bbb24
 DailyLevelPage::init - 0x1baf38
 DailyLevelPage::onClose - 0x1bba6c
 DailyLevelPage::onTheSafe - 0x1bbab8
+DailyLevelPage::refreshDailyPage - 0x1bcccc
 DailyLevelPage::skipDailyLevel - 0x1bcbdc
+DailyLevelPage::tryGetDailyStatus - 0x1bc610
 DailyLevelPage::updateTimers - 0x1bbe2c
 RingObject::create - 0x37b3a8
 RingObject::setScale - 0x37b5e4
@@ -2892,8 +2897,10 @@ DrawGridLayer::removeFromSpeedObjects - 0x35dec8
 DrawGridLayer::timeForPos - 0x360104
 DrawGridLayer::updateMusicGuideTime - 0x3658b8
 DrawGridLayer::updateTimeMarkers - 0x360068
+DungeonBarsSprite::create - 0x30f054
 DungeonBarsSprite::init - 0x3119ac
 DungeonBarsSprite::visit - 0x311a2c
+DungeonBarsSprite::animateOutBars - 0x310a68
 DynamicBitset::resize - 0x126dd8
 EditButtonBar::create - 0x418b98
 EditButtonBar::getPage - 0x419350
@@ -2903,6 +2910,8 @@ EditButtonBar::loadFromItems - 0x418d0c
 EditButtonBar::onLeft - 0x419330
 EditButtonBar::onRight - 0x419340
 EditButtonBar::reloadItems - 0x419234
+EditGameObjectPopup::create - 0x2dd490
+EditGameObjectPopup::init - 0x2dd570
 EditLevelLayer::~EditLevelLayer - 0xebcb8
 EditLevelLayer::create - 0xebdfc
 EditLevelLayer::scene - 0xebdb0
@@ -3194,6 +3203,7 @@ EditorUI::updateSlider - 0x3dca34
 EditorUI::updateZoom - 0x3e6980
 EditorUI::zoomIn - 0x3bfee8
 EditorUI::zoomOut - 0x3bff3c
+EditTriggersPopup::create - 0x2d2b2c
 EditTriggersPopup::determineStartValues - 0x2d2e64
 EditTriggersPopup::onClose - 0x2d2e68
 EditTriggersPopup::init - 0x2d2c04
@@ -3225,10 +3235,13 @@ EndLevelLayer::playDiamondEffect - 0x2f7e48
 EndLevelLayer::playEndEffect - 0x2f831c
 EndLevelLayer::playStarEffect - 0x2f7658
 EndLevelLayer::starEnterFinished - 0x2f8200
+EndPortalObject::create - 0x3f6620
 EndPortalObject::init - 0x3f66b0
 EndPortalObject::setPosition - 0x3f6b38
 EndPortalObject::setVisible - 0x3f6c30
+EndPortalObject::getSpawnPos - 0x3f6ad4
 EndPortalObject::triggerObject - 0x3f6a50
+EndPortalObject::updateColors - 0x3f6984
 EndPortalObject::updateEndPos - 0x3f6c94
 EndTriggerGameObject::create - 0x38ac50
 EndTriggerGameObject::init - 0x38ad10
@@ -3253,6 +3266,7 @@ ExplodeItemNode::create - 0x6031c
 ExplodeItemNode::update - 0x6105c
 ExplodeItemNode::createSprites - 0x603a8
 ExplodeItemNode::init - 0x60f6c
+ExplodeItemSprite::create - 0x60fc4
 ExplodeItemSprite::init - 0x6132c
 ExtendedLayer::create - 0x12e5c0
 ExtendedLayer::init - 0x12fc48
