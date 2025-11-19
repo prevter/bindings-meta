@@ -3558,7 +3558,12 @@ NewgroundsInfoLayer::init - 0xc4930
 NewgroundsInfoLayer::keyBackClicked - 0x84650
 NewgroundsInfoLayer::FLAlert_Clicked - 0xc5690
 NewgroundsInfoLayer::onArtists - 0xc5270
+NewgroundsInfoLayer::onChanges - 0xc5530
+NewgroundsInfoLayer::onClose - 0x84620
+NewgroundsInfoLayer::onGuidelines - 0xc53c0
 NewgroundsInfoLayer::onInfo - 0xc53e0
+NewgroundsInfoLayer::onNewgrounds - 0xc5250
+NewgroundsInfoLayer::onSupporter - 0xc53a0
 NumberInputLayer::init - 0x3326e0
 NumberInputLayer::registerWithTouchDispatcher - 0x52d60
 NumberInputLayer::keyBackClicked - 0x84650
@@ -3992,8 +3997,10 @@ RewardsPage::keyBackClicked - 0x84650
 RewardsPage::show - 0x3ae2e0
 RewardsPage::rewardsStatusFinished - 0x3b6120
 RewardsPage::rewardsStatusFailed - 0x3b6370
+RewardsPage::onClose - 0x84620
 RewardsPage::onFreeStuff - 0x3b6920
 RewardsPage::onReward - 0x3b5fe0
+RewardsPage::tryGetRewards - 0x3b6420
 RewardsPage::updateTimers - 0x3b6470
 RewardUnlockLayer::create - 0x3b6950
 RewardUnlockLayer::currencyWillExit - 0x3ba210
@@ -5111,6 +5118,9 @@ TopArtistsLayer::onNextPage - 0x4b2fe0
 TopArtistsLayer::onPrevPage - 0x4b2ff0
 TopArtistsLayer::setupLeaderboard - 0x4b2840
 TOSPopup::init - 0x296930
+TOSPopup::onClose - 0x296fc0
+TOSPopup::onPrivacy - 0x296f80
+TOSPopup::onTOS - 0x296fa0
 TransformTriggerGameObject::triggerObject - 0x4a3630
 TransformTriggerGameObject::customObjectSetup - 0x4a3650
 TransformTriggerGameObject::getSaveString - 0x4a3950
