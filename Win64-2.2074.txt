@@ -1546,6 +1546,7 @@ FollowRewardPage::show - 0x867a0
 FollowRewardPage::FLAlert_Clicked - 0x13b5f0
 FollowRewardPage::rewardedVideoFinished - 0x13a330
 FollowRewardPage::updateRate - 0x139e00
+FollowRewardPage::onClose - 0x84620
 FollowRewardPage::onSpecialItem - 0x13a340
 FollowRewardPage::switchToOpenedState - 0x13b510
 FontObject::parseConfigFile - 0x3b620
@@ -2820,6 +2821,7 @@ InfoLayer::FLAlert_Clicked - 0x2b5ce0
 InfoLayer::confirmReport - 0x2b5780
 InfoLayer::getSpriteButton - 0x2b52e0
 InfoLayer::init - 0x2b33a0
+InfoLayer::isCorrect - 0x2b6b50
 InfoLayer::loadPage - 0x2b6c80
 InfoLayer::onClose - 0x2b6ac0
 InfoLayer::onComment - 0x2b5f20
@@ -2842,6 +2844,7 @@ ItemInfoPopup::create - 0x273e30
 ItemInfoPopup::nameForUnlockType - 0x275ef0
 ItemInfoPopup::keyBackClicked - 0x84650
 ItemInfoPopup::init - 0x273f20
+ItemInfoPopup::onClose - 0x84620
 ItemInfoPopup::onCredit - 0x275ec0
 ItemTriggerGameObject::customSetup - 0x4a7160
 ItemTriggerGameObject::triggerObject - 0x4a71a0
@@ -2890,7 +2893,11 @@ LeaderboardsLayer::loadLeaderboardFailed - 0x2bb2b0
 LeaderboardsLayer::init - 0x2b9cd0
 LeaderboardsLayer::isCorrect - 0x2bb4e0
 LeaderboardsLayer::onBack - 0x2bbed0
+LeaderboardsLayer::onCreators - 0x2bad90
+LeaderboardsLayer::onGlobal - 0x2bad70
 LeaderboardsLayer::onInfo - 0x2bb9a0
+LeaderboardsLayer::onTop - 0x2bad30
+LeaderboardsLayer::onWeek - 0x2bad50
 LeaderboardsLayer::refreshTabs - 0x2bac80
 LeaderboardsLayer::selectLeaderboard - 0x2badb0
 LeaderboardsLayer::setupLevelBrowser - 0x2bab20
@@ -3128,6 +3135,7 @@ LevelLeaderboard::loadScores - 0x2ed8c0
 LevelLeaderboard::onChangeMode - 0x2edd40
 LevelLeaderboard::onChangeType - 0x2edca0
 LevelLeaderboard::onClose - 0x84620
+LevelLeaderboard::onDeleteLocalScores - 0x2ed430
 LevelLeaderboard::onUpdate - 0x2eddc0
 LevelLeaderboard::reloadLeaderboard - 0x2edbb0
 LevelLeaderboard::setupLeaderboard - 0x2ee2f0
@@ -3192,6 +3200,7 @@ LevelPage::onPlay - 0x308cf0
 LevelPage::onSecretDoor - 0x308130
 LevelPage::onTheTower - 0x307150
 LevelPage::playCoinEffect - 0x307a50
+LevelPage::playStep2 - 0x309080
 LevelPage::playStep3 - 0x309160
 LevelPage::updateDynamicPage - 0x305d00
 LevelSearchLayer::scene - 0x2f75f0
@@ -3254,6 +3263,8 @@ LevelSettingsLayer::createToggleButton - 0x30c7d0
 LevelSettingsLayer::init - 0x309e90
 LevelSettingsLayer::onBGArt - 0x30d060
 LevelSettingsLayer::onClose - 0x30cc50
+LevelSettingsLayer::onCol - 0x30ce50
+LevelSettingsLayer::onDisable - 0x30ca20
 LevelSettingsLayer::onFGArt - 0x30d130
 LevelSettingsLayer::onGameplayMode - 0x30c3a0
 LevelSettingsLayer::onGArt - 0x30d0b0
