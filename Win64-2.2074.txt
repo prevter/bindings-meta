@@ -3684,7 +3684,9 @@ PauseLayer::onTryEdit - 0x3687e0
 PauseLayer::setupProgressBars - 0x367980
 PauseLayer::sfxSliderChanged - 0x35cd70
 PauseLayer::tryQuit - 0x368c50
+PlatformToolbox::copyToClipboard - 0x78760
 PlatformToolbox::getDisplaySize - 0x786d0
+PlatformToolbox::getUniqueUserID - 0x784e0
 PlayerCheckpoint::create - 0x3a4210
 PlayerCheckpoint::init - 0x77db0
 PlayerControlGameObject::init - 0x4a9c60
