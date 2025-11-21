@@ -4299,6 +4299,8 @@ SetupAnimationPopup::updateTextInputLabel - 0x3f2210
 SetupAnimSettingsPopup::create - 0x3f2500
 SetupAnimSettingsPopup::onClose - 0x3f2e90
 SetupAnimSettingsPopup::init - 0x3f2610
+SetupAreaMoveTriggerPopup::SetupAreaMoveTriggerPopup - 0x3f2f20
+SetupAreaMoveTriggerPopup::~SetupAreaMoveTriggerPopup - 0x3f3780
 SetupAreaMoveTriggerPopup::updateInputValue - 0x3f63f0
 SetupAreaMoveTriggerPopup::updateDefaultTriggerValues - 0x3f5d20
 SetupAreaMoveTriggerPopup::updateInputNode - 0x3f63c0
@@ -4311,6 +4313,7 @@ SetupAreaMoveTriggerPopup::onMode - 0x3f60e0
 SetupAreaMoveTriggerPopup::onNextFreeEffectID - 0x3f5d70
 SetupAreaMoveTriggerPopup::onSpecialTarget - 0x3f5de0
 SetupAreaMoveTriggerPopup::updateEnterTargetIDState - 0x3f5e80
+SetupAreaTintTriggerPopup::SetupAreaTintTriggerPopup - 0x3f3290
 SetupAreaTintTriggerPopup::determineStartValues - 0x3f8840
 SetupAreaTintTriggerPopup::onClose - 0x3f8b50
 SetupAreaTintTriggerPopup::valueDidChange - 0x3f8680
@@ -4340,6 +4343,8 @@ SetupAudioTriggerPopup::addProxVolControls - 0x42d3b0
 SetupAudioTriggerPopup::addTimeControls - 0x42cff0
 SetupAudioTriggerPopup::onProxMode - 0x42e240
 SetupAudioTriggerPopup::updateSpecialGroup - 0x42e310
+SetupBGSpeedTrigger::create - 0x410c30
+SetupBGSpeedTrigger::init - 0x410d50
 SetupCameraEdgePopup::create - 0x3faea0
 SetupCameraEdgePopup::determineStartValues - 0x3fbd10
 SetupCameraEdgePopup::onClose - 0x3fc200
@@ -4388,9 +4393,12 @@ SetupCameraRotatePopup2::create - 0x3ffd20
 SetupCameraRotatePopup2::init - 0x3ffe30
 SetupCheckpointPopup::init - 0x450a20
 SetupCoinLayer::init - 0x457000
+SetupInstantCollisionTriggerPopup::SetupInstantCollisionTriggerPopup - 0x400470
+SetupInstantCollisionTriggerPopup::create - 0x4021e0
 SetupInstantCollisionTriggerPopup::updateDefaultTriggerValues - 0x402bc0
 SetupInstantCollisionTriggerPopup::valueDidChange - 0x402990
 SetupInstantCollisionTriggerPopup::init - 0x402270
+SetupInstantCollisionTriggerPopup::updateSpecialNodes - 0x4029b0
 SetupCollisionStateTriggerPopup::init - 0x402cf0
 SetupCollisionTriggerPopup::create - 0x400520
 SetupCollisionTriggerPopup::determineStartValues - 0x4014d0
@@ -4468,6 +4476,8 @@ SetupGameplayOffsetPopup::updateInputNode - 0x42a610
 SetupGameplayOffsetPopup::triggerValueFromSliderValue - 0x42a5c0
 SetupGameplayOffsetPopup::triggerSliderValueFromValue - 0x42a5f0
 SetupGameplayOffsetPopup::onCustomToggleTriggerValue - 0x42a510
+SetupGameplayOffsetPopup::init - 0x429d30
+SetupGameplayOffsetPopup::onDefaultValues - 0x42a460
 SetupGradientPopup::determineStartValues - 0x409e70
 SetupGradientPopup::onPlusButton - 0x409f80
 SetupGradientPopup::updateToggleItem - 0x40a000
@@ -4478,6 +4488,7 @@ SetupGradientPopup::onZLayer - 0x40a1a0
 SetupGradientPopup::updateBlendingLabel - 0x40a380
 SetupGradientPopup::updateGradientLabels - 0x40a090
 SetupGradientPopup::updateZLayerButtons - 0x40a230
+SetupGravityTriggerPopup::create - 0x4113c0
 SetupGravityTriggerPopup::valueDidChange - 0x411950
 SetupGravityTriggerPopup::init - 0x4114d0
 SetupInstantCountPopup::create - 0x40a520
@@ -4496,9 +4507,12 @@ SetupInstantCountPopup::updateItemIDInputLabel - 0x4048d0
 SetupInstantCountPopup::updateTargetCount - 0x404aa0
 SetupInstantCountPopup::updateTargetID - 0x40b9c0
 SetupInstantCountPopup::updateTargetIDInputLabel - 0x404950
+SetupInteractObjectPopup::create - 0x40bc40
 SetupInteractObjectPopup::onClose - 0x40c730
 SetupInteractObjectPopup::onPlusButton - 0x40c610
 SetupInteractObjectPopup::valueDidChange - 0x40c700
+SetupInteractObjectPopup::init - 0x40bd50
+SetupInteractObjectPopup::updateItems - 0x40c680
 SetupItemCompareTriggerPopup::create - 0x454d10
 SetupItemCompareTriggerPopup::valueDidChange - 0x456fe0
 SetupItemCompareTriggerPopup::onCustomToggleTriggerValue - 0x4564d0
