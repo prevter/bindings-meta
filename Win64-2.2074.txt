@@ -528,10 +528,12 @@ CCScrollLayerExt::ccTouchCancelled - 0x47920
 CCScrollLayerExt::registerWithTouchDispatcher - 0x47530
 CCScrollLayerExt::preVisitWithClippingRect - 0x47c00
 CCScrollLayerExt::postVisit - 0x47ca0
+CCScrollLayerExt::constraintContent - 0x47100
 CCScrollLayerExt::doConstraintContent - 0x47110
 CCScrollLayerExt::moveToTop - 0x47000
 CCScrollLayerExt::moveToTopWithOffset - 0x46f60
 CCScrollLayerExt::scrollingEnd - 0x472c0
+CCScrollLayerExt::updateIndicators - 0x47300
 CCSpriteCOpacity::setOpacity - 0x483c0
 CCSpriteWithHue::draw - 0x48c20
 CCSpriteWithHue::initWithTexture - 0x485f0
@@ -580,6 +582,8 @@ ChallengesPage::claimItem - 0x869d0
 ChallengesPage::createChallengeNode - 0x86090
 ChallengesPage::exitNodeAtSlot - 0x863c0
 ChallengesPage::onClose - 0x86940
+ChallengesPage::tryGetChallenges - 0x86010
+ChallengesPage::updateDots - 0x85d10
 ChallengesPage::updateTimers - 0x864b0
 GJChallengeItem::create - 0x1f1520
 GJChallengeItem::encodeWithCoder - 0x1f16a0
@@ -799,6 +803,8 @@ CommunityCreditsPage::registerWithTouchDispatcher - 0x425d0
 CommunityCreditsPage::keyBackClicked - 0x84650
 CommunityCreditsPage::show - 0x96160
 CommunityCreditsPage::goToPage - 0x96040
+CommunityCreditsPage::onClose - 0x84620
+CommunityCreditsPage::onSwitchPage - 0x96000
 ConfigureHSVWidget::create - 0x96950
 ConfigureHSVWidget::getHSV - 0x980a0
 ConfigureHSVWidget::textInputClosed - 0x8b790
@@ -806,6 +812,8 @@ ConfigureHSVWidget::textChanged - 0x97560
 ConfigureHSVWidget::createTextInputNode - 0x97300
 ConfigureHSVWidget::init - 0x96a20
 ConfigureHSVWidget::onResetHSV - 0x97b10
+ConfigureHSVWidget::onToggleSConst - 0x97a10
+ConfigureHSVWidget::onToggleVConst - 0x97a90
 ConfigureHSVWidget::sliderChanged - 0x978f0
 ConfigureHSVWidget::updateLabels - 0x97b90
 ConfigureHSVWidget::updateSliders - 0x97820
@@ -989,7 +997,9 @@ CustomSongLayer::dropDownLayerWillClose - 0xc34f0
 CustomSongLayer::musicBrowserClosed - 0xc35c0
 CustomSongLayer::init - 0xc1f00
 CustomSongLayer::onClose - 0xc3690
+CustomSongLayer::onCreateLines - 0xc3400
 CustomSongLayer::onMusicBrowser - 0xc31a0
+CustomSongLayer::onNCSBrowser - 0xc3200
 CustomSongLayer::onNewgroundsBrowser - 0xc3300
 CustomSongLayer::onOptions - 0xc2b80
 CustomSongLayer::onSearch - 0xc2c80
