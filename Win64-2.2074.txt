@@ -4683,6 +4683,8 @@ SetupRandTriggerPopup::updateTargetID - 0x428f20
 SetupRandTriggerPopup::updateTargetID2 - 0x428ff0
 SetupRandTriggerPopup::updateTextInputLabel - 0x428bc0
 SetupRandTriggerPopup::updateTextInputLabel2 - 0x428d70
+SetupResetTriggerPopup::create - 0x4520d0
+SetupResetTriggerPopup::init - 0x4521e0
 SetupReverbPopup::onClose - 0x42eda0
 SetupReverbPopup::init - 0x42e510
 SetupReverbPopup::onPlay - 0x42ead0
@@ -4700,6 +4702,7 @@ SetupRotateCommandPopup::updateControlVisibility - 0x2a1b30
 SetupRotateGameplayPopup::onPlusButton - 0x429c50
 SetupRotateGameplayPopup::valueDidChange - 0x429cc0
 SetupRotateGameplayPopup::init - 0x429280
+SetupRotatePopup::create - 0x42a660
 SetupRotatePopup::onClose - 0x42acd0
 SetupRotatePopup::onCustomToggleTriggerValue - 0x42ad70
 SetupRotatePopup::init - 0x42a770
