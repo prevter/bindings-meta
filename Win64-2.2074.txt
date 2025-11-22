@@ -3922,6 +3922,7 @@ PlayLayer::createObjectsFromSetupFinished - 0x396a10
 PlayLayer::delayedResetLevel - 0x3a1de0
 PlayLayer::fullReset - 0x3a1ce0
 PlayLayer::getCurrentPercent - 0x39ca70
+PlayLayer::gravityEffectFinished - 0x39b4d0
 PlayLayer::init - 0x38ec70
 PlayLayer::levelComplete - 0x390c30
 PlayLayer::loadDefaultColors - 0x39ad80

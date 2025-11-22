@@ -4396,6 +4396,7 @@ GJBaseGameLayer::checkSpawnObjects - 0x1ed910
 GJBaseGameLayer::clearActivatedAudioTriggers - 0x204818
 GJBaseGameLayer::collectedObject - 0x1fd4b8
 GJBaseGameLayer::collisionCheckObjects - 0x1e9420
+GJBaseGameLayer::convertToClosestDirection - 0x1f0d30
 GJBaseGameLayer::createBackground - 0x1dea24
 GJBaseGameLayer::createGroundLayer - 0x1def60
 GJBaseGameLayer::createMiddleground - 0x1df0e8
@@ -4494,6 +4495,7 @@ GJBaseGameLayer::setGroupParent - 0x1f4398
 GJBaseGameLayer::setStartPosObject - 0x1e7374
 GJBaseGameLayer::setupLayers - 0x1dc590
 GJBaseGameLayer::setupLevelStart - 0x1e73bc
+GJBaseGameLayer::setupReplay - 0x2039c4
 GJBaseGameLayer::shakeCamera - 0x205614
 GJBaseGameLayer::shouldExitHackedLevel - 0x1de628
 GJBaseGameLayer::sortGroups - 0x1e0e5c
@@ -6580,7 +6582,12 @@ PlayLayer::delayedResetLevel - 0x122f20
 PlayLayer::fullReset - 0x125688
 PlayLayer::getCurrentPercent - 0x121fd8
 PlayLayer::getEndPosition - 0x11d78c
+PlayLayer::getLastCheckpoint - 0x1243c0
+PlayLayer::getTempMilliTime - 0x1190bc
+PlayLayer::gravityEffectFinished - 0x121fc0
+PlayLayer::incrementJumps - 0x125ae8
 PlayLayer::init - 0x1187cc
+PlayLayer::isGameplayActive - 0x125f28
 PlayLayer::levelComplete - 0x11d7e8
 PlayLayer::loadActiveSaveObjects - 0x12507c
 PlayLayer::loadDefaultColors - 0x11bcfc
@@ -6605,10 +6612,13 @@ PlayLayer::resetLevel - 0x11ca00
 PlayLayer::resetLevelFromStart - 0x12584c
 PlayLayer::resume - 0x125de8
 PlayLayer::resumeAndRestart - 0x125cc0
+PlayLayer::saveActiveSaveObjects - 0x1246c4
+PlayLayer::saveDynamicSaveObjects - 0x12457c
 PlayLayer::scanActiveSaveObjects - 0x11aef4
 PlayLayer::scanDynamicSaveObjects - 0x11a878
 PlayLayer::screenFlipObject - 0x1219f0
 PlayLayer::setupHasCompleted - 0x119a3c
+PlayLayer::shouldBlend - 0x11fcd8
 PlayLayer::showCompleteEffect - 0x11e048
 PlayLayer::showCompleteText - 0x11e3a0
 PlayLayer::showEndLayer - 0x11eaf0
@@ -6623,10 +6633,13 @@ PlayLayer::startGameDelayed - 0x11d77c
 PlayLayer::startMusic - 0x11d6a4
 PlayLayer::stopRecording - 0x119100
 PlayLayer::storeCheckpoint - 0x124a04
+PlayLayer::toggleBGEffectVisibility - 0x125ab8
 PlayLayer::toggleDebugDraw - 0x11919c
+PlayLayer::toggleGhostEffect - 0x125a74
 PlayLayer::toggleIgnoreDamage - 0x1191f4
 PlayLayer::togglePracticeMode - 0x125760
 PlayLayer::updateAttempts - 0x1258d4
+PlayLayer::updateEffectPositions - 0x122fac
 PlayLayer::updateInfoLabel - 0x11b150
 PlayLayer::updateInvisibleBlock - 0x120b50
 PlayLayer::updateProgressbar - 0x11bb80
