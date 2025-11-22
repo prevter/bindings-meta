@@ -586,6 +586,7 @@ ChallengesPage::tryGetChallenges - 0x86010
 ChallengesPage::updateDots - 0x85d10
 ChallengesPage::updateTimers - 0x864b0
 GJChallengeItem::create - 0x1f1520
+GJChallengeItem::createFromString - 0x1f12c0
 GJChallengeItem::encodeWithCoder - 0x1f16a0
 ChallengeNode::init - 0x86ce0
 ChallengeNode::onClaimReward - 0x87d30
@@ -2101,7 +2102,12 @@ GJAccountManager::updateAccountSettings - 0x1fea30
 GJAccountSettingsLayer::keyBackClicked - 0x28d1f0
 GJAccountSettingsLayer::textInputShouldOffset - 0x7b5c0
 GJAccountSettingsLayer::textInputReturn - 0x7b620
+GJAccountSettingsLayer::createToggleButton - 0x28c530
 GJAccountSettingsLayer::init - 0x28a850
+GJAccountSettingsLayer::onClose - 0x28c920
+GJAccountSettingsLayer::onCommentSetting - 0x28c880
+GJAccountSettingsLayer::onFriendRequests - 0x28c7e0
+GJAccountSettingsLayer::onMessageSetting - 0x28c740
 GJAccountSettingsLayer::onUpdate - 0x28cd70
 GJActionManager::init - 0x1fb510
 GJBaseGameLayer::GJBaseGameLayer - 0x2c7b10
