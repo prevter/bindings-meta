@@ -905,6 +905,7 @@ CreateParticlePopup::updateInputNodeStringForType - 0x41c990
 CreateParticlePopup::updateParticleValueForType - 0x41ba90
 CreateParticlePopup::updateSliderForType - 0x41c700
 CreateParticlePopup::valueForParticleValue - 0x41b210
+CreateParticlePopup::willClose - 0x41ce90
 CreatorLayer::scene - 0x9b9a0
 CreatorLayer::init - 0x9bb10
 CreatorLayer::keyBackClicked - 0x9f2b0
@@ -3076,9 +3077,12 @@ LevelEditorLayer::getLastObjectX - 0x2d5fd0
 LevelEditorLayer::getLevelString - 0x2ce530
 LevelEditorLayer::getNextColorChannel - 0x2d2890
 LevelEditorLayer::getNextFreeAreaEffectID - 0x2d26d0
+LevelEditorLayer::getNextFreeEditorLayer - 0x2d24d0
+LevelEditorLayer::getNextFreeEnterChannel - 0x2d25d0
 LevelEditorLayer::getNextFreeGradientID - 0x2d27b0
 LevelEditorLayer::getNextFreeGroupID - 0x2d2030
 LevelEditorLayer::getNextFreeItemID - 0x2d22b0
+LevelEditorLayer::getNextFreeOrderChannel - 0x2d23b0
 LevelEditorLayer::getObjectRect - 0x2cd0f0
 LevelEditorLayer::getSFXIDs - 0x2cec40
 LevelEditorLayer::getSongIDs - 0x2ce890
@@ -3112,6 +3116,7 @@ LevelEditorLayer::updateBlendValues - 0x2d5d20
 LevelEditorLayer::updateEditor - 0x2d0330
 LevelEditorLayer::updateEditorMode - 0x2d2e10
 LevelEditorLayer::updateGameObjects - 0x2d3780
+LevelEditorLayer::updateGridLayerParent - 0x2caf30
 LevelEditorLayer::updateKeyframeObjects - 0x2d9490
 LevelEditorLayer::updateLevelFont - 0x2d66d0
 LevelEditorLayer::updateObjectColors - 0x2d1790
