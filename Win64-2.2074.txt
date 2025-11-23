@@ -3797,6 +3797,7 @@ PlayerObject::incrementJumps - 0x376e10
 PlayerObject::init - 0x370a00
 PlayerObject::levelFlipFinished - 0x3759e0
 PlayerObject::levelFlipping - 0x385760
+PlayerObject::levelWillFlip - 0x375960
 PlayerObject::loadFromCheckpoint - 0x38bc30
 PlayerObject::lockPlayer - 0x389540
 PlayerObject::placeStreakPoint - 0x38a8f0
@@ -3838,6 +3839,7 @@ PlayerObject::spawnScaleCircle - 0x381b40
 PlayerObject::spiderTestJump - 0x37e510
 PlayerObject::spiderTestJumpInternal - 0x37e5c0
 PlayerObject::startDashing - 0x37fae0
+PlayerObject::stopBurstEffect - 0x385750
 PlayerObject::stopDashing - 0x380820
 PlayerObject::stopParticles - 0x375af0
 PlayerObject::stopPlatformerJumpAnimation - 0x3772d0
