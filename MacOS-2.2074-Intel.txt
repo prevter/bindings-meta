@@ -4920,6 +4920,7 @@ GJActionManager::runInternalAction - 0x5f1e80
 GJActionManager::stopAllInternalActions - 0x5f1f20
 GJActionManager::stopInternalAction - 0x5f1ed0
 GJActionManager::updateInternalActions - 0x5f1fc0
+GJBaseGameLayer::GJBaseGameLayer - 0xc00f0
 GJBaseGameLayer::~GJBaseGameLayer - 0xfd6a0
 GJBaseGameLayer::update - 0x141f90
 GJBaseGameLayer::init - 0xfe730
@@ -4952,7 +4953,9 @@ GJBaseGameLayer::checkpointActivated - 0x152790
 GJBaseGameLayer::flipArt - 0x152780
 GJBaseGameLayer::addKeyframe - 0x13b940
 GJBaseGameLayer::activatedAudioTrigger - 0x14e400
+GJBaseGameLayer::activateItemCompareTrigger - 0x13d020
 GJBaseGameLayer::activateItemEditTrigger - 0x13c800
+GJBaseGameLayer::activatePersistentItemTrigger - 0x13d710
 GJBaseGameLayer::activateSFXTrigger - 0x149850
 GJBaseGameLayer::activateSongEditTrigger - 0x1495f0
 GJBaseGameLayer::activateSongTrigger - 0x1492c0
@@ -4967,6 +4970,7 @@ GJBaseGameLayer::applyLevelSettings - 0x147ac0
 GJBaseGameLayer::applyShake - 0x14a4a0
 GJBaseGameLayer::assignNewStickyGroups - 0x12dd80
 GJBaseGameLayer::bumpPlayer - 0x117ce0
+GJBaseGameLayer::calculateColorGroups - 0x10d520
 GJBaseGameLayer::cameraMoveX - 0x14aff0
 GJBaseGameLayer::cameraMoveY - 0x14b0a0
 GJBaseGameLayer::canBeActivatedByPlayer - 0x117880
@@ -4988,16 +4992,22 @@ GJBaseGameLayer::createPlayerCollisionBlock - 0x11a410
 GJBaseGameLayer::createTextLayers - 0x10f2e0
 GJBaseGameLayer::destroyObject - 0x118390
 GJBaseGameLayer::enterDualMode - 0x119720
+GJBaseGameLayer::exitStaticCamera - 0x14b990
 GJBaseGameLayer::flipFinished - 0x1466b0
 GJBaseGameLayer::flipGravity - 0x114040
+GJBaseGameLayer::gameEventToString - 0x13b6f0
 GJBaseGameLayer::gameEventTriggered - 0x110ea0
 GJBaseGameLayer::generateEnterEasingBuffer - 0x10ea30
 GJBaseGameLayer::generateEnterEasingBuffers - 0x10e9a0
 GJBaseGameLayer::generateSpawnRemap - 0x106400
 GJBaseGameLayer::generateTargetGroups - 0x109d00
 GJBaseGameLayer::generateVisibilityGroups - 0x10c170
+GJBaseGameLayer::getAreaObjectValue - 0x133a30
 GJBaseGameLayer::getBumpMod - 0x119a80
 GJBaseGameLayer::getCameraEdgeValue - 0x13f630
+GJBaseGameLayer::getEasedAreaValue - 0x133c60
+GJBaseGameLayer::getEnterEasingValue - 0x10ee80
+GJBaseGameLayer::getGroundHeight - 0x1127a0
 GJBaseGameLayer::getGroundHeightForMode - 0x112730
 GJBaseGameLayer::getGroup - 0x10d760
 GJBaseGameLayer::getGroupParent - 0x12d010
@@ -5008,6 +5018,7 @@ GJBaseGameLayer::getModifiedDelta - 0x141ee0
 GJBaseGameLayer::getOptimizedGroup - 0x12cd90
 GJBaseGameLayer::getOtherPlayer - 0x1128b0
 GJBaseGameLayer::getStaticGroup - 0x12ce00
+GJBaseGameLayer::getTargetGroup - 0x12e1d0
 GJBaseGameLayer::gravBumpPlayer - 0x117ef0
 GJBaseGameLayer::handleButton - 0x13afc0
 GJBaseGameLayer::hasUniqueCoin - 0x118460
@@ -5041,7 +5052,11 @@ GJBaseGameLayer::processActivatedAudioTriggers - 0x14f3a0
 GJBaseGameLayer::processAdvancedFollowActions - 0x136c60
 GJBaseGameLayer::processAreaActions - 0x133460
 GJBaseGameLayer::processAreaEffects - 0x1308e0
+GJBaseGameLayer::processAreaFadeGroupAction - 0x1328b0
 GJBaseGameLayer::processAreaMoveGroupAction - 0x132070
+GJBaseGameLayer::processAreaRotateGroupAction - 0x131d50
+GJBaseGameLayer::processAreaTintGroupAction - 0x132b00
+GJBaseGameLayer::processAreaTransformGroupAction - 0x131900
 GJBaseGameLayer::processAreaVisualActions - 0x1339e0
 GJBaseGameLayer::processCameraObject - 0x112ba0
 GJBaseGameLayer::processCommands - 0x1435a0
@@ -5077,12 +5092,14 @@ GJBaseGameLayer::removePlayer2 - 0x1196c0
 GJBaseGameLayer::removeTemporaryParticles - 0x148cb0
 GJBaseGameLayer::reorderObjectSection - 0x11a880
 GJBaseGameLayer::resetActiveEnterEffects - 0x10d800
+GJBaseGameLayer::resetAreaObjectValues - 0x131650
 GJBaseGameLayer::resetAudio - 0x141e50
 GJBaseGameLayer::resetCamera - 0x148d80
 GJBaseGameLayer::resetGroupCounters - 0x13e800
 GJBaseGameLayer::resetLevelVariables - 0x147d80
 GJBaseGameLayer::resetPlayer - 0x112c30
 GJBaseGameLayer::resetSpawnChannelIndex - 0x149100
+GJBaseGameLayer::resetStaticCamera - 0x114d30
 GJBaseGameLayer::resumeAudio - 0x141e20
 GJBaseGameLayer::rotateObject - 0x1376d0
 GJBaseGameLayer::setGroupParent - 0x12d370
@@ -5097,6 +5114,7 @@ GJBaseGameLayer::sortSectionVector - 0x12faf0
 GJBaseGameLayer::sortStickyGroups - 0x109bb0
 GJBaseGameLayer::spawnParticle - 0x14bf50
 GJBaseGameLayer::spawnParticleTrigger - 0x118670
+GJBaseGameLayer::spawnParticleTrigger - 0x14bd60
 GJBaseGameLayer::spawnPlayer2 - 0x1191d0
 GJBaseGameLayer::speedForShaderTarget - 0x12c1d0
 GJBaseGameLayer::stopCameraShake - 0x14a310
@@ -5125,6 +5143,7 @@ GJBaseGameLayer::updateAudioVisualizer - 0x143430
 GJBaseGameLayer::updateBGArtSpeed - 0x148a40
 GJBaseGameLayer::updateCamera - 0x143a60
 GJBaseGameLayer::updateCameraBGArt - 0x14a5c0
+GJBaseGameLayer::updateCameraEdge - 0x13f5e0
 GJBaseGameLayer::updateCameraMode - 0x114180
 GJBaseGameLayer::updateCameraOffsetX - 0x13f3e0
 GJBaseGameLayer::updateCameraOffsetY - 0x13f4e0
@@ -5139,6 +5158,7 @@ GJBaseGameLayer::updateKeyframeOrder - 0x13b9d0
 GJBaseGameLayer::updateLayerCapacity - 0x1042f0
 GJBaseGameLayer::updateLevelColors - 0x103350
 GJBaseGameLayer::updateMaxGameplayY - 0x147b20
+GJBaseGameLayer::updateMGArtSpeed - 0x148a80
 GJBaseGameLayer::updatePlatformerTime - 0x146740
 GJBaseGameLayer::updateProximityVolumeEffects - 0x1465c0
 GJBaseGameLayer::updateQueuedLabels - 0x13e400

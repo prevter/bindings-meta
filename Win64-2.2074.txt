@@ -2200,6 +2200,7 @@ GJBaseGameLayer::createTextLayers - 0x209960
 GJBaseGameLayer::destroyObject - 0x210bb0
 GJBaseGameLayer::exitStaticCamera - 0x2390e0
 GJBaseGameLayer::flipGravity - 0x20d640
+GJBaseGameLayer::gameEventToString - 0x22cfd0
 GJBaseGameLayer::gameEventTriggered - 0x22c8a0
 GJBaseGameLayer::generateEnterEasingBuffer - 0x209710
 GJBaseGameLayer::generateSpawnRemap - 0x218c00
