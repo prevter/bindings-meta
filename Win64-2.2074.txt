@@ -2197,9 +2197,11 @@ GJBaseGameLayer::createParticle - 0x23a060
 GJBaseGameLayer::createPlayer - 0x205fd0
 GJBaseGameLayer::createPlayerCollisionBlock - 0x212e90
 GJBaseGameLayer::createTextLayers - 0x209960
+GJBaseGameLayer::damagingObjectsInRect - 0x20c160
 GJBaseGameLayer::destroyObject - 0x210bb0
 GJBaseGameLayer::exitStaticCamera - 0x2390e0
 GJBaseGameLayer::flipGravity - 0x20d640
+GJBaseGameLayer::flipObjects - 0x240470
 GJBaseGameLayer::gameEventToString - 0x22cfd0
 GJBaseGameLayer::gameEventTriggered - 0x22c8a0
 GJBaseGameLayer::generateEnterEasingBuffer - 0x209710
@@ -2228,6 +2230,9 @@ GJBaseGameLayer::loadGroupParentsFromString - 0x21f4b0
 GJBaseGameLayer::loadLevelSettings - 0x234770
 GJBaseGameLayer::loadStartPosObject - 0x230000
 GJBaseGameLayer::loadUpToPosition - 0x2301a0
+GJBaseGameLayer::maxZOrderForShaderZ - 0x21e400
+GJBaseGameLayer::minZOrderForShaderZ - 0x21e350
+GJBaseGameLayer::modifyGroupPhysics - 0x229b20
 GJBaseGameLayer::moveAreaObject - 0x2257d0
 GJBaseGameLayer::moveObjects - 0x228a70
 GJBaseGameLayer::moveObjectToStaticGroup - 0x22c060
