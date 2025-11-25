@@ -2155,6 +2155,7 @@ GJBaseGameLayer::activateEventTrigger - 0x22c9c0
 GJBaseGameLayer::activateItemCompareTrigger - 0x22eed0
 GJBaseGameLayer::activateItemEditTrigger - 0x22eaf0
 GJBaseGameLayer::activatePersistentItemTrigger - 0x22f2e0
+GJBaseGameLayer::activatePlayerControlTrigger - 0x212000
 GJBaseGameLayer::activateSFXEditTrigger - 0x23b8c0
 GJBaseGameLayer::activateSFXTrigger - 0x23b6c0
 GJBaseGameLayer::activateSongEditTrigger - 0x23b3b0
@@ -2182,6 +2183,7 @@ GJBaseGameLayer::checkCollisions - 0x20e330
 GJBaseGameLayer::checkRepellPlayer - 0x233de0
 GJBaseGameLayer::checkSpawnObjects - 0x215410
 GJBaseGameLayer::claimMoveAction - 0x228900
+GJBaseGameLayer::claimParticle - 0x23a440
 GJBaseGameLayer::claimRotationAction - 0x2286c0
 GJBaseGameLayer::collisionCheckObjects - 0x20f480
 GJBaseGameLayer::controlAreaEffect - 0x222710
@@ -2329,6 +2331,7 @@ GJBaseGameLayer::triggerShaderCommand - 0x21bc80
 GJBaseGameLayer::triggerTransformCommand - 0x21a110
 GJBaseGameLayer::tryGetMainObject - 0x21f170
 GJBaseGameLayer::tryGetObject - 0x21f1e0
+GJBaseGameLayer::unclaimParticle - 0x23a650
 GJBaseGameLayer::ungroupStickyObjects - 0x21f8d0
 GJBaseGameLayer::updateAreaObjectLastValues - 0x222bd0
 GJBaseGameLayer::updateAudioVisualizer - 0x2422f0
