@@ -2322,6 +2322,7 @@ GJBaseGameLayer::toggleGroup - 0x21e810
 GJBaseGameLayer::transformAreaObjects - 0x224440
 GJBaseGameLayer::triggerAdvancedFollowEditCommand - 0x2297e0
 GJBaseGameLayer::triggerAreaEffect - 0x221ee0
+GJBaseGameLayer::triggerDynamicRotateCommand - 0x219ef0
 GJBaseGameLayer::triggerGradientCommand - 0x21a3a0
 GJBaseGameLayer::triggerMoveCommand - 0x219690
 GJBaseGameLayer::triggerShaderCommand - 0x21bc80
