@@ -4791,6 +4791,7 @@ GJCommentListLayer::create - 0x2d519c
 GJCommentListLayer::init - 0x2d5280
 GJDifficultySprite::create - 0x2e5348
 GJDifficultySprite::getDifficultyFrame - 0x2e5474
+GJDifficultySprite::init - 0x2e53f0
 GJDifficultySprite::updateDifficultyFrame - 0x2e5534
 GJDifficultySprite::updateFeatureState - 0x2e56ac
 GJDifficultySprite::updateFeatureStateFromLevel - 0x2e5674
@@ -6670,11 +6671,16 @@ PlayerObject::PlayerObject - 0x22eaa8
 PlayerObject::~PlayerObject - 0x2181f8
 PlayerObject::create - 0x21836c
 PlayerObject::update - 0x21a2d0
+PlayerObject::setScaleX - 0x22e704
+PlayerObject::setScaleY - 0x22e708
+PlayerObject::setScale - 0x22e70c
 PlayerObject::setPosition - 0x22bf7c
 PlayerObject::setVisible - 0x22e710
+PlayerObject::setRotation - 0x22e694
 PlayerObject::setOpacity - 0x22cf10
 PlayerObject::setColor - 0x22c9d0
 PlayerObject::setFlipX - 0x22e698
+PlayerObject::setFlipY - 0x22e700
 PlayerObject::resetObject - 0x227340
 PlayerObject::getRealPosition - 0x22d014
 PlayerObject::getOrientedBox - 0x22dcc0

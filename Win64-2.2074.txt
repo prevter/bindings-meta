@@ -3779,11 +3779,16 @@ PlayerObject::PlayerObject - 0x36f5e0
 PlayerObject::~PlayerObject - 0x370730
 PlayerObject::create - 0x370960
 PlayerObject::update - 0x373010
+PlayerObject::setScaleX - 0x38cac0
+PlayerObject::setScaleY - 0x38cad0
+PlayerObject::setScale - 0x38cae0
 PlayerObject::setPosition - 0x3868b0
 PlayerObject::setVisible - 0x38caf0
+PlayerObject::setRotation - 0x38c9f0
 PlayerObject::setOpacity - 0x387d60
 PlayerObject::setColor - 0x387580
 PlayerObject::setFlipX - 0x38ca00
+PlayerObject::setFlipY - 0x195280
 PlayerObject::resetObject - 0x3810b0
 PlayerObject::getRealPosition - 0x387e90
 PlayerObject::getOrientedBox - 0x38a8c0
