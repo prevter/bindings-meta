@@ -1799,7 +1799,6 @@ GameObject::saveActiveColors - 0x25ff38
 GameObject::spawnXPosition - 0x22ea4c
 GameObject::updateParticleColor - 0x260270
 GameObject::updateParticleOpacity - 0x25ad60
-GameObject::getObjectLabel - 0x171fa4
 GameObject::shouldDrawEditorHitbox - 0x261f40
 GameObject::getObjectRectDirty - 0x22ea6c
 GameObject::setObjectRectDirty - 0x22ea74

@@ -671,7 +671,7 @@ cocos2d::CCLayer::didAccelerate - 0x4088e0
 cocos2d::CCLayer::keyBackClicked - 0x408b4c
 cocos2d::CCLayer::keyMenuClicked - 0x408bf4
 cocos2d::CCLayer::keyDown - 0x408c84
-cocos2d::CCLayerRGBA::CCLayerRGBA - 0x4094b8
+cocos2d::CCLayerRGBA::CCLayerRGBA - 0x4093d0
 cocos2d::CCLayerRGBA::~CCLayerRGBA - 0x4095a0
 cocos2d::CCLayerRGBA::init - 0x4097b0
 cocos2d::CCLayerRGBA::setColor - 0x4099d4
@@ -1924,7 +1924,6 @@ GameObject::saveActiveColors - 0x4e93b4
 GameObject::spawnXPosition - 0x19999c
 GameObject::updateParticleColor - 0x4e9764
 GameObject::updateParticleOpacity - 0x4dede4
-GameObject::getObjectLabel - 0x8d390
 GameObject::shouldDrawEditorHitbox - 0x4ec0bc
 GameObject::getObjectRectDirty - 0x1999bc
 GameObject::setObjectRectDirty - 0x1999c4

@@ -3530,7 +3530,6 @@ EditorUI::ccTouchCancelled - 0x50780
 EditorUI::registerWithTouchDispatcher - 0x507c0
 EditorUI::keyBackClicked - 0x3f0f0
 EditorUI::keyDown - 0x50800
-EditorUI::getUI - 0x546c0
 EditorUI::setIDPopupClosed - 0x337d0
 EditorUI::FLAlert_Clicked - 0x33640
 EditorUI::updateTransformControl - 0x40b50
