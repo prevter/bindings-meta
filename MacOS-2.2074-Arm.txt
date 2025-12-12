@@ -297,11 +297,13 @@ cocos2d::CCMotionStreak::create - 0x4b6074
 cocos2d::CCMotionStreak::create - 0x4b5ee0
 cocos2d::CCMotionStreak::initWithFade - 0x4b6180
 cocos2d::CCMotionStreak::initWithFade - 0x4b5ffc
+cocos2d::CCMotionStreak::setStroke - 0x4b6c40
 cocos2d::CCMotionStreak::CCMotionStreak - 0x4b5cf4
 cocos2d::CCMotionStreak::enableRepeatMode - 0x4b64ac
 cocos2d::CCMotionStreak::reset - 0x4b6c48
 cocos2d::CCMotionStreak::resumeStroke - 0x4b6510
 cocos2d::CCMotionStreak::stopStroke - 0x4b6508
+cocos2d::CCMotionStreak::tintWithColor - 0x4b6334
 cocos2d::CCMotionStreak::updateFade - 0x4b64f8
 cocos2d::CCMotionStreak::~CCMotionStreak - 0x4b5e2c
 cocos2d::CCMotionStreak::update - 0x4b651c
