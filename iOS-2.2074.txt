@@ -724,6 +724,7 @@ cocos2d::CCDirector::getDeltaTime - 0x179000
 cocos2d::CCSequence::create - 0x18db38
 cocos2d::CCSequence::createWithTwoActions - 0x18d99c
 cocos2d::CCSequence::createWithVariableList - 0x18dab8
+cocos2d::CCSequence::~CCSequence - 0x18dcc8
 cocos2d::CCSequence::copyWithZone - 0x18dbd4
 cocos2d::CCSequence::update - 0x18ddb0
 cocos2d::CCSequence::startWithTarget - 0x18dd28
@@ -3039,6 +3040,8 @@ DemonInfoPopup::createFromString - 0x19ec08
 DemonInfoPopup::keyBackClicked - 0x1a0b9c
 DemonInfoPopup::init - 0x1a02a8
 DemonInfoPopup::onClose - 0x1a0b60
+DialogLayer::DialogLayer - 0x8b91c
+DialogLayer::~DialogLayer - 0x8a7d8
 DialogLayer::create - 0x8a89c
 DialogLayer::createDialogLayer - 0x8a8a8
 DialogLayer::createWithObjects - 0x8a934
