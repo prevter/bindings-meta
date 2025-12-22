@@ -1715,6 +1715,7 @@ AccountLayer::updatePage - 0xb601c
 FLAlertLayer::~FLAlertLayer - 0x3f5238
 FLAlertLayer::create - 0x3f5598
 FLAlertLayer::create - 0x3f5738
+FLAlertLayer::onEnter - 0x3f6a84
 FLAlertLayer::ccTouchBegan - 0x3f6568
 FLAlertLayer::ccTouchMoved - 0x3f6818
 FLAlertLayer::ccTouchEnded - 0x3f66c8

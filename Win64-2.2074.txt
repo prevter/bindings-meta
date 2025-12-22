@@ -64,6 +64,7 @@ FLAlertLayer::FLAlertLayer - 0x516b0
 FLAlertLayer::~FLAlertLayer - 0x517e0
 FLAlertLayer::create - 0x51940
 FLAlertLayer::create - 0x51890
+FLAlertLayer::onEnter - 0x52db0
 FLAlertLayer::ccTouchBegan - 0x52a00
 FLAlertLayer::ccTouchMoved - 0x52b50
 FLAlertLayer::ccTouchEnded - 0x52aa0
@@ -1182,7 +1183,6 @@ EditLevelLayer::setupLevelInfo - 0xd5720
 EditLevelLayer::verifyLevelName - 0xd8290
 GJOptionsLayer::GJOptionsLayer - 0x285940
 GJOptionsLayer::~GJOptionsLayer - 0x288060
-GJOptionsLayer::didToggleGV - 0x1f2810
 GJOptionsLayer::addGVToggle - 0x288470
 GJOptionsLayer::addToggleInternal - 0x2885b0
 GJOptionsLayer::countForPage - 0x288ab0
@@ -5201,6 +5201,8 @@ SupportLayer::onRequestAccess - 0x4b0d30
 SupportLayer::onRobTop - 0x3207c0
 SupportLayer::onSFX - 0x4b0830
 SupportLayer::onTOS - 0x296fa0
+TableView::onEnter - 0x52db0
+TableView::onExit - 0x75240
 TableView::ccTouchBegan - 0x75250
 TableView::ccTouchMoved - 0x754e0
 TableView::ccTouchEnded - 0x75400

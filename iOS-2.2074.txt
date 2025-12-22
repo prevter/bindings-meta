@@ -1613,6 +1613,7 @@ FLAlertLayer::FLAlertLayer - 0xe7b0
 FLAlertLayer::~FLAlertLayer - 0x2aad7c
 FLAlertLayer::create - 0x2aaef4
 FLAlertLayer::create - 0x2ab01c
+FLAlertLayer::onEnter - 0x2ac0d4
 FLAlertLayer::ccTouchBegan - 0x2abcac
 FLAlertLayer::ccTouchMoved - 0x2abe9c
 FLAlertLayer::ccTouchEnded - 0x2abd64
