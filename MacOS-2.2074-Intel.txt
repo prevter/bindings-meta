@@ -1000,6 +1000,7 @@ cocos2d::CCLabelBMFont::create - 0x5bfcd0
 cocos2d::CCLabelBMFont::create - 0x5bfd80
 cocos2d::CCLabelBMFont::create - 0x5bfc60
 cocos2d::CCLabelBMFont::createBatched - 0x5c0250
+cocos2d::CCLabelBMFont::purgeCachedData - 0x5bfc20
 cocos2d::CCLabelBMFont::initWithString - 0x5bff80
 cocos2d::CCLabelBMFont::getFntFile - 0x5c3320
 cocos2d::CCLabelBMFont::setFntFile - 0x5c3240
@@ -1654,6 +1655,17 @@ cocos2d::CCJumpBy::reverse - 0x3a6370
 cocos2d::CCJumpTo::create - 0x3a63d0
 cocos2d::CCJumpTo::copyWithZone - 0x3a64f0
 cocos2d::CCJumpTo::startWithTarget - 0x3a6670
+cocos2d::CCBMFontConfiguration::create - 0x5bc6a0
+cocos2d::CCBMFontConfiguration::initWithFNTfile - 0x5bc7c0
+cocos2d::CCBMFontConfiguration::description - 0x5bd880
+cocos2d::CCBMFontConfiguration::parseCharacterDefinition - 0x5be470
+cocos2d::CCBMFontConfiguration::parseCommonArguments - 0x5bdac0
+cocos2d::CCBMFontConfiguration::parseConfigFile - 0x5bc7f0
+cocos2d::CCBMFontConfiguration::parseImageFileName - 0x5be1e0
+cocos2d::CCBMFontConfiguration::parseInfoArguments - 0x5bd8e0
+cocos2d::CCBMFontConfiguration::parseKerningEntry - 0x5bf370
+cocos2d::CCBMFontConfiguration::purgeFontDefDictionary - 0x5bd5b0
+cocos2d::CCBMFontConfiguration::purgeKerningDictionary - 0x5bd710
 GJDropDownLayer::~GJDropDownLayer - 0x5cf930
 GJDropDownLayer::create - 0x5cfc90
 GJDropDownLayer::create - 0x5d01d0

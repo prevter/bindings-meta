@@ -819,6 +819,7 @@ cocos2d::CCLabelBMFont::CCLabelBMFont - 0x2fb2e8
 cocos2d::CCLabelBMFont::create - 0x2faee0
 cocos2d::CCLabelBMFont::create - 0x2fae20
 cocos2d::CCLabelBMFont::createBatched - 0x2fb1d0
+cocos2d::CCLabelBMFont::purgeCachedData - 0x2fae1c
 cocos2d::CCLabelBMFont::initWithString - 0x2faf30
 cocos2d::CCLabelBMFont::createFontChars - 0x2fb578
 cocos2d::CCLabelBMFont::limitLabelWidth - 0x2fd074
@@ -1244,6 +1245,15 @@ cocos2d::CCDisplayLinkDirector::stopAnimation - 0x179e5c
 cocos2d::CCDisplayLinkDirector::startAnimation - 0x179de4
 cocos2d::CCDisplayLinkDirector::mainLoop - 0x179e20
 cocos2d::CCScriptEngineManager::sharedManager - 0x2726e0
+cocos2d::CCBMFontConfiguration::create - 0x2f8bf8
+cocos2d::CCBMFontConfiguration::parseCharacterDefinition - 0x2fa078
+cocos2d::CCBMFontConfiguration::parseCommonArguments - 0x2f9b50
+cocos2d::CCBMFontConfiguration::parseConfigFile - 0x2f8ccc
+cocos2d::CCBMFontConfiguration::parseImageFileName - 0x2f9f30
+cocos2d::CCBMFontConfiguration::parseInfoArguments - 0x2f9a2c
+cocos2d::CCBMFontConfiguration::parseKerningEntry - 0x2fa818
+cocos2d::CCBMFontConfiguration::purgeFontDefDictionary - 0x2f97b8
+cocos2d::CCBMFontConfiguration::purgeKerningDictionary - 0x2f98ec
 FMOD::Channel::getPosition - 0x44cf08
 FMOD::Channel::getPriority - 0x44ccfc
 FMOD::Channel::setPosition - 0x44cde0
