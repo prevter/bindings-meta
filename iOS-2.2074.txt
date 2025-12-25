@@ -858,8 +858,14 @@ cocos2d::CCLabelTTF::~CCLabelTTF - 0x7267c
 cocos2d::CCLabelTTF::init - 0x72800
 cocos2d::CCLabelTTF::setString - 0x7283c
 cocos2d::CCLabelTTF::getString - 0x729a4
+cocos2d::CCActionManager::CCActionManager - 0x2f3ec8
+cocos2d::CCActionManager::~CCActionManager - 0x2f3ef0
+cocos2d::CCActionManager::update - 0x2f4cdc
 cocos2d::CCActionManager::addAction - 0x2f4378
+cocos2d::CCActionManager::removeAllActionsFromTarget - 0x2f47b8
 cocos2d::CCActionManager::removeAction - 0x2f493c
+cocos2d::CCActionManager::removeActionByTag - 0x2f4a70
+cocos2d::CCActionManager::getActionByTag - 0x2f4bb0
 cocos2d::CCActionManager::pauseTarget - 0x2f4184
 cocos2d::CCActionManager::resumeTarget - 0x2f4280
 cocos2d::CCAnimate::create - 0x1908e8
