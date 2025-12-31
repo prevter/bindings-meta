@@ -852,6 +852,7 @@ cocos2d::CCLabelBMFont::updateDisplayedColor - 0x2fc140
 cocos2d::CCLabelBMFont::isCascadeOpacityEnabled - 0x2fc22c
 cocos2d::CCLabelBMFont::setCascadeOpacityEnabled - 0x2fc23c
 cocos2d::CCLabelBMFont::updateDisplayedOpacity - 0x2fc0b0
+cocos2d::CCLabelTTF::initWithString - 0x72828
 cocos2d::CCLabelTTF::initWithString - 0x7270c
 cocos2d::CCLabelTTF::CCLabelTTF - 0x725b4
 cocos2d::CCLabelTTF::~CCLabelTTF - 0x7267c
@@ -1077,6 +1078,7 @@ cocos2d::CCActionTween::startWithTarget - 0x3a1b2c
 cocos2d::CCActionTween::reverse - 0x3a1ba0
 cocos2d::CCTextFieldTTF::CCTextFieldTTF - 0x1cbd3c
 cocos2d::CCTextFieldTTF::~CCTextFieldTTF - 0x1cbe04
+cocos2d::CCTextFieldTTF::textFieldWithPlaceHolder - 0x1cbee4
 cocos2d::CCTextFieldTTF::draw - 0x1cc638
 cocos2d::CCTextFieldTTF::getColorSpaceHolder - 0x1cc6f8
 cocos2d::CCTextFieldTTF::setColorSpaceHolder - 0x1cc700

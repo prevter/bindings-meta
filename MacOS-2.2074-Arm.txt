@@ -1444,6 +1444,10 @@ cocos2d::CCActionTween::startWithTarget - 0x6a3288
 cocos2d::CCActionTween::reverse - 0x6a3318
 cocos2d::CCTextFieldTTF::CCTextFieldTTF - 0x2154a4
 cocos2d::CCTextFieldTTF::~CCTextFieldTTF - 0x21557c
+cocos2d::CCTextFieldTTF::textFieldWithPlaceHolder - 0x21565c
+cocos2d::CCTextFieldTTF::textFieldWithPlaceHolder - 0x21586c
+cocos2d::CCTextFieldTTF::initWithPlaceHolder - 0x215724
+cocos2d::CCTextFieldTTF::initWithPlaceHolder - 0x215930
 cocos2d::CCTextFieldTTF::draw - 0x21632c
 cocos2d::CCTextFieldTTF::getColorSpaceHolder - 0x2163ec
 cocos2d::CCTextFieldTTF::setColorSpaceHolder - 0x2163f4
