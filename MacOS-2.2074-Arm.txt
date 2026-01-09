@@ -1679,6 +1679,9 @@ cocos2d::CCBMFontConfiguration::parseInfoArguments - 0x4f34bc
 cocos2d::CCBMFontConfiguration::parseKerningEntry - 0x4f4d8c
 cocos2d::CCBMFontConfiguration::purgeFontDefDictionary - 0x4f31a4
 cocos2d::CCBMFontConfiguration::purgeKerningDictionary - 0x4f32fc
+cocos2d::CCGrabber::grab - 0x515040
+cocos2d::CCGrabber::beforeRender - 0x5150b0
+cocos2d::CCGrabber::afterRender - 0x515108
 GJDropDownLayer::~GJDropDownLayer - 0x503ba8
 GJDropDownLayer::create - 0x503e08
 GJDropDownLayer::create - 0x50432c
