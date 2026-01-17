@@ -37,11 +37,13 @@ cocos2d::CCAction::isDone - 0x264938
 cocos2d::CCAction::startWithTarget - 0x264928
 cocos2d::CCAction::stop - 0x264930
 cocos2d::CCAction::step - 0x264940
+cocos2d::CCActionInterval::initWithDuration - 0x18d7f4
 cocos2d::CCActionInterval::copyWithZone - 0x18d818
 cocos2d::CCActionInterval::isDone - 0x18d8f0
 cocos2d::CCActionInterval::startWithTarget - 0x18d968
 cocos2d::CCActionInterval::step - 0x18d900
 cocos2d::CCActionInterval::reverse - 0x18d994
+cocos2d::CCActionEase::create - 0x26ae04
 cocos2d::CCActionEase::~CCActionEase - 0x26afb8
 cocos2d::CCActionEase::initWithAction - 0x26ae94
 cocos2d::CCActionEase::copyWithZone - 0x26aedc
@@ -878,7 +880,13 @@ cocos2d::CCActionManager::removeActionByTag - 0x2f4a70
 cocos2d::CCActionManager::getActionByTag - 0x2f4bb0
 cocos2d::CCActionManager::pauseTarget - 0x2f4184
 cocos2d::CCActionManager::resumeTarget - 0x2f4280
+cocos2d::CCActionManager::removeActionAtIndex - 0x2f40c8
+cocos2d::CCActionManager::deleteHashElement - 0x2f3f54
+cocos2d::CCActionManager::actionAllocWithHashElement - 0x2f4080
 cocos2d::CCAnimate::create - 0x1908e8
+cocos2d::CCAnimate::initWithAnimation - 0x190940
+cocos2d::CCAnimate::CCAnimate - 0x190c9c
+cocos2d::CCAnimate::~CCAnimate - 0x190d08
 cocos2d::CCAnimate::copyWithZone - 0x190be4
 cocos2d::CCAnimate::update - 0x190e38
 cocos2d::CCAnimate::startWithTarget - 0x190d8c
@@ -984,6 +992,7 @@ cocos2d::CCCallFunc::update - 0x1b1364
 cocos2d::CCCallFunc::initWithTarget - 0x1b11b0
 cocos2d::CCCallFunc::execute - 0x1b1370
 cocos2d::CCCallFuncO::create - 0x1b1470
+cocos2d::CCCallFuncO::~CCCallFuncO - 0x1b13e0
 cocos2d::CCCallFuncO::copyWithZone - 0x1b157c
 cocos2d::CCCallFuncO::execute - 0x1b143c
 cocos2d::CCCallFuncO::initWithTarget - 0x1b1530
@@ -1228,6 +1237,8 @@ cocos2d::extension::CCControlUtils::addSpriteToTargetWithPosAndAnchor - 0x1d4c08
 cocos2d::extension::CCControlUtils::HSVfromRGB - 0x1d4c80
 cocos2d::extension::CCControlUtils::RGBfromHSV - 0x1d4d28
 cocos2d::CCSpawn::createWithTwoActions - 0x18e290
+cocos2d::CCSpawn::initWithTwoActions - 0x18e31c
+cocos2d::CCSpawn::~CCSpawn - 0x18e554
 cocos2d::CCSpawn::copyWithZone - 0x18e464
 cocos2d::CCSpawn::update - 0x18e648
 cocos2d::CCSpawn::startWithTarget - 0x18e5b4
