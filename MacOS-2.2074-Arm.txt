@@ -880,6 +880,8 @@ cocos2d::CCDirector::setProjection - 0x3ded3c
 cocos2d::CCDirector::setViewport - 0x3dfc30
 cocos2d::CCDirector::CCDirector - 0x3de790
 cocos2d::CCDirector::~CCDirector - 0x3deb9c
+cocos2d::CCDirector::calculateDeltaTime - 0x3df20c
+cocos2d::CCDirector::calculateMPF - 0x3df594
 cocos2d::CCDirector::convertToGL - 0x3dfd04
 cocos2d::CCDirector::convertToUI - 0x3dfde0
 cocos2d::CCDirector::drawScene - 0x3deef0
@@ -899,6 +901,7 @@ cocos2d::CCDirector::resume - 0x3e06bc
 cocos2d::CCDirector::runWithScene - 0x3dff70
 cocos2d::CCDirector::sceneCount - 0x3e04c0
 cocos2d::CCDirector::showFPSLabel - 0x3df4dc
+cocos2d::CCDirector::showStats - 0x3df444
 cocos2d::CCDirector::toggleShowFPS - 0x3df778
 cocos2d::CCDirector::updateContentScale - 0x3dfb18
 cocos2d::CCDirector::willSwitchToScene - 0x3dff18
