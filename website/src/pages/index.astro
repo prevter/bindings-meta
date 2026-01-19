@@ -52,16 +52,7 @@ const CodegenDataFiles = fs
 	.filter((file) => file.startsWith("CodegenData-") && !file.startsWith("CodegenData-geode-catgirls-bindings"))
 	.map((file) => file.replace("CodegenData-", "").replace(".json", ""));
 
-const sortedVersions = CodegenDataFiles.sort((a, b) => {
-	const aParts = a.split(".");
-	const bParts = b.split(".");
-	for (let i = 0; i < aParts.length; i++) {
-		if (aParts[i] !== bParts[i]) {
-			return parseInt(bParts[i]) - parseInt(aParts[i]);
-		}
-	}
-	return 0;
-});
+const sortedVersions = CodegenDataFiles.sort((a, b) => Number(b) - Number(a));
 console.log(CodegenDataFiles);
 console.log(sortedVersions);
 ---
