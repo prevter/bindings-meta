@@ -1158,6 +1158,9 @@ ObjectDecoder::getDecodedObject - 0x23589c
 ObjectDecoder::init - 0x235898
 cocos2d::extension::CCControl::CCControl - 0x1a8a80
 cocos2d::extension::CCControl::~CCControl - 0x1a8bb0
+cocos2d::extension::CCControl::dispatchListforControlEvent - 0x1a8e58
+cocos2d::extension::CCControl::addTargetWithActionForControlEvent - 0x1a8f2c
+cocos2d::extension::CCControl::removeTargetWithActionForControlEvent - 0x1a8ff4
 cocos2d::extension::CCControl::init - 0x1a8ae4
 cocos2d::extension::CCControl::onEnter - 0x1a8cb4
 cocos2d::extension::CCControl::onExit - 0x1a8cb8
@@ -1185,6 +1188,7 @@ cocos2d::extension::CCControlColourPicker::ccTouchBegan - 0x1b1d2c
 cocos2d::extension::CCControlColourPicker::setColorValue - 0x1b1c6c
 cocos2d::extension::CCControlHuePicker::CCControlHuePicker - 0x1b3948
 cocos2d::extension::CCControlHuePicker::~CCControlHuePicker - 0x1b39c4
+cocos2d::extension::CCControlHuePicker::create - 0x1b3a74
 cocos2d::extension::CCControlHuePicker::checkSliderPosition - 0x1b3eb4
 cocos2d::extension::CCControlHuePicker::updateSliderPosition - 0x1b3e20
 cocos2d::extension::CCControlHuePicker::ccTouchBegan - 0x1b3f38
@@ -1196,6 +1200,7 @@ cocos2d::extension::CCControlHuePicker::setHuePercentage - 0x1b3d10
 cocos2d::extension::CCControlHuePicker::registerWithTouchDispatcher - 0x1b3cbc
 cocos2d::extension::CCControlSaturationBrightnessPicker::CCControlSaturationBrightnessPicker - 0x1bfae0
 cocos2d::extension::CCControlSaturationBrightnessPicker::~CCControlSaturationBrightnessPicker - 0x1bfb6c
+cocos2d::extension::CCControlSaturationBrightnessPicker::create - 0x1bfd84
 cocos2d::extension::CCControlSaturationBrightnessPicker::checkSliderPosition - 0x1c00e0
 cocos2d::extension::CCControlSaturationBrightnessPicker::updateSliderPosition - 0x1bff4c
 cocos2d::extension::CCControlSaturationBrightnessPicker::ccTouchBegan - 0x1c01fc
@@ -1209,6 +1214,8 @@ cocos2d::extension::CCScale9Sprite::create - 0x216814
 cocos2d::extension::CCScale9Sprite::CCScale9Sprite - 0x2151f4
 cocos2d::extension::CCScale9Sprite::~CCScale9Sprite - 0x2152a4
 cocos2d::extension::CCScale9Sprite::updatePositions - 0x21628c
+cocos2d::extension::CCScale9Sprite::updateCapInset - 0x216be8
+cocos2d::extension::CCScale9Sprite::setBlendAdditive - 0x21711c
 cocos2d::extension::CCScale9Sprite::init - 0x21536c
 cocos2d::extension::CCScale9Sprite::setContentSize - 0x216264
 cocos2d::extension::CCScale9Sprite::visit - 0x216f54
@@ -1244,8 +1251,12 @@ cocos2d::extension::CCScale9Sprite::initWithSpriteFrameName - 0x216a44
 cocos2d::extension::CCScale9Sprite::initWithSpriteFrameName - 0x216ab4
 cocos2d::extension::CCScale9Sprite::updateWithBatchNode - 0x2154dc
 cocos2d::extension::CCScale9Sprite::setSpriteFrame - 0x216e80
+cocos2d::extension::CCHttpClient::CCHttpClient - 0x2408ec
+cocos2d::extension::CCHttpClient::~CCHttpClient - 0x240980
 cocos2d::extension::CCHttpClient::getInstance - 0x240778
 cocos2d::extension::CCHttpClient::send - 0x241138
+cocos2d::extension::CCHttpClient::lazyInitThreadSemphore - 0x2409f4
+cocos2d::extension::CCHttpClient::dispatchResponseCallbacks - 0x2407c8
 cocos2d::ZipUtils::base64EncodeEnc - 0x23dd10
 cocos2d::ZipUtils::base64URLDecode - 0x23df70
 cocos2d::ZipUtils::base64URLEncode - 0x23e064
@@ -1328,6 +1339,8 @@ cocos2d::CCPrettyPrinter::visit - 0x24daac
 cocos2d::CCPrettyPrinter::visit - 0x24dad8
 cocos2d::CCPrettyPrinter::visit - 0x24ddb8
 cocos2d::CCPrettyPrinter::visit - 0x24e038
+cocos2d::extension::CCInvocation::create - 0x214a80
+cocos2d::extension::CCInvocation::invoke - 0x214b04
 cocos2d::CCKeypadHandler::initWithDelegate - 0x4f15c
 cocos2d::CCKeyboardHandler::initWithDelegate - 0x217628
 cocos2d::CCAnimationFrame::copyWithZone - 0x1a72f4
