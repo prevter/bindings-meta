@@ -741,6 +741,7 @@ cocos2d::CCDirector::getDeltaTime - 0x179000
 cocos2d::CCSequence::create - 0x18db38
 cocos2d::CCSequence::createWithTwoActions - 0x18d99c
 cocos2d::CCSequence::createWithVariableList - 0x18dab8
+cocos2d::CCSequence::initWithTwoActions - 0x18da2c
 cocos2d::CCSequence::~CCSequence - 0x18dcc8
 cocos2d::CCSequence::copyWithZone - 0x18dbd4
 cocos2d::CCSequence::update - 0x18ddb0
@@ -1110,6 +1111,7 @@ cocos2d::CCDelayTime::create - 0x18e3d8
 cocos2d::CCDelayTime::copyWithZone - 0x190824
 cocos2d::CCDelayTime::update - 0x1908dc
 cocos2d::CCDelayTime::reverse - 0x1908e0
+cocos2d::CCActionTween::create - 0x3a1a20
 cocos2d::CCActionTween::create - 0x3a1a4c
 cocos2d::CCActionTween::update - 0x3a1b58
 cocos2d::CCActionTween::startWithTarget - 0x3a1b2c
