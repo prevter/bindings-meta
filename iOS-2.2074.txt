@@ -608,6 +608,8 @@ cocos2d::CCLayerGradient::getVector - 0x14d9d8
 cocos2d::CCLayerGradient::setVector - 0x14d9a8
 cocos2d::CCLayerGradient::setCompressedInterpolation - 0x14da5c
 cocos2d::CCLayerGradient::isCompressedInterpolation - 0x14da54
+cocos2d::CCMouseDispatcher::CCMouseDispatcher - 0x2fe324
+cocos2d::CCMouseDispatcher::~CCMouseDispatcher - 0x2fe398
 cocos2d::CCMouseDispatcher::addDelegate - 0x2fe4e0
 cocos2d::CCMouseDispatcher::forceRemoveDelegate - 0x2fe44c
 cocos2d::CCMouseDispatcher::removeDelegate - 0x2fe404
@@ -688,6 +690,8 @@ cocos2d::CCIMEDelegate::attachWithIME - 0x1d47b4
 cocos2d::CCIMEDelegate::detachWithIME - 0x1d48b8
 cocos2d::CCIMEDispatcher::dispatchDeleteBackward - 0x1d49c4
 cocos2d::CCIMEDispatcher::dispatchInsertText - 0x1d4998
+cocos2d::CCKeypadDispatcher::CCKeypadDispatcher - 0x1b09f8
+cocos2d::CCKeypadDispatcher::~CCKeypadDispatcher - 0x1b0a6c
 cocos2d::CCKeypadDispatcher::addDelegate - 0x1b0bb4
 cocos2d::CCKeypadDispatcher::dispatchKeypadMSG - 0x1b0c38
 cocos2d::CCKeypadDispatcher::forceAddDelegate - 0x1b0bfc
@@ -839,7 +843,10 @@ cocos2d::CCLabelBMFont::create - 0x2fae20
 cocos2d::CCLabelBMFont::createBatched - 0x2fb1d0
 cocos2d::CCLabelBMFont::purgeCachedData - 0x2fae1c
 cocos2d::CCLabelBMFont::initWithString - 0x2faf30
+cocos2d::CCLabelBMFont::getLetterPosXLeft - 0x2fce78
+cocos2d::CCLabelBMFont::getLetterPosXRight - 0x2fcf1c
 cocos2d::CCLabelBMFont::createFontChars - 0x2fb578
+cocos2d::CCLabelBMFont::kerningAmountForFirst - 0x2fb460
 cocos2d::CCLabelBMFont::limitLabelWidth - 0x2fd074
 cocos2d::CCLabelBMFont::~CCLabelBMFont - 0x2fb3ac
 cocos2d::CCLabelBMFont::init - 0x2fb298
@@ -874,6 +881,7 @@ cocos2d::CCLabelTTF::initWithString - 0x72828
 cocos2d::CCLabelTTF::initWithString - 0x7270c
 cocos2d::CCLabelTTF::CCLabelTTF - 0x725b4
 cocos2d::CCLabelTTF::~CCLabelTTF - 0x7267c
+cocos2d::CCLabelTTF::updateTexture - 0x72894
 cocos2d::CCLabelTTF::init - 0x72800
 cocos2d::CCLabelTTF::setString - 0x7283c
 cocos2d::CCLabelTTF::getString - 0x729a4
@@ -1316,6 +1324,7 @@ cocos2d::CCDisplayLinkDirector::startAnimation - 0x179de4
 cocos2d::CCDisplayLinkDirector::mainLoop - 0x179e20
 cocos2d::CCScriptEngineManager::sharedManager - 0x2726e0
 cocos2d::CCBMFontConfiguration::create - 0x2f8bf8
+cocos2d::CCBMFontConfiguration::~CCBMFontConfiguration - 0x2f9730
 cocos2d::CCBMFontConfiguration::parseCharacterDefinition - 0x2fa078
 cocos2d::CCBMFontConfiguration::parseCommonArguments - 0x2f9b50
 cocos2d::CCBMFontConfiguration::parseConfigFile - 0x2f8ccc
@@ -1341,7 +1350,13 @@ cocos2d::CCPrettyPrinter::visit - 0x24ddb8
 cocos2d::CCPrettyPrinter::visit - 0x24e038
 cocos2d::extension::CCInvocation::create - 0x214a80
 cocos2d::extension::CCInvocation::invoke - 0x214b04
+cocos2d::CCKeypadHandler::handlerWithDelegate - 0x4f1a4
+cocos2d::CCKeypadHandler::~CCKeypadHandler - 0x4f0f0
+cocos2d::CCKeypadHandler::getDelegate - 0x4f0e8
 cocos2d::CCKeypadHandler::initWithDelegate - 0x4f15c
+cocos2d::CCKeyboardHandler::handlerWithDelegate - 0x217670
+cocos2d::CCKeyboardHandler::~CCKeyboardHandler - 0x2175bc
+cocos2d::CCKeyboardHandler::getDelegate - 0x2175b4
 cocos2d::CCKeyboardHandler::initWithDelegate - 0x217628
 cocos2d::CCAnimationFrame::copyWithZone - 0x1a72f4
 cocos2d::CCComponentContainer::get - 0x16833c
