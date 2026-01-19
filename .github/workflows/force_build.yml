@@ -18,6 +18,8 @@ jobs:
           - { platform: Win64, version: "2.2074" }
           - { platform: MacOS, version: "2.2074" }
           - { platform: iOS, version: "2.2074" }
+          - { platform: Win64, version: "2.208" }
+          - { platform: MacOS, version: "2.208" }
 
     runs-on: ubuntu-latest
     name: Run codegen
