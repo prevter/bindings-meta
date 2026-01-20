@@ -767,9 +767,11 @@ ConfigureHSVWidget::init - 0x96b00
 ConfigureHSVWidget::onResetHSV - 0x97bf0
 ConfigureHSVWidget::updateLabels - 0x97c70
 ConfigureHSVWidget::updateSliders - 0x97900
+ConfigureValuePopup::create - 0x98480
 ConfigureValuePopup::keyBackClicked - 0x99600
 ConfigureValuePopup::textInputClosed - 0x8b870
 ConfigureValuePopup::textChanged - 0x99370
+ConfigureValuePopup::init - 0x98660
 ConfigureValuePopup::onClose - 0x99580
 ConfigureValuePopup::sliderChanged - 0x990c0
 CountTriggerGameObject::triggerObject - 0x4baea0
@@ -1554,6 +1556,7 @@ GameLevelManager::hasLikedAccountItem - 0x164e50
 GameLevelManager::hasLikedItem - 0x164e50
 GameLevelManager::hasLikedItemFullCheck - 0x164dc0
 GameLevelManager::isDLActive - 0x149aa0
+GameLevelManager::isFollowingUser - 0x14a980
 GameLevelManager::isTimeValid - 0x149dd0
 GameLevelManager::levelIDFromCommentKey - 0x15d6e0
 GameLevelManager::likeItem - 0x163ca0
@@ -1771,6 +1774,7 @@ GameStatsManager::hasClaimedListReward - 0x1e2c40
 GameStatsManager::hasCompletedChallenge - 0x1e2880
 GameStatsManager::hasCompletedDailyLevel - 0x1e2d20
 GameStatsManager::hasCompletedLevel - 0x1ddfc0
+GameStatsManager::hasCompletedMainLevel - 0x1dde90
 GameStatsManager::hasCompletedStarLevel - 0x1de2e0
 GameStatsManager::hasPendingUserCoin - 0x1dfea0
 GameStatsManager::hasRewardBeenCollected - 0x1e1ab0
@@ -2433,6 +2437,7 @@ GJScaleControl::updateLabelY - 0x12ad90
 GJScoreCell::init - 0xb46a0
 GJScoreCell::draw - 0xade40
 GJScoreCell::FLAlert_Clicked - 0xb9bd0
+GJScoreCell::loadFromScore - 0xb84b0
 GJScoreCell::onViewProfile - 0xb9a50
 GJSearchObject::create - 0x174740
 GJSearchObject::create - 0x174820
@@ -2930,6 +2935,7 @@ LevelPage::ccTouchCancelled - 0x71260
 LevelPage::registerWithTouchDispatcher - 0x9b7f0
 LevelPage::dialogClosed - 0x31d520
 LevelPage::addSecretCoin - 0x31c120
+LevelPage::addSecretDoor - 0x31c830
 LevelPage::init - 0x3199a0
 LevelPage::onInfo - 0x31db70
 LevelPage::onPlay - 0x31d600
@@ -3092,10 +3098,12 @@ MenuLayer::onMoreGames - 0x335470
 MenuLayer::onOptions - 0x3357a0
 MenuLayer::onOptionsInstant - 0x3357b0
 MenuLayer::onPlay - 0x335700
+MenuLayer::onQuit - 0x335cc0
 MenuLayer::onStats - 0x335940
 MenuLayer::openOptions - 0x3357c0
 MenuLayer::showTOS - 0x3351f0
 MenuLayer::updateUserProfileButton - 0x334f20
+MenuLayer::willClose - 0x335de0
 MessagesProfilePage::create - 0x3362a0
 MessagesProfilePage::registerWithTouchDispatcher - 0x42660
 MessagesProfilePage::keyBackClicked - 0x3378a0
@@ -3260,7 +3268,7 @@ ObjectManager::setup - 0x6e510
 ObjectToolbox::sharedState - 0x3489e0
 ObjectToolbox::init - 0x348aa0
 ObjectToolbox::gridNodeSizeForKey - 0x3708d0
-ObjectToolbox::intKeyToFrame - 0x1d06a0
+ObjectToolbox::intKeyToFrame - 0x3708a0
 ObjectToolbox::perspectiveBlockFrame - 0x3712f0
 OptionsCell::loadFromObject - 0xb5190
 OptionsCell::onToggleOption - 0xb5530
@@ -3586,6 +3594,7 @@ ProfilePage::uploadActionFinished - 0x3c4ad0
 ProfilePage::uploadActionFailed - 0x3c4c90
 ProfilePage::init - 0x3be4e0
 ProfilePage::loadPage - 0x3c5e70
+ProfilePage::loadPageFromUserInfo - 0x3bfb20
 ProfilePage::onClose - 0x3c4d40
 ProfilePage::onComment - 0x3c39c0
 ProfilePage::onCommentHistory - 0x3c3930
@@ -3851,7 +3860,6 @@ SetItemIDLayer::onCustomToggleTriggerValue - 0x401550
 SetItemIDLayer::init - 0x400df0
 SetLevelOrderPopup::init - 0x308c50
 SetLevelOrderPopup::onOrderButton - 0x308f20
-SetTargetIDLayer::create - 0x98480
 SetTargetIDLayer::determineStartValues - 0x28f0a0
 SetTargetIDLayer::valueDidChange - 0x401f90
 SetTargetIDLayer::init - 0x401af0
@@ -4122,7 +4130,6 @@ SetupRandAdvTriggerPopup::updateGroupIDButtons - 0x43db30
 SetupRandTriggerPopup::determineStartValues - 0x440540
 SetupRandTriggerPopup::onClose - 0x441020
 SetupRandTriggerPopup::textChanged - 0x440840
-SetupRandTriggerPopup::init - 0x3bfb20
 SetupRandTriggerPopup::onTargetID2Arrow - 0x4407f0
 SetupRandTriggerPopup::onTargetIDArrow - 0x4407a0
 SetupResetTriggerPopup::init - 0x46a3e0
