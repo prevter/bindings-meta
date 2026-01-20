@@ -1888,7 +1888,8 @@ GJAccountManager::syncAccount - 0x202900
 GJAccountSettingsLayer::keyBackClicked - 0x294390
 GJAccountSettingsLayer::textInputShouldOffset - 0x7b620
 GJAccountSettingsLayer::textInputReturn - 0x7b680
-GJAccountSettingsLayer::init - 0x2946c0
+GJAccountSettingsLayer::init - 0x292040
+GJAccountSettingsLayer::onUpdate - 0x293ed0
 GJActionManager::init - 0x2005d0
 GJBaseGameLayer::GJBaseGameLayer - 0x2cfd50
 GJBaseGameLayer::~GJBaseGameLayer - 0x2057e0
@@ -2233,6 +2234,7 @@ GJGameLevel::getAverageDifficulty - 0x16cd70
 GJGameLevel::getCoinKey - 0x16cde0
 GJGameLevel::getListSnapshot - 0x16db70
 GJGameLevel::getSongName - 0x16cff0
+GJGameLevel::saveNewScore - 0x16d270
 GJGameLevel::savePercentage - 0x16c8f0
 GJGameLevel::scoreStringToVector - 0x16d6c0
 GJGameLevel::storeNewLocalScore - 0x16d440
@@ -3605,6 +3607,7 @@ ProfilePage::onMyLevels - 0x3c3620
 ProfilePage::onMyLists - 0x3c37d0
 ProfilePage::onNextPage - 0x3c6580
 ProfilePage::onPrevPage - 0x3c6590
+ProfilePage::onSettings - 0x3c5980
 ProfilePage::onStatInfo - 0x3c2d80
 ProfilePage::onUpdate - 0x3bf490
 ProfilePage::setupCommentsBrowser - 0x3c6160
@@ -4609,6 +4612,7 @@ UpdateAccountSettingsPopup::create - 0x2943d0
 UpdateAccountSettingsPopup::keyBackClicked - 0x294fd0
 UpdateAccountSettingsPopup::updateSettingsFinished - 0x294d90
 UpdateAccountSettingsPopup::updateSettingsFailed - 0x294e90
+UpdateAccountSettingsPopup::init - 0x2946c0
 UploadActionPopup::create - 0x294fe0
 UploadActionPopup::keyBackClicked - 0x2957e0
 UploadActionPopup::init - 0x295120
