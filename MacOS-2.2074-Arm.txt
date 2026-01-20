@@ -815,6 +815,7 @@ cocos2d::CCTextureCache::prepareAsyncLoading - 0x508584
 cocos2d::CCTextureCache::removeTextureForKey - 0x50a7e4
 cocos2d::CCTextureCache::textureForKey - 0x50a874
 cocos2d::CCTouch::getLocationInView - 0x4f71c
+cocos2d::CCTouch::getPreviousLocationInView - 0x4f728
 cocos2d::CCTouch::getLocation - 0x4f740
 cocos2d::CCTouch::getPreviousLocation - 0x4f76c
 cocos2d::CCTouch::getStartLocation - 0x4f798
