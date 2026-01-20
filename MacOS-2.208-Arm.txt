@@ -2232,6 +2232,7 @@ AccountLayer::onRegister - 0xb3aac
 AccountLayer::onSync - 0xb3dc0
 AccountLayer::showLoadingUI - 0xb47e4
 AccountLayer::toggleUI - 0xb51b0
+FLAlertLayer::~FLAlertLayer - 0x1234567
 FLAlertLayer::create - 0x3fef78
 FLAlertLayer::onEnter - 0x40048c
 FLAlertLayer::ccTouchBegan - 0x3fff64
@@ -2796,6 +2797,7 @@ CCAnimateFrameCache::addDict - 0x4ba028
 CCAnimateFrameCache::init - 0x4db24
 CCAnimateFrameCache::purgeSharedSpriteFrameCache - 0x4b8cb0
 CCAnimateFrameCache::removeSpriteFrames - 0x4ba77c
+CCBlockLayer::~CCBlockLayer - 0x1234567
 CCBlockLayer::create - 0x46e008
 CCBlockLayer::init - 0x46e0c0
 CCBlockLayer::draw - 0x46e340
@@ -3636,6 +3638,7 @@ EditLevelLayer::onShare - 0x1a91ec
 EditLevelLayer::onTest - 0x1ab2b8
 EditLevelLayer::playStep2 - 0x1ab1a4
 EditLevelLayer::playStep3 - 0x1ab268
+GJOptionsLayer::~GJOptionsLayer - 0x1234567
 GJOptionsLayer::create - 0x23b190
 GJOptionsLayer::setupOptions - 0x23ba44
 GJOptionsLayer::didToggleGV - 0x601c
@@ -4134,6 +4137,7 @@ GameEffectsManager::addParticleEffect - 0x1aeac0
 GameEffectsManager::init - 0x1ae90c
 GameEffectsManager::scaleParticle - 0x1ae918
 GameLevelManager::responseToDict - 0x484310
+GameLevelManager::sharedState - 0x1234567
 GameLevelManager::init - 0x47fc30
 GameLevelManager::acceptFriendRequest - 0x4a49e0
 GameLevelManager::accountIDForUserID - 0x48245c
@@ -5526,6 +5530,7 @@ GJWriteMessagePopup::onClose - 0x2481e4
 GJWriteMessagePopup::onSend - 0x2481ec
 GJWriteMessagePopup::updateCharCountLabel - 0x248e6c
 GJWriteMessagePopup::updateText - 0x248c08
+GooglePlayManager::sharedState - 0x1234567
 GooglePlayManager::init - 0x3de860
 GooglePlayManager::googlePlaySignedIn - 0x3de868
 GradientTriggerObject::create - 0x15a9a0
@@ -7194,6 +7199,7 @@ SetupAnimationPopup::onTargetIDArrow - 0x3545dc
 SetupAnimationPopup::updateAnimationID - 0x354a08
 SetupAnimSettingsPopup::onClose - 0x8c2b0
 SetupAnimSettingsPopup::updateAnimSettings - 0x8c24c
+SetupAreaMoveTriggerPopup::~SetupAreaMoveTriggerPopup - 0x1234567
 SetupAreaMoveTriggerPopup::updateInputValue - 0x4325f0
 SetupAreaMoveTriggerPopup::updateDefaultTriggerValues - 0x432184
 SetupAreaMoveTriggerPopup::updateInputNode - 0x4325bc

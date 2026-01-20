@@ -1903,6 +1903,7 @@ AccountLayer::hideLoadingUI - 0xcd430
 AccountLayer::onHelp - 0xcc9e0
 AccountLayer::showLoadingUI - 0xcd1d0
 AccountLayer::toggleUI - 0xcdc40
+FLAlertLayer::~FLAlertLayer - 0x1234567
 FLAlertLayer::onEnter - 0x49c1b0
 FLAlertLayer::ccTouchBegan - 0x49bcf0
 FLAlertLayer::ccTouchMoved - 0x49bf40
@@ -2402,6 +2403,7 @@ CCAlertCircle::draw - 0x178c80
 CCAnimateFrameCache::sharedSpriteFrameCache - 0x56a820
 CCAnimateFrameCache::addCustomSpriteFramesWithFile - 0x56aa60
 CCAnimateFrameCache::addDict - 0x17b720
+CCBlockLayer::~CCBlockLayer - 0x1234567
 CCBlockLayer::create - 0x517790
 CCBlockLayer::init - 0x517860
 CCBlockLayer::draw - 0x517b10
@@ -2921,6 +2923,7 @@ CustomListView::create - 0x2401e0
 CustomListView::setupList - 0x24d3a0
 CustomListView::getListCell - 0x240320
 CustomListView::loadCell - 0x241ec0
+CustomSongCell::CustomSongCell - 0x1234567
 CustomSongCell::init - 0x2539c0
 CustomSongCell::draw - 0x253bd0
 CustomSongCell::songIDChanged - 0x253ab0
@@ -3082,6 +3085,7 @@ EditLevelLayer::onGuidelines - 0x1fd080
 EditLevelLayer::onSetFolder - 0x1fcb70
 EditLevelLayer::onShare - 0x1fbb40
 EditLevelLayer::verifyLevelName - 0x1fd790
+GJOptionsLayer::~GJOptionsLayer - 0x1234567
 GJOptionsLayer::create - 0x29b6b0
 GJOptionsLayer::setupOptions - 0x29c100
 GJOptionsLayer::didToggleGV - 0x6b20
@@ -3465,6 +3469,7 @@ GameCell::draw - 0x30d090
 GameCell::updateBGColor - 0x30d030
 GameEffectsManager::init - 0x201b30
 GameEffectsManager::scaleParticle - 0x201b40
+GameLevelManager::sharedState - 0x1234567
 GameLevelManager::init - 0x52b7d0
 GameLevelManager::createAndGetCommentsFull - 0x54fcf0
 GameLevelManager::createAndGetScores - 0x532760
@@ -4563,6 +4568,7 @@ GJWriteMessagePopup::onClearBody - 0x2a9c10
 GJWriteMessagePopup::onSend - 0x2a97d0
 GJWriteMessagePopup::updateCharCountLabel - 0x2aa530
 GJWriteMessagePopup::updateText - 0x25df30
+GooglePlayManager::sharedState - 0x1234567
 GooglePlayManager::init - 0x477950
 GooglePlayManager::googlePlaySignedIn - 0x477960
 GradientTriggerObject::init - 0x19b0d0
@@ -5037,6 +5043,7 @@ MenuLayer::keyDown - 0x391ed0
 MenuLayer::googlePlaySignedIn - 0x391970
 MenuLayer::FLAlert_Clicked - 0x391c30
 MenuLayer::onEveryplay - 0x391a80
+MenuLayer::onMoreGames - 0x1234567
 MenuLayer::showGCQuestion - 0x391830
 MenuLayer::videoOptionsClosed - 0x391b30
 MenuLayer::videoOptionsOpened - 0x391b10
@@ -5769,6 +5776,7 @@ SetupAnimationPopup::determineStartValues - 0x3d5210
 SetupAnimationPopup::onClose - 0x3d5630
 SetupAnimationPopup::textChanged - 0x3d5440
 SetupAnimSettingsPopup::onClose - 0x9b500
+SetupAreaMoveTriggerPopup::~SetupAreaMoveTriggerPopup - 0x1234567
 SetupAreaMoveTriggerPopup::updateInputValue - 0x4d4890
 SetupAreaMoveTriggerPopup::updateDefaultTriggerValues - 0x4d4420
 SetupAreaMoveTriggerPopup::updateInputNode - 0x4d4860
