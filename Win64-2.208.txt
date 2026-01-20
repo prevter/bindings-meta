@@ -626,6 +626,7 @@ CollisionBlockPopup::textInputShouldOffset - 0x7b620
 CollisionBlockPopup::textInputReturn - 0x7b680
 CollisionBlockPopup::init - 0x8aa60
 CollisionBlockPopup::onClose - 0x8bb60
+CollisionBlockPopup::onItemIDArrow - 0x8b670
 ColorAction::create - 0x258cb0
 ColorAction::setupFromMap - 0x259970
 ColorAction::setupFromString - 0x259890
@@ -1890,6 +1891,7 @@ GJAccountSettingsLayer::textInputShouldOffset - 0x7b620
 GJAccountSettingsLayer::textInputReturn - 0x7b680
 GJAccountSettingsLayer::init - 0x292040
 GJAccountSettingsLayer::onUpdate - 0x293ed0
+GJAccountSettingsLayer::updateScoreValues - 0x2940b0
 GJActionManager::init - 0x2005d0
 GJBaseGameLayer::GJBaseGameLayer - 0x2cfd50
 GJBaseGameLayer::~GJBaseGameLayer - 0x2057e0
@@ -2216,6 +2218,7 @@ GJFollowCommandLayer::create - 0x2703f0
 GJFollowCommandLayer::determineStartValues - 0x271820
 GJFollowCommandLayer::onClose - 0x272890
 GJFollowCommandLayer::textChanged - 0x271f40
+GJFollowCommandLayer::init - 0x270520
 GJFollowCommandLayer::onUpdateGroupID - 0x271e80
 GJFollowCommandLayer::onUpdateGroupID2 - 0x271ee0
 GJFollowCommandLayer::sliderChanged - 0x271b30
@@ -3935,6 +3938,7 @@ SetupCameraEdgePopup::onClose - 0x413b50
 SetupCameraEdgePopup::textChanged - 0x413910
 SetupCameraEdgePopup::init - 0x412920
 SetupCameraEdgePopup::onCameraEdge - 0x413760
+SetupCameraEdgePopup::onTargetIDArrow - 0x4138c0
 SetupCameraEdgePopup::onUnlockEdge - 0x413890
 SetupCameraModePopup::create - 0x413cb0
 SetupCameraModePopup::determineStartValues - 0x414880

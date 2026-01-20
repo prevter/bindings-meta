@@ -1,5 +1,5 @@
 cocos2d::CCObject::CCObject - 0x3ef980
-cocos2d::CCObject::~CCObject - 0x3efaa4
+cocos2d::CCObject::~CCObject - 0x3efa10
 cocos2d::CCObject::createWithCoder - 0x3efc8c
 cocos2d::CCObject::getTag - 0x3efc78
 cocos2d::CCObject::isEqual - 0x3efc54
@@ -954,7 +954,7 @@ cocos2d::CCLayer::keyMenuClicked - 0x41270c
 cocos2d::CCLayer::keyDown - 0x41278c
 cocos2d::CCLayer::unregisterScriptKeypadHandler - 0x411d68
 cocos2d::CCLayerRGBA::CCLayerRGBA - 0x412efc
-cocos2d::CCLayerRGBA::~CCLayerRGBA - 0x41314c
+cocos2d::CCLayerRGBA::~CCLayerRGBA - 0x4130cc
 cocos2d::CCLayerRGBA::init - 0x4132dc
 cocos2d::CCLayerRGBA::setColor - 0x413514
 cocos2d::CCLayerRGBA::getColor - 0x4134f4
@@ -969,7 +969,7 @@ cocos2d::CCLayerRGBA::isCascadeOpacityEnabled - 0x413950
 cocos2d::CCLayerRGBA::setCascadeOpacityEnabled - 0x413960
 cocos2d::CCLayerRGBA::updateDisplayedOpacity - 0x4136a8
 cocos2d::CCLayerColor::CCLayerColor - 0x413990
-cocos2d::CCLayerColor::~CCLayerColor - 0x413c08
+cocos2d::CCLayerColor::~CCLayerColor - 0x413b88
 cocos2d::CCLayerColor::create - 0x413db8
 cocos2d::CCLayerColor::create - 0x4140ac
 cocos2d::CCLayerColor::create - 0x413f30
@@ -1046,7 +1046,7 @@ cocos2d::CCMenu::ccTouchCancelled - 0x69b810
 cocos2d::CCMenu::initWithArray - 0x69b20c
 cocos2d::CCMenu::itemForTouch - 0x69b670
 cocos2d::CCMenu::itemForTouch - 0x69c8d0
-cocos2d::CCMenuItem::~CCMenuItem - 0x340060
+cocos2d::CCMenuItem::~CCMenuItem - 0x340004
 cocos2d::CCMenuItem::create - 0x33fe30
 cocos2d::CCMenuItem::create - 0x33fed8
 cocos2d::CCMenuItem::activate - 0x3401a0
@@ -1614,7 +1614,7 @@ cocos2d::CCTextFieldTTF::insertText - 0x21e1bc
 cocos2d::CCTextFieldTTF::deleteBackward - 0x21e534
 cocos2d::CCTextFieldTTF::deleteForward - 0x21e4d4
 cocos2d::CCTextFieldTTF::getContentText - 0x21e83c
-cocos2d::CCTexture2D::CCTexture2D - 0x3de918
+cocos2d::CCTexture2D::CCTexture2D - 0x3de97c
 cocos2d::CCTexture2D::~CCTexture2D - 0x3de9e0
 cocos2d::CCTexture2D::setDefaultAlphaPixelFormat - 0x3dff50
 cocos2d::CCTexture2D::getPixelFormat - 0x3deabc
@@ -1740,7 +1740,8 @@ cocos2d::CCTouchDispatcher::registerForcePrio - 0x42a338
 cocos2d::CCTouchDispatcher::setPriority - 0x42ac40
 cocos2d::CCTouchDispatcher::touches - 0x42adb0
 cocos2d::CCTouchDispatcher::unregisterForcePrio - 0x42a3ec
-cocos2d::CCTransitionScene::~CCTransitionScene - 0xbb4dc
+cocos2d::CCTransitionScene::CCTransitionScene - 0xbb45c
+cocos2d::CCTransitionScene::~CCTransitionScene - 0xbb49c
 cocos2d::CCTransitionScene::onEnter - 0xbb91c
 cocos2d::CCTransitionScene::onExit - 0xbb970
 cocos2d::CCTransitionScene::cleanup - 0xbb9c4
@@ -2971,7 +2972,9 @@ CCTextInputNode::onTextFieldInsertText - 0x8fd4c
 CCTextInputNode::onTextFieldAttachWithIME - 0x902a4
 CCTextInputNode::onTextFieldDetachWithIME - 0x905ac
 CCTextInputNode::addTextArea - 0x8ec90
+CCTextInputNode::forceOffset - 0x90c5c
 CCTextInputNode::getString - 0x8f2dc
+CCTextInputNode::init - 0x8e948
 CCTextInputNode::refreshLabel - 0x8f38c
 CCTextInputNode::setAllowedChars - 0x8f1a8
 CCTextInputNode::setLabelNormalColor - 0x8f5cc
@@ -3086,6 +3089,7 @@ CollisionBlockPopup::textInputShouldOffset - 0x22855c
 CollisionBlockPopup::textInputReturn - 0x22862c
 CollisionBlockPopup::createToggleButton - 0x2280b4
 CollisionBlockPopup::determineStartValues - 0x227ac0
+CollisionBlockPopup::init - 0x227130
 CollisionBlockPopup::onClose - 0x227b78
 CollisionBlockPopup::onItemIDArrow - 0x227db0
 CollisionBlockPopup::updateEditorLabel - 0x2282b0
@@ -3232,6 +3236,7 @@ ColorSelectPopup::colorSelectClosed - 0x63cdb8
 ColorSelectPopup::keyBackClicked - 0x63ad58
 ColorSelectPopup::closeColorSelect - 0x639370
 ColorSelectPopup::getColorValue - 0x63abc0
+ColorSelectPopup::init - 0x636f9c
 ColorSelectPopup::onCopy - 0x6398cc
 ColorSelectPopup::onDefault - 0x63994c
 ColorSelectPopup::onPaste - 0x639900
@@ -5027,6 +5032,7 @@ GJFollowCommandLayer::create - 0x26f860
 GJFollowCommandLayer::determineStartValues - 0x2712f8
 GJFollowCommandLayer::onClose - 0x271c68
 GJFollowCommandLayer::textChanged - 0x271850
+GJFollowCommandLayer::init - 0x26f9f0
 GJFollowCommandLayer::onUpdateGroupID - 0x270cdc
 GJFollowCommandLayer::onUpdateGroupID2 - 0x270d98
 GJFollowCommandLayer::sliderXModChanged - 0x270bbc
@@ -5255,6 +5261,7 @@ GJPathSprite::updateState - 0x28f520
 GJPFollowCommandLayer::determineStartValues - 0x2f0f20
 GJPFollowCommandLayer::onClose - 0x2f1a2c
 GJPFollowCommandLayer::textChanged - 0x2f1498
+GJPFollowCommandLayer::init - 0x2ef0d4
 GJPFollowCommandLayer::onUpdateGroupID - 0x2f0860
 GJPFollowCommandLayer::sliderXModChanged - 0x2f0758
 GJPFollowCommandLayer::sliderYModChanged - 0x2f07dc
@@ -6256,7 +6263,6 @@ MPLobbyLayer::onComment - 0x3f859c
 MPLobbyLayer::postComment - 0x3f8690
 MPLobbyLayer::tryExitLobby - 0x3f8844
 MPLobbyLayer::updateLobby - 0x3f8414
-MultilineBitmapFont::createWithFont - 0x8e948
 MultilineBitmapFont::setOpacity - 0x3ee228
 MultilineBitmapFont::moveSpecialDescriptors - 0x3ee308
 MultilineBitmapFont::readColorInfo - 0x3ed074
@@ -7181,6 +7187,7 @@ SetupAdvFollowRetargetPopup::valueDidChange - 0x29b444
 SetupAnimationPopup::determineStartValues - 0x35492c
 SetupAnimationPopup::onClose - 0x354c98
 SetupAnimationPopup::textChanged - 0x354b0c
+SetupAnimationPopup::init - 0x353af8
 SetupAnimationPopup::onAnimationIDArrow - 0x354684
 SetupAnimationPopup::onTargetIDArrow - 0x3545dc
 SetupAnimationPopup::updateAnimationID - 0x354a08
@@ -7223,8 +7230,9 @@ SetupAudioTriggerPopup::updateSpecialGroup - 0x418258
 SetupCameraEdgePopup::determineStartValues - 0x4d4014
 SetupCameraEdgePopup::onClose - 0x4d424c
 SetupCameraEdgePopup::textChanged - 0x4d4174
-SetupCameraEdgePopup::init - 0x257af8
+SetupCameraEdgePopup::init - 0x4d3128
 SetupCameraEdgePopup::onCameraEdge - 0x4d3ea8
+SetupCameraEdgePopup::onTargetIDArrow - 0x4d3cfc
 SetupCameraEdgePopup::onUnlockEdge - 0x4d3f98
 SetupCameraModePopup::determineStartValues - 0x40ca58
 SetupCameraModePopup::onClose - 0x40cd04
@@ -7390,7 +7398,6 @@ SetupPickupTriggerPopup::updateState - 0x4caf4
 SetupPlatformerEndPopup::init - 0x269370
 SetupPortalPopup::create - 0x4bd158
 SetupPortalPopup::keyBackClicked - 0x4be280
-SetupPortalPopup::init - 0x227130
 SetupPortalPopup::updateCameraEasing - 0x4be198
 SetupPortalPopup::updateCameraPadding - 0x4be210
 SetupPortalPopup::updateCameraPaddingLabel - 0x4be0ac
@@ -7429,7 +7436,6 @@ SetupRandAdvTriggerPopup::onClose - 0x3154b8
 SetupRandAdvTriggerPopup::textChanged - 0x3154b0
 SetupRandAdvTriggerPopup::addChance - 0x315524
 SetupRandAdvTriggerPopup::callRemoveFromGroup - 0x3159c0
-SetupRandAdvTriggerPopup::init - 0x353af8
 SetupRandAdvTriggerPopup::onAddChance - 0x314b44
 SetupRandAdvTriggerPopup::removeGroupID - 0x315710
 SetupRandAdvTriggerPopup::removeGroupIDFromObject - 0x17a814
