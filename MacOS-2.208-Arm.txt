@@ -5865,6 +5865,7 @@ LevelInfoLayer::setIDPopupClosed - 0x25eb40
 LevelInfoLayer::onEnterTransitionDidFinish - 0x260094
 LevelInfoLayer::downloadLevel - 0x25bfa4
 LevelInfoLayer::incrementLikes - 0x260a14
+LevelInfoLayer::init - 0x259604
 LevelInfoLayer::loadLevelStep - 0x26020c
 LevelInfoLayer::onAddToList - 0x25e990
 LevelInfoLayer::onClone - 0x260668

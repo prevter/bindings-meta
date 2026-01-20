@@ -4840,6 +4840,7 @@ LevelInfoLayer::setIDPopupClosed - 0x2c2730
 LevelInfoLayer::onEnterTransitionDidFinish - 0x2c3d70
 LevelInfoLayer::confirmClone - 0x2c1be0
 LevelInfoLayer::confirmOwnerDelete - 0x2c19e0
+LevelInfoLayer::init - 0x2bd000
 LevelInfoLayer::loadLevelStep - 0x2c3ee0
 LevelInfoLayer::onAddToList - 0x2c25b0
 LevelInfoLayer::onClone - 0x2c4310
