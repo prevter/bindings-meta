@@ -727,8 +727,8 @@ cocos2d::CCGrid3D::vertex - 0x43f32c
 cocos2d::CCHide::copyWithZone - 0x6b2940
 cocos2d::CCHide::update - 0x6b28d4
 cocos2d::CCHide::reverse - 0x6b28e8
-cocos2d::CCImage::CCImage - 0x3eea74
-cocos2d::CCImage::~CCImage - 0x3eeb0c
+cocos2d::CCImage::CCImage - 0x3eeaa0
+cocos2d::CCImage::~CCImage - 0x3eeacc
 cocos2d::CCImage::initWithImageData - 0x3eef38
 cocos2d::CCImage::initWithImageFile - 0x3eeb8c
 cocos2d::CCIMEDelegate::CCIMEDelegate - 0x41b960
@@ -833,9 +833,11 @@ cocos2d::CCSprite::CCSprite - 0x229d88
 cocos2d::CCSprite::~CCSprite - 0x229e10
 cocos2d::CCSprite::create - 0x229910
 cocos2d::CCSprite::create - 0x229600
+cocos2d::CCSprite::create - 0x2296f0
 cocos2d::CCSprite::createWithSpriteFrame - 0x2297f4
 cocos2d::CCSprite::createWithSpriteFrameName - 0x2298e8
 cocos2d::CCSprite::createWithTexture - 0x229384
+cocos2d::CCSprite::createWithTexture - 0x2294fc
 cocos2d::CCSprite::init - 0x2299f8
 cocos2d::CCSprite::setVertexZ - 0x22b230
 cocos2d::CCSprite::setScaleX - 0x22b0a0
@@ -983,6 +985,8 @@ cocos2d::CCLayerColor::setColor - 0x4145f4
 cocos2d::CCLayerColor::setOpacity - 0x4147a8
 cocos2d::CCLayerColor::setBlendFunc - 0x413da8
 cocos2d::CCLayerColor::getBlendFunc - 0x413d98
+cocos2d::CCLayerGradient::create - 0x414c40
+cocos2d::CCLayerGradient::create - 0x4148e8
 cocos2d::CCLayerGradient::create - 0x414a90
 cocos2d::CCLayerGradient::init - 0x414dcc
 cocos2d::CCLayerGradient::visit - 0x41524c
@@ -1929,7 +1933,7 @@ cocos2d::extension::CCControlButton::setBackgroundSpriteForState - 0x2e09f8
 cocos2d::extension::CCControlButton::setBackgroundSpriteFrameForState - 0x2e0b5c
 cocos2d::extension::CCControlButton::doesAdjustBackgroundImage - 0x2e02dc
 cocos2d::extension::CCControlButton::setAdjustBackgroundImage - 0x2dfcb4
-cocos2d::extension::CCControlColourPicker::colourPicker - 0x2e1cec
+cocos2d::extension::CCControlColourPicker::colourPicker - 0x2e1d80
 cocos2d::extension::CCControlColourPicker::init - 0x2e1818
 cocos2d::extension::CCControlColourPicker::ccTouchBegan - 0x2e1f54
 cocos2d::extension::CCControlColourPicker::setColorValue - 0x2e1e14
@@ -2071,6 +2075,7 @@ cocos2d::extension::CCScale9Sprite::create - 0x36deec
 cocos2d::extension::CCScale9Sprite::create - 0x36e00c
 cocos2d::extension::CCScale9Sprite::create - 0x36ddc4
 cocos2d::extension::CCScale9Sprite::createWithSpriteFrame - 0x36e320
+cocos2d::extension::CCScale9Sprite::createWithSpriteFrame - 0x36e21c
 cocos2d::extension::CCScale9Sprite::createWithSpriteFrameName - 0x36e51c
 cocos2d::extension::CCScale9Sprite::createWithSpriteFrameName - 0x36e418
 cocos2d::extension::CCScale9Sprite::init - 0x36c874
@@ -3934,6 +3939,8 @@ EndLevelLayer::enterAnimFinished - 0x422718
 EndLevelLayer::keyUp - 0x422fdc
 EndLevelLayer::coinEnterFinished - 0x422b54
 EndLevelLayer::coinEnterFinishedO - 0x422b08
+EndLevelLayer::currencyEnterFinished - 0x422d74
+EndLevelLayer::diamondEnterFinished - 0x422e68
 EndLevelLayer::getCoinString - 0x4211ac
 EndLevelLayer::getEndText - 0x4213f4
 EndLevelLayer::goEdit - 0x422720
@@ -3941,7 +3948,14 @@ EndLevelLayer::init - 0x41f6e8
 EndLevelLayer::onEdit - 0x4216f0
 EndLevelLayer::onEveryplay - 0x42271c
 EndLevelLayer::onHideLayer - 0x421944
+EndLevelLayer::onLevelLeaderboard - 0x4218d8
+EndLevelLayer::onMenu - 0x4215ec
+EndLevelLayer::onReplay - 0x4214d8
+EndLevelLayer::onRestartCheckpoint - 0x421784
 EndLevelLayer::playCoinEffect - 0x10fea8
+EndLevelLayer::playCurrencyEffect - 0x4220a8
+EndLevelLayer::playDiamondEffect - 0x4223e0
+EndLevelLayer::playEndEffect - 0x4228ec
 EndLevelLayer::playStarEffect - 0x421bc0
 EndLevelLayer::starEnterFinished - 0x4227d0
 EndLevelLayer::tryShowBanner - 0x421a00
@@ -3967,12 +3981,14 @@ EnterEffectObject::customObjectSetup - 0x157204
 EnterEffectObject::getSaveString - 0x14946c
 EnterEffectObject::init - 0x1493b0
 EnterEffectObject::resetEnterAnimValues - 0x1571c8
+EventLinkTrigger::create - 0x1861b4
 EventLinkTrigger::init - 0x186290
 EventLinkTrigger::triggerObject - 0x1862e0
 EventLinkTrigger::customObjectSetup - 0x186ee4
 EventLinkTrigger::getSaveString - 0x1863a4
 ExplodeItemNode::create - 0x1beb88
 ExplodeItemNode::update - 0x1bfa6c
+ExplodeItemNode::createSprites - 0x1bec3c
 ExplodeItemSprite::create - 0x1bf9c8
 ExplodeItemSprite::init - 0x1bfd5c
 ExtendedLayer::create - 0x3294f0
