@@ -1972,7 +1972,6 @@ GJBaseGameLayer::updateScreenRotation - 0x235cc0
 GJBaseGameLayer::reverseDirection - 0x218190
 GJBaseGameLayer::rotateGameplay - 0x2181f0
 GJBaseGameLayer::updateTimeWarp - 0x235f90
-GJBaseGameLayer::updateTimeWarp - 0x235f90
 GJBaseGameLayer::applyTimeWarp - 0x235fe0
 GJBaseGameLayer::createCustomParticle - 0x240b90
 GJBaseGameLayer::claimCustomParticle - 0x240e90
@@ -2096,6 +2095,7 @@ GJBaseGameLayer::processMoveActionsStep - 0x22b600
 GJBaseGameLayer::processOptionsTrigger - 0x223d80
 GJBaseGameLayer::processPlayerFollowActions - 0x22df00
 GJBaseGameLayer::processQueuedAudioTriggers - 0x23b8f0
+GJBaseGameLayer::processQueuedButtons - 0x231d40
 GJBaseGameLayer::processRotationActions - 0x22b820
 GJBaseGameLayer::processSFXObjects - 0x241820
 GJBaseGameLayer::processSFXState - 0x244c20
@@ -3416,6 +3416,7 @@ PauseLayer::tryQuit - 0x37e6f0
 PlatformToolbox::copyToClipboard - 0x787b0
 PlatformToolbox::getDisplaySize - 0x78720
 PlatformToolbox::getUniqueUserID - 0x78530
+PlayerCheckpoint::create - 0x3bacb0
 PlayerCheckpoint::init - 0x3baed0
 PlayerControlGameObject::init - 0x4c2440
 PlayerControlGameObject::customObjectSetup - 0x4c2870
@@ -3470,6 +3471,7 @@ PlayerObject::init - 0x3864a0
 PlayerObject::levelFlipFinished - 0x38b480
 PlayerObject::levelFlipping - 0x39b180
 PlayerObject::levelWillFlip - 0x38b400
+PlayerObject::loadFromCheckpoint - 0x3a1e50
 PlayerObject::lockPlayer - 0x39ef60
 PlayerObject::placeStreakPoint - 0x3a0310
 PlayerObject::playBumpEffect - 0x39f6e0

@@ -380,7 +380,7 @@ cocos2d::CCComponentContainer::remove - 0x26120c
 cocos2d::CCComponentContainer::remove - 0x2614d8
 cocos2d::CCComponentContainer::removeAll - 0x26166c
 cocos2d::CCComponentContainer::visit - 0x26180c
-cocos2d::CCConfiguration::sharedConfiguration - 0x45acf0
+cocos2d::CCConfiguration::sharedConfiguration - 0x46fed4
 cocos2d::CCDataVisitor::visit - 0x415e1c
 cocos2d::CCDataVisitor::visit - 0x415e28
 cocos2d::CCDataVisitor::visit - 0x415e34
@@ -2196,7 +2196,6 @@ DS_Dictionary::getIntegerForKey - 0x142ccc
 DS_Dictionary::getKey - 0x14267c
 DS_Dictionary::getObjectForKey - 0x145b38
 DS_Dictionary::getStringForKey - 0x142ff0
-DS_Dictionary::loadRootSubDictFromCompressedFile - 0x520768
 DS_Dictionary::loadRootSubDictFromString - 0x140be4
 DS_Dictionary::saveRootSubDictToString - 0x141e2c
 DS_Dictionary::setArrayForKey - 0x144334
@@ -2242,9 +2241,11 @@ AccountHelpLayer::accountStatusChanged - 0xb630c
 AccountHelpLayer::FLAlert_Clicked - 0xb6318
 AccountHelpLayer::doUnlink - 0xb62d8
 AccountHelpLayer::exitLayer - 0xb6304
+AccountHelpLayer::onAccountManagement - 0xb5c18
 AccountHelpLayer::onReLogin - 0xb5ba4
 AccountHelpLayer::onUnlink - 0xb5cec
 AccountHelpLayer::updatePage - 0xb5ea0
+AccountHelpLayer::verifyUnlink - 0xb61e0
 AccountLayer::create - 0xb3130
 AccountLayer::customSetup - 0xb33c0
 AccountLayer::layerHidden - 0xb5320
@@ -2261,10 +2262,12 @@ AccountLayer::exitLayer - 0xb48c0
 AccountLayer::hideLoadingUI - 0xb4a44
 AccountLayer::onBackup - 0xb3ac8
 AccountLayer::onLogin - 0xb3a10
+AccountLayer::onMore - 0xb4090
 AccountLayer::onRegister - 0xb3aac
 AccountLayer::onSync - 0xb3dc0
 AccountLayer::showLoadingUI - 0xb47e4
 AccountLayer::toggleUI - 0xb51b0
+AccountLayer::updatePage - 0xb40a0
 FLAlertLayer::~FLAlertLayer - 0x3fec00
 FLAlertLayer::create - 0x3ff120
 FLAlertLayer::create - 0x3fef78
@@ -2295,6 +2298,7 @@ AccountLoginLayer::createTextInput - 0x3fde64
 AccountLoginLayer::createTextLabel - 0x3fdd7c
 AccountLoginLayer::disableNodes - 0x3fe778
 AccountLoginLayer::hideLoadingUI - 0x3fe270
+AccountLoginLayer::init - 0x3fcca0
 AccountLoginLayer::onClose - 0x3fd844
 AccountLoginLayer::onForgotPassword - 0x3fdf74
 AccountLoginLayer::onForgotUser - 0x3fdf50
@@ -2303,6 +2307,7 @@ AccountLoginLayer::resetLabel - 0x21372c
 AccountLoginLayer::resetLabels - 0x3fe568
 AccountLoginLayer::showLoadingUI - 0x3fe7b8
 AccountLoginLayer::toggleUI - 0x3fe944
+AccountLoginLayer::updateLabel - 0x3fe470
 AccountRegisterLayer::~AccountRegisterLayer - 0x3f9564
 AccountRegisterLayer::create - 0x3f9820
 AccountRegisterLayer::init - 0x3f9940
@@ -2324,12 +2329,13 @@ AccountRegisterLayer::disableNodes - 0x3fbbc8
 AccountRegisterLayer::hideLoadingUI - 0x3fb744
 AccountRegisterLayer::onClose - 0x3fa7e4
 AccountRegisterLayer::onSubmit - 0x3fa888
+AccountRegisterLayer::resetLabel - 0x3fb948
 AccountRegisterLayer::resetLabels - 0x3fb818
 AccountRegisterLayer::showLoadingUI - 0x3fbd4c
 AccountRegisterLayer::toggleUI - 0x3fbfc8
-AccountRegisterLayer::updateLabel - 0x251e90
 AchievementBar::create - 0x53c9e0
 AchievementBar::setOpacity - 0x53e2a8
+AchievementBar::init - 0x53cab0
 AchievementBar::show - 0x53e068
 TableViewCell::TableViewCell - 0x549e04
 TableViewCell::~TableViewCell - 0x549ff4
@@ -2337,11 +2343,13 @@ TableViewCell::updateVisibility - 0x123f6c
 AchievementCell::AchievementCell - 0x1f4d78
 AchievementCell::init - 0x1f4db8
 AchievementCell::draw - 0x1f4dc0
+AchievementCell::loadFromDict - 0x1e9224
 AchievementCell::updateBGColor - 0x1ea6ac
-AchievementManager::sharedState - 0x4eb06c
+AchievementManager::sharedState - 0x63d318
 AchievementManager::init - 0x63d408
 AchievementManager::achievementForUnlock - 0x68bc74
 AchievementManager::addAchievement - 0x68b3b4
+AchievementManager::addManualAchievements - 0x63d490
 AchievementManager::areAchievementsEarned - 0x68b834
 AchievementManager::checkAchFromUnlock - 0x47fa84
 AchievementManager::dataLoaded - 0x68b71c
@@ -2349,7 +2357,11 @@ AchievementManager::encodeDataTo - 0x68b788
 AchievementManager::firstSetup - 0x68b6d0
 AchievementManager::getAchievementRewardDict - 0x68c584
 AchievementManager::getAllAchievements - 0x68ba0c
+AchievementManager::getAllAchievementsSorted - 0x68ad08
+AchievementManager::isAchievementAvailable - 0x68bb18
+AchievementManager::isAchievementEarned - 0x68b8c0
 AchievementManager::limitForAchievement - 0x68bb18
+AchievementManager::notifyAchievement - 0x68c2d0
 AchievementManager::percentageForCount - 0x68b9e4
 AchievementManager::reportAchievementWithID - 0x148b28
 AchievementManager::reportPlatformAchievementWithID - 0x68c570
@@ -2546,7 +2558,6 @@ GameObject::isSpeedObject - 0x4f9f18
 GameObject::isStoppableTrigger - 0x4eb584
 GameObject::makeInvisible - 0x4ee000
 GameObject::makeVisible - 0x4ee01c
-GameObject::opacityModForMode - 0x4182dc
 GameObject::parentForZLayer - 0x10b648
 GameObject::perspectiveColorFrame - 0x3b55ac
 GameObject::perspectiveFrame - 0x3b52b4
@@ -2735,7 +2746,6 @@ BitmapFontCache::fontWithConfigFile - 0x1ca8cc
 BitmapFontCache::init - 0x1ca7bc
 BonusDropdown::create - 0x3f7c8c
 BonusDropdown::init - 0x3f7d64
-BonusDropdown::show - 0x4cb54
 BoomListLayer::create - 0x3d56a0
 BoomListView::~BoomListView - 0x29b7b0
 BoomListView::create - 0x29b9c0
@@ -3205,7 +3215,6 @@ SetupTriggerPopup::setMinSliderValue - 0x1e27d4
 SetupTriggerPopup::shouldLimitValue - 0x1e5530
 SetupTriggerPopup::toggleBG - 0x1de770
 SetupTriggerPopup::toggleCustomEaseRateVisibility - 0x1e72b4
-SetupTriggerPopup::toggleDisableButtons - 0x2614d8
 SetupTriggerPopup::toggleEaseRateVisibility - 0x1e63fc
 SetupTriggerPopup::toggleLimitValue - 0x1e56ac
 SetupTriggerPopup::triggerArrowChanged - 0x1e1820
@@ -3436,7 +3445,7 @@ CustomizeObjectLayer::updateChannelLabel - 0x1a5d0c
 CustomizeObjectLayer::updateColorSprite - 0x1a5c3c
 CustomizeObjectLayer::updateCurrentSelection - 0x1a5b74
 CustomizeObjectLayer::updateCustomColorLabels - 0x1a530c
-CustomizeObjectLayer::updateHSVButtons - 0x4bd0c
+CustomizeObjectLayer::updateHSVButtons - 0x1a4fdc
 CustomizeObjectLayer::updateKerningLabel - 0x1a5580
 CustomizeObjectLayer::updateSelected - 0x1a613c
 CustomizeObjectSettingsPopup::onClose - 0x1a719c
@@ -4183,7 +4192,7 @@ GameLevelManager::deleteLevel - 0x480c10
 GameLevelManager::deleteLevelComment - 0x4a2de4
 GameLevelManager::deleteSentFriendRequest - 0x4a40dc
 GameLevelManager::deleteServerLevel - 0x497d98
-GameLevelManager::deleteServerLevelList - 0x416384
+GameLevelManager::deleteServerLevelList - 0x493934
 GameLevelManager::deleteSmartTemplate - 0x48d1d8
 GameLevelManager::deleteUserMessages - 0x49ee0c
 GameLevelManager::downloadLevel - 0x4953ac
@@ -4417,13 +4426,12 @@ GameManager::reloadAllStep5 - 0x31309c
 GameManager::reloadMenu - 0x312d44
 GameManager::removeCustomObject - 0x30c578
 GameManager::removeIconDelegate - 0x30a31c
-GameManager::reorderKey - 0x1b5a60
 GameManager::reportAchievementWithID - 0x302d78
 GameManager::reportPercentageForLevel - 0x3023f0
 GameManager::resetAchievement - 0x302250
 GameManager::resetAdTimer - 0x307b5c
 GameManager::resetCoinUnlocks - 0x30605c
-GameManager::resetDPadSettings - 0x1c2610
+GameManager::resetDPadSettings - 0x30f9fc
 GameManager::resolutionForKey - 0x3130f0
 GameManager::resumeAudio - 0x307d8c
 GameManager::resumeAudioDelayed - 0x307d08
@@ -4534,6 +4542,7 @@ GameStatsManager::hasClaimedListReward - 0x655a4
 GameStatsManager::hasCompletedChallenge - 0x651ec
 GameStatsManager::hasCompletedLevel - 0x5ef94
 GameStatsManager::incrementActivePath - 0x5cef8
+GameStatsManager::incrementChallenge - 0x5c908
 GameStatsManager::incrementStat - 0x58eb8
 GameStatsManager::incrementStat - 0x58ec0
 GameStatsManager::isItemEnabled - 0x69000
@@ -4721,7 +4730,6 @@ GJBaseGameLayer::updateScreenRotation - 0x1206fc
 GJBaseGameLayer::reverseDirection - 0x1027cc
 GJBaseGameLayer::rotateGameplay - 0x102814
 GJBaseGameLayer::updateTimeWarp - 0x120d14
-GJBaseGameLayer::updateTimeWarp - 0x120d58
 GJBaseGameLayer::applyTimeWarp - 0x120d58
 GJBaseGameLayer::createCustomParticle - 0x12c7dc
 GJBaseGameLayer::claimCustomParticle - 0x12cb64
@@ -4744,7 +4752,6 @@ GJBaseGameLayer::asyncBGLoaded - 0xef2b4
 GJBaseGameLayer::asyncGLoaded - 0xef574
 GJBaseGameLayer::asyncMGLoaded - 0xef808
 GJBaseGameLayer::atlasValue - 0xf6c90
-GJBaseGameLayer::bumpPlayer - 0x4cfa4
 GJBaseGameLayer::calculateColorGroups - 0xf6988
 GJBaseGameLayer::canBeActivatedByPlayer - 0xfff48
 GJBaseGameLayer::canProcessSFX - 0x12dec4
@@ -4757,7 +4764,6 @@ GJBaseGameLayer::clearPickedUpItems - 0x101868
 GJBaseGameLayer::collectedObject - 0x11e018
 GJBaseGameLayer::controlEventLink - 0x10b9f8
 GJBaseGameLayer::controlGradientTrigger - 0x10bbd4
-GJBaseGameLayer::controlTriggersWithControlID - 0x2df8a8
 GJBaseGameLayer::createBackground - 0xef068
 GJBaseGameLayer::createGroundLayer - 0xef59c
 GJBaseGameLayer::createMiddleground - 0xef780
@@ -4829,7 +4835,6 @@ GJBaseGameLayer::playExitDualEffect - 0x1018ec
 GJBaseGameLayer::playFlashEffect - 0x130e74
 GJBaseGameLayer::playKeyframeAnimation - 0x42fa0
 GJBaseGameLayer::playSpeedParticle - 0x12b748
-GJBaseGameLayer::positionUIObjects - 0x23731c
 GJBaseGameLayer::prepareTransformParent - 0x117da8
 GJBaseGameLayer::preResumeGame - 0x122484
 GJBaseGameLayer::preUpdateVisibility - 0x120dac
@@ -4837,7 +4842,6 @@ GJBaseGameLayer::processAreaEffects - 0x3fcca0
 GJBaseGameLayer::processAreaFadeGroupAction - 0x1166a8
 GJBaseGameLayer::processAreaVisualActions - 0x117538
 GJBaseGameLayer::processCameraObject - 0xfbf54
-GJBaseGameLayer::processDynamicObjectActions - 0xa4b80
 GJBaseGameLayer::processFollowActions - 0x11a018
 GJBaseGameLayer::processItems - 0x101650
 GJBaseGameLayer::processMoveActions - 0x119a88
@@ -4890,7 +4894,7 @@ GJBaseGameLayer::switchToSpiderMode - 0xfcfe0
 GJBaseGameLayer::syncBGTextures - 0x128650
 GJBaseGameLayer::testInstantCountTrigger - 0x11df58
 GJBaseGameLayer::toggleAudioVisualizer - 0xec45c
-GJBaseGameLayer::toggleFlipped - 0x104c24
+GJBaseGameLayer::toggleFlipped - 0x100184
 GJBaseGameLayer::toggleGroup - 0x111698
 GJBaseGameLayer::toggleLockPlayer - 0x111a8c
 GJBaseGameLayer::transformAreaObjects - 0x1178bc
@@ -4920,7 +4924,6 @@ GJBaseGameLayer::updatePlayerCollisionBlocks - 0x102c4c
 GJBaseGameLayer::updateProximityVolumeEffects - 0x126358
 GJBaseGameLayer::updateQueuedLabels - 0x11fbd4
 GJBaseGameLayer::updateSavePositionObjects - 0x103dcc
-GJBaseGameLayer::updateShaderLayer - 0x343a38
 GJBaseGameLayer::updateSpecialGroupData - 0xf1b58
 GJBaseGameLayer::updateSpecialLabels - 0x125f34
 GJBaseGameLayer::updateStaticCameraPos - 0xfdaf0
@@ -5250,12 +5253,11 @@ GJPathPage::registerWithTouchDispatcher - 0x2932ac
 GJPathPage::keyBackClicked - 0x293168
 GJPathPage::show - 0x2932e4
 GJPathPage::didPurchaseItem - 0x2918b0
-GJPathPage::init - 0x4249f8
 GJPathPage::onIconInfo - 0x2915c4
 GJPathPage::playUnlockAnimation - 0x37bdbc
 GJPathPage::unlockAnimationFinished - 0x29275c
 GJPathPage::unlockAnimationStep2 - 0x292514
-GJPathPage::unlockAnimationStep3 - 0x2197e8
+GJPathPage::unlockAnimationStep3 - 0x2928b4
 GJPathRewardPopup::create - 0x28f7f8
 GJPathRewardPopup::keyBackClicked - 0x293d00
 GJPathRewardPopup::closePopup - 0x293c98
@@ -5338,7 +5340,6 @@ GJRotateCommandLayer::onClose - 0x4a10
 GJRotateCommandLayer::textChanged - 0x45cc
 GJRotateCommandLayer::valuePopupClosed - 0x41e0
 GJRotateCommandLayer::onFollowRotation - 0x35a0
-GJRotateCommandLayer::onLockRotation - 0x18ab60
 GJRotateCommandLayer::onUpdateGroupID - 0x366c
 GJRotateCommandLayer::onUpdateGroupID2 - 0x3728
 GJRotateCommandLayer::sliderChanged - 0x2e4c
@@ -6059,7 +6060,6 @@ LevelTools::moveTriggerObjectsToArray - 0x459cd4
 LevelTools::offsetBPMForTrack - 0x4583fc
 LevelTools::posForTime - 0x458e28
 LevelTools::posForTimeInternal - 0x458e38
-LevelTools::sortChannelOrderObjects - 0xd4da8
 LevelTools::sortSpeedObjects - 0x45c0f0
 LevelTools::urlForAudio - 0x456d50
 LevelTools::valueForSpeedMod - 0x45841c
@@ -6146,7 +6146,7 @@ MenuGameLayer::ccTouchEnded - 0x4538b4
 MenuGameLayer::ccTouchCancelled - 0x4538bc
 MenuGameLayer::registerWithTouchDispatcher - 0x4538d8
 MenuGameLayer::destroyPlayer - 0x453598
-MenuGameLayer::getBGColor - 0x356c10
+MenuGameLayer::getBGColor - 0x4526cc
 MenuGameLayer::resetPlayer - 0x452c64
 MenuGameLayer::tryJump - 0x452808
 MenuGameLayer::updateColor - 0x452a80
@@ -6650,7 +6650,6 @@ PlayerObject::levelWillFlip - 0x37ac84
 PlayerObject::limitDashRotation - 0x386780
 PlayerObject::logValues - 0x3916e4
 PlayerObject::playCompleteEffect - 0x1bf3c4
-PlayerObject::playDeathEffect - 0x6ce3ec
 PlayerObject::playerIsMovingUp - 0x37b674
 PlayerObject::playerTeleported - 0x38ad6c
 PlayerObject::preCollision - 0x37bc64
@@ -6786,7 +6785,6 @@ PlayLayer::screenFlipObject - 0xa67c0
 PlayLayer::shouldBlend - 0xa4550
 PlayLayer::showCompleteEffect - 0xa2124
 PlayLayer::showCompleteText - 0xa24d4
-PlayLayer::showNewBest - 0xfa648
 PlayLayer::showTwoPlayerGuide - 0x9fa14
 PlayLayer::spawnCircle - 0xa2050
 PlayLayer::spawnFirework - 0xa2dd4
@@ -6844,7 +6842,7 @@ ProfilePage::onRequests - 0x6c36f0
 ProfilePage::onSendMessage - 0x6c2a80
 ProfilePage::onSettings - 0x34792c
 ProfilePage::onStatInfo - 0x6c1894
-ProfilePage::onUpdate - 0x3ea64c
+ProfilePage::onUpdate - 0x6bee74
 ProfilePage::setupComments - 0x6bea24
 ProfilePage::setupCommentsBrowser - 0x6bf0ec
 ProfilePage::showNoAccountError - 0x6c4158
@@ -7296,7 +7294,7 @@ SetupEndPopup::onClose - 0x588390
 SetupEndPopup::textInputClosed - 0x58829c
 SetupEndPopup::textChanged - 0x5882b8
 SetupEndPopup::init - 0x4e53c4
-SetupEndPopup::onMultiActivate - 0x588014
+SetupEndPopup::onMultiActivate - 0x588010
 SetupEndPopup::updateTargetID - 0x588218
 SetupEnterEffectPopup::create - 0x369b84
 SetupEnterEffectPopup::determineStartValues - 0x36c104
@@ -7311,7 +7309,7 @@ SetupEnterEffectPopup::onEnterType - 0x36c030
 SetupEnterTriggerPopup::determineStartValues - 0x23ae00
 SetupEnterTriggerPopup::onEnterType - 0x23ad2c
 SetupEventLinkPopup::init - 0x4c8948
-SetupEventLinkPopup::onSelectEvent - 0x20cb28
+SetupEventLinkPopup::onSelectEvent - 0x4c4f3c
 SetupEventLinkPopup::updateEventIDs - 0x4c51cc
 SetupForceBlockPopup::valueDidChange - 0x4d0d3c
 SetupGameplayOffsetPopup::updateInputValue - 0x6a0738

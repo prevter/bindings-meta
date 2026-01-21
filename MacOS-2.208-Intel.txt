@@ -1928,12 +1928,10 @@ cocos2d::extension::CCTableViewCell::setIdx - 0x437380
 cocos2d::ZipUtils::base64EncodeEnc - 0x205690
 cocos2d::ZipUtils::ccDeflateMemory - 0x204d90
 cocos2d::ZipUtils::compressString - 0x204b20
-DS_Dictionary::getAllKeys - 0x2d0660
 DS_Dictionary::getArrayForKey - 0x180660
 DS_Dictionary::getFloatForKey - 0x17d720
 DS_Dictionary::getIntegerForKey - 0x17d4e0
 DS_Dictionary::getKey - 0x17ce20
-DS_Dictionary::loadRootSubDictFromCompressedFile - 0x214850
 DS_Dictionary::saveRootSubDictToString - 0x17c3e0
 DS_Dictionary::setArrayForKey - 0x180300
 DS_Dictionary::setBoolMapForKey - 0x180dd0
@@ -2563,7 +2561,7 @@ CCPartAnimSprite::dirtify - 0x375220
 CCPartAnimSprite::setColor - 0x374fa0
 CCPartAnimSprite::transformSprite - 0x3741d0
 CCPartAnimSprite::tweenSpriteTo - 0x374480
-CCPartAnimSprite::tweenToFrame - 0x24d3a0
+CCPartAnimSprite::tweenToFrame - 0x374b30
 CCScrollLayerExt::CCScrollLayerExt - 0x42d900
 CCScrollLayerExt::~CCScrollLayerExt - 0x42e0b0
 CCScrollLayerExt::visit - 0x42ec90
@@ -2580,7 +2578,7 @@ CCScrollLayerExt::getMaxY - 0x42df20
 CCScrollLayerExt::getMinY - 0x42df30
 CCScrollLayerExt::moveToTop - 0x42e020
 CCScrollLayerExt::moveToTopWithOffset - 0x42df80
-CCScrollLayerExt::scrollLayer - 0x4e570
+CCScrollLayerExt::scrollLayer - 0x42ebd0
 CCScrollLayerExt::setContentLayerSize - 0x42e540
 CCScrollLayerExt::setContentOffset - 0x42e560
 CCScrollLayerExt::updateIndicators - 0x42dcc0
@@ -3036,7 +3034,7 @@ CustomSFXWidget::showLoadingArt - 0x5e41c0
 CustomSFXWidget::updateError - 0x5e4760
 CustomSFXWidget::updateLengthMod - 0x5e45b0
 CustomSFXWidget::updatePlaybackBtn - 0x5e40b0
-CustomSFXWidget::updateSFXInfo - 0x496c80
+CustomSFXWidget::updateSFXInfo - 0x5e39a0
 CustomSFXWidget::updateSFXObject - 0x5e3910
 CustomSFXWidget::verifySFXID - 0x5e45d0
 CustomSongLayer::keyBackClicked - 0x215fd0
@@ -3282,7 +3280,6 @@ EditorUI::getSpriteButton - 0x2eb10
 EditorUI::getTouchPoint - 0x4ece0
 EditorUI::getTransformState - 0x3ced0
 EditorUI::getXMin - 0x2efc0
-EditorUI::init - 0x4b9cf0
 EditorUI::isSpecialSnapObject - 0x4bed0
 EditorUI::menuItemFromObjectString - 0x31a10
 EditorUI::moveForCommand - 0x4a280
@@ -3597,7 +3594,7 @@ GameLevelManager::onGetNewsCompleted - 0x52a980
 GameLevelManager::onGetUserMessagesCompleted - 0x247390
 GameLevelManager::onGetUsersCompleted - 0xd21a0
 GameLevelManager::onLikeItemCompleted - 0x25ac00
-GameLevelManager::onRateDemonCompleted - 0x4f4d0
+GameLevelManager::onRateDemonCompleted - 0x528c40
 GameLevelManager::onReadFriendRequestCompleted - 0x523040
 GameLevelManager::onRequestUserAccessCompleted - 0x525e70
 GameLevelManager::onRestoreItemsCompleted - 0x522300
@@ -3632,7 +3629,7 @@ GameLevelManager::updateSavedLevelList - 0x542350
 GameLevelManager::updateUsernames - 0x5399b0
 GameLevelManager::updateUserScore - 0x5478d0
 GameLevelManager::uploadComment - 0x5512c0
-GameLevelManager::uploadFriendRequest - 0x43ae80
+GameLevelManager::uploadFriendRequest - 0x5539b0
 GameLevelManager::uploadLevel - 0x53ce50
 GameLevelManager::uploadLevelComment - 0x551230
 GameLevelManager::uploadLevelList - 0x540c50
@@ -3845,7 +3842,7 @@ GameToolbox::preVisitWithClipRect - 0x4ee6b0
 GameToolbox::saveParticleToString - 0x4f1450
 GameToolbox::saveStringToFile - 0x4f6be0
 GameToolbox::stringFromHSV - 0x4efed0
-GameToolbox::stringSetupToDict - 0x1b9120
+GameToolbox::stringSetupToDict - 0x4f0840
 GameToolbox::stringSetupToMap - 0x5797e0
 GameToolbox::strongColor - 0x4f0e10
 GameToolbox::timestampToHumanReadable - 0x4f7190
@@ -3925,7 +3922,6 @@ GJBaseGameLayer::updateScreenRotation - 0x14e820
 GJBaseGameLayer::reverseDirection - 0x12a660
 GJBaseGameLayer::rotateGameplay - 0x12a6a0
 GJBaseGameLayer::updateTimeWarp - 0x14ef60
-GJBaseGameLayer::updateTimeWarp - 0x14efb0
 GJBaseGameLayer::applyTimeWarp - 0x14efb0
 GJBaseGameLayer::createCustomParticle - 0x15d980
 GJBaseGameLayer::claimCustomParticle - 0x15dcf0
@@ -4080,7 +4076,6 @@ GJBaseGameLayer::switchToRobotMode - 0x124320
 GJBaseGameLayer::switchToRollMode - 0x124270
 GJBaseGameLayer::switchToSpiderMode - 0x1243d0
 GJBaseGameLayer::syncBGTextures - 0x158b30
-GJBaseGameLayer::teleportPlayer - 0x4fa60
 GJBaseGameLayer::testInstantCountTrigger - 0x14b650
 GJBaseGameLayer::toggleDualMode - 0x123db0
 GJBaseGameLayer::toggleFlipped - 0x127d30
@@ -4117,7 +4112,6 @@ GJBaseGameLayer::updatePlayerCollisionBlocks - 0x12ab50
 GJBaseGameLayer::updateProximityVolumeEffects - 0x155f60
 GJBaseGameLayer::updateQueuedLabels - 0x14da50
 GJBaseGameLayer::updateSavePositionObjects - 0x12beb0
-GJBaseGameLayer::updateShaderLayer - 0x3fcab0
 GJBaseGameLayer::updateSpecialGroupData - 0x1171b0
 GJBaseGameLayer::updateSpecialLabels - 0x155a10
 GJBaseGameLayer::updateStaticCameraPos - 0x124fb0
@@ -4361,7 +4355,7 @@ GJMGLayer::create - 0x5eb6b0
 GJMGLayer::draw - 0x5ec160
 GJMGLayer::showGround - 0x5ec130
 GJMGLayer::loadGroundSprites - 0x5ebc50
-GJMGLayer::scaleGround - 0x317720
+GJMGLayer::scaleGround - 0x5ebfc0
 GJMGLayer::updateGroundColor - 0x5ebdf0
 GJMGLayer::updateGroundWidth - 0x5ec050
 GJMGLayer::updateMG01Blend - 0x5ec170
@@ -5204,7 +5198,7 @@ MusicDownloadManager::generateResourceAssetList - 0x58aa50
 MusicDownloadManager::getAllMusicArtists - 0x594120
 MusicDownloadManager::getAllMusicTags - 0x593fc0
 MusicDownloadManager::getCustomContentURL - 0x590790
-MusicDownloadManager::getSFXFolderPathForID - 0x35f160
+MusicDownloadManager::getSFXFolderPathForID - 0x5963b0
 MusicDownloadManager::getSongInfo - 0x58b160
 MusicDownloadManager::getSongInfoObject - 0x29c850
 MusicDownloadManager::getSongPriority - 0x58b140
@@ -5253,7 +5247,7 @@ OBB2D::overlaps1Way - 0x5f3740
 ObjectControlGameObject::init - 0x1ee4e0
 ObjectControlGameObject::customObjectSetup - 0x1eea60
 ObjectControlGameObject::getSaveString - 0x1ee530
-ObjectManager::instance - 0x4778e0
+ObjectManager::instance - 0x795080
 ObjectManager::replaceAllOccurencesOfString - 0x795eb0
 ObjectManager::init - 0x795160
 ObjectManager::getGlobalAnimCopy - 0x795da0
@@ -5880,7 +5874,6 @@ SetupCameraEdgePopup::onTargetIDArrow - 0x5887e0
 SetupCameraEdgePopup::onUnlockEdge - 0x588ae0
 SetupCameraModePopup::determineStartValues - 0x4a96a0
 SetupCameraModePopup::onClose - 0x4a99e0
-SetupCameraModePopup::init - 0x1633d0
 SetupCameraOffsetTrigger::create - 0x660da0
 SetupCameraOffsetTrigger::determineStartValues - 0x662d20
 SetupCameraOffsetTrigger::onClose - 0x6638e0
@@ -5908,7 +5901,7 @@ SetupEndPopup::determineStartValues - 0x669270
 SetupEndPopup::onClose - 0x669590
 SetupEndPopup::textInputClosed - 0x669440
 SetupEndPopup::textChanged - 0x669480
-SetupEndPopup::onMultiActivate - 0x4984e0
+SetupEndPopup::onMultiActivate - 0x669120
 SetupEnterEffectPopup::create - 0x3f0360
 SetupEnterEffectPopup::determineStartValues - 0x3f3070
 SetupEnterEffectPopup::onClose - 0x3f34a0
@@ -6033,7 +6026,7 @@ SetupRandTriggerPopup::onClose - 0x5e66a0
 SetupRandTriggerPopup::textChanged - 0x5e63b0
 SetupResetTriggerPopup::init - 0x57d7c0
 SetupReverbPopup::onClose - 0x4b7fc0
-SetupReverbPopup::onReverb - 0x35ab70
+SetupReverbPopup::onReverb - 0x4b7e30
 SetupReverbPopup::updateReverbLabel - 0x4b7eb0
 SetupRotateCommandPopup::updateInputNode - 0x67a0
 SetupRotateCommandPopup::valueDidChange - 0x67b0
@@ -6223,7 +6216,6 @@ ShareLevelLayer::keyBackClicked - 0x281460
 ShareLevelLayer::init - 0x53f4e0
 ShareLevelLayer::onClose - 0x280d80
 ShareLevelSettingsLayer::keyBackClicked - 0x282f00
-ShareLevelSettingsLayer::init - 0xa0010
 ShareLevelSettingsLayer::onUnlisted - 0x282c30
 ShareLevelSettingsLayer::onUnlistedFriendsOnly - 0x282e20
 ShareListLayer::keyBackClicked - 0x363050
