@@ -65,7 +65,6 @@ cocos2d::CCActionTween::create - 0x7a5390
 cocos2d::CCActionTween::update - 0x7a5640
 cocos2d::CCActionTween::startWithTarget - 0x7a55f0
 cocos2d::CCActionTween::reverse - 0x7a56b0
-cocos2d::CCActionTween::initWithDuration - 0x27e6c0
 cocos2d::CCActionTween::updateTargetValue - 0x7a5620
 cocos2d::CCAnimate::create - 0x3bc170
 cocos2d::CCAnimate::copyWithZone - 0x3bc580
@@ -89,7 +88,6 @@ cocos2d::CCApplication::setAnimationInterval - 0x3294d0
 cocos2d::CCApplication::getCurrentLanguage - 0x329530
 cocos2d::CCApplication::getTargetPlatform - 0x329510
 cocos2d::CCApplication::openURL - 0x32a230
-cocos2d::CCArray::removeObjectAtIndexChild - 0x71fcd0
 cocos2d::CCArray::stringAtIndex - 0x7200a0
 cocos2d::CCNode::CCNode - 0x272220
 cocos2d::CCNode::~CCNode - 0x2723d0
@@ -204,7 +202,6 @@ cocos2d::CCNode::convertTouchToNodeSpaceAR - 0x274e30
 cocos2d::CCNode::convertToWindowSpace - 0x274d70
 cocos2d::CCNode::convertToWorldSpace - 0x274c70
 cocos2d::CCNode::convertToWorldSpaceAR - 0x274d10
-cocos2d::CCNode::detachChild - 0x6cdb0
 cocos2d::CCNode::getComponent - 0x274f10
 cocos2d::CCNode::runAction - 0x273fb0
 cocos2d::CCNode::schedule - 0x2741c0
@@ -287,7 +284,6 @@ cocos2d::CCCallFuncN::create - 0x7ad420
 cocos2d::CCCallFuncN::initWithTarget - 0x7ad550
 cocos2d::CCCallFuncN::copyWithZone - 0x7ad5a0
 cocos2d::CCCallFuncN::execute - 0x7ad3c0
-cocos2d::CCCallFuncND::create - 0x652e90
 cocos2d::CCCallFuncND::initWithTarget - 0x7ad780
 cocos2d::CCCallFuncND::copyWithZone - 0x7ad7f0
 cocos2d::CCCallFuncND::execute - 0x7ad910
@@ -363,7 +359,6 @@ cocos2d::CCDictionary::setObjectUnSafe - 0x30e9a0
 cocos2d::CCDictionary::setObjectUnSafe - 0x30f120
 cocos2d::CCDictionary::valueForKey - 0x30df70
 cocos2d::CCDictionary::valueForKey - 0x30e4f0
-cocos2d::CCDictionary::writeToFile - 0x16b1d0
 cocos2d::CCDirector::CCDirector - 0x482530
 cocos2d::CCDirector::~CCDirector - 0x4829b0
 cocos2d::CCDirector::sharedDirector - 0x482460
@@ -403,7 +398,6 @@ cocos2d::CCDirector::setDepthTest - 0x482ba0
 cocos2d::CCDirector::setGLDefaultValues - 0x482b30
 cocos2d::CCDirector::setNextScene - 0x483290
 cocos2d::CCDirector::setProjection - 0x482be0
-cocos2d::CCDirector::setViewport - 0x43f730
 cocos2d::CCDirector::toggleShowFPS - 0x483750
 cocos2d::CCDisplayLinkDirector::setAnimationInterval - 0x484cf0
 cocos2d::CCDisplayLinkDirector::stopAnimation - 0x484ce0
@@ -597,7 +591,6 @@ cocos2d::CCGLProgram::setUniformLocationWith2i - 0x42b650
 cocos2d::CCGLProgram::setUniformLocationWith3f - 0x42b9f0
 cocos2d::CCGLProgram::setUniformLocationWith3i - 0x42b6e0
 cocos2d::CCGLProgram::setUniformLocationWith4f - 0x42ba90
-cocos2d::CCGLProgram::setUniformLocationWith4i - 0x23b870
 cocos2d::CCGLProgram::setUniformLocationWithMatrix3fv - 0x42bbd0
 cocos2d::CCGLProgram::setUniformLocationWithMatrix4fv - 0x42bc70
 cocos2d::CCGLProgram::setUniformsForBuiltins - 0x42bcc0
@@ -630,7 +623,6 @@ cocos2d::CCImage::CCImage - 0x489720
 cocos2d::CCImage::~CCImage - 0x489760
 cocos2d::CCImage::initWithImageData - 0x489a30
 cocos2d::CCImage::initWithImageFile - 0x489820
-cocos2d::CCImage::initWithImageFileThreadSafe - 0x11eee0
 cocos2d::CCIMEDelegate::CCIMEDelegate - 0x4bbc20
 cocos2d::CCIMEDelegate::~CCIMEDelegate - 0x4bbe20
 cocos2d::CCIMEDelegate::attachWithIME - 0x4bbfa0
@@ -652,14 +644,12 @@ cocos2d::CCKeyboardDispatcher::dispatchKeyboardMSG - 0x2035b0
 cocos2d::CCKeyboardDispatcher::keyToString - 0x2038c0
 cocos2d::CCKeyboardDispatcher::updateModifierKeys - 0x203890
 cocos2d::CCKeyboardHandler::initWithDelegate - 0x43e240
-cocos2d::CCKeypadDispatcher::~CCKeypadDispatcher - 0x5f4980
 cocos2d::CCKeypadHandler::initWithDelegate - 0x3c1a50
 cocos2d::CCLabelAtlas::create - 0x799380
 cocos2d::CCLabelAtlas::create - 0x799180
 cocos2d::CCLabelAtlas::updateAtlasValues - 0x799940
 cocos2d::CCLabelAtlas::setString - 0x799c10
 cocos2d::CCLabelAtlas::getString - 0x799d00
-cocos2d::CCLabelAtlas::initWithString - 0x177060
 cocos2d::CCLabelAtlas::initWithString - 0x799310
 cocos2d::CCSpriteBatchNode::CCSpriteBatchNode - 0x1766b0
 cocos2d::CCSpriteBatchNode::~CCSpriteBatchNode - 0x176700
@@ -1460,7 +1450,6 @@ cocos2d::CCTexture2D::drawAtPoint - 0x4790e0
 cocos2d::CCTexture2D::drawInRect - 0x4791f0
 cocos2d::CCTexture2D::generateMipmap - 0x4794a0
 cocos2d::CCTexture2D::getContentSizeInPixels - 0x4781c0
-cocos2d::CCTexture2D::initPremultipliedATextureWithImage - 0x17e7a0
 cocos2d::CCTexture2D::initWithETCFile - 0x4793c0
 cocos2d::CCTexture2D::initWithImage - 0x478620
 cocos2d::CCTexture2D::initWithPVRFile - 0x4792e0
@@ -1475,7 +1464,6 @@ cocos2d::CCTextureAtlas::setTexture - 0x4acde0
 cocos2d::CCTextureAtlas::getQuads - 0x4ace20
 cocos2d::CCTextureAtlas::setQuads - 0x4ace30
 cocos2d::CCTextureCache::sharedTextureCache - 0x5ec810
-cocos2d::CCTextureCache::addImage - 0x36cd40
 cocos2d::CCTextureCache::removeTextureForKey - 0x5eee60
 cocos2d::CCTextureCache::textureForKey - 0x5eeee0
 cocos2d::CCTiledGrid3D::blit - 0x4e4980
@@ -1642,7 +1630,6 @@ cocos2d::CCWavesTiles3D::initWithDuration - 0x7b7400
 cocos2d::CCWavesTiles3D::copyWithZone - 0x7b7440
 cocos2d::CCWavesTiles3D::update - 0x7b7560
 cocos2d::CCZone::CCZone - 0x10dd60
-cocos2d::extension::CCArrayForObjectSorting::setObjectID_ofSortedObject - 0x18c3c0
 cocos2d::extension::CCControl::init - 0x3514f0
 cocos2d::extension::CCControl::onEnter - 0x351960
 cocos2d::extension::CCControl::onExit - 0x351970
@@ -1909,7 +1896,6 @@ cocos2d::extension::CCTableView::ccTouchMoved - 0x42dc80
 cocos2d::extension::CCTableView::ccTouchEnded - 0x42da00
 cocos2d::extension::CCTableView::ccTouchCancelled - 0x42dd30
 cocos2d::extension::CCTableView::__indexFromOffset - 0x42d690
-cocos2d::extension::CCTableView::_addCellIfNecessary - 0x23aed0
 cocos2d::extension::CCTableView::_moveCellOutOfSight - 0x42cd70
 cocos2d::extension::CCTableView::_setIndexForCell - 0x42ceb0
 cocos2d::extension::CCTableView::_updateCellPositions - 0x42c4a0
@@ -1965,14 +1951,18 @@ GJDropDownLayer::disableUI - 0x5e84d0
 GJDropDownLayer::enableUI - 0x5e84f0
 GJDropDownLayer::init - 0x5e84a0
 GJDropDownLayer::init - 0x5e8080
+AccountHelpLayer::create - 0xcde00
 AccountHelpLayer::customSetup - 0xce3e0
 AccountHelpLayer::layerHidden - 0xcf080
 AccountHelpLayer::accountStatusChanged - 0xcef40
 AccountHelpLayer::FLAlert_Clicked - 0xcef70
 AccountHelpLayer::doUnlink - 0xcef00
 AccountHelpLayer::onAccountManagement - 0xce820
+AccountHelpLayer::onReLogin - 0xce7c0
+AccountHelpLayer::onUnlink - 0xce8f0
 AccountHelpLayer::updatePage - 0xceaa0
 AccountHelpLayer::verifyUnlink - 0xcedf0
+AccountLayer::create - 0xcb9b0
 AccountLayer::customSetup - 0xcbd70
 AccountLayer::layerHidden - 0xcdda0
 AccountLayer::backupAccountFinished - 0xcd2e0
@@ -1985,9 +1975,14 @@ AccountLayer::createToggleButton - 0xccf40
 AccountLayer::doBackup - 0xcd150
 AccountLayer::doSync - 0xcd220
 AccountLayer::hideLoadingUI - 0xcd430
+AccountLayer::onBackup - 0xcc4d0
 AccountLayer::onHelp - 0xcc9e0
+AccountLayer::onLogin - 0xcc420
+AccountLayer::onRegister - 0xcc4b0
+AccountLayer::onSync - 0xcc800
 AccountLayer::showLoadingUI - 0xcd1d0
 AccountLayer::toggleUI - 0xcdc40
+AccountLayer::updatePage - 0xccac0
 FLAlertLayer::~FLAlertLayer - 0x49ad70
 FLAlertLayer::create - 0x49b0f0
 FLAlertLayer::create - 0x49b1b0
@@ -2015,11 +2010,15 @@ AccountLoginLayer::createTextInput - 0x49a080
 AccountLoginLayer::createTextLabel - 0x499fa0
 AccountLoginLayer::disableNodes - 0x49a910
 AccountLoginLayer::hideLoadingUI - 0x49a470
+AccountLoginLayer::init - 0x498df0
 AccountLoginLayer::onClose - 0x499a90
+AccountLoginLayer::onForgotPassword - 0x49a180
+AccountLoginLayer::onForgotUser - 0x49a160
 AccountLoginLayer::onSubmit - 0x499af0
 AccountLoginLayer::resetLabels - 0x49a760
 AccountLoginLayer::showLoadingUI - 0x49a950
 AccountLoginLayer::toggleUI - 0x49aac0
+AccountLoginLayer::updateLabel - 0x3f49d0
 AccountRegisterLayer::create - 0x4953d0
 AccountRegisterLayer::init - 0x495550
 AccountRegisterLayer::registerWithTouchDispatcher - 0x497fc0
@@ -2370,6 +2369,9 @@ AppDelegate::applicationWillBecomeActive - 0x65c260
 AppDelegate::applicationWillResignActive - 0x65c280
 AppDelegate::trySaveGame - 0x65c750
 AppDelegate::willSwitchToScene - 0x65c830
+AppDelegate::checkSound - 0x65c6d0
+AppDelegate::musicTest - 0x65c660
+AppDelegate::resumeSound - 0x65c5b0
 ArtistCell::init - 0x254750
 ArtistCell::draw - 0x254910
 ArtistCell::loadFromObject - 0x2471e0
@@ -2710,7 +2712,6 @@ GroupCommandObject2::runPlayerFollowCommand - 0x4ed490
 GroupCommandObject2::runRotateCommand - 0x4ed390
 GroupCommandObject2::runTransformCommand - 0x4ed400
 GroupCommandObject2::updateAction - 0x4ecf50
-CheckpointObject::~CheckpointObject - 0xbf7c0
 CheckpointObject::init - 0xbfae0
 CollisionBlockPopup::create - 0x285c00
 CollisionBlockPopup::keyBackClicked - 0x2872c0
@@ -5527,6 +5528,7 @@ PlayLayer::getRelativeMod - 0xb9290
 PlayLayer::getRelativeModNew - 0xb7e30
 PlayLayer::gravityEffectFinished - 0xb9720
 PlayLayer::incrementJumps - 0xbf230
+PlayLayer::isGameplayActive - 0xbf720
 PlayLayer::loadActiveSaveObjects - 0xbda50
 PlayLayer::loadDefaultColors - 0xb1bf0
 PlayLayer::loadDynamicSaveObjects - 0xbd900

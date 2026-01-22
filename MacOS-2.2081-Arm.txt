@@ -66,7 +66,6 @@ cocos2d::CCActionManager::getActionByTag - 0x1de1d0
 cocos2d::CCActionManager::numberOfRunningActionsInTarget - 0x1de304
 cocos2d::CCActionManager::pauseAllRunningActions - 0x1dd718
 cocos2d::CCActionManager::pauseTarget - 0x1dd524
-cocos2d::CCActionManager::removeAction - 0x422cb8
 cocos2d::CCActionManager::removeActionAtIndex - 0x1dd45c
 cocos2d::CCActionManager::removeActionByTag - 0x1ddfe0
 cocos2d::CCActionManager::removeAllActions - 0x1dd218
@@ -329,7 +328,6 @@ cocos2d::CCCallFuncN::create - 0x6b3bc4
 cocos2d::CCCallFuncN::initWithTarget - 0x6b3cd4
 cocos2d::CCCallFuncN::copyWithZone - 0x6b3d28
 cocos2d::CCCallFuncN::execute - 0x6b3b50
-cocos2d::CCCallFuncND::create - 0x514754
 cocos2d::CCCallFuncND::initWithTarget - 0x6b3ed0
 cocos2d::CCCallFuncND::copyWithZone - 0x6b3f34
 cocos2d::CCCallFuncND::execute - 0x6b4030
@@ -413,9 +411,7 @@ cocos2d::CCDictionary::count - 0x29d0e4
 cocos2d::CCDictionary::getFirstKey - 0x29d230
 cocos2d::CCDictionary::objectForKey - 0x29d534
 cocos2d::CCDictionary::objectForKey - 0x29d8b0
-cocos2d::CCDictionary::randomObject - 0x27f6f8
 cocos2d::CCDictionary::removeObjectForKey - 0x29ed3c
-cocos2d::CCDictionary::removeObjectsForKeys - 0x241294
 cocos2d::CCDictionary::setObject - 0x29da88
 cocos2d::CCDictionary::setObjectUnSafe - 0x29ded4
 cocos2d::CCDictionary::setObjectUnSafe - 0x29e564
@@ -449,7 +445,6 @@ cocos2d::CCDirector::getNotificationNode - 0x3ea594
 cocos2d::CCDirector::getVisibleOrigin - 0x3e9cf0
 cocos2d::CCDirector::getVisibleSize - 0x3e9ccc
 cocos2d::CCDirector::getWinSize - 0x3e9668
-cocos2d::CCDirector::getWinSizeInPixels - 0x10ff88
 cocos2d::CCDirector::pause - 0x3ea43c
 cocos2d::CCDirector::popScene - 0x3ea024
 cocos2d::CCDirector::popSceneWithTransition - 0x3ea0b0
@@ -912,7 +907,6 @@ cocos2d::CCLabelTTF::enableStroke - 0x33fe54
 cocos2d::CCLabelTTF::getFontName - 0x33fd08
 cocos2d::CCLabelTTF::initWithString - 0x33f8ac
 cocos2d::CCLabelTTF::initWithString - 0x33f8c0
-cocos2d::CCLabelTTF::setFontFillColor - 0x1ca440
 cocos2d::CCLabelTTF::setFontName - 0x33fd20
 cocos2d::CCLabelTTF::updateTexture - 0x33f9c8
 cocos2d::CCLayer::CCLayer - 0x412074
@@ -1028,7 +1022,6 @@ cocos2d::CCLightning::setCascadeColorEnabled - 0x5093fc
 cocos2d::CCLightning::initWithStrikePoint - 0x508de8
 cocos2d::CCLightning::initWithStrikePoint - 0x508f5c
 cocos2d::CCLightning::strike - 0x509080
-cocos2d::CCLightning::strikeFinished - 0x41275c
 cocos2d::CCLightning::strikeRandom - 0x5091e8
 cocos2d::CCLightning::strikeWithSeed - 0x509260
 cocos2d::CCLiquid::copyWithZone - 0x220e74
@@ -1128,7 +1121,6 @@ cocos2d::CCMotionStreak::stopStroke - 0x4c4470
 cocos2d::CCMotionStreak::tintWithColor - 0x4c429c
 cocos2d::CCMotionStreak::updateFade - 0x4c4460
 cocos2d::CCMouseDispatcher::dispatchScrollMSG - 0x4bec84
-cocos2d::CCMouseDispatcher::forceAddDelegate - 0x1b0498
 cocos2d::CCMouseHandler::handlerWithDelegate - 0x226554
 cocos2d::CCMouseHandler::initWithDelegate - 0x226500
 cocos2d::CCMoveBy::copyWithZone - 0x33ab9c
@@ -1326,7 +1318,6 @@ cocos2d::CCPoolManager::CCPoolManager - 0x36f85c
 cocos2d::CCPoolManager::~CCPoolManager - 0x36f8b0
 cocos2d::CCPoolManager::purgePoolManager - 0x36f828
 cocos2d::CCPoolManager::sharedPoolManager - 0x36f730
-cocos2d::CCPoolManager::addObject - 0x29ec0c
 cocos2d::CCPoolManager::finalize - 0x36f9a8
 cocos2d::CCPoolManager::getCurReleasePool - 0x36fc74
 cocos2d::CCPoolManager::push - 0x36fa64
@@ -1384,7 +1375,6 @@ cocos2d::CCRenderTexture::setSprite - 0x51e4a8
 cocos2d::CCRenderTexture::begin - 0x51eb5c
 cocos2d::CCRenderTexture::beginWithClear - 0x51ed50
 cocos2d::CCRenderTexture::beginWithClear - 0x51ef38
-cocos2d::CCRenderTexture::beginWithClear - 0x4f223c
 cocos2d::CCRenderTexture::beginWithClear - 0x51edf0
 cocos2d::CCRenderTexture::end - 0x51f010
 cocos2d::CCRenderTexture::initWithWidthAndHeight - 0x51e620
@@ -1489,7 +1479,6 @@ cocos2d::CCSet::removeAllObjects - 0x6b9724
 cocos2d::CCShaderCache::purgeSharedShaderCache - 0x1af074
 cocos2d::CCShaderCache::sharedShaderCache - 0x1aef54
 cocos2d::CCShaderCache::init - 0x1af024
-cocos2d::CCShaderCache::loadDefaultShader - 0x5863e8
 cocos2d::CCShaderCache::loadDefaultShaders - 0x1af170
 cocos2d::CCShaderCache::programForKey - 0x1afeec
 cocos2d::CCShaderCache::reloadDefaultShaders - 0x1afb44
@@ -1590,7 +1579,6 @@ cocos2d::CCString::getCString - 0x6b1878
 cocos2d::CCString::intValue - 0x6b1b10
 cocos2d::CCString::length - 0x6b1b3c
 cocos2d::CCTargetedAction::CCTargetedAction - 0x33eb28
-cocos2d::CCTargetedAction::~CCTargetedAction - 0x1bfcc0
 cocos2d::CCTargetedAction::create - 0x33ec2c
 cocos2d::CCTargetedAction::copyWithZone - 0x33ed3c
 cocos2d::CCTargetedAction::startWithTarget - 0x33ee40
@@ -1662,7 +1650,6 @@ cocos2d::CCTextureCache::addImage - 0x517884
 cocos2d::CCTextureCache::addImageAsync - 0x516b58
 cocos2d::CCTextureCache::addUIImage - 0x518714
 cocos2d::CCTextureCache::description - 0x516998
-cocos2d::CCTextureCache::removeTextureForKey - 0x38ab4c
 cocos2d::CCTextureCache::textureForKey - 0x518d5c
 cocos2d::CCTiledGrid3D::~CCTiledGrid3D - 0x43fa2c
 cocos2d::CCTiledGrid3D::create - 0x43fb94
@@ -1836,7 +1823,6 @@ cocos2d::CCTransitionTurnOffTiles::easeActionWithAction - 0xbfd6c
 cocos2d::CCTransitionZoomFlipAngular::onEnter - 0xbee2c
 cocos2d::CCTransitionZoomFlipX::onEnter - 0xbe660
 cocos2d::CCTransitionZoomFlipY::onEnter - 0xbea48
-cocos2d::CCTurnOffTiles::create - 0x33aa8c
 cocos2d::CCTurnOffTiles::create - 0x6bccac
 cocos2d::CCTurnOffTiles::copyWithZone - 0x6bcdd8
 cocos2d::CCTurnOffTiles::update - 0x6bd1cc
@@ -1861,7 +1847,6 @@ cocos2d::CCZone::CCZone - 0xe9bd4
 cocos2d::extension::CCArrayForObjectSorting::indexOfSortedObject - 0x39c9d8
 cocos2d::extension::CCArrayForObjectSorting::insertSortedObject - 0x39c8b8
 cocos2d::extension::CCArrayForObjectSorting::objectWithObjectID - 0x39cf50
-cocos2d::extension::CCArrayForObjectSorting::removeSortedObject - 0x226718
 cocos2d::extension::CCArrayForObjectSorting::setObjectID_ofSortedObject - 0x39cc68
 cocos2d::extension::CCControl::CCControl - 0x2ddf3c
 cocos2d::extension::CCControl::create - 0x2de004
@@ -1964,7 +1949,6 @@ cocos2d::extension::CCControlPotentiometer::getMinimumValue - 0x2e641c
 cocos2d::extension::CCControlPotentiometer::getValue - 0x2e6388
 cocos2d::extension::CCControlPotentiometer::potentiometerBegan - 0x2e6690
 cocos2d::extension::CCControlPotentiometer::potentiometerEnded - 0x2e6a38
-cocos2d::extension::CCControlPotentiometer::potentiometerMoved - 0x3ad6c
 cocos2d::extension::CCControlPotentiometer::setMaximumValue - 0x2e6424
 cocos2d::extension::CCControlPotentiometer::setMinimumValue - 0x2e6390
 cocos2d::extension::CCControlPotentiometer::setValue - 0x2e62ac
@@ -2139,17 +2123,13 @@ cocos2d::extension::CCScrollView::isNodeVisible - 0x370398
 cocos2d::extension::CCScrollView::maxContainerOffset - 0x370828
 cocos2d::extension::CCScrollView::minContainerOffset - 0x370798
 cocos2d::extension::CCScrollView::pause - 0x37049c
-cocos2d::extension::CCScrollView::performedAnimatedScroll - 0x6cf680
 cocos2d::extension::CCScrollView::registerScriptHandler - 0x371ef0
 cocos2d::extension::CCScrollView::resume - 0x370504
-cocos2d::extension::CCScrollView::setContainer - 0x20a620
-cocos2d::extension::CCScrollView::setContentOffset - 0x577df8
 cocos2d::extension::CCScrollView::setContentOffsetInDuration - 0x370720
 cocos2d::extension::CCScrollView::setViewSize - 0x3702d8
 cocos2d::extension::CCScrollView::setZoomScale - 0x3708bc
 cocos2d::extension::CCScrollView::stoppedAnimatedScroll - 0x370838
 cocos2d::extension::CCScrollView::unregisterScriptHandler - 0x36ff50
-cocos2d::extension::CCScrollView::updateInset - 0x1740d4
 cocos2d::extension::CCTableView::CCTableView - 0x39f194
 cocos2d::extension::CCTableView::~CCTableView - 0x39f1f4
 cocos2d::extension::CCTableView::create - 0x39ed18
@@ -2175,13 +2155,11 @@ cocos2d::extension::CCTableView::reloadData - 0x39f420
 cocos2d::extension::CCTableView::removeCellAtIndex - 0x39fbe0
 cocos2d::extension::CCTableView::setVerticalFillOrder - 0x39f3d8
 cocos2d::extension::CCTableView::unregisterAllScriptHandler - 0x39f300
-cocos2d::extension::CCTableView::updateCellAtIndex - 0x83ed8
 cocos2d::extension::CCTableViewCell::setObjectID - 0x3a97e4
 cocos2d::extension::CCTableViewCell::getObjectID - 0x3a97f4
 cocos2d::extension::CCTableViewCell::getIdx - 0x3a9804
 cocos2d::extension::CCTableViewCell::reset - 0x3a97d8
 cocos2d::extension::CCTableViewCell::setIdx - 0x3a980c
-cocos2d::ZipUtils::base64EncodeEnc - 0x3a10
 cocos2d::ZipUtils::ccDeflateMemory - 0x1b136c
 cocos2d::ZipUtils::compressString - 0x1b10ac
 cocos2d::ZipUtils::decompressString2 - 0x1b14a0
@@ -2199,12 +2177,9 @@ DS_Dictionary::getStringForKey - 0x14341c
 DS_Dictionary::loadRootSubDictFromString - 0x141010
 DS_Dictionary::saveRootSubDictToString - 0x142258
 DS_Dictionary::setArrayForKey - 0x144760
-DS_Dictionary::setBoolForKey - 0x11d2d8
-DS_Dictionary::setBoolMapForKey - 0xaf6f4
 DS_Dictionary::setDictForKey - 0x1462ac
 DS_Dictionary::setFloatForKey - 0x1444c0
 DS_Dictionary::setIntegerForKey - 0x14406c
-DS_Dictionary::setSubDictForKey - 0x143dcc
 DS_Dictionary::setSubDictForKey - 0x38b74
 DS_Dictionary::stepOutOfSubDict - 0x1428f4
 ObjectDecoder::sharedDecoder - 0x69aa80
@@ -2698,8 +2673,11 @@ AppDelegate::applicationWillResignActive - 0x57c094
 AppDelegate::trySaveGame - 0x57c534
 AppDelegate::willSwitchToScene - 0x57c610
 AppDelegate::bgScale - 0x57c05c
+AppDelegate::checkSound - 0x57c4bc
 AppDelegate::hideLoadingCircle - 0x57c65c
 AppDelegate::loadingIsFinished - 0x57c074
+AppDelegate::musicTest - 0x57c438
+AppDelegate::resumeSound - 0x57c39c
 AppDelegate::showLoadingCircle - 0x57c658
 ArtistCell::ArtistCell - 0x1fa730
 ArtistCell::init - 0x1fa774
@@ -6775,7 +6753,7 @@ PlayLayer::getRelativeModNew - 0xa57d4
 PlayLayer::getTempMilliTime - 0x37ac1c
 PlayLayer::gravityEffectFinished - 0xa6e68
 PlayLayer::init - 0x9af50
-PlayLayer::isGameplayActive - 0xae098
+PlayLayer::isGameplayActive - 0xac1d8
 PlayLayer::levelComplete - 0x1a99d0
 PlayLayer::loadActiveSaveObjects - 0xaa700
 PlayLayer::loadDefaultColors - 0x9ff78
