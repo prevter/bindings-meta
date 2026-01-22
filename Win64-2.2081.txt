@@ -718,7 +718,7 @@ SetupTriggerPopup::updateSpawnedByTrigger - 0x4756c0
 SetupTriggerPopup::updateTouchTriggered - 0x4755d0
 SetupTriggerPopup::updateValue - 0x47c010
 SetupTriggerPopup::updateValueControls - 0x477c80
-SetupTriggerPopup::valueChanged - 0x45eeb0
+SetupTriggerPopup::valueChanged - 0x478250
 ColorSelectPopup::colorToHex - 0x92790
 ColorSelectPopup::create - 0x8daf0
 ColorSelectPopup::hexToColor - 0x91b20
@@ -895,7 +895,7 @@ CustomizeObjectLayer::onPaste - 0xa8070
 CustomizeObjectLayer::onSelectColor - 0xa9cb0
 CustomizeObjectLayer::onSelectMode - 0xa8ff0
 CustomizeObjectLayer::onSettings - 0xa81c0
-CustomizeObjectLayer::onUpdateCustomColor - 0x990f0
+CustomizeObjectLayer::onUpdateCustomColor - 0xa95b0
 CustomizeObjectLayer::toggleVisible - 0xa9200
 CustomizeObjectLayer::updateColorSprite - 0xa8530
 CustomizeObjectLayer::updateCurrentSelection - 0xa9550
@@ -979,7 +979,8 @@ CustomSongWidget::onInfo - 0xc9c10
 CustomSongWidget::onMore - 0xca220
 CustomSongWidget::onPlayback - 0xcaec0
 CustomSongWidget::onSelect - 0xcae60
-CustomSongWidget::positionInfoObjects - 0x294250
+CustomSongWidget::positionInfoObjects - 0xc9630
+CustomSongWidget::processNextMultiAsset - 0xcd260
 CustomSongWidget::showError - 0xcd780
 CustomSongWidget::startDownload - 0xcada0
 CustomSongWidget::startMultiAssetDownload - 0xcd0a0
@@ -1319,7 +1320,7 @@ EditorUI::toggleEditObjectButton - 0x11a8f0
 EditorUI::toggleEnableRotate - 0x1101e0
 EditorUI::toggleFreeMove - 0x110060
 EditorUI::toggleMode - 0xe4e90
-EditorUI::toggleObjectInfoLabel - 0xdd460
+EditorUI::toggleObjectInfoLabel - 0xe2dd0
 EditorUI::toggleSpecialEditButtons - 0x11a9f0
 EditorUI::toggleSwipe - 0x10ffc0
 EditorUI::transformObjectCall - 0x1201d0
@@ -1928,7 +1929,7 @@ GauntletSelectLayer::onPlay - 0x1fa770
 GauntletSelectLayer::onPrev - 0x1fa4d0
 GauntletSelectLayer::onRefresh - 0x1f98d0
 GauntletSelectLayer::setupGauntlets - 0x1f9d30
-GauntletSprite::addLockedSprite - 0xc9630
+GauntletSprite::addLockedSprite - 0x1f84f0
 GauntletSprite::toggleLockedSprite - 0x1f87f0
 GhostTrailEffect::create - 0x6a000
 GhostTrailEffect::init - 0x6a0e0
@@ -2278,7 +2279,7 @@ GJGroundLayer::fadeOutGround - 0x27eff0
 GJGroundLayer::createLine - 0x27ea50
 GJGroundLayer::init - 0x27e220
 GJGroundLayer::loadGroundSprites - 0x27e790
-GJGroundLayer::scaleGround - 0xcd260
+GJGroundLayer::scaleGround - 0x27ec40
 GJGroundLayer::updateShadows - 0x27ee80
 GJGroundLayer::updateShadowXPos - 0x27ef20
 GJFollowCommandLayer::create - 0x2705e0
@@ -2622,7 +2623,7 @@ GJUserMessage::create - 0x173ed0
 GJUserMessage::create - 0x173390
 GJUserMessage::init - 0x77de0
 GJUserScore::GJUserScore - 0x142100
-GJUserScore::create - 0x16ae30
+GJUserScore::create - 0x1710b0
 GJUserScore::init - 0x172b50
 GJUserScore::isCurrentUser - 0x172ba0
 GJWriteMessagePopup::create - 0x2990b0
@@ -2656,7 +2657,6 @@ HSVLiveOverlay::show - 0x8baf0
 HSVLiveOverlay::hsvChanged - 0x2ba2d0
 HSVLiveOverlay::createHSVWidget - 0x2ba0e0
 HSVLiveOverlay::determineStartValues - 0x2b9e60
-HSVLiveOverlay::init - 0x1f84f0
 HSVLiveOverlay::onSelectTab - 0x2ba0b0
 HSVWidgetPopup::create - 0x964d0
 HSVWidgetPopup::keyBackClicked - 0x96a00
@@ -3272,7 +3272,7 @@ MusicDownloadManager::downloadMusicLibrary - 0x340940
 MusicDownloadManager::downloadSFX - 0x342240
 MusicDownloadManager::downloadSFXLibrary - 0x3429e0
 MusicDownloadManager::downloadSong - 0x33ea20
-MusicDownloadManager::filterMusicByArtistID - 0xcce10
+MusicDownloadManager::filterMusicByArtistID - 0x3420e0
 MusicDownloadManager::filterMusicByTag - 0x342190
 MusicDownloadManager::generateCustomContentURL - 0x343aa0
 MusicDownloadManager::getCustomContentURL - 0x33ff10
@@ -3725,7 +3725,7 @@ RateStarsLayer::uploadActionFailed - 0x3cad70
 RateStarsLayer::onClosePopup - 0x3cae30
 RateStarsLayer::onFeature - 0x3ca8e0
 RateStarsLayer::onRate - 0x3cab00
-RateStarsLayer::selectRating - 0x2f68c0
+RateStarsLayer::selectRating - 0x3ca910
 RetryLevelLayer::keyBackClicked - 0x3cbfb0
 RetryLevelLayer::keyDown - 0x3cbe40
 RetryLevelLayer::customSetup - 0x3cb060
@@ -3949,7 +3949,7 @@ SetItemIDLayer::onCustomToggleTriggerValue - 0x4018c0
 SetItemIDLayer::init - 0x401160
 SetLevelOrderPopup::init - 0x308ed0
 SetLevelOrderPopup::onOrderButton - 0x3091a0
-SetTargetIDLayer::create - 0x98460
+SetTargetIDLayer::create - 0x401cd0
 SetTargetIDLayer::determineStartValues - 0x28f240
 SetTargetIDLayer::valueDidChange - 0x402300
 SetTargetIDLayer::init - 0x401e60
@@ -4223,7 +4223,7 @@ SetupRandAdvTriggerPopup::updateGroupIDButtons - 0x43dea0
 SetupRandTriggerPopup::determineStartValues - 0x4408b0
 SetupRandTriggerPopup::onClose - 0x441390
 SetupRandTriggerPopup::textChanged - 0x440bb0
-SetupRandTriggerPopup::init - 0x3bfe80
+SetupRandTriggerPopup::init - 0x43fb30
 SetupRandTriggerPopup::onTargetID2Arrow - 0x440b60
 SetupRandTriggerPopup::onTargetIDArrow - 0x440b10
 SetupResetTriggerPopup::init - 0x46a750
@@ -4299,7 +4299,7 @@ SetupShakePopup::create - 0x454bf0
 SetupShakePopup::determineStartValues - 0x455a70
 SetupShakePopup::onClose - 0x4564c0
 SetupShakePopup::textChanged - 0x456100
-SetupShakePopup::init - 0x3f85e0
+SetupShakePopup::init - 0x454d20
 SetupSmartBlockLayer::create - 0x4568d0
 SetupSmartBlockLayer::keyBackClicked - 0x458a70
 SetupSmartBlockLayer::show - 0x8baf0
@@ -4333,6 +4333,7 @@ SetupSongTriggerPopup::onSavePlaybackPos - 0x45d9d0
 SetupSongTriggerPopup::updateLength - 0x45d5a0
 SetupSpawnPopup::onClose - 0x4244b0
 SetupSpawnPopup::init - 0x45e0c0
+SetupSpawnPopup::onAddRemap - 0x45eeb0
 SetupSpawnPopup::onDeleteRemap - 0x45eff0
 SetupSpawnPopup::onSelectRemap - 0x45fa50
 SetupSpawnPopup::queueUpdateButtons - 0x45fb20
@@ -4441,7 +4442,7 @@ ShareCommentLayer::uploadActionFinished - 0x48ea30
 ShareCommentLayer::uploadActionFailed - 0x48eac0
 ShareCommentLayer::onClosePopup - 0x48eb70
 ShareCommentLayer::init - 0x48d020
-ShareCommentLayer::onClear - 0x2c3930
+ShareCommentLayer::onClear - 0x48e100
 ShareCommentLayer::onClose - 0x48e610
 ShareCommentLayer::onPercent - 0x48e170
 ShareCommentLayer::onShare - 0x48e270
