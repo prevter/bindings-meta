@@ -1307,7 +1307,7 @@ EditorUI::moveObjectCall - 0x11fa20
 EditorUI::moveObjectCall - 0x11f9f0
 EditorUI::offsetForKey - 0x1269a0
 EditorUI::onColorFilter - 0xe72a0
-EditorUI::onCopy - 0xdcd30
+EditorUI::onCopy - 0x113190
 EditorUI::onCopyState - 0x114360
 EditorUI::onCreate - 0x10f3f0
 EditorUI::onCreateButton - 0x10ef60
@@ -1328,9 +1328,9 @@ EditorUI::onGroupDown - 0x11f4b0
 EditorUI::onGroupIDFilter - 0xe7150
 EditorUI::onGroupSticky - 0x1128e0
 EditorUI::onGroupUp - 0x11f490
-EditorUI::onLockLayer - 0x112960
+EditorUI::onLockLayer - 0x11f620
 EditorUI::onNewCustomItem - 0xe4030
-EditorUI::onPaste - 0xdcd50
+EditorUI::onPaste - 0x113320
 EditorUI::onPasteColor - 0x114570
 EditorUI::onPasteState - 0x1143e0
 EditorUI::onPause - 0xe19c0
@@ -2024,9 +2024,9 @@ GJAccountSettingsLayer::textInputReturn - 0x7b660
 GJAccountSettingsLayer::createToggleButton - 0x293ae0
 GJAccountSettingsLayer::init - 0x2921e0
 GJAccountSettingsLayer::onClose - 0x294030
-GJAccountSettingsLayer::onCommentSetting - 0x293cf0
+GJAccountSettingsLayer::onCommentSetting - 0x293e30
 GJAccountSettingsLayer::onFriendRequests - 0x293d90
-GJAccountSettingsLayer::onMessageSetting - 0x293e30
+GJAccountSettingsLayer::onMessageSetting - 0x293cf0
 GJAccountSettingsLayer::onUpdate - 0x294070
 GJAccountSettingsLayer::updateScoreValues - 0x294250
 GJActionManager::init - 0x200590
@@ -2371,8 +2371,8 @@ GJFollowCommandLayer::updateTargetGroupID - 0x272760
 GJFollowCommandLayer::updateTargetGroupID2 - 0x272830
 GJFollowCommandLayer::updateTextInputLabel - 0x272640
 GJFollowCommandLayer::updateTextInputLabel2 - 0x2726d0
-GJFollowCommandLayer::updateXMod - 0x271f30
-GJFollowCommandLayer::updateYMod - 0x271fd0
+GJFollowCommandLayer::updateXModLabel - 0x271f30
+GJFollowCommandLayer::updateYModLabel - 0x271fd0
 GJFriendRequest::create - 0x172c80
 GJFriendRequest::init - 0x77de0
 GJGameLevel::GJGameLevel - 0x141590
@@ -2552,8 +2552,8 @@ GJPFollowCommandLayer::sliderChanged - 0x271d20
 GJPFollowCommandLayer::sliderXModChanged - 0x28c450
 GJPFollowCommandLayer::sliderYModChanged - 0x28c480
 GJPFollowCommandLayer::updateTargetGroupID - 0x28ccc0
-GJPFollowCommandLayer::updateXMod - 0x28c4b0
-GJPFollowCommandLayer::updateYMod - 0x28c550
+GJPFollowCommandLayer::updateXModLabel - 0x28c4b0
+GJPFollowCommandLayer::updateYModLabel - 0x28c550
 GJPromoPopup::onExit - 0x2a4f50
 GJPromoPopup::registerWithTouchDispatcher - 0x42640
 GJPromoPopup::keyBackClicked - 0x285450
@@ -3666,6 +3666,7 @@ PlayerObject::releaseButton - 0x3981d0
 PlayerObject::removePendingCheckpoint - 0x3a3250
 PlayerObject::resetAllParticles - 0x38b7e0
 PlayerObject::resetPlayerIcon - 0x39b2e0
+PlayerObject::resetStreak - 0x38b5e0
 PlayerObject::resetTouchedRings - 0x3982e0
 PlayerObject::reversePlayer - 0x398430
 PlayerObject::ringJump - 0x398c00
@@ -3678,6 +3679,7 @@ PlayerObject::saveToCheckpoint - 0x3a1710
 PlayerObject::setSecondColor - 0x39d3a0
 PlayerObject::setupStreak - 0x3887c0
 PlayerObject::setYVelocity - 0x388d10
+PlayerObject::spawnCircle - 0x3975b0
 PlayerObject::spawnDualCircle - 0x397b70
 PlayerObject::spawnPortalCircle - 0x397760
 PlayerObject::spawnScaleCircle - 0x397970
@@ -4384,7 +4386,7 @@ SetupMGTrigger::sliderYChanged - 0x4284b0
 SetupMGTrigger::toggleEasingRateVisibility - 0x416d70
 SetupMGTrigger::updateDuration - 0x272a00
 SetupMGTrigger::updateDurLabel - 0x271de0
-SetupMGTrigger::updateEasingLabel - 0x416b90
+SetupMGTrigger::updateEasingRateLabel - 0x416b90
 SetupMoveCommandPopup::create - 0x280820
 SetupMoveCommandPopup::updateInputValue - 0x281e00
 SetupMoveCommandPopup::updateInputNode - 0x281dd0
@@ -4460,9 +4462,9 @@ SetupPulsePopup::onSelectTargetMode - 0x43afa0
 SetupPulsePopup::onUpdateCopyColor - 0x43c3b0
 SetupPulsePopup::onUpdateCustomColor - 0x43c320
 SetupPulsePopup::sliderChanged - 0x43bb90
-SetupPulsePopup::updateCopyColor - 0x43bef0
+SetupPulsePopup::updateCopyColor - 0x43ce60
 SetupPulsePopup::updateFadeInTime - 0x43bdd0
-SetupPulsePopup::updateFadeOutTime - 0x43be60
+SetupPulsePopup::updateFadeOutTime - 0x43bef0
 SetupPulsePopup::updateGroupMainOnly - 0x43b740
 SetupPulsePopup::updateGroupSecondaryOnly - 0x43b8c0
 SetupPulsePopup::updateHoldTime - 0x43be60
@@ -4482,7 +4484,7 @@ SetupRandTriggerPopup::init - 0x43fb30
 SetupRandTriggerPopup::onTargetID2Arrow - 0x440b60
 SetupRandTriggerPopup::onTargetIDArrow - 0x440b10
 SetupRandTriggerPopup::sliderChanged - 0x440a00
-SetupRandTriggerPopup::updateChance - 0x440a40
+SetupRandTriggerPopup::updateChanceLabel - 0x440a40
 SetupRandTriggerPopup::updateTargetID - 0x4411f0
 SetupRandTriggerPopup::updateTargetID2 - 0x4412c0
 SetupRandTriggerPopup::updateTextInputLabel - 0x440e90

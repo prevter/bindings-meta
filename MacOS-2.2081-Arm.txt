@@ -4536,7 +4536,9 @@ GameStatsManager::getTotalCollectedCurrency - 0x662ec
 GameStatsManager::getTotalCollectedDiamonds - 0x66eec
 GameStatsManager::hasClaimedListReward - 0x6558c
 GameStatsManager::hasCompletedChallenge - 0x651d4
+GameStatsManager::hasCompletedGauntletLevel - 0x5f0e4
 GameStatsManager::hasCompletedLevel - 0x5ef7c
+GameStatsManager::hasCompletedMapPack - 0x60104
 GameStatsManager::incrementActivePath - 0x5cee0
 GameStatsManager::incrementChallenge - 0x5c8f0
 GameStatsManager::incrementStat - 0x58ea0
@@ -5073,7 +5075,7 @@ GJGameLevel::getAverageDifficulty - 0x4ab864
 GJGameLevel::getCoinKey - 0x49cb1c
 GJGameLevel::getNormalPercent - 0x4813b8
 GJGameLevel::getSongName - 0x4abbfc
-GJGameLevel::getUnpackedLevelDescription - 0x4a16d8
+GJGameLevel::getUnpackedLevelDescription - 0x4aec30
 GJGameLevel::isPlatformer - 0x489ba0
 GJGameLevel::levelWasAltered - 0x4ab20c
 GJGameLevel::levelWasSubmitted - 0x490d18
@@ -6286,7 +6288,7 @@ MPLobbyLayer::onComment - 0x3f8a80
 MPLobbyLayer::postComment - 0x3f8b74
 MPLobbyLayer::tryExitLobby - 0x3f8d28
 MPLobbyLayer::updateLobby - 0x3f88f8
-MultilineBitmapFont::~MultilineBitmapFont - 0x3eeaf8
+MultilineBitmapFont::~MultilineBitmapFont - 0x3eea94
 MultilineBitmapFont::createWithFont - 0x3ecc14
 MultilineBitmapFont::setOpacity - 0x3ee70c
 MultilineBitmapFont::moveSpecialDescriptors - 0x3ee7ec
