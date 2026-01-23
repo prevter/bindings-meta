@@ -3800,6 +3800,7 @@ GameStatsManager::addSimpleSpecialChestReward - 0x77e00
 GameStatsManager::addSpecialRewardDescription - 0x77dc0
 GameStatsManager::areChallengesLoaded - 0x72dd0
 GameStatsManager::awardDiamondsForLevel - 0x71810
+GameStatsManager::awardOldSpecialStats - 0x75be0
 GameStatsManager::canItemBeUnlocked - 0x77880
 GameStatsManager::checkCoinAchievement - 0x6cdf0
 GameStatsManager::checkCoinsForLevel - 0x6fe40

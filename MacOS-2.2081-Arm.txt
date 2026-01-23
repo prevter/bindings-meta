@@ -4483,6 +4483,7 @@ GameStatsManager::areChallengesLoaded - 0x646f0
 GameStatsManager::areRewardsLoaded - 0x63b9c
 GameStatsManager::awardCurrencyForLevel - 0x62914
 GameStatsManager::awardDiamondsForLevel - 0x630b0
+GameStatsManager::awardOldSpecialStats - 0x67404
 GameStatsManager::awardSecretKey - 0x7e098
 GameStatsManager::canItemBeUnlocked - 0x473b4
 GameStatsManager::checkCoinsForLevel - 0x6155c
