@@ -1,3 +1,7 @@
+cocos2d::CCDisplayLinkDirector::setAnimationInterval - 0xbf3f0
+cocos2d::CCDisplayLinkDirector::stopAnimation - 0xbff30
+cocos2d::CCDisplayLinkDirector::startAnimation - 0xbfef0
+cocos2d::CCDisplayLinkDirector::mainLoop - 0xbeae0
 cocos2d::CCLightning::CCLightning - 0x44470
 cocos2d::CCLightning::lightningWithStrikePoint - 0x445b0
 cocos2d::CCLightning::draw - 0x44770
@@ -2103,6 +2107,7 @@ GJBaseGameLayer::createBackground - 0x20b820
 GJBaseGameLayer::createGroundLayer - 0x20bc60
 GJBaseGameLayer::createMiddleground - 0x20bae0
 GJBaseGameLayer::createParticle - 0x2405f0
+GJBaseGameLayer::createPlayer - 0x20b310
 GJBaseGameLayer::createPlayerCollisionBlock - 0x218370
 GJBaseGameLayer::createTextLayers - 0x20ec90
 GJBaseGameLayer::damagingObjectsInRect - 0x211620
