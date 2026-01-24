@@ -60,6 +60,7 @@ FLAlertLayer::FLAlertLayer - 0x51720
 FLAlertLayer::~FLAlertLayer - 0x51850
 FLAlertLayer::create - 0x51900
 FLAlertLayer::create - 0x519b0
+FLAlertLayer::onEnter - 0x52e20
 FLAlertLayer::ccTouchBegan - 0x52a70
 FLAlertLayer::ccTouchMoved - 0x52bc0
 FLAlertLayer::ccTouchEnded - 0x52b10
@@ -1855,7 +1856,6 @@ GameOptionsLayer::onUIPOptions - 0x2a0410
 GameOptionsLayer::showPracticeMusicSyncUnlockInfo - 0x29fa10
 GameOptionsTrigger::customObjectSetup - 0x49f450
 GameOptionsTrigger::getSaveString - 0x49ece0
-GameStatsManager::GameStatsManager - 0x1d0ae0
 GameStatsManager::sharedState - 0x1d0ef0
 GameStatsManager::init - 0x1d1110
 GameStatsManager::addSimpleSpecialChestReward - 0x1ea0a0
@@ -3206,12 +3206,14 @@ LevelSettingsLayer::onGArt - 0x321c40
 LevelSettingsLayer::onLiveEdit - 0x321920
 LevelSettingsLayer::onMode - 0x321100
 LevelSettingsLayer::onOptionToggle - 0x3215d0
+LevelSettingsLayer::onSelectFont - 0x321d10
 LevelSettingsLayer::onSettings - 0x321040
 LevelSettingsLayer::onShowPicker - 0x321970
 LevelSettingsLayer::onSpeed - 0x3210b0
 LevelSettingsLayer::updateColorSprite - 0x321a90
 LevelSettingsLayer::updateColorSprites - 0x321a20
 LevelSettingsLayer::updateGameplayModeButtons - 0x320f70
+LevelSettingsObject::create - 0x2eab20
 LevelSettingsObject::objectFromDict - 0x2eca40
 LevelSettingsObject::init - 0x2eac60
 LevelSettingsObject::getSaveString - 0x2eaf70
@@ -3378,6 +3380,7 @@ MoreSearchLayer::toggleSongNodes - 0x317050
 MoreSearchLayer::updateAudioLabel - 0x316550
 MoreVideoOptionsLayer::init - 0x378c20
 MoreVideoOptionsLayer::keyBackClicked - 0x37b540
+MoreVideoOptionsLayer::addToggle - 0x379720
 MoreVideoOptionsLayer::countForPage - 0x379d80
 MoreVideoOptionsLayer::onApplyFPS - 0x37b020
 MoreVideoOptionsLayer::onClose - 0x37b4f0
@@ -4110,12 +4113,15 @@ SetGroupIDLayer::onArrow - 0x3fb190
 SetGroupIDLayer::onArrowLeft - 0x3fb130
 SetGroupIDLayer::onArrowRight - 0x3fb160
 SetGroupIDLayer::onClose - 0x3fdb60
+SetGroupIDLayer::onCopy - 0x3fb680
 SetGroupIDLayer::onExtra - 0x3fb880
 SetGroupIDLayer::onExtra2 - 0x3fba00
 SetGroupIDLayer::onPaste - 0x3fb6e0
 SetGroupIDLayer::onZLayer - 0x3fcd00
 SetGroupIDLayer::onZLayerShift - 0x3fcdc0
+SetGroupIDLayer::updateEditorOrder - 0x3fda90
 SetGroupIDLayer::updateGroupIDButtons - 0x3fc120
+SetGroupIDLayer::updateOrderChannel - 0x3fd9c0
 SetGroupIDLayer::updateZLayerButtons - 0x3fd930
 SetGroupIDLayer::updateZOrder - 0x3fd460
 SetGroupIDLayer::updateZOrderLabel - 0x3fd610
