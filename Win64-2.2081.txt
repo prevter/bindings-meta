@@ -1980,7 +1980,7 @@ GauntletLayer::onLevel - 0x1f7d90
 GauntletLayer::unlockActiveItem - 0x1f7e00
 GauntletNode::frameForType - 0x1fde00
 GauntletNode::nameForType - 0x1ff190
-GauntletNode::init - 0x1fc240
+GauntletNode::setupNode - 0x1fc240
 GauntletNode::onClaimReward - 0x1fddc0
 GauntletSelectLayer::scene - 0x1f8ae0
 GauntletSelectLayer::onExit - 0x1fb030

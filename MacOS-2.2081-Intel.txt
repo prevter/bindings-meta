@@ -5669,7 +5669,8 @@ GauntletLayer::unlockActiveItem - 0x394620
 GauntletNode::create - 0x5728b0
 GauntletNode::frameForType - 0x575ab0
 GauntletNode::nameForType - 0x575a70
-GauntletNode::init - 0x574100
+GauntletNode::init - 0x5740b0
+GauntletNode::setupNode - 0x574100
 GauntletNode::onClaimReward - 0x573250
 GauntletSelectLayer::~GauntletSelectLayer - 0x571090
 GauntletSelectLayer::create - 0x571260
