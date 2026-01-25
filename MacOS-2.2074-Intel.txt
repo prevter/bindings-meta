@@ -727,7 +727,6 @@ cocos2d::CCLayerGradient::create - 0x4a0430
 cocos2d::CCLayerGradient::create - 0x4a06f0
 cocos2d::CCLayerGradient::create - 0x4a0780
 cocos2d::CCLayerGradient::init - 0x4a07f0
-cocos2d::CCLayerGradient::visit - 0x4a0ce0
 cocos2d::CCLayerGradient::updateColor - 0x4a0930
 cocos2d::CCLayerGradient::initWithColor - 0x4a0820
 cocos2d::CCLayerGradient::initWithColor - 0x4a0880
@@ -1416,8 +1415,6 @@ cocos2d::CCDrawNode::listenBackToForeground - 0x5fb280
 cocos2d::CCDrawNode::render - 0x5f9770
 cocos2d::CCDrawNode::disableDrawArea - 0x5f9950
 cocos2d::CCDrawNode::enableDrawArea - 0x5f98e0
-cocos2d::CCDrawNode::is_circle_on_screen - 0x5f9960
-cocos2d::CCDrawNode::is_segment_on_screen - 0x5fa7e0
 cocos2d::CCDrawNode::init - 0x5f9610
 cocos2d::CCDrawNode::draw - 0x5f9800
 cocos2d::CCSpriteFrame::create - 0x343d10
@@ -1568,7 +1565,6 @@ cocos2d::CCTextFieldTTF::canAttachWithIME - 0x26a450
 cocos2d::CCTextFieldTTF::canDetachWithIME - 0x26a4a0
 cocos2d::CCTextFieldTTF::insertText - 0x26a500
 cocos2d::CCTextFieldTTF::deleteBackward - 0x26a840
-cocos2d::CCTextFieldTTF::deleteForward - 0x26a7e0
 cocos2d::CCTextFieldTTF::getContentText - 0x26abc0
 DS_Dictionary::DS_Dictionary - 0x169200
 DS_Dictionary::addBoolValuesToMapForKey - 0x171590
@@ -1651,7 +1647,6 @@ cocos2d::extension::CCControlHuePicker::setEnabled - 0x343810
 cocos2d::extension::CCControlHuePicker::initWithTargetAndPos - 0x343510
 cocos2d::extension::CCControlHuePicker::setHue - 0x3436f0
 cocos2d::extension::CCControlHuePicker::setHuePercentage - 0x343720
-cocos2d::extension::CCControlHuePicker::registerWithTouchDispatcher - 0x3436b0
 cocos2d::extension::CCControlSaturationBrightnessPicker::CCControlSaturationBrightnessPicker - 0x354950
 cocos2d::extension::CCControlSaturationBrightnessPicker::~CCControlSaturationBrightnessPicker - 0x354ad0
 cocos2d::extension::CCControlSaturationBrightnessPicker::create - 0x354f70
@@ -1663,7 +1658,6 @@ cocos2d::extension::CCControlSaturationBrightnessPicker::setEnabled - 0x3550a0
 cocos2d::extension::CCControlSaturationBrightnessPicker::initWithTargetAndPos - 0x354df0
 cocos2d::extension::CCControlSaturationBrightnessPicker::updateWithHSV - 0x3550f0
 cocos2d::extension::CCControlSaturationBrightnessPicker::updateDraggerWithHSV - 0x355190
-cocos2d::extension::CCControlSaturationBrightnessPicker::registerWithTouchDispatcher - 0x355540
 cocos2d::extension::CCScale9Sprite::create - 0x3e3e90
 cocos2d::extension::CCScale9Sprite::createWithSpriteFrameName - 0x3e3d70
 cocos2d::extension::CCScale9Sprite::createWithSpriteFrameName - 0x3e3c90
@@ -1678,7 +1672,6 @@ cocos2d::extension::CCScale9Sprite::~CCScale9Sprite - 0x3e1f40
 cocos2d::extension::CCScale9Sprite::updatePositions - 0x3e31b0
 cocos2d::extension::CCScale9Sprite::updateCapInset - 0x3e4000
 cocos2d::extension::CCScale9Sprite::resizableSpriteWithCapInsets - 0x3e3de0
-cocos2d::extension::CCScale9Sprite::setBlendAdditive - 0x3e4820
 cocos2d::extension::CCScale9Sprite::init - 0x3e2060
 cocos2d::extension::CCScale9Sprite::setContentSize - 0x3e3190
 cocos2d::extension::CCScale9Sprite::visit - 0x3e44d0
@@ -1819,8 +1812,6 @@ cocos2d::CCBMFontConfiguration::parseInfoArguments - 0x5bd8e0
 cocos2d::CCBMFontConfiguration::parseKerningEntry - 0x5bf370
 cocos2d::CCBMFontConfiguration::purgeFontDefDictionary - 0x5bd5b0
 cocos2d::CCBMFontConfiguration::purgeKerningDictionary - 0x5bd710
-cocos2d::CCGrabber::CCGrabber - 0x5e29e0
-cocos2d::CCGrabber::~CCGrabber - 0x5e2b40
 cocos2d::CCGrabber::grab - 0x5e2a30
 cocos2d::CCGrabber::beforeRender - 0x5e2aa0
 cocos2d::CCGrabber::afterRender - 0x5e2b00
@@ -2053,7 +2044,6 @@ cocos2d::CCDataVisitor::visit - 0x4a1d70
 cocos2d::CCDataVisitor::visit - 0x4a1d80
 cocos2d::CCDataVisitor::visit - 0x4a1d90
 cocos2d::CCDataVisitor::visit - 0x4a1da0
-cocos2d::CCPrettyPrinter::CCPrettyPrinter - 0x4a1db0
 cocos2d::CCPrettyPrinter::setIndentLevel - 0x4a1e50
 cocos2d::CCPrettyPrinter::clear - 0x4a1f60
 cocos2d::CCPrettyPrinter::getResult - 0x4a1f90
@@ -2118,7 +2108,6 @@ cocos2d::CCTiledGrid3D::blit - 0x4d19e0
 cocos2d::CCTiledGrid3D::reuse - 0x4d2090
 cocos2d::CCTiledGrid3D::calculateVertexPoints - 0x4d1a80
 cocos2d::extension::CCInvocation::create - 0x3c5070
-cocos2d::extension::CCInvocation::CCInvocation - 0x3c5140
 cocos2d::extension::CCInvocation::invoke - 0x3c5190
 cocos2d::extension::CCControlButton::create - 0x3401e0
 cocos2d::extension::CCControlButton::create - 0x340380
