@@ -2327,7 +2327,7 @@ cocos2d::extension::CCEditBox::unregisterScriptEditBoxHandler - 0x40d4f4
 cocos2d::extension::CCHttpClient::CCHttpClient - 0x3aa308
 cocos2d::extension::CCHttpClient::~CCHttpClient - 0x3aa4e8
 cocos2d::extension::CCHttpClient::destroyInstance - 0x3aa65c
-cocos2d::extension::CCHttpClient::getInstance - 0x3aa770
+cocos2d::extension::CCHttpClient::getInstance - 0x3aa600
 cocos2d::extension::CCHttpClient::dispatchResponseCallbacks - 0x3aa3d8
 cocos2d::extension::CCHttpClient::availableThreadCount - 0x3aa770
 cocos2d::extension::CCHttpClient::send - 0x3aa690
