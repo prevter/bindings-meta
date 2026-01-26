@@ -17,7 +17,7 @@ versions.sort((a, b) => b.version.localeCompare(a.version));
 ---
 
 <div class="platform-card">
-    <img src={icon} alt={name} />
+    <img src={icon} alt={name} loading="lazy" decoding="async" />
     <h2>{name}</h2>
     <hr />
     <div class="versions">
