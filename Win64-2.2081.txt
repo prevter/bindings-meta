@@ -1571,6 +1571,7 @@ FRequestProfilePage::setupPageInfo - 0x13f930
 FRequestProfilePage::forceReloadRequests - 0x13f910
 FRequestProfilePage::deleteSelected - 0x13ea40
 FRequestProfilePage::init - 0x13da70
+FRequestProfilePage::loadPage - 0x13f270
 FRequestProfilePage::onClose - 0x13ed70
 FRequestProfilePage::onDeleteSelected - 0x13e750
 FRequestProfilePage::onNextPage - 0x13fac0
@@ -1606,6 +1607,7 @@ FriendsProfilePage::setupUsersBrowser - 0x1404b0
 GameCell::init - 0x3c830
 GameCell::draw - 0x3cc30
 GameCell::loadFromString - 0x3c840
+GameCell::onTouch - 0x3cc00
 GameLevelManager::responseToDict - 0x16ab90
 GameLevelManager::sharedState - 0x142d10
 GameLevelManager::init - 0x144290
@@ -2391,6 +2393,7 @@ GJGameLevel::dataLoaded - 0x16dec0
 GJGameLevel::getAudioFileName - 0x16cef0
 GJGameLevel::getAverageDifficulty - 0x16cd30
 GJGameLevel::getCoinKey - 0x16cda0
+GJGameLevel::getLastBuildPageForTab - 0x16ce20
 GJGameLevel::getListSnapshot - 0x16db30
 GJGameLevel::getSongName - 0x16cfb0
 GJGameLevel::getUnpackedLevelDescription - 0x170060
@@ -2746,6 +2749,8 @@ GJWriteMessagePopup::init - 0x299240
 GJWriteMessagePopup::onClearBody - 0x29a3b0
 GJWriteMessagePopup::onClose - 0x29a540
 GJWriteMessagePopup::onSend - 0x29a0e0
+GJWriteMessagePopup::updateBody - 0x29a920
+GJWriteMessagePopup::updateSubject - 0x29a8c0
 GJWriteMessagePopup::updateText - 0x29a990
 GooglePlayManager::sharedState - 0x6ac80
 GradientTriggerObject::init - 0x499220
