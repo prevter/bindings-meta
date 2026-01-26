@@ -5083,3 +5083,5 @@ VideoOptionsLayer::onTextureQualityPrev - 0x378030
 VideoOptionsLayer::toggleResolution - 0x378230
 VideoOptionsLayer::updateResolution - 0x378120
 VideoOptionsLayer::updateTextureQuality - 0x378050
+WinMain - 0x4cf4f0
+__scrt_common_main_seh - 0x4d0abc
