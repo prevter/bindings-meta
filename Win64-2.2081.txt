@@ -644,7 +644,8 @@ CollisionBlockPopup::onClose - 0x8bb40
 CollisionBlockPopup::onDynamicBlock - 0x8b5a0
 CollisionBlockPopup::onItemIDArrow - 0x8b650
 CollisionBlockPopup::updateEditorLabel - 0x8b950
-CollisionBlockPopup::updateItemID - 0x8b9d0
+CollisionBlockPopup::updateItemID - 0x8ba50
+CollisionBlockPopup::updateTextInputLabel - 0x8b9d0
 ColorAction::create - 0x258ea0
 ColorAction::setupFromMap - 0x259b60
 ColorAction::setupFromString - 0x259a80
@@ -4129,6 +4130,8 @@ SetGroupIDLayer::onExtra2 - 0x3fba00
 SetGroupIDLayer::onPaste - 0x3fb6e0
 SetGroupIDLayer::onZLayer - 0x3fcd00
 SetGroupIDLayer::onZLayerShift - 0x3fcdc0
+SetGroupIDLayer::updateEditorLayerID - 0x3fce90
+SetGroupIDLayer::updateEditorLayerID2 - 0x3fcf10
 SetGroupIDLayer::updateEditorOrder - 0x3fda90
 SetGroupIDLayer::updateGroupIDButtons - 0x3fc120
 SetGroupIDLayer::updateOrderChannel - 0x3fd9c0
