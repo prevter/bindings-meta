@@ -1148,8 +1148,10 @@ GJOptionsLayer::didToggleGV - 0x1f5ce0
 GJOptionsLayer::addGVToggle - 0x28fda0
 GJOptionsLayer::addToggleInternal - 0x28fee0
 GJOptionsLayer::countForPage - 0x290420
+GJOptionsLayer::goToPage - 0x290940
 GJOptionsLayer::incrementCountForPage - 0x2904f0
 GJOptionsLayer::init - 0x28fa60
+GJOptionsLayer::objectsForPage - 0x2905f0
 GJOptionsLayer::onInfo - 0x290e60
 GJOptionsLayer::onNextPage - 0x290920
 GJOptionsLayer::onPrevPage - 0x290930
@@ -1386,8 +1388,10 @@ EditorUI::toggleEnableRotate - 0x1101e0
 EditorUI::toggleFreeMove - 0x110060
 EditorUI::toggleMode - 0xe4e90
 EditorUI::toggleObjectInfoLabel - 0xe2dd0
+EditorUI::toggleSnap - 0x110100
 EditorUI::toggleSpecialEditButtons - 0x11a9f0
 EditorUI::toggleSwipe - 0x10ffc0
+EditorUI::transformObject - 0x120720
 EditorUI::transformObjectCall - 0x1201d0
 EditorUI::transformObjectCall - 0x1201a0
 EditorUI::transformObjects - 0x121a40
@@ -1794,6 +1798,7 @@ GameManager::addCustomAnimationFrame - 0x1aeb60
 GameManager::addGameAnimation - 0x1ae9f0
 GameManager::addNewCustomObject - 0x1837f0
 GameManager::applicationWillEnterForeground - 0x189c50
+GameManager::checkSteamAchievementUnlock - 0x17e1c0
 GameManager::checkUsedIcons - 0x1841d0
 GameManager::colorForIdx - 0x181350
 GameManager::colorKey - 0x17c7b0
@@ -1912,8 +1917,11 @@ GameStatsManager::getTotalCollectedDiamonds - 0x1e4150
 GameStatsManager::hasClaimedListReward - 0x1e2c00
 GameStatsManager::hasCompletedChallenge - 0x1e2840
 GameStatsManager::hasCompletedDailyLevel - 0x1e2ce0
+GameStatsManager::hasCompletedGauntletLevel - 0x1de170
 GameStatsManager::hasCompletedLevel - 0x1ddf80
 GameStatsManager::hasCompletedMainLevel - 0x1dde50
+GameStatsManager::hasCompletedMapPack - 0x1def90
+GameStatsManager::hasCompletedOnlineLevel - 0x1de040
 GameStatsManager::hasCompletedStarLevel - 0x1de2a0
 GameStatsManager::hasPendingUserCoin - 0x1dfe60
 GameStatsManager::hasRewardBeenCollected - 0x1e1a70
@@ -1985,6 +1993,7 @@ GauntletLayer::loadLevelsFailed - 0x1f6b40
 GauntletLayer::init - 0x1f6140
 GauntletLayer::onBack - 0x1f8410
 GauntletLayer::onLevel - 0x1f7d90
+GauntletLayer::setupGauntlet - 0x1f6d40
 GauntletLayer::unlockActiveItem - 0x1f7e00
 GauntletNode::frameForType - 0x1fde00
 GauntletNode::nameForType - 0x1ff190
@@ -2094,6 +2103,7 @@ GJBaseGameLayer::applyRemap - 0x21b1c0
 GJBaseGameLayer::applySFXEditTrigger - 0x242130
 GJBaseGameLayer::assignNewStickyGroups - 0x224d40
 GJBaseGameLayer::bumpPlayer - 0x2179d0
+GJBaseGameLayer::calculateColorGroups - 0x20e0b0
 GJBaseGameLayer::canBeActivatedByPlayer - 0x2178c0
 GJBaseGameLayer::canProcessSFX - 0x2431a0
 GJBaseGameLayer::checkCameraLimitAfterTeleport - 0x239ba0
@@ -2384,7 +2394,9 @@ GJFollowCommandLayer::updateTargetGroupID - 0x272760
 GJFollowCommandLayer::updateTargetGroupID2 - 0x272830
 GJFollowCommandLayer::updateTextInputLabel - 0x272640
 GJFollowCommandLayer::updateTextInputLabel2 - 0x2726d0
+GJFollowCommandLayer::updateXMod - 0x272900
 GJFollowCommandLayer::updateXModLabel - 0x271f30
+GJFollowCommandLayer::updateYMod - 0x272980
 GJFollowCommandLayer::updateYModLabel - 0x271fd0
 GJFriendRequest::create - 0x172c80
 GJFriendRequest::init - 0x77de0
