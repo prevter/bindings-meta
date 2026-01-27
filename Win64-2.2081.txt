@@ -971,6 +971,7 @@ CustomSFXWidget::songStateChanged - 0xc1f50
 CustomSFXWidget::FLAlert_Clicked - 0xc2780
 CustomSFXWidget::hideLoadingArt - 0xc1910
 CustomSFXWidget::init - 0xc0780
+CustomSFXWidget::onCancelDownload - 0xc19a0
 CustomSFXWidget::onDelete - 0xc1670
 CustomSFXWidget::onDownload - 0xc1a30
 CustomSFXWidget::onPlayback - 0xc1c00
@@ -978,6 +979,7 @@ CustomSFXWidget::onSelect - 0xc1be0
 CustomSFXWidget::showLoadingArt - 0xc17b0
 CustomSFXWidget::startMonitorDownload - 0xc1b30
 CustomSFXWidget::updateDownloadProgress - 0xc1e20
+CustomSFXWidget::updateProgressBar - 0xc1ed0
 CustomSFXWidget::updateSFXInfo - 0xc1f60
 CustomSongLayer::keyBackClicked - 0xc4480
 CustomSongLayer::show - 0xc4490
@@ -1249,6 +1251,7 @@ EditorUI::activateTransformControl - 0x115170
 EditorUI::addObjectsToSmartTemplate - 0x115c30
 EditorUI::alignObjects - 0x121f20
 EditorUI::applySpecialOffset - 0x122660
+EditorUI::assignNewGroups - 0x119220
 EditorUI::canSelectObject - 0x110310
 EditorUI::checkDiffAfterTransformAnchor - 0x115980
 EditorUI::checkLiveColorSelect - 0x110630
@@ -1293,6 +1296,8 @@ EditorUI::editObjectSpecial - 0x11de90
 EditorUI::findAndSelectObject - 0xe6ee0
 EditorUI::findSnapObject - 0x123340
 EditorUI::findSnapObject - 0x123240
+EditorUI::flipObjectsX - 0x120c70
+EditorUI::flipObjectsY - 0x120e50
 EditorUI::getCreateBtn - 0x10e980
 EditorUI::getEditColorTargets - 0x11eb00
 EditorUI::getGroupCenter - 0x122d40
