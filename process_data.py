@@ -8,6 +8,7 @@ def main(input_file):
     win = []
     m1 = []
     imac = []
+    ios = []
 
     for cls in data['classes']:
         name = cls['name']
@@ -23,10 +24,14 @@ def main(input_file):
             if 'imac' in bindings and isinstance(bindings['imac'], int):
                 if any(b[0] == bindings['imac'] for b in imac): continue
                 imac.append((bindings['imac'], func_name))
+            if 'ios' in bindings and isinstance(bindings['ios'], int):
+                if any(b[0] == bindings['ios'] for b in ios): continue
+                imac.append((bindings['ios'], func_name))
 
     win.sort(key=lambda x: x[0])
     m1.sort(key=lambda x: x[0])
     imac.sort(key=lambda x: x[0])
+    ios.sort(key=lambda x: x[0])
 
     base_filename = input_file.replace('.json', '')
 
@@ -37,6 +42,9 @@ def main(input_file):
         json.dump(m1, f)
 
     with open(f"{base_filename}-Intel.json", 'w') as f:
+        json.dump(imac, f)
+
+    with open(f"{base_filename}-iOS.json", 'w') as f:
         json.dump(imac, f)
 
 if __name__ == "__main__":

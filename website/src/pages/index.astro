@@ -50,7 +50,7 @@ const bindings: Platform[] = fs
 const CodegenDataFiles = fs
 	.readdirSync("./public")
 	.filter((file) => file.startsWith("CodegenData-") && !file.startsWith("CodegenData-geode-catgirls-bindings")
-		&& !file.endsWith("-Arm.json") && !file.endsWith("-Intel.json") && !file.endsWith("-Win64.json"))
+		&& !file.endsWith("-Arm.json") && !file.endsWith("-Intel.json") && !file.endsWith("-Win64.json") && !file.endsWith("-iOS.json"))
 	.map((file) => file.replace("CodegenData-", "").replace(".json", ""));
 
 const sortedVersions = CodegenDataFiles.sort((a, b) => Number(b) - Number(a));
