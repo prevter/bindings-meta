@@ -592,6 +592,7 @@ cocos2d::CCLayerColor::setBlendFunc - 0x14cfdc
 cocos2d::CCLayerColor::getBlendFunc - 0x14cfcc
 cocos2d::CCLayerGradient::create - 0x14d52c
 cocos2d::CCLayerGradient::init - 0x14d62c
+cocos2d::CCLayerGradient::visit - 0x14da6c
 cocos2d::CCLayerGradient::updateColor - 0x14d744
 cocos2d::CCLayerGradient::initWithColor - 0x14d664
 cocos2d::CCLayerGradient::initWithColor - 0x14d6c4
@@ -1032,6 +1033,7 @@ cocos2d::CCDrawNode::ensureCapacity - 0x45b14
 cocos2d::CCDrawNode::render - 0x45c70
 cocos2d::CCDrawNode::disableDrawArea - 0x45dc4
 cocos2d::CCDrawNode::enableDrawArea - 0x45d64
+cocos2d::CCDrawNode::is_segment_on_screen - 0x46224
 cocos2d::CCDrawNode::init - 0x45b68
 cocos2d::CCDrawNode::draw - 0x45cf8
 cocos2d::CCSpriteFrame::createWithTexture - 0x24d078
@@ -1140,6 +1142,7 @@ cocos2d::CCTextFieldTTF::canAttachWithIME - 0x1cc034
 cocos2d::CCTextFieldTTF::canDetachWithIME - 0x1cc0a0
 cocos2d::CCTextFieldTTF::insertText - 0x1cc10c
 cocos2d::CCTextFieldTTF::deleteBackward - 0x1cc3d4
+cocos2d::CCTextFieldTTF::deleteForward - 0x1cc374
 cocos2d::CCTextFieldTTF::getContentText - 0x1cc608
 DS_Dictionary::DS_Dictionary - 0x1643c4
 DS_Dictionary::getArrayForKey - 0x165ed4
@@ -1202,6 +1205,7 @@ cocos2d::extension::CCControlHuePicker::setEnabled - 0x1b3dd0
 cocos2d::extension::CCControlHuePicker::initWithTargetAndPos - 0x1b3af8
 cocos2d::extension::CCControlHuePicker::setHue - 0x1b3cf4
 cocos2d::extension::CCControlHuePicker::setHuePercentage - 0x1b3d10
+cocos2d::extension::CCControlHuePicker::registerWithTouchDispatcher - 0x1b3cbc
 cocos2d::extension::CCControlSaturationBrightnessPicker::CCControlSaturationBrightnessPicker - 0x1bfae0
 cocos2d::extension::CCControlSaturationBrightnessPicker::~CCControlSaturationBrightnessPicker - 0x1bfb6c
 cocos2d::extension::CCControlSaturationBrightnessPicker::create - 0x1bfd84
@@ -1213,11 +1217,13 @@ cocos2d::extension::CCControlSaturationBrightnessPicker::setEnabled - 0x1bfe08
 cocos2d::extension::CCControlSaturationBrightnessPicker::initWithTargetAndPos - 0x1bfc0c
 cocos2d::extension::CCControlSaturationBrightnessPicker::updateWithHSV - 0x1bfe58
 cocos2d::extension::CCControlSaturationBrightnessPicker::updateDraggerWithHSV - 0x1bfec8
+cocos2d::extension::CCControlSaturationBrightnessPicker::registerWithTouchDispatcher - 0x1c01c4
 cocos2d::extension::CCScale9Sprite::create - 0x216814
 cocos2d::extension::CCScale9Sprite::CCScale9Sprite - 0x2151f4
 cocos2d::extension::CCScale9Sprite::~CCScale9Sprite - 0x2152a4
 cocos2d::extension::CCScale9Sprite::updatePositions - 0x21628c
 cocos2d::extension::CCScale9Sprite::updateCapInset - 0x216be8
+cocos2d::extension::CCScale9Sprite::setBlendAdditive - 0x21711c
 cocos2d::extension::CCScale9Sprite::init - 0x21536c
 cocos2d::extension::CCScale9Sprite::setContentSize - 0x216264
 cocos2d::extension::CCScale9Sprite::visit - 0x216f54
@@ -1329,6 +1335,7 @@ cocos2d::CCBMFontConfiguration::purgeFontDefDictionary - 0x2f97b8
 cocos2d::CCBMFontConfiguration::purgeKerningDictionary - 0x2f98ec
 cocos2d::CCAutoreleasePool::CCAutoreleasePool - 0x1b407c
 cocos2d::CCAutoreleasePool::clear - 0x1b4180
+cocos2d::CCPrettyPrinter::CCPrettyPrinter - 0x24d6c4
 cocos2d::CCPrettyPrinter::setIndentLevel - 0x24d738
 cocos2d::CCPrettyPrinter::clear - 0x24d7bc
 cocos2d::CCPrettyPrinter::getResult - 0x24d7e0
