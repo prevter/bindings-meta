@@ -52,6 +52,7 @@ jobs:
   
       - name: Build website
         run: |
+          python process_data.py --input_file website/public/CodegenData-2.2081.json
           cd website
           npm install
           npm run build
