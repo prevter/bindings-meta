@@ -6901,7 +6901,7 @@ GJSpiderSprite::init - 0x5dd470
 GJStoreItem::create - 0x668e0
 GJStoreItem::getCurrencyKey - 0x66cb0
 GJStoreItem::init - 0x8fb00
-GJTransformControl::GJTransformControl - 0x54f50
+GJTransformControl::GJTransformControl - 0x54c50
 GJTransformControl::~GJTransformControl - 0x52e60
 GJTransformControl::create - 0xbb50
 GJTransformControl::init - 0x53170
