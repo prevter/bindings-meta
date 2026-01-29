@@ -2068,7 +2068,7 @@ GauntletLayer::setupGauntlet - 0x1f6d40
 GauntletLayer::unlockActiveItem - 0x1f7e00
 GauntletNode::frameForType - 0x1fde00
 GauntletNode::nameForType - 0x1ff190
-GauntletNode::setupNode - 0x1fc240
+GauntletNode::generateNode - 0x1fc240
 GauntletNode::onClaimReward - 0x1fddc0
 GauntletSelectLayer::scene - 0x1f8ae0
 GauntletSelectLayer::onExit - 0x1fb030
@@ -3998,8 +3998,10 @@ PlayLayer::startGame - 0x3a7a20
 PlayLayer::startGameDelayed - 0x3a7a70
 PlayLayer::startMusic - 0x3baa60
 PlayLayer::storeCheckpoint - 0x3b74a0
+PlayLayer::toggleDebugDraw - 0x3a7900
 PlayLayer::togglePracticeMode - 0x3b9e50
 PlayLayer::updateAttempts - 0x3b9ba0
+PlayLayer::updateDebugDrawSettings - 0x3a7800
 PlayLayer::updateInfoLabel - 0x3b2a60
 PlayLayer::updateInvisibleBlock - 0x3b03b0
 PlayLayer::updateProgressbar - 0x3b23c0
