@@ -1950,8 +1950,8 @@ cocos2d::CCTMXMapInfo::setObjectGroups - 0x4cda50
 cocos2d::CCTMXMapInfo::getProperties - 0x4cda90
 cocos2d::CCTMXMapInfo::setProperties - 0x4cdaa0
 cocos2d::CCTMXMapInfo::startElement - 0x4cdb30
-cocos2d::CCTMXMapInfo::endElement - 0x4d0cc0
-cocos2d::CCTMXMapInfo::textHandler - 0x4d1100
+cocos2d::CCTMXMapInfo::endElement - 0x4d0cd0
+cocos2d::CCTMXMapInfo::textHandler - 0x4d1110
 cocos2d::CCTMXObjectGroup::CCTMXObjectGroup - 0x49c780
 cocos2d::CCTMXObjectGroup::~CCTMXObjectGroup - 0x49c840
 cocos2d::CCTMXObjectGroup::getProperties - 0x49cb80
@@ -2349,8 +2349,8 @@ cocos2d::extension::CCHttpClient::CCHttpClient - 0x438580
 cocos2d::extension::CCHttpClient::~CCHttpClient - 0x438750
 cocos2d::extension::CCHttpClient::destroyInstance - 0x4388d0
 cocos2d::extension::CCHttpClient::getInstance - 0x438880
-cocos2d::extension::CCHttpClient::dispatchResponseCallbacks - 0x438650
 cocos2d::extension::CCHttpClient::availableThreadCount - 0x4389c0
+cocos2d::extension::CCHttpClient::dispatchResponseCallbacks - 0x438650
 cocos2d::extension::CCHttpClient::send - 0x438900
 cocos2d::extension::CCInvocation::CCInvocation - 0x3d7d50
 cocos2d::extension::CCInvocation::create - 0x3d7c80
@@ -4096,6 +4096,7 @@ CustomSongWidget::~CustomSongWidget - 0x61a640
 CustomSongWidget::create - 0x61a730
 CustomSongWidget::loadSongInfoFinished - 0x620210
 CustomSongWidget::loadSongInfoFailed - 0x6204f0
+CustomSongWidget::downloadSongStarted - 0x6207f0
 CustomSongWidget::downloadSongFinished - 0x620990
 CustomSongWidget::downloadSongFailed - 0x620c80
 CustomSongWidget::downloadSFXFinished - 0x620eb0
@@ -5698,6 +5699,7 @@ GauntletSelectLayer::create - 0x571260
 GauntletSelectLayer::scene - 0x571220
 GauntletSelectLayer::onExit - 0x573800
 GauntletSelectLayer::keyBackClicked - 0x573160
+GauntletSelectLayer::rewardedVideoFinished - 0x573290
 GauntletSelectLayer::scrollLayerWillScrollToPage - 0x5730c0
 GauntletSelectLayer::scrollLayerScrolledToPage - 0x573020
 GauntletSelectLayer::loadLevelsFinished - 0x572550
@@ -7656,11 +7658,11 @@ LevelSearchLayer::~LevelSearchLayer - 0x6274d0
 LevelSearchLayer::create - 0x627970
 LevelSearchLayer::scene - 0x627830
 LevelSearchLayer::keyBackClicked - 0x62c9b0
-LevelSearchLayer::textInputOpened - 0x62bf50
-LevelSearchLayer::textInputClosed - 0x62c040
-LevelSearchLayer::textChanged - 0x62c0c0
-LevelSearchLayer::FLAlert_Clicked - 0x62bc40
-LevelSearchLayer::demonFilterSelectClosed - 0x62b8b0
+LevelSearchLayer::textInputOpened - 0x62bf90
+LevelSearchLayer::textInputClosed - 0x62c060
+LevelSearchLayer::textChanged - 0x62c130
+LevelSearchLayer::FLAlert_Clicked - 0x62bf10
+LevelSearchLayer::demonFilterSelectClosed - 0x62ba00
 LevelSearchLayer::checkDiff - 0x62c790
 LevelSearchLayer::checkTime - 0x62c890
 LevelSearchLayer::clearFilters - 0x62bb00
@@ -8705,6 +8707,8 @@ PlayLayer::toggleProgressbar - 0xb9980
 PlayLayer::toggleInfoLabel - 0xb9ba0
 PlayLayer::removeAllCheckpoints - 0xbdb00
 PlayLayer::toggleMusicInPractice - 0xb9b00
+PlayLayer::processCheckpoints - 0xbabf0
+PlayLayer::resetLevel - 0xbe350
 PlayLayer::currencyWillExit - 0xbaa20
 PlayLayer::circleWaveWillBeRemoved - 0xbaae0
 PlayLayer::dialogClosed - 0xbaa70
@@ -8755,7 +8759,6 @@ PlayLayer::queueCheckpoint - 0xbd2c0
 PlayLayer::removeAllObjects - 0xb3070
 PlayLayer::removeCheckpoint - 0xbd1d0
 PlayLayer::removeFromGroupOld - 0xb6df0
-PlayLayer::resetLevel - 0xbe350
 PlayLayer::resetLevelFromStart - 0xbe2c0
 PlayLayer::resume - 0xbf5c0
 PlayLayer::resumeAndRestart - 0xbf410
@@ -9244,6 +9247,7 @@ SetFolderPopup::onSetFolderName - 0x2ae030
 SetGroupIDLayer::~SetGroupIDLayer - 0x3121f0
 SetGroupIDLayer::create - 0x312360
 SetGroupIDLayer::keyBackClicked - 0x317cc0
+SetGroupIDLayer::valuePopupClosed - 0x317bc0
 SetGroupIDLayer::textInputClosed - 0x317450
 SetGroupIDLayer::textChanged - 0x317490
 SetGroupIDLayer::addGroupID - 0x317ad0

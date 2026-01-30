@@ -1039,6 +1039,7 @@ CustomSongLayer::onSongBrowser - 0xc3e40
 CustomSongWidget::create - 0xc8230
 CustomSongWidget::loadSongInfoFinished - 0xccc80
 CustomSongWidget::loadSongInfoFailed - 0xcce10
+CustomSongWidget::downloadSongStarted - 0xccf00
 CustomSongWidget::downloadSongFinished - 0xccf20
 CustomSongWidget::downloadSongFailed - 0xccfe0
 CustomSongWidget::downloadSFXFinished - 0xcd060
@@ -2073,6 +2074,7 @@ GauntletNode::onClaimReward - 0x1fddc0
 GauntletSelectLayer::scene - 0x1f8ae0
 GauntletSelectLayer::onExit - 0x1fb030
 GauntletSelectLayer::keyBackClicked - 0x1fa760
+GauntletSelectLayer::rewardedVideoFinished - 0x1fafc0
 GauntletSelectLayer::scrollLayerWillScrollToPage - 0x1fa660
 GauntletSelectLayer::scrollLayerScrolledToPage - 0x1fa660
 GauntletSelectLayer::loadLevelsFinished - 0x1f99f0
@@ -3946,6 +3948,8 @@ PlayLayer::toggleProgressbar - 0x3b2760
 PlayLayer::toggleInfoLabel - 0x3b3550
 PlayLayer::removeAllCheckpoints - 0x3b8040
 PlayLayer::toggleMusicInPractice - 0x3b2900
+PlayLayer::processCheckpoints - 0x3b4910
+PlayLayer::resetLevel - 0x3b8eb0
 PlayLayer::currencyWillExit - 0x3b4730
 PlayLayer::circleWaveWillBeRemoved - 0x3b48f0
 PlayLayer::dialogClosed - 0x3b4750
@@ -3976,7 +3980,6 @@ PlayLayer::processCreateObjectsFromSetup - 0x3ad0f0
 PlayLayer::processLoadedMoveActions - 0x3af1d0
 PlayLayer::removeAllObjects - 0x3badb0
 PlayLayer::removeCheckpoint - 0x3b7f00
-PlayLayer::resetLevel - 0x3b8eb0
 PlayLayer::resetLevelFromStart - 0x3b8d10
 PlayLayer::resume - 0x3ba640
 PlayLayer::resumeAndRestart - 0x3ba3c0
@@ -4308,6 +4311,7 @@ SetFolderPopup::setTextPopupClosed - 0x29cbf0
 SetFolderPopup::init - 0x29c630
 SetFolderPopup::onSetFolderName - 0x29c9f0
 SetGroupIDLayer::keyBackClicked - 0x3fdf20
+SetGroupIDLayer::valuePopupClosed - 0x3fd3d0
 SetGroupIDLayer::textInputClosed - 0x8b850
 SetGroupIDLayer::textChanged - 0x3fbbb0
 SetGroupIDLayer::callRemoveFromGroup - 0x3fc7e0
