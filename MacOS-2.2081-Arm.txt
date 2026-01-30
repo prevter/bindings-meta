@@ -6686,6 +6686,15 @@ GJPromoPopup::keyBackClicked - 0x254134
 GJPromoPopup::show - 0x25423c
 GJPromoPopup::init - 0x253e48
 GJPromoPopup::onClose - 0x25408c
+GJRateLevelLayer::keyBackClicked - 0x45fc98
+GJRateLevelLayer::onClose - 0x45fc94
+GJRateLevelLayer::onCustomButton - 0x45e33c
+GJRateLevelLayer::uploadActionFinished - 0x45f924
+GJRateLevelLayer::uploadActionFailed - 0x45fa7c
+GJRateLevelLayer::onClosePopup - 0x45fbf4
+GJRateLevelLayer::rateInfoFinished - 0x45f7f8
+GJRateLevelLayer::rateInfoFailed - 0x45f8c4
+GJRateLevelLayer::FLAlert_Clicked - 0x45e508
 GJRequestCell::GJRequestCell - 0x1fcebc
 GJRequestCell::~GJRequestCell - 0x1fcc38
 GJRequestCell::init - 0x1fcf20
