@@ -326,6 +326,7 @@ EffectGameObject::canBeOrdered - 0x4abbb0
 EffectGameObject::getObjectLabel - 0x495990
 EffectGameObject::setObjectLabel - 0x4959a0
 EffectGameObject::stateSensitiveOff - 0x4a84d0
+EffectGameObject::canSpawnTriggers - 0x4abb20
 EffectGameObject::init - 0x4a5880
 EffectGameObject::playTriggerEffect - 0x4a5990
 EffectGameObject::triggerEffectFinished - 0x4a5ee0
@@ -824,6 +825,7 @@ ConfigureValuePopup::keyBackClicked - 0x995e0
 ConfigureValuePopup::textInputClosed - 0x8b850
 ConfigureValuePopup::textChanged - 0x99350
 ConfigureValuePopup::init - 0x98640
+ConfigureValuePopup::onArrow - 0x990f0
 ConfigureValuePopup::onClose - 0x99560
 ConfigureValuePopup::sliderChanged - 0x990a0
 ConfigureValuePopup::updateTextInputLabel - 0x99160
@@ -893,6 +895,7 @@ CreateParticlePopup::onSelectColor - 0x431830
 CreateParticlePopup::onSelectParticleTexture - 0x432230
 CreateParticlePopup::onStartRGBVarSync - 0x431420
 CreateParticlePopup::onToggleBlending - 0x4312b0
+CreateParticlePopup::onTogglePerfLog - 0x432810
 CreateParticlePopup::onToggleStartRadiusEqualToEnd - 0x431320
 CreateParticlePopup::onToggleStartRotationIsDir - 0x431380
 CreateParticlePopup::onToggleStartSizeEqualToEnd - 0x4312f0
@@ -1398,6 +1401,7 @@ EditorUI::onPlaytest - 0x1120b0
 EditorUI::onResetSpecialFilter - 0xe7430
 EditorUI::onSelectBuildTab - 0x114800
 EditorUI::onSettings - 0xe1940
+EditorUI::onStickyToggle - 0x112960
 EditorUI::onStopPlaytest - 0x112530
 EditorUI::onTargetIDChange - 0x1223e0
 EditorUI::onUngroupSticky - 0x112920
@@ -1717,6 +1721,7 @@ GameLevelManager::getLengthStr - 0x14d760
 GameLevelManager::getLevelComments - 0x15be00
 GameLevelManager::getLevelLeaderboard - 0x158040
 GameLevelManager::getLevelLists - 0x150760
+GameLevelManager::getLevelRateInfo - 0x15f860
 GameLevelManager::getLevelSaveData - 0x14edc0
 GameLevelManager::getLocalLevel - 0x144800
 GameLevelManager::getLocalLevelList - 0x1452b0
@@ -1782,6 +1787,7 @@ GameLevelManager::onGetLeaderboardScoresCompleted - 0x157d70
 GameLevelManager::onGetLevelCommentsCompleted - 0x15c330
 GameLevelManager::onGetLevelLeaderboardCompleted - 0x158d20
 GameLevelManager::onGetLevelListsCompleted - 0x1509f0
+GameLevelManager::onGetLevelRateInfoCompleted - 0x15fb90
 GameLevelManager::onGetLevelSaveDataCompleted - 0x14f0a0
 GameLevelManager::onGetMapPacksCompleted - 0x14f700
 GameLevelManager::onGetOnlineLevelsCompleted - 0x14e4d0
@@ -2087,8 +2093,12 @@ GauntletSelectLayer::onNext - 0x1fa4b0
 GauntletSelectLayer::onPlay - 0x1fa770
 GauntletSelectLayer::onPrev - 0x1fa4d0
 GauntletSelectLayer::onRefresh - 0x1f98d0
+GauntletSelectLayer::playUnlockAnimation - 0x1fb080
 GauntletSelectLayer::setupGauntlets - 0x1f9d30
 GauntletSelectLayer::unblockPlay - 0x1fa650
+GauntletSelectLayer::unlockAnimationFinished - 0x1fc0e0
+GauntletSelectLayer::unlockAnimationStep2 - 0x1fb660
+GauntletSelectLayer::unlockAnimationStep3 - 0x1fba00
 GauntletSprite::addLockedSprite - 0x1f84f0
 GauntletSprite::toggleLockedSprite - 0x1f87f0
 GhostTrailEffect::create - 0x6a000
@@ -2295,6 +2305,7 @@ GJBaseGameLayer::resetCamera - 0x23fb00
 GJBaseGameLayer::resetGradientLayers - 0x220fa0
 GJBaseGameLayer::resetLevelVariables - 0x23b040
 GJBaseGameLayer::resetPlayer - 0x2120b0
+GJBaseGameLayer::resetRecord - 0x239e20
 GJBaseGameLayer::resetSpawnChannelIndex - 0x245e20
 GJBaseGameLayer::resetStaticCamera - 0x23fde0
 GJBaseGameLayer::restoreRemap - 0x21cfa0
@@ -2675,6 +2686,22 @@ GJPromoPopup::keyBackClicked - 0x285450
 GJPromoPopup::show - 0x867f0
 GJPromoPopup::init - 0x2a4c50
 GJPromoPopup::onClose - 0x2853f0
+GJRateLevelLayer::keyBackClicked - 0x2f6ec0
+GJRateLevelLayer::onClose - 0x28f250
+GJRateLevelLayer::onCustomButton - 0x2f54d0
+GJRateLevelLayer::uploadActionFinished - 0x2f6ce0
+GJRateLevelLayer::uploadActionFailed - 0x2f6d80
+GJRateLevelLayer::onClosePopup - 0x2f6e60
+GJRateLevelLayer::rateInfoFinished - 0x2f6c20
+GJRateLevelLayer::rateInfoFailed - 0x2f6cb0
+GJRateLevelLayer::FLAlert_Clicked - 0x2f5750
+GJRateLevelLayer::createStatPillar - 0x2f6540
+GJRateLevelLayer::init - 0x2f4920
+GJRateLevelLayer::onFeature - 0x2f5920
+GJRateLevelLayer::onRate - 0x2f6ab0
+GJRateLevelLayer::onToggleCoins - 0x2f58b0
+GJRateLevelLayer::selectRating - 0x2f68c0
+GJRateLevelLayer::setupRateInfo - 0x2f5980
 GJRequestCell::init - 0xbc320
 GJRequestCell::draw - 0xade20
 GJRequestCell::FLAlert_Clicked - 0xbcf10
@@ -4328,6 +4355,7 @@ SetGroupIDLayer::onClose - 0x3fdb60
 SetGroupIDLayer::onCopy - 0x3fb680
 SetGroupIDLayer::onExtra - 0x3fb880
 SetGroupIDLayer::onExtra2 - 0x3fba00
+SetGroupIDLayer::onGroupIDOptions - 0x3fd0d0
 SetGroupIDLayer::onNextFreeEditorLayer1 - 0x3fcf90
 SetGroupIDLayer::onNextFreeEditorLayer2 - 0x3fd030
 SetGroupIDLayer::onNextFreeOrderChannel - 0x3fd890
@@ -4336,6 +4364,8 @@ SetGroupIDLayer::onPaste - 0x3fb6e0
 SetGroupIDLayer::onRemoveFromGroup - 0x3fc9c0
 SetGroupIDLayer::onToggleGuide - 0x3fa9f0
 SetGroupIDLayer::onToggleSelectedOrder - 0x3faa80
+SetGroupIDLayer::onToggleTraceIn - 0x3fab20
+SetGroupIDLayer::onToggleTraceOut - 0x3fabc0
 SetGroupIDLayer::onZLayer - 0x3fcd00
 SetGroupIDLayer::onZLayerShift - 0x3fcdc0
 SetGroupIDLayer::updateEditorLabel - 0x3fd4f0

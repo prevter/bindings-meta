@@ -787,6 +787,14 @@ cocos2d::CCTextFieldTTF::canAttachWithIME - 0x1d4ae4
 cocos2d::CCTextFieldTTF::canDetachWithIME - 0x1d4b50
 cocos2d::CCTextFieldTTF::deleteBackward - 0x1d4e78
 cocos2d::CCTextFieldTTF::getContentText - 0x1d50ac
+cocos2d::FNTConfigLoadFile - 0x3093fc
+cocos2d::ccDrawColor4B - 0x25c2b0
+cocos2d::ccDrawLine - 0x25bbec
+cocos2d::ccDrawSolidPoly - 0x25bd94
+cocos2d::ccGLBlendFunc - 0x19a514
+cocos2d::ccGLEnable - 0x19a64c
+cocos2d::ccGLEnableVertexAttribs - 0x19a650
+cocos2d::clampf - 0x1baa70
 cocos2d::extension::CCControlColourPicker::colourPicker - 0x1ba76c
 cocos2d::extension::CCScale9Sprite::create - 0x2261a8
 cocos2d::extension::CCScale9Sprite::CCScale9Sprite - 0x224b84

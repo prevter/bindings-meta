@@ -777,6 +777,17 @@ cocos2d::CCTextFieldTTF::canDetachWithIME - 0x21decc
 cocos2d::CCTextFieldTTF::insertText - 0x21df40
 cocos2d::CCTextFieldTTF::deleteBackward - 0x21e2f8
 cocos2d::CCTextFieldTTF::getContentText - 0x21e5f0
+cocos2d::FNTConfigLoadFile - 0x507a1c
+cocos2d::__CCPointApplyAffineTransform - 0x1e6c34
+cocos2d::ccDrawColor4B - 0x1b5c34
+cocos2d::ccDrawLine - 0x1b4738
+cocos2d::ccDrawSolidRect - 0x1b4948
+cocos2d::ccGLBindTexture2D - 0x2e9b14
+cocos2d::ccGLBindTexture2DN - 0x2e9b60
+cocos2d::ccGLBlendFunc - 0x2e9a4c
+cocos2d::ccGLEnableVertexAttribs - 0x2e9c70
+cocos2d::ccGLUseProgram - 0x2e9a30
+cocos2d::ccpDistance - 0x2e5120
 DS_Dictionary::DS_Dictionary - 0x13e1c8
 DS_Dictionary::addBoolValuesToMapForKey - 0x145660
 DS_Dictionary::addBoolValuesToMapForKeySpecial - 0x145330
