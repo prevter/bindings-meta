@@ -395,7 +395,9 @@ cocos2d::CCDrawNode::init - 0x41ef8
 cocos2d::CCDrawNode::draw - 0x4208c
 cocos2d::CCDrawNode::clear - 0x431dc
 cocos2d::CCDrawNode::disableDrawArea - 0x42158
+cocos2d::CCDrawNode::drawArchLikeHalfCircle - 0x42160
 cocos2d::CCDrawNode::drawCircle - 0x43048
+cocos2d::CCDrawNode::drawCubicBezierDashed - 0x4230c
 cocos2d::CCDrawNode::drawLines - 0x42fc0
 cocos2d::CCDrawNode::drawPolygon - 0x4295c
 cocos2d::CCDrawNode::drawRect - 0x42df8
@@ -770,6 +772,8 @@ cocos2d::CCLayerColor::setColor - 0x149d74
 cocos2d::CCLayerColor::setOpacity - 0x149dd0
 cocos2d::CCLayerColor::setBlendFunc - 0x1498dc
 cocos2d::CCLayerColor::getBlendFunc - 0x1498cc
+cocos2d::CCLayerColor::addToVertices - 0x149c10
+cocos2d::CCLayerColor::setVertices - 0x149bf4
 cocos2d::CCLayerGradient::create - 0x149e2c
 cocos2d::CCLayerGradient::init - 0x149f2c
 cocos2d::CCLayerGradient::visit - 0x14a374
@@ -788,6 +792,7 @@ cocos2d::CCLayerGradient::getVector - 0x14a2e0
 cocos2d::CCLayerGradient::setVector - 0x14a2b0
 cocos2d::CCLayerGradient::setCompressedInterpolation - 0x14a364
 cocos2d::CCLayerGradient::isCompressedInterpolation - 0x14a35c
+cocos2d::CCLayerGradient::setValues - 0x14a2e8
 cocos2d::CCLightning::CCLightning - 0x347640
 cocos2d::CCLightning::~CCLightning - 0x3476e8
 cocos2d::CCLightning::lightningWithStrikePoint - 0x347744
@@ -825,6 +830,7 @@ cocos2d::CCMenu::ccTouchEnded - 0x1d8460
 cocos2d::CCMenu::ccTouchCancelled - 0x1d84e8
 cocos2d::CCMenu::alignItemsHorizontallyWithPadding - 0x1d87a0
 cocos2d::CCMenu::alignItemsVerticallyWithPadding - 0x1d85b8
+cocos2d::CCMenu::giveMenuTouchPriority - 0x1d8284
 cocos2d::CCMenu::initWithArray - 0x1d8004
 cocos2d::CCMenu::itemForTouch - 0x1d8414
 cocos2d::CCMenu::itemForTouch - 0x1d8980
@@ -994,6 +1000,7 @@ cocos2d::CCParticleSystem::setBlendFunc - 0x19648c
 cocos2d::CCParticleSystem::getBlendFunc - 0x19647c
 cocos2d::CCParticleSystem::getTexture - 0x196170
 cocos2d::CCParticleSystem::setTexture - 0x1960a0
+cocos2d::CCParticleSystem::getParticleDrawCost - 0x196024
 cocos2d::CCParticleSystem::initParticle - 0x194860
 cocos2d::CCParticleSystem::initWithDictionary - 0x1934e8
 cocos2d::CCParticleSystem::initWithFile - 0x193368
@@ -2702,6 +2709,7 @@ SetupTriggerPopup::triggerValueFromSliderValue - 0x1337dc
 SetupTriggerPopup::triggerSliderValueFromValue - 0x133848
 SetupTriggerPopup::valuePopupClosed - 0x134324
 SetupTriggerPopup::addCloseButton - 0x12ef14
+SetupTriggerPopup::addCustomButton - 0x132658
 SetupTriggerPopup::addHelpButton - 0x12ef90
 SetupTriggerPopup::addInfoLabel - 0x132170
 SetupTriggerPopup::addObjectsToGroup - 0x12ee24
@@ -4578,6 +4586,7 @@ GJAccountSettingsLayer::create - 0x2d5138
 GJAccountSettingsLayer::keyBackClicked - 0x2d78d8
 GJAccountSettingsLayer::textInputShouldOffset - 0x2d6f9c
 GJAccountSettingsLayer::textInputReturn - 0x2d7008
+GJAccountSettingsLayer::closeAccInputNodes - 0x2d7068
 GJAccountSettingsLayer::createToggleButton - 0x2d67b4
 GJAccountSettingsLayer::init - 0x2d5218
 GJAccountSettingsLayer::onClose - 0x2d6b58
@@ -4662,6 +4671,7 @@ GJBaseGameLayer::asyncBGLoaded - 0x1dde44
 GJBaseGameLayer::asyncGLoaded - 0x1de104
 GJBaseGameLayer::asyncMGLoaded - 0x1de33c
 GJBaseGameLayer::bumpPlayer - 0x1e8f8c
+GJBaseGameLayer::buttonIsRelevant - 0x1faeb4
 GJBaseGameLayer::calculateColorGroups - 0x1e2298
 GJBaseGameLayer::canBeActivatedByPlayer - 0x1e8d08
 GJBaseGameLayer::canProcessSFX - 0x205f9c
@@ -4685,6 +4695,7 @@ GJBaseGameLayer::controlEventLink - 0x1ee250
 GJBaseGameLayer::controlGradientTrigger - 0x1ee40c
 GJBaseGameLayer::controlTriggersInGroup - 0x1edd74
 GJBaseGameLayer::controlTriggersWithControlID - 0x1ee468
+GJBaseGameLayer::countCollectedUserCoins - 0x1e9c08
 GJBaseGameLayer::createBackground - 0x1ddbf8
 GJBaseGameLayer::createGroundLayer - 0x1de12c
 GJBaseGameLayer::createMiddleground - 0x1de2b4
@@ -4729,9 +4740,12 @@ GJBaseGameLayer::getOptimizedGroup - 0x1f24dc
 GJBaseGameLayer::getOtherPlayer - 0x1e5a5c
 GJBaseGameLayer::getParticleKey - 0x2043d0
 GJBaseGameLayer::getParticleKey2 - 0x204544
+GJBaseGameLayer::getPlayerButtonID - 0x2013b0
 GJBaseGameLayer::getPlayTimerMilli - 0x201188
 GJBaseGameLayer::getPortalTarget - 0x1e4268
 GJBaseGameLayer::getPortalTargetPos - 0x1e4318
+GJBaseGameLayer::getRecordExtra - 0x2017d4
+GJBaseGameLayer::getRecordString - 0x2018a4
 GJBaseGameLayer::getRotateCommandTargets - 0x1eece4
 GJBaseGameLayer::getSavedPosition - 0x1eb5a4
 GJBaseGameLayer::getSingleGroupObject - 0x1f2794
@@ -4829,6 +4843,7 @@ GJBaseGameLayer::removeKeyframe - 0x1fb49c
 GJBaseGameLayer::removeMiddleground - 0x1de360
 GJBaseGameLayer::removeObjectFromSection - 0x1f324c
 GJBaseGameLayer::removePlayer2 - 0x1ea2e0
+GJBaseGameLayer::removeReleasedButtons - 0x1fa89c
 GJBaseGameLayer::removeTemporaryParticles - 0x20296c
 GJBaseGameLayer::reorderObjectSection - 0x1eacd4
 GJBaseGameLayer::reparentObject - 0x1f1c9c
@@ -4857,6 +4872,7 @@ GJBaseGameLayer::setupLayers - 0x1db75c
 GJBaseGameLayer::setupLevelStart - 0x1e5f28
 GJBaseGameLayer::shakeCamera - 0x2033ac
 GJBaseGameLayer::shouldExitHackedLevel - 0x1dd7f8
+GJBaseGameLayer::shouldUseSubstepForButton - 0x1fae00
 GJBaseGameLayer::sortAllGroupsX - 0x1f27e4
 GJBaseGameLayer::sortGroups - 0x1dfda0
 GJBaseGameLayer::sortSectionVector - 0x1f3b30
@@ -5011,6 +5027,7 @@ GJEffectManager::getLoadedMoveOffset - 0x13f7c
 GJEffectManager::getMoveCommandNode - 0x11458
 GJEffectManager::getMoveCommandObject - 0x128bc
 GJEffectManager::getOpacityActionForGroup - 0x140e0
+GJEffectManager::getPersistentStateString - 0x1553c
 GJEffectManager::getSaveString - 0x16558
 GJEffectManager::getTempGroupCommand - 0x1299c
 GJEffectManager::handleObjectCollision - 0x10284
@@ -5044,6 +5061,7 @@ GJEffectManager::resetEffects - 0xeec0
 GJEffectManager::resetMoveActions - 0xef98
 GJEffectManager::resetTempGroupCommands - 0x12b70
 GJEffectManager::resetToggledGroups - 0x10014
+GJEffectManager::resetUsedItemState - 0x15994
 GJEffectManager::resumeTimer - 0x15d34
 GJEffectManager::runCountTrigger - 0x1505c
 GJEffectManager::runDeathTrigger - 0x14ef0
@@ -5814,6 +5832,7 @@ LeaderboardsLayer::onBack - 0x3b17a0
 LeaderboardsLayer::onCreators - 0x3b1840
 LeaderboardsLayer::onGlobal - 0x3b1824
 LeaderboardsLayer::onInfo - 0x3b0e5c
+LeaderboardsLayer::onStat - 0x3b185c
 LeaderboardsLayer::onTop - 0x3b17ec
 LeaderboardsLayer::onWeek - 0x3b1808
 LeaderboardsLayer::refreshTabs - 0x3b19cc
@@ -6591,6 +6610,7 @@ MusicDownloadManager::downloadSFXLibrary - 0x15a034
 MusicDownloadManager::downloadSong - 0x15631c
 MusicDownloadManager::downloadSongFailed - 0x156a4c
 MusicDownloadManager::downloadSongFinished - 0x156ac0
+MusicDownloadManager::downloadSongStarted - 0x1562ac
 MusicDownloadManager::encodeDataTo - 0x1570cc
 MusicDownloadManager::filterMusicByArtistID - 0x15970c
 MusicDownloadManager::filterMusicByTag - 0x1597a4
@@ -7154,11 +7174,12 @@ PlayLayer::startMusic - 0x119804
 PlayLayer::stopRecording - 0x115fe8
 PlayLayer::storeCheckpoint - 0x120e28
 PlayLayer::toggleBGEffectVisibility - 0x122724
-PlayLayer::toggleDebugDraw - 0x116084
+PlayLayer::toggleDebugDraw - 0x119750
 PlayLayer::toggleGhostEffect - 0x1226dc
 PlayLayer::toggleIgnoreDamage - 0x1160e4
 PlayLayer::togglePracticeMode - 0x121a00
 PlayLayer::updateAttempts - 0x122540
+PlayLayer::updateDebugDrawSettings - 0x116084
 PlayLayer::updateEffectPositions - 0x11f308
 PlayLayer::updateInfoLabel - 0x117b58
 PlayLayer::updateInvisibleBlock - 0x11ce40
@@ -7206,6 +7227,7 @@ ProfilePage::onPrevPage - 0x19bd50
 ProfilePage::onRequests - 0x19b520
 ProfilePage::onSendMessage - 0x19add0
 ProfilePage::onSettings - 0x19b544
+ProfilePage::onSocialPage - 0x19a290
 ProfilePage::onStatInfo - 0x199f08
 ProfilePage::onUpdate - 0x1978bc
 ProfilePage::setupComments - 0x1974d8
@@ -8201,12 +8223,14 @@ SetupSpawnParticlePopup::create - 0x409950
 SetupSpawnParticlePopup::init - 0x409a2c
 SetupSpawnPopup::create - 0xf79e4
 SetupSpawnPopup::onClose - 0xf8c78
+SetupSpawnPopup::addRemap - 0xf8ac8
 SetupSpawnPopup::init - 0xf7acc
-SetupSpawnPopup::onAddRemap - 0xf85d0
-SetupSpawnPopup::onDeleteRemap - 0xf8610
+SetupSpawnPopup::onAddRemap - 0xf84c8
+SetupSpawnPopup::onDeleteRemap - 0xf8524
+SetupSpawnPopup::onPasteRemap - 0xf85d0
 SetupSpawnPopup::onSelectRemap - 0xf8bb8
 SetupSpawnPopup::queueUpdateButtons - 0xf8b60
-SetupSpawnPopup::updateRemapButtons - 0xf8ac8
+SetupSpawnPopup::updateRemapButtons - 0xf8610
 SetupStaticCameraPopup::create - 0x1d09dc
 SetupStaticCameraPopup::valueDidChange - 0x1d12d8
 SetupStaticCameraPopup::onCustomToggleTriggerValue - 0x1d12f0
@@ -8441,6 +8465,7 @@ SimplePlayer::hideSecondary - 0x3075a4
 SimplePlayer::init - 0x307008
 SimplePlayer::setFrames - 0x307658
 SimplePlayer::setSecondColor - 0x307524
+SimplePlayer::tryEnableCustomGlowColor - 0x307554
 SimplePlayer::updateColors - 0x306054
 SimplePlayer::updatePlayerFrame - 0x303498
 SliderThumb::create - 0x2eec10
@@ -8508,7 +8533,9 @@ SongInfoObject::createWithCoder - 0x15b644
 SongInfoObject::encodeWithCoder - 0x15bb98
 SongInfoObject::canEncode - 0x15bd38
 SongInfoObject::addTags - 0x159300
+SongInfoObject::copyValues - 0x1551e8
 SongInfoObject::getArtistNames - 0x15bd40
+SongInfoObject::getExtraArtistCount - 0x15c0b4
 SongInfoObject::getTagsString - 0x15c100
 SongInfoObject::init - 0x15b378
 SongInfoObject::updateArtists - 0x15b510

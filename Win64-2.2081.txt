@@ -696,6 +696,7 @@ SetupTriggerPopup::triggerValueFromSliderValue - 0x47c120
 SetupTriggerPopup::triggerSliderValueFromValue - 0x47c1b0
 SetupTriggerPopup::valuePopupClosed - 0x47d0d0
 SetupTriggerPopup::addCloseButton - 0x474930
+SetupTriggerPopup::addCustomButton - 0x477730
 SetupTriggerPopup::addHelpButton - 0x474a40
 SetupTriggerPopup::addInfoLabel - 0x477230
 SetupTriggerPopup::addObjectToPage - 0x4747a0
@@ -2129,6 +2130,7 @@ GJAccountManager::updateAccountSettings - 0x203ab0
 GJAccountSettingsLayer::keyBackClicked - 0x294530
 GJAccountSettingsLayer::textInputShouldOffset - 0x7b600
 GJAccountSettingsLayer::textInputReturn - 0x7b660
+GJAccountSettingsLayer::closeAccInputNodes - 0x293ed0
 GJAccountSettingsLayer::createToggleButton - 0x293ae0
 GJAccountSettingsLayer::init - 0x2921e0
 GJAccountSettingsLayer::onClose - 0x294030
@@ -2190,6 +2192,7 @@ GJBaseGameLayer::applyRemap - 0x21b1c0
 GJBaseGameLayer::applySFXEditTrigger - 0x242130
 GJBaseGameLayer::assignNewStickyGroups - 0x224d40
 GJBaseGameLayer::bumpPlayer - 0x2179d0
+GJBaseGameLayer::buttonIsRelevant - 0x231e80
 GJBaseGameLayer::calculateColorGroups - 0x20e0b0
 GJBaseGameLayer::canBeActivatedByPlayer - 0x2178c0
 GJBaseGameLayer::canProcessSFX - 0x2431a0
@@ -2237,6 +2240,7 @@ GJBaseGameLayer::getMinPortalY - 0x213690
 GJBaseGameLayer::getModifiedDelta - 0x2377b0
 GJBaseGameLayer::getParticleKey - 0x2403c0
 GJBaseGameLayer::getParticleKey2 - 0x240540
+GJBaseGameLayer::getRecordString - 0x23a2f0
 GJBaseGameLayer::getSavedPosition - 0x2192a0
 GJBaseGameLayer::groupStickyObjects - 0x224b60
 GJBaseGameLayer::handleButton - 0x2338e0
@@ -2298,6 +2302,7 @@ GJBaseGameLayer::refreshKeyframeAnims - 0x233ce0
 GJBaseGameLayer::removeFromGroups - 0x2240c0
 GJBaseGameLayer::removeGroupParent - 0x224790
 GJBaseGameLayer::removeObjectFromSection - 0x226d60
+GJBaseGameLayer::removeReleasedButtons - 0x231ba0
 GJBaseGameLayer::resetActiveEnterEffects - 0x20e390
 GJBaseGameLayer::resetAreaObjectValues - 0x227c30
 GJBaseGameLayer::resetAudio - 0x237710
@@ -2423,6 +2428,7 @@ GJEffectManager::getColorSprite - 0x25bcc0
 GJEffectManager::getLoadedMoveOffset - 0x260950
 GJEffectManager::getMoveCommandNode - 0x25efd0
 GJEffectManager::getMoveCommandObject - 0x25eed0
+GJEffectManager::getPersistentStateString - 0x262900
 GJEffectManager::getTempGroupCommand - 0x25f270
 GJEffectManager::handleObjectCollision - 0x25c540
 GJEffectManager::loadFromState - 0x2644a0
@@ -3003,6 +3009,7 @@ LeaderboardsLayer::onBack - 0x2c40d0
 LeaderboardsLayer::onCreators - 0x2c3240
 LeaderboardsLayer::onGlobal - 0x2c3220
 LeaderboardsLayer::onInfo - 0x2c3ba0
+LeaderboardsLayer::onStat - 0x2c31b0
 LeaderboardsLayer::onTop - 0x2c31e0
 LeaderboardsLayer::onWeek - 0x2c3200
 LeaderboardsLayer::refreshTabs - 0x2c3100
@@ -3624,6 +3631,7 @@ MusicDownloadManager::downloadSFXFailed - 0x3445b0
 MusicDownloadManager::downloadSFXLibrary - 0x3429e0
 MusicDownloadManager::downloadSong - 0x33ea20
 MusicDownloadManager::downloadSongFailed - 0x344530
+MusicDownloadManager::downloadSongStarted - 0x33e9a0
 MusicDownloadManager::filterMusicByArtistID - 0x3420e0
 MusicDownloadManager::filterMusicByTag - 0x342190
 MusicDownloadManager::generateCustomContentURL - 0x343aa0
@@ -4076,6 +4084,7 @@ ProfilePage::onPrevPage - 0x3c6900
 ProfilePage::onRequests - 0x3c5eb0
 ProfilePage::onSendMessage - 0x3c3cd0
 ProfilePage::onSettings - 0x3c5ce0
+ProfilePage::onSocialPage - 0x3c5510
 ProfilePage::onStatInfo - 0x3c30e0
 ProfilePage::onUpdate - 0x3bf7f0
 ProfilePage::setupCommentsBrowser - 0x3c64c0
@@ -4930,9 +4939,11 @@ SetupSpawnParticlePopup::create - 0x468340
 SetupSpawnParticlePopup::init - 0x468450
 SetupSpawnPopup::create - 0x45df80
 SetupSpawnPopup::onClose - 0x4244b0
+SetupSpawnPopup::addRemap - 0x45eeb0
 SetupSpawnPopup::init - 0x45e0c0
 SetupSpawnPopup::onAddRemap - 0x45ee50
 SetupSpawnPopup::onDeleteRemap - 0x45eff0
+SetupSpawnPopup::onPasteRemap - 0x45f190
 SetupSpawnPopup::onSelectRemap - 0x45fa50
 SetupSpawnPopup::queueUpdateButtons - 0x45fb20
 SetupSpawnPopup::updateRemapButtons - 0x45f230
@@ -5100,6 +5111,7 @@ SimplePlayer::setColor - 0x279c00
 SimplePlayer::createSpiderSprite - 0x279b70
 SimplePlayer::init - 0x279490
 SimplePlayer::setFrames - 0x27a5c0
+SimplePlayer::tryEnableCustomGlowColor - 0x279c30
 SimplePlayer::updateColors - 0x279cd0
 SimplePlayer::updatePlayerFrame - 0x27a090
 SliderThumb::getValue - 0x712e0
@@ -5149,6 +5161,7 @@ SongInfoObject::createWithCoder - 0x346250
 SongInfoObject::encodeWithCoder - 0x3465b0
 SongInfoObject::addTags - 0x346c70
 SongInfoObject::getArtistNames - 0x3467b0
+SongInfoObject::getExtraArtistCount - 0x346c00
 SongInfoObject::getTagsString - 0x346e60
 SongInfoObject::init - 0x345e60
 SongOptionsLayer::keyBackClicked - 0xc5640
