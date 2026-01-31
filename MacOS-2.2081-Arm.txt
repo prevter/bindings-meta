@@ -1709,6 +1709,8 @@ cocos2d::CCScheduler::scheduleUpdateForTarget - 0x3b4450
 cocos2d::CCScheduler::unscheduleAll - 0x3b3630
 cocos2d::CCScheduler::unscheduleAllForTarget - 0x3b4a5c
 cocos2d::CCScheduler::unscheduleSelector - 0x3b3320
+cocos2d::CCScriptHandlerEntry::~CCScriptHandlerEntry - 0x2a9a88
+cocos2d::CCScriptHandlerEntry::create - 0x2a9a18
 cocos2d::CCScriptEngineManager::sharedManager - 0x2a99d8
 cocos2d::CCScriptEngineManager::setScriptEngine - 0x2aa0b0
 cocos2d::CCSequence::~CCSequence - 0x338a90
