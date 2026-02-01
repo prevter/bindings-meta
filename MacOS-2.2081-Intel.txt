@@ -558,11 +558,13 @@ cocos2d::CCDirector::setGLDefaultValues - 0x482b30
 cocos2d::CCDirector::setNextScene - 0x483290
 cocos2d::CCDirector::setNotificationNode - 0x4849e0
 cocos2d::CCDirector::setProjection - 0x482be0
+cocos2d::CCDirector::setupScreenScale - 0x483890
 cocos2d::CCDirector::setViewport - 0x483cd0
 cocos2d::CCDirector::showFPSLabel - 0x483470
 cocos2d::CCDirector::showStats - 0x4833c0
 cocos2d::CCDirector::toggleShowFPS - 0x483750
 cocos2d::CCDirector::updateContentScale - 0x483b70
+cocos2d::CCDirector::updateScreenScale - 0x483aa0
 cocos2d::CCDirector::willSwitchToScene - 0x4840b0
 cocos2d::CCDisplayLinkDirector::setAnimationInterval - 0x484cf0
 cocos2d::CCDisplayLinkDirector::stopAnimation - 0x484ce0

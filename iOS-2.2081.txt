@@ -380,9 +380,11 @@ cocos2d::CCDirector::setDepthTest - 0x175454
 cocos2d::CCDirector::setGLDefaultValues - 0x175408
 cocos2d::CCDirector::setNextScene - 0x175730
 cocos2d::CCDirector::setProjection - 0x175484
+cocos2d::CCDirector::setupScreenScale - 0x175b74
 cocos2d::CCDirector::setViewport - 0x175d28
 cocos2d::CCDirector::toggleShowFPS - 0x175a68
 cocos2d::CCDirector::updateContentScale - 0x175c84
+cocos2d::CCDirector::updateScreenScale - 0x175bd4
 cocos2d::CCDirector::willSwitchToScene - 0x175ea4
 cocos2d::CCDisplayLinkDirector::setAnimationInterval - 0x17686c
 cocos2d::CCDisplayLinkDirector::stopAnimation - 0x176860
