@@ -556,7 +556,6 @@ cocos2d::CCDirector::setDefaultValues - 0x482850
 cocos2d::CCDirector::setDepthTest - 0x482ba0
 cocos2d::CCDirector::setGLDefaultValues - 0x482b30
 cocos2d::CCDirector::setNextScene - 0x483290
-cocos2d::CCDirector::setNotificationNode - 0x4849e0
 cocos2d::CCDirector::setProjection - 0x482be0
 cocos2d::CCDirector::setupScreenScale - 0x483890
 cocos2d::CCDirector::setViewport - 0x483cd0
