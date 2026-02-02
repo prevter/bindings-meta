@@ -8550,6 +8550,7 @@ PlatformToolbox::toggleVerticalSync - 0x4243fc
 PlatformToolbox::tryShowRateDialog - 0x4237f4
 PlatformToolbox::updateMouseControl - 0x424388
 PlatformToolbox::updateWindowedSize - 0x424310
+PlayerCheckpoint::PlayerCheckpoint - 0xb1ac4
 PlayerCheckpoint::create - 0xa8cac
 PlayerCheckpoint::init - 0xac350
 PlayerControlGameObject::create - 0x19cb24
