@@ -703,6 +703,7 @@ cocos2d::CCLabelTTF::~CCLabelTTF - 0x6e7d0
 cocos2d::CCLabelTTF::init - 0x6e954
 cocos2d::CCLabelTTF::setString - 0x6e990
 cocos2d::CCLabelTTF::getString - 0x6eae8
+cocos2d::CCLabelTTF::_prepareTextDefinition - 0x6eb20
 cocos2d::CCLabelTTF::initWithString - 0x6e97c
 cocos2d::CCLabelTTF::initWithString - 0x6e860
 cocos2d::CCLabelTTF::updateTexture - 0x6e9d8
@@ -1225,6 +1226,7 @@ cocos2d::CCTexture2D::getContentSizeInPixels - 0x12d48c
 cocos2d::CCTexture2D::initPremultipliedATextureWithImage - 0x12d86c
 cocos2d::CCTexture2D::initWithData - 0x12d500
 cocos2d::CCTexture2D::initWithImage - 0x12d7fc
+cocos2d::CCTexture2D::initWithString - 0x12db2c
 cocos2d::CCTexture2D::setAliasTexParameters - 0x12df80
 cocos2d::CCTexture2D::setAntiAliasTexParameters - 0x12dfd0
 cocos2d::CCTexture2D::setTexParameters - 0x12dee8

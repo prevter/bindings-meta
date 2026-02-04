@@ -1922,6 +1922,7 @@ cocos2d::CCTexture2D::initWithData - 0x3df0c8
 cocos2d::CCTexture2D::initWithETCFile - 0x3e01ac
 cocos2d::CCTexture2D::initWithImage - 0x3df40c
 cocos2d::CCTexture2D::initWithPVRFile - 0x3e00d8
+cocos2d::CCTexture2D::initWithString - 0x3dfec4
 cocos2d::CCTexture2D::initWithString - 0x3dfd08
 cocos2d::CCTexture2D::initWithString - 0x3dfd78
 cocos2d::CCTexture2D::releaseGLTexture - 0x3df084
