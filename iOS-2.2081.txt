@@ -1226,6 +1226,7 @@ cocos2d::CCTexture2D::initPremultipliedATextureWithImage - 0x12d86c
 cocos2d::CCTexture2D::initWithData - 0x12d500
 cocos2d::CCTexture2D::initWithImage - 0x12d7fc
 cocos2d::CCTexture2D::setAliasTexParameters - 0x12df80
+cocos2d::CCTexture2D::setAntiAliasTexParameters - 0x12dfd0
 cocos2d::CCTexture2D::setTexParameters - 0x12dee8
 cocos2d::CCTextureAtlas::CCTextureAtlas - 0x269df8
 cocos2d::CCTextureAtlas::~CCTextureAtlas - 0x269e28

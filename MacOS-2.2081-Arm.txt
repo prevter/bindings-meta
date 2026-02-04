@@ -1926,6 +1926,7 @@ cocos2d::CCTexture2D::initWithString - 0x3dfd08
 cocos2d::CCTexture2D::initWithString - 0x3dfd78
 cocos2d::CCTexture2D::releaseGLTexture - 0x3df084
 cocos2d::CCTexture2D::setAliasTexParameters - 0x3e0370
+cocos2d::CCTexture2D::setAntiAliasTexParameters - 0x3e03c0
 cocos2d::CCTexture2D::setTexParameters - 0x3e02d8
 cocos2d::CCTexture2D::stringForFormat - 0x3e0410
 cocos2d::CCTextureAtlas::CCTextureAtlas - 0x40f9a4
