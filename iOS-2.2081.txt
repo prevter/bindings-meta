@@ -4619,6 +4619,7 @@ GJBaseGameLayer::opacityForObject - 0x1fe3f4
 GJBaseGameLayer::objectsCollided - 0x1eb480
 GJBaseGameLayer::updateColor - 0x1f1ebc
 GJBaseGameLayer::toggleGroupTriggered - 0x1f2024
+GJBaseGameLayer::checkSpawnAbuse - 0x1ec0d4
 GJBaseGameLayer::spawnGroup - 0x1ec120
 GJBaseGameLayer::spawnObject - 0x1ec3f8
 GJBaseGameLayer::updateDebugDraw - 0x1e4758
@@ -6268,6 +6269,7 @@ LevelSearchLayer::onMoreOptions - 0x53144
 LevelSearchLayer::onMostDownloaded - 0x5385c
 LevelSearchLayer::onMostLikes - 0x53900
 LevelSearchLayer::onMostRecent - 0x53aec
+LevelSearchLayer::onPasteClipboard - 0x531a4
 LevelSearchLayer::onSearch - 0x534a8
 LevelSearchLayer::onSearchMode - 0x53160
 LevelSearchLayer::onSearchUser - 0x535ec
@@ -6849,6 +6851,7 @@ PlatformToolbox::activateGameCenter - 0x16b81c
 PlatformToolbox::copyToClipboard - 0x16bcf4
 PlatformToolbox::doesFileExist - 0x16bbb0
 PlatformToolbox::gameDidSave - 0x16bc68
+PlatformToolbox::getClipboardString - 0x16bd50
 PlatformToolbox::getDisplaySize - 0x16bc74
 PlatformToolbox::getUniqueUserID - 0x16b6ec
 PlatformToolbox::getUserID - 0x16b754
@@ -7130,7 +7133,6 @@ PlayLayer::fullReset - 0x12192c
 PlayLayer::getCurrentPercent - 0x11e338
 PlayLayer::getEndPosition - 0x1198ec
 PlayLayer::getLastCheckpoint - 0x120744
-PlayLayer::getTempMilliTime - 0x21dae8
 PlayLayer::gravityEffectFinished - 0x11e320
 PlayLayer::incrementJumps - 0x122754
 PlayLayer::init - 0x115800
