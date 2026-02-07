@@ -556,6 +556,7 @@ cocos2d::CCIMEDelegate::CCIMEDelegate - 0x1d3818
 cocos2d::CCIMEDelegate::~CCIMEDelegate - 0x1d3958
 cocos2d::CCIMEDelegate::attachWithIME - 0x1d3a0c
 cocos2d::CCIMEDelegate::detachWithIME - 0x1d3b10
+cocos2d::CCIMEDispatcher::sharedDispatcher - 0x1d3858
 cocos2d::CCIMEDispatcher::dispatchDeleteBackward - 0x1d3c1c
 cocos2d::CCIMEDispatcher::dispatchInsertText - 0x1d3bf0
 cocos2d::CCKeyboardHandler::~CCKeyboardHandler - 0x216958
