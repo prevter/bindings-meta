@@ -6274,6 +6274,7 @@ LevelSearchLayer::onSearch - 0x534a8
 LevelSearchLayer::onSearchMode - 0x53160
 LevelSearchLayer::onSearchUser - 0x535ec
 LevelSearchLayer::onSpecialDemon - 0x54150
+LevelSearchLayer::onStarAward - 0x53e20
 LevelSearchLayer::onSuggested - 0x539a4
 LevelSearchLayer::onTrending - 0x53a48
 LevelSearchLayer::toggleDifficulty - 0x53ec4

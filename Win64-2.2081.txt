@@ -3347,6 +3347,7 @@ LevelSearchLayer::onSearch - 0x311730
 LevelSearchLayer::onSearchMode - 0x30e520
 LevelSearchLayer::onSearchUser - 0x311970
 LevelSearchLayer::onSpecialDemon - 0x30e180
+LevelSearchLayer::onStarAward - 0x311670
 LevelSearchLayer::onSuggested - 0x311130
 LevelSearchLayer::onTrending - 0x3111f0
 LevelSearchLayer::toggleDifficulty - 0x311f70
