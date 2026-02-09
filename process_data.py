@@ -1,6 +1,36 @@
 import json, os
 import argparse
 
+def process_extras(file_path, platform):
+    extraFile = os.path.join(
+        os.path.dirname(__file__),
+        'extras',
+        os.path.basename(
+            file_path
+                .replace('.json', '.txt')
+                .replace('CodegenData', platform)
+        )
+    )
+
+    extras = []
+    if os.path.exists(extraFile):
+        with open(extraFile, 'r') as f:
+            for line in f:
+                line = line.strip()
+                if not line: continue
+                if '-' not in line: continue
+                func_name, hex_addr = line.split('-', 1)
+                func_name = func_name.strip()
+                hex_addr = hex_addr.strip()
+                try:
+                    addr = int(hex_addr, 16)
+                    if any(b[0] == addr for b in extras): continue
+                    extras.append((addr, func_name))
+                except ValueError:
+                    continue
+
+    return extras
+
 def main(input_file):
     with open(input_file, 'r') as f:
         data = json.load(f)
@@ -27,6 +57,15 @@ def main(input_file):
             if 'ios' in bindings and isinstance(bindings['ios'], int):
                 if any(b[0] == bindings['ios'] for b in ios): continue
                 imac.append((bindings['ios'], func_name))
+
+    win.extend(process_extras(input_file, 'Win64'))
+    m1.extend(process_extras(input_file, 'Arm'))
+    imac.extend(process_extras(input_file, 'Intel'))
+    ios.extend(process_extras(input_file, 'iOS'))
+    win = list(dict.fromkeys(win))
+    m1 = list(dict.fromkeys(m1))
+    imac = list(dict.fromkeys(imac))
+    ios = list(dict.fromkeys(ios))
 
     win.sort(key=lambda x: x[0])
     m1.sort(key=lambda x: x[0])
