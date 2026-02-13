@@ -559,10 +559,6 @@ cocos2d::CCIMEDelegate::detachWithIME - 0x1d3b10
 cocos2d::CCIMEDispatcher::sharedDispatcher - 0x1d3858
 cocos2d::CCIMEDispatcher::dispatchDeleteBackward - 0x1d3c1c
 cocos2d::CCIMEDispatcher::dispatchInsertText - 0x1d3bf0
-cocos2d::CCKeyboardHandler::~CCKeyboardHandler - 0x216958
-cocos2d::CCKeyboardHandler::handlerWithDelegate - 0x216a0c
-cocos2d::CCKeyboardHandler::initWithDelegate - 0x2169c4
-cocos2d::CCKeyboardHandler::getDelegate - 0x216950
 cocos2d::CCKeypadDispatcher::CCKeypadDispatcher - 0x1ad530
 cocos2d::CCKeypadDispatcher::~CCKeypadDispatcher - 0x1ad5a4
 cocos2d::CCKeypadDispatcher::addDelegate - 0x1ad6ec

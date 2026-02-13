@@ -907,8 +907,12 @@ cocos2d::CCJumpTo::startWithTarget - 0x3b9730
 cocos2d::CCKeyboardDispatcher::CCKeyboardDispatcher - 0x203250
 cocos2d::CCKeyboardDispatcher::~CCKeyboardDispatcher - 0x2032d0
 cocos2d::CCKeyboardDispatcher::convertKeyCode - 0x203870
+cocos2d::CCKeyboardDispatcher::addDelegate - 0x203530
 cocos2d::CCKeyboardDispatcher::dispatchKeyboardMSG - 0x2035b0
+cocos2d::CCKeyboardDispatcher::forceAddDelegate - 0x203580
+cocos2d::CCKeyboardDispatcher::forceRemoveDelegate - 0x2034a0
 cocos2d::CCKeyboardDispatcher::keyToString - 0x2038c0
+cocos2d::CCKeyboardDispatcher::removeDelegate - 0x2033f0
 cocos2d::CCKeyboardDispatcher::updateModifierKeys - 0x203890
 cocos2d::CCKeyboardHandler::~CCKeyboardHandler - 0x43e0b0
 cocos2d::CCKeyboardHandler::handlerWithDelegate - 0x43e290
