@@ -2544,6 +2544,8 @@ DS_Dictionary::getArrayForKey - 0x180a90
 DS_Dictionary::getFloatForKey - 0x17db50
 DS_Dictionary::getIntegerForKey - 0x17d910
 DS_Dictionary::getKey - 0x17d250
+DS_Dictionary::getStringForKey - 0x17dc90
+DS_Dictionary::loadRootSubDictFromString - 0x17b200
 DS_Dictionary::saveRootSubDictToString - 0x17c810
 DS_Dictionary::setArrayForKey - 0x180730
 DS_Dictionary::setBoolMapForKey - 0x181200

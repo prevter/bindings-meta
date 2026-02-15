@@ -2556,6 +2556,7 @@ DS_Dictionary::setArrayForKey - 0x144760
 DS_Dictionary::setDictForKey - 0x1462ac
 DS_Dictionary::setFloatForKey - 0x1444c0
 DS_Dictionary::setIntegerForKey - 0x14406c
+DS_Dictionary::stepIntoSubDictWithKey - 0x14274c
 DS_Dictionary::stepOutOfSubDict - 0x1428f4
 ObjectDecoder::sharedDecoder - 0x69aa80
 ObjectDecoder::init - 0x69aaf4

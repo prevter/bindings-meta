@@ -1397,6 +1397,7 @@ DS_Dictionary::getArrayForKey - 0x16270c
 DS_Dictionary::getBoolForKey - 0x1618f0
 DS_Dictionary::getIntegerForKey - 0x1617e4
 DS_Dictionary::getObjectForKey - 0x162828
+DS_Dictionary::getStringForKey - 0x161ae8
 DS_Dictionary::loadRootSubDictFromString - 0x161058
 DS_Dictionary::saveRootSubDictToString - 0x1611f4
 DS_Dictionary::setBoolForKey - 0x161f88
