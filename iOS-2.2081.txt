@@ -1385,6 +1385,7 @@ cocos2d::extension::CCScale9Sprite::setSpriteFrame - 0x216218
 cocos2d::extension::CCScale9Sprite::setBlendAdditive - 0x2164b8
 cocos2d::extension::CCScale9Sprite::updateCapInset - 0x215f7c
 cocos2d::extension::CCScale9Sprite::updatePositions - 0x215620
+cocos2d::ZipUtils::base64DecodeEnc - 0x23dd7c
 cocos2d::ZipUtils::base64EncodeEnc - 0x23dfa0
 cocos2d::ZipUtils::base64URLDecode - 0x23e200
 cocos2d::ZipUtils::base64URLEncode - 0x23e2f0
@@ -1410,6 +1411,7 @@ DS_Dictionary::stepIntoSubDictWithKey - 0x161520
 ObjectDecoder::sharedDecoder - 0x2359f0
 ObjectDecoder::init - 0x235a58
 ObjectDecoder::getDecodedObject - 0x235a5c
+pugi::xml_node::xml_node - 0x3ab440
 pugi::xml_document::xml_document - 0x3acc80
 pugi::xml_document::~xml_document - 0x3acd64
 FMOD::Channel::getPosition - 0x4552dc

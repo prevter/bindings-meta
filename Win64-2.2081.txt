@@ -22,6 +22,7 @@ cocos2d::CCLightning::setCascadeColorEnabled - 0x44a50
 cocos2d::CCLightning::initWithStrikePoint - 0x44650
 cocos2d::CCLightning::strike - 0x448f0
 cocos2d::CCLightning::strikeFinished - 0x44960
+pugi::xml_node::xml_node - 0x724f0
 GJDropDownLayer::GJDropDownLayer - 0x7d230
 GJDropDownLayer::~GJDropDownLayer - 0x256dd0
 GJDropDownLayer::draw - 0x42760

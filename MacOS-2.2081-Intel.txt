@@ -2532,6 +2532,7 @@ cocos2d::extension::CCTableViewCell::getObjectID - 0x4378b0
 cocos2d::extension::CCTableViewCell::getIdx - 0x4378d0
 cocos2d::extension::CCTableViewCell::reset - 0x437880
 cocos2d::extension::CCTableViewCell::setIdx - 0x4378e0
+cocos2d::ZipUtils::base64DecodeEnc - 0x205880
 cocos2d::ZipUtils::base64EncodeEnc - 0x205ac0
 cocos2d::ZipUtils::base64URLDecode - 0x205d00
 cocos2d::ZipUtils::base64URLEncode - 0x205de0
@@ -2558,6 +2559,7 @@ DS_Dictionary::stepOutOfSubDict - 0x17d020
 ObjectDecoder::sharedDecoder - 0x792320
 ObjectDecoder::init - 0x792390
 ObjectDecoder::getDecodedObject - 0x7923a0
+pugi::xml_node::xml_node - 0x63b3c0
 pugi::xml_document::xml_document - 0x641250
 pugi::xml_document::~xml_document - 0x641390
 GJDropDownLayer::~GJDropDownLayer - 0x5e7be0
