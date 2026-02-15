@@ -1,2 +1,2 @@
-WinMain - 0x4cf4f0
-__scrt_common_main_seh - 0x4d0abc
+WinMain - 0x4cf8d0
+__scrt_common_main_seh - 0x4d0e9c
