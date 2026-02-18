@@ -817,6 +817,7 @@ cocos2d::CCLightning::strikeFinished - 0x347a24
 cocos2d::CCMenu::create - 0x1d7eac
 cocos2d::CCMenu::createWithArray - 0x1d7f58
 cocos2d::CCMenu::createWithItem - 0x1d8198
+cocos2d::CCMenu::createWithItems - 0x1d7ef8
 cocos2d::CCMenu::init - 0x1d81b8
 cocos2d::CCMenu::addChild - 0x1d81c0
 cocos2d::CCMenu::addChild - 0x1d81c4

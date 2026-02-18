@@ -1245,6 +1245,7 @@ cocos2d::CCLiquid::initWithDuration - 0x27ef60
 cocos2d::CCMenu::create - 0x792c40
 cocos2d::CCMenu::createWithArray - 0x792e40
 cocos2d::CCMenu::createWithItem - 0x793090
+cocos2d::CCMenu::createWithItems - 0x792d00
 cocos2d::CCMenu::init - 0x7930a0
 cocos2d::CCMenu::addChild - 0x7930b0
 cocos2d::CCMenu::addChild - 0x7930c0
