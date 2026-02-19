@@ -303,12 +303,15 @@ cocos2d::CCCallFuncO::create - 0x1adfb0
 cocos2d::CCCallFuncO::copyWithZone - 0x1ae0bc
 cocos2d::CCCallFuncO::execute - 0x1adf7c
 cocos2d::CCCallFuncO::initWithTarget - 0x1ae070
+cocos2d::CCComponentContainer::CCComponentContainer - 0x164c78
+cocos2d::CCComponentContainer::~CCComponentContainer - 0x164c8c
 cocos2d::CCComponentContainer::get - 0x164ce0
 cocos2d::CCComponentContainer::add - 0x164d80
 cocos2d::CCComponentContainer::remove - 0x164ec0
 cocos2d::CCComponentContainer::remove - 0x165164
 cocos2d::CCComponentContainer::removeAll - 0x1652e4
 cocos2d::CCComponentContainer::visit - 0x165454
+cocos2d::CCComponentContainer::isEmpty - 0x1654a8
 cocos2d::CCConfiguration::sharedConfiguration - 0x324f78
 cocos2d::CCConfiguration::checkForGLExtension - 0x324f44
 cocos2d::CCDelayTime::create - 0x18add0
@@ -829,6 +832,7 @@ cocos2d::CCMenu::ccTouchBegan - 0x1d8364
 cocos2d::CCMenu::ccTouchMoved - 0x1d8550
 cocos2d::CCMenu::ccTouchEnded - 0x1d8460
 cocos2d::CCMenu::ccTouchCancelled - 0x1d84e8
+cocos2d::CCMenu::alignItemsHorizontally - 0x1d8798
 cocos2d::CCMenu::alignItemsHorizontallyWithPadding - 0x1d87a0
 cocos2d::CCMenu::alignItemsVerticallyWithPadding - 0x1d85b8
 cocos2d::CCMenu::giveMenuTouchPriority - 0x1d8284
@@ -844,6 +848,7 @@ cocos2d::CCMenuItem::unregisterScriptTapHandler - 0x4cc0c
 cocos2d::CCMenuItem::isEnabled - 0x4ccd4
 cocos2d::CCMenuItem::setEnabled - 0x4cccc
 cocos2d::CCMenuItem::isSelected - 0x4ccf8
+cocos2d::CCMenuItem::initWithTarget - 0x4cb04
 cocos2d::CCMenuItem::rect - 0x4ccdc
 cocos2d::CCMenuItemSprite::selected - 0x4d04c
 cocos2d::CCMenuItemSprite::unselected - 0x4d0d8
@@ -1059,6 +1064,7 @@ cocos2d::CCProgressTimer::setPercentage - 0x3fd6dc
 cocos2d::CCProgressTimer::setSprite - 0x3fd720
 cocos2d::CCProgressTimer::textureCoordFromAlphaPoint - 0x3fd950
 cocos2d::CCProgressTimer::updateBar - 0x3fde28
+cocos2d::CCProgressTimer::updateColor - 0x3fd858
 cocos2d::CCProgressTimer::updateProgress - 0x3fd80c
 cocos2d::CCProgressTimer::updateRadial - 0x3fda6c
 cocos2d::CCProgressTimer::vertexFromAlphaPoint - 0x3fd9ec
@@ -1074,6 +1080,7 @@ cocos2d::CCRenderTexture::beginWithClear - 0x3c093c
 cocos2d::CCRenderTexture::beginWithClear - 0x3c094c
 cocos2d::CCRenderTexture::end - 0x3c0a74
 cocos2d::CCRenderTexture::initWithWidthAndHeight - 0x3c0344
+cocos2d::CCRenderTexture::updateInternalScale - 0x3c0748
 cocos2d::CCRepeatForever::~CCRepeatForever - 0x18a954
 cocos2d::CCRepeatForever::create - 0x18a9a8
 cocos2d::CCRepeatForever::copyWithZone - 0x18aa14
@@ -1148,6 +1155,7 @@ cocos2d::CCShow::update - 0x1ada74
 cocos2d::CCShow::reverse - 0x1ada88
 cocos2d::CCSpawn::~CCSpawn - 0x18af4c
 cocos2d::CCSpawn::createWithTwoActions - 0x18ac88
+cocos2d::CCSpawn::createWithVariableList - 0x18ac08
 cocos2d::CCSpawn::copyWithZone - 0x18ae5c
 cocos2d::CCSpawn::update - 0x18b040
 cocos2d::CCSpawn::startWithTarget - 0x18afac
