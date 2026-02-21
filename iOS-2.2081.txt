@@ -607,7 +607,18 @@ cocos2d::CCSpriteBatchNode::setBlendFunc - 0x1d7d5c
 cocos2d::CCSpriteBatchNode::getBlendFunc - 0x1d7d6c
 cocos2d::CCSpriteBatchNode::getTexture - 0x1d7d7c
 cocos2d::CCSpriteBatchNode::setTexture - 0x1d7d9c
+cocos2d::CCSpriteBatchNode::appendChild - 0x1d7400
+cocos2d::CCSpriteBatchNode::getAtlasCapacity - 0x1d7d4c
+cocos2d::CCSpriteBatchNode::getUsedAtlasCapacity - 0x1d7d40
+cocos2d::CCSpriteBatchNode::increaseAtlasCapacity - 0x1d7c84
+cocos2d::CCSpriteBatchNode::increaseAtlasCapacity - 0x1d7cf4
+cocos2d::CCSpriteBatchNode::initWithFile - 0x1d7188
 cocos2d::CCSpriteBatchNode::initWithTexture - 0x1d6fe8
+cocos2d::CCSpriteBatchNode::manualSortAllChildren - 0x1d7824
+cocos2d::CCSpriteBatchNode::removeSpriteFromAtlas - 0x1d7644
+cocos2d::CCSpriteBatchNode::reorderBatch - 0x1d7ba4
+cocos2d::CCSpriteBatchNode::swap - 0x1d7ae0
+cocos2d::CCSpriteBatchNode::updateAtlasIndex - 0x1d793c
 cocos2d::CCLabelBMFont::CCLabelBMFont - 0x2fb4f0
 cocos2d::CCLabelBMFont::~CCLabelBMFont - 0x2fb5b4
 cocos2d::CCLabelBMFont::create - 0x2fb0e4
@@ -714,6 +725,7 @@ cocos2d::CCSprite::isFlipX - 0x239114
 cocos2d::CCSprite::isFlipY - 0x239148
 cocos2d::CCSprite::setFlipX - 0x2390e8
 cocos2d::CCSprite::setFlipY - 0x23911c
+cocos2d::CCSprite::updateColor - 0x239150
 cocos2d::CCLabelTTF::CCLabelTTF - 0x6e708
 cocos2d::CCLabelTTF::~CCLabelTTF - 0x6e7d0
 cocos2d::CCLabelTTF::init - 0x6e954
@@ -1167,6 +1179,7 @@ cocos2d::CCSet::end - 0x1ac5d0
 cocos2d::CCSet::mutableCopy - 0x1ac4f0
 cocos2d::CCSet::removeAllObjects - 0x1ac400
 cocos2d::CCSet::removeObject - 0x1ac544
+cocos2d::CCShaderCache::~CCShaderCache - 0x128440
 cocos2d::CCShaderCache::purgeSharedShaderCache - 0x128414
 cocos2d::CCShaderCache::sharedShaderCache - 0x12835c
 cocos2d::CCShaderCache::addProgram - 0x128aec
@@ -1196,9 +1209,12 @@ cocos2d::CCSpriteFrame::getTexture - 0x24e500
 cocos2d::CCSpriteFrame::initWithTexture - 0x24e088
 cocos2d::CCSpriteFrame::initWithTextureFilename - 0x24e1e8
 cocos2d::CCSpriteFrame::setTexture - 0x24e4ac
+cocos2d::CCSpriteFrameCache::~CCSpriteFrameCache - 0x3bbf78
+cocos2d::CCSpriteFrameCache::purgeSharedSpriteFrameCache - 0x3bbf4c
 cocos2d::CCSpriteFrameCache::sharedSpriteFrameCache - 0x3bbe68
 cocos2d::CCSpriteFrameCache::addSpriteFramesWithDictionary - 0x3bbff8
 cocos2d::CCSpriteFrameCache::addSpriteFramesWithFile - 0x3bc8ac
+cocos2d::CCSpriteFrameCache::init - 0x3bbed0
 cocos2d::CCSpriteFrameCache::removeSpriteFramesFromDictionary - 0x3bcc20
 cocos2d::CCSpriteFrameCache::removeSpriteFramesFromFile - 0x3bcb10
 cocos2d::CCSpriteFrameCache::spriteFrameByName - 0x3bcd44
@@ -1254,6 +1270,7 @@ cocos2d::CCTexture2D::getContentSize - 0x12d434
 cocos2d::CCTexture2D::getShaderProgram - 0x12d4b4
 cocos2d::CCTexture2D::setShaderProgram - 0x12d4bc
 cocos2d::CCTexture2D::getContentSizeInPixels - 0x12d48c
+cocos2d::CCTexture2D::hasPremultipliedAlpha - 0x12d4f8
 cocos2d::CCTexture2D::initPremultipliedATextureWithImage - 0x12d86c
 cocos2d::CCTexture2D::initWithData - 0x12d500
 cocos2d::CCTexture2D::initWithImage - 0x12d7fc
@@ -1269,6 +1286,7 @@ cocos2d::CCTextureAtlas::getTexture - 0x269ecc
 cocos2d::CCTextureAtlas::setTexture - 0x269ed4
 cocos2d::CCTextureAtlas::getQuads - 0x269f10
 cocos2d::CCTextureAtlas::setQuads - 0x269f20
+cocos2d::CCTextureAtlas::insertQuad - 0x26a274
 cocos2d::CCTextureCache::sharedTextureCache - 0x113204
 cocos2d::CCTextureCache::addImage - 0x113dec
 cocos2d::CCTextureCache::addImageAsync - 0x113394
@@ -1301,6 +1319,8 @@ cocos2d::CCTouchDispatcher::registerForcePrio - 0x14ec68
 cocos2d::CCTouchDispatcher::removeDelegate - 0x14f0d4
 cocos2d::CCTouchDispatcher::touches - 0x14f2c0
 cocos2d::CCTouchDispatcher::unregisterForcePrio - 0x14ece4
+cocos2d::CCTouchScriptHandlerEntry::~CCTouchScriptHandlerEntry - 0x2736ac
+cocos2d::CCTouchScriptHandlerEntry::create - 0x273614
 cocos2d::CCTransitionScene::~CCTransitionScene - 0x1cda44
 cocos2d::CCTransitionScene::onEnter - 0x1cdd88
 cocos2d::CCTransitionScene::onExit - 0x1cdddc
