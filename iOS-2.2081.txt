@@ -369,6 +369,7 @@ cocos2d::CCDirector::getAccelerometer - 0x1767e4
 cocos2d::CCDirector::setAccelerometer - 0x1767a8
 cocos2d::CCDirector::getDeltaTime - 0x1759ac
 cocos2d::CCDirector::convertToGL - 0x175d80
+cocos2d::CCDirector::createStatsLabel - 0x175a64
 cocos2d::CCDirector::drawScene - 0x1755fc
 cocos2d::CCDirector::end - 0x176160
 cocos2d::CCDirector::getWinSize - 0x175b68
@@ -931,6 +932,7 @@ cocos2d::CCMoveBy::reverse - 0x18b95c
 cocos2d::CCMoveTo::create - 0x18ba5c
 cocos2d::CCMoveTo::copyWithZone - 0x18bb3c
 cocos2d::CCMoveTo::startWithTarget - 0x18bc6c
+cocos2d::CCNotificationCenter::purgeNotificationCenter - 0x26911c
 cocos2d::CCParticleSystem::CCParticleSystem - 0x193210
 cocos2d::CCParticleSystem::~CCParticleSystem - 0x19478c
 cocos2d::CCParticleSystem::update - 0x1955d4
@@ -1342,6 +1344,7 @@ cocos2d::CCTransitionMoveInL::action - 0x1cdf18
 cocos2d::CCTransitionMoveInL::easeActionWithAction - 0x1cdf58
 cocos2d::CCTransitionMoveInT::create - 0x1cdf80
 cocos2d::CCTransitionMoveInT::initScenes - 0x1ce018
+cocos2d::CCUserDefault::purgeSharedUserDefault - 0x3fe5c8
 cocos2d::CCZone::CCZone - 0x254170
 cocos2d::extension::CCControl::CCControl - 0x1a580c
 cocos2d::extension::CCControl::~CCControl - 0x1a593c
