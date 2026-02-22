@@ -310,6 +310,9 @@ cocos2d::CCCallFuncO::create - 0x1adfb0
 cocos2d::CCCallFuncO::copyWithZone - 0x1ae0bc
 cocos2d::CCCallFuncO::execute - 0x1adf7c
 cocos2d::CCCallFuncO::initWithTarget - 0x1ae070
+cocos2d::CCCamera::CCCamera - 0x19e470
+cocos2d::CCCamera::locate - 0x19e544
+cocos2d::CCCamera::restore - 0x19e4fc
 cocos2d::CCComponentContainer::CCComponentContainer - 0x164c78
 cocos2d::CCComponentContainer::~CCComponentContainer - 0x164c8c
 cocos2d::CCComponentContainer::get - 0x164ce0
@@ -319,8 +322,20 @@ cocos2d::CCComponentContainer::remove - 0x165164
 cocos2d::CCComponentContainer::removeAll - 0x1652e4
 cocos2d::CCComponentContainer::visit - 0x165454
 cocos2d::CCComponentContainer::isEmpty - 0x1654a8
+cocos2d::CCConfiguration::~CCConfiguration - 0x32491c
+cocos2d::CCConfiguration::purgeConfiguration - 0x324fec
 cocos2d::CCConfiguration::sharedConfiguration - 0x324f78
 cocos2d::CCConfiguration::checkForGLExtension - 0x324f44
+cocos2d::CCConfiguration::dumpInfo - 0x32496c
+cocos2d::CCConfiguration::gatherGPUInfo - 0x3249f4
+cocos2d::CCConfiguration::getBool - 0x3250d4
+cocos2d::CCConfiguration::getCString - 0x325038
+cocos2d::CCConfiguration::getMaxTextureSize - 0x325018
+cocos2d::CCConfiguration::getNumber - 0x325198
+cocos2d::CCConfiguration::init - 0x324760
+cocos2d::CCConfiguration::supportsBGRA8888 - 0x325030
+cocos2d::CCConfiguration::supportsNPOT - 0x325020
+cocos2d::CCConfiguration::supportsPVRTC - 0x325028
 cocos2d::CCDelayTime::create - 0x18add0
 cocos2d::CCDelayTime::copyWithZone - 0x18d1a8
 cocos2d::CCDelayTime::update - 0x18d260
@@ -387,6 +402,7 @@ cocos2d::CCDirector::resetSmoothFixCounter - 0x1759a0
 cocos2d::CCDirector::resume - 0x1764cc
 cocos2d::CCDirector::runWithScene - 0x175efc
 cocos2d::CCDirector::sceneCount - 0x17632c
+cocos2d::CCDirector::setDefaultValues - 0x1751a4
 cocos2d::CCDirector::setDepthTest - 0x175454
 cocos2d::CCDirector::setGLDefaultValues - 0x175408
 cocos2d::CCDirector::setNextScene - 0x175730
@@ -9053,6 +9069,7 @@ FMOD_Memory_GetStats - 0x4526e8
 FMOD_Memory_Initialize - 0x4525a8
 FMOD_System_Create - 0x4527cc
 FMOD_Thread_SetAttributes - 0x4d51dc
+kmMat4Identity - 0x3b2a40
 kmMat4Multiply - 0x3b2da0
 kmMat4OrthographicProjection - 0x3b2f10
 kmVec3TransformCoord - 0x325414
