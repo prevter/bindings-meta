@@ -98,6 +98,7 @@ cocos2d::ccVertexLineToPolygon - 0x3a9110
 cocos2d::clampf - 0x356250
 cocos2d::cocos2dVersion - 0x355670
 cocos2d::FNTConfigLoadFile - 0x5d4c40
+cocos2d::FNTConfigRemoveCache - 0x5d4f00
 cocos2d::isspace_unicode - 0x65fff0
 cocos2d::CCAction::CCAction - 0x5f41c0
 cocos2d::CCAction::~CCAction - 0x5f4240
