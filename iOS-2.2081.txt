@@ -9132,3 +9132,5 @@ kmGLLoadIdentity - 0x168600
 kmGLMultMatrix - 0x168664
 kmGLTranslatef - 0x1686ec
 kmGLGetMatrix - 0x168698
+start - 0x26a690
+[CCDirectorCaller doCaller:] - 0x2130b0
