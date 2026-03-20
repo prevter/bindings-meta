@@ -56,7 +56,7 @@ def main(input_file):
                 imac.append((bindings['imac'], func_name))
             if 'ios' in bindings and isinstance(bindings['ios'], int):
                 if any(b[0] == bindings['ios'] for b in ios): continue
-                imac.append((bindings['ios'], func_name))
+                ios.append((bindings['ios'], func_name))
 
     win.extend(process_extras(input_file, 'Win64'))
     m1.extend(process_extras(input_file, 'Arm'))
@@ -84,7 +84,7 @@ def main(input_file):
         json.dump(imac, f)
 
     with open(f"{base_filename}-iOS.json", 'w') as f:
-        json.dump(imac, f)
+        json.dump(ios, f)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
