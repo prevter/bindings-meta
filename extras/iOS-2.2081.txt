@@ -1,0 +1,2 @@
+start - 0x26a690
+[CCDirectorCaller doCaller:] - 0x2130b0
