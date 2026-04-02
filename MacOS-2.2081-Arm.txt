@@ -910,6 +910,13 @@ cocos2d::CCFileUtils::setSearchResolutionsOrder - 0x3ae504
 cocos2d::CCFileUtils::shouldUseHD - 0x3accc4
 cocos2d::CCFileUtils::writeToFile - 0x3ac5e0
 cocos2d::CCFileUtils::removeAllPaths - 0x3af324
+cocos2d::CCFileUtilsMac::createCCArrayWithContentsOfFile - 0x532d7c
+cocos2d::CCFileUtilsMac::createCCDictionaryWithContentsOfFile - 0x53229c
+cocos2d::CCFileUtilsMac::getFullPathForDirectoryAndFilename - 0x532014
+cocos2d::CCFileUtilsMac::getWritablePath - 0x531bb4
+cocos2d::CCFileUtilsMac::isAbsolutePath - 0x532270
+cocos2d::CCFileUtilsMac::isFileExist - 0x531c98
+cocos2d::CCFileUtilsMac::writeToFile - 0x532b8c
 cocos2d::CCFlipX::create - 0x6b325c
 cocos2d::CCFlipX::update - 0x6b32c8
 cocos2d::CCFlipX::reverse - 0x6b32d8

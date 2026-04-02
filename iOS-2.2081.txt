@@ -587,6 +587,13 @@ cocos2d::CCFileUtils::setSearchPaths - 0x151ce8
 cocos2d::CCFileUtils::setSearchResolutionsOrder - 0x151aec
 cocos2d::CCFileUtils::shouldUseHD - 0x150e38
 cocos2d::CCFileUtils::writeToFile - 0x150960
+cocos2d::CCFileUtilsIOS::createCCArrayWithContentsOfFile - 0x236ee8
+cocos2d::CCFileUtilsIOS::createCCDictionaryWithContentsOfFile - 0x236694
+cocos2d::CCFileUtilsIOS::getFullPathForDirectoryAndFilename - 0x23651c
+cocos2d::CCFileUtilsIOS::getWritablePath - 0x23628c
+cocos2d::CCFileUtilsIOS::isAbsolutePath - 0x236668
+cocos2d::CCFileUtilsIOS::isFileExist - 0x2362f8
+cocos2d::CCFileUtilsIOS::writeToFile - 0x236cf0
 cocos2d::CCGLProgram::CCGLProgram - 0x135098
 cocos2d::CCGLProgram::~CCGLProgram - 0x1350d8
 cocos2d::CCGLProgram::addAttribute - 0x1353c0
