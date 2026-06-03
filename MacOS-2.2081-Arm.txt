@@ -6156,9 +6156,9 @@ GameOptionsLayer::create - 0x24f060
 GameOptionsLayer::setupOptions - 0x24f268
 GameOptionsLayer::didToggle - 0x24ffa8
 GameOptionsLayer::init - 0x24f210
-GameOptionsLayer::onPracticeMusicSync - 0x24f9c0
-GameOptionsLayer::onUIOptions - 0x24f92c
-GameOptionsLayer::onUIPOptions - 0x24f9a0
+GameOptionsLayer::onPracticeMusicSync - 0x24f92c
+GameOptionsLayer::onUIOptions - 0x24f9a0
+GameOptionsLayer::onUIPOptions - 0x24f9c0
 GameOptionsLayer::showPracticeMusicSyncUnlockInfo - 0x24fa2c
 GameOptionsTrigger::create - 0x169724
 GameOptionsTrigger::customObjectSetup - 0x16b000
