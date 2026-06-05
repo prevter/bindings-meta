@@ -405,6 +405,7 @@ AudioLineGuideGameObject::init - 0x4c1450
 AudioLineGuideGameObject::customObjectSetup - 0x4c1810
 AudioLineGuideGameObject::getSaveString - 0x4c14c0
 BitmapFontCache::fontWithConfigFile - 0x3b3c0
+BoomListView::BoomListView - 0x3be90
 BoomListView::~BoomListView - 0x3bf80
 BoomListView::setupList - 0x3c390
 BoomListView::cellHeightForRowAtIndexPath - 0x3c420
@@ -3299,6 +3300,7 @@ LevelListLayer::onToggleEditMode - 0x3080b0
 LevelListLayer::onViewProfile - 0x3076f0
 LevelListLayer::updateSideButtons - 0x307bb0
 LevelListLayer::updateStatsArt - 0x305120
+LevelOptionsLayer::LevelOptionsLayer - 0x31e730
 LevelOptionsLayer::valueDidChange - 0x324710
 LevelOptionsLayer::getValue - 0x324730
 LevelOptionsLayer::setupOptions - 0x324070
@@ -4533,6 +4535,7 @@ SetupInstantCollisionTriggerPopup::updateDefaultTriggerValues - 0x41a890
 SetupInstantCollisionTriggerPopup::valueDidChange - 0x41a660
 SetupInstantCollisionTriggerPopup::init - 0x419f40
 SetupInstantCollisionTriggerPopup::updateSpecialNodes - 0x41a680
+SetupCollisionStateTriggerPopup::create - 0x41a8b0
 SetupCollisionStateTriggerPopup::init - 0x41a9c0
 SetupCollisionTriggerPopup::create - 0x4181f0
 SetupCollisionTriggerPopup::determineStartValues - 0x4191a0
