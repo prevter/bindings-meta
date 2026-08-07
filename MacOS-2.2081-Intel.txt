@@ -815,6 +815,7 @@ cocos2d::CCEGLView::setContentScaleFactor - 0x5036b0
 cocos2d::CCEGLView::setViewPortInPoints - 0x503800
 cocos2d::CCEGLView::setScissorInPoints - 0x5038f0
 cocos2d::CCEGLView::setMultiTouchMask - 0x5039e0
+cocos2d::CCEGLView::showCursor - 0x5039f0
 cocos2d::CCEGLViewProtocol::CCEGLViewProtocol - 0x50fb10
 cocos2d::CCEGLViewProtocol::~CCEGLViewProtocol - 0x50fb70
 cocos2d::CCEGLViewProtocol::getFrameSize - 0x50fcf0
