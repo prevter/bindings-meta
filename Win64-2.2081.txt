@@ -2,6 +2,10 @@ cocos2d::CCDisplayLinkDirector::setAnimationInterval - 0xbf3f0
 cocos2d::CCDisplayLinkDirector::stopAnimation - 0xbff30
 cocos2d::CCDisplayLinkDirector::startAnimation - 0xbfef0
 cocos2d::CCDisplayLinkDirector::mainLoop - 0xbeae0
+cocos2d::CCGrabber::CCGrabber - 0x21f50
+cocos2d::CCGrabber::afterRender - 0x22000
+cocos2d::CCGrabber::beforeRender - 0x22040
+cocos2d::CCGrabber::grab - 0x220a0
 cocos2d::CCLightning::CCLightning - 0x44470
 cocos2d::CCLightning::lightningWithStrikePoint - 0x445b0
 cocos2d::CCLightning::draw - 0x44770
@@ -22,6 +26,12 @@ cocos2d::CCLightning::setCascadeColorEnabled - 0x44a50
 cocos2d::CCLightning::initWithStrikePoint - 0x44650
 cocos2d::CCLightning::strike - 0x448f0
 cocos2d::CCLightning::strikeFinished - 0x44960
+cocos2d::CCSchedulerScriptHandlerEntry::create - 0xb6730
+cocos2d::CCTexturePVR::CCTexturePVR - 0xa9df0
+cocos2d::CCTexturePVR::createGLTexture - 0xa9e90
+cocos2d::CCTexturePVR::initWithContentsOfFile - 0xaa090
+cocos2d::CCTexturePVR::unpackPVRv2Data - 0xaa460
+cocos2d::CCTexturePVR::unpackPVRv3Data - 0xaa690
 pugi::xml_node::xml_node - 0x724f0
 GJDropDownLayer::GJDropDownLayer - 0x7d230
 GJDropDownLayer::~GJDropDownLayer - 0x256dd0
