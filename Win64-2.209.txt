@@ -236,6 +236,7 @@ CCAnimatedSprite::tweenToAnimationFinished - 0x44b40
 AnimatedShopKeeper::animationFinished - 0x2e4090
 AnimatedShopKeeper::startAnimating - 0x33c2f0
 AppDelegate::applicationDidFinishLaunching - 0x98080
+AppDelegate::trySaveGame - 0x98960
 AppDelegate::pauseGame - 0x98880
 ArtistCell::draw - 0x147270
 ArtistCell::loadFromObject - 0x1500f0
@@ -281,6 +282,7 @@ ButtonSprite::create - 0x42be0
 ButtonSprite::create - 0x428a0
 ButtonSprite::init - 0x42cb0
 ButtonSprite::init - 0xe66c0
+ButtonSprite::setString - 0x43550
 CameraTriggerGameObject::triggerObject - 0x65a8f0
 CameraTriggerGameObject::getSaveString - 0x65ac50
 CCAnimateFrameCache::addDict - 0x45240
@@ -353,7 +355,9 @@ CCTextInputNode::addTextArea - 0x482840
 CCTextInputNode::init - 0x54510
 CCTextInputNode::refreshLabel - 0x6fba0
 CCTextInputNode::setString - 0x54eb0
+CCTextInputNode::updateCursorPosition - 0x583c0
 CCTextInputNode::updateDefaultFontValues - 0x54c30
+CCTextInputNode::updateLabel - 0x55d30
 CCURLObject::create - 0x273a70
 ChallengesPage::init - 0x9d7f0
 ChallengesPage::keyBackClicked - 0x9ef30
@@ -404,6 +408,7 @@ ColorAction::setupFromString - 0x361290
 ColorActionSprite::init - 0x360850
 ColorChannelSprite::create - 0x360330
 ColorChannelSprite::init - 0x3603f0
+ColorChannelSprite::updateOpacity - 0x3605d0
 ColorSelectLiveOverlay::show - 0x124dc0
 ColorSelectLiveOverlay::init - 0xbcfd0
 ColorSelectLiveOverlay::onSelectTab - 0x124c20
@@ -1849,6 +1854,7 @@ MoreVideoOptionsLayer::keyBackClicked - 0x4ce1b0
 MoreVideoOptionsLayer::onApplyFPS - 0x57b90
 MoreVideoOptionsLayer::onClose - 0xcbbf0
 MultilineBitmapFont::setOpacity - 0x79990
+MultilineBitmapFont::initWithFont - 0x78cb0
 MultilineBitmapFont::moveSpecialDescriptors - 0x7ac10
 MultiTriggerPopup::init - 0x5fbbe0
 MusicBrowser::create - 0x476f50
@@ -2534,8 +2540,9 @@ SimplePlayer::init - 0x37f3f0
 SimplePlayer::tryEnableCustomGlowColor - 0x37fbe0
 SimplePlayer::updateColors - 0x37fc80
 SimplePlayer::updatePlayerFrame - 0x380030
-SliderThumb::getValue - 0x83e20
-SliderThumb::setValue - 0x2124db
+SliderThumb::getRawValue - 0x83e20
+SliderThumb::getValue - 0x83eb0
+SliderThumb::setValue - 0x83f50
 SliderTouchLogic::ccTouchBegan - 0x842e0
 SliderTouchLogic::ccTouchEnded - 0x84390
 Slider::setMaxOffset - 0x84a60
@@ -2605,6 +2612,7 @@ TableView::checkBoundaryOfContent - 0x88c00
 TableView::checkFirstCell - 0x891c0
 TableView::isDuplicateIndexPath - 0x87820
 TableView::isDuplicateInVisibleCellArray - 0x87790
+TableView::reloadData - 0x87b70
 TableView::touchFinish - 0x6228c0
 TeleportPortalObject::create - 0x4fffb0
 TeleportPortalObject::setRotation - 0x64fc70
@@ -2622,6 +2630,8 @@ TextArea::setString - 0x89f20
 TextArea::stopAllCharacterActions - 0x8a600
 TextGameObject::create - 0x2a1dd0
 TextGameObject::getSaveString - 0x2a27f0
+TextStyleSection::create - 0x7b050
+TimerTriggerGameObject::triggerObject - 0x65c280
 TimerTriggerGameObject::customObjectSetup - 0x65c960
 TopArtistsLayer::init - 0x66a1c0
 TopArtistsLayer::keyBackClicked - 0x99e20
@@ -2665,10 +2675,12 @@ UploadActionPopup::showFailMessage - 0x39e8a0
 UploadActionPopup::showSuccessMessage - 0x39e790
 UploadListPopup::show - 0x430e40
 UploadListPopup::listUploadFailed - 0x430a90
+UploadListPopup::init - 0x430390
 UploadListPopup::onClose - 0x99df0
 UploadListPopup::onReturnToList - 0x430df0
 UploadPopup::show - 0x430e40
 UploadPopup::levelUploadFailed - 0x62ea70
+UploadPopup::init - 0x62e2f0
 UploadPopup::onClose - 0x99df0
 UploadPopup::onReturnToLevel - 0x62ec50
 URLCell::draw - 0x147270

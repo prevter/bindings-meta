@@ -6910,7 +6910,7 @@ SimplePlayer::tryEnableCustomGlowColor - 0x3a1f88
 SimplePlayer::updateColors - 0x3a0a80
 SimplePlayer::updatePlayerFrame - 0x39deb4
 SliderThumb::create - 0x387a88
-SliderThumb::getValue - 0x387ddc
+SliderThumb::getRawValue - 0x387ddc
 SliderThumb::setMaxOffset - 0x387d70
 SliderThumb::setRotated - 0x387b7c
 SliderThumb::setValue - 0x387c60

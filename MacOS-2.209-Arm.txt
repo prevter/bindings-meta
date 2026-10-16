@@ -8700,7 +8700,7 @@ SlideInLayer::hideLayer - 0x21fcb0
 SlideInLayer::disableUI - 0x21faa0
 SlideInLayer::enableUI - 0x21fab4
 SliderThumb::create - 0x283bf0
-SliderThumb::getValue - 0x283e4c
+SliderThumb::getRawValue - 0x283e4c
 SliderThumb::init - 0x283cf8
 SliderThumb::setMaxOffset - 0x284048
 SliderThumb::setRotated - 0xfed8
