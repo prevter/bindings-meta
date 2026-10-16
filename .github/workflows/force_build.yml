@@ -21,6 +21,9 @@ jobs:
           - { platform: Win64, version: "2.2081" }
           - { platform: MacOS, version: "2.2081" }
           - { platform: iOS, version: "2.2081" }
+          - { platform: Win64, version: "2.209" }
+          - { platform: MacOS, version: "2.209" }
+          - { platform: iOS, version: "2.209"}
 
     runs-on: ubuntu-latest
     name: Run codegen

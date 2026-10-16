@@ -59,6 +59,9 @@ jobs:
           - { platform: Win64, version: "2.2081" }
           - { platform: MacOS, version: "2.2081" }
           - { platform: iOS, version: "2.2081"}
+          - { platform: Win64, version: "2.209" }
+          - { platform: MacOS, version: "2.209" }
+          - { platform: iOS, version: "2.209"}
           
     needs: check
     if: needs.check.outputs.has_new_commits == 'true'
