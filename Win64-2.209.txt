@@ -30,14 +30,20 @@ AccountLayer::accountStatusChanged - 0x93d00
 AccountLayer::FLAlert_Clicked - 0x948e0
 AccountLayer::onLogin - 0x933b0
 AccountLayer::onRegister - 0x933f0
+FLAlertLayer::FLAlertLayer - 0x5a110
+FLAlertLayer::~FLAlertLayer - 0x5a240
 FLAlertLayer::create - 0x5a340
 FLAlertLayer::create - 0x5a4a0
 FLAlertLayer::ccTouchBegan - 0x5b570
+FLAlertLayer::ccTouchMoved - 0x5b6f0
 FLAlertLayer::ccTouchEnded - 0x5b610
+FLAlertLayer::ccTouchCancelled - 0x5b680
+FLAlertLayer::registerWithTouchDispatcher - 0x5b940
 FLAlertLayer::keyBackClicked - 0x5b3e0
 FLAlertLayer::keyDown - 0x5b350
 FLAlertLayer::show - 0x5b730
 FLAlertLayer::init - 0x5a5b0
+FLAlertLayer::init - 0x5a6a0
 AccountLoginLayer::create - 0x907f0
 AccountLoginLayer::keyBackClicked - 0x91ef0
 AccountLoginLayer::FLAlert_Clicked - 0x91a50
@@ -281,6 +287,7 @@ CCAnimateFrameCache::addDict - 0x45240
 CCAnimateFrameCache::addSpriteFramesWithFile - 0x45080
 CCAnimateFrameCache::spriteFrameByName - 0x45860
 CCBlockLayer::CCBlockLayer - 0x46020
+CCBlockLayer::~CCBlockLayer - 0x3ff70
 CCBlockLayer::draw - 0x463c0
 CCBlockLayer::keyBackClicked - 0x462f0
 CCBlockLayer::enterLayer - 0x46260
@@ -320,6 +327,7 @@ CCPartAnimSprite::initWithAnimDesc - 0x49670
 CCPartAnimSprite::setColor - 0x4a570
 CCPartAnimSprite::tweenToFrame - 0x4a0f0
 CCScrollLayerExt::CCScrollLayerExt - 0x4a880
+CCScrollLayerExt::~CCScrollLayerExt - 0x4ad40
 CCScrollLayerExt::ccTouchCancelled - 0x4b7f0
 CCScrollLayerExt::postVisit - 0x4bda0
 CCScrollLayerExt::moveToTop - 0x41650
@@ -339,6 +347,7 @@ CCSpritePart::setVisible - 0x4a7c0
 CCSpritePart::frameChanged - 0x4a710
 CCTextInputNode::create - 0x54260
 CCTextInputNode::visit - 0x54e40
+CCTextInputNode::ccTouchBegan - 0x58a90
 CCTextInputNode::onClickTrackNode - 0x57110
 CCTextInputNode::addTextArea - 0x482840
 CCTextInputNode::init - 0x54510
@@ -1796,6 +1805,7 @@ LoadingCircleSprite::create - 0x78a30
 LoadingCircleSprite::fadeInCircle - 0x78b30
 LoadingLayer::scene - 0x465e30
 LoadingLayer::getLoadingString - 0x467340
+LoadingLayer::init - 0x465f40
 LoadingLayer::loadAssets - 0x276b10
 LocalLevelManager::init - 0x467c50
 LocalLevelManager::dataLoaded - 0x483930
@@ -1815,6 +1825,7 @@ MenuGameLayer::resetPlayer - 0x10fc60
 MenuGameLayer::tryJump - 0x46d430
 MenuGameLayer::updateColor - 0x46d000
 MenuLayer::scene - 0x46ed30
+MenuLayer::init - 0x46eee0
 MenuLayer::keyDown - 0x472360
 MenuLayer::FLAlert_Clicked - 0x472130
 MenuLayer::endGame - 0x4723d0
