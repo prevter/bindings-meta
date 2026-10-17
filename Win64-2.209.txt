@@ -2061,7 +2061,6 @@ GJGroundLayer::loadGroundSprites - 0x1182a0
 GJGroundLayer::scaleGround - 0x7f090
 GJGroundLayer::updateShadows - 0x384f70
 GJGroundLayer::updateShadowXPos - 0x385010
-GJFollowCommandLayer::~GJFollowCommandLayer - 0x377f50
 GJFollowCommandLayer::determineStartValues - 0x608ab0
 GJFollowCommandLayer::onClose - 0x6090f0
 GJFollowCommandLayer::textChanged - 0x608f30
@@ -2218,7 +2217,6 @@ GJPathSprite::create - 0x3943b0
 GJPathSprite::addShardSprite - 0x394a40
 GJPathSprite::changeToLockedArt - 0x9c4a0
 GJPathSprite::updateState - 0x394560
-GJPFollowCommandLayer::~GJPFollowCommandLayer - 0x3959b0
 GJPFollowCommandLayer::determineStartValues - 0x608ab0
 GJPFollowCommandLayer::onClose - 0x6090f0
 GJPFollowCommandLayer::textChanged - 0x608f30
@@ -3014,7 +3012,6 @@ MultilineBitmapFont::initWithFont - 0x78cb0
 MultilineBitmapFont::moveSpecialDescriptors - 0x7ac10
 MultiTriggerPopup::~MultiTriggerPopup - 0x606ea0
 MultiTriggerPopup::init - 0x5fbbe0
-MusicArtistObject::~MusicArtistObject - 0x47dca0
 MusicBrowser::~MusicBrowser - 0x476cf0
 MusicBrowser::create - 0x476f50
 MusicBrowser::update - 0x478900
@@ -3072,6 +3069,7 @@ MusicDownloadManager::removeMusicDownloadDelegate - 0x47f5f0
 MusicDownloadManager::showTOS - 0x481a40
 MusicDownloadManager::songStateChanged - 0x47f700
 MusicSearchResult::MusicSearchResult - 0x47dbc0
+MusicSearchResult::~MusicSearchResult - 0x4947e0
 MusicSearchResult::updateObjects - 0x495760
 MusicSearchResult::stateChanged - 0x495740
 MyStuffPopup::~MyStuffPopup - 0x54c3a0
@@ -4308,6 +4306,7 @@ SongInfoObject::create - 0x2fd670
 SongInfoObject::create - 0x490ff0
 SongInfoObject::encodeWithCoder - 0x492d50
 SongInfoObject::getExtraArtistCount - 0x493560
+SongInfoObject::getTagsString - 0x494190
 SongInfoObject::init - 0xa8dd0
 SongObject::~SongObject - 0x87600
 SongOptionsLayer::~SongOptionsLayer - 0x1625d0
