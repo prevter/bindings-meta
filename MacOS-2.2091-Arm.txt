@@ -3361,7 +3361,7 @@ GameObject::updateObjectEditorColor - 0x5b8fa4
 GameObject::updateSecondaryColor - 0x5ba294
 GameObject::updateSecondaryColorOnly - 0x5ba468
 GameObject::updateSecondaryOpacity - 0x5ba390
-GameObject::updateStartPos - 0x36d724
+GameObject::updateStartPos - 0x5a8060
 GameObject::updateUnmodifiedPositions - 0x5ad43c
 GameObject::usesFreezeAnimation - 0x1f152c
 GameObject::usesSpecialAnimation - 0x1f15e4
@@ -6660,8 +6660,8 @@ LevelAreaLayer::onBack - 0x20c2d0
 LevelAreaLayer::onClickDoor - 0x20c338
 LevelAreaLayer::onEnterTower - 0x20d51c
 LevelAreaLayer::showDialog - 0x20d210
-LevelBrowserLayer::create - 0x190a00
-LevelBrowserLayer::scene - 0x1909b4
+LevelBrowserLayer::create - 0x3ea424
+LevelBrowserLayer::scene - 0x3ea3d8
 LevelBrowserLayer::onEnter - 0x3f1e3c
 LevelBrowserLayer::onEnterTransitionDidFinish - 0x3f248c
 LevelBrowserLayer::ccTouchBegan - 0x3f255c
@@ -6697,7 +6697,7 @@ LevelBrowserLayer::onInfo - 0x3ed800
 LevelBrowserLayer::onLocalMode - 0x3ed094
 LevelBrowserLayer::onMyOnlineLevels - 0x3ecd78
 LevelBrowserLayer::onNew - 0x3ecc7c
-LevelBrowserLayer::onRefresh - 0x348bb8
+LevelBrowserLayer::onRefresh - 0x3ed6cc
 LevelBrowserLayer::onRemoveAllFavorites - 0x3ed16c
 LevelBrowserLayer::onSavedMode - 0x3ed3c4
 LevelBrowserLayer::onSearch - 0x3edf64

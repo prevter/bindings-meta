@@ -1848,6 +1848,7 @@ GameManager::reloadMenu - 0x287770
 GameManager::reorderKey - 0x27f1f0
 GameManager::reportPercentageForLevel - 0x278580
 GameManager::resetAllIcons - 0x27f630
+GameManager::resetCoinUnlocks - 0x27be00
 GameManager::resolutionForKey - 0x287bd0
 GameManager::returnToLastScene - 0x2872f0
 GameManager::safePopScene - 0x287680
@@ -2894,6 +2895,7 @@ LevelBrowserLayer::updateResultArray - 0x3e1cd0
 LevelBrowserLayer::cellPerformedAction - 0x3eab00
 LevelBrowserLayer::getItemsMatchingSearch - 0x227360
 LevelBrowserLayer::getSearchTitle - 0x3e5750
+LevelBrowserLayer::init - 0x3e2000
 LevelBrowserLayer::loadPage - 0x3e4290
 LevelBrowserLayer::onClearSearch - 0x3e8db0
 LevelBrowserLayer::onDeleteAll - 0x3e87b0
@@ -3176,6 +3178,7 @@ LevelSettingsObject::getSaveString - 0x40ed20
 LevelSettingsObject::setupColorsFromLegacyMode - 0x412c60
 LevelStatsInfoPopup::~LevelStatsInfoPopup - 0x5a3f0
 LevelStatsInfoPopup::keyBackClicked - 0x4281a0
+LevelStatsInfoPopup::buildInfoText - 0x427250
 LevelTools::artistForAudio - 0x463f70
 LevelTools::getAudioFileName - 0x4633d0
 LevelTools::getAudioString - 0x466470
@@ -4035,7 +4038,7 @@ SecretLayer2::getBasicMessage - 0x57d8b0
 SecretLayer2::getErrorMessage - 0x57e3b0
 SecretLayer2::getThreadMessage - 0x57d1b0
 SecretLayer2::onDoor - 0x57a3e0
-SecretLayer2::onSecretLevel - 0x27be00
+SecretLayer2::onSecretLevel - 0x57a130
 SecretLayer2::onSubmit - 0x57ad00
 SecretLayer2::showCompletedLevel - 0x5794d0
 SecretLayer2::showSecretLevel - 0x579360
@@ -4778,6 +4781,7 @@ Slider::ccTouchMoved - 0x84b10
 Slider::ccTouchEnded - 0x84af0
 Slider::setMaxOffset - 0x84bd0
 Slider::setRotated - 0x84b30
+Slider::updateBar - 0x84a50
 SmartGameObject::~SmartGameObject - 0x6375c0
 SmartGameObject::customObjectSetup - 0x641800
 SmartGameObject::getSaveString - 0x6416b0

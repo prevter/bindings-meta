@@ -5479,7 +5479,7 @@ GameToolbox::particleFromString - 0x4f37e0
 GameToolbox::particleFromStruct - 0x4f38f0
 GameToolbox::particleStringToStruct - 0x4f2890
 GameToolbox::pointsToString - 0x4f5fb0
-GameToolbox::postClipVisit - 0x46bf60
+GameToolbox::postClipVisit - 0x4ead10
 GameToolbox::preVisitWithClippingRect - 0x4eabf0
 GameToolbox::preVisitWithClipRect - 0x4eacd0
 GameToolbox::saveParticleToString - 0x4ef2c0
@@ -6083,7 +6083,7 @@ GJEffectManager::toggleItemPersistent - 0xb780
 GJEffectManager::toggleTimerPersistent - 0x2d7200
 GJEffectManager::transferPersistentItems - 0x2caa10
 GJEffectManager::traverseInheritanceChain - 0x2c9b50
-GJEffectManager::tryGetMoveCommandNode - 0x287060
+GJEffectManager::tryGetMoveCommandNode - 0x2cf830
 GJEffectManager::updateActiveOpacityEffects - 0x2d2de0
 GJEffectManager::updateColorAction - 0x2d2870
 GJEffectManager::updateColorEffects - 0x2ca230
@@ -6799,8 +6799,8 @@ LevelAreaLayer::onClickDoor - 0x264d30
 LevelAreaLayer::onEnterTower - 0x265ea0
 LevelAreaLayer::showDialog - 0x265bb0
 LevelBrowserLayer::~LevelBrowserLayer - 0x480220
-LevelBrowserLayer::create - 0x1dcb70
-LevelBrowserLayer::scene - 0x1dcb30
+LevelBrowserLayer::create - 0x4804a0
+LevelBrowserLayer::scene - 0x480460
 LevelBrowserLayer::onEnter - 0x4885d0
 LevelBrowserLayer::onEnterTransitionDidFinish - 0x488bb0
 LevelBrowserLayer::ccTouchBegan - 0x488c90
@@ -6824,7 +6824,7 @@ LevelBrowserLayer::deleteSelected - 0x482bc0
 LevelBrowserLayer::exitLayer - 0x487250
 LevelBrowserLayer::getItemsMatchingSearch - 0x485900
 LevelBrowserLayer::getSearchTitle - 0x485fb0
-LevelBrowserLayer::init - 0x4804a0
+LevelBrowserLayer::init - 0x480690
 LevelBrowserLayer::isCorrect - 0x485730
 LevelBrowserLayer::onClearSearch - 0x484430
 LevelBrowserLayer::onDeleteAll - 0x483540
@@ -6855,8 +6855,8 @@ LevelCell::updateBGColor - 0x22a580
 LevelCell::updateCellMode - 0x2364a0
 LevelCell::updateToggle - 0x236280
 LevelEditorLayer::LevelEditorLayer - 0xde790
-LevelEditorLayer::create - 0x795d0
-LevelEditorLayer::scene - 0x79530
+LevelEditorLayer::create - 0xa9ce0
+LevelEditorLayer::scene - 0xa9c40
 LevelEditorLayer::updateObjectLabel - 0xbc880
 LevelEditorLayer::draw - 0x495800
 LevelEditorLayer::postUpdate - 0xc7310
@@ -7002,7 +7002,7 @@ LevelEditorLayer::updatePreviewParticle - 0xbcc70
 LevelEditorLayer::updatePreviewParticles - 0xc1f30
 LevelEditorLayer::updateToggledGroups - 0xc3250
 LevelEditorLayer::validGroup - 0xb0220
-LevelFeatureLayer::keyBackClicked - 0x26e470
+LevelFeatureLayer::keyBackClicked - 0x504550
 LevelFeatureLayer::init - 0x503a70
 LevelFeatureLayer::onClose - 0x504220
 LevelFeatureLayer::onDown - 0x504300
@@ -9316,7 +9316,7 @@ UILayer::ccTouchEnded - 0x4c52e0
 UILayer::registerWithTouchDispatcher - 0x4c5cb0
 UILayer::keyBackClicked - 0x4c4c10
 UILayer::keyDown - 0x6fd620
-UILayer::disableMenu - 0x708eb0
+UILayer::disableMenu - 0x4c36c0
 UILayer::doPause - 0x4c4cd0
 UILayer::enableMenu - 0x4c4de0
 UILayer::init - 0x4c1fd0
