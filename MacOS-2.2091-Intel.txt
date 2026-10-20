@@ -1197,7 +1197,7 @@ cocos2d::CCLayerRGBA::~CCLayerRGBA - 0x4aa990
 cocos2d::CCLayerRGBA::init - 0x4aacd0
 cocos2d::CCLayerRGBA::setColor - 0x4aaf10
 cocos2d::CCLayerRGBA::getColor - 0x4aaed0
-cocos2d::CCLayerRGBA::getDisplayedColor - 0x4aaef9
+cocos2d::CCLayerRGBA::getDisplayedColor - 0x4aaef0
 cocos2d::CCLayerRGBA::getDisplayedOpacity - 0x4aad70
 cocos2d::CCLayerRGBA::getOpacity - 0x4aad50
 cocos2d::CCLayerRGBA::setOpacity - 0x4aad90
@@ -6452,7 +6452,7 @@ GJRewardObject::canEncode - 0x55a00
 GJRewardObject::dataLoaded - 0x55920
 GJRewardObject::init - 0x55830
 GJRewardObject::isSpecialType - 0x55850
-GJRobotSprite::~GJRobotSprite - 0x6add40
+GJRobotSprite::~GJRobotSprite - 0x6ad4d0
 GJRobotSprite::create - 0x6ad560
 GJRobotSprite::setOpacity - 0x6ae920
 GJRobotSprite::hideSecondary - 0x6aea30
