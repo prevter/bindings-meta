@@ -85,8 +85,6 @@ AccountRegisterLayer::registerWithTouchDispatcher - 0x46290
 AccountRegisterLayer::keyBackClicked - 0x8ef60
 AccountRegisterLayer::FLAlert_Clicked - 0x8e3e0
 AccountRegisterLayer::textInputClosed - 0x8f0c0
-AccountRegisterLayer::textInputShouldOffset - 0x5bb10
-AccountRegisterLayer::textInputReturn - 0x5bc70
 AccountRegisterLayer::allowTextInput - 0x908a0
 AccountRegisterLayer::registerAccountFinished - 0x8dda0
 AccountRegisterLayer::registerAccountFailed - 0x8dfe0
@@ -174,8 +172,6 @@ SetupTriggerPopup::determineStartValues - 0x60c860
 SetupTriggerPopup::onClose - 0x60cea0
 SetupTriggerPopup::textInputClosed - 0x1265d0
 SetupTriggerPopup::textChanged - 0x60cce0
-SetupTriggerPopup::textInputShouldOffset - 0x5bb10
-SetupTriggerPopup::textInputReturn - 0x5bc70
 SetupTriggerPopup::sliderBegan - 0x60d0c0
 SetupTriggerPopup::sliderEnded - 0x60d200
 SetupTriggerPopup::updateDefaultTriggerValues - 0x60eef0
@@ -759,14 +755,7 @@ ClearPlatformerSavesPopup::init - 0xa31f0
 ClearPlatformerSavesPopup::keyBackClicked - 0x99f90
 ClearPlatformerSavesPopup::FLAlert_Clicked - 0xa4240
 CollisionBlockPopup::~CollisionBlockPopup - 0xa4b10
-CollisionBlockPopup::keyBackClicked - 0xa6580
-CollisionBlockPopup::show - 0x3a83c0
-CollisionBlockPopup::textInputClosed - 0x1265d0
-CollisionBlockPopup::textChanged - 0x60cce0
-CollisionBlockPopup::textInputShouldOffset - 0x5bb10
-CollisionBlockPopup::textInputReturn - 0x5bc70
 CollisionBlockPopup::valueDidChange - 0xa5170
-CollisionBlockPopup::onClose - 0x60cea0
 ColorAction::~ColorAction - 0x3623d0
 ColorAction::create - 0x363310
 ColorAction::setupFromMap - 0x285900
@@ -891,8 +880,6 @@ CreateParticlePopup::keyBackClicked - 0x5cabd0
 CreateParticlePopup::sliderBegan - 0x5ca2f0
 CreateParticlePopup::sliderEnded - 0x5ca3b0
 CreateParticlePopup::colorSelectClosed - 0x5c7500
-CreateParticlePopup::textInputShouldOffset - 0x5bb10
-CreateParticlePopup::textInputReturn - 0x5bc70
 CreateParticlePopup::textInputClosed - 0x1265d0
 CreateParticlePopup::textChanged - 0x5c81d0
 CreateParticlePopup::createParticleSlider - 0x5c5f70
@@ -1054,8 +1041,6 @@ CustomSongLayer::show - 0x165590
 CustomSongLayer::textChanged - 0x164f00
 CustomSongLayer::textInputOpened - 0x164e40
 CustomSongLayer::textInputClosed - 0x164e40
-CustomSongLayer::textInputShouldOffset - 0x5bb10
-CustomSongLayer::textInputReturn - 0x5bc70
 CustomSongLayer::dropDownLayerWillClose - 0x1652f0
 CustomSongLayer::musicBrowserClosed - 0x1653d0
 CustomSongLayer::init - 0x163ca0
@@ -1150,6 +1135,7 @@ DeathMarkerSettingsPopup::FLAlert_Clicked - 0x11d600
 DeathStatsPopup::~DeathStatsPopup - 0x11e320
 DeathStatsPopup::keyBackClicked - 0xa6580
 DeathStatsPopup::onClose - 0x11fb20
+DeathStatsPopup::init - 0x11e430
 DeathTrackerOptionsPopup::~DeathTrackerOptionsPopup - 0x60ac50
 DeathTrackerOptionsPopup::keyBackClicked - 0xa6580
 DeathTrackerOptionsPopup::onClose - 0x99f60
@@ -1269,6 +1255,13 @@ EditorWindowPopup::onFieldEnter - 0x17fc70
 EditorWindowPopup::initWindow - 0x17dde0
 EditorWindowPopup::beginTouch - 0x17edd0
 EditorWindowPopup::isInCloseButton - 0x17e7f0
+EditorWindowPopup::applyWindowSize - 0x17e6d0
+EditorWindowPopup::clampWindowCenter - 0x17e930
+EditorWindowPopup::clampWindowOnScreen - 0x17eaa0
+EditorWindowPopup::contentCenter - 0x17e420
+EditorWindowPopup::dismissDropdowns - 0x17ec40
+EditorWindowPopup::layoutWindow - 0x17e520
+EditorWindowPopup::syncWindowCenter - 0x17e4a0
 EditorCommandsPopup::~EditorCommandsPopup - 0x17d520
 EditorCommandsPopup::onBuildWindowContent - 0x17d5f0
 EditorCommandsPopup::onWindowResized - 0x17dae0
@@ -1757,8 +1750,6 @@ FriendRowEdges::~FriendRowEdges - 0x80dc0
 FriendRowEdges::draw - 0x213020
 FriendsProfilePage::~FriendsProfilePage - 0x213240
 FriendsProfilePage::create - 0x16f2e0
-FriendsProfilePage::registerWithTouchDispatcher - 0x5bab0
-FriendsProfilePage::keyBackClicked - 0xc3a50
 FriendsProfilePage::getUserListFinished - 0x214d40
 FriendsProfilePage::getUserListFailed - 0x215600
 FriendsProfilePage::userListChanged - 0x1265d0
@@ -1902,6 +1893,7 @@ GameLevelOptionsLayer::didToggle - 0x3aa720
 GameLevelOptionsLayer::FLAlert_Clicked - 0x3aa9b0
 UIButtonConfig::reset - 0x275900
 GameManager::~GameManager - 0x2880c0
+GameManager::GameManager - 0x275a10
 GameManager::sharedState - 0x2762c0
 GameManager::update - 0x2869e0
 GameManager::init - 0x276310
@@ -1939,6 +1931,7 @@ GameManager::loadFont - 0x27dc60
 GameManager::loadGround - 0x27e0c0
 GameManager::loadIcon - 0x27d120
 GameManager::loadMiddleground - 0x27de70
+GameManager::parentalOptionsActive - 0x27ed60
 GameManager::playMenuMusic - 0x2766c0
 GameManager::playSFXTrigger - 0x276b50
 GameManager::prepareDPadSettings - 0x282620
@@ -1962,6 +1955,7 @@ GameManager::setGameVariable - 0x27e320
 GameManager::setUGV - 0x27e830
 GameManager::setupGameAnimations - 0x2a8a50
 GameManager::sheetNameForIcon - 0x27d910
+GameManager::showParentalRestrictedAlert - 0x27edf0
 GameManager::stringForCustomObject - 0x27f090
 GameManager::switchCustomObjects - 0x27f2f0
 GameManager::toggleGameVariable - 0x27e770
@@ -2123,8 +2117,6 @@ GJAccountManager::registerAccount - 0x305e50
 GJAccountManager::syncAccount - 0x308550
 GJAccountManager::updateAccountSettings - 0x309ab0
 GJAccountSettingsLayer::keyBackClicked - 0x39f2f0
-GJAccountSettingsLayer::textInputShouldOffset - 0x5bb10
-GJAccountSettingsLayer::textInputReturn - 0x5bc70
 GJAccountSettingsLayer::closeAccInputNodes - 0x39ec50
 GJAccountSettingsLayer::createToggleButton - 0x39e790
 GJAccountSettingsLayer::init - 0x39c9d0
@@ -2413,9 +2405,6 @@ GJGroundLayer::scaleGround - 0x7f200
 GJGroundLayer::updateShadows - 0x387a00
 GJGroundLayer::updateShadowXPos - 0x387aa0
 GJFollowCommandLayer::~GJFollowCommandLayer - 0x37a9a0
-GJFollowCommandLayer::determineStartValues - 0x60c860
-GJFollowCommandLayer::onClose - 0x60cea0
-GJFollowCommandLayer::textChanged - 0x60cce0
 GJFollowCommandLayer::valueDidChange - 0x37b280
 GJFollowCommandLayer::sliderChanged - 0x5ae5b0
 GJFriendRequest::~GJFriendRequest - 0x218ca0
@@ -2594,9 +2583,6 @@ GJPathSprite::changeToLockedArt - 0x397210
 GJPathSprite::updateState - 0x397020
 GJPFollowCommandLayer::~GJPFollowCommandLayer - 0x398470
 GJPFollowCommandLayer::create - 0x398540
-GJPFollowCommandLayer::determineStartValues - 0x60c860
-GJPFollowCommandLayer::onClose - 0x60cea0
-GJPFollowCommandLayer::textChanged - 0x60cce0
 GJPFollowCommandLayer::valueDidChange - 0x37b280
 GJPFollowCommandLayer::init - 0x398650
 GJPromoPopup::~GJPromoPopup - 0x5a3f0
@@ -2900,7 +2886,6 @@ KeybindCapturePopup::inputKeySelected - 0x44e380
 KeybindCapturePopup::keyUp - 0x44f0c0
 KeybindingsLayer::~KeybindingsLayer - 0x3d53a0
 KeybindingsLayer::create - 0x3d5650
-KeybindingsLayer::keyBackClicked - 0xa6580
 KeybindingsLayer::ccTouchBegan - 0x3d8630
 KeybindingsLayer::ccTouchMoved - 0x3d8760
 KeybindingsLayer::ccTouchEnded - 0x3d8840
@@ -3492,8 +3477,6 @@ MessageThreadsPage::onDeleteSelected - 0xd6740
 MessageThreadsPage::onRefresh - 0xd8170
 MoreSearchLayer::init - 0x43b9b0
 MoreSearchLayer::keyBackClicked - 0x440ba0
-MoreSearchLayer::textInputShouldOffset - 0x5bb10
-MoreSearchLayer::textInputReturn - 0x5bc70
 MoreSearchLayer::audioNext - 0x43f970
 MoreSearchLayer::audioPrevious - 0x43fab0
 MoreSearchLayer::createToggleButton - 0x4404e0
@@ -3648,6 +3631,7 @@ NotificationsPage::notificationRewardFinished - 0x478c30
 NotificationsPage::notificationRewardFailed - 0x478e90
 NotificationsPage::notificationMuteFinished - 0x478f90
 NotificationsPage::notificationMuteFailed - 0x478fe0
+NumberInputLayer::NumberInputLayer - 0x4a1060
 NumberInputLayer::~NumberInputLayer - 0x4a11a0
 NumberInputLayer::init - 0x4a1250
 NumberInputLayer::registerWithTouchDispatcher - 0x5bab0
@@ -3681,9 +3665,15 @@ OptionsLayer::customSetup - 0x4cae60
 OptionsLayer::layerHidden - 0x4cc590
 OptionsLayer::volumeChanged - 0x4cada0
 OptionsLayer::musicSliderChanged - 0x4cbb20
+OptionsLayer::onAccount - 0x4cc4a0
+OptionsLayer::onHelp - 0x4cc570
 OptionsLayer::onMenuMusic - 0x4cba10
+OptionsLayer::onOptions - 0x4cbc30
+OptionsLayer::onParental - 0x4cbc60
 OptionsLayer::onRate - 0x4cc4f0
 OptionsLayer::onSecretVault - 0x4cbd30
+OptionsLayer::onSupport - 0x4cc450
+OptionsLayer::onVideo - 0x4cc430
 OptionsLayer::sfxSliderChanged - 0x182390
 OptionsObject::~OptionsObject - 0x399c70
 OptionsScrollLayer::~OptionsScrollLayer - 0x47a040
@@ -3693,8 +3683,11 @@ OptionsScrollLayer::cellPerformedAction - 0x47f3b0
 OptionsScrollLayer::textChanged - 0x47efe0
 OptionsScrollLayer::setupList - 0x47f160
 ParentalGateLayer::~ParentalGateLayer - 0x4a11a0
+ParentalGateLayer::create - 0x4d3ba0
 ParentalGateLayer::init - 0x4d3ca0
 ParentalGateLayer::onDone - 0x4d3ee0
+ParentalGateLayer::generateChallenge - 0x4d3d00
+ParentalOptionsLayer::create - 0x4d13f0
 ParentalOptionsLayer::init - 0x4d1530
 ParentalOptionsLayer::keyBackClicked - 0x4d3b90
 ParentalOptionsLayer::addToggle - 0x4d1b60
@@ -4488,16 +4481,10 @@ SetupInstantCollisionTriggerPopup::updateSpecialNodes - 0x5b0280
 SetupCollisionStateTriggerPopup::~SetupCollisionStateTriggerPopup - 0x60ac50
 SetupCollisionStateTriggerPopup::init - 0x5b10c0
 SetupCollisionTriggerPopup::~SetupCollisionTriggerPopup - 0x5af790
-SetupCollisionTriggerPopup::determineStartValues - 0x60c860
-SetupCollisionTriggerPopup::onClose - 0x60cea0
-SetupCollisionTriggerPopup::textChanged - 0x60cce0
 SetupCollisionTriggerPopup::updateDefaultTriggerValues - 0x5b04d0
 SetupCollisionTriggerPopup::valueDidChange - 0x5b0260
 SetupCollisionTriggerPopup::init - 0x5afa20
 SetupCountTriggerPopup::~SetupCountTriggerPopup - 0x5b1500
-SetupCountTriggerPopup::determineStartValues - 0x60c860
-SetupCountTriggerPopup::onClose - 0x60cea0
-SetupCountTriggerPopup::textChanged - 0x60cce0
 SetupCountTriggerPopup::valueDidChange - 0x5b1d30
 SetupCountTriggerPopup::init - 0x5b16e0
 SetupDashRingPopup::~SetupDashRingPopup - 0x60ac50

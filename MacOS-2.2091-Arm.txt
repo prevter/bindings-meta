@@ -3905,7 +3905,6 @@ GroupCommandObject2::stepTransformCommand - 0x4465f8
 GroupCommandObject2::updateAction - 0x4464b4
 GroupCommandObject2::updateEffectAction - 0x446974
 CheckpointObject::CheckpointObject - 0x540d6c
-CollisionBlockPopup::show - 0x7f3138
 CollisionBlockPopup::createToggleButton - 0x4e6adc
 CollisionBlockPopup::onNextItemID - 0x294764
 CollisionBlockPopup::updateEditorLabel - 0x1cab18
@@ -4874,7 +4873,6 @@ FriendRequestPopup::uploadActionFinished - 0x236960
 FriendRequestPopup::init - 0x235270
 FriendRequestPopup::onAccept - 0x2363a4
 FriendRequestPopup::onBlock - 0x236554
-FriendsProfilePage::registerWithTouchDispatcher - 0x4253c4
 FriendsProfilePage::userListChanged - 0x6455bc
 FriendsProfilePage::onBlocked - 0x80bc5c
 FriendsProfilePage::onUpdate - 0x643ea8
@@ -6628,7 +6626,6 @@ ItemInfoPopup::onCredit - 0x2eb578
 ItemTriggerGameObject::triggerObject - 0x17de74
 ItemTriggerGameObject::customObjectSetup - 0x1728dc
 KeybindingsLayer::create - 0x5f6028
-KeybindingsLayer::keyBackClicked - 0x1cbf10
 KeybindingsLayer::ccTouchBegan - 0x5f8cec
 KeybindingsLayer::ccTouchMoved - 0x5f8dd4
 KeybindingsLayer::ccTouchEnded - 0x5f8f14
@@ -7526,7 +7523,6 @@ NCSInfoLayer::onNCS - 0x1ad3a8
 NCSInfoLayer::onNCSIO - 0x1ad3cc
 NCSInfoLayer::onNCSUsage - 0x1ad3f0
 NewgroundsInfoLayer::keyBackClicked - 0x1acc68
-NewgroundsInfoLayer::FLAlert_Clicked - 0x4701fc
 NewgroundsInfoLayer::onArtists - 0x1acae0
 NewgroundsInfoLayer::onClose - 0x1acaa4
 NewgroundsInfoLayer::onGuidelines - 0x1acb38
@@ -8473,8 +8469,6 @@ SetupInstantCollisionTriggerPopup::updateDefaultTriggerValues - 0x30c34c
 SetupInstantCollisionTriggerPopup::valueDidChange - 0x30bff4
 SetupInstantCollisionTriggerPopup::updateSpecialNodes - 0x30c024
 SetupCollisionTriggerPopup::updateItemID2 - 0x5d6328
-SetupCountTriggerPopup::onClose - 0x5d35e0
-SetupCountTriggerPopup::textChanged - 0x5d60e8
 SetupCountTriggerPopup::init - 0x850824
 SetupCountTriggerPopup::onTargetIDArrow - 0x5d5a74
 SetupCountTriggerPopup::updateItemID - 0x5d6328
