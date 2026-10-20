@@ -4407,6 +4407,7 @@ EditLevelLayer::playStep2 - 0x194330
 EditLevelLayer::setupLevelInfo - 0x1928d4
 EditLevelLayer::updateDescText - 0x1921a4
 EditLevelLayer::verifyLevelName - 0x193ffc
+EditorWindowPopup::initWindow - 0x7e73f4
 GJOptionsLayer::addGVToggle - 0x331580
 GJOptionsLayer::addToggle - 0x22c4f8
 GJOptionsLayer::nextPosition - 0x22c4fc
