@@ -1224,7 +1224,7 @@ cocos2d::CCLayerColor::initWithColor - 0x411e6c
 cocos2d::CCLayerColor::updateColor - 0x411fe8
 cocos2d::CCLayerColor::setColor - 0x412130
 cocos2d::CCLayerColor::setOpacity - 0x4122e4
-cocos2d::CCLayerColor::setBlendFunc - 0x194680
+cocos2d::CCLayerColor::setBlendFunc - 0x4118e4
 cocos2d::CCLayerColor::getBlendFunc - 0x4118d4
 cocos2d::CCLayerColor::addToVertices - 0x411ed8
 cocos2d::CCLayerColor::changeHeight - 0x411fa0
@@ -2925,12 +2925,12 @@ AccountLayer::toggleUI - 0x8c094
 AccountLayer::updatePage - 0x8af84
 FLAlertLayer::~FLAlertLayer - 0x3fbed0
 FLAlertLayer::create - 0x3fc44c
-FLAlertLayer::onEnter - 0x5e81f8
+FLAlertLayer::onEnter - 0x3fdce8
 FLAlertLayer::ccTouchBegan - 0x3fd45c
 FLAlertLayer::ccTouchMoved - 0x3fd73c
 FLAlertLayer::ccTouchEnded - 0x3fd5b4
 FLAlertLayer::ccTouchCancelled - 0x3fd678
-FLAlertLayer::registerWithTouchDispatcher - 0x33876c
+FLAlertLayer::registerWithTouchDispatcher - 0x3fd9b8
 FLAlertLayer::keyBackClicked - 0x3fd388
 FLAlertLayer::keyDown - 0x3fd278
 FLAlertLayer::show - 0x3fd7d4
@@ -3030,6 +3030,7 @@ AchievementsLayer::onNextPage - 0x2eb9c4
 AchievementsLayer::onPrevPage - 0x2eb9b8
 AchievementsLayer::setupLevelBrowser - 0x2ebd04
 AchievementsLayer::setupPageInfo - 0x2ebd8c
+SetupTriggerPopup::~SetupTriggerPopup - 0x1c8a08
 SetupTriggerPopup::create - 0x1c8bc8
 SetupTriggerPopup::ccTouchBegan - 0x1d2c40
 SetupTriggerPopup::keyBackClicked - 0x4f6000
@@ -3052,6 +3053,8 @@ SetupTriggerPopup::addHelpButton - 0x1c9ec8
 SetupTriggerPopup::addInfoLabel - 0x1ce594
 SetupTriggerPopup::addObjectsToGroup - 0x1c9c94
 SetupTriggerPopup::addObjectsToPage - 0x1c9b40
+SetupTriggerPopup::addObjectToGroup - 0x1c9c24
+SetupTriggerPopup::addObjectToPage - 0x1c9ad0
 SetupTriggerPopup::addTitle - 0x1c9d78
 SetupTriggerPopup::closeInputNodes - 0x1cbec4
 SetupTriggerPopup::createCustomButton - 0x1ce890
@@ -4464,6 +4467,7 @@ EditorPauseLayer::togglePreviewShaders - 0x224860
 EditorPauseLayer::toggleRecordOrder - 0x224a70
 EditorPauseLayer::toggleSelectFilter - 0x224a54
 EditorPauseLayer::toggleShowObjectInfo - 0x224a20
+TabbedPopupLayer::~TabbedPopupLayer - 0x543738
 TabbedPopupLayer::showTab - 0x57be84
 TabbedPopupLayer::addCloseButton - 0x57b320
 TabbedPopupLayer::beginTab - 0x57b68c
@@ -5230,6 +5234,7 @@ GameOptionsLayer::create - 0x204464
 GameOptionsLayer::setupOptions - 0x2418f8
 GameOptionsLayer::didToggle - 0x24266c
 GameOptionsLayer::onPracticeMusicSync - 0x241fa4
+GameSettingsLayer::~GameSettingsLayer - 0x5439c0
 GameSettingsLayer::create - 0x543b18
 GameSettingsLayer::showTab - 0x548b14
 GameSettingsLayer::addGVToggle - 0x54726c
@@ -8123,7 +8128,7 @@ RotateGameplayGameObject::updateStartValues - 0x18a870
 RotateGameplayGameObject::customObjectSetup - 0x18a520
 RotateGameplayGameObject::updateGameplayRotation - 0x18a804
 ScrollingLayer::ScrollingLayer - 0x700854
-ScrollingLayer::~ScrollingLayer - 0x4116c4
+ScrollingLayer::~ScrollingLayer - 0x1181f0
 ScrollingLayer::create - 0x700174
 ScrollingLayer::draw - 0x700400
 ScrollingLayer::visit - 0x7004a4
