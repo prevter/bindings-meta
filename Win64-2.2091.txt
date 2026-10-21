@@ -132,6 +132,7 @@ AccountReviewPopup::adminDeleteCommentsFinished - 0xbc8b0
 AccountReviewPopup::adminDeleteCommentsFailed - 0xbc9f0
 AccountReviewPopup::adminCloseCaseFinished - 0xbcb90
 AccountReviewPopup::adminCloseCaseFailed - 0xbcf70
+AccountReviewPopup::onHistoryJump - 0xbbce0
 AchievementBar::~AchievementBar - 0x95c50
 AchievementBar::setOpacity - 0x975b0
 AchievementBar::init - 0x95ca0
@@ -1544,6 +1545,7 @@ EmotePickerPopup::textChanged - 0x123c60
 EmotePickerPopup::onBuildWindowContent - 0x123c70
 EmotePickerPopup::onWindowResized - 0x124380
 EmotePickerPopup::addCell - 0x123f70
+EmotePickerPopup::canAddEmote - 0x124520
 EmotePickerPopup::init - 0x123970
 EmotePickerPopup::layoutEmoteGrid - 0x124050
 EmotePickerPopup::onPickEmote - 0x124780
@@ -1617,6 +1619,7 @@ GManager::saveFinished - 0x3f5c0
 GManager::getCompressedSaveString - 0x77380
 GManager::loadDataFromFile - 0x77850
 GManager::loadFromCompressedString - 0x77450
+GManager::waitForSave - 0x777c0
 FindBPMLayer::~FindBPMLayer - 0x132ce0
 FindBPMLayer::create - 0x134e30
 FindBPMLayer::onClose - 0x135360
@@ -2199,7 +2202,7 @@ GJBaseGameLayer::createPlayer - 0x311420
 GJBaseGameLayer::createPlayerCollisionBlock - 0x31fb30
 GJBaseGameLayer::createTextLayers - 0x314df0
 GJBaseGameLayer::damagingObjectsInRect - 0x318510
-GJBaseGameLayer::destroyObject - 0xbbce0
+GJBaseGameLayer::destroyObject - 0x31d460
 GJBaseGameLayer::findStartPosWinnerInArray - 0x3191c0
 GJBaseGameLayer::flipGravity - 0x319e20
 GJBaseGameLayer::generateSpawnRemap - 0x313fb0
@@ -3802,7 +3805,7 @@ PlayerObject::getRealPosition - 0x4fbf70
 PlayerObject::getOrientedBox - 0x4febe0
 PlayerObject::getObjectRotation - 0x4fec00
 PlayerObject::animationFinished - 0x501f90
-PlayerObject::activateStreak - 0x4d3ca0
+PlayerObject::activateStreak - 0x4fe4a0
 PlayerObject::addAllParticles - 0x4e68b0
 PlayerObject::animatePlatformerJump - 0x4eaf30
 PlayerObject::boostPlayer - 0x4fe2f0
@@ -3994,7 +3997,7 @@ PlayLayer::spawnCircle - 0x50a7b0
 PlayLayer::spawnFirework - 0x50a8a0
 PlayLayer::startGame - 0x506140
 PlayLayer::startMusic - 0x51aed0
-PlayLayer::storeCheckpoint - 0x6730d0
+PlayLayer::storeCheckpoint - 0x516510
 PlayLayer::togglePracticeMode - 0x519ff0
 PlayLayer::updateAttempts - 0x519d30
 PlayLayer::updateDebugDrawSettings - 0x505c40
@@ -5290,6 +5293,7 @@ UILayer::announceLevelControls - 0x670c60
 UILayer::applyLevelBindings - 0x670be0
 UILayer::init - 0x66ff70
 UILayer::onCheck - 0x673050
+UILayer::onDeleteCheck - 0x6730d0
 UILayer::onPause - 0x672f30
 UILayer::processUINodesTouch - 0x673510
 UILayer::processUINodeTouch - 0x6735e0
