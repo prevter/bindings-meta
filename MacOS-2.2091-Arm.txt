@@ -3475,6 +3475,7 @@ AnimatedShopKeeper::animationFinished - 0x2a6490
 AnimatedShopKeeper::init - 0x2a63dc
 AnimatedShopKeeper::playReactAnimation - 0x2a5370
 AnimatedShopKeeper::startAnimating - 0x2a2c18
+AppDelegate::get - 0x649374
 AppDelegate::applicationDidFinishLaunching - 0x6491e8
 AppDelegate::applicationWillEnterForeground - 0x649588
 AppDelegate::applicationWillBecomeActive - 0x649398
@@ -3800,7 +3801,7 @@ CCTextInputNode::setLabelPlaceholderScale - 0x6245c
 CCTextInputNode::setMaxLabelScale - 0x6244c
 CCTextInputNode::setMaxLabelWidth - 0x62454
 CCTextInputNode::setString - 0x5fd44
-CCTextInputNode::updateCursorPosition - 0x21e264
+CCTextInputNode::updateCursorPosition - 0x64968
 CCTextInputNode::updateDefaultFontValues - 0x5e944
 CCTextInputNode::updateLabel - 0x5ec2c
 CCURLObject::create - 0x2ee998
@@ -4894,6 +4895,7 @@ FRequestProfilePage::registerWithTouchDispatcher - 0x767ecc
 FRequestProfilePage::keyBackClicked - 0x767ec0
 FRequestProfilePage::FLAlert_Clicked - 0x1c27a0
 FRequestProfilePage::deleteSelected - 0x767a74
+FRequestProfilePage::init - 0x765698
 FRequestProfilePage::setupCommentsBrowser - 0x767808
 FRequestProfilePage::updatePageArrows - 0x768fa4
 FriendRequestPopup::uploadActionFinished - 0x236960
@@ -4901,6 +4903,7 @@ FriendRequestPopup::init - 0x235270
 FriendRequestPopup::onAccept - 0x2363a4
 FriendRequestPopup::onBlock - 0x236554
 FriendsProfilePage::userListChanged - 0x6455bc
+FriendsProfilePage::init - 0x642b54
 FriendsProfilePage::onBlocked - 0x80bc5c
 FriendsProfilePage::onUpdate - 0x643ea8
 GameCell::GameCell - 0x28c8c4
@@ -5021,6 +5024,7 @@ GameLevelManager::hasDownloadedList - 0x4ad9dc
 GameLevelManager::hasLikedItemFullCheck - 0x4d0d7c
 GameLevelManager::invalidateUserList - 0x4c870c
 GameLevelManager::isDLActive - 0x4a05d0
+GameLevelManager::isFollowingUser - 0x4a41a4
 GameLevelManager::isUpdateValid - 0x4b4d5c
 GameLevelManager::likeItem - 0x4d0554
 GameLevelManager::makeTimeStamp - 0x19455c
@@ -5933,6 +5937,7 @@ GJComment::~GJComment - 0x4de91c
 GJComment::create - 0x4de9c0
 GJComment::create - 0x4be0f4
 GJComment::init - 0x4dea88
+GJCommentListLayer::~GJCommentListLayer - 0x22e1d8
 GJCommentListLayer::create - 0x22dc44
 GJCommentListLayer::init - 0x22dd3c
 GJDifficultySprite::create - 0x247594
@@ -6335,7 +6340,7 @@ GJRateLevelLayer::onRate - 0x4610bc
 GJRateLevelLayer::setupRateInfo - 0x461454
 GJRequestCell::GJRequestCell - 0x1ecdbc
 GJRequestCell::init - 0x1ece20
-GJRequestCell::loadFromScore - 0x438b18
+GJRequestCell::loadFromScore - 0x1d3434
 GJRequestCell::markAsRead - 0x1eb810
 GJRequestCell::updateToggle - 0x1e259c
 GJRewardItem::create - 0x4f694

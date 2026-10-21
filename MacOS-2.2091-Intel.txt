@@ -3841,7 +3841,7 @@ CCTextInputNode::setMaxLabelScale - 0x68e10
 CCTextInputNode::setMaxLabelWidth - 0x68e30
 CCTextInputNode::setString - 0x67040
 CCTextInputNode::updateBlinkLabel - 0x67dc0
-CCTextInputNode::updateCursorPosition - 0x2782d0
+CCTextInputNode::updateCursorPosition - 0x6b5e0
 CCTextInputNode::updateDefaultFontValues - 0x65cb0
 CCTextInputNode::updateLabel - 0x65f90
 CCURLObject::create - 0x35fc70
@@ -4978,6 +4978,7 @@ FRequestProfilePage::registerWithTouchDispatcher - 0x871990
 FRequestProfilePage::keyBackClicked - 0x871960
 FRequestProfilePage::loadFRequestsFinished - 0x8a6ef0
 FRequestProfilePage::deleteSelected - 0x2132a0
+FRequestProfilePage::init - 0x86ef70
 FRequestProfilePage::onSentRequests - 0x86fca0
 FRequestProfilePage::untoggleAll - 0x213840
 FriendRequestPopup::uploadActionFinished - 0x2929c0
@@ -4989,6 +4990,7 @@ FriendRequestPopup::onBlock - 0x2925c0
 FriendRequestPopup::onRemove - 0x2923f0
 FriendsProfilePage::getUserListFinished - 0x98c140
 FriendsProfilePage::userListChanged - 0x737780
+FriendsProfilePage::init - 0x734bd0
 FriendsProfilePage::onUpdate - 0x735fb0
 GameCell::GameCell - 0x2f7e10
 GameCell::init - 0x2f7e90
@@ -5108,6 +5110,7 @@ GameLevelManager::hasDownloadedList - 0x559460
 GameLevelManager::hasLikedItemFullCheck - 0x57f080
 GameLevelManager::invalidateUserList - 0x576120
 GameLevelManager::isDLActive - 0x54a6a0
+GameLevelManager::isFollowingUser - 0x54e5f0
 GameLevelManager::isUpdateValid - 0x561100
 GameLevelManager::likeItem - 0x57e6f0
 GameLevelManager::makeTimeStamp - 0x54a1a0
@@ -6045,6 +6048,7 @@ GJComment::~GJComment - 0x58e4c0
 GJComment::create - 0x58e580
 GJComment::create - 0x56b180
 GJComment::init - 0x58e680
+GJCommentListLayer::~GJCommentListLayer - 0x289550
 GJCommentListLayer::create - 0x288fc0
 GJCommentListLayer::init - 0x2890d0
 GJDifficultySprite::create - 0x2a4ab0
@@ -6351,7 +6355,7 @@ GJMessageCell::draw - 0x242540
 GJMessageCell::FLAlert_Clicked - 0x242610
 GJMessageCell::uploadActionFinished - 0x2427a0
 GJMessageCell::onClosePopup - 0x242af0
-GJMessageCell::loadFromMessage - 0x231d80
+GJMessageCell::loadFromMessage - 0x2320e0
 GJMessageCell::markAsRead - 0x2424b0
 GJMessageCell::onDeleteMessage - 0x242330
 GJMessageCell::onViewMessage - 0x242250
@@ -6451,6 +6455,7 @@ GJRateLevelLayer::onFeature - 0x505370
 GJRateLevelLayer::onRate - 0x5053d0
 GJRateLevelLayer::setupRateInfo - 0x5057c0
 GJRequestCell::GJRequestCell - 0x242180
+GJRequestCell::loadFromScore - 0x231d80
 GJRequestCell::markAsRead - 0x240820
 GJRequestCell::onViewProfile - 0x23efd0
 GJRequestCell::updateToggle - 0x236440

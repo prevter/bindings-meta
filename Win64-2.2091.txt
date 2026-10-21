@@ -473,6 +473,7 @@ AudioAssetsPopup::~AudioAssetsPopup - 0xbdd10
 AudioAssetsPopup::keyBackClicked - 0xa6580
 AudioAssetsPopup::onClose - 0xbe4f0
 AudioAssetsPopup::musicActionFinished - 0xbe420
+AudioAssetsPopup::init - 0xbde40
 AudioEffectsLayer::updateTweenAction - 0x9a950
 AudioEffectsLayer::audioStep - 0x9a720
 AudioEffectsLayer::goingDown - 0x9aad0
@@ -1070,14 +1071,21 @@ CustomSongWidget::downloadAssetFailed - 0x16e8a0
 CustomSongWidget::downloadAssetFinished - 0x16e7e0
 CustomSongWidget::getSongInfoIfUnloaded - 0x16b590
 CustomSongWidget::init - 0x1692e0
+CustomSongWidget::onCancelDownload - 0x16b650
 CustomSongWidget::onDelete - 0x16b140
 CustomSongWidget::onDownload - 0x16b890
-CustomSongWidget::onPlayback - 0x448c00
-CustomSongWidget::onSelect - 0x1621e0
+CustomSongWidget::onGetSongInfo - 0x16b710
+CustomSongWidget::onInfo - 0x16ae60
+CustomSongWidget::onMore - 0x16b4f0
+CustomSongWidget::onPlayback - 0x16bcd0
+CustomSongWidget::onSelect - 0x16bc40
+CustomSongWidget::onToggleFavorite - 0x16b7e0
+CustomSongWidget::onUsage - 0x16adb0
 CustomSongWidget::positionInfoObjects - 0x16a6f0
 CustomSongWidget::processNextMultiAsset - 0x16e4d0
 CustomSongWidget::showError - 0x16ead0
-CustomSongWidget::startDownload - 0x16bb80
+CustomSongWidget::startDownload - 0x16bb10
+CustomSongWidget::startMonitorDownload - 0x16bb80
 CustomSongWidget::startMultiAssetDownload - 0x16e310
 CustomSongWidget::updateDownloadProgress - 0x16c280
 CustomSongWidget::updateError - 0x16ea00
@@ -1085,6 +1093,7 @@ CustomSongWidget::updateMultiAssetInfo - 0x16d690
 CustomSongWidget::updatePlaybackBtn - 0x16c160
 CustomSongWidget::updateProgressBar - 0x162550
 CustomSongWidget::updateSongInfo - 0x16c380
+CustomSongWidget::updateUsageButton - 0x16acc0
 CustomSongWidget::updateWithMultiAssets - 0x16d380
 DailyLevelNode::FLAlert_Clicked - 0x173c60
 DailyLevelNode::init - 0x172b80
@@ -2139,6 +2148,7 @@ GJBaseGameLayer::opacityForObject - 0x340290
 GJBaseGameLayer::objectsCollided - 0x320700
 GJBaseGameLayer::updateColor - 0x32b610
 GJBaseGameLayer::toggleGroupTriggered - 0x32b7f0
+GJBaseGameLayer::checkSpawnAbuse - 0x322360
 GJBaseGameLayer::spawnGroup - 0x322370
 GJBaseGameLayer::spawnObject - 0x3227a0
 GJBaseGameLayer::updateDebugDraw - 0x3169c0
@@ -3641,7 +3651,6 @@ NumberInputLayer::init - 0x4a1250
 NumberInputLayer::registerWithTouchDispatcher - 0x5bab0
 NumberInputLayer::keyBackClicked - 0x99f90
 NumberInputLayer::onClose - 0x99f60
-NumberInputLayer::onDone - 0x4a1820
 NumberInputLayer::onNumber - 0x4a1820
 NumberInputLayer::updateNumberState - 0x4a1990
 OBB2D::~OBB2D - 0x7b440
@@ -3656,6 +3665,8 @@ ObjectControlGameObject::getSaveString - 0x663990
 ObjectManager::~ObjectManager - 0x7be40
 ObjectManager::instance - 0x7bec0
 ObjectManager::init - 0x7bf50
+ObjectManager::loadCopiedAnimations - 0x7c2a0
+ObjectManager::loadCopiedSets - 0x7c8a0
 ObjectManager::setup - 0x7bfb0
 ObjectToolbox::~ObjectToolbox - 0x4a1b60
 ObjectToolbox::sharedState - 0x4a1be0
@@ -3979,7 +3990,7 @@ PlayLayer::playEndAnimationToPos - 0x50a2a0
 PlayLayer::playPlatformerEndAnimationToPos - 0x50ace0
 PlayLayer::prepareCreateObjectsFromSetup - 0x50b770
 PlayLayer::prepareMusic - 0x51ad50
-PlayLayer::processCreateObjectsFromSetup - 0x7c8a0
+PlayLayer::processCreateObjectsFromSetup - 0x50ba30
 PlayLayer::processLoadedMoveActions - 0x50dbd0
 PlayLayer::removeAllObjects - 0x51b330
 PlayLayer::removeCheckpoint - 0x5170d0
@@ -4159,6 +4170,7 @@ RowPressItem::~RowPressItem - 0x159440
 RowPressItem::selected - 0x1594b0
 RowPressItem::unselected - 0x1594f0
 ScrollableContentLayer::~ScrollableContentLayer - 0x80bf0
+ScrollableContentLayer::create - 0x80ef0
 ScrollableContentLayer::update - 0x82040
 ScrollableContentLayer::visit - 0x81e30
 ScrollableContentLayer::touchInsideClip - 0x81ea0
@@ -4914,7 +4926,7 @@ ShareCommentLayer::onClosePopup - 0x6301b0
 ShareCommentLayer::emotePickerClosed - 0x630050
 ShareCommentLayer::init - 0x62de70
 ShareCommentLayer::onClear - 0x62f300
-ShareCommentLayer::onShare - 0x16bcd0
+ShareCommentLayer::onShare - 0x62f470
 ShareCommentLayer::updateDescText - 0x77700
 ShareCommentLayer::updatePercentLabel - 0x81420
 ShareLevelLayer::keyBackClicked - 0x99f90
