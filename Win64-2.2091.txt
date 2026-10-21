@@ -1909,6 +1909,7 @@ GameManager::activeIconForType - 0x27cea0
 GameManager::addCustomAnimationFrame - 0x2ac7b0
 GameManager::addGameAnimation - 0x2ac640
 GameManager::addNewCustomObject - 0x27ef00
+GameManager::addRecentEmote - 0x281b50
 GameManager::checkUsedIcons - 0x27f960
 GameManager::colorForIdx - 0x27c5b0
 GameManager::colorKey - 0x277680
@@ -3640,7 +3641,9 @@ NumberInputLayer::init - 0x4a1250
 NumberInputLayer::registerWithTouchDispatcher - 0x5bab0
 NumberInputLayer::keyBackClicked - 0x99f90
 NumberInputLayer::onClose - 0x99f60
-NumberInputLayer::onNumber - 0x2157c0
+NumberInputLayer::onDone - 0x4a1820
+NumberInputLayer::onNumber - 0x4a1820
+NumberInputLayer::updateNumberState - 0x4a1990
 OBB2D::~OBB2D - 0x7b440
 OBB2D::create - 0x7b2b0
 OBB2D::calculateWithCenter - 0x7b480
