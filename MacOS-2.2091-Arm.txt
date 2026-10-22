@@ -4720,6 +4720,7 @@ EmotePickerPopup::canAddEmote - 0x7eaa58
 EmotePickerPopup::init - 0x7e96b8
 EmotePickerPopup::layoutEmoteGrid - 0x7ea548
 EmotePickerPopup::openAt - 0x7e9b08
+EmoteSprite::~EmoteSprite - 0x8357c
 EndLevelLayer::EndLevelLayer - 0x420c4c
 EndLevelLayer::~EndLevelLayer - 0x41d24c
 EndLevelLayer::create - 0x41d130
@@ -6367,7 +6368,7 @@ GJRateLevelLayer::onRate - 0x4610bc
 GJRateLevelLayer::setupRateInfo - 0x461454
 GJRequestCell::GJRequestCell - 0x1ecdbc
 GJRequestCell::init - 0x1ece20
-GJRequestCell::loadFromScore - 0x1d3434
+GJRequestCell::loadFromScore - 0x1de434
 GJRequestCell::markAsRead - 0x1eb810
 GJRequestCell::updateToggle - 0x1e259c
 GJRewardItem::create - 0x4f694
@@ -6542,6 +6543,7 @@ GJSpiderSprite::init - 0x5c8e9c
 GJStoreItem::create - 0x26228
 GJStoreItem::getCurrencyKey - 0x2660c
 GJStoreItem::init - 0x501dc
+GJThreadCell::loadFromThread - 0x1df140
 GJTransformControl::GJTransformControl - 0x5833b4
 GJTransformControl::init - 0x57da70
 GJTransformControl::calculateRotationOffset - 0x581228
@@ -6675,6 +6677,7 @@ InfoLayer::updateCommentModeButtons - 0x788124
 InfoLayer::updateLevelsLabel - 0x78a294
 InheritanceNode::create - 0x263700
 InheritanceNode::init - 0x263778
+InvitesPopup::init - 0x82bc24
 ItemInfoPopup::create - 0x2e7738
 ItemInfoPopup::nameForUnlockType - 0x2eb1fc
 ItemInfoPopup::keyBackClicked - 0x2eb5a8
@@ -7319,6 +7322,8 @@ MapSelectLayer::checkTouchMonster - 0x1fc148
 MapSelectLayer::createObjectAtPoint - 0x1fc59c
 MapSelectLayer::getConstrainedMapPos - 0x1fbca0
 MapSelectLayer::onBack - 0x1fb538
+MemberListPopup::init - 0x8221a4
+MemberListPopup::refreshPolicyBtn - 0x82253c
 MenuGameLayer::create - 0x4556dc
 MenuGameLayer::update - 0x456798
 MenuGameLayer::init - 0x4557c4
@@ -9211,7 +9216,6 @@ TableView::cellForRowAtIndexPath - 0x610538
 TableView::cellForTouch - 0x610124
 TableView::checkBoundaryOfCell - 0x611858
 TableView::checkBoundaryOfCell - 0x611990
-TableView::checkBoundaryOfContent - 0x1df140
 TableView::checkFirstCell - 0x61200c
 TableView::checkLastCell - 0x611aa0
 TableView::deleteTableViewCell - 0x6102cc
@@ -9268,6 +9272,11 @@ TextStyleSection::createDelaySection - 0x3e8b34
 TextStyleSection::createInstantSection - 0x3e8a20
 TextStyleSection::createShakeSection - 0x3e8aa8
 TextStyleSection::init - 0x3e8cb4
+ThreadDescPopup::buildUI - 0x8316b4
+ThreadOptionsPopup::init - 0x829734
+ThreadSearchPopup::init - 0x82fdf0
+ThreadViewPopup::buildMemberButton - 0x81151c
+ThreadViewPopup::init - 0x80fa9c
 TimerTriggerGameObject::create - 0x17beb8
 TimerTriggerGameObject::triggerObject - 0x17bfe0
 TimerTriggerGameObject::customObjectSetup - 0x17d820

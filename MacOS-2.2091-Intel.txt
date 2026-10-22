@@ -4595,6 +4595,7 @@ EditorUI::addObjectsToSmartTemplate - 0x124f0
 EditorUI::addSnapPosition - 0x11c60
 EditorUI::applySpecialOffset - 0x611a20
 EditorUI::arrayContainsClass - 0x18ad0
+EditorUI::assignNewGroups - 0x60e410
 EditorUI::canAllowMultiActivate - 0x18b40
 EditorUI::canSelectObject - 0x5b8830
 EditorUI::centerCameraOnObject - 0x10420
@@ -4789,6 +4790,7 @@ EmotePickerPopup::canAddEmote - 0x903a70
 EmotePickerPopup::init - 0x902680
 EmotePickerPopup::layoutEmoteGrid - 0x9034d0
 EmotePickerPopup::openAt - 0x902b60
+EmoteSprite::~EmoteSprite - 0x8e100
 EndLevelLayer::~EndLevelLayer - 0x4b8c80
 EndLevelLayer::create - 0x4b8b30
 EndLevelLayer::keyBackClicked - 0x4bc1f0
@@ -5544,7 +5546,6 @@ GameToolbox::fast_rand - 0x4ef210
 GameToolbox::fast_rand_0_1 - 0x4ef240
 GameToolbox::fast_rand_minus1_1 - 0x4ef280
 GameToolbox::fast_srand - 0x4ef1f0
-GameToolbox::gen_random - 0x94bc80
 GameToolbox::getDropActionWDelay - 0x4e8d00
 GameToolbox::getDropActionWEnd - 0x4e8dc0
 GameToolbox::getEasedAction - 0x4eeec0
@@ -6656,6 +6657,7 @@ GJSpiderSprite::init - 0x6aed80
 GJStoreItem::create - 0x2bf10
 GJStoreItem::getCurrencyKey - 0x2c2e0
 GJStoreItem::init - 0x56620
+GJThreadCell::loadFromThread - 0x232ab0
 GJTransformControl::GJTransformControl - 0x647df0
 GJTransformControl::create - 0x6d5740
 GJTransformControl::calculateRotationOffset - 0x645730
@@ -6794,6 +6796,7 @@ InfoLayer::updateCommentModeButtons - 0x894520
 InfoLayer::updateLevelsLabel - 0x8967d0
 InheritanceNode::create - 0x2c3c00
 InheritanceNode::init - 0x2c3c80
+InvitesPopup::init - 0x94bc80
 ItemInfoPopup::nameForUnlockType - 0x35c180
 ItemInfoPopup::keyBackClicked - 0x35c4b0
 ItemInfoPopup::init - 0x35ae60
@@ -7467,6 +7470,8 @@ MapSelectLayer::checkTouchMonster - 0x2532f0
 MapSelectLayer::createObjectAtPoint - 0x2537d0
 MapSelectLayer::getConstrainedMapPos - 0x252e20
 MapSelectLayer::onBack - 0x252620
+MemberListPopup::init - 0x941680
+MemberListPopup::refreshPolicyBtn - 0x941a80
 MenuGameLayer::create - 0x4f8780
 MenuGameLayer::update - 0x4f9a60
 MenuGameLayer::init - 0x4f8890
@@ -7522,10 +7527,12 @@ MenuLayer::willClose - 0x37aa70
 MessagesProfilePage::keyBackClicked - 0x2138b0
 MessagesProfilePage::FLAlert_Clicked - 0x213490
 MessagesProfilePage::deleteSelected - 0x2132a0
+MessagesProfilePage::init - 0x211d20
 MessagesProfilePage::setupCommentsBrowser - 0x213a40
 MessagesProfilePage::untoggleAll - 0x213840
 MessagesProfilePage::updateLevelsLabel - 0x8967d0
 MessagesProfilePage::updatePageArrows - 0x214370
+MessageThreadsPage::init - 0x9281c0
 MoreOptionsLayer::~MoreOptionsLayer - 0x87c6a0
 MoreOptionsLayer::create - 0x87c820
 MoreOptionsLayer::init - 0x87ca40
@@ -8228,7 +8235,7 @@ ProfilePage::blockUser - 0x8a52a0
 ProfilePage::init - 0x89db40
 ProfilePage::isOnWatchlist - 0x89e9c0
 ProfilePage::loadPage - 0x8a68f0
-ProfilePage::loadPageFromUserInfo - 0x232ab0
+ProfilePage::loadPageFromUserInfo - 0x89f240
 ProfilePage::onBlockUser - 0x893a60
 ProfilePage::onClose - 0x89e9d0
 ProfilePage::onComment - 0x8a4650
@@ -9387,6 +9394,11 @@ TextStyleSection::createDelaySection - 0x47e790
 TextStyleSection::createInstantSection - 0x47e670
 TextStyleSection::createShakeSection - 0x47e700
 TextStyleSection::init - 0x47e960
+ThreadDescPopup::buildUI - 0x952390
+ThreadOptionsPopup::init - 0x949430
+ThreadSearchPopup::init - 0x9508e0
+ThreadViewPopup::buildMemberButton - 0x92f370
+ThreadViewPopup::init - 0x92d740
 TimerTriggerGameObject::create - 0x1c3e80
 TimerTriggerGameObject::triggerObject - 0x1c3fb0
 TimerTriggerGameObject::customObjectSetup - 0x1c5ed0
