@@ -734,6 +734,7 @@ CheckpointGameObject::getSaveString - 0x65bc00
 CheckpointGameObject::triggerActivated - 0x65ae30
 CheckpointGameObject::restoreObject - 0x65c270
 CheckpointGameObject::updateSyncedAnimation - 0x65b8c0
+CheckpointGameObject::resetCheckpoint - 0x65c0b0
 EnterEffectInstance::loadTransitions - 0x209ae0
 EnterEffectInstance::loadValuesFromObject - 0x209940
 EnterEffectInstance::setValue - 0x20aa40
@@ -742,12 +743,15 @@ GJValueTween::step - 0x30b220
 GJGameState::controlTweenAction - 0x30b370
 GJGameState::processStateTriggers - 0x30b5b0
 GJGameState::tweenValue - 0x30b2b0
+GJShaderState::GJShaderState - 0x5206b0
 GJShaderState::timesyncShaderAction - 0x622830
 GJShaderState::updateTweenAction - 0x622470
+FMODAudioState::FMODAudioState - 0x5bdc0
 KeyframeObject::setupSpline - 0x3d9f10
 GroupCommandObject2::GroupCommandObject2 - 0x361b40
 GroupCommandObject2::reset - 0x361bb0
 GroupCommandObject2::step - 0x361db0
+EffectManagerState::EffectManagerState - 0x503390
 CheckpointObject::CheckpointObject - 0x520f70
 CheckpointObject::init - 0x8b060
 ClearPlatformerSavesOptionsPopup::~ClearPlatformerSavesOptionsPopup - 0x60ac50
@@ -1250,6 +1254,7 @@ EditLevelLayer::onShare - 0x17b9b0
 EditLevelLayer::playStep2 - 0x17b440
 EditLevelLayer::setupLevelInfo - 0x179dc0
 EditLevelLayer::verifyLevelName - 0x216440
+EditorWindowPopup::EditorWindowPopup - 0x123530
 EditorWindowPopup::onExit - 0x17fcc0
 EditorWindowPopup::ccTouchBegan - 0x17eca0
 EditorWindowPopup::ccTouchMoved - 0x17f360
@@ -1465,11 +1470,13 @@ EditorUI::getNeighbor - 0x1b8120
 EditorUI::getSelectedObjects - 0x1c9630
 EditorUI::getSmartNeighbor - 0x1b7ff0
 EditorUI::getSpriteButton - 0x1add30
+EditorUI::handleEditorAction - 0x1c2270
 EditorUI::init - 0x1a9630
 EditorUI::menuItemFromObjectString - 0x1f1160
 EditorUI::moveGamelayer - 0x1ae930
 EditorUI::moveObject - 0x1fee70
 EditorUI::moveObjectCall - 0x1feb10
+EditorUI::offsetForKey - 0x19f3e0
 EditorUI::onAssignNewGroupID - 0x15c530
 EditorUI::onCopyState - 0x1964f0
 EditorUI::onCreate - 0x1b2460
@@ -1504,6 +1511,7 @@ EditorUI::reloadCustomItems - 0x1f6770
 EditorUI::repositionObjectsToCenter - 0x1c73f0
 EditorUI::resetSelectedObjectsColor - 0x1bedd0
 EditorUI::resetUI - 0x1afc20
+EditorUI::rotateObjects - 0x2002e0
 EditorUI::scaleObjects - 0x2007d0
 EditorUI::selectAllWithDirection - 0x1c8010
 EditorUI::selectBuildTab - 0x1b56f0
@@ -1541,6 +1549,10 @@ EditorUI::updateObjectInfoLabel - 0x1aea40
 EditorUI::updatePlaybackBtn - 0x1b4630
 EditorUI::updateSlider - 0x1ae100
 EditorUI::updateViewButtons - 0x1f80f0
+EditorUI::updateZoom - 0x1b4c00
+EditorUI::updateZoom - 0x1b4c70
+EditorUI::zoomIn - 0x1b4b00
+EditorUI::zoomOut - 0x1b4b80
 EditTriggersPopup::~EditTriggersPopup - 0x398df0
 EditTriggersPopup::determineStartValues - 0x39a380
 EditTriggersPopup::onClose - 0x39a390
@@ -1643,7 +1655,7 @@ FindObjectPopup::~FindObjectPopup - 0x180260
 FindObjectPopup::valueDidChange - 0x1809e0
 FindObjectPopup::onBuildWindowContent - 0x180330
 FindObjectPopup::onFieldEnter - 0x180a90
-FMODAudioEngine::FMODAudioEngine - 0x114ba0
+FMODAudioEngine::FMODAudioEngine - 0x5bf90
 FMODAudioEngine::pitchForIdx - 0x5f550
 FMODAudioEngine::reverbToString - 0x5da00
 FMODAudioEngine::update - 0x5e180
@@ -1673,7 +1685,7 @@ FMODAudioEngine::queuePlayEffect - 0x60500
 FMODAudioEngine::queueStartMusic - 0x636f0
 FMODAudioEngine::registerChannel - 0x606d0
 FMODAudioEngine::resumeAllMusic - 0x62ab0
-FMODAudioEngine::saveAudioState - 0x101280
+FMODAudioEngine::saveAudioState - 0x5e6d0
 FMODAudioEngine::setChannelPitch - 0x61d70
 FMODAudioEngine::setMusicTimeMS - 0x64fa0
 FMODAudioEngine::setup - 0x5c8c0
@@ -1715,7 +1727,7 @@ FontPreviewCell::loadFromIndex - 0x58d9c0
 ForceBlockGameObject::~ForceBlockGameObject - 0x637a40
 ForceBlockGameObject::customObjectSetup - 0x662890
 ForceBlockGameObject::getSaveString - 0x662530
-ForceBlockGameObject::calculateForceToTarget - 0x10dfb0
+ForceBlockGameObject::calculateForceToTarget - 0x662b00
 FRequestProfilePage::~FRequestProfilePage - 0x20f240
 FRequestProfilePage::registerWithTouchDispatcher - 0x46290
 FRequestProfilePage::keyBackClicked - 0x211f10
@@ -2216,6 +2228,7 @@ GJBaseGameLayer::damagingObjectsInRect - 0x318510
 GJBaseGameLayer::destroyObject - 0x31d460
 GJBaseGameLayer::findStartPosWinnerInArray - 0x3191c0
 GJBaseGameLayer::flipGravity - 0x319e20
+GJBaseGameLayer::gameEventTriggered - 0x33ac80
 GJBaseGameLayer::generateSpawnRemap - 0x313fb0
 GJBaseGameLayer::generateVisibilityGroups - 0x32d610
 GJBaseGameLayer::getAreaObjectValue - 0x330cc0
@@ -2250,6 +2263,7 @@ GJBaseGameLayer::optimizeMoveGroups - 0x339520
 GJBaseGameLayer::orderSpawnObjects - 0x350080
 GJBaseGameLayer::parentForZLayer - 0x3152d0
 GJBaseGameLayer::pauseAudio - 0x340330
+GJBaseGameLayer::playerCircleCollision - 0x318cd0
 GJBaseGameLayer::playerTouchedRing - 0x31f5a0
 GJBaseGameLayer::playerWillSwitchMode - 0x31a210
 GJBaseGameLayer::playExitDualEffect - 0x31e430
@@ -2305,7 +2319,6 @@ GJBaseGameLayer::spawnParticle - 0x349ef0
 GJBaseGameLayer::spawnParticleTrigger - 0x349ad0
 GJBaseGameLayer::speedForShaderTarget - 0x32b2a0
 GJBaseGameLayer::staticObjectsInRect - 0x318160
-GJBaseGameLayer::switchToSpiderMode - 0x3ad5c0
 GJBaseGameLayer::syncBGTextures - 0x344f00
 GJBaseGameLayer::teleportPlayer - 0x315f20
 GJBaseGameLayer::toggleDualMode - 0x31de10
@@ -2338,6 +2351,7 @@ GJBaseGameLayer::updateShaderLayer - 0x32a030
 GJBaseGameLayer::updateSpecialGroupData - 0x313fb0
 GJBaseGameLayer::updateSpecialLabels - 0x341fe0
 GJBaseGameLayer::updateZoom - 0x33eac0
+GJBaseGameLayer::visitWithColorFlash - 0x352590
 GJBaseGameLayer::volumeForProximityEffect - 0x34c740
 GJChestSprite::~GJChestSprite - 0x561c30
 GJChestSprite::create - 0x566f50
@@ -2400,6 +2414,7 @@ GJEffectManager::reset - 0x3653a0
 GJEffectManager::resetEffects - 0x366300
 GJEffectManager::runOpacityActionOnGroup - 0x36b1b0
 GJEffectManager::runPulseEffect - 0x36b380
+GJEffectManager::saveToState - 0x36e720
 GJEffectManager::setColorAction - 0x366100
 GJEffectManager::setupFromString - 0x36e470
 GJEffectManager::spawnGroup - 0x36c4f0
@@ -2575,6 +2590,7 @@ GJPathPage::onActivatePath - 0x394fd0
 GJPathPage::onBack - 0x396dc0
 GJPathPage::onIconInfo - 0x395040
 GJPathPage::onUnlock - 0x395260
+GJPathPage::playUnlockAnimation - 0x395ab0
 GJPathPage::unlockAnimationFinished - 0x396c90
 GJPathPage::unlockAnimationStep2 - 0x396110
 GJPathPage::unlockAnimationStep3 - 0x3963a0
@@ -3058,6 +3074,7 @@ LevelCell::onClick - 0x14d200
 LevelCell::onToggle - 0x148c70
 LevelCell::onViewProfile - 0x14d520
 LevelControlConfig::~LevelControlConfig - 0x44a2c0
+LevelEditorLayer::LevelEditorLayer - 0x3ec2f0
 LevelEditorLayer::~LevelEditorLayer - 0x3ecff0
 LevelEditorLayer::create - 0x3ed850
 LevelEditorLayer::updateObjectLabel - 0x3f4650
@@ -3658,6 +3675,7 @@ OBB2D::create - 0x7b2b0
 OBB2D::calculateWithCenter - 0x7b480
 OBB2D::getBoundingRect - 0x7bd30
 OBB2D::orderCorners - 0x7b790
+OBB2D::overlaps1Way - 0x7bb70
 ObjectControlGameObject::~ObjectControlGameObject - 0x6379e0
 ObjectControlGameObject::init - 0x663920
 ObjectControlGameObject::customObjectSetup - 0x663ae0
@@ -3665,6 +3683,7 @@ ObjectControlGameObject::getSaveString - 0x663990
 ObjectManager::~ObjectManager - 0x7be40
 ObjectManager::instance - 0x7bec0
 ObjectManager::init - 0x7bf50
+ObjectManager::getDefinition - 0x7d490
 ObjectManager::loadCopiedAnimations - 0x7c2a0
 ObjectManager::loadCopiedSets - 0x7c8a0
 ObjectManager::setup - 0x7bfb0
@@ -3790,6 +3809,7 @@ PlatformerControlsPopup::onLevelControlsRefreshed - 0x451460
 PlatformerControlsPopup::FLAlert_Clicked - 0x451fa0
 PlatformToolbox::getDisplaySize - 0x8bb90
 PlatformToolbox::getUniqueUserID - 0x8b7f0
+PlayerCheckpoint::PlayerCheckpoint - 0x520a60
 PlayerCheckpoint::~PlayerCheckpoint - 0x520ed0
 PlayerCheckpoint::init - 0x52ed00
 PlayerControlGameObject::~PlayerControlGameObject - 0x637e10
@@ -3800,7 +3820,7 @@ PlayerFireBoostSprite::~PlayerFireBoostSprite - 0x7e780
 PlayerFireBoostSprite::create - 0x5023e0
 PlayerFireBoostSprite::init - 0x502480
 PlayerFireBoostSprite::loopFireAnimation - 0x5024e0
-PlayerObject::PlayerObject - 0x3ec2f0
+PlayerObject::PlayerObject - 0x4e36c0
 PlayerObject::~PlayerObject - 0x4e4710
 PlayerObject::create - 0x4e4940
 PlayerObject::update - 0x4e6fc0
@@ -3860,6 +3880,7 @@ PlayerObject::playerDestroyed - 0x4f5ff0
 PlayerObject::playerIsFallingBugged - 0x4f86d0
 PlayerObject::playSpawnEffect - 0x4f5710
 PlayerObject::playSpiderDashEffect - 0x4f3370
+PlayerObject::postCollision - 0x4eb830
 PlayerObject::preSlopeCollision - 0x4ed660
 PlayerObject::propellPlayer - 0x4fdc90
 PlayerObject::pushButton - 0x4f6200
@@ -3878,6 +3899,7 @@ PlayerObject::rotateGameplayObject - 0x4ef700
 PlayerObject::runBallRotation - 0x4eb600
 PlayerObject::runBallRotation2 - 0x4eb730
 PlayerObject::runNormalRotation - 0x4eb4d0
+PlayerObject::saveToCheckpoint - 0x4ffd80
 PlayerObject::setSecondColor - 0x4fb6c0
 PlayerObject::setupStreak - 0x4e6a00
 PlayerObject::setYVelocity - 0x4e6f50
@@ -3997,6 +4019,8 @@ PlayLayer::removeCheckpoint - 0x5170d0
 PlayLayer::resetLevelFromStart - 0x518a50
 PlayLayer::resume - 0x51aa00
 PlayLayer::resumeAndRestart - 0x51a750
+PlayLayer::saveActiveSaveObjects - 0x517b60
+PlayLayer::saveDynamicSaveObjects - 0x517870
 PlayLayer::scanDynamicSaveObjects - 0x517270
 PlayLayer::screenFlipObject - 0x50f1f0
 PlayLayer::setupHasCompleted - 0x504710
