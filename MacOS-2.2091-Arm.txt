@@ -8505,7 +8505,6 @@ SetupCoinLayer::init - 0x4fd3d4
 SetupInstantCollisionTriggerPopup::updateDefaultTriggerValues - 0x30c34c
 SetupInstantCollisionTriggerPopup::valueDidChange - 0x30bff4
 SetupInstantCollisionTriggerPopup::updateSpecialNodes - 0x30c024
-SetupCollisionTriggerPopup::updateItemID2 - 0x5d6328
 SetupCountTriggerPopup::init - 0x850824
 SetupCountTriggerPopup::onTargetIDArrow - 0x5d5a74
 SetupCountTriggerPopup::updateItemID - 0x5d6328

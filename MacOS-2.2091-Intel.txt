@@ -8659,8 +8659,6 @@ SetupCameraRotatePopup::updateEasingLabel - 0x4b7010
 SetupInstantCollisionTriggerPopup::updateDefaultTriggerValues - 0x380de0
 SetupInstantCollisionTriggerPopup::valueDidChange - 0x381500
 SetupInstantCollisionTriggerPopup::updateSpecialNodes - 0x380aa0
-SetupCollisionTriggerPopup::onActivateOnExit - 0x397400
-SetupCollisionTriggerPopup::updateItemID2 - 0x6bd540
 SetupCountTriggerPopup::onEnableGroup - 0x748770
 SetupCountTriggerPopup::onTargetCountArrow - 0x6bcb60
 SetupCountTriggerPopup::updateItemID - 0x6bd540
