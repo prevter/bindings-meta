@@ -1302,6 +1302,7 @@ EditButtonBar::create - 0x176f00
 EditButtonBar::goToPage - 0x177aa0
 EditButtonBar::loadFromItems - 0x177060
 EditButtonBar::onLeft - 0x177b90
+EditButtonBar::onRight - 0x177b10
 EditGameObjectPopup::~EditGameObjectPopup - 0x399750
 EditGameObjectPopup::init - 0x3a5100
 EditLevelLayer::scene - 0x1782c0
