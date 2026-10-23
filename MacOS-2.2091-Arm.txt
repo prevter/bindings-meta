@@ -1312,7 +1312,6 @@ cocos2d::CCMenu::ccTouchCancelled - 0x76a514
 cocos2d::CCMenu::alignItemsInColumns - 0x76aad8
 cocos2d::CCMenu::alignItemsInColumnsWithArray - 0x76ab8c
 cocos2d::CCMenu::alignItemsInRows - 0x76afe8
-cocos2d::CCMenu::alignItemsInRowsWithArray - 0x5cd9b0
 cocos2d::CCMenu::giveMenuTouchPriority - 0x76a1c0
 cocos2d::CCMenu::initWithArray - 0x769e84
 cocos2d::CCMenu::itemForTouch - 0x76a440
@@ -3808,6 +3807,7 @@ CCTextInputNode::updateDefaultFontValues - 0x5e944
 CCTextInputNode::updateLabel - 0x5ec2c
 CCURLObject::create - 0x2ee998
 CCURLObject::init - 0x2eeb14
+ChallengesPage::create - 0x311658
 ChallengesPage::init - 0x3117e4
 ChallengesPage::registerWithTouchDispatcher - 0x312eb8
 ChallengesPage::keyBackClicked - 0x312e1c
@@ -4377,6 +4377,7 @@ EditButtonBar::create - 0x5cd808
 EditButtonBar::getPage - 0x5ce494
 EditButtonBar::goToPage - 0x5ce4a0
 EditButtonBar::init - 0x5cd904
+EditButtonBar::loadFromItems - 0x5cd9b0
 EditButtonBar::onLeft - 0x35c5f0
 EditButtonBar::reloadItems - 0x5ce0a0
 EditGameObjectPopup::init - 0x23b490
@@ -4999,6 +5000,7 @@ GameLevelManager::getGauntletLevels - 0x4b21e0
 GameLevelManager::getGauntlets - 0x4b1ab0
 GameLevelManager::getGauntletSearchKey - 0x4b19f0
 GameLevelManager::getGJChallenges - 0x4d2254
+GameLevelManager::getGJRewards - 0x4d1c68
 GameLevelManager::getGJUserInfo - 0x4ba528
 GameLevelManager::getHighestLevelOrder - 0x49ceb4
 GameLevelManager::getLeaderboardKey - 0x4b62a4
@@ -5340,6 +5342,7 @@ GameStatsManager::getBaseCurrency - 0x30190
 GameStatsManager::getBaseCurrencyForLevel - 0x301f0
 GameStatsManager::getBaseDiamonds - 0x30dd4
 GameStatsManager::getBonusDiamonds - 0x30de8
+GameStatsManager::getChallenge - 0x32cc4
 GameStatsManager::getChallengeKey - 0x33074
 GameStatsManager::getCollectedCoinsForLevel - 0x2c524
 GameStatsManager::getCompletedMapPacks - 0x2e0e4
@@ -6327,6 +6330,7 @@ GJMultiplayerManager::uploadComment - 0x6486f8
 GJObjectDecoder::sharedDecoder - 0x703d34
 GJObjectDecoder::init - 0x703ddc
 GJObjectDecoder::getDecodedObject - 0x703de0
+GJPathPage::create - 0x27f1ac
 GJPathPage::keyBackClicked - 0x283664
 GJPathPage::didPurchaseItem - 0x281dac
 GJPathPage::init - 0x2800bc
@@ -6341,6 +6345,7 @@ GJPathRewardPopup::keyBackClicked - 0x2841fc
 GJPathRewardPopup::closePopup - 0x284194
 GJPathRewardPopup::init - 0x283b9c
 GJPathRewardPopup::onClaim - 0x284038
+GJPathsLayer::create - 0x27f1ac
 GJPathsLayer::nameForPath - 0x27ef9c
 GJPathsLayer::init - 0x27f320
 GJPathsLayer::onExit - 0x27fa40
@@ -6371,6 +6376,7 @@ GJRequestCell::init - 0x1ece20
 GJRequestCell::loadFromScore - 0x1de434
 GJRequestCell::markAsRead - 0x1eb810
 GJRequestCell::updateToggle - 0x1e259c
+GJRewardItem::~GJRewardItem - 0x4f618
 GJRewardItem::create - 0x4f694
 GJRewardItem::create - 0x31a1c
 GJRewardItem::createSpecial - 0x375f0
@@ -6413,12 +6419,15 @@ GJRotateCommandLayer::textChanged - 0x3968ec
 GJRotateCommandLayer::onLockRotation - 0x2992fc
 GJRotateCommandLayer::sliderDegreesChanged - 0x41b640
 GJRotateCommandLayer::updateDuration - 0x651a10
+GJRotationControl::init - 0x57ca10
 GJRotationControl::draw - 0x57d914
 GJRotationControl::ccTouchBegan - 0x57d46c
 GJRotationControl::setAngle - 0x57d0d8
 GJRotationControl::updateSliderPosition - 0x57d2dc
+GJScaleControl::init - 0x57da70
 GJScaleControl::ccTouchBegan - 0x57ecbc
 GJScaleControl::ccTouchEnded - 0x57f370
+GJScaleControl::loadValues - 0x57e40c
 GJScaleControl::onToggleLockScale - 0x57ce54
 GJScaleControl::scaleFromValue - 0x57ec40
 GJScaleControl::skewFromValue - 0x57ec7c
@@ -6545,7 +6554,7 @@ GJStoreItem::getCurrencyKey - 0x2660c
 GJStoreItem::init - 0x501dc
 GJThreadCell::loadFromThread - 0x1df140
 GJTransformControl::GJTransformControl - 0x5833b4
-GJTransformControl::init - 0x57da70
+GJTransformControl::init - 0x57fb54
 GJTransformControl::calculateRotationOffset - 0x581228
 GJTransformControl::loadFromState - 0x580f04
 GJTransformControl::loadValues - 0x5810b0
@@ -6646,6 +6655,8 @@ HSVLiveOverlay::toggleControls - 0x1fdd88
 HSVWidgetPopup::create - 0x29ccc0
 HSVWidgetPopup::keyBackClicked - 0x394f6c
 HSVWidgetPopup::onClose - 0x394bd4
+IDNameBrowserDelegate::idNameBrowserClosed - 0x7fa310
+IDNameInput::~IDNameInput - 0x7f8a44
 InfoAlertButton::~InfoAlertButton - 0x4f242c
 InfoAlertButton::create - 0x4f1fcc
 InfoAlertButton::activate - 0x4f225c
@@ -7728,6 +7739,7 @@ PauseLayer::onReplay - 0x346f88
 PauseLayer::onShowStartposBrowser - 0x346aa0
 PauseLayer::onTime - 0x346f84
 PauseLayer::onTryEdit - 0x345dec
+PauseLayer::sfxSliderChanged - 0x3468d8
 PauseLayer::tryShowBanner - 0x346f54
 PlatformToolbox::activateGameCenter - 0x420ef4
 PlatformToolbox::copyToClipboard - 0x421af0
@@ -8166,6 +8178,7 @@ RetryLevelLayer::onFullVersion - 0x4551ac
 RetryLevelLayer::onMenu - 0x454f44
 RetryLevelLayer::onReplay - 0x454ef0
 RetryLevelLayer::onRewardedVideo - 0x4551d0
+RewardsPage::create - 0x1aea8c
 RewardsPage::getRewardFrame - 0x1af938
 RewardsPage::init - 0x1aec10
 RewardsPage::registerWithTouchDispatcher - 0x1b04c8
@@ -8196,6 +8209,7 @@ RewardUnlockLayer::step3 - 0x1b36f0
 RotateGameplayGameObject::updateStartValues - 0x18a870
 RotateGameplayGameObject::customObjectSetup - 0x18a520
 RotateGameplayGameObject::updateGameplayRotation - 0x18a804
+ScrollableContentLayer::~ScrollableContentLayer - 0x84a7ac
 ScrollableContentLayer::update - 0x84978c
 ScrollableContentLayer::visit - 0x8493f4
 ScrollableContentLayer::touchInsideClip - 0x8494ac
@@ -8283,8 +8297,8 @@ SecretLayer3::revealStep4 - 0x40806c
 SecretLayer3::revealStep5 - 0x408798
 SecretLayer3::showUnlockDialog - 0x40775c
 SecretLayer4::~SecretLayer4 - 0x322930
-SecretLayer4::create - 0x2273f0
-SecretLayer4::scene - 0x1fad80
+SecretLayer4::create - 0x322bac
+SecretLayer4::scene - 0x322b68
 SecretLayer4::init - 0x322c84
 SecretLayer4::onExit - 0x326efc
 SecretLayer4::keyBackClicked - 0x326e08
@@ -9287,6 +9301,7 @@ TimerTriggerGameObject::create - 0x17beb8
 TimerTriggerGameObject::triggerObject - 0x17bfe0
 TimerTriggerGameObject::customObjectSetup - 0x17d820
 TimerTriggerGameObject::init - 0x17bf98
+TimeSpeedControl::~TimeSpeedControl - 0x505d4
 TopArtistsLayer::init - 0x28f9a0
 TopArtistsLayer::registerWithTouchDispatcher - 0x2902c8
 TopArtistsLayer::keyBackClicked - 0x29024c

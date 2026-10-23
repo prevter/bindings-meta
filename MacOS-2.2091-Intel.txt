@@ -4073,6 +4073,7 @@ CCTextInputNode::updateDefaultFontValues - 0x65cb0
 CCTextInputNode::updateLabel - 0x65f90
 CCURLObject::create - 0x35fc70
 CCURLObject::init - 0x35fde0
+ChallengesPage::create - 0x3868e0
 ChallengesPage::init - 0x386b00
 ChallengesPage::registerWithTouchDispatcher - 0x388200
 ChallengesPage::keyBackClicked - 0x388170
@@ -4673,6 +4674,7 @@ EditButtonBar::create - 0x6b3f50
 EditButtonBar::getPage - 0x6b4cb0
 EditButtonBar::goToPage - 0x6b4cd0
 EditButtonBar::init - 0x6b4040
+EditButtonBar::loadFromItems - 0x6b40f0
 EditButtonBar::reloadItems - 0x584030
 EditGameObjectPopup::init - 0x297810
 EditLevelLayer::create - 0x25c430
@@ -5305,7 +5307,7 @@ GameLevelManager::getGauntlets - 0x55d7c0
 GameLevelManager::getGauntletSearchKey - 0x55d700
 GameLevelManager::getGJChallenges - 0x5768a0
 GameLevelManager::getGJDailyLevelState - 0x580a20
-GameLevelManager::getGJRewards - 0xa0c90
+GameLevelManager::getGJRewards - 0x57fe80
 GameLevelManager::getGJSecretReward - 0x57fb70
 GameLevelManager::getGJUserInfo - 0x73a760
 GameLevelManager::getHighestLevelOrder - 0x5469b0
@@ -5654,6 +5656,7 @@ GameStatsManager::getBaseCurrency - 0x364e0
 GameStatsManager::getBaseCurrencyForLevel - 0x36530
 GameStatsManager::getBaseDiamonds - 0x370d0
 GameStatsManager::getBonusDiamonds - 0x370f0
+GameStatsManager::getChallenge - 0x38ea0
 GameStatsManager::getChallengeKey - 0x39200
 GameStatsManager::getCollectedCoinsForLevel - 0x328b0
 GameStatsManager::getCompletedMapPacks - 0x34360
@@ -6656,6 +6659,7 @@ GJMultiplayerManager::uploadComment - 0x73aa40
 GJObjectDecoder::sharedDecoder - 0x803730
 GJObjectDecoder::init - 0x8037b0
 GJObjectDecoder::getDecodedObject - 0x558320
+GJPathPage::create - 0x2e8d00
 GJPathPage::keyBackClicked - 0x2ed750
 GJPathPage::didPurchaseItem - 0x2ebb80
 GJPathPage::init - 0x2e9e00
@@ -6671,6 +6675,7 @@ GJPathRewardPopup::keyBackClicked - 0x2ee280
 GJPathRewardPopup::closePopup - 0x2ee220
 GJPathRewardPopup::init - 0x2edc60
 GJPathRewardPopup::onClaim - 0x2ee0f0
+GJPathsLayer::create - 0x2e8d00
 GJPathsLayer::nameForPath - 0x2e8b20
 GJPathsLayer::init - 0x2e8f00
 GJPathsLayer::onExit - 0x2e9620
@@ -6703,6 +6708,7 @@ GJRequestCell::loadFromScore - 0x231d80
 GJRequestCell::markAsRead - 0x240820
 GJRequestCell::onViewProfile - 0x23efd0
 GJRequestCell::updateToggle - 0x236440
+GJRewardItem::~GJRewardItem - 0x55a50
 GJRewardItem::create - 0x55ad0
 GJRewardItem::create - 0x37cd0
 GJRewardItem::createSpecial - 0x3da00
@@ -6745,7 +6751,7 @@ GJRobotSprite::updateGlowColor - 0x6ae8a0
 GJRotateCommandLayer::sliderDegreesChanged - 0x4b6e30
 GJRotateCommandLayer::sliderTimesChanged - 0x4b6e30
 GJRotationControl::create - 0x640750
-GJRotationControl::init - 0x6ce70
+GJRotationControl::init - 0x640880
 GJRotationControl::draw - 0x6417d0
 GJRotationControl::setAngle - 0x640f20
 GJRotationControl::updateSliderPosition - 0x641140
@@ -6886,6 +6892,7 @@ GJStoreItem::init - 0x56620
 GJThreadCell::loadFromThread - 0x232ab0
 GJTransformControl::GJTransformControl - 0x647df0
 GJTransformControl::create - 0x6d5740
+GJTransformControl::init - 0x643dd0
 GJTransformControl::calculateRotationOffset - 0x645730
 GJTransformControl::loadFromState - 0x6453d0
 GJTransformControl::loadValues - 0x6455a0
@@ -6989,6 +6996,8 @@ HSVLiveOverlay::onSelectTab - 0x254f60
 HSVLiveOverlay::toggleControls - 0x255250
 HSVWidgetPopup::keyBackClicked - 0x41cf40
 HSVWidgetPopup::onClose - 0x41cb50
+IDNameBrowserDelegate::idNameBrowserClosed - 0x914d90
+IDNameInput::~IDNameInput - 0x9132b0
 InfoAlertButton::~InfoAlertButton - 0x5a3300
 InfoAlertButton::create - 0x5a2f20
 InfoAlertButton::activate - 0x5a31a0
@@ -7520,7 +7529,6 @@ LevelSearchLayer::confirmClearFilters - 0x706bf0
 LevelSearchLayer::getDiffKey - 0x708430
 LevelSearchLayer::getLevelLenKey - 0x709380
 LevelSearchLayer::getSearchDiffKey - 0x709290
-LevelSearchLayer::getSearchObject - 0x57fe80
 LevelSearchLayer::getTimeKey - 0x7096b0
 LevelSearchLayer::init - 0x704400
 LevelSearchLayer::onBack - 0x7080d0
@@ -8063,6 +8071,7 @@ PauseLayer::onReplay - 0x3c2340
 PauseLayer::onShowStartposBrowser - 0x3c1cf0
 PauseLayer::onTime - 0x3c2330
 PauseLayer::onTryEdit - 0x3c1020
+PauseLayer::sfxSliderChanged - 0x3c1b30
 PauseLayer::tryQuit - 0x929c20
 PauseLayer::tryShowBanner - 0x3c2300
 PlatformToolbox::activateGameCenter - 0x4bce00
@@ -8533,6 +8542,7 @@ RetryLevelLayer::onEveryplay - 0x4f8160
 RetryLevelLayer::onFullVersion - 0x4f8170
 RetryLevelLayer::onMenu - 0x4f7f40
 RetryLevelLayer::onReplay - 0x4f7ef0
+RewardsPage::create - 0x1fd580
 RewardsPage::getRewardFrame - 0x1fe5d0
 RewardsPage::init - 0x1fd7a0
 RewardsPage::registerWithTouchDispatcher - 0x1ff160
@@ -8563,6 +8573,7 @@ RotateGameplayGameObject::create - 0x1d4010
 RotateGameplayGameObject::updateStartValues - 0x1d5eb0
 RotateGameplayGameObject::customObjectSetup - 0x1d5af0
 RotateGameplayGameObject::updateGameplayRotation - 0x1d5e60
+ScrollableContentLayer::~ScrollableContentLayer - 0x96dd60
 ScrollableContentLayer::update - 0x96cc90
 ScrollableContentLayer::visit - 0x96c8a0
 ScrollableContentLayer::touchInsideClip - 0x96c970
@@ -9637,6 +9648,7 @@ TimerTriggerGameObject::create - 0x1c3e80
 TimerTriggerGameObject::triggerObject - 0x1c3fb0
 TimerTriggerGameObject::customObjectSetup - 0x1c5ed0
 TimerTriggerGameObject::init - 0x1c3f60
+TimeSpeedControl::~TimeSpeedControl - 0x56a80
 TopArtistsLayer::init - 0x2fb2d0
 TopArtistsLayer::registerWithTouchDispatcher - 0x2fbc70
 TopArtistsLayer::keyBackClicked - 0x2fbc00
