@@ -1543,6 +1543,7 @@ EditorUI::dynamicGroupUpdate - 0x1b8200
 EditorUI::editButton2Usable - 0x1bab70
 EditorUI::editButtonUsable - 0x1ba320
 EditorUI::editColor - 0x1be180
+EditorUI::editGroup - 0x1be710
 EditorUI::editObject - 0x1bb3e0
 EditorUI::editObject2 - 0x1bd190
 EditorUI::editObjectSpecial - 0x1bd1a0
@@ -3362,7 +3363,9 @@ LevelEditorLayer::createObjectsFromSetup - 0x3ef940
 LevelEditorLayer::createObjectsFromString - 0x3f0150
 LevelEditorLayer::getLastObjectX - 0x3fd290
 LevelEditorLayer::getNextColorChannel - 0x3f98e0
+LevelEditorLayer::getNextFreeGradientID - 0x3f96c0
 LevelEditorLayer::getNextFreeGroupID - 0x3f7d10
+LevelEditorLayer::getNextFreeOrderChannel - 0x3f8850
 LevelEditorLayer::getObjectRect - 0x3f1960
 LevelEditorLayer::getSFXIDs - 0x3f4040
 LevelEditorLayer::getSongIDs - 0x3f3600
@@ -4735,7 +4738,7 @@ SetGroupIDLayer::onArrow - 0x3042b0
 SetGroupIDLayer::onClose - 0x3d0330
 SetGroupIDLayer::onExtra2 - 0x591b60
 SetGroupIDLayer::onGroupIDOptions - 0x593a20
-SetGroupIDLayer::onNextFreeOrderChannel - 0x594180
+SetGroupIDLayer::onNextFreeOrderChannel - 0x594230
 SetGroupIDLayer::onPaste - 0x591980
 SetGroupIDLayer::onRemoveFromGroup - 0x5930b0
 SetGroupIDLayer::onToggleGuide - 0x590b20
@@ -4749,6 +4752,7 @@ SetGroupIDLayer::updateEditorLayerID2 - 0x5936a0
 SetGroupIDLayer::updateEditorOrder - 0x594510
 SetGroupIDLayer::updateGroupIDButtons - 0x592230
 SetGroupIDLayer::updateOrderChannel - 0x594440
+SetGroupIDLayer::updateOrderChannelLabel - 0x594180
 SetGroupIDLayer::updateZLayerButtons - 0x5b7470
 SetItemIDLayer::~SetItemIDLayer - 0x597ee0
 SetItemIDLayer::onClose - 0x598ac0
