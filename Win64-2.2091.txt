@@ -3130,6 +3130,8 @@ GJThreadCell::~GJThreadCell - 0x1592e0
 GJThreadCell::init - 0x3ff70
 GJThreadCell::draw - 0x1487a0
 GJThreadCell::loadFromThread - 0x1597d0
+GJThreadCell::onShowMembers - 0x15ab80
+GJThreadCell::onViewProfile - 0x15ab40
 GJThreadMessage::~GJThreadMessage - 0xd2af0
 GJTransformControl::init - 0x1a4fb0
 GJTransformControl::ccTouchBegan - 0x1a6f20
@@ -6008,6 +6010,9 @@ ThreadViewPopup::mountVirtualRow - 0xe1750
 ThreadViewPopup::unmountVirtualRow - 0xe1670
 ThreadViewPopup::buildMemberButton - 0xe34b0
 ThreadViewPopup::init - 0xd93b0
+ThreadViewPopup::layoutComposeBar - 0xe3960
+ThreadViewPopup::layoutTitleRow - 0xe2fb0
+ThreadViewPopup::onShowMembers - 0xdd200
 TimerTriggerGameObject::~TimerTriggerGameObject - 0x6385c0
 TimerTriggerGameObject::triggerObject - 0x660020
 TimerTriggerGameObject::customObjectSetup - 0x660700
