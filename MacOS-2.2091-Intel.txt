@@ -7118,6 +7118,7 @@ KeybindingsLayer::ccTouchMoved - 0x6e4a50
 KeybindingsLayer::ccTouchEnded - 0x6e4b90
 KeybindingsLayer::ccTouchCancelled - 0x6e4cb0
 KeybindingsLayer::rebuildContent - 0x6e3b40
+KeybindingsLayer::onClose - 0x6e4d90
 KeybindingsLayer::textChanged - 0x6e47f0
 KeybindingsLayer::showTab - 0x6e3b60
 KeybindingsLayer::setupTabs - 0x6e1f60
@@ -7128,16 +7129,11 @@ KeybindingsLayer::showControllerChords - 0x6e4740
 KeybindingsLayer::settingsEntries - 0x6e4750
 KeybindingsLayer::crossCheckGlobalConflicts - 0x2bc0
 KeybindingsLayer::buildContentForTab - 0x6e2550
-KeybindingsLayer::buildControllerGlyph - 0x6e20c0
-KeybindingsLayer::infoKey - 0x64b700
 KeybindingsLayer::init - 0x6e16a0
-KeybindingsLayer::layerKey - 0x64b6e0
-KeybindingsLayer::objectKey - 0x886700
 KeybindingsLayer::onClearSearch - 0x6e1e80
-KeybindingsLayer::onClose - 0x6e4d90
 KeybindingsLayer::onEditBinding - 0x6e3a80
 KeybindingsLayer::onSettings - 0x6e1ee0
-KeybindingsLayer::pageKey - 0x561fc0
+KeybindingsLayer::buildControllerGlyph - 0x6e20c0
 KeybindingsManager::sharedState - 0x46c7a0
 KeybindingsManager::commandForKeyMods - 0x660cf0
 KeybindingsManager::dataLoaded - 0x2d9620

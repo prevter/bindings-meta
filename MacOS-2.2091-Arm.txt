@@ -6834,6 +6834,7 @@ KeybindingsLayer::ccTouchMoved - 0x5f8dd4
 KeybindingsLayer::ccTouchEnded - 0x5f8f14
 KeybindingsLayer::ccTouchCancelled - 0x5f9024
 KeybindingsLayer::rebuildContent - 0x5f80d4
+KeybindingsLayer::onClose - 0x5f9104
 KeybindingsLayer::textChanged - 0x5f8bdc
 KeybindingsLayer::showTab - 0x5f80e4
 KeybindingsLayer::setupTabs - 0x5f6994
@@ -6843,18 +6844,12 @@ KeybindingsLayer::openBindingEditor - 0x5f8af4
 KeybindingsLayer::showControllerChords - 0x5f8b1c
 KeybindingsLayer::settingsEntries - 0x5f8b20
 KeybindingsLayer::crossCheckGlobalConflicts - 0x28f4
-KeybindingsLayer::addKeyPair - 0x3483d0
 KeybindingsLayer::buildContentForTab - 0x5f6ea0
-KeybindingsLayer::buildControllerGlyph - 0x5f6b70
 KeybindingsLayer::init - 0x5f614c
-KeybindingsLayer::layerKey - 0x77b374
-KeybindingsLayer::nextPosition - 0x1fbca0
-KeybindingsLayer::objectKey - 0x77b34c
 KeybindingsLayer::onClearSearch - 0x5f689c
-KeybindingsLayer::onClose - 0x5f9104
 KeybindingsLayer::onEditBinding - 0x5f8004
 KeybindingsLayer::onSettings - 0x5f6910
-KeybindingsLayer::pageKey - 0x2dbdc
+KeybindingsLayer::buildControllerGlyph - 0x5f6b70
 KeybindingsManager::sharedState - 0x3d81f4
 KeybindingsManager::commandForKeyMods - 0x59a154
 KeybindingsManager::firstSetup - 0x5e2a78
