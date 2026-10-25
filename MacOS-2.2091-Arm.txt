@@ -808,6 +808,7 @@ cocos2d::CCEGLViewProtocol::getSetOfTouchesEndOrCancel - 0x46c858
 cocos2d::CCEGLViewProtocol::getViewName - 0x46c3d4
 cocos2d::CCEGLViewProtocol::getViewPortRect - 0x46cba4
 cocos2d::CCEGLViewProtocol::updateDesignResolutionSize - 0x46cbc0
+cocos2d::CCEGLViewProtocol::handleRightClick - 0x46cb44
 cocos2d::CCFadeIn::copyWithZone - 0x32bf1c
 cocos2d::CCFadeIn::update - 0x32bfec
 cocos2d::CCFadeIn::reverse - 0x32c050
@@ -5599,6 +5600,10 @@ GameToolbox::pointsToString - 0x4532ec
 GameToolbox::preVisitWithClippingRect - 0x448edc
 GameToolbox::preVisitWithClipRect - 0x448fb0
 GameToolbox::saveParticleToString - 0x44d364
+GameToolbox::showFolderDialog - 0x453654
+GameToolbox::showOpenFileDialog - 0x4535c4
+GameToolbox::showOpenFileDialogMulti - 0x4535ec
+GameToolbox::showSaveFileDialog - 0x4535a0
 GameToolbox::stringFromHSV - 0x44b088
 GameToolbox::stringSetupToDict - 0x44b914
 GameToolbox::stringSetupToMap - 0x44b574
@@ -6967,6 +6972,7 @@ LevelBrowserLayer::onGoToFolder - 0x3ede5c
 LevelBrowserLayer::onGoToPage - 0x3ec6ec
 LevelBrowserLayer::onHelp - 0x3f0ca8
 LevelBrowserLayer::onInfo - 0x3ed800
+LevelBrowserLayer::onLevelsImported - 0x3ed08c
 LevelBrowserLayer::onLocalMode - 0x3ed094
 LevelBrowserLayer::onMyOnlineLevels - 0x3ecd78
 LevelBrowserLayer::onNew - 0x3ecc7c
@@ -6977,6 +6983,7 @@ LevelBrowserLayer::onSearch - 0x3edf64
 LevelBrowserLayer::setSearchObject - 0xa0e9c
 LevelBrowserLayer::setupLevelBrowser - 0x3ef800
 LevelBrowserLayer::show - 0x3f24d8
+LevelBrowserLayer::showImportResult - 0x3f12e0
 LevelBrowserLayer::updateLevelsLabel - 0x3f0930
 LevelBrowserLayer::updatePageLabel - 0x3ec5e0
 LevelCell::~LevelCell - 0x1e2984
@@ -7424,6 +7431,7 @@ LoadingLayer::init - 0x3164a0
 LoadingLayer::loadAssets - 0x316d00
 LoadingLayer::loadingFinished - 0x317418
 LoadingLayer::updateProgress - 0x316c94
+LocalLevelManager::sharedState - 0x5e1588
 LocalLevelManager::init - 0x5e1874
 LocalLevelManager::encodeDataTo - 0x7ee990
 LocalLevelManager::firstLoad - 0x5e2a78
@@ -7433,6 +7441,8 @@ LocalLevelManager::getCreatedLevels - 0x5e287c
 LocalLevelManager::getCreatedLists - 0x5e29e8
 LocalLevelManager::getLevelsInNameGroups - 0x5e1d9c
 LocalLevelManager::getMainLevelString - 0x5e1c18
+LocalLevelManager::importLevelsFromFile - 0x5e62a4
+LocalLevelManager::importLevelsFromPaths - 0x5e6390
 LocalLevelManager::moveLevelToTop - 0x5e25ec
 LocalLevelManager::reorderLevels - 0x5e282c
 LocalLevelManager::reorderLists - 0x5e2998
@@ -9013,6 +9023,7 @@ SFXBrowser::keyBackClicked - 0x2dd988
 SFXBrowser::musicActionFinished - 0x3a7eb8
 SFXBrowser::musicActionFailed - 0x3a7f80
 SFXBrowser::onCredits - 0x3a603c
+SFXBrowser::onImportFile - 0x3a64cc
 SFXBrowser::onPage - 0x3a5174
 SFXBrowser::onSearch - 0x3f0fcc
 SFXBrowser::onSorting - 0x3a5298

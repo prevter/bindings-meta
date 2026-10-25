@@ -1328,8 +1328,10 @@ EditButtonBar::~EditButtonBar - 0x176e90
 EditButtonBar::create - 0x176f00
 EditButtonBar::goToPage - 0x177aa0
 EditButtonBar::loadFromItems - 0x177060
-EditButtonBar::onLeft - 0x177b90
+EditButtonBar::onDotClicked - 0x177b90
+EditButtonBar::onLeft - 0x177b50
 EditButtonBar::onRight - 0x177b10
+EditButtonBar::updateDotState - 0x177c40
 EditGameObjectPopup::~EditGameObjectPopup - 0x399750
 EditGameObjectPopup::init - 0x3a5100
 EditLevelLayer::scene - 0x1782c0
@@ -3474,6 +3476,7 @@ LevelBrowserLayer::onDeleteSelected - 0x451920
 LevelBrowserLayer::onFavorites - 0x3e86d0
 LevelBrowserLayer::onGoToFolder - 0x3e65f0
 LevelBrowserLayer::onGoToPage - 0x3e64d0
+LevelBrowserLayer::onImportLevels - 0x3e9ae0
 LevelBrowserLayer::onInfo - 0x3e6da0
 LevelBrowserLayer::onLocalMode - 0x3e8220
 LevelBrowserLayer::onMyOnlineLevels - 0x3e8420
@@ -3485,6 +3488,7 @@ LevelBrowserLayer::onSavedMode - 0x3e8140
 LevelBrowserLayer::onSearch - 0x3e8e50
 LevelBrowserLayer::setupLevelBrowser - 0x3e5440
 LevelBrowserLayer::show - 0x3eb640
+LevelBrowserLayer::showImportResult - 0x3e9b20
 LevelBrowserLayer::updatePageLabel - 0x3e6a20
 LevelCell::LevelCell - 0x148990
 LevelCell::~LevelCell - 0x148870
@@ -3878,6 +3882,7 @@ LocalLevelManager::filesPicked - 0x46f110
 LocalLevelManager::fileShareFinished - 0x46f680
 LocalLevelManager::getAllLevelsInDict - 0x39fe70
 LocalLevelManager::getMainLevelString - 0x46b070
+LocalLevelManager::importLevelsFromFile - 0x46ecf0
 LocalLevelManager::tryLoadMainLevelString - 0x46add0
 LocalLevelManager::updateLevelOrder - 0x46b690
 LocalLevelManager::updateLevelRevision - 0x46b2f0

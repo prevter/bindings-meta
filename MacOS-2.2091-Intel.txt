@@ -842,6 +842,7 @@ cocos2d::CCEGLViewProtocol::getSetOfTouchesEndOrCancel - 0x511530
 cocos2d::CCEGLViewProtocol::getViewName - 0x5110a0
 cocos2d::CCEGLViewProtocol::getViewPortRect - 0x511850
 cocos2d::CCEGLViewProtocol::updateDesignResolutionSize - 0x511890
+cocos2d::CCEGLViewProtocol::handleRightClick - 0x5117e0
 cocos2d::CCFadeIn::create - 0x3a4060
 cocos2d::CCFadeIn::copyWithZone - 0x3a4100
 cocos2d::CCFadeIn::update - 0x3a41d0
@@ -5855,6 +5856,10 @@ GameToolbox::postClipVisit - 0x4ead10
 GameToolbox::preVisitWithClippingRect - 0x4eabf0
 GameToolbox::preVisitWithClipRect - 0x4eacd0
 GameToolbox::saveParticleToString - 0x4ef2c0
+GameToolbox::showFolderDialog - 0x4f6390
+GameToolbox::showOpenFileDialog - 0x4f6300
+GameToolbox::showOpenFileDialogMulti - 0x4f6330
+GameToolbox::showSaveFileDialog - 0x4f62d0
 GameToolbox::stringFromHSV - 0x4ece30
 GameToolbox::stringSetupToDict - 0x4ed7a0
 GameToolbox::stringSetupToMap - 0x4ed450
