@@ -1245,6 +1245,7 @@ DeathMarkerSettingsPopup::~DeathMarkerSettingsPopup - 0x60ac50
 DeathMarkerSettingsPopup::keyBackClicked - 0xa6580
 DeathMarkerSettingsPopup::onClose - 0x99f60
 DeathMarkerSettingsPopup::FLAlert_Clicked - 0x11d600
+DeathMarkerSettingsPopup::onToggleColor - 0x11dd20
 DeathStatsPopup::~DeathStatsPopup - 0x11e320
 DeathStatsPopup::keyBackClicked - 0xa6580
 DeathStatsPopup::onClose - 0x11fb20
@@ -1408,7 +1409,6 @@ EditorPauseLayer::init - 0x180e80
 EditorPauseLayer::musicSliderChanged - 0x1822f0
 EditorPauseLayer::onAutoSaveSettings - 0x1831b0
 EditorPauseLayer::onControls - 0x1824b0
-EditorPauseLayer::onCreateLoop - 0x1b9360
 EditorPauseLayer::onDeathStats - 0x183050
 EditorPauseLayer::onDownloadAudio - 0x183210
 EditorPauseLayer::onEditorSounds - 0x1831d0
@@ -1424,7 +1424,6 @@ EditorPauseLayer::onSaveAndPlay - 0x182590
 EditorPauseLayer::playStep2 - 0x182630
 EditorPauseLayer::playStep3 - 0x182760
 EditorPauseLayer::sfxSliderChanged - 0x182390
-EditorPauseLayer::toggleSelectFilter - 0x11dd20
 EditorSFXActionConfigLayer::~EditorSFXActionConfigLayer - 0x183430
 EditorSFXActionConfigLayer::ccTouchBegan - 0x184de0
 EditorSFXActionConfigLayer::ccTouchMoved - 0x184f10
@@ -1905,7 +1904,7 @@ FRequestProfilePage::getUserListFailed - 0x210d90
 FRequestProfilePage::textChanged - 0x212780
 FRequestProfilePage::deleteSelected - 0x211400
 FRequestProfilePage::init - 0x20f420
-FRequestProfilePage::isCorrect - 0x477000
+FRequestProfilePage::isCorrect - 0x2121b0
 FRequestProfilePage::onSentRequests - 0x211db0
 FRequestProfilePage::setupCommentsBrowser - 0x212a40
 FRequestProfilePage::untoggleAll - 0x211e70
@@ -2038,7 +2037,6 @@ GameLevelManager::hasLikedItem - 0x25bd70
 GameLevelManager::hasLikedItemFullCheck - 0x25bce0
 GameLevelManager::hasRatedDemon - 0x2348a0
 GameLevelManager::hasRatedLevelStars - 0x2347c0
-GameLevelManager::hasReportedLevel - 0x2e3630
 GameLevelManager::invalidateMessages - 0x23c1a0
 GameLevelManager::isDLActive - 0x2219d0
 GameLevelManager::isFollowingUser - 0x224320
@@ -4219,6 +4217,7 @@ NumberInputLayer::init - 0x4a1250
 NumberInputLayer::registerWithTouchDispatcher - 0x5bab0
 NumberInputLayer::keyBackClicked - 0x99f90
 NumberInputLayer::onClose - 0x99f60
+NumberInputLayer::onDone - 0x4a1b10
 NumberInputLayer::onNumber - 0x4a1820
 NumberInputLayer::updateNumberState - 0x4a1990
 OBB2D::~OBB2D - 0x7b440
@@ -5640,7 +5639,7 @@ SFXBrowser::allowsCustomSFXActions - 0x3ff70
 SFXBrowser::isCustomIDSelected - 0x61cf00
 SFXBrowser::inCustomSFXTree - 0x620280
 SFXBrowser::showsSFXInfoButton - 0x6202a0
-SFXBrowser::onClose - 0x4a1b10
+SFXBrowser::onClose - 0x620830
 SFXBrowser::onCredits - 0x1b07f0
 SFXBrowser::onPage - 0x6202e0
 SFXBrowser::onSorting - 0x197800
