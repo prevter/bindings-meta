@@ -8010,7 +8010,9 @@ MusicDownloadManager::incrementPriorityForSong - 0x64b990
 MusicDownloadManager::isDLActive - 0x64b6c0
 MusicDownloadManager::isMusicLibraryLoaded - 0x65cb50
 MusicDownloadManager::isRunningActionForSongID - 0x64b650
+MusicDownloadManager::isSFXDownloaded - 0x64fd60
 MusicDownloadManager::isSFXLibraryLoaded - 0x660b80
+MusicDownloadManager::isSongDownloaded - 0x64e570
 MusicDownloadManager::limitDownloadedSongs - 0x64e880
 MusicDownloadManager::loadSongInfoFailed - 0x64c010
 MusicDownloadManager::loadSongInfoFinished - 0x64bf70

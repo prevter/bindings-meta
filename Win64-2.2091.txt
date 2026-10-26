@@ -1854,7 +1854,7 @@ FMODAudioEngine::stopChannel - 0x61010
 FMODAudioEngine::storeEffect - 0x62170
 FMODAudioEngine::swapMusicIndex - 0x64b00
 FMODAudioEngine::triggerQueuedMusic - 0x64620
-FMODAudioEngine::unloadAllEffects - 0x76500
+FMODAudioEngine::unloadAllEffects - 0x627b0
 FMODAudioEngine::unregisterChannel - 0x60800
 FMODAudioEngine::updateChannel - 0x61760
 FMODAudioEngine::updateChannelTweens - 0x5f370
@@ -4117,6 +4117,7 @@ MusicDownloadManager::getSongInfo - 0x482950
 MusicDownloadManager::getSongInfoObject - 0x484480
 MusicDownloadManager::handleIt - 0x482210
 MusicDownloadManager::isRunningActionForSongID - 0x482870
+MusicDownloadManager::isSFXDownloaded - 0x4848e0
 MusicDownloadManager::isSongDownloaded - 0x4845a0
 MusicDownloadManager::loadSongInfoFailed - 0x493eb0
 MusicDownloadManager::loadSongInfoFinished - 0x493e30

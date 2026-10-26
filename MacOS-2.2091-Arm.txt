@@ -7730,7 +7730,9 @@ MusicDownloadManager::isMusicLibraryLoaded - 0x596454
 MusicDownloadManager::isResourceSFX - 0x58a9a8
 MusicDownloadManager::isResourceSong - 0x58a474
 MusicDownloadManager::isRunningActionForSongID - 0x5864f4
+MusicDownloadManager::isSFXDownloaded - 0x58a73c
 MusicDownloadManager::isSFXLibraryLoaded - 0x599fdc
+MusicDownloadManager::isSongDownloaded - 0x5890c4
 MusicDownloadManager::limitDownloadedSongs - 0x589380
 MusicDownloadManager::loadSongInfoFailed - 0x586eb8
 MusicDownloadManager::loadSongInfoFinished - 0x586e1c
