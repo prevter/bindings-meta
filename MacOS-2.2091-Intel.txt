@@ -4687,6 +4687,7 @@ DialogLayer::updateChatPlacement - 0x3b11e0
 DialogLayer::updateNavButtonFrame - 0x3b1170
 DialogObject::create - 0x3b0130
 DialogObject::init - 0x3b02c0
+DrawGridLayer::~DrawGridLayer - 0xd6ac0
 DrawGridLayer::create - 0xaba40
 DrawGridLayer::update - 0xd6f80
 DrawGridLayer::draw - 0xd7110

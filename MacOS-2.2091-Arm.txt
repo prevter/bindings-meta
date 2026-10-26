@@ -4458,6 +4458,8 @@ DialogLayer::updateChatPlacement - 0x3381c0
 DialogLayer::updateNavButtonFrame - 0x338160
 DialogObject::create - 0x33727c
 DialogObject::init - 0x337434
+DrawGridLayer::~DrawGridLayer - 0xbd600
+DrawGridLayer::create - 0x9a6a4
 DrawGridLayer::update - 0xbd988
 DrawGridLayer::draw - 0xbda9c
 DrawGridLayer::addAudioLineObject - 0xa912c
