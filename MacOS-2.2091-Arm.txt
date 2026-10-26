@@ -3069,7 +3069,6 @@ AccountRegisterLayer::resetLabels - 0x3f75a0
 AccountRegisterLayer::showLoadingUI - 0x3f89c8
 AccountRegisterLayer::toggleUI - 0x3f8c44
 AccountRegisterLayer::validEmail - 0x3f8908
-AccountRegisterLayer::validPassword - 0x3f8714
 AccountRegisterLayer::validUser - 0x3f8714
 AchievementBar::create - 0x607734
 AchievementBar::setOpacity - 0x609000
@@ -3574,7 +3573,6 @@ AppDelegate::applicationDidFinishLaunching - 0x6491e8
 AppDelegate::applicationWillEnterForeground - 0x649588
 AppDelegate::applicationWillBecomeActive - 0x649398
 AppDelegate::trySaveGame - 0x64969c
-AppDelegate::musicTest - 0xbb6c
 AppDelegate::platformShutdown - 0x6490f0
 AppDelegate::setIdleTimerDisabled - 0x421e10
 AppDelegate::setupGLView - 0x6490f4
@@ -4009,11 +4007,6 @@ GroupCommandObject2::updateAction - 0x4464b4
 GroupCommandObject2::updateEffectAction - 0x446974
 CheckpointObject::CheckpointObject - 0x540d6c
 CheckpointObject::init - 0x529684
-CollisionBlockPopup::createToggleButton - 0x4e6adc
-CollisionBlockPopup::onNextItemID - 0x294764
-CollisionBlockPopup::updateEditorLabel - 0x1cab18
-CollisionBlockPopup::updateItemID - 0x5d6328
-CollisionBlockPopup::updateTextInputLabel - 0x29487c
 ColorAction::create - 0x263a48
 ColorAction::create - 0x263bf8
 ColorAction::create - 0x263cc0
@@ -4245,6 +4238,7 @@ CurrencySprite::createWithSprite - 0x780480
 CurrencySprite::rewardToSpriteType - 0x781fd8
 CurrencySprite::init - 0x781560
 CurrencySprite::initWithSprite - 0x781e28
+CustomizeObjectLayer::~CustomizeObjectLayer - 0x18b844
 CustomizeObjectLayer::create - 0x1fe080
 CustomizeObjectLayer::keyBackClicked - 0x18fbe0
 CustomizeObjectLayer::textInputOpened - 0x18ddd4
@@ -4511,7 +4505,6 @@ EditLevelLayer::init - 0x190af8
 EditLevelLayer::onBack - 0x1937b8
 EditLevelLayer::onDelete - 0x194894
 EditLevelLayer::onEdit - 0x1921a8
-EditLevelLayer::onHelp - 0x77c974
 EditLevelLayer::onLevelLeaderboard - 0x193548
 EditLevelLayer::onLevelOptions - 0x193924
 EditLevelLayer::onMoveToTop - 0x194d2c
@@ -4728,7 +4721,6 @@ EditorUI::moveGamelayer - 0xce6c
 EditorUI::moveObject - 0x54db00
 EditorUI::moveObjectCall - 0x54d678
 EditorUI::moveObjectCall - 0x82dfd0
-EditorUI::offsetForKey - 0x548e74
 EditorUI::onAssignNewGroupID - 0x16df8
 EditorUI::onColorFilter - 0xece0
 EditorUI::onCreate - 0xb4d8
@@ -4971,7 +4963,6 @@ FMODAudioEngine::loadAndPlayMusic - 0x356418
 FMODAudioEngine::loadAudioState - 0x350b0c
 FMODAudioEngine::loadMusic - 0x356718
 FMODAudioEngine::loadMusic - 0x35161c
-FMODAudioEngine::pauseAllEffects - 0x7e690
 FMODAudioEngine::pauseAllMusic - 0x3560d8
 FMODAudioEngine::pauseMusic - 0x358b50
 FMODAudioEngine::playEffect - 0x353cd0
@@ -4987,7 +4978,6 @@ FMODAudioEngine::queuePlayEffect - 0x3540b4
 FMODAudioEngine::queueStartMusic - 0x357094
 FMODAudioEngine::registerChannel - 0x3545d0
 FMODAudioEngine::releaseRemovedSounds - 0x34fec0
-FMODAudioEngine::resumeAllEffects - 0x7e69c
 FMODAudioEngine::resumeAllMusic - 0x356154
 FMODAudioEngine::resumeMusic - 0x351cb4
 FMODAudioEngine::saveAudioState - 0x3506ec
@@ -5049,7 +5039,6 @@ FriendRequestPopup::onAccept - 0x2363a4
 FriendRequestPopup::onBlock - 0x236554
 FriendsProfilePage::userListChanged - 0x6455bc
 FriendsProfilePage::init - 0x642b54
-FriendsProfilePage::onBlocked - 0x80bc5c
 FriendsProfilePage::onUpdate - 0x643ea8
 GameCell::GameCell - 0x28c8c4
 GameCell::init - 0x28c910
@@ -6431,7 +6420,6 @@ GJMessagePopup::loadFromGJMessage - 0x237d54
 GJMessagePopup::onBlock - 0x238580
 GJMessagePopup::onNewThread - 0x2382b0
 GJMessagePopup::onRemove - 0x238488
-GJMessagePopup::onReply - 0x3a6bc4
 GJMGLayer::defaultYOffsetForBG2 - 0x5d797c
 GJMGLayer::draw - 0x5d8414
 GJMGLayer::showGround - 0x5d83e4
@@ -6555,10 +6543,6 @@ GJRobotSprite::updateColor02 - 0x5c8a54
 GJRobotSprite::updateColors - 0x5c87c0
 GJRobotSprite::updateFrame - 0x5c8084
 GJRobotSprite::updateGlowColor - 0x5c8a64
-GJRotateCommandLayer::textChanged - 0x3968ec
-GJRotateCommandLayer::onLockRotation - 0x2992fc
-GJRotateCommandLayer::sliderDegreesChanged - 0x41b640
-GJRotateCommandLayer::updateDuration - 0x651a10
 GJRotationControl::init - 0x57ca10
 GJRotationControl::draw - 0x57d914
 GJRotationControl::ccTouchBegan - 0x57d46c
@@ -6877,9 +6861,6 @@ KeybindingsLayer::onEditBinding - 0x5f8004
 KeybindingsLayer::onSettings - 0x5f6910
 KeybindingsLayer::buildControllerGlyph - 0x5f6b70
 KeybindingsLayer::tintGlyph - 0x5f6e10
-KeybindingsManager::sharedState - 0x3d81f4
-KeybindingsManager::commandForKeyMods - 0x59a154
-KeybindingsManager::firstSetup - 0x5e2a78
 KeyframeAnimTriggerObject::customObjectSetup - 0x15c158
 KeyframeGameObject::~KeyframeGameObject - 0x164d0c
 KeyframeGameObject::create - 0x164df4
@@ -8405,12 +8386,6 @@ ScrollingLayer::getViewRect - 0x700344
 ScrollingLayer::init - 0x700288
 ScrollingLayer::setStartOffset - 0x700580
 SearchButton::create - 0x263cc0
-SetTextPopup::show - 0x7f3138
-SetTextPopup::textInputClosed - 0x23ef8c
-SetTextPopup::textChanged - 0x23efa8
-SetTextPopup::onCancel - 0x23eed0
-SetTextPopup::onResetValue - 0x23ee04
-SearchSFXPopup::onSearchFolders - 0x7b8c44
 SecretGame01Layer::create - 0x3de88c
 SecretGame01Layer::update - 0x3e0074
 SecretGame01Layer::init - 0x3df2c0
@@ -8657,6 +8632,11 @@ SetLevelOrderPopup::onOrderButton - 0x2dd04c
 SetTargetIDLayer::create - 0x249e04
 SetTargetIDLayer::determineStartValues - 0x24a390
 SetTargetIDLayer::valueDidChange - 0x24a394
+SetTextPopup::show - 0x7f3138
+SetTextPopup::textInputClosed - 0x23ef8c
+SetTextPopup::textChanged - 0x23efa8
+SetTextPopup::onCancel - 0x23eed0
+SetTextPopup::onResetValue - 0x23ee04
 SetupAdvFollowPopup::onClose - 0x289b1c
 SetupAdvFollowPopup::valueDidChange - 0x2892c4
 SetupAdvFollowPopup::onCustomToggleTriggerValue - 0x289548
@@ -8783,7 +8763,6 @@ SetupGravityModPopup::textInputClosed - 0x34a9a4
 SetupGravityModPopup::textChanged - 0x34a9c0
 SetupGravityModPopup::determineStartValues - 0x34a56c
 SetupGravityModPopup::onClose - 0x34a66c
-SetupGravityModPopup::onItemIDArrow - 0x343bf8
 SetupGravityModPopup::sliderChanged - 0x34a6c8
 SetupGravityModPopup::updateValueLabel - 0x34a7c4
 SetupGravityTriggerPopup::valueDidChange - 0x42321c
@@ -9050,10 +9029,8 @@ SFXBrowser::registerWithTouchDispatcher - 0x3f8cfc
 SFXBrowser::keyBackClicked - 0x2dd988
 SFXBrowser::musicActionFinished - 0x3a7eb8
 SFXBrowser::musicActionFailed - 0x3a7f80
-SFXBrowser::onCredits - 0x3a603c
 SFXBrowser::onImportFile - 0x3a64cc
 SFXBrowser::onPage - 0x3a5174
-SFXBrowser::onSearch - 0x3f0fcc
 SFXBrowser::onSorting - 0x3a5298
 SFXBrowser::onToggleCompactMode - 0x3a52dc
 SFXBrowser::onUpdateLibrary - 0x3a5238
@@ -9248,7 +9225,6 @@ SongInfoLayer::create - 0x259a90
 SongInfoLayer::keyBackClicked - 0x5eff74
 SongInfoLayer::onBPM - 0x5ef6d0
 SongInfoLayer::onClose - 0x5ef694
-SongInfoLayer::onFB - 0x1c2554
 SongInfoLayer::onMenuMusic - 0x5ef9e0
 SongInfoLayer::onPracticeMusic - 0x5efa88
 SongInfoLayer::showCustomMusicUnlockInfo - 0x5efc40
@@ -9468,6 +9444,7 @@ TextGameObject::customObjectSetup - 0x5be850
 TextGameObject::getSaveString - 0x5be9bc
 TextGameObject::getTextKerning - 0x5bf1a4
 TextGameObject::init - 0x5be454
+TextGameObject::updateTextObject - 0x5be490
 TextStyleSection::create - 0x3e8c3c
 TextStyleSection::createDelaySection - 0x3e8b34
 TextStyleSection::createInstantSection - 0x3e8a20

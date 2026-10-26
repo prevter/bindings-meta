@@ -3260,7 +3260,6 @@ AccountRegisterLayer::resetLabels - 0x48e8b0
 AccountRegisterLayer::showLoadingUI - 0x48fdd0
 AccountRegisterLayer::toggleUI - 0x490010
 AccountRegisterLayer::validEmail - 0x48fc40
-AccountRegisterLayer::validPassword - 0x48fa20
 AccountRegisterLayer::validUser - 0x48fa20
 AchievementBar::create - 0x6f5630
 AchievementBar::setOpacity - 0x6f6f90
@@ -4214,10 +4213,6 @@ GroupCommandObject2::updateEffectAction - 0x4e80d0
 CheckpointObject::CheckpointObject - 0x90010
 CheckpointObject::~CheckpointObject - 0x5d7100
 CheckpointObject::init - 0x5dde30
-CollisionBlockPopup::createToggleButton - 0x597020
-CollisionBlockPopup::onItemIDArrow - 0x4679b0
-CollisionBlockPopup::onNextItemID - 0x300470
-CollisionBlockPopup::updateEditorLabel - 0x21b610
 ColorAction::create - 0x2c3f90
 ColorAction::create - 0x2c4190
 ColorAction::create - 0x2c4280
@@ -4468,6 +4463,8 @@ CurrencySprite::rewardToSpriteType - 0x88daf0
 CurrencySprite::spriteTypeToStat - 0x88ade0
 CurrencySprite::init - 0x88d000
 CurrencySprite::initWithSprite - 0x8be10
+CustomizeObjectLayer::~CustomizeObjectLayer - 0x1d7290
+CustomizeObjectLayer::create - 0x1d7430
 CustomizeObjectLayer::keyBackClicked - 0x1dbab0
 CustomizeObjectLayer::textInputOpened - 0x1d9b80
 CustomizeObjectLayer::textInputClosed - 0x1db810
@@ -4954,7 +4951,6 @@ EditorUI::moveForCommand - 0x60e630
 EditorUI::moveGamelayer - 0xe840
 EditorUI::moveObject - 0x60e950
 EditorUI::moveObjectCall - 0x60e410
-EditorUI::offsetForKey - 0x603db0
 EditorUI::onAssignNewGroupID - 0x1a140
 EditorUI::onColorFilter - 0x10710
 EditorUI::onCreate - 0xce30
@@ -5131,10 +5127,10 @@ FileOperation::saveFile - 0x7022e0
 GManager::init - 0x4a4e80
 GManager::setup - 0x4a4ea0
 GManager::encodeDataTo - 0x4a5540
-GManager::dataLoaded - 0x4a5bf0
-GManager::firstLoad - 0x4a5c00
 GManager::didEncodeForSave - 0x4a5550
 GManager::saveFinished - 0x4a5560
+GManager::dataLoaded - 0x4a5bf0
+GManager::firstLoad - 0x4a5c00
 GManager::getCompressedSaveString - 0x4a4f70
 GManager::getSaveString - 0x4a4ee0
 GManager::load - 0x4a4ec0
@@ -5200,7 +5196,6 @@ FMODAudioEngine::loadAudioState - 0x3cd4f0
 FMODAudioEngine::loadMusic - 0x3d4700
 FMODAudioEngine::loadMusic - 0x3ce510
 FMODAudioEngine::pauseAllAudio - 0x3cb390
-FMODAudioEngine::pauseAllEffects - 0x88630
 FMODAudioEngine::pauseAllMusic - 0x3d3fb0
 FMODAudioEngine::pauseMusic - 0x3d7430
 FMODAudioEngine::playEffect - 0x3d1590
@@ -5277,7 +5272,6 @@ FRequestProfilePage::keyBackClicked - 0x871960
 FRequestProfilePage::loadFRequestsFinished - 0x8a6ef0
 FRequestProfilePage::deleteSelected - 0x2132a0
 FRequestProfilePage::init - 0x86ef70
-FRequestProfilePage::onSentRequests - 0x86fca0
 FRequestProfilePage::untoggleAll - 0x213840
 FriendRequestPopup::uploadActionFinished - 0x2929c0
 FriendRequestPopup::onClosePopup - 0x294ec0
@@ -6822,8 +6816,6 @@ GJRobotSprite::updateColor02 - 0x6ae880
 GJRobotSprite::updateColors - 0x6ae570
 GJRobotSprite::updateFrame - 0x6adcb0
 GJRobotSprite::updateGlowColor - 0x6ae8a0
-GJRotateCommandLayer::sliderDegreesChanged - 0x4b6e30
-GJRotateCommandLayer::sliderTimesChanged - 0x4b6e30
 GJRotationControl::create - 0x640750
 GJRotationControl::init - 0x640880
 GJRotationControl::draw - 0x6417d0
@@ -7160,10 +7152,6 @@ KeybindingsLayer::onEditBinding - 0x6e3a80
 KeybindingsLayer::onSettings - 0x6e1ee0
 KeybindingsLayer::buildControllerGlyph - 0x6e20c0
 KeybindingsLayer::tintGlyph - 0x6e24c0
-KeybindingsManager::sharedState - 0x46c7a0
-KeybindingsManager::commandForKeyMods - 0x660cf0
-KeybindingsManager::dataLoaded - 0x2d9620
-KeybindingsManager::encodeDataTo - 0xa2bb0
 KeyframeAnimTriggerObject::create - 0x19bcd0
 KeyframeAnimTriggerObject::customObjectSetup - 0x19ce50
 KeyframeGameObject::create - 0x1a7050
@@ -7279,7 +7267,6 @@ LevelBrowserLayer::init - 0x480690
 LevelBrowserLayer::isCorrect - 0x485730
 LevelBrowserLayer::onClearSearch - 0x484430
 LevelBrowserLayer::onDeleteAll - 0x483540
-LevelBrowserLayer::onDeleteSelected - 0x929f10
 LevelBrowserLayer::onGoToFolder - 0x484050
 LevelBrowserLayer::onGoToPage - 0x482970
 LevelBrowserLayer::onHelp - 0x4873e0
@@ -8601,9 +8588,7 @@ ProfilePage::onSettings - 0x8a4630
 ProfilePage::onUpdate - 0x89edc0
 ProfilePage::setupComments - 0x89ea50
 ProfilePage::setupCommentsBrowser - 0x89f0c0
-ProfilePage::showNoAccountError - 0x36d9d0
 ProfilePage::toggleMainPageVisibility - 0x8a60f0
-ProfilePage::toggleShip - 0x96ca40
 ProfilePage::updateLevelsLabel - 0x8a75d0
 PromoInterstitial::ccTouchBegan - 0x2c1630
 PromoInterstitial::ccTouchMoved - 0x2c1860
@@ -8704,14 +8689,6 @@ ScrollingLayer::ccTouchCancelled - 0x7ffd30
 ScrollingLayer::getViewRect - 0x7ff720
 ScrollingLayer::init - 0x7ff660
 ScrollingLayer::setStartOffset - 0x7ff9f0
-SetTextPopup::create - 0x29a330
-SetTextPopup::keyBackClicked - 0x37cfe0
-SetTextPopup::show - 0x90c930
-SetTextPopup::textInputClosed - 0x29b970
-SetTextPopup::textChanged - 0x29b9b0
-SetTextPopup::onCancel - 0x29b8b0
-SetTextPopup::onResetValue - 0x29b800
-SetTextPopup::updateTextInputLabel - 0x29b8d0
 SecretGame01Layer::create - 0x4738c0
 SecretGame01Layer::update - 0x475330
 SecretGame01Layer::init - 0x4744f0
@@ -8969,6 +8946,14 @@ SetLevelOrderPopup::onOrderButton - 0x34ca60
 SetTargetIDLayer::create - 0x2a7c90
 SetTargetIDLayer::determineStartValues - 0x2a82b0
 SetTargetIDLayer::valueDidChange - 0x2a82c0
+SetTextPopup::create - 0x29a330
+SetTextPopup::keyBackClicked - 0x37cfe0
+SetTextPopup::show - 0x90c930
+SetTextPopup::textInputClosed - 0x29b970
+SetTextPopup::textChanged - 0x29b9b0
+SetTextPopup::onCancel - 0x29b8b0
+SetTextPopup::onResetValue - 0x29b800
+SetTextPopup::updateTextInputLabel - 0x29b8d0
 SetupAdvFollowPopup::onClose - 0x2f4a50
 SetupAdvFollowPopup::valueDidChange - 0x286850
 SetupAdvFollowPopup::onCustomToggleTriggerValue - 0x2f43a0
@@ -9154,7 +9139,6 @@ SetupOpacityPopup::sliderChanged - 0x1d360
 SetupOpacityPopup::updateDuration - 0x1d950
 SetupOpacityPopup::updateOpacityLabel - 0x1d6d0
 SetupOpacityPopup::updateTargetID - 0x1dc60
-SetupOptionsTriggerPopup::create - 0x1d7430
 SetupOptionsTriggerPopup::onCustomToggleTriggerValue - 0x6bafc0
 SetupOptionsTriggerPopup::addOption - 0x6bad70
 SetupPickupTriggerPopup::onCustomToggleTriggerValue - 0x1e650
@@ -9537,7 +9521,6 @@ SongInfoLayer::keyBackClicked - 0x6d99a0
 SongInfoLayer::init - 0x653bf0
 SongInfoLayer::onBPM - 0x6d91d0
 SongInfoLayer::onClose - 0x6d91a0
-SongInfoLayer::onFB - 0x2f7eb0
 SongInfoLayer::onMenuMusic - 0x6d9500
 SongInfoLayer::onPracticeMusic - 0x6d9590
 SongInfoLayer::showCustomMusicUnlockInfo - 0x6d9710
@@ -9752,6 +9735,7 @@ TextGameObject::getSaveString - 0x6a3420
 TextGameObject::updateTextKerning - 0xc6240
 TextGameObject::getTextKerning - 0x6a3e10
 TextGameObject::init - 0x6a2ee0
+TextGameObject::updateTextObject - 0x6a2f20
 TextStyleSection::create - 0x47e8e0
 TextStyleSection::createColoredSection - 0x47e5e0
 TextStyleSection::createDelaySection - 0x47e790
