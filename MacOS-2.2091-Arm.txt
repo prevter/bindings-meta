@@ -3862,6 +3862,8 @@ CCSpriteWithHue::setLuminance - 0x5dbde4
 CCSpriteWithHue::setupDefaultSettings - 0x5dba90
 CCSpriteWithHue::updateColorMatrix - 0x5dbecc
 CCSpriteWithHue::updateHue - 0x5dbdb0
+CCSpriteGrayscale::create - 0x5dc5f0
+CCSpriteGrayscale::create - 0x5dc6bc
 CCSpriteGrayscale::createWithSpriteFrameName - 0x5dcaa4
 CCSpriteGrayscale::getShaderName - 0x5dc5cc
 CCSpriteGrayscale::shaderBody - 0x5dc48c

@@ -4062,6 +4062,8 @@ CCSpriteWithHue::setLuminance - 0x6c3410
 CCSpriteWithHue::setupDefaultSettings - 0x6c30e0
 CCSpriteWithHue::updateColorMatrix - 0x6c34f0
 CCSpriteWithHue::updateHue - 0x6c33c0
+CCSpriteGrayscale::create - 0x6c3e20
+CCSpriteGrayscale::create - 0x6c3ee0
 CCSpriteGrayscale::createWithSpriteFrameName - 0x6c4260
 CCSpriteGrayscale::getShaderName - 0x6c3e00
 CCSpriteGrayscale::shaderBody - 0x6c3bd0
@@ -7116,6 +7118,7 @@ InfoLayer::updateLevelsLabel - 0x8967d0
 InheritanceNode::create - 0x2c3c00
 InheritanceNode::init - 0x2c3c80
 InvitesPopup::init - 0x94bc80
+ItemInfoPopup::create - 0x358290
 ItemInfoPopup::nameForUnlockType - 0x35c180
 ItemInfoPopup::keyBackClicked - 0x35c4b0
 ItemInfoPopup::init - 0x35ae60
