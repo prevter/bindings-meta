@@ -4762,6 +4762,7 @@ EditorWindowPopup::handleAction - 0x901f10
 EditorWindowPopup::onFieldEnter - 0x9020d0
 EditorWindowPopup::initWindow - 0x8ffeb0
 EditorWindowPopup::beginTouch - 0x901160
+EditorWindowPopup::isInCloseButton - 0x900b10
 EditorWindowPopup::applyWindowSize - 0x9005e0
 EditorWindowPopup::getResizeCorner - 0x900a00
 GJOptionsLayer::addGVToggle - 0x243a20
@@ -4833,7 +4834,7 @@ EditorSoundsLayer::rebuildContent - 0x8fe8b0
 EditorSoundsLayer::showTab - 0x8fe8d0
 GameObjectEditorState::loadValues - 0x6404b0
 EditorUI::EditorUI - 0x1a900
-EditorUI::~EditorUI - 0x286570
+EditorUI::~EditorUI - 0x4e00
 EditorUI::create - 0x5210
 EditorUI::getRandomStartKey - 0x6efbb0
 EditorUI::getSmartObjectKey - 0x6efde0
@@ -4919,7 +4920,7 @@ EditorUI::editButton2Usable - 0x18720
 EditorUI::editButtonUsable - 0x179c0
 EditorUI::editColor - 0x19a00
 EditorUI::editColorButtonUsable - 0x195c0
-EditorUI::editGroup - 0x900b10
+EditorUI::editGroup - 0xa820
 EditorUI::editObject - 0x93f0
 EditorUI::editObject2 - 0x93e0
 EditorUI::editorLayerForArray - 0xc600
@@ -5051,6 +5052,7 @@ EditorUI::zoomIn - 0x89b0
 EditorUI::zoomOut - 0x8a90
 EditTriggersPopup::determineStartValues - 0x285cd0
 EditTriggersPopup::onClose - 0x285ce0
+EmotePickerPopup::~EmotePickerPopup - 0x903d40
 EmotePickerPopup::ccTouchBegan - 0x903940
 EmotePickerPopup::keyDown - 0x903b10
 EmotePickerPopup::show - 0x903be0
@@ -8679,6 +8681,7 @@ ScrollableContentLayer::update - 0x96cc90
 ScrollableContentLayer::visit - 0x96c8a0
 ScrollableContentLayer::touchInsideClip - 0x96c970
 ScrollableContentLayer::scrollWheel - 0x96cb10
+ScrollableContentLayer::handleTouchBegan - 0x96bdb0
 ScrollableContentLayer::setContentHeight - 0x96b270
 ScrollingLayer::ScrollingLayer - 0x7ffd70
 ScrollingLayer::~ScrollingLayer - 0x144eb0
@@ -9931,6 +9934,7 @@ WorldSelectLayer::showCompleteDialog - 0x3ac0c0
 WorldSelectLayer::tryShowAd - 0x3aca60
 WorldSelectLayer::unblockButtons - 0x3aca30
 WorldSelectLayer::updateArrows - 0x3abeb0
+offsetForKey - 0x603db0
 kmAABBAssign - 0x6c94a0
 kmAABBContainsPoint - 0x6c9450
 kmAlmostEqual - 0x87a700

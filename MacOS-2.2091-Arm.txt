@@ -4607,6 +4607,7 @@ EditorSoundsLayer::rebuildContent - 0x7e5f5c
 EditorSoundsLayer::showTab - 0x7e5f6c
 GameObjectEditorState::loadValues - 0x57c684
 EditorUI::EditorUI - 0x2d353c
+EditorUI::~EditorUI - 0x42e0
 EditorUI::create - 0x459c
 EditorUI::getRandomStartKey - 0x602b78
 EditorUI::getSmartObjectKey - 0x602db4
@@ -4816,6 +4817,7 @@ EditorUI::zoomOut - 0x7b3c
 EditTriggersPopup::determineStartValues - 0x22ad3c
 EditTriggersPopup::onClose - 0x22ad40
 EditTriggersPopup::init - 0x22aa58
+EmotePickerPopup::~EmotePickerPopup - 0x7ead00
 EmotePickerPopup::create - 0x7e9568
 EmotePickerPopup::toggle - 0x7e9a38
 EmotePickerPopup::ccTouchBegan - 0x7ea928
@@ -8374,6 +8376,7 @@ ScrollableContentLayer::update - 0x84978c
 ScrollableContentLayer::visit - 0x8493f4
 ScrollableContentLayer::touchInsideClip - 0x8494ac
 ScrollableContentLayer::scrollWheel - 0x84961c
+ScrollableContentLayer::handleTouchBegan - 0x8489fc
 ScrollableContentLayer::setContentHeight - 0x847efc
 ScrollingLayer::ScrollingLayer - 0x700854
 ScrollingLayer::~ScrollingLayer - 0x1181f0
@@ -9637,6 +9640,7 @@ WorldSelectLayer::showCompleteDialog - 0x333400
 WorldSelectLayer::tryShowAd - 0x333da8
 WorldSelectLayer::unblockButtons - 0x333d90
 WorldSelectLayer::updateArrows - 0x3331b4
+offsetForKey - 0x548e74
 kmAABBAssign - 0x5e14e4
 kmAABBContainsPoint - 0x5e1480
 kmAlmostEqual - 0x77004c
