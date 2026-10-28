@@ -2197,6 +2197,7 @@ GameLevelManager::getGJChallenges - 0x25e270
 GameLevelManager::getGJContentStatus - 0x2313d0
 GameLevelManager::getGJDailyLevelState - 0x25f690
 GameLevelManager::getGJRewards - 0x25ce00
+GameLevelManager::getGJSecretReward - 0x25be60
 GameLevelManager::getGJUserInfo - 0x23a610
 GameLevelManager::getLeaderboardScores - 0x2380b0
 GameLevelManager::getLengthStr - 0x22a660
@@ -2266,6 +2267,7 @@ GameLevelManager::onGetFollowingCompleted - 0x2518e0
 GameLevelManager::onGetFriendRequestsCompleted - 0x254400
 GameLevelManager::onGetGauntletsCompleted - 0x230ff0
 GameLevelManager::onGetGJChallengesCompleted - 0x25e700
+GameLevelManager::onGetGJDailyLevelStateCompleted - 0x2602d0
 GameLevelManager::onGetGJRewardsCompleted - 0x25d450
 GameLevelManager::onGetGJUserInfoCompleted - 0x23a830
 GameLevelManager::onGetLeaderboardScoresCompleted - 0x2384c0
@@ -3577,6 +3579,7 @@ ItemInfoPopup::nameForUnlockType - 0x3863b0
 ItemInfoPopup::keyBackClicked - 0x99f90
 ItemInfoPopup::init - 0x3842f0
 ItemInfoPopup::onClose - 0x99f60
+ItemInfoPopup::onCredit - 0x386380
 ItemTriggerGameObject::~ItemTriggerGameObject - 0x6382e0
 ItemTriggerGameObject::customSetup - 0x660ac0
 ItemTriggerGameObject::triggerObject - 0x660b00
@@ -4401,6 +4404,7 @@ MusicBrowser::getSelectedCellIdx - 0x47d470
 MusicBrowser::FLAlert_Clicked - 0x47df90
 MusicBrowser::textChanged - 0x47d780
 MusicBrowser::sortSelectClosed - 0x47df40
+MusicBrowser::init - 0x47a340
 MusicBrowser::onArtistFilters - 0x47db80
 MusicBrowser::onClose - 0x47dff0
 MusicBrowser::onPage - 0x47d480
