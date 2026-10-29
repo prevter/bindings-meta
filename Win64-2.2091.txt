@@ -1880,7 +1880,6 @@ EditorUI::toggleSnap - 0x1b3590
 EditorUI::toggleSpecialEditButtons - 0x1bb050
 EditorUI::toggleSwipe - 0x1b33e0
 EditorUI::toggleViewOption - 0x1f8440
-EditorUI::transformObject - 0x664b10
 EditorUI::transformObjectCall - 0x1ff300
 EditorUI::transformObjects - 0x200d60
 EditorUI::transformObjectsActive - 0x200c20
