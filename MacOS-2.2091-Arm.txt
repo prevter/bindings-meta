@@ -3951,6 +3951,7 @@ CCScrollLayerExt::scrollLayer - 0x394110
 CCScrollLayerExt::setContentLayerSize - 0x393a74
 CCScrollLayerExt::setContentOffset - 0x393a84
 CCScrollLayerExt::updateIndicators - 0x3931f0
+CCScrollLayerExt::updateScrollDecay - 0x394174
 CCSpriteCOpacity::createWithSpriteFrame - 0x3e1790
 CCSpriteCOpacity::createWithSpriteFrameName - 0x3e1830
 CCSpriteCOpacity::setOpacity - 0x3e18e0
@@ -4377,6 +4378,7 @@ CreatorSettingsPopup::onClose - 0x7a7fc0
 CreatorSettingsPopup::uploadActionFinished - 0x7a8214
 CreatorSettingsPopup::uploadActionFailed - 0x7a839c
 CreatorSettingsPopup::onClosePopup - 0x7a8474
+CurrencyRewardLayer::~CurrencyRewardLayer - 0x77d56c
 CurrencyRewardLayer::create - 0x77d6e4
 CurrencyRewardLayer::update - 0x780568
 CurrencyRewardLayer::createObjects - 0x77f894
@@ -9005,6 +9007,7 @@ RewardsPage::onReward - 0x1af960
 RewardsPage::tryGetRewards - 0x1b0260
 RewardsPage::unlockLayerClosed - 0x1b0500
 RewardsPage::updateTimers - 0x1afa80
+RewardUnlockLayer::create - 0x1afddc
 RewardUnlockLayer::keyBackClicked - 0x1b3e7c
 RewardUnlockLayer::currencyWillExit - 0x1b3e54
 RewardUnlockLayer::connectionTimeout - 0x1b175c
