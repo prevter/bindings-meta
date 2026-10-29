@@ -2448,7 +2448,7 @@ GameManager::finishedLoadingMGAsync1 - 0x27df80
 GameManager::finishedLoadingMGAsync2 - 0x27dfc0
 GameManager::generateSecretNumber - 0x281680
 GameManager::getGameVariable - 0x27e5c0
-GameManager::getMenuMusicFile - 0x54d20
+GameManager::getMenuMusicFile - 0x276540
 GameManager::getUGV - 0x27e9c0
 GameManager::getUnlockForAchievement - 0x277870
 GameManager::iconKey - 0x2771b0
@@ -3318,7 +3318,7 @@ GJRateLevelLayer::setupRateInfo - 0x41a490
 GJRequestCell::init - 0x158d20
 GJRequestCell::draw - 0x1487a0
 GJRequestCell::loadFromScore - 0x158d40
-GJRequestCell::markAsRead - 0x504490
+GJRequestCell::markAsRead - 0x158c00
 GJRequestCell::onToggle - 0x1592a0
 GJRequestCell::onViewFriendRequest - 0x159100
 GJRewardItem::~GJRewardItem - 0x2d67a0
