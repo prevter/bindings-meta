@@ -1881,6 +1881,7 @@ EditorUI::toggleSpecialEditButtons - 0x1bb050
 EditorUI::toggleSwipe - 0x1b33e0
 EditorUI::toggleViewOption - 0x1f8440
 EditorUI::transformObjectCall - 0x1ff300
+EditorUI::transformObjectCall - 0x1ff2d0
 EditorUI::transformObjects - 0x200d60
 EditorUI::transformObjectsActive - 0x200c20
 EditorUI::triggerSwipeMode - 0x1bf810

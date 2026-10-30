@@ -910,6 +910,7 @@ cocos2d::CCGLProgram::~CCGLProgram - 0x38f7c8
 cocos2d::CCGLProgram::addAttribute - 0x38fbf8
 cocos2d::CCGLProgram::compileShader - 0x38f9fc
 cocos2d::CCGLProgram::description - 0x38fbc4
+cocos2d::CCGLProgram::fragmentShaderLog - 0x390058
 cocos2d::CCGLProgram::getUniformLocationForName - 0x390730
 cocos2d::CCGLProgram::initWithVertexShaderByteArray - 0x38f958
 cocos2d::CCGLProgram::initWithVertexShaderFilename - 0x38fac8
@@ -936,6 +937,7 @@ cocos2d::CCGLProgram::setUniformsForBuiltins - 0x390eb8
 cocos2d::CCGLProgram::updateUniformLocation - 0x3902d0
 cocos2d::CCGLProgram::updateUniforms - 0x38fc0c
 cocos2d::CCGLProgram::use - 0x38fd38
+cocos2d::CCGLProgram::vertexShaderLog - 0x38ff1c
 cocos2d::CCGrabber::CCGrabber - 0x5e82b8
 cocos2d::CCGrabber::~CCGrabber - 0x5e8408
 cocos2d::CCGrabber::afterRender - 0x5e83d8
@@ -3299,7 +3301,7 @@ AdToolbox::setupAds - 0x89f6c
 AdToolbox::showDebug - 0x89fa0
 AdToolbox::showInterstitial - 0x89f80
 AdToolbox::showRewardedVideo - 0x89f90
-CCSpritePlus::~CCSpritePlus - 0x3e0edc
+CCSpritePlus::~CCSpritePlus - 0x3e0f28
 CCSpritePlus::createWithSpriteFrame - 0x3e0fc4
 CCSpritePlus::createWithSpriteFrameName - 0x3e1074
 CCSpritePlus::setScaleX - 0x3e14a4
@@ -6243,6 +6245,7 @@ GJBaseGameLayer::processAreaTintGroupAction - 0xfaafc
 GJBaseGameLayer::processAreaTransformGroupAction - 0xf9c4c
 GJBaseGameLayer::processAreaVisualActions - 0xfb7b0
 GJBaseGameLayer::processCameraObject - 0xdeedc
+GJBaseGameLayer::processCommands - 0x107f44
 GJBaseGameLayer::processDynamicObjectActions - 0xfc588
 GJBaseGameLayer::processFollowActions - 0xfe1b0
 GJBaseGameLayer::processItems - 0xe4f44
@@ -7981,6 +7984,7 @@ MemberListPopup::threadSearchFailed - 0x82306c
 MemberListPopup::threadSendFailed - 0x823208
 MemberListPopup::init - 0x8221a4
 MemberListPopup::refreshPolicyBtn - 0x82253c
+MenuGameLayer::~MenuGameLayer - 0x4556a4
 MenuGameLayer::create - 0x4556dc
 MenuGameLayer::update - 0x456798
 MenuGameLayer::init - 0x4557c4
@@ -8588,11 +8592,14 @@ PlayerObject::deactivateStreak - 0x367cf4
 PlayerObject::destroyFromHitHead - 0x38059c
 PlayerObject::didHitHead - 0x375b64
 PlayerObject::disableCustomGlowColor - 0x3811f4
+PlayerObject::disablePlayerControls - 0x381a30
 PlayerObject::disableSwingFire - 0x37b958
 PlayerObject::enableCustomGlowColor - 0x3811d4
+PlayerObject::enablePlayerControls - 0x381a8c
 PlayerObject::exitPlatformerAnimateJump - 0x36c9b4
 PlayerObject::fadeOutStreak2 - 0x37b8bc
 PlayerObject::flashPlayer - 0x377150
+PlayerObject::flipGravity - 0x36da4c
 PlayerObject::flipMod - 0x36bb3c
 PlayerObject::gameEventTriggered - 0x36dd44
 PlayerObject::getActiveMode - 0x37d8e4
@@ -8691,7 +8698,11 @@ PlayerObject::storeCollision - 0x36e628
 PlayerObject::switchedDirTo - 0x37b9d4
 PlayerObject::switchedToMode - 0x37a9f0
 PlayerObject::testForMoving - 0x3704f4
+PlayerObject::toggleBirdMode - 0x37e3c4
+PlayerObject::toggleDartMode - 0x37f3f8
+PlayerObject::toggleFlyMode - 0x37d94c
 PlayerObject::toggleGhostEffect - 0x37aef4
+PlayerObject::togglePlatformerMode - 0x367b54
 PlayerObject::togglePlayerScale - 0x37ab68
 PlayerObject::toggleRobotMode - 0x37fd68
 PlayerObject::toggleRollMode - 0x37f9ac
@@ -8798,6 +8809,7 @@ PlayLayer::colorObject - 0x7acb4
 PlayLayer::commitJumps - 0x782cc
 PlayLayer::createObjectsFromSetupFinished - 0x7a860
 PlayLayer::delayedResetLevel - 0x7e5e0
+PlayLayer::fullReset - 0x81a80
 PlayLayer::getEndPosition - 0x775c0
 PlayLayer::getLastCheckpoint - 0x7fd9c
 PlayLayer::getRelativeMod - 0x7cd7c
@@ -8806,6 +8818,7 @@ PlayLayer::gravityEffectFinished - 0x7d19c
 PlayLayer::incrementJumps - 0x82d58
 PlayLayer::init - 0x70fd8
 PlayLayer::isGameplayActive - 0x832b4
+PlayLayer::levelComplete - 0x77624
 PlayLayer::loadActiveSaveObjects - 0x80e00
 PlayLayer::loadDefaultColors - 0x75f30
 PlayLayer::loadDynamicSaveObjects - 0x80cc0
@@ -9451,6 +9464,8 @@ SetupEnterEffectPopup::onNextFreeEnterEffectID - 0x35ec04
 SetupEnterEffectPopup::updateHSVButton - 0x35eb3c
 SetupEnterTriggerPopup::determineStartValues - 0x22b448
 SetupEnterTriggerPopup::onEnterType - 0x22b374
+SetupEventLinkPopup::~SetupEventLinkPopup - 0x4f37c0
+SetupEventLinkPopup::init - 0x4f38e0
 SetupEventLinkPopup::onSelectEvent - 0x4f3d98
 SetupEventLinkPopup::updateEventIDs - 0x4f3f88
 SetupForceBlockPopup::valueDidChange - 0x4ff2fc
@@ -9908,6 +9923,7 @@ ShareListLayer::onUnlisted - 0x77b2d4
 SimpleObject::create - 0x263788
 SimpleObject::init - 0x2637e0
 SimplePlayer::~SimplePlayer - 0x2e8720
+SimplePlayer::create - 0x2e37a8
 SimplePlayer::setOpacity - 0x2e9430
 SimplePlayer::setColor - 0x2e906c
 SimplePlayer::asyncLoadIcon - 0x2e8e40

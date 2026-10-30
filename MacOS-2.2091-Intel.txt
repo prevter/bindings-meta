@@ -3493,6 +3493,7 @@ AdToolbox::setupAds - 0x99cd0
 AdToolbox::showDebug - 0x99d80
 AdToolbox::showInterstitial - 0x99d20
 AdToolbox::showRewardedVideo - 0x99d50
+CCSpritePlus::~CCSpritePlus - 0x4762d0
 CCSpritePlus::createWithSpriteFrame - 0x476390
 CCSpritePlus::createWithSpriteFrameName - 0x476430
 CCSpritePlus::setScaleX - 0x4768c0
@@ -5473,6 +5474,7 @@ FMODAudioEngine::pauseAllAudio - 0x3cb390
 FMODAudioEngine::pauseAllMusic - 0x3d3fb0
 FMODAudioEngine::pauseMusic - 0x3d7430
 FMODAudioEngine::playEffect - 0x3d1590
+FMODAudioEngine::playEffect - 0x3d14a0
 FMODAudioEngine::playEffectAdvanced - 0x3ceea0
 FMODAudioEngine::playEffectAsync - 0x3d1710
 FMODAudioEngine::playMusic - 0x3d4460
@@ -6488,6 +6490,7 @@ GJBaseGameLayer::processAreaTintGroupAction - 0x121030
 GJBaseGameLayer::processAreaTransformGroupAction - 0x11fe50
 GJBaseGameLayer::processAreaVisualActions - 0x121dc0
 GJBaseGameLayer::processCameraObject - 0x100450
+GJBaseGameLayer::processCommands - 0x1312d0
 GJBaseGameLayer::processDynamicObjectActions - 0x122ca0
 GJBaseGameLayer::processItems - 0x106f80
 GJBaseGameLayer::processMoveActions - 0x124900
@@ -8268,6 +8271,7 @@ MemberListPopup::threadSearchFailed - 0x9425d0
 MemberListPopup::threadSendFailed - 0x942730
 MemberListPopup::init - 0x941680
 MemberListPopup::refreshPolicyBtn - 0x941a80
+MenuGameLayer::~MenuGameLayer - 0x4f8700
 MenuGameLayer::create - 0x4f8780
 MenuGameLayer::update - 0x4f9a60
 MenuGameLayer::init - 0x4f8890
@@ -8852,7 +8856,7 @@ PlayerObject::enablePlayerControls - 0x407620
 PlayerObject::exitPlatformerAnimateJump - 0x3ef780
 PlayerObject::fadeOutStreak2 - 0x400d40
 PlayerObject::flashPlayer - 0x3fbd90
-PlayerObject::flipGravity - 0x403110
+PlayerObject::flipGravity - 0x405360
 PlayerObject::flipMod - 0x3ee920
 PlayerObject::gameEventTriggered - 0x3f0c20
 PlayerObject::getActiveMode - 0x4030b0
@@ -8959,7 +8963,7 @@ PlayerObject::switchedDirTo - 0x400e60
 PlayerObject::switchedToMode - 0x3ffd70
 PlayerObject::testForMoving - 0x3f3a70
 PlayerObject::toggleBirdMode - 0x403c10
-PlayerObject::toggleDartMode - 0x403110
+PlayerObject::toggleDartMode - 0x404d20
 PlayerObject::toggleFlyMode - 0x403110
 PlayerObject::toggleGhostEffect - 0x400300
 PlayerObject::togglePlatformerMode - 0x3e9d90
@@ -8991,15 +8995,18 @@ PlayerObject::updateLastGroundObject - 0x3fa470
 PlayerObject::updateMove - 0x3ed1b0
 PlayerObject::updatePlayerArt - 0x402ae0
 PlayerObject::updatePlayerBirdFrame - 0x404060
+PlayerObject::updatePlayerDartFrame - 0x405100
 PlayerObject::updatePlayerForce - 0x3fefb0
 PlayerObject::updatePlayerFrame - 0x404a20
 PlayerObject::updatePlayerGlow - 0x402950
+PlayerObject::updatePlayerJetpackFrame - 0x4037b0
 PlayerObject::updatePlayerRobotFrame - 0x407450
 PlayerObject::updatePlayerRollFrame - 0x4054f0
 PlayerObject::updatePlayerScale - 0x402f40
 PlayerObject::updatePlayerShipFrame - 0x403560
 PlayerObject::updatePlayerSpiderFrame - 0x407470
 PlayerObject::updatePlayerSpriteExtra - 0x3e8ff0
+PlayerObject::updatePlayerSwingFrame - 0x404750
 PlayerObject::updateRobotAnimationSpeed - 0x408770
 PlayerObject::updateRotation - 0x3f9cd0
 PlayerObject::updateRotation - 0x3efac0
@@ -9070,6 +9077,7 @@ PlayLayer::commitJumps - 0x819a0
 PlayLayer::createObjectsFromSetupFinished - 0x842f0
 PlayLayer::delayedFullReset - 0x8c400
 PlayLayer::delayedResetLevel - 0x88550
+PlayLayer::fullReset - 0x8c460
 PlayLayer::getEndPosition - 0x80ac0
 PlayLayer::getLastCheckpoint - 0x8a4c0
 PlayLayer::getRelativeMod - 0x86b90
@@ -9078,6 +9086,7 @@ PlayLayer::gravityEffectFinished - 0x87020
 PlayLayer::incrementJumps - 0x8d850
 PlayLayer::init - 0x79640
 PlayLayer::isGameplayActive - 0x8ddd0
+PlayLayer::levelComplete - 0x80b10
 PlayLayer::loadActiveSaveObjects - 0x8b760
 PlayLayer::loadDefaultColors - 0x7f140
 PlayLayer::loadDynamicSaveObjects - 0x8b610
@@ -9105,7 +9114,6 @@ PlayLayer::screenFlipObject - 0x868d0
 PlayLayer::setupHasCompleted - 0x7b210
 PlayLayer::shouldBlend - 0x842d0
 PlayLayer::shouldDebugDraw - 0x80830
-PlayLayer::showCompleteEffect - 0x80b10
 PlayLayer::showCompleteText - 0x81f20
 PlayLayer::showHint - 0x883e0
 PlayLayer::showNewBest - 0x82b90
@@ -9713,6 +9721,8 @@ SetupEnterEffectPopup::onNextFreeEnterEffectID - 0x3067e0
 SetupEnterEffectPopup::updateHSVButton - 0x3e04b0
 SetupEnterTriggerPopup::determineStartValues - 0x2864b0
 SetupEnterTriggerPopup::onEnterType - 0x2863e0
+SetupEventLinkPopup::~SetupEventLinkPopup - 0x5a4850
+SetupEventLinkPopup::init - 0x5a49e0
 SetupEventLinkPopup::onSelectEvent - 0x5a4f30
 SetupEventLinkPopup::updateEventIDs - 0x5a5160
 SetupForceBlockPopup::valueDidChange - 0x5b1850
