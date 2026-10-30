@@ -3263,6 +3263,7 @@ SetupTriggerPopup::valueChanged - 0x21bae0
 AccountBanPopup::keyBackClicked - 0x993590
 AccountBanPopup::pageChanged - 0x990770
 AccountBanPopup::onClose - 0x993540
+AccountBanPopup::adminActionConfirmed - 0x9910a0
 AccountBanPopup::adminCommentBanFinished - 0x991d40
 AccountBanPopup::adminCommentBanFailed - 0x991dd0
 AccountBanPopup::adminCommentUnbanFinished - 0x991ef0
@@ -3292,7 +3293,6 @@ AccountBanPopup::adminQueueMuteFailed - 0x993200
 AccountBanPopup::adminQueueUnmuteFinished - 0x993320
 AccountBanPopup::adminQueueUnmuteFailed - 0x9933a0
 AccountBanPopup::onClosePopup - 0x9934c0
-AccountBanPopup::dropdownSelectionChanged - 0x2bb0
 GJDropDownLayer::~GJDropDownLayer - 0x6bb180
 GJDropDownLayer::create - 0x6bb970
 GJDropDownLayer::create - 0x6bb430
@@ -3405,6 +3405,8 @@ AccountReviewPopup::requestPage - 0x99bb00
 AccountReviewPopup::clearPageContent - 0x99bb90
 AccountReviewPopup::onClose - 0x994570
 AccountReviewPopup::dropdownSelectionChanged - 0x99bc60
+AccountReviewPopup::reviewChoicePicked - 0x9a2920
+AccountReviewPopup::adminActionConfirmed - 0x9a41b0
 AccountReviewPopup::FLAlert_Clicked - 0x9a32f0
 AccountReviewPopup::onClosePopup - 0x9a4590
 AccountReviewPopup::commentDeleteFailed - 0x9a3eb0
@@ -3801,10 +3803,12 @@ EffectGameObject::updateInteractiveHover - 0x19b710
 EffectGameObject::updateSpecialColor - 0x19b6b0
 EffectGameObject::updateSpeedModType - 0x19b9b0
 AdvancedFollowTriggerObject::create - 0x182b60
+AdvancedFollowTriggerObject::customObjectSetup - 0x18c260
 AdvancedFollowTriggerObject::getSaveString - 0x182d40
 AdvancedFollowTriggerObject::getAdvancedFollowID - 0x182d00
 AdvancedFollowTriggerObject::init - 0x182cb0
 AdvancedFollowEditObject::create - 0x18da00
+AdvancedFollowEditObject::customObjectSetup - 0x18ebc0
 AdvancedFollowEditObject::getSaveString - 0x18dbb0
 AnimatedGameObject::animationForID - 0x1992f0
 AnimatedGameObject::create - 0x196970
@@ -4286,6 +4290,7 @@ CheckpointGameObject::init - 0x1b5c70
 CheckpointGameObject::setupCustomSprites - 0x1b6090
 CheckpointGameObject::resetObject - 0x1b7910
 CheckpointGameObject::triggerObject - 0x1b5cd0
+CheckpointGameObject::customObjectSetup - 0x1b7790
 CheckpointGameObject::getSaveString - 0x1b6a40
 CheckpointGameObject::triggerActivated - 0x1b5cf0
 CheckpointGameObject::restoreObject - 0x1b7980
@@ -4593,6 +4598,7 @@ CreatorLayer::onTopLists - 0x283750
 CreatorLayer::onTreasureRoom - 0x2840c0
 CreatorLayer::onWeeklyLevel - 0x37cf30
 CreatorSettingsPopup::onClose - 0x8b7060
+CreatorSettingsPopup::setTextPopupClosed - 0x8b7070
 CreatorSettingsPopup::uploadActionFinished - 0x8b7300
 CreatorSettingsPopup::uploadActionFailed - 0x8b7450
 CreatorSettingsPopup::onClosePopup - 0x8b7550
@@ -4809,6 +4815,7 @@ RingObject::powerOnObject - 0x194800
 RingObject::init - 0x194790
 RingObject::spawnCircle - 0x194860
 DashRingObject::create - 0x195690
+DashRingObject::customObjectSetup - 0x1957e0
 DashRingObject::getSaveString - 0x1959f0
 DashRingObject::init - 0x195780
 DeathMarkerSettingsPopup::keyBackClicked - 0x8c8540
@@ -4921,6 +4928,7 @@ EditLevelLayer::textChanged - 0x1e00f0
 EditLevelLayer::uploadActionFinished - 0x1e12d0
 EditLevelLayer::uploadActionFailed - 0x1e1470
 EditLevelLayer::onClosePopup - 0x1e1280
+EditLevelLayer::creatorDescriptionChanged - 0x1e0880
 EditLevelLayer::emotePickerClosed - 0x1e09a0
 EditLevelLayer::closeTextInputs - 0x1dfc40
 EditLevelLayer::confirmDelete - 0x1df410
@@ -4951,7 +4959,6 @@ EditorWindowPopup::show - 0x902170
 EditorWindowPopup::onClose - 0x9021d0
 EditorWindowPopup::textInputClosed - 0x902110
 EditorWindowPopup::handleAction - 0x901f10
-EditorWindowPopup::onWindowResized - 0x2bb0
 EditorWindowPopup::onFieldEnter - 0x9020d0
 EditorWindowPopup::initWindow - 0x8ffeb0
 EditorWindowPopup::beginTouch - 0x901160
@@ -5035,6 +5042,7 @@ EditorSFXSettingsPopup::getValue - 0x8eed90
 EditorSoundBrowserLayer::registerWithTouchDispatcher - 0x8f0980
 EditorSoundBrowserLayer::rebuildContent - 0x8f18b0
 EditorSoundBrowserLayer::onClose - 0x8f09c0
+EditorSoundBrowserLayer::setTextPopupClosed - 0x8f15e0
 EditorSoundBrowserLayer::loadEditorSoundsFinished - 0x8f18d0
 EditorSoundBrowserLayer::loadEditorSoundsFailed - 0x8f19b0
 EditorSoundBrowserLayer::onConfigViewClicked - 0x8f1a80
@@ -5047,12 +5055,14 @@ EditorSoundConfigInfoLayer::ccTouchEnded - 0x8f78a0
 EditorSoundConfigInfoLayer::ccTouchCancelled - 0x8f7940
 EditorSoundConfigInfoLayer::onClose - 0x8f95a0
 EditorSoundConfigInfoLayer::textChanged - 0x8f8890
+EditorSoundConfigInfoLayer::adminActionConfirmed - 0x8f8e20
 EditorSoundConfigInfoLayer::downloadEditorSoundFinished - 0x8f9700
 EditorSoundConfigInfoLayer::downloadEditorSoundFailed - 0x8f98a0
 EditorSoundConfigInfoLayer::deleteEditorSoundFinished - 0x8f99c0
 EditorSoundConfigInfoLayer::deleteEditorSoundFailed - 0x8f9b40
 EditorSoundConfigInfoLayer::FLAlert_Clicked - 0x8f8ef0
 EditorSoundConfigInfoLayer::likedItem - 0x8f8970
+EditorSoundConfigInfoLayer::soundPackDescSaved - 0x8f7b20
 EditorSoundConfigInfoLayer::uploadActionFinished - 0x8f7e60
 EditorSoundConfigInfoLayer::uploadActionFailed - 0x8f8040
 EditorSoundConfigInfoLayer::onClosePopup - 0x8f8130
@@ -5366,6 +5376,7 @@ EndPortalObject::updateEndPos - 0x3863f0
 EndTriggerGameObject::create - 0x1bcaa0
 EndTriggerGameObject::init - 0x1bcb60
 EndTriggerGameObject::triggerObject - 0x1bcbb0
+EndTriggerGameObject::customObjectSetup - 0x1bd9d0
 EndTriggerGameObject::getSaveString - 0x1bcc80
 EnhancedTriggerObject::create - 0x19d100
 EnhancedTriggerObject::customObjectSetup - 0x19dd30
@@ -5546,6 +5557,7 @@ FontObject::initWithConfigFile - 0x203ab0
 FontPreviewCell::init - 0x96f8a0
 FontPreviewCell::draw - 0x96fc60
 ForceBlockGameObject::create - 0x1ccca0
+ForceBlockGameObject::customObjectSetup - 0x1cdd80
 ForceBlockGameObject::getSaveString - 0x1ccdc0
 ForceBlockGameObject::calculateForceToTarget - 0x1cdfe0
 FRequestProfilePage::registerWithTouchDispatcher - 0x871990
@@ -5556,6 +5568,7 @@ FRequestProfilePage::uploadActionFinished - 0x871a40
 FRequestProfilePage::uploadActionFailed - 0x871c00
 FRequestProfilePage::loadFRequestsFinished - 0x8720f0
 FRequestProfilePage::loadFRequestsFailed - 0x872200
+FRequestProfilePage::setupPageInfo - 0x8723c0
 FRequestProfilePage::forceReloadRequests - 0x872380
 FRequestProfilePage::ownsTouchPrio - 0x2bf0
 FRequestProfilePage::getUserListFinished - 0x871170
@@ -6286,7 +6299,8 @@ GJBaseGameLayer::objectsCollided - 0x109580
 GJBaseGameLayer::updateColor - 0x119d30
 GJBaseGameLayer::toggleGroupTriggered - 0x119ed0
 GJBaseGameLayer::checkSpawnAbuse - 0x10a460
-GJBaseGameLayer::spawnGroup - 0x2651b0
+GJBaseGameLayer::spawnGroup - 0x10a4d0
+GJBaseGameLayer::spawnObject - 0x10a900
 GJBaseGameLayer::updateDebugDraw - 0xfdc30
 GJBaseGameLayer::shouldDrawDebugHitboxes - 0xff110
 GJBaseGameLayer::shouldDrawHitboxTrail - 0xff130
@@ -6305,7 +6319,7 @@ GJBaseGameLayer::rotateGameplay - 0x108800
 GJBaseGameLayer::updateTimeWarp - 0x12d210
 GJBaseGameLayer::applyTimeWarp - 0x12d260
 GJBaseGameLayer::createCustomParticle - 0x13d270
-GJBaseGameLayer::claimCustomParticle - 0xc8d20
+GJBaseGameLayer::claimCustomParticle - 0x13d5e0
 GJBaseGameLayer::unclaimCustomParticle - 0x13da50
 GJBaseGameLayer::activatedAudioTrigger - 0x13ea40
 GJBaseGameLayer::checkpointActivated - 0x142c90
@@ -7421,6 +7435,7 @@ GooglePlayManager::init - 0x46c810
 GooglePlayManager::googlePlaySignedIn - 0x46c820
 GradientTriggerObject::create - 0x17b060
 GradientTriggerObject::init - 0x17b140
+GradientTriggerObject::customObjectSetup - 0x17caf0
 GradientTriggerObject::getSaveString - 0x17b1a0
 GraphicsReloadLayer::create - 0x888070
 GraphicsReloadLayer::scene - 0x887ff0
@@ -7486,12 +7501,14 @@ InfoLayer::keyBackClicked - 0x895d20
 InfoLayer::show - 0x896f80
 InfoLayer::loadCommentsFinished - 0x896110
 InfoLayer::loadCommentsFailed - 0x8961e0
+InfoLayer::setupPageInfo - 0x896280
 InfoLayer::commentUploadFinished - 0x896970
 InfoLayer::commentUploadFailed - 0x896af0
 InfoLayer::updateUserScoreFinished - 0x896850
 InfoLayer::FLAlert_Clicked - 0x895b60
 InfoLayer::keyDown - 0x8983f0
 InfoLayer::ownsTouchPrio - 0x2bf0
+InfoLayer::adminActionConfirmed - 0x897d60
 InfoLayer::bulkCommentDeleteFinished - 0x898080
 InfoLayer::bulkCommentDeleteFailed - 0x898290
 InfoLayer::confirmReport - 0x5bd6e0
@@ -7916,6 +7933,7 @@ LevelInfoLayer::likedItem - 0x2b1950
 LevelInfoLayer::FLAlert_Clicked - 0x2b1a60
 LevelInfoLayer::setIDPopupClosed - 0x2af500
 LevelInfoLayer::onEnterTransitionDidFinish - 0x2b0d60
+LevelInfoLayer::adminActionConfirmed - 0x2b16f0
 LevelInfoLayer::confirmClone - 0x2aec90
 LevelInfoLayer::confirmDelete - 0x2ae340
 LevelInfoLayer::confirmMoveToBottom - 0x2af140
@@ -8005,6 +8023,7 @@ LevelListLayer::levelListDeleteFailed - 0x34c230
 LevelListLayer::textInputOpened - 0x34c530
 LevelListLayer::textInputClosed - 0x34c330
 LevelListLayer::textChanged - 0x34c600
+LevelListLayer::adminActionConfirmed - 0x34c030
 LevelListLayer::cloneList - 0x34b670
 LevelListLayer::confirmClone - 0x349050
 LevelListLayer::confirmDelete - 0x3493b0
@@ -8052,6 +8071,7 @@ LevelPickerPopup::requestPage - 0x93f930
 LevelPickerPopup::cellPerformedAction - 0x9413e0
 LevelPickerPopup::loadLevelsFinished - 0x93ff30
 LevelPickerPopup::loadLevelsFailed - 0x9401c0
+LevelPickerPopup::setupPageInfo - 0x93fd70
 LevelPickerPopup::textChanged - 0x9402a0
 LevelSearchLayer::create - 0x7042f0
 LevelSearchLayer::scene - 0x7041c0
@@ -8210,6 +8230,7 @@ LocalLevelManager::didEncodeForSave - 0x6cae30
 LocalLevelManager::saveFinished - 0x6cde40
 LocalLevelManager::dataLoaded - 0x6cb0c0
 LocalLevelManager::firstLoad - 0x6cad20
+LocalLevelManager::filesPicked - 0x6cf2c0
 LocalLevelManager::fileShareFinished - 0x6cf520
 LocalLevelManager::getAllLevelsInDict - 0x6ca070
 LocalLevelManager::getAllLevelsWithName - 0x6ca2a0
@@ -8334,6 +8355,7 @@ MessagesProfilePage::uploadActionFailed - 0x213720
 MessagesProfilePage::loadMessagesFinished - 0x213bb0
 MessagesProfilePage::loadMessagesFailed - 0x213d00
 MessagesProfilePage::forceReloadMessages - 0x213e30
+MessagesProfilePage::setupPageInfo - 0x213e70
 MessagesProfilePage::ownsTouchPrio - 0x2bf0
 MessagesProfilePage::deleteSelected - 0x2132a0
 MessagesProfilePage::init - 0x211d20
@@ -8574,6 +8596,8 @@ NewsPopup::keyDown - 0x95b3d0
 NewsPopup::FLAlert_Clicked - 0x95afa0
 NewsPopup::musicActionFinished - 0x95b070
 NewsPopup::musicActionFailed - 0x95b0b0
+NewsPopup::newsImageDownloaded - 0x95b170
+NewsPopup::newsImageFailed - 0x95b2a0
 NewThreadPopup::keyBackClicked - 0x948dc0
 NewThreadPopup::keyDown - 0x947160
 NewThreadPopup::show - 0x948d40
@@ -8797,7 +8821,7 @@ PlayerCheckpoint::create - 0x53e5d0
 PlayerCheckpoint::init - 0x5d7280
 PlayerControlGameObject::create - 0x1ce9c0
 PlayerControlGameObject::init - 0x1cea80
-PlayerControlGameObject::customObjectSetup - 0x18ebc0
+PlayerControlGameObject::customObjectSetup - 0x1cf9f0
 PlayerControlGameObject::getSaveString - 0x1cead0
 PlayerFireBoostSprite::create - 0x3e9470
 PlayerFireBoostSprite::init - 0x40a980
@@ -9155,6 +9179,7 @@ ProfilePage::getUserInfoFailed - 0x8a6c20
 ProfilePage::userInfoChanged - 0x8a6ce0
 ProfilePage::loadCommentsFinished - 0x8a6ef0
 ProfilePage::loadCommentsFailed - 0x8a6fe0
+ProfilePage::setupPageInfo - 0x8a70b0
 ProfilePage::commentUploadFinished - 0x8a75e0
 ProfilePage::commentUploadFailed - 0x8a7670
 ProfilePage::commentDeleteFailed - 0x8a7750
@@ -9189,6 +9214,7 @@ ProfilePage::setupCommentsBrowser - 0x89f0c0
 ProfilePage::toggleMainPageVisibility - 0x8a60f0
 ProfilePage::updateLevelsLabel - 0x8a75d0
 ProgressGameObject::init - 0x1d0360
+ProgressGameObject::customObjectSetup - 0x1d1120
 ProgressGameObject::getSaveString - 0x1d03b0
 PromoInterstitial::ccTouchBegan - 0x2c1630
 PromoInterstitial::ccTouchMoved - 0x2c1860
@@ -10015,10 +10041,13 @@ SFXBrowser::keyBackClicked - 0x4352d0
 SFXBrowser::musicActionFinished - 0x431230
 SFXBrowser::musicActionFailed - 0x431330
 SFXBrowser::sortSelectClosed - 0x4344c0
+SFXBrowser::setTextPopupClosed - 0x433ac0
 SFXBrowser::cellPerformedAction - 0x4349b0
 SFXBrowser::getSelectedCellIdx - 0x435290
 SFXBrowser::shouldSnapToSelected - 0x4352b0
 SFXBrowser::rebuildContent - 0x4346e0
+SFXBrowser::sfxFolderPicked - 0x432cb0
+SFXBrowser::sfxFoldersPicked - 0x433460
 SFXBrowser::FLAlert_Clicked - 0x433fd0
 SFXBrowser::textChanged - 0x434860
 SFXBrowser::getSelectedCellCustomIdx - 0x4351c0
@@ -10039,12 +10068,14 @@ SFXFolderPickerPopup::ccTouchMoved - 0x974050
 SFXFolderPickerPopup::ccTouchEnded - 0x9740f0
 SFXFolderPickerPopup::ccTouchCancelled - 0x974190
 SFXFolderPickerPopup::keyBackClicked - 0x973ed0
+SFXFolderPickerPopup::setTextPopupClosed - 0x973d50
 SFXSearchResult::create - 0x669580
 SFXSearchResult::updateObjects - 0x6696c0
 SFXSearchResult::init - 0x669630
 SFXSearchResult::setActiveFolder - 0x669650
 SFXSettingsPopup::onClose - 0x4347e0
 SFXSettingsPopup::setupOptions - 0x4347b0
+SFXSettingsPopup::didToggleGV - 0x4347d0
 SFXTriggerGameObject::customObjectSetup - 0x1b0610
 SFXTriggerGameObject::getSaveString - 0x1aa760
 SFXTriggerGameObject::getSFXRefID - 0x1aa740
@@ -10052,6 +10083,7 @@ SFXTriggerGameObject::getUniqueSFXID - 0x1aa710
 SFXTriggerGameObject::init - 0x1aa6c0
 ShaderGameObject::create - 0x17ce20
 ShaderGameObject::customSetup - 0x17cf80
+ShaderGameObject::customObjectSetup - 0x181eb0
 ShaderGameObject::getSaveString - 0x17cff0
 ShaderGameObject::init - 0x17cf30
 ShaderLayer::ShaderLayer - 0x3bb550
@@ -10297,6 +10329,7 @@ SongTriggerGameObject::create - 0x1b1530
 SongTriggerGameObject::customObjectSetup - 0x1b2040
 SongTriggerGameObject::getSaveString - 0x1b1710
 SongUsagePopup::keyBackClicked - 0x977400
+SongUsagePopup::songUsageFinished - 0x975d70
 SongUsagePopup::songUsageFailed - 0x9772a0
 SoundPackDescPopup::keyBackClicked - 0x8fb070
 SoundPackDescPopup::onClose - 0x8fb010
@@ -10305,6 +10338,7 @@ SoundPackDescPopup::emotePicked - 0x8faf60
 SoundPackDescPopup::emotePickerClosed - 0x8fafe0
 SpawnParticleGameObject::create - 0x1d1fb0
 SpawnParticleGameObject::init - 0x1d2080
+SpawnParticleGameObject::customObjectSetup - 0x1d3bc0
 SpawnParticleGameObject::getSaveString - 0x1d20d0
 SpawnTriggerGameObject::create - 0x1b3a00
 SpawnTriggerGameObject::init - 0x1b3ae0
@@ -10675,6 +10709,7 @@ UIPOptionsLayer::onReset - 0x2a5630
 UISaveLoadLayer::init - 0x2a2fc0
 UISettingsGameObject::create - 0x1bdb60
 UISettingsGameObject::init - 0x1bdc30
+UISettingsGameObject::customObjectSetup - 0x1bebd0
 UISettingsGameObject::getSaveString - 0x1bdc80
 UndoObject::~UndoObject - 0xd6690
 UndoObject::create - 0xaf3d0
