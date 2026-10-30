@@ -2117,9 +2117,11 @@ FRequestProfilePage::loadPage - 0x2122f0
 FRequestProfilePage::onDeleteSelected - 0x210fe0
 FRequestProfilePage::onMarkRead - 0x2116b0
 FRequestProfilePage::onSelectMode - 0x211a20
+FRequestProfilePage::selectedCount - 0x2102f0
 FRequestProfilePage::setupCommentsBrowser - 0x212a40
 FRequestProfilePage::untoggleAll - 0x211e70
 FRequestProfilePage::updateModeButtons - 0x211b40
+FRequestProfilePage::updateSelectUI - 0x2103a0
 FriendPickerDelegate::pickerRowState - 0x98e00
 FriendPickerDelegate::pickerCountBase - 0x98e00
 FriendPickerPopup::~FriendPickerPopup - 0xd3780
