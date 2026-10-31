@@ -3165,7 +3165,6 @@ FLAlertLayer::registerWithTouchDispatcher - 0x4952d0
 FLAlertLayer::keyBackClicked - 0x494d00
 FLAlertLayer::keyDown - 0x494be0
 FLAlertLayer::show - 0x4950e0
-FLAlertLayer::ownsTouchPrio - 0x2bc0
 FLAlertLayer::textInputShouldOffset - 0x495380
 FLAlertLayer::textInputReturn - 0x495510
 FLAlertLayer::init - 0x493e30
@@ -5570,7 +5569,6 @@ FRequestProfilePage::loadFRequestsFinished - 0x8720f0
 FRequestProfilePage::loadFRequestsFailed - 0x872200
 FRequestProfilePage::setupPageInfo - 0x8723c0
 FRequestProfilePage::forceReloadRequests - 0x872380
-FRequestProfilePage::ownsTouchPrio - 0x2bf0
 FRequestProfilePage::getUserListFinished - 0x871170
 FRequestProfilePage::getUserListFailed - 0x871410
 FRequestProfilePage::textChanged - 0x871e40
@@ -7470,7 +7468,6 @@ HSVLiveOverlay::onSelectTab - 0x254f60
 HSVLiveOverlay::toggleControls - 0x255250
 HSVWidgetPopup::keyBackClicked - 0x41cf40
 HSVWidgetPopup::onClose - 0x41cb50
-IDNameBrowserDelegate::idNameBrowserClosed - 0x914d90
 IDNameBrowserPopup::ccTouchBegan - 0x90c9c0
 IDNameBrowserPopup::ccTouchMoved - 0x90ca70
 IDNameBrowserPopup::ccTouchEnded - 0x90cb10
@@ -7507,7 +7504,6 @@ InfoLayer::commentUploadFailed - 0x896af0
 InfoLayer::updateUserScoreFinished - 0x896850
 InfoLayer::FLAlert_Clicked - 0x895b60
 InfoLayer::keyDown - 0x8983f0
-InfoLayer::ownsTouchPrio - 0x2bf0
 InfoLayer::adminActionConfirmed - 0x897d60
 InfoLayer::bulkCommentDeleteFinished - 0x898080
 InfoLayer::bulkCommentDeleteFailed - 0x898290
@@ -7576,7 +7572,6 @@ KeybindingsLayer::nameForAction - 0x6e4660
 KeybindingsLayer::openBindingEditor - 0x6e4710
 KeybindingsLayer::showControllerChords - 0x6e4740
 KeybindingsLayer::settingsEntries - 0x6e4750
-KeybindingsLayer::crossCheckGlobalConflicts - 0x2bc0
 KeybindingsLayer::buildContentForTab - 0x6e2550
 KeybindingsLayer::init - 0x6e16a0
 KeybindingsLayer::onAddBinding - 0x6e3a30
@@ -7591,7 +7586,6 @@ KeybindSet::chordsForAction - 0x9250b0
 KeybindSet::actionsForChord - 0x925190
 KeybindSet::bindChord - 0x9253a0
 KeybindSet::unbindChord - 0x9254e0
-KeybindSet::isLevelSet - 0x2bf0
 KeyframeAnimTriggerObject::create - 0x19bcd0
 KeyframeAnimTriggerObject::init - 0x19bda0
 KeyframeAnimTriggerObject::customObjectSetup - 0x19ce50
@@ -7683,9 +7677,7 @@ LevelBindingsLayer::onClose - 0x91ff40
 LevelBindingsLayer::setupTabs - 0x91fda0
 LevelBindingsLayer::actionsToShow - 0x91feb0
 LevelBindingsLayer::openBindingEditor - 0x91ff10
-LevelBindingsLayer::showControllerChords - 0x2bf0
 LevelBindingsLayer::settingsEntries - 0x91ee60
-LevelBindingsLayer::crossCheckGlobalConflicts - 0x2bf0
 LevelBrowserLayer::~LevelBrowserLayer - 0x480220
 LevelBrowserLayer::create - 0x4804a0
 LevelBrowserLayer::scene - 0x480460
@@ -7981,7 +7973,6 @@ LevelLeaderboard::loadLeaderboardFailed - 0x3c91f0
 LevelLeaderboard::FLAlert_Clicked - 0x3c8a50
 LevelLeaderboard::updateUserScoreFinished - 0x3c8c50
 LevelLeaderboard::updateUserScoreFailed - 0x3c8c80
-LevelLeaderboard::ownsTouchPrio - 0x2bf0
 LevelLeaderboard::deleteLocalScores - 0x3c8900
 LevelLeaderboard::getLocalScores - 0x3c8ad0
 LevelLeaderboard::getSpriteButton - 0x3c80f0
@@ -8356,7 +8347,6 @@ MessagesProfilePage::loadMessagesFinished - 0x213bb0
 MessagesProfilePage::loadMessagesFailed - 0x213d00
 MessagesProfilePage::forceReloadMessages - 0x213e30
 MessagesProfilePage::setupPageInfo - 0x213e70
-MessagesProfilePage::ownsTouchPrio - 0x2bf0
 MessagesProfilePage::deleteSelected - 0x2132a0
 MessagesProfilePage::init - 0x211d20
 MessagesProfilePage::setupCommentsBrowser - 0x213a40
@@ -8366,7 +8356,6 @@ MessagesProfilePage::updatePageArrows - 0x214370
 MessageThreadsPage::init - 0x9281c0
 MessageThreadsPage::keyBackClicked - 0x92d3b0
 MessageThreadsPage::show - 0x92d250
-MessageThreadsPage::ownsTouchPrio - 0x2bf0
 MessageThreadsPage::textInputClosed - 0x92b640
 MessageThreadsPage::friendPicked - 0x92b8c0
 MessageThreadsPage::isRecipientSelected - 0x92bad0
@@ -8619,7 +8608,6 @@ NotificationFilterPopup::onClose - 0x98d540
 NotificationsPage::init - 0x98b210
 NotificationsPage::registerWithTouchDispatcher - 0x98bf90
 NotificationsPage::keyBackClicked - 0x98bf60
-NotificationsPage::ownsTouchPrio - 0x2bf0
 NotificationsPage::loadNotificationsFinished - 0x98c140
 NotificationsPage::loadNotificationsFailed - 0x98c3c0
 NotificationsPage::notificationRewardFinished - 0x98c4b0
@@ -9186,7 +9174,6 @@ ProfilePage::commentDeleteFailed - 0x8a7750
 ProfilePage::onClosePopup - 0x8a5990
 ProfilePage::uploadActionFinished - 0x8a5a10
 ProfilePage::uploadActionFailed - 0x8a5c00
-ProfilePage::ownsTouchPrio - 0x2bf0
 ProfilePage::followUserFinished - 0x8a53e0
 ProfilePage::followUserFailed - 0x8a5600
 ProfilePage::blockUser - 0x8a52a0
@@ -10599,7 +10586,6 @@ TopArtistsLayer::show - 0x2fc7b0
 TopArtistsLayer::loadListFinished - 0x2fbcc0
 TopArtistsLayer::loadListFailed - 0x2fbd80
 TopArtistsLayer::setupPageInfo - 0x2fbdc0
-TopArtistsLayer::ownsTouchPrio - 0x2bf0
 TopArtistsLayer::isCorrect - 0x2fbcb0
 TopArtistsLayer::loadPage - 0x2fc3c0
 TopArtistsLayer::onClose - 0x2fba50
