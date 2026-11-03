@@ -2540,7 +2540,7 @@ cocos2d::CCTransitionZoomFlipX::create - 0x95edc
 cocos2d::CCTransitionZoomFlipX::create - 0x95e54
 cocos2d::CCTransitionZoomFlipX::onEnter - 0x95c78
 cocos2d::CCTransitionZoomFlipY::create - 0x962c4
-cocos2d::CCTransitionZoomFlipY::create - 0x9ae078
+cocos2d::CCTransitionZoomFlipY::create - 0x9623c
 cocos2d::CCTransitionZoomFlipY::onEnter - 0x96060
 cocos2d::CCTurnOffTiles::~CCTurnOffTiles - 0x78fa1c
 cocos2d::CCTurnOffTiles::create - 0x78f6ec
@@ -4555,6 +4555,7 @@ CustomSongLayer::onSearch - 0x1aa9bc
 CustomSongLayer::onSongBrowser - 0x1aa87c
 CustomSongLayer::showNewgroundsMessage - 0x1aab38
 CustomSongWidget::~CustomSongWidget - 0x1ad4cc
+CustomSongWidget::create - 0x6091d4
 CustomSongWidget::loadSongInfoFinished - 0x60e4ec
 CustomSongWidget::loadSongInfoFailed - 0x60e790
 CustomSongWidget::downloadSongStarted - 0x60ea8c
@@ -4622,6 +4623,8 @@ DailyLevelPage::refreshDailyPage - 0x1c6384
 DailyLevelPage::skipDailyLevel - 0x1c6290
 DailyLevelPage::tryGetDailyStatus - 0x1c5b28
 DailyLevelPage::updateTimers - 0x1c50e4
+DailyRecallUnlockPopup::create - 0x864888
+DailyRecallUnlockPopup::init - 0x864a0c
 RingObject::create - 0x154e54
 RingObject::setScale - 0x1550e8
 RingObject::setRotation - 0x155148
@@ -4645,6 +4648,7 @@ DeathStatsPopup::onClose - 0x7b8668
 DeathTrackerOptionsPopup::keyBackClicked - 0x7b8efc
 DeathTrackerOptionsPopup::onClose - 0x7b8ec0
 DeathTrackerOptionsPopup::FLAlert_Clicked - 0x7b8d60
+DeathTrackerPopup::create - 0x7b8f84
 DeathTrackerPopup::ccTouchBegan - 0x7c541c
 DeathTrackerPopup::ccTouchMoved - 0x7c5564
 DeathTrackerPopup::ccTouchEnded - 0x7c56ac
@@ -5151,6 +5155,7 @@ EditTriggersPopup::init - 0x22aa58
 EmotePickerPopup::~EmotePickerPopup - 0x7ead00
 EmotePickerPopup::create - 0x7e9568
 EmotePickerPopup::toggle - 0x7e9a38
+EmotePickerPopup::openAt - 0x7e9b08
 EmotePickerPopup::ccTouchBegan - 0x7ea928
 EmotePickerPopup::keyDown - 0x7eab24
 EmotePickerPopup::show - 0x7eac10
@@ -5162,7 +5167,6 @@ EmotePickerPopup::addCell - 0x7ea44c
 EmotePickerPopup::canAddEmote - 0x7eaa58
 EmotePickerPopup::init - 0x7e96b8
 EmotePickerPopup::layoutEmoteGrid - 0x7ea548
-EmotePickerPopup::openAt - 0x7e9b08
 EmoteSprite::~EmoteSprite - 0x8357c
 EmoteSprite::setColor - 0x7eb6fc
 EndLevelLayer::EndLevelLayer - 0x420c4c
@@ -5229,6 +5233,7 @@ ExplodeItemNode::createSprites - 0x1a8940
 ExplodeItemNode::init - 0x1a9674
 ExplodeItemSprite::create - 0x1a96cc
 ExplodeItemSprite::init - 0x1a9a60
+ExtendedLayer::create - 0x318b80
 ExtendedLayer::init - 0x31aff0
 ExtendedLayer::setPosition - 0x31aff4
 FileOperation::getFilePath - 0x61387c
@@ -5463,7 +5468,7 @@ GameLevelManager::deleteServerLevel - 0x4c95cc
 GameLevelManager::deleteServerLevelList - 0x413ec0
 GameLevelManager::deleteSmartTemplate - 0x4a4c1c
 GameLevelManager::deleteUserMessages - 0x4bc664
-GameLevelManager::downloadLevel - 0x10b024
+GameLevelManager::downloadLevel - 0x4b27cc
 GameLevelManager::downloadUserMessage - 0x4bbd1c
 GameLevelManager::encodeDataTo - 0x4a4fa8
 GameLevelManager::firstSetup - 0x4a4c7c
@@ -5546,6 +5551,7 @@ GameLevelManager::getUserList - 0x91948
 GameLevelManager::getUserMessages - 0x4baee8
 GameLevelManager::gotoLevelPage - 0x49fbf4
 GameLevelManager::hasDailyStateBeenLoaded - 0x4d2c28
+GameLevelManager::hasDownloadedLevel - 0x4b2fc0
 GameLevelManager::hasDownloadedList - 0x4ad9dc
 GameLevelManager::hasLikedItemFullCheck - 0x4d0d7c
 GameLevelManager::invalidateUserList - 0x4c870c
@@ -5813,6 +5819,7 @@ GameSettingsLayer::buildTabContent - 0x544098
 GameSettingsLayer::init - 0x543c5c
 GameSettingsLayer::setupTabs - 0x543d74
 GameStatsManager::sharedState - 0x1aebc
+GameStatsManager::dailyRecallPrice - 0x34344
 GameStatsManager::init - 0x1b200
 GameStatsManager::accountIDForIcon - 0x2a8d08
 GameStatsManager::addSimpleSpecialChestReward - 0x37a34
@@ -5846,6 +5853,7 @@ GameStatsManager::dataLoaded - 0x4dd88
 GameStatsManager::encodeDataTo - 0x4d8b0
 GameStatsManager::firstSetup - 0x4d250
 GameStatsManager::generateItemUnlockableData - 0x254cc
+GameStatsManager::getAwardedCurrencyForLevel - 0x30434
 GameStatsManager::getAwardedDiamondsForLevel - 0x30e1c
 GameStatsManager::getBaseCurrency - 0x30190
 GameStatsManager::getBaseCurrencyForLevel - 0x301f0
@@ -5894,7 +5902,9 @@ GameStatsManager::hasCompletedGauntletLevel - 0x2cd4c
 GameStatsManager::hasCompletedLevel - 0x2cbe4
 GameStatsManager::hasCompletedMainLevel - 0x2cb48
 GameStatsManager::hasCompletedOnlineLevel - 0x2ccb0
+GameStatsManager::hasPendingUserCoin - 0x2f50c
 GameStatsManager::hasRewardBeenCollected - 0x31d4c
+GameStatsManager::hasUserCoin - 0x2f600
 GameStatsManager::incrementActivePath - 0x2a9d4
 GameStatsManager::incrementChallenge - 0x2a3e4
 GameStatsManager::incrementStat - 0x2696c
@@ -5990,6 +6000,7 @@ GameToolbox::particleFromString - 0x450bb8
 GameToolbox::particleFromStruct - 0x3fdd0c
 GameToolbox::particleStringToStruct - 0x44fd80
 GameToolbox::pointsToString - 0x4532ec
+GameToolbox::postClipVisit - 0x448fe8
 GameToolbox::preVisitWithClippingRect - 0x448edc
 GameToolbox::preVisitWithClipRect - 0x448fb0
 GameToolbox::saveParticleToString - 0x44d364
@@ -6287,6 +6298,7 @@ GJBaseGameLayer::playerCircleCollision - 0xdec20
 GJBaseGameLayer::playerIntersectsCircle - 0xdecd8
 GJBaseGameLayer::playerTouchedObject - 0xe5dc0
 GJBaseGameLayer::playerTouchedRing - 0xe3ed4
+GJBaseGameLayer::playerTouchedTrigger - 0xe3f98
 GJBaseGameLayer::playerWasTouchingObject - 0xe5d68
 GJBaseGameLayer::playerWillSwitchMode - 0xe0cec
 GJBaseGameLayer::playExitDualEffect - 0xe5200
@@ -6663,7 +6675,7 @@ GJGameLevel::encodeWithCoder - 0x4db398
 GJGameLevel::canEncode - 0x4dc7a4
 GJGameLevel::init - 0x4d4d10
 GJGameLevel::areCoinsVerified - 0x4dca24
-GJGameLevel::dataLoaded - 0x8089a8
+GJGameLevel::duplicate - 0x4d46e4
 GJGameLevel::generateSettingsString - 0x4d5b90
 GJGameLevel::getAudioFileName - 0x4d5978
 GJGameLevel::getAverageDifficulty - 0x4d5680
@@ -7290,6 +7302,8 @@ InfoAlertButton::~InfoAlertButton - 0x4f242c
 InfoAlertButton::create - 0x4f1fcc
 InfoAlertButton::activate - 0x4f225c
 InfoAlertButton::init - 0x4f21b8
+InfoLayer::~InfoLayer - 0x7852e8
+InfoLayer::create - 0x785468
 InfoLayer::registerWithTouchDispatcher - 0x789860
 InfoLayer::keyBackClicked - 0x78976c
 InfoLayer::show - 0x78a928
@@ -7525,6 +7539,7 @@ LevelCell::loadCustomLevelCell - 0x1e34c4
 LevelCell::loadFromLevel - 0x1d6cf0
 LevelCell::loadLocalLevelCell - 0x1e2b70
 LevelCell::onViewProfile - 0x1e6c10
+LevelCell::recallLevel - 0x1e65ac
 LevelCell::updateBGColor - 0x1d6ec8
 LevelCell::updateCellMode - 0x1e25d4
 LevelCell::updateToggle - 0x1e25b8
@@ -7730,7 +7745,7 @@ LevelInfoLayer::onGarage - 0x250308
 LevelInfoLayer::onLevelLeaderboard - 0x24f8d8
 LevelInfoLayer::onLevelOptions - 0x250590
 LevelInfoLayer::onLike - 0x24f93c
-LevelInfoLayer::onPlay - 0x2ac4a0
+LevelInfoLayer::onPlay - 0x24d880
 LevelInfoLayer::onRate - 0x252ab8
 LevelInfoLayer::onRateDemon - 0x24fafc
 LevelInfoLayer::onRateStars - 0x24f9ac
@@ -7780,6 +7795,8 @@ LevelListCell::onClick - 0x1edb64
 LevelListCell::onListInfo - 0x1edc90
 LevelListCell::onViewProfile - 0x1edc5c
 LevelListCell::updateBGColor - 0x1d9070
+LevelListLayer::create - 0x2d7c00
+LevelListLayer::scene - 0x2d7b60
 LevelListLayer::onEnter - 0x2dae00
 LevelListLayer::onExit - 0x2dae3c
 LevelListLayer::loadLevelsFinished - 0x2db1f8
@@ -7878,7 +7895,7 @@ LevelSearchLayer::toggleDifficultyNum - 0x619288
 LevelSearchLayer::toggleTime - 0x618ec0
 LevelSearchLayer::toggleTimeNum - 0x61940c
 LevelSearchLayer::updateSearchLabel - 0x617e74
-LevelSelectLayer::~LevelSelectLayer - 0x40f824
+LevelSelectLayer::~LevelSelectLayer - 0x396e8c
 LevelSelectLayer::create - 0x3163e0
 LevelSelectLayer::keyBackClicked - 0x399cf0
 LevelSelectLayer::keyDown - 0x399d84
@@ -7926,7 +7943,9 @@ LevelSettingsLayer::updateGameplayModeButtons - 0x2007c8
 LevelSettingsObject::objectFromString - 0x9ce9c
 LevelSettingsObject::init - 0xc0134
 LevelSettingsObject::setupColorsFromLegacyMode - 0xc387c
+LevelStatsInfoPopup::create - 0x808820
 LevelStatsInfoPopup::keyBackClicked - 0x80a364
+LevelStatsInfoPopup::init - 0x8089a8
 LevelTools::artistForAudio - 0x459fd4
 LevelTools::base64DecodeString - 0x45cc70
 LevelTools::base64EncodeString - 0x45cc3c
@@ -7940,7 +7959,7 @@ LevelTools::getLastGameplayReversed - 0x448030
 LevelTools::getLastTimewarp - 0x45c814
 LevelTools::getLevel - 0x457480
 LevelTools::getLevelList - 0x4570cc
-LevelTools::getSongObject - 0x28af8c
+LevelTools::getSongObject - 0x45c838
 LevelTools::moveTriggerObjectsToArray - 0x45d114
 LevelTools::nameForArtist - 0x459ff8
 LevelTools::ngURLForArtist - 0x45a8a4
@@ -7955,6 +7974,7 @@ LevelTools::urlForAudio - 0x45a244
 LevelTools::valueForSpeedMod - 0x45b910
 LevelTools::verifyLevelIntegrity - 0x45ca8c
 LevelTools::ytURLForArtist - 0x45abe8
+LikeItemLayer::create - 0x5e6d14
 LikeItemLayer::keyBackClicked - 0x5e7404
 LikeItemLayer::init - 0x5e6ea8
 LikeItemLayer::onClose - 0x5e725c
@@ -10127,7 +10147,7 @@ SongInfoLayer::onClose - 0x5ef694
 SongInfoLayer::onMenuMusic - 0x5ef9e0
 SongInfoLayer::onPracticeMusic - 0x5efa88
 SongInfoLayer::showCustomMusicUnlockInfo - 0x5efc40
-SongInfoObject::create - 0x2999f4
+SongInfoObject::create - 0x59d1c8
 SongInfoObject::create - 0x7bdfb4
 SongInfoObject::encodeWithCoder - 0x59e1bc
 SongInfoObject::canEncode - 0x59e338
