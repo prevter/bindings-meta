@@ -4617,7 +4617,6 @@ CurrencySprite::createWithSprite - 0x88bcf0
 CurrencySprite::rewardToSpriteType - 0x88daf0
 CurrencySprite::spriteTypeToStat - 0x88ade0
 CurrencySprite::init - 0x88d000
-CurrencySprite::initWithSprite - 0x8be10
 CustomizeObjectLayer::~CustomizeObjectLayer - 0x1d7290
 CustomizeObjectLayer::create - 0x1d7430
 CustomizeObjectLayer::keyBackClicked - 0x1dbab0
@@ -5712,6 +5711,7 @@ GameLevelManager::getMessagesKey - 0x568170
 GameLevelManager::getNews - 0x569f60
 GameLevelManager::getNextFreeTemplateID - 0x54ef60
 GameLevelManager::getNextLevelName - 0x53e6f0
+GameLevelManager::getOnlineLevels - 0x558520
 GameLevelManager::getPageInfo - 0x54a4f0
 GameLevelManager::getPostCommentKey - 0x56bdf0
 GameLevelManager::getRateStarsKey - 0x561fc0
@@ -5806,6 +5806,7 @@ GameLevelManager::resetTimerForKey - 0x54ab80
 GameLevelManager::restoreItems - 0x581030
 GameLevelManager::saveFetchedLevels - 0x542be0
 GameLevelManager::saveLevel - 0x549300
+GameLevelManager::saveLevelList - 0x543840
 GameLevelManager::saveLocalScore - 0x54ef30
 GameLevelManager::setActiveSmartTemplate - 0x54ef50
 GameLevelManager::setFolderName - 0x54ee10
@@ -5929,6 +5930,7 @@ GameManager::loadVideoSettings - 0x372950
 GameManager::lockColor - 0x361a80
 GameManager::lockIcon - 0x361650
 GameManager::logLoadedIconInfo - 0x36c310
+GameManager::onlyCuratedLevels - 0x36d8f0
 GameManager::openEditorGuide - 0x369e00
 GameManager::playMenuMusic - 0x360390
 GameManager::playSFXTrigger - 0x360880
@@ -5958,6 +5960,7 @@ GameManager::returnToLastScene - 0x376970
 GameManager::rewardedVideoAdFinished - 0x97e210
 GameManager::rewardedVideoHidden - 0x3697e0
 GameManager::rewardedVideoHiddenDelayed - 0x369770
+GameManager::safeModeEnabled - 0x36d700
 GameManager::safePopScene - 0x376cd0
 GameManager::saveDPadLayout - 0x3701c0
 GameManager::setGameVariable - 0x36cff0
@@ -5969,6 +5972,7 @@ GameManager::shouldShowInterstitial - 0x369480
 GameManager::showInterstitial - 0x369490
 GameManager::showInterstitialForced - 0x369520
 GameManager::showMainMenuAd - 0x3693e0
+GameManager::showParentalRestrictedAlert - 0x36d9d0
 GameManager::startUpdate - 0x3600b0
 GameManager::stringForCustomObject - 0x36de50
 GameManager::switchCustomObjects - 0x36e010
@@ -6675,6 +6679,7 @@ GJBaseGameLayer::updatePlatformerTime - 0x134410
 GJBaseGameLayer::updatePlayerCollisionBlocks - 0x108cb0
 GJBaseGameLayer::updateProximityVolumeEffects - 0x134290
 GJBaseGameLayer::updateQueuedLabels - 0x12bce0
+GJBaseGameLayer::updateReplay - 0x1349f0
 GJBaseGameLayer::updateSavePositionObjects - 0x109aa0
 GJBaseGameLayer::updateShaderLayer - 0x118950
 GJBaseGameLayer::updateSpecialGroupData - 0xf36a0
@@ -6869,7 +6874,7 @@ GJFollowCommandLayer::valueDidChange - 0x2c2430
 GJFriendRequest::create - 0x58cfc0
 GJFriendRequest::create - 0x567830
 GJFriendRequest::init - 0x58d050
-GJGameLevel::GJGameLevel - 0x53e5d0
+GJGameLevel::GJGameLevel - 0x590e80
 GJGameLevel::~GJGameLevel - 0x5826d0
 GJGameLevel::create - 0x53e5d0
 GJGameLevel::create - 0x540c90
@@ -6880,7 +6885,9 @@ GJGameLevel::lengthKeyToString - 0x583f10
 GJGameLevel::encodeWithCoder - 0x58a8e0
 GJGameLevel::canEncode - 0x58bf40
 GJGameLevel::init - 0x583420
+GJGameLevel::addPlaytime - 0x5870e0
 GJGameLevel::areCoinsVerified - 0x58c1b0
+GJGameLevel::dtSetCells - 0x585fb0
 GJGameLevel::duplicate - 0x582c00
 GJGameLevel::generateSettingsString - 0x5844b0
 GJGameLevel::getAudioFileName - 0x5842c0
@@ -8177,6 +8184,7 @@ LevelSettingsLayer::showPicker - 0x258f80
 LevelSettingsLayer::updateColorSprite - 0x258ff0
 LevelSettingsLayer::updateColorSprites - 0x257b80
 LevelSettingsLayer::updateGameplayModeButtons - 0x258000
+LevelSettingsObject::create - 0xac3c0
 LevelSettingsObject::objectFromDict - 0x906a30
 LevelSettingsObject::objectFromString - 0xaea60
 LevelSettingsObject::init - 0xda070
@@ -8882,7 +8890,7 @@ PlayerObject::getRealPosition - 0x407420
 PlayerObject::getOrientedBox - 0x408700
 PlayerObject::getObjectRotation - 0x408720
 PlayerObject::animationFinished - 0x40a4b0
-PlayerObject::activateStreak - 0x21db70
+PlayerObject::activateStreak - 0x3f04c0
 PlayerObject::addAllParticles - 0x3e9da0
 PlayerObject::addToTouchedRings - 0x402730
 PlayerObject::addToYVelocity - 0x3ea0c0
@@ -9138,6 +9146,8 @@ PlayLayer::createCheckpoint - 0x88e50
 PlayLayer::createObjectsFromSetupFinished - 0x842f0
 PlayLayer::delayedFullReset - 0x8c400
 PlayLayer::delayedResetLevel - 0x88550
+PlayLayer::dtCommitPlaytime - 0x9603b0
+PlayLayer::dtFlushCells - 0x960490
 PlayLayer::fullReset - 0x8c460
 PlayLayer::getEndPosition - 0x80ac0
 PlayLayer::getLastCheckpoint - 0x8a4c0
@@ -9168,7 +9178,7 @@ PlayLayer::removeCheckpoint - 0x8ad30
 PlayLayer::removeFromGroupOld - 0x846f0
 PlayLayer::resetLevelFromStart - 0x8c0f0
 PlayLayer::resume - 0x8dc30
-PlayLayer::resumeAndRestart - 0x400b40
+PlayLayer::resumeAndRestart - 0x8dae0
 PlayLayer::saveActiveSaveObjects - 0x8a760
 PlayLayer::saveDynamicSaveObjects - 0x8a500
 PlayLayer::scanActiveSaveObjects - 0x7cd40
@@ -9187,6 +9197,7 @@ PlayLayer::spawnCircle - 0x819e0
 PlayLayer::spawnFirework - 0x828b0
 PlayLayer::startGame - 0x803d0
 PlayLayer::startGameDelayed - 0x80aa0
+PlayLayer::startMusic - 0x80940
 PlayLayer::startRecording - 0x8d7d0
 PlayLayer::startRecordingDelayed - 0x8d7e0
 PlayLayer::stopRecording - 0x7a180
@@ -9194,7 +9205,8 @@ PlayLayer::storeCheckpoint - 0x8ac50
 PlayLayer::switchToStartPosObject - 0x8c090
 PlayLayer::toggleBGEffectVisibility - 0x8d790
 PlayLayer::toggleGhostEffect - 0x8d750
-PlayLayer::togglePracticeMode - 0x101f00
+PlayLayer::togglePracticeMode - 0x8c560
+PlayLayer::tracksPercent - 0x81980
 PlayLayer::tryStartRecord - 0x8d720
 PlayLayer::updateAttempts - 0x8d590
 PlayLayer::updateDebugDrawSettings - 0x7a220
@@ -9203,6 +9215,7 @@ PlayLayer::updateInvisibleBlock - 0x85780
 PlayLayer::updateProgressbar - 0x7ef90
 PlayLayer::updateScreenRotation - 0x83710
 PlayLayer::updateTestModeLabel - 0x80540
+PlayLayer::writePersistentSave - 0x8b870
 PointNode::create - 0x65050
 PointNode::init - 0x65480
 PriceLabel::create - 0x4b86e0
@@ -10286,7 +10299,6 @@ SliderTouchLogic::ccTouchMoved - 0x2eef80
 SliderTouchLogic::ccTouchEnded - 0x2eeec0
 SliderTouchLogic::registerWithTouchDispatcher - 0x2ef3b0
 SliderTouchLogic::init - 0x2eeb30
-SliderTouchLogic::setRotated - 0x101f00
 Slider::~Slider - 0x78fa0
 Slider::create - 0x2ef3f0
 Slider::create - 0x2ef510

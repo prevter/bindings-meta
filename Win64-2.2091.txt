@@ -1419,6 +1419,7 @@ DeathTrackerOptionsPopup::onClearData - 0x1200c0
 DeathTrackerOptionsPopup::onToggleAutoScroll - 0x120070
 VirtualRowSource::unmountVirtualRow - 0x3f5c0
 DeathTrackerPopup::~DeathTrackerPopup - 0x103af0
+DeathTrackerPopup::create - 0x104370
 DeathTrackerPopup::ccTouchBegan - 0x10e900
 DeathTrackerPopup::ccTouchMoved - 0x10eac0
 DeathTrackerPopup::ccTouchEnded - 0x10eb70

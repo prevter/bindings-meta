@@ -1190,7 +1190,6 @@ cocos2d::CCSprite::setFlipY - 0x21c0f0
 cocos2d::CCSprite::updateColor - 0x21c124
 cocos2d::CCLabelTTF::CCLabelTTF - 0x32dee4
 cocos2d::CCLabelTTF::~CCLabelTTF - 0x32e064
-cocos2d::CCLabelTTF::create - 0x9ae6c
 cocos2d::CCLabelTTF::create - 0x32e318
 cocos2d::CCLabelTTF::create - 0x32e474
 cocos2d::CCLabelTTF::create - 0x32e32c
@@ -5526,6 +5525,7 @@ GameLevelManager::getMessagesKey - 0x4bb22c
 GameLevelManager::getNews - 0x4bceb4
 GameLevelManager::getNextFreeTemplateID - 0x4a4b08
 GameLevelManager::getNextLevelName - 0x495724
+GameLevelManager::getOnlineLevels - 0x4acc8c
 GameLevelManager::getPageInfo - 0x4a03e8
 GameLevelManager::getPostCommentKey - 0x4bec68
 GameLevelManager::getRateStarsKey - 0x4b5a84
@@ -5624,6 +5624,7 @@ GameLevelManager::resetStoredUserInfo - 0x4bae88
 GameLevelManager::restoreItems - 0x90348
 GameLevelManager::saveFetchedLevels - 0x4995dc
 GameLevelManager::saveLevel - 0x49f418
+GameLevelManager::saveLevelList - 0x49a180
 GameLevelManager::saveLocalScore - 0x4a4af4
 GameLevelManager::sendThreadMessage - 0x4c4bc0
 GameLevelManager::setActiveSmartTemplate - 0x4a4b00
@@ -5740,6 +5741,7 @@ GameManager::loadVideoSettings - 0x2ff188
 GameManager::lockColor - 0x2f0450
 GameManager::lockIcon - 0x2f002c
 GameManager::logLoadedIconInfo - 0x2f95cc
+GameManager::onlyCuratedLevels - 0x2fad48
 GameManager::playMenuMusic - 0xc9b4
 GameManager::playSFXTrigger - 0x2ef690
 GameManager::printGJLog - 0x2fd018
@@ -5766,6 +5768,7 @@ GameManager::returnToLastScene - 0x302cc8
 GameManager::rewardedVideoAdFinished - 0x2f6ce8
 GameManager::rewardedVideoHidden - 0x2f6e28
 GameManager::rewardedVideoHiddenDelayed - 0x2f6da4
+GameManager::safeModeEnabled - 0x2fab28
 GameManager::safePopScene - 0x303004
 GameManager::saveDPadLayout - 0x2fd024
 GameManager::setGameVariable - 0x2fa308
@@ -5776,6 +5779,7 @@ GameManager::shouldShowInterstitial - 0x2f6a8c
 GameManager::showInterstitial - 0x2f6a94
 GameManager::showInterstitialForced - 0x2f6b38
 GameManager::showMainMenuAd - 0x2f6a10
+GameManager::showParentalRestrictedAlert - 0x2fae3c
 GameManager::startUpdate - 0x2eedc0
 GameManager::stringForCustomObject - 0x2fb2bc
 GameManager::switchCustomObjects - 0x2fb490
@@ -6473,6 +6477,7 @@ GJBaseGameLayer::updatePlatformerTime - 0x10a52c
 GJBaseGameLayer::updatePlayerCollisionBlocks - 0xe6968
 GJBaseGameLayer::updateProximityVolumeEffects - 0x10a3d0
 GJBaseGameLayer::updateQueuedLabels - 0x103b70
+GJBaseGameLayer::updateReplay - 0x10a944
 GJBaseGameLayer::updateSavePositionObjects - 0xe7644
 GJBaseGameLayer::updateShaderLayer - 0xf3448
 GJBaseGameLayer::updateSpecialGroupData - 0xd3f40
@@ -6674,7 +6679,9 @@ GJGameLevel::lengthKeyToString - 0x4d5590
 GJGameLevel::encodeWithCoder - 0x4db398
 GJGameLevel::canEncode - 0x4dc7a4
 GJGameLevel::init - 0x4d4d10
+GJGameLevel::addPlaytime - 0x4d8340
 GJGameLevel::areCoinsVerified - 0x4dca24
+GJGameLevel::dtSetCells - 0x4d7350
 GJGameLevel::duplicate - 0x4d46e4
 GJGameLevel::generateSettingsString - 0x4d5b90
 GJGameLevel::getAudioFileName - 0x4d5978
@@ -7940,6 +7947,7 @@ LevelSettingsLayer::showPicker - 0x20160c
 LevelSettingsLayer::updateColorSprite - 0x20164c
 LevelSettingsLayer::updateColorSprites - 0x2003a0
 LevelSettingsLayer::updateGameplayModeButtons - 0x2007c8
+LevelSettingsObject::create - 0x9ae6c
 LevelSettingsObject::objectFromString - 0x9ce9c
 LevelSettingsObject::init - 0xc0134
 LevelSettingsObject::setupColorsFromLegacyMode - 0xc387c
@@ -8920,6 +8928,8 @@ PlayLayer::commitJumps - 0x782cc
 PlayLayer::createCheckpoint - 0x7ee38
 PlayLayer::createObjectsFromSetupFinished - 0x7a860
 PlayLayer::delayedResetLevel - 0x7e5e0
+PlayLayer::dtCommitPlaytime - 0x83e0c0
+PlayLayer::dtFlushCells - 0x83e178
 PlayLayer::fullReset - 0x81a80
 PlayLayer::getEndPosition - 0x775c0
 PlayLayer::getLastCheckpoint - 0x7fd9c
@@ -8947,7 +8957,7 @@ PlayLayer::removeCheckpoint - 0x80420
 PlayLayer::removeFromGroupOld - 0x7ac48
 PlayLayer::resetLevelFromStart - 0x816e8
 PlayLayer::resume - 0x8313c
-PlayLayer::resumeAndRestart - 0x305d54
+PlayLayer::resumeAndRestart - 0x82fec
 PlayLayer::saveActiveSaveObjects - 0x7ffb0
 PlayLayer::saveDynamicSaveObjects - 0x7fdd8
 PlayLayer::scanActiveSaveObjects - 0x74244
@@ -8966,13 +8976,15 @@ PlayLayer::spawnCircle - 0x78300
 PlayLayer::spawnFirework - 0x79084
 PlayLayer::startGame - 0x76ec0
 PlayLayer::startGameDelayed - 0x775b0
-PlayLayer::startMusic - 0x81b64
+PlayLayer::startMusic - 0x7745c
 PlayLayer::startRecordingDelayed - 0x82ce4
 PlayLayer::stopRecording - 0x719a4
 PlayLayer::storeCheckpoint - 0x80348
 PlayLayer::switchToStartPosObject - 0x81664
 PlayLayer::toggleBGEffectVisibility - 0x82ca8
 PlayLayer::toggleGhostEffect - 0x82c60
+PlayLayer::togglePracticeMode - 0x81b64
+PlayLayer::tracksPercent - 0x782a0
 PlayLayer::updateAttempts - 0x82a98
 PlayLayer::updateEffectPositions - 0x7e6a8
 PlayLayer::updateInfoLabel - 0x74460
@@ -8980,6 +8992,7 @@ PlayLayer::updateInvisibleBlock - 0x7bb50
 PlayLayer::updateProgressbar - 0x75d74
 PlayLayer::updateScreenRotation - 0x79de4
 PlayLayer::updateTestModeLabel - 0x76ffc
+PlayLayer::writePersistentSave - 0x80f3c
 PointNode::create - 0x5dde8
 PointNode::init - 0x7842b0
 PriceLabel::create - 0x41ccf0
@@ -9216,6 +9229,7 @@ SecretLayer::onBack - 0x5e97b8
 SecretLayer::onSubmit - 0x5e9824
 SecretLayer::selectAThread - 0x5eb73c
 SecretLayer::updateMessageLabel - 0x5e9474
+SecretLayer2::create - 0x3fe5c8
 SecretLayer2::scene - 0x3fe584
 SecretLayer2::init - 0x3fe6b0
 SecretLayer2::onExit - 0x404228
@@ -9876,7 +9890,6 @@ SetupSpawnPopup::queueUpdateButtons - 0x2218ec
 SetupSpawnPopup::updateRemapButtons - 0x221100
 SetupStaticCameraPopup::valueDidChange - 0x310814
 SetupStaticCameraPopup::onCustomToggleTriggerValue - 0x31089c
-SetupStaticCameraPopup::init - 0x426dcc
 SetupStaticCameraPopup::updateState - 0x3107a0
 SetupStopTriggerPopup::onClose - 0x50027c
 SetupStopTriggerPopup::onCustomToggleTriggerValue - 0x5001b8
