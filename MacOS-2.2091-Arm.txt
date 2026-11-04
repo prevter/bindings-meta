@@ -4068,6 +4068,8 @@ CCTextInputNode::setLabelPlaceholderScale - 0x6245c
 CCTextInputNode::setMaxLabelScale - 0x6244c
 CCTextInputNode::setMaxLabelWidth - 0x62454
 CCTextInputNode::setString - 0x5fd44
+CCTextInputNode::updateBlinkLabel - 0x60eac
+CCTextInputNode::updateBlinkLabelToChar - 0x62488
 CCTextInputNode::updateCursorPosition - 0x64968
 CCTextInputNode::updateDefaultFontValues - 0x5e944
 CCTextInputNode::updateLabel - 0x5ec2c
@@ -5691,6 +5693,7 @@ GameManager::colorKey - 0x2f00a0
 GameManager::completedAchievement - 0x2f0f5c
 GameManager::countForType - 0x2f770c
 GameManager::defaultFrameForAnimation - 0x1f12f4
+GameManager::didExitPlayscene - 0x3026f8
 GameManager::doQuickSave - 0x3026c8
 GameManager::dpadConfigToString - 0x2fda80
 GameManager::eventUnlockFeature - 0x2f6510

@@ -4229,6 +4229,7 @@ CCTextInputNode::setMaxLabelScale - 0x68e10
 CCTextInputNode::setMaxLabelWidth - 0x68e30
 CCTextInputNode::setString - 0x67040
 CCTextInputNode::updateBlinkLabel - 0x67dc0
+CCTextInputNode::updateBlinkLabelToChar - 0x68eb0
 CCTextInputNode::updateCursorPosition - 0x6b5e0
 CCTextInputNode::updateDefaultFontValues - 0x65cb0
 CCTextInputNode::updateLabel - 0x65f90
