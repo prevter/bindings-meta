@@ -207,6 +207,7 @@ AccountRegisterLayer::registerWithTouchDispatcher - 0x46290
 AccountRegisterLayer::keyBackClicked - 0x8ef60
 AccountRegisterLayer::FLAlert_Clicked - 0x8e3e0
 AccountRegisterLayer::textInputClosed - 0x8f0c0
+AccountRegisterLayer::textChanged - 0x90140
 AccountRegisterLayer::allowTextInput - 0x908a0
 AccountRegisterLayer::registerAccountFinished - 0x8dda0
 AccountRegisterLayer::registerAccountFailed - 0x8dfe0
@@ -219,7 +220,7 @@ AccountRegisterLayer::onSubmit - 0x8e430
 AccountRegisterLayer::resetLabel - 0x8e290
 AccountRegisterLayer::toggleUI - 0x8f010
 AccountRegisterLayer::updateLabel - 0x8e020
-AccountRegisterLayer::updatePasswordInfo - 0x90140
+AccountRegisterLayer::updatePasswordInfo - 0x8f9e0
 AccountRegisterLayer::validEmail - 0x908b0
 PagedListPopup::~PagedListPopup - 0xc2af0
 PagedListPopup::ccTouchBegan - 0xc3a70
@@ -4687,6 +4688,7 @@ MusicSearchResult::MusicSearchResult - 0x480db0
 MusicSearchResult::~MusicSearchResult - 0x4979d0
 MusicSearchResult::updateObjects - 0x498950
 MusicSearchResult::stateChanged - 0x498930
+MusicSearchResult::updateFutureCount - 0x498460
 MyStuffPopup::~MyStuffPopup - 0x550070
 MyStuffPopup::keyBackClicked - 0x99f90
 MyStuffPopup::init - 0x55c8f0
