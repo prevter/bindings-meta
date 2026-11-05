@@ -3167,6 +3167,7 @@ FLAlertLayer::keyDown - 0x494be0
 FLAlertLayer::show - 0x4950e0
 FLAlertLayer::textInputShouldOffset - 0x495380
 FLAlertLayer::textInputReturn - 0x495510
+FLAlertLayer::init - 0x494910
 FLAlertLayer::init - 0x493e30
 SetupTriggerPopup::~SetupTriggerPopup - 0x2191e0
 SetupTriggerPopup::create - 0x2194a0
@@ -5569,6 +5570,8 @@ ForceBlockGameObject::create - 0x1ccca0
 ForceBlockGameObject::customObjectSetup - 0x1cdd80
 ForceBlockGameObject::getSaveString - 0x1ccdc0
 ForceBlockGameObject::calculateForceToTarget - 0x1cdfe0
+FRequestProfilePage::~FRequestProfilePage - 0x86ece0
+FRequestProfilePage::create - 0x86ef10
 FRequestProfilePage::registerWithTouchDispatcher - 0x871990
 FRequestProfilePage::keyBackClicked - 0x871960
 FRequestProfilePage::FLAlert_Clicked - 0x8717f0
@@ -5640,6 +5643,7 @@ GameLevelManager::banUser - 0x562890
 GameLevelManager::cleanupDailyLevels - 0x54e1e0
 GameLevelManager::createAndGetAccountComments - 0x56aa60
 GameLevelManager::createAndGetLevelComments - 0x56aa60
+GameLevelManager::createAndGetMapPacks - 0x543950
 GameLevelManager::createAndGetScores - 0x5445a0
 GameLevelManager::createNewLevelList - 0x53f140
 GameLevelManager::createPageInfo - 0x54a5e0
@@ -5728,6 +5732,7 @@ GameLevelManager::getSplitIntFromKey - 0x562e60
 GameLevelManager::getStarLevelsString - 0x5471b0
 GameLevelManager::getStoredUserMessage - 0x567da0
 GameLevelManager::getStoredUserMessageReply - 0x567df0
+GameLevelManager::getThreadMembers - 0x575170
 GameLevelManager::getTopArtists - 0x566bd0
 GameLevelManager::getTopArtistsKey - 0x566fa0
 GameLevelManager::getUploadMessageKey - 0x569090
@@ -5754,7 +5759,7 @@ GameLevelManager::onDeleteUserMessagesCompleted - 0x52ad30
 GameLevelManager::onDownloadLevelCompleted - 0x524a50
 GameLevelManager::onDownloadUserMessageCompleted - 0x52aef0
 GameLevelManager::onGetFriendRequestsCompleted - 0x529cc0
-GameLevelManager::onGetGauntletsCompleted - 0x577350
+GameLevelManager::onGetGauntletsCompleted - 0x52e6a0
 GameLevelManager::onGetGJSecretRewardCompleted - 0x736f80
 GameLevelManager::onGetGJUserInfoCompleted - 0x5282b0
 GameLevelManager::onGetLeaderboardScoresCompleted - 0x525200
@@ -5897,6 +5902,7 @@ GameManager::getFontTexture - 0x36c500
 GameManager::getGameVariable - 0x360530
 GameManager::getGTexture - 0x36cfa0
 GameManager::getIconRequestID - 0x36c2f0
+GameManager::getIntGameVariable - 0x36d690
 GameManager::getMenuMusicFile - 0x360100
 GameManager::getMGTexture - 0x36cf50
 GameManager::getNextUniqueObjectKey - 0x36da90
@@ -5965,6 +5971,7 @@ GameManager::safeModeEnabled - 0x36d700
 GameManager::safePopScene - 0x376cd0
 GameManager::saveDPadLayout - 0x3701c0
 GameManager::setGameVariable - 0x36cff0
+GameManager::setIntGameVariable - 0x36d610
 GameManager::setUGV - 0x36d350
 GameManager::setupGameAnimations - 0x249540
 GameManager::sheetNameForIcon - 0x36a7b0
@@ -6135,6 +6142,7 @@ GameStatsManager::resetSpecialChest - 0x321d0
 GameStatsManager::resetSpecialStatAchievements - 0x3cfe0
 GameStatsManager::resetUserCoins - 0x349e0
 GameStatsManager::restorePostSync - 0x55760
+GameStatsManager::setStarsForMapPack - 0x34140
 GameStatsManager::setStat - 0x2c470
 GameStatsManager::setStatIfHigher - 0x32400
 GameStatsManager::setupIconCredits - 0x316e40
@@ -8405,6 +8413,8 @@ MessagesProfilePage::setupCommentsBrowser - 0x213a40
 MessagesProfilePage::untoggleAll - 0x213840
 MessagesProfilePage::updateLevelsLabel - 0x8967d0
 MessagesProfilePage::updatePageArrows - 0x214370
+MessageThreadsPage::~MessageThreadsPage - 0x927d30
+MessageThreadsPage::create - 0x927f30
 MessageThreadsPage::init - 0x9281c0
 MessageThreadsPage::keyBackClicked - 0x92d3b0
 MessageThreadsPage::show - 0x92d250
@@ -8420,6 +8430,23 @@ MessageThreadsPage::threadListFinished - 0x92c180
 MessageThreadsPage::threadListFailed - 0x92d040
 MessageThreadsPage::threadUpdateFinished - 0x92b2a0
 MessageThreadsPage::threadUpdateFailed - 0x92b4c0
+MessageThreadsPage::applyThreadList - 0x92c7e0
+MessageThreadsPage::onClearSearch - 0x9299a0
+MessageThreadsPage::onClose - 0x929760
+MessageThreadsPage::onDeleteSelected - 0x92a0c0
+MessageThreadsPage::onLegacyMessages - 0x929830
+MessageThreadsPage::onMarkRead - 0x929f10
+MessageThreadsPage::onNewThread - 0x9298c0
+MessageThreadsPage::onNextPage - 0x929c00
+MessageThreadsPage::onPrevPage - 0x929be0
+MessageThreadsPage::onRefresh - 0x929c20
+MessageThreadsPage::onScrollToTop - 0x929d40
+MessageThreadsPage::onSearch - 0x929960
+MessageThreadsPage::onSelectFilter - 0x929af0
+MessageThreadsPage::onSelectionChanged - 0x92a800
+MessageThreadsPage::onShowInvites - 0x92a6a0
+MessageThreadsPage::onThreadsChanged - 0x92a7c
+MessageThreadsPage::onUserFilter - 0x929a40
 MoreOptionsLayer::~MoreOptionsLayer - 0x87c6a0
 MoreOptionsLayer::create - 0x87c820
 MoreOptionsLayer::init - 0x87ca40
@@ -8639,6 +8666,8 @@ NewsPopup::musicActionFinished - 0x95b070
 NewsPopup::musicActionFailed - 0x95b0b0
 NewsPopup::newsImageDownloaded - 0x95b170
 NewsPopup::newsImageFailed - 0x95b2a0
+NewThreadPopup::~NewThreadPopup - 0x944030
+NewThreadPopup::create - 0x92c100
 NewThreadPopup::keyBackClicked - 0x948dc0
 NewThreadPopup::keyDown - 0x947160
 NewThreadPopup::show - 0x948d40
@@ -8653,7 +8682,9 @@ NewThreadPopup::isRecipientSelected - 0x947f90
 NewThreadPopup::selectedRecipientCount - 0x947f30
 NewThreadPopup::selectedRecipients - 0x947f70
 NewThreadPopup::textChanged - 0x947630
+NewThreadPopup::threadSendFinished - 0x948270
 NewThreadPopup::threadSendFailed - 0x948c10
+NewThreadPopup::init - 0x944240
 NodePoint::create - 0xd8d40
 NotificationFilterPopup::keyBackClicked - 0x98d630
 NotificationFilterPopup::onClose - 0x98d540
@@ -8809,6 +8840,10 @@ PauseLayer::onResume - 0x3c1280
 PauseLayer::onShowStartposBrowser - 0x3c1cf0
 PauseLayer::onTime - 0x3c2330
 PauseLayer::onTryEdit - 0x3c1020
+PauseLayer::setupLegacyProgressBars - 0x3c2510
+PauseLayer::setupPlatformerLabels - 0x3c2bf0
+PauseLayer::setupProgressBars - 0x3c0f70
+PauseLayer::setupSessionProgressBar - 0x3c2870
 PauseLayer::sfxSliderChanged - 0x3c1b30
 PauseLayer::tryQuit - 0x3c1390
 PauseLayer::tryShowBanner - 0x3c2300
@@ -9150,6 +9185,8 @@ PlayLayer::delayedResetLevel - 0x88550
 PlayLayer::dtCommitPlaytime - 0x9603b0
 PlayLayer::dtFlushCells - 0x960490
 PlayLayer::fullReset - 0x8c460
+PlayLayer::getCurrentPercent - 0x87040
+PlayLayer::getCurrentPercentInt - 0x87760
 PlayLayer::getEndPosition - 0x80ac0
 PlayLayer::getLastCheckpoint - 0x8a4c0
 PlayLayer::getRelativeMod - 0x86b90
@@ -9262,6 +9299,7 @@ ProfilePage::onMyLevels - 0x8a4030
 ProfilePage::onMyLists - 0x8a4210
 ProfilePage::onNextPage - 0x8a5750
 ProfilePage::onPrevPage - 0x8a5730
+ProfilePage::onRequests - 0x8a4510
 ProfilePage::onSendMessage - 0x8a21c0
 ProfilePage::onSettings - 0x8a4630
 ProfilePage::onUpdate - 0x89edc0
