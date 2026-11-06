@@ -2194,7 +2194,7 @@ EmoteSprite::effectiveLength - 0x7fc10
 EmoteSprite::fitToHeight - 0x7f200
 EmoteSprite::setColor - 0x3f5c0
 EmoteSprite::parseTokens - 0x7f9b0
-EmoteSprite::replaceTokens - 0x7fd40
+EmoteSprite::replaceTokens - 0x7ffa0
 EndLevelLayer::keyBackClicked - 0x206a30
 EndLevelLayer::keyDown - 0x2080c0
 EndLevelLayer::customSetup - 0x203d90
