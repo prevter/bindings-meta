@@ -789,6 +789,7 @@ cocos2d::CCEGLView::end - 0x45e1d8
 cocos2d::CCEGLView::swapBuffers - 0x45e230
 cocos2d::CCEGLView::isOpenGLReady - 0x45e1ac
 cocos2d::CCEGLView::setIMEKeyboardState - 0x45e2e0
+cocos2d::CCEGLView::getMousePosition - 0x45e268
 cocos2d::CCEGLView::setContentScaleFactor - 0x45e1d0
 cocos2d::CCEGLView::setViewPortInPoints - 0x45e318
 cocos2d::CCEGLView::setScissorInPoints - 0x45e3c0
@@ -808,11 +809,12 @@ cocos2d::CCEGLViewProtocol::setScissorInPoints - 0x46c2dc
 cocos2d::CCEGLViewProtocol::isScissorEnabled - 0x46c308
 cocos2d::CCEGLViewProtocol::getScissorRect - 0x46c328
 cocos2d::CCEGLViewProtocol::setViewName - 0x46c3b8
-cocos2d::CCEGLViewProtocol::pollInputEvents - 0x46cbbc
 cocos2d::CCEGLViewProtocol::handleTouchesBegin - 0x46c3dc
 cocos2d::CCEGLViewProtocol::handleTouchesMove - 0x46c6ac
 cocos2d::CCEGLViewProtocol::handleTouchesEnd - 0x46c9ec
 cocos2d::CCEGLViewProtocol::handleTouchesCancel - 0x46ca98
+cocos2d::CCEGLViewProtocol::pollInputEvents - 0x46cbbc
+cocos2d::CCEGLViewProtocol::getMousePosition - 0x46cce4
 cocos2d::CCEGLViewProtocol::getScaleX - 0x46cbac
 cocos2d::CCEGLViewProtocol::getScaleY - 0x46cbb4
 cocos2d::CCEGLViewProtocol::getSetOfTouchesEndOrCancel - 0x46c858
@@ -8465,7 +8467,11 @@ MusicSearchResult::stateChanged - 0x5a0ad8
 MusicSearchResult::init - 0x1a05cc
 MusicSearchResult::updateFutureCount - 0x863168
 MusicSearchResult::updateObjects - 0x5a0af8
+MyStuffPopup::create - 0x7990c0
 MyStuffPopup::keyBackClicked - 0x79c7b4
+MyStuffPopup::init - 0x79c11c
+MyStuffPopup::onClose - 0x79c6bc
+MyStuffPopup::onSocialPage - 0x79c6f8
 NCSInfoLayer::keyBackClicked - 0x1ad450
 NCSInfoLayer::init - 0x1acce4
 NCSInfoLayer::onClose - 0x1ad414
@@ -9085,6 +9091,7 @@ PriceLabel::init - 0x41ce14
 PriceLabel::setColor - 0x41d030
 PriceLabel::setOpacity - 0x41d088
 PriceLabel::setPrice - 0x41cefc
+ProfilePage::~ProfilePage - 0x790cb0
 ProfilePage::create - 0x790e9c
 ProfilePage::registerWithTouchDispatcher - 0x79a32c
 ProfilePage::keyBackClicked - 0x798730
@@ -10138,8 +10145,10 @@ ShareCommentLayer::onShare - 0x5cc428
 ShareCommentLayer::updateCharCountLabel - 0x5cd038
 ShareCommentLayer::updateDescText - 0x5cc9f4
 ShareCommentLayer::updatePercentLabel - 0x5cc238
+ShareLevelLayer::create - 0x213698
 ShareLevelLayer::keyBackClicked - 0x215528
 ShareLevelLayer::getStarsButton - 0x214e4c
+ShareLevelLayer::init - 0x21381c
 ShareLevelLayer::onClose - 0x214b18
 ShareLevelLayer::onShare - 0x214b54
 ShareLevelLayer::selectRating - 0x214f14
@@ -10383,6 +10392,7 @@ StartPosObject::create - 0x15cff8
 StartPosObject::init - 0x15d104
 StartPosObject::customObjectSetup - 0x15d248
 StartPosObject::getSaveString - 0x15d24c
+StartPosObject::getDisplayName - 0x15d330
 StartPosObject::loadSettingsFromString - 0x15d1e8
 StartPosObject::setSettings - 0x15d1a0
 StatsCell::StatsCell - 0x1e7684

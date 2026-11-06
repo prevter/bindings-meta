@@ -813,6 +813,7 @@ cocos2d::CCEGLView::end - 0x5022c0
 cocos2d::CCEGLView::swapBuffers - 0x502330
 cocos2d::CCEGLView::isOpenGLReady - 0x502290
 cocos2d::CCEGLView::setIMEKeyboardState - 0x502460
+cocos2d::CCEGLView::getMousePosition - 0x5023b0
 cocos2d::CCEGLView::setContentScaleFactor - 0x5022b0
 cocos2d::CCEGLView::setViewPortInPoints - 0x5024b0
 cocos2d::CCEGLView::setScissorInPoints - 0x5025a0
@@ -832,11 +833,12 @@ cocos2d::CCEGLViewProtocol::setScissorInPoints - 0x510f80
 cocos2d::CCEGLViewProtocol::isScissorEnabled - 0x510fc0
 cocos2d::CCEGLViewProtocol::getScissorRect - 0x510fe0
 cocos2d::CCEGLViewProtocol::setViewName - 0x511080
-cocos2d::CCEGLViewProtocol::pollInputEvents - 0x511880
 cocos2d::CCEGLViewProtocol::handleTouchesBegin - 0x5110b0
 cocos2d::CCEGLViewProtocol::handleTouchesMove - 0x511390
 cocos2d::CCEGLViewProtocol::handleTouchesEnd - 0x5116c0
 cocos2d::CCEGLViewProtocol::handleTouchesCancel - 0x511750
+cocos2d::CCEGLViewProtocol::pollInputEvents - 0x511880
+cocos2d::CCEGLViewProtocol::getMousePosition - 0x5119c0
 cocos2d::CCEGLViewProtocol::getScaleX - 0x511860
 cocos2d::CCEGLViewProtocol::getScaleY - 0x511870
 cocos2d::CCEGLViewProtocol::getSetOfTouchesEndOrCancel - 0x511530
@@ -6364,6 +6366,7 @@ GJBaseGameLayer::activatePersistentItemTrigger - 0x12b160
 GJBaseGameLayer::activatePlayerControlTrigger - 0x1077d0
 GJBaseGameLayer::activateResetTrigger - 0x129c30
 GJBaseGameLayer::activateSFXEditTrigger - 0x139fb0
+GJBaseGameLayer::activateSFXTrigger - 0x139c10
 GJBaseGameLayer::activateSongEditTrigger - 0x139a60
 GJBaseGameLayer::activateSongTrigger - 0x1397f0
 GJBaseGameLayer::activateTimerTrigger - 0x12b560
@@ -8640,7 +8643,11 @@ MusicSearchResult::updateObjects - 0x668480
 MusicSearchResult::stateChanged - 0x668420
 MusicSearchResult::getFilesMatchingSearch - 0x668680
 MusicSearchResult::init - 0x667030
+MyStuffPopup::create - 0x8a6660
 MyStuffPopup::keyBackClicked - 0x8a9ef0
+MyStuffPopup::init - 0x8a9790
+MyStuffPopup::onClose - 0x8a9e20
+MyStuffPopup::onSocialPage - 0x8a9e50
 NCSInfoLayer::keyBackClicked - 0x1fbcf0
 NCSInfoLayer::init - 0x1fb550
 NCSInfoLayer::onClose - 0x1fbcc0
@@ -9261,6 +9268,7 @@ PriceLabel::init - 0x4b8800
 PriceLabel::setColor - 0x4b8a40
 PriceLabel::setOpacity - 0x4b8a90
 PriceLabel::setPrice - 0x4b88e0
+ProfilePage::~ProfilePage - 0x89d7e0
 ProfilePage::create - 0x89dad0
 ProfilePage::registerWithTouchDispatcher - 0x8a78e0
 ProfilePage::keyBackClicked - 0x8a5d20
@@ -10514,6 +10522,7 @@ StartPosObject::create - 0x19df60
 StartPosObject::init - 0x19e070
 StartPosObject::customObjectSetup - 0x19e1c0
 StartPosObject::getSaveString - 0x19e1d0
+StartPosObject::getDisplayName - 0x19e290
 StartPosObject::loadSettingsFromString - 0x19e160
 StartPosObject::setSettings - 0x19e110
 StatsCell::StatsCell - 0x23ba90
