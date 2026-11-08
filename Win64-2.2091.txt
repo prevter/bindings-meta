@@ -2875,6 +2875,8 @@ GameSettingsLayer::addSpecialContent - 0x2c5200
 GameSettingsLayer::addToggle - 0x2c6720
 GameSettingsLayer::buildTabContent - 0x2c2df0
 GameSettingsLayer::didChangeGV - 0x2c74a0
+GameSettingsLayer::onButtonRows - 0x2c6690
+GameSettingsLayer::onButtonsPerRow - 0x2c6600
 GameSettingsLayer::setupTabs - 0x2c2920
 GameStatsManager::~GameStatsManager - 0x2d68e0
 GameStatsManager::sharedState - 0x2d6890
