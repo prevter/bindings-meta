@@ -4601,6 +4601,7 @@ CustomSongWidget::toggleUpdateButton - 0x60d01c
 CustomSongWidget::updateDownloadProgress - 0x60d3d0
 CustomSongWidget::updateError - 0x60e9a8
 CustomSongWidget::updateLengthMod - 0x60d52c
+CustomSongWidget::updateMultiAssetInfo - 0x60dd44
 CustomSongWidget::updatePlaybackBtn - 0x60c8a8
 CustomSongWidget::updateProgressBar - 0x60b7a0
 CustomSongWidget::updateSongInfo - 0x60b8bc
