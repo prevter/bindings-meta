@@ -5960,6 +5960,7 @@ GameManager::loadVideoSettings - 0x372950
 GameManager::lockColor - 0x361a80
 GameManager::lockIcon - 0x361650
 GameManager::logLoadedIconInfo - 0x36c310
+GameManager::modUIRank - 0x36d260
 GameManager::onlyCuratedLevels - 0x36d8f0
 GameManager::openEditorGuide - 0x369e00
 GameManager::playMenuMusic - 0x360390
