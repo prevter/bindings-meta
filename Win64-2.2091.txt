@@ -401,6 +401,7 @@ AdminActionConfirmPopup::keyBackClicked - 0xa6580
 AdminActionConfirmPopup::onClose - 0xa6530
 AdminActionConfirmPopup::addHelp - 0xa60e0
 AdminActionConfirmPopup::createContentDelete - 0xa53b0
+AdminActionConfirmPopup::init - 0xa5680
 AdminActionConfirmPopup::onConfirm - 0xa6240
 AdminLogEntry::~AdminLogEntry - 0x217160
 AdminReportedEntry::~AdminReportedEntry - 0x2171d0
@@ -963,6 +964,7 @@ ChallengesPage::show - 0x9eec0
 ChallengesPage::challengeStatusFinished - 0x9e4b0
 ChallengesPage::challengeStatusFailed - 0x9e640
 ChallengesPage::currencyWillExit - 0x9f410
+ChallengesPage::canCollectQuests - 0x9e380
 ChallengesPage::claimItem - 0x9f0f0
 ChallengesPage::createChallengeNode - 0x9e790
 ChallengesPage::exitNodeAtSlot - 0x9eac0
