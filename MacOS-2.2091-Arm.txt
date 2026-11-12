@@ -2201,7 +2201,7 @@ cocos2d::CCTextureAtlas::initWithFile - 0x40d1f0
 cocos2d::CCTextureAtlas::initWithTexture - 0x40d2fc
 cocos2d::CCTextureAtlas::insertQuad - 0x40d724
 cocos2d::CCTextureAtlas::insertQuadFromIndex - 0x40d88c
-cocos2d::CCTextureAtlas::insertQuads - 0x2a7038
+cocos2d::CCTextureAtlas::insertQuads - 0x40d7c4
 cocos2d::CCTextureAtlas::listenBackToForeground - 0x40d604
 cocos2d::CCTextureAtlas::mapBuffers - 0x40d658
 cocos2d::CCTextureAtlas::moveQuadsFromIndex - 0x40dd34
@@ -2935,6 +2935,8 @@ cocos2d::extension::CCTableViewCell::reset - 0x39cabc
 cocos2d::extension::CCTableViewCell::setIdx - 0x39caf0
 cocos2d::ZipUtils::base64DecodeEnc - 0x19b234
 cocos2d::ZipUtils::base64EncodeEnc - 0x19b4a8
+cocos2d::ZipUtils::ccDeflateMemory - 0x19ab48
+cocos2d::ZipUtils::compressString - 0x19a884
 cocos2d::ZipUtils::decompressString - 0x19afac
 cocos2d::ZipUtils::decompressString2 - 0x19ac8c
 cocos2d::ZipUtils::hexToChar - 0x19bc9c
@@ -4777,6 +4779,7 @@ EditLevelLayer::confirmDelete - 0x1930f4
 EditLevelLayer::confirmMoveToTop - 0x1931dc
 EditLevelLayer::init - 0x190af8
 EditLevelLayer::onBack - 0x1937b8
+EditLevelLayer::onClone - 0x194bfc
 EditLevelLayer::onDelete - 0x194894
 EditLevelLayer::onEdit - 0x1921a8
 EditLevelLayer::onLevelLeaderboard - 0x193548
@@ -5492,6 +5495,7 @@ GameLevelManager::banUser - 0x4b62a0
 GameLevelManager::cleanupDailyLevels - 0x4a3df4
 GameLevelManager::createAndGetMapPacks - 0x49a294
 GameLevelManager::createAndGetScores - 0x49ada8
+GameLevelManager::createNewLevel - 0x495280
 GameLevelManager::createNewLevelList - 0x4960b4
 GameLevelManager::createPageInfo - 0x10c2d4
 GameLevelManager::createSmartTemplate - 0x4a4bd8
@@ -6740,6 +6744,7 @@ GJGameLevel::canEncode - 0x4dc7a4
 GJGameLevel::init - 0x4d4d10
 GJGameLevel::addPlaytime - 0x4d8340
 GJGameLevel::areCoinsVerified - 0x4dca24
+GJGameLevel::copyLevelInfo - 0x4d91a8
 GJGameLevel::dataLoaded - 0x4d9cec
 GJGameLevel::dtBumpRun - 0x4d6db0
 GJGameLevel::dtSetCells - 0x4d7350
@@ -8928,7 +8933,7 @@ PlayerObject::saveToCheckpoint - 0x382eac
 PlayerObject::setSecondColor - 0x368dc8
 PlayerObject::setupStreak - 0x3677b8
 PlayerObject::setYVelocity - 0x3675b8
-PlayerObject::spawnCircle - 0x194bfc
+PlayerObject::spawnCircle - 0x37b1c4
 PlayerObject::spawnCircle2 - 0x37b2a8
 PlayerObject::spawnDualCircle - 0x37b5ac
 PlayerObject::spawnFromPlayer - 0x1607f8
@@ -10820,7 +10825,9 @@ WorldSelectLayer::showCompleteDialog - 0x333400
 WorldSelectLayer::tryShowAd - 0x333da8
 WorldSelectLayer::unblockButtons - 0x333d90
 WorldSelectLayer::updateArrows - 0x3331b4
+deserializeCheckpoint - 0x53fa94
 offsetForKey - 0x548e74
+serializeCheckpoint - 0x53f178
 kmAABBAssign - 0x5e14e4
 kmAABBContainsPoint - 0x5e1480
 kmAlmostEqual - 0x77004c

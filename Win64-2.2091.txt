@@ -7847,6 +7847,8 @@ WriteArchive::process - 0x521c20
 WriteArchive::process - 0x521e70
 WriteArchive::process - 0x5212b0
 WriteArchive::processGOArr - 0x5217b0
+deserializeCheckpoint - 0x530fb0
 ensureEmotesAreLoaded - 0x7ebc0
 isSpecialSnapObject - 0x1a1a50
 offsetForKey - 0x19f3e0
+serializeCheckpoint - 0x5302f0

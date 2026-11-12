@@ -4947,7 +4947,7 @@ EditLevelLayer::confirmDelete - 0x1df410
 EditLevelLayer::confirmMoveToTop - 0x1df500
 EditLevelLayer::init - 0x1dccd0
 EditLevelLayer::onBack - 0x1dfaa0
-EditLevelLayer::onClone - 0x4006e0
+EditLevelLayer::onClone - 0x1e0f60
 EditLevelLayer::onDelete - 0x1e0c20
 EditLevelLayer::onEdit - 0x1de4a0
 EditLevelLayer::onLevelLeaderboard - 0x1df860
@@ -5668,6 +5668,7 @@ GameLevelManager::createAndGetAccountComments - 0x56aa60
 GameLevelManager::createAndGetLevelComments - 0x56aa60
 GameLevelManager::createAndGetMapPacks - 0x543950
 GameLevelManager::createAndGetScores - 0x5445a0
+GameLevelManager::createNewLevel - 0x53e200
 GameLevelManager::createNewLevelList - 0x53f140
 GameLevelManager::createPageInfo - 0x54a5e0
 GameLevelManager::createSmartTemplate - 0x54f030
@@ -6925,6 +6926,7 @@ GJGameLevel::canEncode - 0x58bf40
 GJGameLevel::init - 0x583420
 GJGameLevel::addPlaytime - 0x5870e0
 GJGameLevel::areCoinsVerified - 0x58c1b0
+GJGameLevel::copyLevelInfo - 0x588200
 GJGameLevel::dataLoaded - 0x588fb0
 GJGameLevel::dtSetCells - 0x585fb0
 GJGameLevel::duplicate - 0x582c00
@@ -10953,7 +10955,9 @@ WorldSelectLayer::showCompleteDialog - 0x3ac0c0
 WorldSelectLayer::tryShowAd - 0x3aca60
 WorldSelectLayer::unblockButtons - 0x3aca30
 WorldSelectLayer::updateArrows - 0x3abeb0
+deserializeCheckpoint - 0x5f8940
 offsetForKey - 0x603db0
+serializeCheckpoint - 0x5f7d30
 kmAABBAssign - 0x6c94a0
 kmAABBContainsPoint - 0x6c9450
 kmAlmostEqual - 0x87a700
