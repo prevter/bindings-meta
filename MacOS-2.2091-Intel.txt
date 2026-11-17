@@ -3157,6 +3157,7 @@ pugi::xml_document::xml_document - 0x71de80
 pugi::xml_document::~xml_document - 0x71dfc0
 FLAlertLayer::~FLAlertLayer - 0x4937b0
 FLAlertLayer::create - 0x493d70
+FLAlertLayer::create - 0x493b70
 FLAlertLayer::onEnter - 0x495640
 FLAlertLayer::ccTouchBegan - 0x494de0
 FLAlertLayer::ccTouchMoved - 0x495060
@@ -5772,10 +5773,10 @@ GameLevelManager::getPageInfo - 0x54a4f0
 GameLevelManager::getPostCommentKey - 0x56bdf0
 GameLevelManager::getRateStarsKey - 0x561fc0
 GameLevelManager::getReportKey - 0x569070
-GameLevelManager::getSavedDailyLevel - 0x5491b0
+GameLevelManager::getSavedDailyLevel - 0x548fb0
 GameLevelManager::getSavedDailyLevelFromLevelID - 0x5492b0
 GameLevelManager::getSavedLevel - 0x542e90
-GameLevelManager::getSavedLevel - 0x548fb0
+GameLevelManager::getSavedLevel - 0x5491b0
 GameLevelManager::getSavedLevelLists - 0x5468e0
 GameLevelManager::getSavedLevels - 0x5466f0
 GameLevelManager::getSearchScene - 0x54ad10
@@ -5796,10 +5797,12 @@ GameLevelManager::handleItND - 0x5225f0
 GameLevelManager::hasDailyStateBeenLoaded - 0x580f90
 GameLevelManager::hasDownloadedLevel - 0x55eea0
 GameLevelManager::hasDownloadedList - 0x559460
+GameLevelManager::hasLikedItem - 0x57f870
 GameLevelManager::hasLikedItemFullCheck - 0x57f080
 GameLevelManager::invalidateUserList - 0x576120
 GameLevelManager::isDLActive - 0x54a6a0
 GameLevelManager::isFollowingUser - 0x54e5f0
+GameLevelManager::isPastDailyCopy - 0x54b9a0
 GameLevelManager::isUpdateValid - 0x561100
 GameLevelManager::likeItem - 0x57e6f0
 GameLevelManager::makeTimeStamp - 0x54a1a0
@@ -5902,6 +5905,7 @@ GameLevelManager::uploadUserMessage - 0x562240
 GameLevelManager::userIDForAccountID - 0x540700
 GameLevelManager::userInfoForAccountID - 0x540720
 GameLevelManager::userNameForUserID - 0x540260
+GameLevelManager::vaultTimedType - 0x558500
 GameLevelManager::verifyContainerOnlyHasLevels - 0x54f750
 GameLevelManager::verifyLevelState - 0x540760
 GameLevelManager::writeSpecialFilters - 0x558000
@@ -5916,6 +5920,7 @@ GameManager::didEncodeForSave - 0x3762f0
 GameManager::saveFinished - 0x3763f0
 GameManager::dataLoaded - 0x372a60
 GameManager::firstLoad - 0x374800
+GameManager::accountPostsRestricted - 0x36d7b0
 GameManager::accountStatusChanged - 0x36e470
 GameManager::activeIconForType - 0x369f60
 GameManager::addCustomAnimationFrame - 0x2504a0
@@ -5935,6 +5940,7 @@ GameManager::clearGJLog - 0x3701a0
 GameManager::colorForIdx - 0x368f00
 GameManager::colorForPos - 0x3693c0
 GameManager::colorKey - 0x3616b0
+GameManager::commentsRestricted - 0x36d760
 GameManager::completedAchievement - 0x362470
 GameManager::countForType - 0x36a1d0
 GameManager::defaultFrameForAnimation - 0x247950
@@ -5995,6 +6001,7 @@ GameManager::lockColor - 0x361a80
 GameManager::lockIcon - 0x361650
 GameManager::logLoadedIconInfo - 0x36c310
 GameManager::modUIRank - 0x36d260
+GameManager::offlineModeEnabled - 0x36d740
 GameManager::onlyCuratedLevels - 0x36d8f0
 GameManager::openEditorGuide - 0x369e00
 GameManager::playMenuMusic - 0x360390
@@ -6091,6 +6098,7 @@ GameStatsManager::addSpecialRewardDescription - 0x3de10
 GameStatsManager::addStoreItem - 0x2bde0
 GameStatsManager::areChallengesLoaded - 0x388a0
 GameStatsManager::areRewardsLoaded - 0x37dd0
+GameStatsManager::awardCurrencyForLevel - 0x36a10
 GameStatsManager::awardDiamondsForLevel - 0x372f0
 GameStatsManager::awardOldSpecialStats - 0x3bae0
 GameStatsManager::awardSecretKey - 0x53010
@@ -6127,6 +6135,7 @@ GameStatsManager::getCollectedCoinsForLevel - 0x328b0
 GameStatsManager::getCompletedMapPacks - 0x34360
 GameStatsManager::getCurrencyKey - 0x36410
 GameStatsManager::getDailyLevelKey - 0x39a10
+GameStatsManager::getDailyStarKey - 0x32e90
 GameStatsManager::getDemonLevelKey - 0x32dc0
 GameStatsManager::getEventRewardKey - 0x3ea30
 GameStatsManager::getGauntletRewardKey - 0x3dc30
@@ -6159,6 +6168,7 @@ GameStatsManager::getTotalCollectedDiamonds - 0x3b560
 GameStatsManager::hasClaimedListReward - 0x39660
 GameStatsManager::hasCompletedChallenge - 0x392c0
 GameStatsManager::hasCompletedDailyLevel - 0x39ad0
+GameStatsManager::hasCompletedDailyStars - 0x3a0a0
 GameStatsManager::hasCompletedGauntletLevel - 0x33070
 GameStatsManager::hasCompletedLevel - 0x32f40
 GameStatsManager::hasCompletedMainLevel - 0x32ec0
@@ -6170,6 +6180,7 @@ GameStatsManager::incrementActivePath - 0x30f50
 GameStatsManager::incrementChallenge - 0x30d00
 GameStatsManager::incrementStat - 0x2c650
 GameStatsManager::incrementStat - 0x2c660
+GameStatsManager::isDailyRecall - 0x36fd0
 GameStatsManager::isGauntletChestUnlocked - 0x3d280
 GameStatsManager::isGauntletUnlocked - 0x3e780
 GameStatsManager::isItemEnabled - 0x3d8e0
@@ -6981,6 +6992,7 @@ GJGameLevel::getSongName - 0x5843e0
 GJGameLevel::getUnpackedLevelDescription - 0x58c210
 GJGameLevel::handleStatsConflict - 0x551010
 GJGameLevel::isPlatformer - 0x548810
+GJGameLevel::levelHasDiamonds - 0x58c2b0
 GJGameLevel::saveNewScore - 0x584610
 GJGameLevel::savePercentage - 0x583a40
 GJGameLevel::scoreStringToVector - 0x584bf0
@@ -7587,6 +7599,7 @@ HardStreak::~HardStreak - 0x63f10
 HardStreak::create - 0x63fb0
 HardStreak::init - 0x64080
 HardStreak::addPoint - 0x64dd0
+HardStreak::clearAboveXPos - 0x651b0
 HardStreak::clearBehindXPos - 0x65110
 HardStreak::normalizeAngle - 0x65330
 HardStreak::quadCornerOffset - 0x65250
@@ -7647,6 +7660,8 @@ InfoLayer::keyDown - 0x8983f0
 InfoLayer::adminActionConfirmed - 0x897d60
 InfoLayer::bulkCommentDeleteFinished - 0x898080
 InfoLayer::bulkCommentDeleteFailed - 0x898290
+InfoLayer::canBulkDelete - 0x897080
+InfoLayer::canToggleModRoom - 0x8940a0
 InfoLayer::confirmReport - 0x5bd6e0
 InfoLayer::getAccountID - 0x8945e0
 InfoLayer::getID - 0x8945e0
@@ -7662,6 +7677,7 @@ InfoLayer::onOriginal - 0x893910
 InfoLayer::onPrevPage - 0x894060
 InfoLayer::onRefreshComments - 0x895480
 InfoLayer::onSimilar - 0x895bd0
+InfoLayer::parentalCommentsDisabled - 0x893520
 InfoLayer::setupCommentsBrowser - 0x894ad0
 InfoLayer::setupLevelInfo - 0x8936f0
 InfoLayer::toggleCommentMode - 0x8941e0
@@ -7854,6 +7870,8 @@ LevelBrowserLayer::getItemsMatchingSearch - 0x485900
 LevelBrowserLayer::getSearchTitle - 0x485fb0
 LevelBrowserLayer::init - 0x480690
 LevelBrowserLayer::isCorrect - 0x485730
+LevelBrowserLayer::isSafeType - 0x482770
+LevelBrowserLayer::isVaultType - 0x483ec0
 LevelBrowserLayer::onClearSearch - 0x484430
 LevelBrowserLayer::onDeleteAll - 0x483540
 LevelBrowserLayer::onGoToFolder - 0x484050
@@ -7874,13 +7892,16 @@ LevelCell::~LevelCell - 0x236880
 LevelCell::create - 0x236900
 LevelCell::init - 0x236ad0
 LevelCell::draw - 0x23aee0
+LevelCell::inRecallMode - 0x23a830
 LevelCell::loadCustomLevelCell - 0x2373e0
 LevelCell::loadFromLevel - 0x22a390
 LevelCell::loadLocalLevelCell - 0x236b10
 LevelCell::onClick - 0x23ac60
 LevelCell::onToggle - 0x302d20
 LevelCell::onViewProfile - 0x23aeb0
+LevelCell::recallChestReady - 0x23a920
 LevelCell::recallLevel - 0x23a8b0
+LevelCell::recallSavedLevel - 0x23a850
 LevelCell::updateBGColor - 0x22a580
 LevelCell::updateCellMode - 0x2364a0
 LevelCell::updateToggle - 0x236280
@@ -8670,6 +8691,7 @@ MusicDelegateHandler::create - 0x649bb0
 MusicDelegateHandler::init - 0x649c30
 MusicDownloadManager::customSFXPathDisplay - 0x652b50
 MusicDownloadManager::customSFXPathLeaf - 0x6529f0
+MusicDownloadManager::encodeCustomSFXMappingEntries - 0x653710
 MusicDownloadManager::linkTypeForURL - 0x65cb70
 MusicDownloadManager::sharedState - 0x649cd0
 MusicDownloadManager::init - 0x64b320
@@ -8680,6 +8702,8 @@ MusicDownloadManager::addSongObjectFromString - 0x64c080
 MusicDownloadManager::clearSong - 0x64ea10
 MusicDownloadManager::clearUnusedSongs - 0x64ebc0
 MusicDownloadManager::createArtistsInfo - 0x64d970
+MusicDownloadManager::createCustomSFXFolder - 0x651f80
+MusicDownloadManager::createCustomSFXPlacement - 0x6522d0
 MusicDownloadManager::createSongsInfo - 0x64d520
 MusicDownloadManager::dataLoaded - 0x657940
 MusicDownloadManager::decodeCustomSFX - 0x657040
@@ -8695,6 +8719,7 @@ MusicDownloadManager::downloadSong - 0x64ed20
 MusicDownloadManager::downloadSongFailed - 0x64f800
 MusicDownloadManager::downloadSongFinished - 0x64f870
 MusicDownloadManager::downloadSongStarted - 0x64eca0
+MusicDownloadManager::encodeCustomSFX - 0x6562d0
 MusicDownloadManager::encodeDataTo - 0x6572b0
 MusicDownloadManager::filterMusicByArtistID - 0x65e800
 MusicDownloadManager::filterMusicByTag - 0x65ea20
@@ -8723,6 +8748,9 @@ MusicDownloadManager::getSongInfo - 0x64bb20
 MusicDownloadManager::getSongInfoKey - 0x64b6e0
 MusicDownloadManager::getSongInfoObject - 0x64b9c0
 MusicDownloadManager::getSongPriority - 0x64bb00
+MusicDownloadManager::handleIt - 0x64a380
+MusicDownloadManager::handleItDelayed - 0x64a650
+MusicDownloadManager::handleItND - 0x64a790
 MusicDownloadManager::importCustomSFXFromFile - 0x656770
 MusicDownloadManager::importCustomSFXSetup - 0x653bf0
 MusicDownloadManager::incrementPriorityForSong - 0x64b990
@@ -8738,13 +8766,24 @@ MusicDownloadManager::loadSongInfoFinished - 0x64bf70
 MusicDownloadManager::musicActionFailed - 0x658dc0
 MusicDownloadManager::nameForTagID - 0x65eb00
 MusicDownloadManager::onDownloadMusicLibraryCompleted - 0x65a3c0
+MusicDownloadManager::onDownloadNewsFeedCompleted - 0x6614d0
 MusicDownloadManager::onDownloadSFXCompleted - 0x65ef20
 MusicDownloadManager::onDownloadSFXLibraryCompleted - 0x65f740
+MusicDownloadManager::onDownloadSongCompleted - 0x64f460
+MusicDownloadManager::onGetAudioFilesizeCompleted - 0x64aca0
 MusicDownloadManager::onGetCustomContentURLCompleted - 0x64ab50
 MusicDownloadManager::onGetSongInfoCompleted - 0x64a8b0
+MusicDownloadManager::onProcessHttpRequestCompleted - 0x64a050
+MusicDownloadManager::onTryUpdateMusicLibraryCompleted - 0x65a080
+MusicDownloadManager::onTryUpdateNewsFeedCompleted - 0x6611e0
+MusicDownloadManager::onTryUpdateSFXLibraryCompleted - 0x65f440
 MusicDownloadManager::parseMusicLibrary - 0x65a610
+MusicDownloadManager::parseNewsFeed - 0x661c20
+MusicDownloadManager::parseSFXLibrary - 0x65f910
 MusicDownloadManager::pathForSFX - 0x650150
+MusicDownloadManager::pathForSFXFolder - 0x650210
 MusicDownloadManager::pathForSong - 0x64eb00
+MusicDownloadManager::pathForSongFolder - 0x64fb00
 MusicDownloadManager::ProcessHttpGetRequest - 0x64a210
 MusicDownloadManager::ProcessHttpRequest - 0x649ec0
 MusicDownloadManager::removeDLFromActive - 0x64b850
@@ -8756,6 +8795,7 @@ MusicDownloadManager::stopDownload - 0x64b720
 MusicDownloadManager::storeMusicObject - 0x65ddb0
 MusicDownloadManager::storeSFXInfoObject - 0x660ba0
 MusicDownloadManager::tryLoadLibraries - 0x660c80
+MusicDownloadManager::tryLoadNewsFeed - 0x6611b0
 MusicDownloadManager::tryUpdateMusicLibrary - 0x659e90
 MusicSearchResult::create - 0x666fa0
 MusicSearchResult::updateObjects - 0x668480
@@ -8880,10 +8920,13 @@ OptionsLayer::tryEnableRecord - 0x87c550
 OptionsObject::create - 0x29d960
 OptionsObject::init - 0x29da50
 OptionsObject::toggleState - 0x29da80
+OptionsScrollLayer::create - 0x6ea930
 OptionsScrollLayer::registerWithTouchDispatcher - 0x6ec360
 OptionsScrollLayer::keyBackClicked - 0x6ec1e0
 OptionsScrollLayer::cellPerformedAction - 0x6ec3a0
 OptionsScrollLayer::textChanged - 0x6ebd30
+OptionsScrollLayer::init - 0x6eb180
+OptionsScrollLayer::setupList - 0x6ebb60
 ParentalGateLayer::init - 0x886ce0
 ParentalGateLayer::onDone - 0x886f40
 ParentalOptionsLayer::init - 0x884450
@@ -9458,7 +9501,6 @@ PromoInterstitial::setup - 0x2c1200
 PurchaseItemPopup::keyBackClicked - 0x313d70
 PurchaseItemPopup::init - 0x313140
 PurchaseItemPopup::onClose - 0x313cd0
-PurchaseItemPopup::onPurchase - 0x23a850
 RandTriggerGameObject::create - 0x1a3860
 RandTriggerGameObject::init - 0x1a3930
 RandTriggerGameObject::triggerObject - 0x1a3bc0
@@ -9568,9 +9610,14 @@ ScrollableContentLayer::update - 0x96cc90
 ScrollableContentLayer::visit - 0x96c8a0
 ScrollableContentLayer::touchInsideClip - 0x96c970
 ScrollableContentLayer::scrollWheel - 0x96cb10
+ScrollableContentLayer::applyContentPosition - 0x96b0e0
+ScrollableContentLayer::ensureOwnedContentNode - 0x96cf10
+ScrollableContentLayer::ensureScrollThumb - 0x96b3f0
 ScrollableContentLayer::handleTouchBegan - 0x96bdb0
+ScrollableContentLayer::reloadVirtualRows - 0x96d760
 ScrollableContentLayer::scrollTo - 0x96b620
 ScrollableContentLayer::setContentHeight - 0x96b270
+ScrollableContentLayer::updateVirtualRows - 0x96bad0
 ScrollingLayer::ScrollingLayer - 0x7ffd70
 ScrollingLayer::~ScrollingLayer - 0x144eb0
 ScrollingLayer::create - 0x7ff550

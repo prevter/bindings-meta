@@ -3012,6 +3012,7 @@ pugi::xml_document::xml_document - 0x62d6cc
 pugi::xml_document::~xml_document - 0x62d81c
 FLAlertLayer::~FLAlertLayer - 0x3fbed0
 FLAlertLayer::create - 0x3fc44c
+FLAlertLayer::create - 0x3fc270
 FLAlertLayer::onEnter - 0x3fdce8
 FLAlertLayer::ccTouchBegan - 0x3fd45c
 FLAlertLayer::ccTouchMoved - 0x3fd73c
@@ -5528,6 +5529,7 @@ GameLevelManager::createPageInfo - 0x10c2d4
 GameLevelManager::createSmartTemplate - 0x4a4bd8
 GameLevelManager::dataLoaded - 0x4a5450
 GameLevelManager::deleteFriendRequests - 0x4cc79c
+GameLevelManager::deleteLevel - 0x495d18
 GameLevelManager::deleteLevelComment - 0x4c08c8
 GameLevelManager::deleteLevelList - 0x496558
 GameLevelManager::deleteSentFriendRequest - 0x4cc790
@@ -5598,10 +5600,10 @@ GameLevelManager::getOnlineLevels - 0x4acc8c
 GameLevelManager::getPageInfo - 0x4a03e8
 GameLevelManager::getPostCommentKey - 0x4bec68
 GameLevelManager::getRateStarsKey - 0x4b5a84
-GameLevelManager::getSavedDailyLevel - 0x49f2cc
+GameLevelManager::getSavedDailyLevel - 0x49f0a4
 GameLevelManager::getSavedDailyLevelFromLevelID - 0x49f3e0
 GameLevelManager::getSavedLevel - 0x4997ec
-GameLevelManager::getSavedLevel - 0x49f0a4
+GameLevelManager::getSavedLevel - 0x49f2cc
 GameLevelManager::getSavedLevelLists - 0x49cdec
 GameLevelManager::getSavedLevels - 0x49cc18
 GameLevelManager::getSearchScene - 0x4a0c70
@@ -5626,10 +5628,12 @@ GameLevelManager::handleItND - 0x47be10
 GameLevelManager::hasDailyStateBeenLoaded - 0x4d2c28
 GameLevelManager::hasDownloadedLevel - 0x4b2fc0
 GameLevelManager::hasDownloadedList - 0x4ad9dc
+GameLevelManager::hasLikedItem - 0x4d1634
 GameLevelManager::hasLikedItemFullCheck - 0x4d0d7c
 GameLevelManager::invalidateUserList - 0x4c870c
 GameLevelManager::isDLActive - 0x4a05d0
 GameLevelManager::isFollowingUser - 0x4a41a4
+GameLevelManager::isPastDailyCopy - 0x4a17a8
 GameLevelManager::isUpdateValid - 0x4b4d5c
 GameLevelManager::likeItem - 0x4d0554
 GameLevelManager::makeTimeStamp - 0x19455c
@@ -5722,6 +5726,7 @@ GameLevelManager::updateLevelOrders - 0x49cf2c
 GameLevelManager::updateLevelRewards - 0x49776c
 GameLevelManager::updateThread - 0x4ca540
 GameLevelManager::updateUsernames - 0x3ec9fc
+GameLevelManager::updateUserScore - 0x4b6e44
 GameLevelManager::uploadAccountComment - 0x4c00b4
 GameLevelManager::uploadFriendRequest - 0x4cc288
 GameLevelManager::uploadLevel - 0x4a9e8c
@@ -5731,6 +5736,7 @@ GameLevelManager::uploadUserMessage - 0x4bc0a8
 GameLevelManager::userIDForAccountID - 0x4975b0
 GameLevelManager::userInfoForAccountID - 0x4975cc
 GameLevelManager::userNameForUserID - 0x4971a4
+GameLevelManager::vaultTimedType - 0x4acc70
 GameLevelManager::verifyContainerOnlyHasLevels - 0x4a5210
 GameLevelManager::verifyLevelState - 0x4975f4
 GameLevelManager::writePlatformerSaveJournal - 0x4a2294
@@ -5746,6 +5752,7 @@ GameManager::didEncodeForSave - 0x302568
 GameManager::saveFinished - 0x30266c
 GameManager::dataLoaded - 0x2ff2e4
 GameManager::firstLoad - 0x300c5c
+GameManager::accountPostsRestricted - 0x2fabd8
 GameManager::accountStatusChanged - 0x2fb8ac
 GameManager::activeIconForType - 0x2f75fc
 GameManager::addCustomAnimationFrame - 0x1f965c
@@ -5765,6 +5772,7 @@ GameManager::clearGJLog - 0x2fd01c
 GameManager::colorForIdx - 0x2f6528
 GameManager::colorForPos - 0x2f69f4
 GameManager::colorKey - 0x2f00a0
+GameManager::commentsRestricted - 0x2fab7c
 GameManager::completedAchievement - 0x2f0f5c
 GameManager::countForType - 0x2f770c
 GameManager::defaultFrameForAnimation - 0x1f12f4
@@ -5914,6 +5922,7 @@ GameStatsManager::addSpecialRewardDescription - 0x379e8
 GameStatsManager::addStoreItem - 0x260f0
 GameStatsManager::areChallengesLoaded - 0x32658
 GameStatsManager::areRewardsLoaded - 0x31b08
+GameStatsManager::awardCurrencyForLevel - 0x30738
 GameStatsManager::awardDiamondsForLevel - 0x31020
 GameStatsManager::awardOldSpecialStats - 0x35774
 GameStatsManager::awardSecretKey - 0x4d03c
@@ -5952,6 +5961,7 @@ GameStatsManager::getCollectedCoinsForLevel - 0x2c524
 GameStatsManager::getCompletedMapPacks - 0x2e0e4
 GameStatsManager::getCurrencyKey - 0x300bc
 GameStatsManager::getDailyLevelKey - 0x33890
+GameStatsManager::getDailyStarKey - 0x2cb18
 GameStatsManager::getDemonLevelKey - 0x2c9f8
 GameStatsManager::getEventRewardKey - 0x386c4
 GameStatsManager::getGauntletRewardKey - 0x37844
@@ -5985,6 +5995,7 @@ GameStatsManager::getTotalCollectedDiamonds - 0x3525c
 GameStatsManager::hasClaimedListReward - 0x334f4
 GameStatsManager::hasCompletedChallenge - 0x2cf38
 GameStatsManager::hasCompletedDailyLevel - 0x33950
+GameStatsManager::hasCompletedDailyStars - 0x33ecc
 GameStatsManager::hasCompletedGauntletLevel - 0x2cd4c
 GameStatsManager::hasCompletedLevel - 0x2cbe4
 GameStatsManager::hasCompletedMainLevel - 0x2cb48
@@ -5996,6 +6007,7 @@ GameStatsManager::incrementActivePath - 0x2a9d4
 GameStatsManager::incrementChallenge - 0x2a3e4
 GameStatsManager::incrementStat - 0x2696c
 GameStatsManager::incrementStat - 0x26974
+GameStatsManager::isDailyRecall - 0x30cac
 GameStatsManager::isGauntletUnlocked - 0x383bc
 GameStatsManager::isItemEnabled - 0x37494
 GameStatsManager::isItemUnlocked - 0x2aaa8
@@ -6794,6 +6806,7 @@ GJGameLevel::getSongName - 0x4d5aa8
 GJGameLevel::getUnpackedLevelDescription - 0x4dca80
 GJGameLevel::handleStatsConflict - 0x4a6700
 GJGameLevel::isPlatformer - 0x49e964
+GJGameLevel::levelHasDiamonds - 0x4dcb38
 GJGameLevel::saveNewScore - 0x4d5d00
 GJGameLevel::savePercentage - 0x4d5184
 GJGameLevel::scoreStringToVector - 0x4d634c
@@ -7384,6 +7397,7 @@ HardStreak::~HardStreak - 0x5cf98
 HardStreak::create - 0x5cfe0
 HardStreak::init - 0x5d0a8
 HardStreak::addPoint - 0x5dbbc
+HardStreak::clearAboveXPos - 0x5df34
 HardStreak::clearBehindXPos - 0x5de9c
 HardStreak::createDuplicate - 0x5e118
 HardStreak::normalizeAngle - 0x5e0e4
@@ -7444,6 +7458,8 @@ InfoLayer::keyDown - 0x78bc3c
 InfoLayer::adminActionConfirmed - 0x78b604
 InfoLayer::bulkCommentDeleteFinished - 0x78b8a4
 InfoLayer::bulkCommentDeleteFailed - 0x78baac
+InfoLayer::canBulkDelete - 0x78aa38
+InfoLayer::canToggleModRoom - 0x787ccc
 InfoLayer::getID - 0x7881d4
 InfoLayer::getRealID - 0x789314
 InfoLayer::getSpriteButton - 0x787d30
@@ -7455,6 +7471,7 @@ InfoLayer::onMore - 0x787318
 InfoLayer::onNextPage - 0x80c048
 InfoLayer::onPrevPage - 0x787cac
 InfoLayer::onRefreshComments - 0x788f08
+InfoLayer::parentalCommentsDisabled - 0x7871c0
 InfoLayer::setupCommentsBrowser - 0x788630
 InfoLayer::setupLevelInfo - 0x787388
 InfoLayer::toggleCommentMode - 0x4fb014
@@ -7636,6 +7653,8 @@ LevelBrowserLayer::getItemsMatchingSearch - 0x3ef444
 LevelBrowserLayer::getSearchTitle - 0x3efaa0
 LevelBrowserLayer::init - 0x3ea564
 LevelBrowserLayer::isCorrect - 0x3ef28c
+LevelBrowserLayer::isSafeType - 0x3ec51c
+LevelBrowserLayer::isVaultType - 0x3edca0
 LevelBrowserLayer::loadPage - 0x3ee2a8
 LevelBrowserLayer::onClearSearch - 0x3ee22c
 LevelBrowserLayer::onDeleteAll - 0x3ed2cc
@@ -7661,11 +7680,14 @@ LevelCell::~LevelCell - 0x1e2984
 LevelCell::create - 0x1e29bc
 LevelCell::init - 0x1e2b50
 LevelCell::draw - 0x1e6c4c
+LevelCell::inRecallMode - 0x1e6540
 LevelCell::loadCustomLevelCell - 0x1e34c4
 LevelCell::loadFromLevel - 0x1d6cf0
 LevelCell::loadLocalLevelCell - 0x1e2b70
 LevelCell::onViewProfile - 0x1e6c10
+LevelCell::recallChestReady - 0x1e6608
 LevelCell::recallLevel - 0x1e65ac
+LevelCell::recallSavedLevel - 0x1e6554
 LevelCell::updateBGColor - 0x1d6ec8
 LevelCell::updateCellMode - 0x1e25d4
 LevelCell::updateToggle - 0x1e25b8
@@ -8491,7 +8513,7 @@ MusicDownloadManager::getMusicObject - 0x58a460
 MusicDownloadManager::getNewsImageDownloadKey - 0x59c66c
 MusicDownloadManager::getSFXDownloadKey - 0x58a438
 MusicDownloadManager::getSFXDownloadProgress - 0x58a3d8
-MusicDownloadManager::getSFXObject - 0x597b68
+MusicDownloadManager::getSFXObject - 0x58ce1c
 MusicDownloadManager::getSongDownloadKey - 0x5865c0
 MusicDownloadManager::getSongInfo - 0x586a14
 MusicDownloadManager::getSongInfoKey - 0x586598
@@ -8689,7 +8711,7 @@ OptionsScrollLayer::keyBackClicked - 0x5ffa50
 OptionsScrollLayer::cellPerformedAction - 0x5ffbe4
 OptionsScrollLayer::textChanged - 0x5ff624
 OptionsScrollLayer::init - 0x5feae0
-OptionsScrollLayer::setupList - 0x65ab4
+OptionsScrollLayer::setupList - 0x5ff474
 ParentalGateLayer::create - 0x77164c
 ParentalGateLayer::init - 0x77b900
 ParentalGateLayer::onDone - 0x77bb68
@@ -9026,7 +9048,7 @@ PlayerObject::updateDashArt - 0x378dcc
 PlayerObject::updateEffects - 0x36cf70
 PlayerObject::updateGlowColor - 0x3811fc
 PlayerObject::updateInternalActions - 0x3844f8
-PlayerObject::updateJump - 0x1b28e4
+PlayerObject::updateJump - 0x368e30
 PlayerObject::updateJumpVariables - 0x36bda4
 PlayerObject::updateLastGroundObject - 0x375b30
 PlayerObject::updateMove - 0x36a7c4
@@ -9052,6 +9074,7 @@ PlayerObject::updateShipSpriteExtra - 0x366f2c
 PlayerObject::updateSlopeRotation - 0x374e9c
 PlayerObject::updateSlopeYVelocity - 0x375014
 PlayerObject::updateSpecial - 0x36cef8
+PlayerObject::updateStateVariables - 0x36bdc0
 PlayerObject::updateStaticForce - 0x3822c8
 PlayerObject::updateStreakBlend - 0x367dc8
 PlayerObject::updateStreaks - 0x367e4c
@@ -9375,10 +9398,15 @@ ScrollableContentLayer::update - 0x84978c
 ScrollableContentLayer::visit - 0x8493f4
 ScrollableContentLayer::touchInsideClip - 0x8494ac
 ScrollableContentLayer::scrollWheel - 0x84961c
+ScrollableContentLayer::applyContentPosition - 0x847da0
+ScrollableContentLayer::ensureOwnedContentNode - 0x8499b4
+ScrollableContentLayer::ensureScrollThumb - 0x848098
 ScrollableContentLayer::handleTouchBegan - 0x8489fc
+ScrollableContentLayer::reloadVirtualRows - 0x84a1b8
 ScrollableContentLayer::scrollTo - 0x8482e8
 ScrollableContentLayer::setContentHeight - 0x847efc
 ScrollableContentLayer::setViewSize - 0x848180
+ScrollableContentLayer::updateVirtualRows - 0x84873c
 ScrollingLayer::ScrollingLayer - 0x700854
 ScrollingLayer::~ScrollingLayer - 0x1181f0
 ScrollingLayer::create - 0x700174
@@ -9575,7 +9603,7 @@ SelectFontLayer::keyBackClicked - 0x22a8b8
 SelectFontLayer::init - 0x22a108
 SelectFontLayer::onChangeFont - 0x22a724
 SelectFontLayer::onClose - 0x22a6e8
-SelectFontLayer::updateFontLabel - 0x65f04
+SelectFontLayer::updateFontLabel - 0x22a7b8
 SelectFontLayer2::registerWithTouchDispatcher - 0x84c120
 SelectFontLayer2::keyBackClicked - 0x84c8e0
 SelectFontLayer2::cellPerformedAction - 0x84c804
