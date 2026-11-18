@@ -3058,7 +3058,9 @@ SetupTriggerPopup::addObjectToPage - 0x1c9ad0
 SetupTriggerPopup::addTitle - 0x1c9d78
 SetupTriggerPopup::closeInputNodes - 0x1cbec4
 SetupTriggerPopup::createCustomButton - 0x1ce890
+SetupTriggerPopup::createCustomEasingControls - 0x1d1e14
 SetupTriggerPopup::createCustomToggleValueControl - 0x1ce29c
+SetupTriggerPopup::createEasingControls - 0x1d0db0
 SetupTriggerPopup::createMultiTriggerItems - 0x1ca298
 SetupTriggerPopup::createMultiTriggerItemsDefault - 0x1ca1b0
 SetupTriggerPopup::createMultiTriggerItemsDefaultVertical - 0x1ca690
@@ -3809,6 +3811,7 @@ BoomListView::loadCell - 0x28c3c0
 BoomListView::addObjectToList - 0x28c028
 BoomListView::init - 0x28bd74
 BoomListView::lockList - 0x28befc
+BoomScrollLayer::BoomScrollLayer - 0x31b048
 BoomScrollLayer::~BoomScrollLayer - 0x319a50
 BoomScrollLayer::create - 0x318adc
 BoomScrollLayer::create - 0x318710
@@ -4376,6 +4379,7 @@ CreateGuidelinesLayer::init - 0x468104
 CreateGuidelinesLayer::onClearGuidelines - 0x468fa4
 CreateGuidelinesLayer::onStop - 0x469074
 CreateGuidelinesLayer::toggleItems - 0x4690d4
+CreateMenuItem::~CreateMenuItem - 0x549994
 CreateMenuItem::create - 0x548d90
 CreateParticlePopup::create - 0x3cf350
 CreateParticlePopup::create - 0x3cf224
@@ -4469,11 +4473,14 @@ CreatorLayer::onPaths - 0x228a0c
 CreatorLayer::onSecretVault - 0x229194
 CreatorLayer::onTopLists - 0x228a28
 CreatorLayer::onTreasureRoom - 0x2293e0
+CreatorSettingsPopup::~CreatorSettingsPopup - 0x7a7e48
+CreatorSettingsPopup::create - 0x7a7b08
 CreatorSettingsPopup::onClose - 0x7a7fc0
 CreatorSettingsPopup::setTextPopupClosed - 0x7a7fc4
 CreatorSettingsPopup::uploadActionFinished - 0x7a8214
 CreatorSettingsPopup::uploadActionFailed - 0x7a839c
 CreatorSettingsPopup::onClosePopup - 0x7a8474
+CreatorSettingsPopup::init - 0x7a74e0
 CurrencyRewardLayer::~CurrencyRewardLayer - 0x77d56c
 CurrencyRewardLayer::create - 0x77d6e4
 CurrencyRewardLayer::update - 0x780568
@@ -4783,6 +4790,7 @@ DungeonBarsSprite::animateOutBars - 0x407b64
 EasingSelectPopup::update - 0x7ca214
 EasingSelectPopup::onClose - 0x7ca6b8
 EasingSelectPopup::valueDidChange - 0x7ca158
+EditButtonBar::~EditButtonBar - 0x5cd7bc
 EditButtonBar::create - 0x5cd808
 EditButtonBar::getPage - 0x5ce494
 EditButtonBar::goToPage - 0x5ce4a0
@@ -4856,9 +4864,13 @@ EditorCommandsPopup::onCommand - 0x7cb4d8
 GJOptionsLayer::setupOptions - 0x22be24
 GJOptionsLayer::addGVToggle - 0x331580
 GJOptionsLayer::addToggle - 0x22c4f8
+GJOptionsLayer::goToPage - 0x22b9f0
+GJOptionsLayer::init - 0x22b708
 GJOptionsLayer::nextPosition - 0x22c4fc
 GJOptionsLayer::objectKey - 0x77b374
 GJOptionsLayer::offsetToNextPage - 0x22be00
+GJOptionsLayer::onNextPage - 0x22b9e4
+GJOptionsLayer::onPrevPage - 0x22b9d8
 GJOptionsLayer::onToggle - 0x22c7d4
 GJOptionsLayer::pageKey - 0x77b34c
 EditorOptionsLayer::create - 0x242564
@@ -5046,6 +5058,7 @@ EditorUI::activateScaleControl - 0x55180c
 EditorUI::activateTransformControl - 0x5506dc
 EditorUI::addObjectsToSmartTemplate - 0x10850
 EditorUI::addSnapPosition - 0x1002c
+EditorUI::adjustCustomGridSize - 0xc884
 EditorUI::alignObjects - 0x5501d4
 EditorUI::alignObjectsOnAxis - 0x54fcd8
 EditorUI::applySpecialOffset - 0x5508d8
@@ -5085,6 +5098,7 @@ EditorUI::createSmartObjectsFromTemplate - 0x11b6c
 EditorUI::createSmartObjectsFromType - 0x12b70
 EditorUI::createUndoObject - 0x100f8
 EditorUI::createUndoSelectObject - 0xbb30
+EditorUI::cycleCustomGridPreset - 0xc744
 EditorUI::deactivateRotationControl - 0x550a14
 EditorUI::deactivateScaleControl - 0x551a78
 EditorUI::deactivateTransformControl - 0x550124
@@ -5108,6 +5122,7 @@ EditorUI::editObject - 0x83a0
 EditorUI::editObject2 - 0x8398
 EditorUI::editorLayerForArray - 0xad80
 EditorUI::enableButton - 0xbc54
+EditorUI::findObject - 0x50639c
 EditorUI::findSnapObject - 0x170c0
 EditorUI::findSnapObject - 0x16fa8
 EditorUI::findTriggerTest - 0x13fd8
@@ -5143,6 +5158,7 @@ EditorUI::moveGamelayer - 0xce6c
 EditorUI::moveObject - 0x54db00
 EditorUI::moveObjectCall - 0x54d678
 EditorUI::moveObjectCall - 0x82dfd0
+EditorUI::nextDpadStep - 0x5779c0
 EditorUI::onAssignNewGroupID - 0x16df8
 EditorUI::onColorFilter - 0xece0
 EditorUI::onCopy - 0x504a58
@@ -5153,6 +5169,7 @@ EditorUI::onCreateObject - 0xf3b0
 EditorUI::onDeleteCustomItem - 0x578ef0
 EditorUI::onDeleteInfo - 0xe180
 EditorUI::onDeleteSelected - 0x73e8
+EditorUI::onDeleteSelectedType - 0xe540
 EditorUI::onDeselectAll - 0x506a2c
 EditorUI::onDpadStep - 0x577618
 EditorUI::onDuplicate - 0x5031e4
@@ -5199,6 +5216,7 @@ EditorUI::processSelectObjects - 0x505dac
 EditorUI::processSmartObjectsFromType - 0x13014
 EditorUI::recreateButtonTabs - 0x5790f8
 EditorUI::redoLastAction - 0x7348
+EditorUI::refreshGridWindow - 0xcbe4
 EditorUI::reloadCustomItems - 0x578e84
 EditorUI::removeOffset - 0x54efe0
 EditorUI::replaceGroupID - 0x13b74
@@ -5211,6 +5229,7 @@ EditorUI::scaleObjects - 0x54f2fc
 EditorUI::selectAll - 0x505e74
 EditorUI::selectAllWithDirection - 0x505f30
 EditorUI::selectBuildTab - 0xee84
+EditorUI::selectedMoveCommand - 0x5777b4
 EditorUI::selectObject - 0x5054dc
 EditorUI::selectObjects - 0x505758
 EditorUI::setDpadStep - 0x5776a4
@@ -5221,6 +5240,7 @@ EditorUI::setupViewMenu - 0x5792a8
 EditorUI::shouldDeleteObject - 0xe390
 EditorUI::shouldSnap - 0x173bc
 EditorUI::showDeleteConfirmation - 0xe628
+EditorUI::showGridSizeAlert - 0xc9b4
 EditorUI::showLiveColorSelectForMode - 0x169e4
 EditorUI::showLiveColorSelectForModeSpecial - 0x16908
 EditorUI::showLockedLayerAlert - 0x54ce2c
@@ -5234,6 +5254,7 @@ EditorUI::sliderChanged - 0x6d4c
 EditorUI::spriteFromObjectString - 0x5751c4
 EditorUI::startFreeMoveTouch - 0x549bac
 EditorUI::swipeToPosition - 0x549dd8
+EditorUI::toggleCustomGridEnabled - 0xc6d0
 EditorUI::toggleDuplicateButton - 0xa764
 EditorUI::toggleEditObjectButton - 0xa6a0
 EditorUI::toggleEnableRotate - 0x7204
@@ -5244,6 +5265,8 @@ EditorUI::toggleObjectInfoLabel - 0x9e14
 EditorUI::toggleSnap - 0x7180
 EditorUI::toggleSpecialEditButtons - 0xa8dc
 EditorUI::toggleSwipe - 0x6ff0
+EditorUI::toggleTraceSelected - 0xcd78
+EditorUI::toggleViewOption - 0x57a9e8
 EditorUI::toggleWindow - 0xa020
 EditorUI::transformObject - 0x54e978
 EditorUI::transformObjectCall - 0x54de40
@@ -5256,7 +5279,7 @@ EditorUI::undoLastAction - 0x72a8
 EditorUI::updateButtons - 0x96e4
 EditorUI::updateCreateMenu - 0xb660
 EditorUI::updateDeleteButtons - 0x5783d4
-EditorUI::updateDeleteMenu - 0x80bfe4
+EditorUI::updateDeleteMenu - 0xa890
 EditorUI::updateEditButtonColor - 0x5516f0
 EditorUI::updateEditColorButton - 0x15b60
 EditorUI::updateEditMenu - 0xbb6c
@@ -5268,12 +5291,14 @@ EditorUI::updatePanDecay - 0x54d4fc
 EditorUI::updatePlaybackBtn - 0xa578
 EditorUI::updateSlider - 0x81e0
 EditorUI::updateStickyControls - 0x9f68
+EditorUI::updateViewMenu - 0xe148
 EditorUI::updateZoom - 0x10334
 EditorUI::updateZoom - 0x10464
 EditorUI::valueFromXPos - 0xc404
 EditorUI::xPosFromValue - 0xc280
 EditorUI::zoomIn - 0x7a7c
 EditorUI::zoomOut - 0x7b3c
+EditorUI::editObjectOptions - 0x16a64
 EditTriggersPopup::determineStartValues - 0x22ad3c
 EditTriggersPopup::onClose - 0x22ad40
 EditTriggersPopup::init - 0x22aa58
@@ -6890,6 +6915,7 @@ GJGameLevel::getAudioFileName - 0x4d5978
 GJGameLevel::getAverageDifficulty - 0x4d5680
 GJGameLevel::getCoinKey - 0x4b9d18
 GJGameLevel::getCoinKey - 0x4d56ac
+GJGameLevel::getLastBuildPageForTab - 0x4d573c
 GJGameLevel::getNormalPercent - 0x495ff8
 GJGameLevel::getSongName - 0x4d5aa8
 GJGameLevel::getUnpackedLevelDescription - 0x4dca80
@@ -7564,6 +7590,8 @@ InfoLayer::onNextPage - 0x80c048
 InfoLayer::onPrevPage - 0x787cac
 InfoLayer::onRefreshComments - 0x788f08
 InfoLayer::parentalCommentsDisabled - 0x7871c0
+InfoLayer::refreshBulkUI - 0x7899a0
+InfoLayer::setupBulkUI - 0x788ff4
 InfoLayer::setupCommentsBrowser - 0x788630
 InfoLayer::setupLevelInfo - 0x787388
 InfoLayer::toggleCommentMode - 0x4fb014
@@ -7843,6 +7871,7 @@ LevelEditorLayer::getAllObjects - 0x9fa4c
 LevelEditorLayer::getDelayedSpawnNode - 0xaed5c
 LevelEditorLayer::getGridPos - 0x9e4c8
 LevelEditorLayer::getLastObjectX - 0xaf22c
+LevelEditorLayer::getLevelString - 0xa0f94
 LevelEditorLayer::getLockedLayers - 0xa74a8
 LevelEditorLayer::getNextFreeBlockID - 0xac434
 LevelEditorLayer::getNextFreeEditorLayer - 0xabcf8
