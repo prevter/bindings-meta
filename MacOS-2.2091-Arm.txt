@@ -4326,6 +4326,7 @@ CommunityCreditsPage::goToPage - 0x29f1f0
 CommunityCreditsPage::onClose - 0x29f174
 CommunityCreditsPage::onSwitchPage - 0x29f1b0
 ConfigureHSVWidget::~ConfigureHSVWidget - 0x39510c
+ConfigureHSVWidget::create - 0x394c80
 ConfigureHSVWidget::getHSV - 0x396b88
 ConfigureHSVWidget::textInputOpened - 0x3965d4
 ConfigureHSVWidget::textInputClosed - 0x3965dc
@@ -4570,6 +4571,7 @@ CustomSFXCell::loadFromObject - 0x1d6a4c
 CustomSFXCell::shouldReload - 0x1e2848
 CustomSFXCell::updateBGColor - 0x1e6998
 CustomSFXRowMenu::ccTouchBegan - 0x5ce8a0
+CustomSFXWidget::create - 0x5ce9c8
 CustomSFXWidget::downloadSFXFinished - 0x5d1c88
 CustomSFXWidget::downloadSFXFailed - 0x5d1d28
 CustomSFXWidget::songStateChanged - 0x5d1c60
@@ -4577,12 +4579,13 @@ CustomSFXWidget::FLAlert_Clicked - 0x5d1f80
 CustomSFXWidget::deleteSFX - 0x5d16f8
 CustomSFXWidget::downloadFailed - 0x5d1bac
 CustomSFXWidget::hideLoadingArt - 0x5d0acc
+CustomSFXWidget::init - 0x5ceae4
 CustomSFXWidget::onCancelDownload - 0x5d0128
 CustomSFXWidget::onDelete - 0x5d0164
 CustomSFXWidget::onDownload - 0x5cffe4
 CustomSFXWidget::onPlayback - 0x5d0264
 CustomSFXWidget::onSelect - 0x5d0244
-CustomSFXWidget::showLoadingArt - 0x3a4ec0
+CustomSFXWidget::showLoadingArt - 0x5d1804
 CustomSFXWidget::startMonitorDownload - 0x5d164c
 CustomSFXWidget::updateDownloadProgress - 0x5d1ae8
 CustomSFXWidget::updateError - 0x5d1df4
@@ -7530,8 +7533,9 @@ HSVLiveOverlay::hsvChanged - 0x1fddf0
 HSVLiveOverlay::createHSVWidget - 0x1fdb00
 HSVLiveOverlay::onSelectTab - 0x1fdab4
 HSVLiveOverlay::toggleControls - 0x1fdd88
-HSVWidgetPopup::create - 0x29ccc0
+HSVWidgetPopup::create - 0x3946a0
 HSVWidgetPopup::keyBackClicked - 0x394f6c
+HSVWidgetPopup::init - 0x39488c
 HSVWidgetPopup::onClose - 0x394bd4
 IDNameBrowserPopup::ccTouchBegan - 0x7f3190
 IDNameBrowserPopup::ccTouchMoved - 0x7f324c
@@ -8036,6 +8040,7 @@ LevelInfoLayer::tryCloneLevel - 0x25011c
 LevelInfoLayer::tryShowAd - 0x25073c
 LevelInfoLayer::updateLabelValues - 0x250c20
 LevelInfoLayer::updateSideButtons - 0x24fb4c
+LevelLeaderboard::create - 0x34b278
 LevelLeaderboard::registerWithTouchDispatcher - 0x34d0ec
 LevelLeaderboard::keyBackClicked - 0x34d070
 LevelLeaderboard::show - 0x34d5c4
@@ -10204,6 +10209,7 @@ SetupSequenceTriggerPopup::onDeleteSelected - 0x43a2c0
 SetupSequenceTriggerPopup::onSelect - 0x43a7dc
 SetupSequenceTriggerPopup::updateGroupIDButtons - 0x9c3a0
 SetupSFXEditPopup::init - 0x418a9c
+SetupSFXPopup::create - 0x416a0c
 SetupSFXPopup::pageChanged - 0x417fa0
 SetupSFXPopup::onClose - 0x417ff8
 SetupSFXPopup::onPlusButton - 0x41849c
@@ -10213,7 +10219,8 @@ SetupSFXPopup::getActiveSFXID - 0x418278
 SetupSFXPopup::overridePlaySFX - 0x4182d4
 SetupSFXPopup::sfxBrowserClosed - 0x418690
 SetupSFXPopup::getActiveCustomSFXID - 0x418288
-SetupSFXPopup::init - 0x15ec
+SetupSFXPopup::createSFXWidget - 0x417c0c
+SetupSFXPopup::init - 0x416b1c
 SetupSFXPopup::onBrowseSFX - 0x417ba4
 SetupSFXPopup::updateLength - 0x41821c
 SetupShaderEffectPopup::toggleGroup - 0x25da6c
@@ -10351,11 +10358,13 @@ SFXBrowser::inCustomSFXTree - 0x3ab67c
 SFXBrowser::showsSFXInfoButton - 0x3ab6bc
 SFXBrowser::init - 0x3a31d4
 SFXBrowser::onChangelog - 0x3a53b4
+SFXBrowser::onExitFolder - 0x3a4ec0
 SFXBrowser::onImportFile - 0x3a64cc
 SFXBrowser::onPage - 0x3a5174
 SFXBrowser::onSorting - 0x3a5298
 SFXBrowser::onToggleCompactMode - 0x3a52dc
 SFXBrowser::onUpdateLibrary - 0x3a5238
+SFXBrowser::setupList - 0x3a7598
 SFXBrowser::setupSFXBrowser - 0x3a6bc4
 SFXBrowser::trySetupSFXBrowser - 0x3a6b60
 SFXBrowser::updatePageLabel - 0x3a8e98
@@ -10899,6 +10908,7 @@ ThreadViewPopup::unmountVirtualRow - 0x819544
 ThreadViewPopup::buildMemberButton - 0x81151c
 ThreadViewPopup::init - 0x80fa9c
 ThreadViewPopup::layoutComposeBar - 0x811d7c
+ThreadViewPopup::layoutTitleRow - 0x810c30
 TimerTriggerGameObject::create - 0x17beb8
 TimerTriggerGameObject::triggerObject - 0x17bfe0
 TimerTriggerGameObject::customObjectSetup - 0x17d820

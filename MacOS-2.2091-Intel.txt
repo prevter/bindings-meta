@@ -3432,6 +3432,11 @@ AccountReviewPopup::adminDeleteCommentsFinished - 0x9a42d0
 AccountReviewPopup::adminDeleteCommentsFailed - 0x9a4450
 AccountReviewPopup::adminCloseCaseFinished - 0x9a46c0
 AccountReviewPopup::adminCloseCaseFailed - 0x9a49a0
+AccountReviewPopup::buildFilterRows - 0x99d9f0
+AccountReviewPopup::buildReportedRows - 0x99be20
+AccountReviewPopup::onHistoryJump - 0x9a1ff0
+AccountReviewPopup::onJumpRow - 0x9a19b0
+AccountReviewPopup::rebuildRows - 0x9a2140
 AchievementBar::create - 0x6f5630
 AchievementBar::setOpacity - 0x6f6f90
 AchievementBar::init - 0x6f56f0
@@ -5092,6 +5097,7 @@ EditorPauseLayer::togglePreviewShaders - 0x27f020
 EditorPauseLayer::toggleRecordOrder - 0x27f270
 EditorPauseLayer::toggleSelectFilter - 0x27f250
 EditorPauseLayer::toggleShowObjectInfo - 0x27f210
+EditorSFXActionConfigLayer::create - 0x8df1c0
 EditorSFXActionConfigLayer::ccTouchBegan - 0x8e0930
 EditorSFXActionConfigLayer::ccTouchMoved - 0x8e0a50
 EditorSFXActionConfigLayer::ccTouchEnded - 0x8e0b90
@@ -5101,6 +5107,8 @@ EditorSFXActionConfigLayer::onClose - 0x8e08f0
 EditorSFXActionConfigLayer::valueDidChange - 0x8e07a0
 EditorSFXActionConfigLayer::getValue - 0x8e0790
 EditorSFXActionConfigLayer::sfxBrowserClosed - 0x8e07b0
+EditorSFXActionConfigLayer::init - 0x8df300
+EditorSFXActionConfigLayer::onAddSound - 0x8df9e0
 EditorSFXActionConfigLayer::onDeleteSound - 0x8e05e0
 EditorSFXActionConfigLayer::onEditSound - 0x8e0630
 EditorSFXActionConfigLayer::onPreviewSound - 0x8e06e0
@@ -5178,6 +5186,8 @@ EditorSoundsLayer::rebuildContent - 0x8fe8b0
 EditorSoundsLayer::onClose - 0x8ff310
 EditorSoundsLayer::textChanged - 0x8fed70
 EditorSoundsLayer::showTab - 0x8fe8d0
+EditorSoundsLayer::buildContentForTab - 0x8fe0c0
+EditorSoundsLayer::onActionRow - 0x8fe850
 EditorSoundsSettingsPopup::keyBackClicked - 0x8ffde0
 EditorSoundsSettingsPopup::FLAlert_Clicked - 0x8ffd10
 GameObjectEditorState::loadValues - 0x6404b0
@@ -7622,6 +7632,7 @@ GJStoreItem::init - 0x56620
 GJThreadCell::init - 0x240ca0
 GJThreadCell::draw - 0x241050
 GJThreadCell::loadFromThread - 0x232ab0
+GJThreadCell::onViewThread - 0x241020
 GJTransformControl::GJTransformControl - 0x647df0
 GJTransformControl::create - 0x6d5740
 GJTransformControl::init - 0x643dd0
@@ -11061,6 +11072,9 @@ ThreadSearchPopup::keyBackClicked - 0x9520b0
 ThreadSearchPopup::onClose - 0x951fe0
 ThreadSearchPopup::textChanged - 0x951dc0
 ThreadSearchPopup::init - 0x9508e0
+ThreadViewPopup::ThreadViewPopup - 0x955730
+ThreadViewPopup::create - 0x92d6e0
+ThreadViewPopup::createModView - 0x92e8e0
 ThreadViewPopup::ccTouchBegan - 0x93a110
 ThreadViewPopup::ccTouchMoved - 0x93a1c0
 ThreadViewPopup::ccTouchEnded - 0x93a260
@@ -11089,6 +11103,7 @@ ThreadViewPopup::mountVirtualRow - 0x938120
 ThreadViewPopup::unmountVirtualRow - 0x937ec0
 ThreadViewPopup::buildMemberButton - 0x92f370
 ThreadViewPopup::init - 0x92d740
+ThreadViewPopup::layoutTitleRow - 0x92e960
 TimerTriggerGameObject::create - 0x1c3e80
 TimerTriggerGameObject::triggerObject - 0x1c3fb0
 TimerTriggerGameObject::customObjectSetup - 0x1c5ed0
