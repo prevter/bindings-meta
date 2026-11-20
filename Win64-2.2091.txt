@@ -3288,7 +3288,6 @@ GJBaseGameLayer::groupStickyObjects - 0x32d310
 GJBaseGameLayer::handleButton - 0x33c5b0
 GJBaseGameLayer::hasUniqueCoin - 0x31dc20
 GJBaseGameLayer::increaseBatchNodeCapacity - 0x312d10
-GJBaseGameLayer::isGroupParentOf - 0x275a10
 GJBaseGameLayer::lightningFlash - 0x351030
 GJBaseGameLayer::loadGroupParentsFromString - 0x32ceb0
 GJBaseGameLayer::loadLevelSettings - 0x344c60
@@ -3345,7 +3344,6 @@ GJBaseGameLayer::promoteGroupParent - 0x32c4d0
 GJBaseGameLayer::recordHitboxTrailState - 0x317690
 GJBaseGameLayer::refreshCounterLabels - 0x33e280
 GJBaseGameLayer::refreshKeyframeAnims - 0x33c9b0
-GJBaseGameLayer::remapGroupParent - 0x65a390
 GJBaseGameLayer::removeFromGroupParents - 0x32c6a0
 GJBaseGameLayer::removeFromGroups - 0x32bd40
 GJBaseGameLayer::removeGroupParent - 0x32c5a0
