@@ -4222,6 +4222,7 @@ KeybindCapturePopup::onToggleController - 0x44ed50
 KeybindCapturePopup::updateChordDisplay - 0x44e3b0
 KeybindCapturePopup::updateConflictLabel - 0x44e510
 KeybindingsLayer::~KeybindingsLayer - 0x3d53a0
+KeybindingsLayer::buildControllerGlyph - 0x3d6350
 KeybindingsLayer::create - 0x3d5650
 KeybindingsLayer::ccTouchBegan - 0x3d8630
 KeybindingsLayer::ccTouchMoved - 0x3d8760
@@ -4243,7 +4244,6 @@ KeybindingsLayer::onAddBinding - 0x3d7d50
 KeybindingsLayer::onClearSearch - 0x3d8440
 KeybindingsLayer::onEditBinding - 0x3d7cb0
 KeybindingsLayer::onSettings - 0x3d8230
-KeybindingsLayer::buildControllerGlyph - 0x3d6350
 KeybindingsSettingsPopup::keyBackClicked - 0x99f90
 KeybindingsSettingsPopup::FLAlert_Clicked - 0x3d9d80
 KeybindingsSettingsPopup::init - 0x3d8e80

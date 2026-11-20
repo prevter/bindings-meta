@@ -4452,7 +4452,7 @@ CreateStartPosPopup::init - 0x348f6c
 CreateStartPosPopup::onClose - 0x349780
 CreateStartPosPopup::updateInputNode - 0x349770
 CreateStartPosPopup::onCreate - 0x349568
-CreatorLayer::create - 0x3de88c
+CreatorLayer::create - 0x2273f0
 CreatorLayer::scene - 0x2272fc
 CreatorLayer::init - 0x2274bc
 CreatorLayer::keyBackClicked - 0x229c2c
@@ -6234,7 +6234,7 @@ GauntletNode::onClaimReward - 0x4ef5e0
 GauntletNode::onUnlock - 0x4efae4
 GauntletNode::showUnlockAnimation - 0x4efc50
 GauntletSelectLayer::~GauntletSelectLayer - 0x22701c
-GauntletSelectLayer::create - 0x2273f0
+GauntletSelectLayer::create - 0x4ed75c
 GauntletSelectLayer::scene - 0x4ed710
 GauntletSelectLayer::onExit - 0x4efbfc
 GauntletSelectLayer::keyBackClicked - 0x4ef4f4
@@ -7303,6 +7303,9 @@ GJSearchObject::create - 0x4dde64
 GJSearchObject::create - 0x4dded0
 GJSearchObject::create - 0x4ddbbc
 GJSearchObject::createFromKey - 0x4a0c94
+GJSearchObject::getSearchKey - 0x4de0f8
+GJSearchObject::getKey - 0x4ad7ec
+GJSearchObject::getNextPageKey - 0x4de4cc
 GJSearchObject::getNextPageObject - 0x4de6c0
 GJSearchObject::getPageObject - 0x4de6cc
 GJSearchObject::getPrevPageObject - 0x4de8c0
@@ -7629,7 +7632,9 @@ KeybindCapturePopup::onClose - 0x502eec
 KeybindCapturePopup::inputKeySelected - 0x50259c
 KeybindCapturePopup::keyUp - 0x503130
 KeybindingsLayer::~KeybindingsLayer - 0x5f5e48
+KeybindingsLayer::buildControllerGlyph - 0x5f6b70
 KeybindingsLayer::create - 0x5f6028
+KeybindingsLayer::tintGlyph - 0x5f6e10
 KeybindingsLayer::ccTouchBegan - 0x5f8cec
 KeybindingsLayer::ccTouchMoved - 0x5f8dd4
 KeybindingsLayer::ccTouchEnded - 0x5f8f14
@@ -7650,8 +7655,6 @@ KeybindingsLayer::onAddBinding - 0x5f7fa8
 KeybindingsLayer::onClearSearch - 0x5f689c
 KeybindingsLayer::onEditBinding - 0x5f8004
 KeybindingsLayer::onSettings - 0x5f6910
-KeybindingsLayer::buildControllerGlyph - 0x5f6b70
-KeybindingsLayer::tintGlyph - 0x5f6e10
 KeybindingsSettingsPopup::keyBackClicked - 0x802d34
 KeybindingsSettingsPopup::FLAlert_Clicked - 0x802c38
 KeybindSet::chordsForAction - 0x807ea8
@@ -7794,7 +7797,7 @@ LevelBrowserLayer::onRefresh - 0x3ed6cc
 LevelBrowserLayer::onRemoveAllFavorites - 0x3ed16c
 LevelBrowserLayer::onSavedMode - 0x3ed3c4
 LevelBrowserLayer::onSearch - 0x3edf64
-LevelBrowserLayer::setSearchObject - 0xa0e9c
+LevelBrowserLayer::setSearchObject - 0x3ec438
 LevelBrowserLayer::setupLevelBrowser - 0x3ef800
 LevelBrowserLayer::show - 0x3f24d8
 LevelBrowserLayer::showImportResult - 0x3f12e0
