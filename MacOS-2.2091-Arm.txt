@@ -2049,6 +2049,7 @@ cocos2d::CCSplitRows::initWithDuration - 0x790630
 cocos2d::CCSplitRows::copyWithZone - 0x790684
 cocos2d::CCSplitRows::update - 0x7907e0
 cocos2d::CCSplitRows::startWithTarget - 0x7907a0
+cocos2d::CCSpriteFrame::~CCSpriteFrame - 0x2d48f4
 cocos2d::CCSpriteFrame::createWithTexture - 0x2d4200
 cocos2d::CCSpriteFrame::copyWithZone - 0x2d49e4
 cocos2d::CCSpriteFrame::getOffset - 0x2d4c7c
@@ -6294,9 +6295,12 @@ GJAccountManager::onUpdateAccountSettingsCompleted - 0x8f540
 GJAccountManager::ProcessHttpRequest - 0x8d4bc
 GJAccountManager::syncAccount - 0x91948
 GJAccountManager::unlinkFromAccount - 0x91e3c
+GJAccountSettingsLayer::GJAccountSettingsLayer - 0x248958
+GJAccountSettingsLayer::create - 0x22e4a8
 GJAccountSettingsLayer::keyBackClicked - 0x2323d8
 GJAccountSettingsLayer::closeAccInputNodes - 0x2315fc
 GJAccountSettingsLayer::createToggleButton - 0x2307cc
+GJAccountSettingsLayer::init - 0x22e528
 GJAccountSettingsLayer::onClose - 0x230c58
 GJAccountSettingsLayer::updateScoreValues - 0x231c68
 GJActionManager::~GJActionManager - 0x5f59ec
@@ -8142,8 +8146,9 @@ LevelPickerPopup::loadLevelsFinished - 0x820ddc
 LevelPickerPopup::loadLevelsFailed - 0x82103c
 LevelPickerPopup::setupPageInfo - 0x820c20
 LevelPickerPopup::textChanged - 0x82111c
-LevelSearchLayer::create - 0x396fb0
-LevelSearchLayer::scene - 0x396ec4
+LevelSearchLayer::~LevelSearchLayer - 0x615148
+LevelSearchLayer::create - 0x6153e4
+LevelSearchLayer::scene - 0x6152f0
 LevelSearchLayer::keyDown - 0x61a81c
 LevelSearchLayer::keyBackClicked - 0x61a76c
 LevelSearchLayer::textInputOpened - 0x619c8c
@@ -8175,7 +8180,8 @@ LevelSearchLayer::toggleTime - 0x618ec0
 LevelSearchLayer::toggleTimeNum - 0x61940c
 LevelSearchLayer::updateSearchLabel - 0x617e74
 LevelSelectLayer::~LevelSelectLayer - 0x396e8c
-LevelSelectLayer::create - 0x3163e0
+LevelSelectLayer::create - 0x396fb0
+LevelSelectLayer::scene - 0x396ec4
 LevelSelectLayer::keyBackClicked - 0x399cf0
 LevelSelectLayer::keyDown - 0x399d84
 LevelSelectLayer::updatePageWithObject - 0x397f8c
@@ -8289,6 +8295,7 @@ LoadingCircleSprite::fadeInCircle - 0x41cbb8
 LoadingCircleSprite::hideCircle - 0x41cc44
 LoadingCircleSprite::init - 0x41cb20
 LoadingLayer::~LoadingLayer - 0x31744c
+LoadingLayer::create - 0x3163e0
 LoadingLayer::scene - 0x316308
 LoadingLayer::getLoadingString - 0x316c24
 LoadingLayer::init - 0x3164a0

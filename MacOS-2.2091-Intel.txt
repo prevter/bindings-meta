@@ -6491,10 +6491,12 @@ GJAccountManager::removeDLFromActive - 0xa0410
 GJAccountManager::syncAccount - 0xa20a0
 GJAccountManager::unlinkFromAccount - 0xa25b0
 GJAccountManager::updateAccountSettings - 0xa2670
+GJAccountSettingsLayer::GJAccountSettingsLayer - 0x2a5eb0
+GJAccountSettingsLayer::create - 0x289990
 GJAccountSettingsLayer::keyBackClicked - 0x28dc90
 GJAccountSettingsLayer::closeAccInputNodes - 0x28cd10
 GJAccountSettingsLayer::createToggleButton - 0x28bd80
-GJAccountSettingsLayer::init - 0x704400
+GJAccountSettingsLayer::init - 0x2899f0
 GJAccountSettingsLayer::onClose - 0x28c1e0
 GJAccountSettingsLayer::onUpdate - 0x28c220
 GJAccountSettingsLayer::updateScoreValues - 0x28d4c0
@@ -8386,6 +8388,7 @@ LevelPickerPopup::loadLevelsFinished - 0x93ff30
 LevelPickerPopup::loadLevelsFailed - 0x9401c0
 LevelPickerPopup::setupPageInfo - 0x93fd70
 LevelPickerPopup::textChanged - 0x9402a0
+LevelSearchLayer::~LevelSearchLayer - 0x703f30
 LevelSearchLayer::create - 0x7042f0
 LevelSearchLayer::scene - 0x7041c0
 LevelSearchLayer::keyDown - 0x709780
@@ -8395,10 +8398,13 @@ LevelSearchLayer::textInputClosed - 0x708d10
 LevelSearchLayer::textChanged - 0x708de0
 LevelSearchLayer::FLAlert_Clicked - 0x708bc0
 LevelSearchLayer::demonFilterSelectClosed - 0x708650
+LevelSearchLayer::checkDiff - 0x7094b0
+LevelSearchLayer::checkTime - 0x7095b0
 LevelSearchLayer::confirmClearFilters - 0x706bf0
 LevelSearchLayer::getDiffKey - 0x708430
 LevelSearchLayer::getLevelLenKey - 0x709380
 LevelSearchLayer::getSearchDiffKey - 0x709290
+LevelSearchLayer::getSearchObject - 0x708ed0
 LevelSearchLayer::getTimeKey - 0x7096b0
 LevelSearchLayer::init - 0x704400
 LevelSearchLayer::onBack - 0x7080d0
