@@ -741,6 +741,7 @@ BoomListView::cellForRowAtIndexPath - 0x3fce0
 BoomListView::getListCell - 0x3fd70
 BoomListView::loadCell - 0x3fee0
 BoomListView::init - 0x3f760
+BoomListView::restoreListOffset - 0x3fae0
 BoomScrollLayer::create - 0x40960
 BoomScrollLayer::visit - 0x41490
 BoomScrollLayer::ccTouchBegan - 0x420b0
@@ -3088,6 +3089,7 @@ GameToolbox::stringSetupToDict - 0x6fd10
 GameToolbox::stringSetupToMap - 0x6fac0
 GameToolbox::stripNonBreakingSpaces - 0x70150
 GameToolbox::timestampToDateString - 0x744c0
+GameToolbox::timestampToDayString - 0xac260
 GameToolbox::timestampToHumanReadable - 0x74180
 GameToolbox::transformColor - 0x6f4e0
 GauntletLayer::scene - 0x2fab50
@@ -3345,6 +3347,7 @@ GJBaseGameLayer::promoteGroupParent - 0x32c4d0
 GJBaseGameLayer::recordHitboxTrailState - 0x317690
 GJBaseGameLayer::refreshCounterLabels - 0x33e280
 GJBaseGameLayer::refreshKeyframeAnims - 0x33c9b0
+GJBaseGameLayer::registerSpawnRemap - 0x3257a0
 GJBaseGameLayer::removeFromGroupParents - 0x32c6a0
 GJBaseGameLayer::removeFromGroups - 0x32bd40
 GJBaseGameLayer::removeGroupParent - 0x32c5a0
@@ -3734,6 +3737,7 @@ GJMGLayer::~GJMGLayer - 0x386c60
 GJMGLayer::showGround - 0x387970
 GJMGLayer::init - 0x387b80
 GJMGLayer::loadGroundSprites - 0x3880b0
+GJMGLayer::updateGroundOpacity - 0x388270
 GJMultiplayerManager::~GJMultiplayerManager - 0x390190
 GJMultiplayerManager::sharedState - 0x390230
 GJMultiplayerManager::init - 0x390990
@@ -5137,6 +5141,7 @@ ScrollViewPopup::onClose - 0x49fc20
 MusicChangelogPopup::~MusicChangelogPopup - 0x6218d0
 MusicChangelogPopup::buildContent - 0x47fa60
 MusicDelegateHandler::~MusicDelegateHandler - 0x480500
+MusicDownloadManager::MusicDownloadManager - 0x480540
 MusicDownloadManager::~MusicDownloadManager - 0x482350
 MusicDownloadManager::customSFXPathDisplay - 0x486b20
 MusicDownloadManager::customSFXPathLeaf - 0x4868c0
@@ -7469,6 +7474,7 @@ TextAlertPopup::~TextAlertPopup - 0x399b80
 TextAlertPopup::create - 0x3a8760
 TextAlertPopup::init - 0x3a8890
 TextAlertPopup::replaceIn - 0x3a8c00
+TextAlertPopup::setAlertPosition - 0x3a8d30
 TextArea::~TextArea - 0x89db0
 TextArea::create - 0x89e30
 TextArea::update - 0x8a940
