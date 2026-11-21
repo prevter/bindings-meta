@@ -1930,6 +1930,7 @@ cocos2d::CCScheduler::update - 0x3ae538
 cocos2d::CCScheduler::appendIn - 0x3ad1bc
 cocos2d::CCScheduler::pauseAllTargets - 0x3ae36c
 cocos2d::CCScheduler::pauseAllTargetsWithMinPriority - 0x3ae374
+cocos2d::CCScheduler::pauseTarget - 0x3adf6c
 cocos2d::CCScheduler::priorityIn - 0x3ace1c
 cocos2d::CCScheduler::removeHashElement - 0x3ac77c
 cocos2d::CCScheduler::removeUpdateFromHash - 0x3ad644
@@ -3730,6 +3731,7 @@ AppDelegate::applicationWillResignActive - 0x6493ac
 AppDelegate::applicationWillTerminate - 0x64947c
 AppDelegate::trySaveGame - 0x64969c
 AppDelegate::willSwitchToScene - 0x6497b0
+AppDelegate::pauseGame - 0x649414
 AppDelegate::platformShutdown - 0x6490f0
 AppDelegate::setIdleTimerDisabled - 0x421e10
 AppDelegate::setupGLView - 0x6490f4
@@ -3917,6 +3919,7 @@ CCBlockLayer::disableUI - 0x473dd0
 CCBlockLayer::enableUI - 0x473dd4
 CCBlockLayer::decrementForcePrio - 0x473f94
 CCBlockLayer::incrementForcePrio - 0x34f028
+CCCircleWave::~CCCircleWave - 0x1237e4
 CCCircleWave::create - 0x123860
 CCCircleWave::create - 0x123868
 CCCircleWave::setPosition - 0x123b3c
@@ -4453,6 +4456,7 @@ CreateStartPosPopup::init - 0x348f6c
 CreateStartPosPopup::onClose - 0x349780
 CreateStartPosPopup::updateInputNode - 0x349770
 CreateStartPosPopup::onCreate - 0x349568
+CreatorLayer::~CreatorLayer - 0x2270ac
 CreatorLayer::create - 0x2273f0
 CreatorLayer::scene - 0x2272fc
 CreatorLayer::init - 0x2274bc
@@ -4596,6 +4600,7 @@ CustomSFXWidget::updateProgressBar - 0x5d0a54
 CustomSFXWidget::updateSFXInfo - 0x5d0bec
 CustomSFXWidget::updateSFXObject - 0x5d0b60
 CustomSFXWidget::verifySFXID - 0x5d1c74
+CustomSongLayer::~CustomSongLayer - 0x1a9acc
 CustomSongLayer::keyBackClicked - 0x1ab2ec
 CustomSongLayer::show - 0x1ab3d8
 CustomSongLayer::textChanged - 0x1aae64
@@ -4686,6 +4691,7 @@ DailyLevelPage::tryGetDailyStatus - 0x1c5b28
 DailyLevelPage::updateTimers - 0x1c50e4
 DailyRecallUnlockPopup::create - 0x864888
 DailyRecallUnlockPopup::init - 0x864a0c
+RingObject::~RingObject - 0x18ab30
 RingObject::create - 0x154e54
 RingObject::setScale - 0x1550e8
 RingObject::setRotation - 0x155148
@@ -5124,6 +5130,7 @@ EditorUI::editColorButtonUsable - 0x16444
 EditorUI::editGroup - 0x9210
 EditorUI::editObject - 0x83a0
 EditorUI::editObject2 - 0x8398
+EditorUI::editObjectSpecial - 0x15d34
 EditorUI::editorLayerForArray - 0xad80
 EditorUI::enableButton - 0xbc54
 EditorUI::findObject - 0x50639c
@@ -5236,6 +5243,7 @@ EditorUI::selectBuildTab - 0xee84
 EditorUI::selectedMoveCommand - 0x5777b4
 EditorUI::selectObject - 0x5054dc
 EditorUI::selectObjects - 0x505758
+EditorUI::selectObjectsInRect - 0x505d48
 EditorUI::setDpadStep - 0x5776a4
 EditorUI::setupCreateMenu - 0x55898c
 EditorUI::setupDeleteMenu - 0x5779ec
@@ -5358,6 +5366,7 @@ EndLevelLayer::playEndEffect - 0x420554
 EndLevelLayer::playStarEffect - 0x41f828
 EndLevelLayer::starEnterFinished - 0x420438
 EndLevelLayer::tryShowBanner - 0x41f668
+EndPortalObject::~EndPortalObject - 0x18ab30
 EndPortalObject::create - 0x310c18
 EndPortalObject::init - 0x310cb4
 EndPortalObject::setPosition - 0x311124
@@ -6746,6 +6755,7 @@ GJCommentListLayer::create - 0x22dc44
 GJCommentListLayer::init - 0x22dd3c
 GJCompactUserCell::init - 0x1ea620
 GJCompactUserCell::draw - 0x1eb3c4
+GJCompactUserCell::buildUserRow - 0x1ea62c
 GJDifficultySprite::create - 0x247594
 GJDifficultySprite::getDifficultyFrame - 0x247740
 GJDifficultySprite::init - 0x2476a8
@@ -7281,6 +7291,7 @@ GJRotationControl::ccTouchEnded - 0x57d73c
 GJRotationControl::ccTouchCancelled - 0x57d87c
 GJRotationControl::setAngle - 0x57d0d8
 GJRotationControl::updateSliderPosition - 0x57d2dc
+GJScaleControl::~GJScaleControl - 0x583230
 GJScaleControl::init - 0x57da70
 GJScaleControl::ccTouchBegan - 0x57ecbc
 GJScaleControl::ccTouchMoved - 0x57efe0
@@ -7534,10 +7545,12 @@ HardStreak::scheduleAutoUpdate - 0x5d1cc
 HardStreak::stopStroke - 0x5db5c
 HardStreak::updateStroke - 0x5d1dc
 HSVLiveOverlay::~HSVLiveOverlay - 0x428db0
+HSVLiveOverlay::create - 0x1fd39c
 HSVLiveOverlay::keyBackClicked - 0x1fdc84
 HSVLiveOverlay::show - 0x1fdd3c
 HSVLiveOverlay::hsvChanged - 0x1fddf0
 HSVLiveOverlay::createHSVWidget - 0x1fdb00
+HSVLiveOverlay::init - 0x1fd55c
 HSVLiveOverlay::onSelectTab - 0x1fdab4
 HSVLiveOverlay::toggleControls - 0x1fdd88
 HSVWidgetPopup::create - 0x3946a0
@@ -8509,6 +8522,7 @@ MoreOptionsLayer::onSongBrowser - 0x773a5c
 MoreOptionsLayer::onToggle - 0x7745f0
 MoreOptionsLayer::pageKey - 0x775014
 MoreOptionsLayer::toggleGP - 0x773d0c
+MoreSearchLayer::~MoreSearchLayer - 0x61aae8
 MoreSearchLayer::init - 0x61ac9c
 MoreSearchLayer::keyBackClicked - 0x61cb20
 MoreSearchLayer::audioNext - 0x61c6cc
@@ -9798,6 +9812,7 @@ SelectSFXSortLayer::init - 0x3ab760
 SelectSFXSortLayer::onClose - 0x3abbd8
 SelectSFXSortLayer::onSelect - 0x3abc14
 SelectSmartTemplateLayer::customSetup - 0x5c11a4
+SequenceTriggerGameObject::~SequenceTriggerGameObject - 0x18b284
 SequenceTriggerGameObject::create - 0x16306c
 SequenceTriggerGameObject::init - 0x163160
 SequenceTriggerGameObject::resetObject - 0x1631b0
@@ -10491,6 +10506,7 @@ ShareCommentLayer::onShare - 0x5cc428
 ShareCommentLayer::updateCharCountLabel - 0x5cd038
 ShareCommentLayer::updateDescText - 0x5cc9f4
 ShareCommentLayer::updatePercentLabel - 0x5cc238
+ShareLevelLayer::~ShareLevelLayer - 0x213488
 ShareLevelLayer::create - 0x213698
 ShareLevelLayer::keyBackClicked - 0x215528
 ShareLevelLayer::getStarsButton - 0x214e4c
@@ -10555,6 +10571,7 @@ SliderThumb::init - 0x284370
 SliderThumb::setMaxOffset - 0x2846c0
 SliderThumb::setRotated - 0x28439c
 SliderThumb::setValue - 0x2845b0
+SliderTouchLogic::~SliderTouchLogic - 0x285a80
 SliderTouchLogic::create - 0x284880
 SliderTouchLogic::ccTouchBegan - 0x284bac
 SliderTouchLogic::ccTouchMoved - 0x284dc0
@@ -10664,6 +10681,7 @@ SpawnParticleGameObject::create - 0x187504
 SpawnParticleGameObject::init - 0x1875dc
 SpawnParticleGameObject::customObjectSetup - 0x188b3c
 SpawnParticleGameObject::getSaveString - 0x18762c
+SpawnTriggerGameObject::~SpawnTriggerGameObject - 0x16ee1c
 SpawnTriggerGameObject::create - 0x16eed8
 SpawnTriggerGameObject::init - 0x16efbc
 SpawnTriggerGameObject::triggerObject - 0x16f1a8
@@ -10804,6 +10822,7 @@ TableView::reloadData - 0x6105d0
 TableView::removeIndexPathFromPathAddedArray - 0x60fd84
 TableView::scrollToIndexPath - 0x6105cc
 TableView::touchFinish - 0x611514
+TeleportPortalObject::~TeleportPortalObject - 0x18ab30
 TeleportPortalObject::create - 0x15d460
 TeleportPortalObject::setPosition - 0x15d7c0
 TeleportPortalObject::setRotation - 0x15d86c
@@ -11099,6 +11118,7 @@ URLCell::loadFromObject - 0x1d9ccc
 URLCell::onURL - 0x1edd9c
 URLViewLayer::create - 0x246bb0
 URLViewLayer::init - 0x246d60
+VideoOptionsLayer::create - 0x771978
 VideoOptionsLayer::init - 0x77539c
 VideoOptionsLayer::keyBackClicked - 0x776d1c
 VideoOptionsLayer::createToggleButton - 0x7761d8

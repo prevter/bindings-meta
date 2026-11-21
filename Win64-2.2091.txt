@@ -2359,6 +2359,7 @@ FMODAudioEngine::getChannelGroup - 0x5f6c0
 FMODAudioEngine::getMusicLengthMS - 0x65130
 FMODAudioEngine::getMusicTimeMS - 0x650d0
 FMODAudioEngine::isMusicPlaying - 0x62930
+FMODAudioEngine::isMusicPlaying - 0x62b10
 FMODAudioEngine::isPersistentMatchPlaying - 0x639d0
 FMODAudioEngine::lengthForSound - 0x626e0
 FMODAudioEngine::loadAndPlayMusic - 0x62c50
@@ -7395,7 +7396,6 @@ StartPosBrowser::stateChanged - 0x3f5c0
 StartPosBrowser::init - 0x4dba20
 StartPosBrowser::onClose - 0x4dc330
 StartPosBrowser::setupList - 0x4dbdd0
-StartPosLayer::~StartPosLayer - 0x457a00
 StartPosLayer::onClose - 0x45ec30
 StartPosLayer::updateInputNode - 0x45f000
 StartPosLayer::valueDidChange - 0x45f420
