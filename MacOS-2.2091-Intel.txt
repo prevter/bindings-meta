@@ -3924,6 +3924,7 @@ AutoBackupPopup::onClose - 0x981ce0
 AutoBackupPopup::backupsChanged - 0x980db0
 AutoBackupPopup::textChanged - 0x980e00
 AutoBackupPopup::FLAlert_Clicked - 0x9818d0
+AutoBackupPopup::backupDirectory - 0x97dbc0
 AutoSaveSettingsLayer::init - 0x5bc3e0
 AutoSaveSettingsLayer::onClose - 0x5be0a0
 AutoSaveSettingsLayer::valueDidChange - 0x5bdc90
@@ -4246,6 +4247,7 @@ CCTextInputNode::getString - 0x68a30
 CCTextInputNode::holdTimerFired - 0x6c830
 CCTextInputNode::init - 0x659e0
 CCTextInputNode::refreshLabel - 0x68ae0
+CCTextInputNode::setAllowedChars - 0x66ef0
 CCTextInputNode::setAllowNewlines - 0x66960
 CCTextInputNode::setLabelNormalColor - 0x68e90
 CCTextInputNode::setLabelPlaceholderColor - 0x68e70
