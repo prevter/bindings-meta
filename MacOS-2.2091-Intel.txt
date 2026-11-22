@@ -3212,6 +3212,7 @@ SetupTriggerPopup::createToggleButton - 0x21aa20
 SetupTriggerPopup::createToggleValueControl - 0x21fe00
 SetupTriggerPopup::createToggleValueControlAdvanced - 0x21ff30
 SetupTriggerPopup::createValueControl - 0x21e860
+SetupTriggerPopup::createValueControlAdvanced - 0x21ec70
 SetupTriggerPopup::createValueControlAdvanced - 0x21e950
 SetupTriggerPopup::createValueControlWArrows - 0x21eb80
 SetupTriggerPopup::getGroupContainer - 0x21a290
@@ -7805,6 +7806,7 @@ IDNameBrowserPopup::virtualRowCount - 0x90bb70
 IDNameBrowserPopup::virtualRowHeight - 0x90bbb0
 IDNameBrowserPopup::mountVirtualRow - 0x90bbd0
 IDNameInput::~IDNameInput - 0x9132b0
+IDNameInput::create - 0x9133d0
 IDNameInput::idNameBrowserClosed - 0x914d90
 IDNameInput::textChanged - 0x916040
 IDNameInput::textInputOpened - 0x916330
