@@ -3171,6 +3171,7 @@ FLAlertLayer::textInputShouldOffset - 0x495380
 FLAlertLayer::textInputReturn - 0x495510
 FLAlertLayer::init - 0x494910
 FLAlertLayer::init - 0x493e30
+FLAlertLayer::onButtonTag - 0x494a50
 SetupTriggerPopup::SetupTriggerPopup - 0x2c00
 SetupTriggerPopup::~SetupTriggerPopup - 0x2191e0
 SetupTriggerPopup::create - 0x2194a0
@@ -4174,7 +4175,10 @@ CCScrollLayerExt::updateScrollDecay - 0x41bff0
 CCSpriteCOpacity::createWithSpriteFrame - 0x476ba0
 CCSpriteCOpacity::createWithSpriteFrameName - 0x476c30
 CCSpriteCOpacity::setOpacity - 0x476cd0
+CCSpriteWithHue::~CCSpriteWithHue - 0x8e110
+CCSpriteWithHue::createWithSpriteFrame - 0x6c2f80
 CCSpriteWithHue::createWithSpriteFrameName - 0x6c3060
+CCSpriteWithHue::createWithTexture - 0x6c2db0
 CCSpriteWithHue::draw - 0x6c3a20
 CCSpriteWithHue::initWithTexture - 0x6c32e0
 CCSpriteWithHue::initWithTexture - 0x6c3350
@@ -4195,9 +4199,12 @@ CCSpriteWithHue::setLuminance - 0x6c3410
 CCSpriteWithHue::setupDefaultSettings - 0x6c30e0
 CCSpriteWithHue::updateColorMatrix - 0x6c34f0
 CCSpriteWithHue::updateHue - 0x6c33c0
+CCSpriteGrayscale::~CCSpriteGrayscale - 0x476d40
 CCSpriteGrayscale::create - 0x6c3e20
 CCSpriteGrayscale::create - 0x6c3ee0
+CCSpriteGrayscale::createWithSpriteFrame - 0x6c4180
 CCSpriteGrayscale::createWithSpriteFrameName - 0x6c4260
+CCSpriteGrayscale::createWithTexture - 0x6c3fb0
 CCSpriteGrayscale::getShaderName - 0x6c3e00
 CCSpriteGrayscale::shaderBody - 0x6c3bd0
 CCSpritePart::create - 0x35da90
@@ -4239,11 +4246,13 @@ CCTextInputNode::getString - 0x68a30
 CCTextInputNode::holdTimerFired - 0x6c830
 CCTextInputNode::init - 0x659e0
 CCTextInputNode::refreshLabel - 0x68ae0
+CCTextInputNode::setAllowNewlines - 0x66960
 CCTextInputNode::setLabelNormalColor - 0x68e90
 CCTextInputNode::setLabelPlaceholderColor - 0x68e70
 CCTextInputNode::setLabelPlaceholderScale - 0x68e50
 CCTextInputNode::setMaxLabelScale - 0x68e10
 CCTextInputNode::setMaxLabelWidth - 0x68e30
+CCTextInputNode::setParseEmotes - 0x67de0
 CCTextInputNode::setString - 0x67040
 CCTextInputNode::updateBlinkLabel - 0x67dc0
 CCTextInputNode::updateBlinkLabelToChar - 0x68eb0
@@ -4267,6 +4276,7 @@ ChallengesPage::exitNodeAtSlot - 0x387cd0
 ChallengesPage::onClose - 0x387510
 ChallengesPage::tryGetChallenges - 0x387e60
 ChallengesPage::updateDots - 0x387a00
+ChallengesPage::updateTimers - 0x387550
 GJChallengeItem::create - 0x562e0
 GJChallengeItem::create - 0x56180
 GJChallengeItem::createFromString - 0x55f70
@@ -4455,6 +4465,8 @@ CommentCell::incrementDislikes - 0x23e550
 CommentCell::incrementLikes - 0x23e4a0
 CommentCell::loadFromComment - 0x22d440
 CommentCell::onConfirmDelete - 0x23e0d0
+CommentCell::onGoToLevel - 0x23de00
+CommentCell::onLike - 0x23df70
 CommentCell::onMoreOptions - 0x23e220
 CommentCell::onUndelete - 0x23e780
 CommentCell::onUnhide - 0x23df50
@@ -5508,6 +5520,8 @@ EmotePickerPopup::layoutEmoteGrid - 0x9034d0
 EmotePickerPopup::refreshEnabled - 0x902d30
 EmoteSprite::~EmoteSprite - 0x8e100
 EmoteSprite::createWithName - 0x904590
+EmoteSprite::maxEmotesComment - 0x9042a0
+EmoteSprite::maxEmotesMessage - 0x9042b0
 EmoteSprite::defCount - 0x904420
 EmoteSprite::defAtIndex - 0x9043d0
 EmoteSprite::setColor - 0x904710
@@ -6367,6 +6381,7 @@ GameToolbox::alignItemsVertically - 0x4e9480
 GameToolbox::bounceTime - 0x4f40a0
 GameToolbox::colorToSepia - 0x4ec6e0
 GameToolbox::createHashString - 0x4ede10
+GameToolbox::createProgressBar - 0x4ec1f0
 GameToolbox::createToggleButton - 0x4eb470
 GameToolbox::createToggleButton - 0x4eb5a0
 GameToolbox::doWeHaveInternet - 0x4e9640
@@ -6405,6 +6420,7 @@ GameToolbox::postClipVisit - 0x4ead10
 GameToolbox::preVisitWithClippingRect - 0x4eabf0
 GameToolbox::preVisitWithClipRect - 0x4eacd0
 GameToolbox::saveParticleToString - 0x4ef2c0
+GameToolbox::setOnOffSprite - 0x4e90d0
 GameToolbox::showFolderDialog - 0x4f6390
 GameToolbox::showOpenFileDialog - 0x4f6300
 GameToolbox::showOpenFileDialogMulti - 0x4f6330
@@ -7122,6 +7138,7 @@ GJGameLevel::addPlaytime - 0x5870e0
 GJGameLevel::areCoinsVerified - 0x58c1b0
 GJGameLevel::copyLevelInfo - 0x588200
 GJGameLevel::dataLoaded - 0x588fb0
+GJGameLevel::dtExpandOrder - 0x586540
 GJGameLevel::dtSetCells - 0x585fb0
 GJGameLevel::duplicate - 0x582c00
 GJGameLevel::generateSettingsString - 0x5844b0
@@ -7132,6 +7149,7 @@ GJGameLevel::getCoinKey - 0x584030
 GJGameLevel::getLastBuildPageForTab - 0x5840a0
 GJGameLevel::getListSnapshot - 0x588b90
 GJGameLevel::getNormalPercent - 0x53f070
+GJGameLevel::getSessionBest - 0x586ae0
 GJGameLevel::getSongName - 0x5843e0
 GJGameLevel::getUnpackedLevelDescription - 0x58c210
 GJGameLevel::handleStatsConflict - 0x551010
@@ -8257,6 +8275,7 @@ LevelInfoLayer::FLAlert_Clicked - 0x2b1a60
 LevelInfoLayer::setIDPopupClosed - 0x2af500
 LevelInfoLayer::onEnterTransitionDidFinish - 0x2b0d60
 LevelInfoLayer::adminActionConfirmed - 0x2b16f0
+LevelInfoLayer::addProgressBar - 0x2af700
 LevelInfoLayer::confirmClone - 0x2aec90
 LevelInfoLayer::confirmDelete - 0x2ae340
 LevelInfoLayer::confirmMoveToBottom - 0x2af140
@@ -8819,7 +8838,10 @@ MPLobbyLayer::onUpdateLobby - 0x48ac50
 MPLobbyLayer::postComment - 0x48ae40
 MPLobbyLayer::tryExitLobby - 0x48aff0
 MPLobbyLayer::updateLobby - 0x48ac00
+MultilineBitmapFont::~MultilineBitmapFont - 0x47e8c0
+MultilineBitmapFont::createWithFont - 0x47ba10
 MultilineBitmapFont::setOpacity - 0x47e3d0
+MultilineBitmapFont::initWithFont - 0x47bbc0
 MultilineBitmapFont::moveSpecialDescriptors - 0x47e550
 MultilineBitmapFont::stringWithMaxWidth - 0x888ec0
 MultiplayerLayer::create - 0x384970
@@ -9040,6 +9062,7 @@ NewThreadPopup::selectedRecipients - 0x947f70
 NewThreadPopup::textChanged - 0x947630
 NewThreadPopup::threadSendFinished - 0x948270
 NewThreadPopup::threadSendFailed - 0x948c10
+NewThreadPopup::applyMode - 0x946c10
 NewThreadPopup::init - 0x944240
 NodePoint::create - 0xd8d40
 NotificationFilterPopup::keyBackClicked - 0x98d630
@@ -9703,9 +9726,12 @@ PromoInterstitial::init - 0x2c11b0
 PromoInterstitial::onClick - 0x2c15b0
 PromoInterstitial::onClose - 0x2c14f0
 PromoInterstitial::setup - 0x2c1200
+PurchaseItemPopup::~PurchaseItemPopup - 0x312fd0
+PurchaseItemPopup::create - 0x310ab0
 PurchaseItemPopup::keyBackClicked - 0x313d70
 PurchaseItemPopup::init - 0x313140
 PurchaseItemPopup::onClose - 0x313cd0
+PurchaseItemPopup::onPurchase - 0x313d00
 RandTriggerGameObject::create - 0x1a3860
 RandTriggerGameObject::init - 0x1a3930
 RandTriggerGameObject::triggerObject - 0x1a3bc0
@@ -9890,6 +9916,8 @@ SecretLayer2::onSubmit - 0x497400
 SecretLayer2::selectAThread - 0x49b330
 SecretLayer2::showCompletedLevel - 0x498ed0
 SecretLayer2::showSecretLevel - 0x499ae0
+SecretLayer2::updateMessageLabel - 0x497020
+SecretLayer2::updateSearchLabel - 0x497100
 SecretLayer3::create - 0x49c500
 SecretLayer3::scene - 0x499ce0
 SecretLayer3::init - 0x49c5d0
@@ -11138,6 +11166,7 @@ ThreadViewPopup::unmountVirtualRow - 0x937ec0
 ThreadViewPopup::buildMemberButton - 0x92f370
 ThreadViewPopup::init - 0x92d740
 ThreadViewPopup::layoutTitleRow - 0x92e960
+ThreadViewPopup::onHighlightFaded - 0x39eb60
 TimerTriggerGameObject::create - 0x1c3e80
 TimerTriggerGameObject::triggerObject - 0x1c3fb0
 TimerTriggerGameObject::customObjectSetup - 0x1c5ed0
