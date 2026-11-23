@@ -4635,8 +4635,10 @@ CreatorLayer::checkQuestsStatus - 0x3c18d0
 CreatorLayer::onAdventureMap - 0x2834b0
 CreatorLayer::onBack - 0x2846c0
 CreatorLayer::onChallenge - 0x283520
-CreatorLayer::onEventLevel - 0x37cf30
+CreatorLayer::onDailyLevel - 0x283550
+CreatorLayer::onEventLevel - 0x2835f0
 CreatorLayer::onFeaturedLevels - 0x2836d0
+CreatorLayer::onGauntlets - 0x283640
 CreatorLayer::onLeaderboards - 0x2830f0
 CreatorLayer::onMapPacks - 0x2837b0
 CreatorLayer::onMultiplayer - 0x283140
@@ -4644,10 +4646,11 @@ CreatorLayer::onMyLevels - 0x283850
 CreatorLayer::onOnlineLevels - 0x283810
 CreatorLayer::onOnlyFullVersion - 0x283940
 CreatorLayer::onPaths - 0x283730
+CreatorLayer::onSavedLevels - 0x283010
 CreatorLayer::onSecretVault - 0x283ea0
 CreatorLayer::onTopLists - 0x283750
 CreatorLayer::onTreasureRoom - 0x2840c0
-CreatorLayer::onWeeklyLevel - 0x37cf30
+CreatorLayer::onWeeklyLevel - 0x2835a0
 CreatorSettingsPopup::create - 0x8b6970
 CreatorSettingsPopup::onClose - 0x8b7060
 CreatorSettingsPopup::setTextPopupClosed - 0x8b7070
@@ -5376,6 +5379,7 @@ EditorUI::onDeleteCustomItem - 0x63c970
 EditorUI::onDeleteInfo - 0x50e640
 EditorUI::onDeleteSelected - 0x8260
 EditorUI::onDeleteSelectedType - 0xffa0
+EditorUI::onDeleteStartPos - 0x10020
 EditorUI::onDeselectAll - 0x5b9de0
 EditorUI::onDpadStep - 0x63af60
 EditorUI::onDuplicate - 0x5b5da0

@@ -3846,6 +3846,7 @@ BoomScrollLayer::moveToPage - 0x31a1d0
 BoomScrollLayer::moveToPageEnded - 0x319f68
 BoomScrollLayer::pageNumberForPosition - 0x319c6c
 BoomScrollLayer::positionForPageWithNumber - 0x31a0a4
+BoomScrollLayer::quickUpdate - 0x31a42c
 BoomScrollLayer::removePage - 0x31a55c
 BoomScrollLayer::removePageWithNumber - 0x31a5f0
 BoomScrollLayer::repositionPagesLooped - 0x318d70
@@ -4598,7 +4599,7 @@ CustomSFXCell::inCustomSFXTree - 0x1e8a4c
 CustomSFXCell::showsSFXInfoButton - 0x1e8a84
 CustomSFXCell::loadFromObject - 0x1d6a4c
 CustomSFXCell::shouldReload - 0x1e2848
-CustomSFXCell::updateBGColor - 0x1e6998
+CustomSFXCell::updateBGColor - 0x1d6ba0
 CustomSFXRowMenu::ccTouchBegan - 0x5ce8a0
 CustomSFXWidget::create - 0x5ce9c8
 CustomSFXWidget::downloadSFXFinished - 0x5d1c88
@@ -5207,6 +5208,7 @@ EditorUI::onDeleteCustomItem - 0x578ef0
 EditorUI::onDeleteInfo - 0xe180
 EditorUI::onDeleteSelected - 0x73e8
 EditorUI::onDeleteSelectedType - 0xe540
+EditorUI::onDeleteStartPos - 0xe5c0
 EditorUI::onDeselectAll - 0x506a2c
 EditorUI::onDpadStep - 0x577618
 EditorUI::onDuplicate - 0x5031e4
@@ -7869,6 +7871,7 @@ LevelCell::inRecallMode - 0x1e6540
 LevelCell::loadCustomLevelCell - 0x1e34c4
 LevelCell::loadFromLevel - 0x1d6cf0
 LevelCell::loadLocalLevelCell - 0x1e2b70
+LevelCell::onClick - 0x1e6998
 LevelCell::onViewProfile - 0x1e6c10
 LevelCell::recallChestReady - 0x1e6608
 LevelCell::recallLevel - 0x1e65ac
