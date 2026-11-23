@@ -2229,8 +2229,8 @@ EditTriggersPopup::create - 0x399f00
 EditTriggersPopup::determineStartValues - 0x39a380
 EditTriggersPopup::onClose - 0x39a390
 EditTriggersPopup::init - 0x39a010
-EmotePickerPopup::~EmotePickerPopup - 0x1236e0
 EmotePickerPopup::EmotePickerPopup - 0x123430
+EmotePickerPopup::~EmotePickerPopup - 0x1236e0
 EmotePickerPopup::buttonAnchor - 0x1237e0
 EmotePickerPopup::openAt - 0x123840
 EmotePickerPopup::ccTouchBegan - 0x124390
@@ -3384,6 +3384,7 @@ GJBaseGameLayer::speedForShaderTarget - 0x32b2a0
 GJBaseGameLayer::staticObjectsInRect - 0x318160
 GJBaseGameLayer::stopCustomEnterEffect - 0x3147c0
 GJBaseGameLayer::syncBGTextures - 0x344f00
+GJBaseGameLayer::syncDeathMarkerFlip - 0x32ec30
 GJBaseGameLayer::teleportPlayer - 0x315f20
 GJBaseGameLayer::toggleAudioVisualizer - 0x352dd0
 GJBaseGameLayer::toggleDualMode - 0x31de10
@@ -3434,7 +3435,6 @@ GJBaseGameLayer::updateTimerLabels - 0x33df60
 GJBaseGameLayer::updateZoom - 0x33eac0
 GJBaseGameLayer::visitWithColorFlash - 0x352590
 GJBaseGameLayer::volumeForProximityEffect - 0x34c740
-GJBaseGameLayer::syncDeathMarkerFlip - 0x32ec30
 GJChestSprite::~GJChestSprite - 0x561c30
 GJChestSprite::create - 0x566f50
 GJChestSprite::setOpacity - 0x5670e0

@@ -3169,6 +3169,7 @@ FLAlertLayer::keyDown - 0x494be0
 FLAlertLayer::show - 0x4950e0
 FLAlertLayer::textInputShouldOffset - 0x495380
 FLAlertLayer::textInputReturn - 0x495510
+FLAlertLayer::incrementForcePrio - 0x4949f0
 FLAlertLayer::init - 0x494910
 FLAlertLayer::init - 0x493e30
 FLAlertLayer::onButtonTag - 0x494a50
@@ -3253,6 +3254,10 @@ SetupTriggerPopup::toggleCustomEaseRateVisibility - 0x2253c0
 SetupTriggerPopup::toggleDisableButtons - 0x21fd00
 SetupTriggerPopup::toggleLimitValue - 0x21e6b0
 SetupTriggerPopup::togglePageArrows - 0x219dd0
+SetupTriggerPopup::triggerArrowChanged - 0x21e290
+SetupTriggerPopup::triggerArrowLeft - 0x21e260
+SetupTriggerPopup::triggerArrowRight - 0x21e5c0
+SetupTriggerPopup::triggerSliderChanged - 0x21e070
 SetupTriggerPopup::updateCustomEaseLabel - 0x2252c0
 SetupTriggerPopup::updateCustomEaseRateLabel - 0x2246e0
 SetupTriggerPopup::updateCustomToggleTrigger - 0x220420
@@ -3322,6 +3327,7 @@ GJDropDownLayer::disableUI - 0x6bb9c0
 GJDropDownLayer::enableUI - 0x6bb9e0
 GJDropDownLayer::init - 0x6bb990
 GJDropDownLayer::init - 0x6bb570
+AccountHelpLayer::create - 0x9c250
 AccountHelpLayer::customSetup - 0x9c830
 AccountHelpLayer::layerHidden - 0x9d4e0
 AccountHelpLayer::accountStatusChanged - 0x9d3a0
@@ -3333,6 +3339,8 @@ AccountHelpLayer::onReLogin - 0x9cc20
 AccountHelpLayer::onUnlink - 0x9cd50
 AccountHelpLayer::updatePage - 0x9cf00
 AccountHelpLayer::verifyUnlink - 0x9d250
+AccountLayer::~AccountLayer - 0x9a140
+AccountLayer::create - 0x99e00
 AccountLayer::customSetup - 0x9a1c0
 AccountLayer::layerHidden - 0x9c1f0
 AccountLayer::backupAccountFinished - 0x9b730
@@ -3863,6 +3871,7 @@ AnimatedShopKeeper::animationFinished - 0x313ed0
 AnimatedShopKeeper::init - 0x313e20
 AnimatedShopKeeper::playReactAnimation - 0x312b20
 AnimatedShopKeeper::startAnimating - 0x30ff40
+AppDelegate::~AppDelegate - 0x73b620
 AppDelegate::get - 0x73b8f0
 AppDelegate::applicationDidFinishLaunching - 0x73b760
 AppDelegate::applicationDidEnterBackground - 0x73ba60
@@ -4222,6 +4231,7 @@ CCSpritePart::updateDisplayFrame - 0x35e170
 CCTextInputMenu::ccTouchBegan - 0x78e00
 CCTextInputMenu::registerWithTouchDispatcher - 0x78da0
 CCTextInputMenu::rightClick - 0x78ea0
+CCTextInputNode::CCTextInputNode - 0x6d6a0
 CCTextInputNode::~CCTextInputNode - 0x65690
 CCTextInputNode::create - 0x65940
 CCTextInputNode::visit - 0x66fe0
@@ -4405,7 +4415,11 @@ ColorChannelSprite::updateBlending - 0x2c3a00
 ColorChannelSprite::updateCopyLabel - 0x2c36f0
 ColorChannelSprite::updateOpacity - 0x2c38b0
 ColorChannelSprite::updateValues - 0x2c3b10
-ColorSelectLiveOverlay::createWithObject - 0x803c30
+ColorSelectLiveOverlay::ColorSelectLiveOverlay - 0x5974c0
+ColorSelectLiveOverlay::~ColorSelectLiveOverlay - 0x5955f0
+ColorSelectLiveOverlay::create - 0x5956e0
+ColorSelectLiveOverlay::createWithActions - 0x595760
+ColorSelectLiveOverlay::createWithObject - 0x595670
 ColorSelectLiveOverlay::keyBackClicked - 0x5972d0
 ColorSelectLiveOverlay::show - 0x597380
 ColorSelectLiveOverlay::closeColorSelect - 0x596a30
@@ -4426,6 +4440,7 @@ ColorSelectPopup::colorToHex - 0x808730
 ColorSelectPopup::create - 0x803c30
 ColorSelectPopup::create - 0x803c50
 ColorSelectPopup::create - 0x803a60
+ColorSelectPopup::create - 0x803a70
 ColorSelectPopup::hexToColor - 0x808c80
 ColorSelectPopup::show - 0x809b50
 ColorSelectPopup::determineStartValues - 0x8078a0
@@ -5052,9 +5067,13 @@ EditorWindowPopup::isInCloseButton - 0x900b10
 EditorWindowPopup::applyWindowSize - 0x9005e0
 EditorWindowPopup::getResizeCorner - 0x900a00
 EditorWindowPopup::layoutWindow - 0x9006b0
+EditorWindowPopup::setWindowSizeBounds - 0x9008b0
+EditorCommandsPopup::~EditorCommandsPopup - 0x8ddec0
+EditorCommandsPopup::create - 0x8ddf40
 EditorCommandsPopup::onBuildWindowContent - 0x8de0f0
 EditorCommandsPopup::onWindowResized - 0x8def30
 EditorCommandsPopup::addCommandButton - 0x8dea60
+EditorCommandsPopup::init - 0x8de090
 EditorCommandsPopup::layoutCommandButtons - 0x8deb00
 EditorCommandsPopup::onCommand - 0x8decd0
 GJOptionsLayer::setupOptions - 0x287050
@@ -5068,6 +5087,7 @@ GJOptionsLayer::offsetToNextPage - 0x287020
 GJOptionsLayer::onNextPage - 0x286b90
 GJOptionsLayer::onPrevPage - 0x286b70
 GJOptionsLayer::onToggle - 0x287b30
+EditorOptionsLayer::create - 0x288360
 EditorOptionsLayer::init - 0x2884c0
 EditorOptionsLayer::onClose - 0x288ed0
 EditorOptionsLayer::setupOptions - 0x2884f0
@@ -5275,8 +5295,9 @@ EditorUI::canSelectObject - 0x5b8830
 EditorUI::centerCameraOnObject - 0x10420
 EditorUI::changeSelectedObjects - 0x119970
 EditorUI::checkDiffAfterTransformAnchor - 0x613b40
+EditorUI::checkLiveColorSelect - 0x5b8ef0
 EditorUI::clickOnPosition - 0xc6d0
-EditorUI::closeLiveColorSelect - 0x19b70
+EditorUI::closeLiveColorSelect - 0x18da0
 EditorUI::closeLiveHSVSelect - 0x19b70
 EditorUI::colorSelectClosed - 0x19df0
 EditorUI::constrainGameLayerPosition - 0xdbc0
@@ -5325,6 +5346,7 @@ EditorUI::editButtonUsable - 0x179c0
 EditorUI::editColor - 0x19a00
 EditorUI::editColorButtonUsable - 0x195c0
 EditorUI::editGroup - 0xa820
+EditorUI::editHSV - 0x198a0
 EditorUI::editObject - 0x93f0
 EditorUI::editObject2 - 0x93e0
 EditorUI::editObjectSpecial - 0x18dd0
@@ -5374,6 +5396,7 @@ EditorUI::onCopyState - 0x5b85c0
 EditorUI::onCreate - 0xce30
 EditorUI::onCreateButton - 0x10880
 EditorUI::onCreateObject - 0x10e30
+EditorUI::onDelete - 0xc910
 EditorUI::onDeleteAll - 0x64db0
 EditorUI::onDeleteCustomItem - 0x63c970
 EditorUI::onDeleteInfo - 0x50e640
@@ -5395,7 +5418,7 @@ EditorUI::onGroupSticky - 0x8bc0
 EditorUI::onGroupUp - 0xaae0
 EditorUI::onHideUIBtn - 0x8500
 EditorUI::onLockLayer - 0xabf0
-EditorUI::onNewCustomItem - 0x198a0
+EditorUI::onNewCustomItem - 0x63c3d0
 EditorUI::onPaste - 0x5b7e60
 EditorUI::onPasteColor - 0x5b8690
 EditorUI::onPasteInPlace - 0x41b670
@@ -5506,6 +5529,7 @@ EditorUI::updateZoom - 0x11f90
 EditorUI::updateZoom - 0x120c0
 EditorUI::valueFromXPos - 0xdd00
 EditorUI::xPosFromValue - 0xdb40
+EditorUI::zoomGameLayer - 0x11ff0
 EditorUI::zoomIn - 0x89b0
 EditorUI::zoomOut - 0x8a90
 EditorUI::editObjectOptions - 0x19d70
@@ -5546,7 +5570,7 @@ EndLevelLayer::getCoinString - 0x4bab60
 EndLevelLayer::getEndText - 0x4bad90
 EndLevelLayer::goEdit - 0x4bc130
 EndLevelLayer::init - 0x4b8bb0
-EndLevelLayer::onEdit - 0x4949f0
+EndLevelLayer::onEdit - 0x4bb030
 EndLevelLayer::onEveryplay - 0x4bc120
 EndLevelLayer::onHideLayer - 0x4bb2d0
 EndLevelLayer::onLevelLeaderboard - 0x4bb220
@@ -5593,6 +5617,7 @@ ExplodeItemNode::createSprites - 0x1f6c90
 ExplodeItemNode::init - 0x1f7ad0
 ExplodeItemSprite::create - 0x1f7b20
 ExplodeItemSprite::init - 0x1f7f40
+ExtendedLayer::~ExtendedLayer - 0x78fa0
 ExtendedLayer::create - 0x38e600
 ExtendedLayer::init - 0x390d10
 ExtendedLayer::setPosition - 0x390d20
@@ -5649,7 +5674,7 @@ FMODAudioEngine::countActiveMusic - 0x3d0490
 FMODAudioEngine::createStream - 0x3d7610
 FMODAudioEngine::disableMetering - 0x3d0a00
 FMODAudioEngine::enableMetering - 0x3d09d0
-FMODAudioEngine::fadeInBackgroundMusic - 0x2eece0
+FMODAudioEngine::fadeInBackgroundMusic - 0x3d3e90
 FMODAudioEngine::fadeInMusic - 0x3d4620
 FMODAudioEngine::fadeMusic - 0x3d7530
 FMODAudioEngine::fadeOutMusic - 0x3d7450
@@ -5772,6 +5797,7 @@ FRequestProfilePage::getUserListFailed - 0x871410
 FRequestProfilePage::textChanged - 0x871e40
 FRequestProfilePage::deleteSelected - 0x2132a0
 FRequestProfilePage::init - 0x86ef70
+FRequestProfilePage::setupCommentsBrowser - 0x871280
 FRequestProfilePage::untoggleAll - 0x213840
 FriendPickerPopup::requestPage - 0x93d140
 FriendPickerPopup::onClose - 0x93e180
@@ -7785,7 +7811,7 @@ HardStreak::resumeStroke - 0x64d50
 HardStreak::scheduleAutoUpdate - 0x641b0
 HardStreak::stopStroke - 0x64d70
 HardStreak::updateStroke - 0x641d0
-HSVLiveOverlay::~HSVLiveOverlay - 0x5954f0
+HSVLiveOverlay::~HSVLiveOverlay - 0x254750
 HSVLiveOverlay::create - 0x2547d0
 HSVLiveOverlay::keyBackClicked - 0x255140
 HSVLiveOverlay::show - 0x2551f0
@@ -8234,6 +8260,7 @@ LevelEditorLayer::triggerPlayerFollowCommand - 0xc54a0
 LevelEditorLayer::triggerRotateCommand - 0xc53c0
 LevelEditorLayer::tryUpdateSpeedObject - 0xbcd40
 LevelEditorLayer::typeExistsAtPosition - 0xafdc0
+LevelEditorLayer::undoLastAction - 0xb2fe0
 LevelEditorLayer::unlockAllLayers - 0xbc440
 LevelEditorLayer::updateAnimateOnTriggerObjects - 0xadd00
 LevelEditorLayer::updateArt - 0xae430
@@ -8788,6 +8815,7 @@ MoreOptionsLayer::onToggle - 0x87f230
 MoreOptionsLayer::pageKey - 0x87fc40
 MoreOptionsLayer::toggleGP - 0x87e8b0
 MoreSearchLayer::~MoreSearchLayer - 0x709af0
+MoreSearchLayer::create - 0x708750
 MoreSearchLayer::init - 0x709d90
 MoreSearchLayer::keyBackClicked - 0x70bda0
 MoreSearchLayer::audioNext - 0x70b950
@@ -10055,6 +10083,8 @@ SelectEventLayer::addToggle - 0x5a7080
 SelectEventLayer::init - 0x5a55d0
 SelectEventLayer::nextPosition - 0x5a7930
 SelectEventLayer::onInfo - 0x5a7a50
+SelectFontLayer::~SelectFontLayer - 0x284b90
+SelectFontLayer::create - 0x284e30
 SelectFontLayer::keyBackClicked - 0x285800
 SelectFontLayer::init - 0x285030
 SelectFontLayer::onChangeFont - 0x285640
@@ -10134,8 +10164,9 @@ SetGroupIDLayer::determineStartValues - 0x2ffd90
 SetGroupIDLayer::init - 0x2fcf00
 SetGroupIDLayer::onAddGroup - 0x2ffbc0
 SetGroupIDLayer::onAnim - 0x301330
+SetGroupIDLayer::onArrow - 0x301480
 SetGroupIDLayer::onArrowLeft - 0x301420
-SetGroupIDLayer::onArrowRight - 0x21e5c0
+SetGroupIDLayer::onArrowRight - 0x301450
 SetGroupIDLayer::onClose - 0x2ff0f0
 SetGroupIDLayer::onCopy - 0x3010d0
 SetGroupIDLayer::onGroupIDOptions - 0x2ff510
@@ -10537,10 +10568,12 @@ SetupSmartTemplateLayer::init - 0x4e2520
 SetupSmartTemplateLayer::onBack - 0x4e2e00
 SetupSmartTemplateLayer::onClick - 0x4e2e30
 SetupSmartTemplateLayer::onClose - 0x4e3160
+SetupSongTriggerPopup::create - 0x2bfbe0
 SetupSongTriggerPopup::pageChanged - 0x2c0e10
 SetupSongTriggerPopup::onClose - 0x2c0ea0
 SetupSongTriggerPopup::valueDidChange - 0x2c0d10
 SetupSongTriggerPopup::onPlayback - 0x2c0ad0
+SetupSongTriggerPopup::init - 0x2bfd20
 SetupSongTriggerPopup::onResetSongTime - 0x2c0cf0
 SetupSongTriggerPopup::onSavePlaybackPos - 0x2c08a0
 SetupSongTriggerPopup::updateApplyPrepare - 0x2c0a90
@@ -10814,6 +10847,7 @@ SliderTouchLogic::ccTouchMoved - 0x2eef80
 SliderTouchLogic::ccTouchEnded - 0x2eeec0
 SliderTouchLogic::registerWithTouchDispatcher - 0x2ef3b0
 SliderTouchLogic::init - 0x2eeb30
+SliderTouchLogic::setMaxOffset - 0x2eece0
 Slider::~Slider - 0x78fa0
 Slider::create - 0x2ef3f0
 Slider::create - 0x2ef510
@@ -10829,6 +10863,7 @@ Slider::hideGroove - 0x2efe30
 Slider::init - 0x2ef750
 Slider::setBarVisibility - 0x2efc70
 Slider::setLiveDragging - 0x2efcb0
+Slider::setMaxOffset - 0x2efde0
 Slider::setRotated - 0x7208b0
 Slider::setValue - 0x2efa70
 Slider::sliderBegan - 0x2eedf0
@@ -11239,7 +11274,7 @@ TutorialPopup::animateMenu - 0x6a6040
 TutorialPopup::closeTutorial - 0x6a5ec0
 TutorialPopup::init - 0x6a5cc0
 TutorialPopup::registerForCallback - 0x6a60b0
-UILayer::~UILayer - 0x4c5cf0
+UILayer::~UILayer - 0x4c5dd0
 UILayer::create - 0x4c1e90
 UILayer::draw - 0x4c4f60
 UILayer::ccTouchBegan - 0x4c4fd0
