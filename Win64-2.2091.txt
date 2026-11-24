@@ -2512,6 +2512,7 @@ FriendRowEdges::draw - 0x213020
 FriendsProfilePage::~FriendsProfilePage - 0x213240
 FriendsProfilePage::create - 0x213430
 FriendsProfilePage::requestPage - 0x5a3a0
+FriendsProfilePage::onClose - 0x217060
 FriendsProfilePage::virtualRowCount - 0x214740
 FriendsProfilePage::virtualRowHeight - 0xe8460
 FriendsProfilePage::mountVirtualRow - 0x214770
@@ -2527,7 +2528,6 @@ FriendsProfilePage::textChanged - 0x216300
 FriendsProfilePage::filterUsersWithQuery - 0x216c60
 FriendsProfilePage::init - 0x213620
 FriendsProfilePage::onClearSearch - 0x216b80
-FriendsProfilePage::onClose - 0x217060
 FriendsProfilePage::onGlobalSearch - 0x216440
 FriendsProfilePage::onSendMessage - 0x2157c0
 FriendsProfilePage::onSwitchList - 0x216fa0

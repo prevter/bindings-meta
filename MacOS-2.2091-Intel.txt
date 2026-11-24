@@ -2324,7 +2324,7 @@ cocos2d::CCTextureCache::removeTexture - 0x6c1ec0
 cocos2d::CCTextureCache::removeTextureForKey - 0x6c1ef0
 cocos2d::CCTextureCache::removeUnusedTextures - 0x6c1d30
 cocos2d::CCTextureCache::snapshotTextures - 0x6bfbb0
-cocos2d::CCTextureCache::textureForKey - 0x6c1970
+cocos2d::CCTextureCache::textureForKey - 0x6c1f70
 cocos2d::CCTextureETC::CCTextureETC - 0x1ed2b0
 cocos2d::CCTextureETC::~CCTextureETC - 0x1ed2e0
 cocos2d::CCTextureETC::getHeight - 0x1ed350
