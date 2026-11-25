@@ -640,6 +640,7 @@ AnimatedShopKeeper::~AnimatedShopKeeper - 0x3af7d0
 AnimatedShopKeeper::animationFinished - 0x3b62d0
 AnimatedShopKeeper::playReactAnimation - 0x3b5fa0
 AnimatedShopKeeper::startAnimating - 0x3b6240
+AppDelegate::~AppDelegate - 0x97c40
 AppDelegate::applicationDidFinishLaunching - 0x981f0
 AppDelegate::applicationDidEnterBackground - 0x98630
 AppDelegate::applicationWillEnterForeground - 0x98810

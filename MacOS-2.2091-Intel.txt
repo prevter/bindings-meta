@@ -3899,6 +3899,7 @@ ArtTriggerGameObject::create - 0x1ce2c0
 ArtTriggerGameObject::triggerObject - 0x1ce960
 ArtTriggerGameObject::customObjectSetup - 0x1ce900
 ArtTriggerGameObject::getSaveString - 0x1ce3d0
+AudioAssetsBrowser::create - 0x8991d0
 AudioAssetsBrowser::registerWithTouchDispatcher - 0x89a470
 AudioAssetsBrowser::keyBackClicked - 0x89a400
 AudioAssetsBrowser::musicActionFinished - 0x89a320
@@ -4123,7 +4124,7 @@ CCMenuItemSpriteExtra::activate - 0x263350
 CCMenuItemSpriteExtra::selected - 0x2634d0
 CCMenuItemSpriteExtra::unselected - 0x2637a0
 CCMenuItemSpriteExtra::init - 0x2631c0
-CCMenuItemSpriteExtra::setSizeMult - 0x30d250
+CCMenuItemSpriteExtra::setSizeMult - 0x263330
 CCMenuItemSpriteExtra::useAnimationType - 0x2632f0
 CCMenuItemToggler::~CCMenuItemToggler - 0x1f1b0
 CCMenuItemToggler::create - 0x1e9d0
@@ -5186,6 +5187,7 @@ EditorSFXManager::playAction - 0x8e2600
 EditorSFXManager::releaseBinding - 0x8e25a0
 EditorSFXManager::serializeAll - 0x8ea940
 EditorSFXManager::serializeCompressed - 0x8ecd60
+EditorSFXManager::setGlobalVolume - 0x8e3c40
 EditorSFXManager::soundsForAction - 0x8e3140
 EditorSFXSettingsPopup::valueDidChange - 0x8eedc0
 EditorSFXSettingsPopup::getValue - 0x8eed90
@@ -5545,6 +5547,7 @@ EditorUI::editObjectOptions - 0x19d70
 EditTriggersPopup::determineStartValues - 0x285cd0
 EditTriggersPopup::onClose - 0x285ce0
 EmotePickerPopup::~EmotePickerPopup - 0x903d40
+EmotePickerPopup::toggle - 0x902ab0
 EmotePickerPopup::openAt - 0x902b60
 EmotePickerPopup::ccTouchBegan - 0x903940
 EmotePickerPopup::keyDown - 0x903b10
@@ -5566,6 +5569,8 @@ EmoteSprite::maxEmotesComment - 0x9042a0
 EmoteSprite::maxEmotesMessage - 0x9042b0
 EmoteSprite::defCount - 0x904420
 EmoteSprite::defAtIndex - 0x9043d0
+EmoteSprite::effectiveLength - 0x905070
+EmoteSprite::fitToHeight - 0x9045b0
 EmoteSprite::setColor - 0x904710
 EndLevelLayer::~EndLevelLayer - 0x4b8c80
 EndLevelLayer::create - 0x4b8b30
@@ -5955,6 +5960,7 @@ GameLevelManager::getSavedLevels - 0x5466f0
 GameLevelManager::getSearchScene - 0x54ad10
 GameLevelManager::getSplitIntFromKey - 0x562e60
 GameLevelManager::getStarLevelsString - 0x5471b0
+GameLevelManager::getStoredOnlineLevels - 0x54a2c0
 GameLevelManager::getStoredUserMessage - 0x567da0
 GameLevelManager::getStoredUserMessageReply - 0x567df0
 GameLevelManager::getThreadMembers - 0x575170
@@ -5976,6 +5982,7 @@ GameLevelManager::invalidateUserList - 0x576120
 GameLevelManager::isDLActive - 0x54a6a0
 GameLevelManager::isFollowingUser - 0x54e5f0
 GameLevelManager::isPastDailyCopy - 0x54b9a0
+GameLevelManager::isTimeValid - 0x54a3c0
 GameLevelManager::isUpdateValid - 0x561100
 GameLevelManager::likeItem - 0x57e6f0
 GameLevelManager::makeTimeStamp - 0x54a1a0
@@ -6054,6 +6061,7 @@ GameLevelManager::setLevelFeatured - 0x563490
 GameLevelManager::setLevelStars - 0x563480
 GameLevelManager::storeCommentsResult - 0x568aa0
 GameLevelManager::storeDailyLevelState - 0x580df0
+GameLevelManager::storedFriendForAccountID - 0x57ce50
 GameLevelManager::storeFriendRequest - 0x567d10
 GameLevelManager::storeSearchResult - 0x549f00
 GameLevelManager::storeUserInfo - 0x567d10
@@ -6146,7 +6154,7 @@ GameManager::getMenuMusicFile - 0x360100
 GameManager::getMGTexture - 0x36cf50
 GameManager::getNextUniqueObjectKey - 0x36da90
 GameManager::getNextUsedKey - 0x36db80
-GameManager::getOrderedCustomObjectKeys - 0x11aa60
+GameManager::getOrderedCustomObjectKeys - 0x36db30
 GameManager::getPracticeMusicFile - 0x360250
 GameManager::getUGV - 0x36d4c0
 GameManager::getUnlockForAchievement - 0x361ae0
@@ -8622,6 +8630,7 @@ LoadingCircle::draw - 0x4b83c0
 LoadingCircle::registerWithTouchDispatcher - 0x4b83e0
 LoadingCircle::fadeAndRemove - 0x4b8330
 LoadingCircle::show - 0x4b8240
+LoadingCircleSprite::~LoadingCircleSprite - 0x4b8590
 LoadingCircleSprite::create - 0x4b8420
 LoadingCircleSprite::fadeInCircle - 0x4b85c0
 LoadingCircleSprite::hideCircle - 0x4b8640
@@ -10897,7 +10906,8 @@ Slider::init - 0x2ef750
 Slider::setBarVisibility - 0x2efc70
 Slider::setLiveDragging - 0x2efcb0
 Slider::setMaxOffset - 0x2efde0
-Slider::setRotated - 0x7208b0
+Slider::setRotated - 0x2efd90
+Slider::setSnap - 0x2ef900
 Slider::setValue - 0x2efa70
 Slider::sliderBegan - 0x2eedf0
 Slider::sliderEnded - 0x2eef10

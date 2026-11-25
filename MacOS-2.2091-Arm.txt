@@ -1134,9 +1134,11 @@ cocos2d::CCSprite::CCSprite - 0x21aab4
 cocos2d::CCSprite::~CCSprite - 0x21ab3c
 cocos2d::CCSprite::create - 0x21a63c
 cocos2d::CCSprite::create - 0x21a32c
+cocos2d::CCSprite::create - 0x21a41c
 cocos2d::CCSprite::createWithSpriteFrame - 0x21a520
 cocos2d::CCSprite::createWithSpriteFrameName - 0x21a614
 cocos2d::CCSprite::createWithTexture - 0x21a0b0
+cocos2d::CCSprite::createWithTexture - 0x21a228
 cocos2d::CCSprite::init - 0x21a724
 cocos2d::CCSprite::setVertexZ - 0x21bf5c
 cocos2d::CCSprite::setScaleX - 0x21bdcc
@@ -1472,6 +1474,7 @@ cocos2d::CCMenuItemToggle::initWithTarget - 0x3316ac
 cocos2d::CCMenuItemToggle::selectedItem - 0x331ea4
 cocos2d::CCMotionStreak::~CCMotionStreak - 0x4f265c
 cocos2d::CCMotionStreak::create - 0x4f2710
+cocos2d::CCMotionStreak::create - 0x4f28b4
 cocos2d::CCMotionStreak::update - 0x4f2d6c
 cocos2d::CCMotionStreak::setPosition - 0x4f2b74
 cocos2d::CCMotionStreak::draw - 0x4f3628
@@ -3764,6 +3767,7 @@ ArtTriggerGameObject::create - 0x1841a4
 ArtTriggerGameObject::triggerObject - 0x184790
 ArtTriggerGameObject::customObjectSetup - 0x184718
 ArtTriggerGameObject::getSaveString - 0x1842b0
+AudioAssetsBrowser::create - 0x78c990
 AudioAssetsBrowser::registerWithTouchDispatcher - 0x78d9e8
 AudioAssetsBrowser::keyBackClicked - 0x78d96c
 AudioAssetsBrowser::musicActionFinished - 0x78d918
@@ -4132,6 +4136,7 @@ CCTextInputNode::setLabelPlaceholderColor - 0x62464
 CCTextInputNode::setLabelPlaceholderScale - 0x6245c
 CCTextInputNode::setMaxLabelScale - 0x6244c
 CCTextInputNode::setMaxLabelWidth - 0x62454
+CCTextInputNode::setParseEmotes - 0x60eb8
 CCTextInputNode::setString - 0x5fd44
 CCTextInputNode::setTextScrollViewSize - 0x5f948
 CCTextInputNode::updateBlinkLabel - 0x60eac
@@ -5027,6 +5032,7 @@ EditorSFXManager::playAction - 0x7ce64c
 EditorSFXManager::playAction - 0x7ce4fc
 EditorSFXManager::releaseBinding - 0x7ce494
 EditorSFXManager::removeSoundAt - 0x7cf0e8
+EditorSFXManager::setGlobalVolume - 0x7cf59c
 EditorSFXSettingsPopup::valueDidChange - 0x7d7c50
 EditorSFXSettingsPopup::getValue - 0x7d7c1c
 EditorSoundBrowserLayer::registerWithTouchDispatcher - 0x7d93ac
@@ -5403,8 +5409,11 @@ EmotePickerPopup::refreshEnabled - 0x7e9d00
 EmoteSprite::~EmoteSprite - 0x8357c
 EmoteSprite::createWithName - 0x7eb598
 EmoteSprite::defForName - 0x7eb1e0
+EmoteSprite::maxEmotesComment - 0x7eb1b0
 EmoteSprite::defCount - 0x7eb418
 EmoteSprite::defAtIndex - 0x7eb3b4
+EmoteSprite::effectiveLength - 0x7ebe94
+EmoteSprite::fitToHeight - 0x7eb5b8
 EmoteSprite::setColor - 0x7eb6fc
 EndLevelLayer::EndLevelLayer - 0x420c4c
 EndLevelLayer::~EndLevelLayer - 0x41d24c
@@ -5814,6 +5823,7 @@ GameLevelManager::invalidateUserList - 0x4c870c
 GameLevelManager::isDLActive - 0x4a05d0
 GameLevelManager::isFollowingUser - 0x4a41a4
 GameLevelManager::isPastDailyCopy - 0x4a17a8
+GameLevelManager::isTimeValid - 0x4a02a8
 GameLevelManager::isUpdateValid - 0x4b4d5c
 GameLevelManager::likeItem - 0x4d0554
 GameLevelManager::limitSavedLevels - 0x4a140c
@@ -5895,6 +5905,7 @@ GameLevelManager::setLevelFeatured - 0x4b6e40
 GameLevelManager::setLevelStars - 0x4b6e38
 GameLevelManager::storeCommentsResult - 0x4bba74
 GameLevelManager::storeDailyLevelState - 0x4d2a60
+GameLevelManager::storedFriendForAccountID - 0x4cede0
 GameLevelManager::storeFriendRequest - 0x4bae6c
 GameLevelManager::storeSearchResult - 0x49fda4
 GameLevelManager::storeUserMessage - 0x4baea0
@@ -6281,6 +6292,7 @@ GameToolbox::getRelativeOffset - 0x449a94
 GameToolbox::getResponse - 0x447d88
 GameToolbox::getTimeString - 0x44c0ac
 GameToolbox::hsvFromString - 0x44aaf0
+GameToolbox::intToShortString - 0x452700
 GameToolbox::intToString - 0x451c88
 GameToolbox::isRateEasing - 0x44d080
 GameToolbox::msToTimeString - 0x453198
@@ -8414,6 +8426,7 @@ LoadingCircle::draw - 0x41c9f0
 LoadingCircle::registerWithTouchDispatcher - 0x41ca04
 LoadingCircle::fadeAndRemove - 0x41c93c
 LoadingCircle::show - 0x41c840
+LoadingCircleSprite::~LoadingCircleSprite - 0x41cba0
 LoadingCircleSprite::create - 0x41ca3c
 LoadingCircleSprite::fadeInCircle - 0x41cbb8
 LoadingCircleSprite::hideCircle - 0x41cc44
@@ -9190,6 +9203,7 @@ PlayerObject::addAllParticles - 0x367b5c
 PlayerObject::addToTouchedRings - 0x37cfd8
 PlayerObject::addToYVelocity - 0x367e6c
 PlayerObject::animatePlatformerJump - 0x36dd5c
+PlayerObject::boostPlayer - 0x37013c
 PlayerObject::bumpPlayer - 0x381d78
 PlayerObject::buttonDown - 0x37cfbc
 PlayerObject::canStickToGround - 0x37d8b4
@@ -9263,6 +9277,7 @@ PlayerObject::playerIsMovingUp - 0x36e0ec
 PlayerObject::playingEndEffect - 0x381cd8
 PlayerObject::playSpawnEffect - 0x37b034
 PlayerObject::playSpiderDashEffect - 0x376a20
+PlayerObject::postCollision - 0x36e834
 PlayerObject::preSlopeCollision - 0x3740c0
 PlayerObject::propellPlayer - 0x382054
 PlayerObject::pushButton - 0x37bbd8
@@ -10636,7 +10651,7 @@ ShareCommentLayer::textChanged - 0x5ccec8
 ShareCommentLayer::uploadActionFinished - 0x5cd174
 ShareCommentLayer::uploadActionFailed - 0x5cd2ac
 ShareCommentLayer::onClosePopup - 0x5cd424
-ShareCommentLayer::init - 0x5cbf24
+ShareCommentLayer::init - 0x5cae68
 ShareCommentLayer::onClear - 0x5cc304
 ShareCommentLayer::onClose - 0x5cc3bc
 ShareCommentLayer::onEmotes - 0x5cc9a0
@@ -10733,7 +10748,7 @@ Slider::ccTouchEnded - 0x285994
 Slider::disableSlider - 0x2856ac
 Slider::enableSlider - 0x28579c
 Slider::getLiveDragging - 0x28595c
-Slider::getThumb - 0x5b9d84
+Slider::getThumb - 0x285668
 Slider::getValue - 0x285858
 Slider::hideGroove - 0x285a6c
 Slider::init - 0x2854a8
@@ -10741,6 +10756,7 @@ Slider::setBarVisibility - 0x28594c
 Slider::setLiveDragging - 0x285968
 Slider::setMaxOffset - 0x285a24
 Slider::setRotated - 0x2859d4
+Slider::setSnap - 0x285654
 Slider::setValue - 0x285770
 Slider::sliderBegan - 0x284c4c
 Slider::sliderEnded - 0x284d58
