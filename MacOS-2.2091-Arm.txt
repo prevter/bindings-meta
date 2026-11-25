@@ -2439,7 +2439,7 @@ cocos2d::CCTransitionCrossFade::onEnter - 0x96d18
 cocos2d::CCTransitionCrossFade::onExit - 0x97050
 cocos2d::CCTransitionCrossFade::draw - 0x96d14
 cocos2d::CCTransitionFade::CCTransitionFade - 0x96738
-cocos2d::CCTransitionFade::~CCTransitionFade - 0xa7520
+cocos2d::CCTransitionFade::~CCTransitionFade - 0x967b8
 cocos2d::CCTransitionFade::create - 0x968d8
 cocos2d::CCTransitionFade::create - 0x9683c
 cocos2d::CCTransitionFade::onEnter - 0x969c4
@@ -3361,6 +3361,7 @@ AchievementNotifier::achievementDisplayFinished - 0x79cdd4
 AchievementNotifier::notifyAchievement - 0x79cc68
 AchievementNotifier::showNextAchievement - 0x79ccbc
 AchievementNotifier::willSwitchToScene - 0x79ce18
+AchievementsLayer::AchievementsLayer - 0x2ebe28
 AchievementsLayer::create - 0x2eb688
 AchievementsLayer::keyDown - 0x2ebba0
 AchievementsLayer::customSetup - 0x2eb744
@@ -4504,10 +4505,14 @@ CreatorLayer::contentStatusFinished - 0x229a28
 CreatorLayer::sceneWillResume - 0x229b38
 CreatorLayer::dialogClosed - 0x229a34
 CreatorLayer::canPlayOnlineLevels - 0x2299d4
+CreatorLayer::checkTimedStatus - 0x228ecc
 CreatorLayer::onAdventureMap - 0x228790
 CreatorLayer::onBack - 0x229974
 CreatorLayer::onChallenge - 0x228824
+CreatorLayer::onDailyLevel - 0x22885c
+CreatorLayer::onEventLevel - 0x2288f4
 CreatorLayer::onFeaturedLevels - 0x2289c0
+CreatorLayer::onGauntlets - 0x228940
 CreatorLayer::onLeaderboards - 0x228388
 CreatorLayer::onMapPacks - 0x228a88
 CreatorLayer::onMultiplayer - 0x2283d0
@@ -4515,9 +4520,11 @@ CreatorLayer::onMyLevels - 0x228b10
 CreatorLayer::onOnlineLevels - 0x228ad4
 CreatorLayer::onOnlyFullVersion - 0x228bec
 CreatorLayer::onPaths - 0x228a0c
+CreatorLayer::onSavedLevels - 0x2282b4
 CreatorLayer::onSecretVault - 0x229194
 CreatorLayer::onTopLists - 0x228a28
 CreatorLayer::onTreasureRoom - 0x2293e0
+CreatorLayer::onWeeklyLevel - 0x2288a8
 CreatorSettingsPopup::~CreatorSettingsPopup - 0x7a7e48
 CreatorSettingsPopup::create - 0x7a7b08
 CreatorSettingsPopup::onClose - 0x7a7fc0
@@ -4711,6 +4718,8 @@ DailyLevelNode::onClaimReward - 0x1c7114
 DailyLevelNode::onSkipLevel - 0x1c7218
 DailyLevelNode::showSkipButton - 0x1c58b8
 DailyLevelNode::updateTimeLabel - 0x1c575c
+DailyLevelPage::DailyLevelPage - 0x1c7440
+DailyLevelPage::create - 0x1c3ab4
 DailyLevelPage::registerWithTouchDispatcher - 0x1c60a0
 DailyLevelPage::keyBackClicked - 0x1c6004
 DailyLevelPage::show - 0x1c5e74
@@ -5389,9 +5398,11 @@ EmotePickerPopup::addCell - 0x7ea44c
 EmotePickerPopup::canAddEmote - 0x7eaa58
 EmotePickerPopup::init - 0x7e96b8
 EmotePickerPopup::layoutEmoteGrid - 0x7ea548
+EmotePickerPopup::onPickEmote - 0x7ea788
 EmotePickerPopup::refreshEnabled - 0x7e9d00
 EmoteSprite::~EmoteSprite - 0x8357c
 EmoteSprite::createWithName - 0x7eb598
+EmoteSprite::defForName - 0x7eb1e0
 EmoteSprite::defCount - 0x7eb418
 EmoteSprite::defAtIndex - 0x7eb3b4
 EmoteSprite::setColor - 0x7eb6fc
@@ -5798,6 +5809,7 @@ GameLevelManager::hasDownloadedLevel - 0x4b2fc0
 GameLevelManager::hasDownloadedList - 0x4ad9dc
 GameLevelManager::hasLikedItem - 0x4d1634
 GameLevelManager::hasLikedItemFullCheck - 0x4d0d7c
+GameLevelManager::hasNewGauntlets - 0x4b2188
 GameLevelManager::invalidateUserList - 0x4c870c
 GameLevelManager::isDLActive - 0x4a05d0
 GameLevelManager::isFollowingUser - 0x4a41a4
@@ -5806,8 +5818,10 @@ GameLevelManager::isUpdateValid - 0x4b4d5c
 GameLevelManager::likeItem - 0x4d0554
 GameLevelManager::limitSavedLevels - 0x4a140c
 GameLevelManager::makeTimeStamp - 0x19455c
+GameLevelManager::markGauntletsSeen - 0x4b21d4
 GameLevelManager::markItemAsLiked - 0x4d0e28
 GameLevelManager::markListAsDownloaded - 0x4b4d54
+GameLevelManager::markTimedLevelSeen - 0x4b219c
 GameLevelManager::onBanUserCompleted - 0x4847f0
 GameLevelManager::onDeleteCommentCompleted - 0x48008c
 GameLevelManager::onDeleteServerLevelCompleted - 0x47e1c8
@@ -5891,7 +5905,7 @@ GameLevelManager::syncFollowing - 0x4c8eb8
 GameLevelManager::syncFollowListIfNeeded - 0x4c9534
 GameLevelManager::tryGetUsername - 0x497344
 GameLevelManager::updateDescription - 0x4cf28c
-GameLevelManager::updateLevel - 0x63008
+GameLevelManager::updateLevel - 0x4b4da4
 GameLevelManager::updateLevelOrders - 0x49cf2c
 GameLevelManager::updateLevelRewards - 0x49776c
 GameLevelManager::updateThread - 0x4ca540

@@ -3494,6 +3494,7 @@ AchievementNotifier::achievementDisplayFinished - 0x8aa610
 AchievementNotifier::notifyAchievement - 0x8aa4b0
 AchievementNotifier::showNextAchievement - 0x8aa500
 AchievementNotifier::willSwitchToScene - 0x8aa660
+AchievementsLayer::AchievementsLayer - 0x35cd70
 AchievementsLayer::create - 0x35c580
 AchievementsLayer::keyDown - 0x35cb30
 AchievementsLayer::customSetup - 0x35c670
@@ -4860,6 +4861,8 @@ DailyLevelNode::onClaimReward - 0x2179b0
 DailyLevelNode::onSkipLevel - 0x217ab0
 DailyLevelNode::showSkipButton - 0x216190
 DailyLevelNode::updateTimeLabel - 0x216020
+DailyLevelPage::DailyLevelPage - 0x217cd0
+DailyLevelPage::create - 0x214870
 DailyLevelPage::registerWithTouchDispatcher - 0x2169a0
 DailyLevelPage::keyBackClicked - 0x216910
 DailyLevelPage::show - 0x216770
@@ -5554,9 +5557,11 @@ EmotePickerPopup::addCell - 0x9033f0
 EmotePickerPopup::canAddEmote - 0x903a70
 EmotePickerPopup::init - 0x902680
 EmotePickerPopup::layoutEmoteGrid - 0x9034d0
+EmotePickerPopup::onPickEmote - 0x9037c0
 EmotePickerPopup::refreshEnabled - 0x902d30
 EmoteSprite::~EmoteSprite - 0x8e100
 EmoteSprite::createWithName - 0x904590
+EmoteSprite::defForName - 0x9042c0
 EmoteSprite::maxEmotesComment - 0x9042a0
 EmoteSprite::maxEmotesMessage - 0x9042b0
 EmoteSprite::defCount - 0x904420
