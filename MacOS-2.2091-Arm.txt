@@ -4063,6 +4063,7 @@ BrowseSmartKeyLayer::init - 0x444354
 BrowseSmartKeyLayer::onButton - 0x444d40
 BrowseSmartKeyLayer::onPrefabObject - 0x444d14
 BrowseSmartKeyLayer::updateChanceValues - 0x445444
+ButtonPage::~ButtonPage - 0x70a84
 ButtonPage::create - 0x5ce0bc
 ButtonPage::init - 0x5ce4e4
 ButtonSprite::~ButtonSprite - 0x53cc0
@@ -4183,6 +4184,7 @@ CCMoveCNode::reset - 0x2760c8
 CCNodeContainer::create - 0xd0cbc
 CCNodeContainer::init - 0x117c28
 CCNodeContainer::visit - 0x117c2c
+CCPartAnimSprite::~CCPartAnimSprite - 0x2edbf0
 CCPartAnimSprite::createWithAnimDesc - 0x2ebf94
 CCPartAnimSprite::setScaleX - 0x2ed604
 CCPartAnimSprite::setScaleY - 0x2ed62c
@@ -4272,6 +4274,7 @@ CCSpritePart::markAsNotBeingUsed - 0x2ed2e8
 CCSpritePart::resetTextureRect - 0x2ecfd8
 CCSpritePart::setBeingUsed - 0x2ecc70
 CCSpritePart::updateDisplayFrame - 0x2ecfec
+CCTextInputMenu::~CCTextInputMenu - 0x70a84
 CCTextInputMenu::create - 0x70034
 CCTextInputMenu::ccTouchBegan - 0x708e0
 CCTextInputMenu::registerWithTouchDispatcher - 0x7088c
@@ -7661,6 +7664,7 @@ GJMessagePopup::onClose - 0x237cec
 GJMessagePopup::onNewThread - 0x2382b0
 GJMessagePopup::onRemove - 0x238488
 GJMessagePopup::onReport - 0x237d28
+GJMGLayer::~GJMGLayer - 0x70a84
 GJMGLayer::create - 0x5d799c
 GJMGLayer::defaultYOffsetForBG2 - 0x5d797c
 GJMGLayer::draw - 0x5d8414
@@ -8099,6 +8103,7 @@ GradientTriggerObject::create - 0x140ab8
 GradientTriggerObject::init - 0x140b98
 GradientTriggerObject::customObjectSetup - 0x141f44
 GradientTriggerObject::getSaveString - 0x140bec
+GraphicsReloadLayer::~GraphicsReloadLayer - 0x70a84
 GraphicsReloadLayer::create - 0x77cb54
 GraphicsReloadLayer::scene - 0x77cab4
 GraphicsReloadLayer::init - 0x77ccb4
@@ -8402,7 +8407,7 @@ LevelBrowserLayer::cellPerformedAction - 0x3f1eec
 LevelBrowserLayer::createNewLevel - 0x3f0e88
 LevelBrowserLayer::createNewList - 0x3f0d14
 LevelBrowserLayer::createNewSmartTemplate - 0x3f0cac
-LevelBrowserLayer::deleteSelected - 0x3ec948
+LevelBrowserLayer::deleteSelected - 0x3f1508
 LevelBrowserLayer::exitLayer - 0x3f0b58
 LevelBrowserLayer::getItemsMatchingSearch - 0x3ef444
 LevelBrowserLayer::getSearchTitle - 0x3efaa0
@@ -8413,6 +8418,7 @@ LevelBrowserLayer::isVaultType - 0x3edca0
 LevelBrowserLayer::loadPage - 0x3ee2a8
 LevelBrowserLayer::onClearSearch - 0x3ee22c
 LevelBrowserLayer::onDeleteAll - 0x3ed2cc
+LevelBrowserLayer::onExportSelected - 0x3ec948
 LevelBrowserLayer::onGoToFolder - 0x3ede5c
 LevelBrowserLayer::onGoToPage - 0x3ec6ec
 LevelBrowserLayer::onHelp - 0x3f0ca8
@@ -8429,6 +8435,7 @@ LevelBrowserLayer::onSearch - 0x3edf64
 LevelBrowserLayer::setSearchObject - 0x3ec438
 LevelBrowserLayer::setupLevelBrowser - 0x3ef800
 LevelBrowserLayer::show - 0x3f24d8
+LevelBrowserLayer::showExportResult - 0x3f10bc
 LevelBrowserLayer::showImportResult - 0x3f12e0
 LevelBrowserLayer::updateLevelsLabel - 0x3f0930
 LevelBrowserLayer::updatePageLabel - 0x3ec5e0
@@ -8945,12 +8952,14 @@ LikeItemLayer::onClose - 0x5e725c
 LikeItemLayer::onDislike - 0x5e7310
 LikeItemLayer::onLike - 0x5e7298
 LikeItemLayer::triggerLike - 0x5e7388
+ListButtonBar::~ListButtonBar - 0x35bf88
 ListButtonBar::create - 0x35c004
 ListButtonBar::getPage - 0x35c6f8
 ListButtonBar::goToPage - 0x35c704
 ListButtonBar::init - 0x35c0e8
 ListButtonBar::onLeft - 0x35c5f0
 ListButtonBar::onRight - 0x35c67c
+ListButtonPage::~ListButtonPage - 0x70a84
 ListButtonPage::create - 0x35c4e8
 ListButtonPage::init - 0x35c780
 ListCell::ListCell - 0x28c800
