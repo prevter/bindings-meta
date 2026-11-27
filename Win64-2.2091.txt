@@ -662,11 +662,6 @@ ArtTriggerGameObject::~ArtTriggerGameObject - 0x637e10
 ArtTriggerGameObject::triggerObject - 0x663020
 ArtTriggerGameObject::customObjectSetup - 0x662fa0
 ArtTriggerGameObject::getSaveString - 0x662e50
-TableViewCellDelegate::getSelectedCellCustomIdx - 0x98e00
-TableViewCellDelegate::allowsCustomSFXActions - 0x5a3a0
-TableViewCellDelegate::isCustomIDSelected - 0x5a3a0
-TableViewCellDelegate::inCustomSFXTree - 0x5a3a0
-TableViewCellDelegate::showsSFXInfoButton - 0x5a3a0
 AudioAssetsBrowser::registerWithTouchDispatcher - 0x46290
 AudioAssetsBrowser::keyBackClicked - 0x99f90
 AudioAssetsBrowser::musicActionFinished - 0x99520
@@ -1630,7 +1625,6 @@ DialogLayer::onClose - 0x1756d0
 DialogLayer::updateNavButtonFrame - 0x175460
 DialogObject::~DialogObject - 0x1747e0
 DialogObject::create - 0x174920
-DpadMenu::~DpadMenu - 0x1f3370
 DpadMenu::ccTouchBegan - 0x1f3100
 DpadMenu::ccTouchMoved - 0x1f31f0
 DpadMenu::arrowForTouch - 0x1f3250

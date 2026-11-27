@@ -5048,8 +5048,10 @@ DialogLayer::updateNavButtonFrame - 0x3b1170
 DialogObject::~DialogObject - 0x3b1bf0
 DialogObject::create - 0x3b0130
 DialogObject::init - 0x3b02c0
+DpadMenu::create - 0x63ade0
 DpadMenu::ccTouchBegan - 0x63eca0
 DpadMenu::ccTouchMoved - 0x63ede0
+DpadMenu::arrowForTouch - 0x63eea0
 DrawGridLayer::~DrawGridLayer - 0xd6ac0
 DrawGridLayer::create - 0xaba40
 DrawGridLayer::update - 0xd6f80
@@ -6017,6 +6019,7 @@ GameLevelManager::banUser - 0x562890
 GameLevelManager::claimNotificationReward - 0x576fc0
 GameLevelManager::cleanupDailyLevels - 0x54e1e0
 GameLevelManager::createAndGetAccountComments - 0x56aa60
+GameLevelManager::createAndGetCommentsFull - 0x56aaf0
 GameLevelManager::createAndGetLevelComments - 0x56a660
 GameLevelManager::createAndGetLevelLists - 0x542ee0
 GameLevelManager::createAndGetMapPacks - 0x543950
@@ -6152,6 +6155,7 @@ GameLevelManager::isFollowingUser - 0x54e5f0
 GameLevelManager::isPastDailyCopy - 0x54b9a0
 GameLevelManager::isTimeValid - 0x54a3c0
 GameLevelManager::isUpdateValid - 0x561100
+GameLevelManager::levelIDFromCommentKey - 0x56a560
 GameLevelManager::likeItem - 0x57e6f0
 GameLevelManager::limitSavedLevels - 0x54b5a0
 GameLevelManager::makeTimeStamp - 0x54a1a0
@@ -6167,6 +6171,7 @@ GameLevelManager::onDeleteServerLevelListCompleted - 0x52fc30
 GameLevelManager::onDeleteUserMessagesCompleted - 0x52ad30
 GameLevelManager::onDownloadLevelCompleted - 0x524a50
 GameLevelManager::onDownloadUserMessageCompleted - 0x52aef0
+GameLevelManager::onGetAccountCommentsCompleted - 0x525af0
 GameLevelManager::onGetFollowingCompleted - 0x53d280
 GameLevelManager::onGetFriendRequestsCompleted - 0x529cc0
 GameLevelManager::onGetGauntletsCompleted - 0x52e6a0
@@ -6175,6 +6180,7 @@ GameLevelManager::onGetGJRewardsCompleted - 0x52c1a0
 GameLevelManager::onGetGJSecretRewardCompleted - 0x530cb0
 GameLevelManager::onGetGJUserInfoCompleted - 0x5282b0
 GameLevelManager::onGetLeaderboardScoresCompleted - 0x525200
+GameLevelManager::onGetLevelCommentsCompleted - 0x5254f0
 GameLevelManager::onGetLevelLeaderboardCompleted - 0x52e480
 GameLevelManager::onGetLevelListsCompleted - 0x52f2c0
 GameLevelManager::onGetLevelRateInfoCompleted - 0x530e20
@@ -6186,6 +6192,7 @@ GameLevelManager::onGetTopArtistsCompleted - 0x52ec00
 GameLevelManager::onGetUserListCompleted - 0x529410
 GameLevelManager::onGetUserMessagesCompleted - 0x52a540
 GameLevelManager::onGetUsersCompleted - 0x52b2a0
+GameLevelManager::onGetUserSearchCompleted - 0x53aec0
 GameLevelManager::onLikeItemCompleted - 0x5271b0
 GameLevelManager::onMuteUserCompleted - 0x53d340
 GameLevelManager::onProcessHttpRequestCompleted - 0x51bf80
@@ -8427,6 +8434,8 @@ LevelBrowserLayer::onLevelsImported - 0x483320
 LevelBrowserLayer::onLocalMode - 0x483330
 LevelBrowserLayer::onMyOnlineLevels - 0x483010
 LevelBrowserLayer::onNew - 0x482f20
+LevelBrowserLayer::onNextPage - 0x482800
+LevelBrowserLayer::onPrevPage - 0x4827b0
 LevelBrowserLayer::onProcessSelected - 0x482c70
 LevelBrowserLayer::onRefresh - 0x483920
 LevelBrowserLayer::onRemoveAllFavorites - 0x483400
