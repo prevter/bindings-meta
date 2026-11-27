@@ -12104,6 +12104,10 @@ ensureEmotesAreLoaded - 0x904050
 isSpecialSnapObject - 0x608a00
 offsetForKey - 0x603db0
 serializeCheckpoint - 0x5f7d30
+scoreCompare - 0x51b800
+scoreCompareMoons - 0x51b890
+scoreCompareDemons - 0x51b8c0
+scoreCompareUserCoins - 0x51b8f0
 kmAABBAssign - 0x6c94a0
 kmAABBContainsPoint - 0x6c9450
 kmAlmostEqual - 0x87a700

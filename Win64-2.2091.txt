@@ -7859,3 +7859,7 @@ ensureEmotesAreLoaded - 0x7ebc0
 isSpecialSnapObject - 0x1a1a50
 offsetForKey - 0x19f3e0
 serializeCheckpoint - 0x5302f0
+scoreCompare - 0x218f50
+scoreCompareMoons - 0x218ff0
+scoreCompareDemons - 0x219020
+scoreCompareUserCoins - 0x219050

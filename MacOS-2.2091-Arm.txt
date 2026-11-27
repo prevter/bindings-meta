@@ -6209,7 +6209,7 @@ GameLevelManager::onUploadCommentCompleted - 0x47f3c8
 GameLevelManager::onUploadFriendRequestCompleted - 0x481724
 GameLevelManager::onUploadLevelCompleted - 0x47bf34
 GameLevelManager::onUploadLevelListCompleted - 0x488554
-GameLevelManager::parseRestoreData - 0x3f9394
+GameLevelManager::parseRestoreData - 0x4d2fc4
 GameLevelManager::performNetworkTest - 0x4769a0
 GameLevelManager::ProcessHttpRequest - 0x476d14
 GameLevelManager::purgeUnusedLevels - 0x4a1800
@@ -12104,6 +12104,10 @@ ensureEmotesAreLoaded - 0x7eaf6c
 isSpecialSnapObject - 0x5498b8
 offsetForKey - 0x548e74
 serializeCheckpoint - 0x53f178
+scoreCompare - 0x476530
+scoreCompareMoons - 0x4765b4
+scoreCompareDemons - 0x4765d8
+scoreCompareUserCoins - 0x4765fc
 kmAABBAssign - 0x5e14e4
 kmAABBContainsPoint - 0x5e1480
 kmAlmostEqual - 0x77004c
