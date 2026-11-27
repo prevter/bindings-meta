@@ -5010,6 +5010,7 @@ DeathTrackerPopup::virtualRowHeight - 0x8d7410
 DeathTrackerPopup::mountVirtualRow - 0x8d7450
 DeathTrackerPopup::init - 0x8ca950
 DeathTrackerPopup::refreshGlobal - 0x8d02b0
+DemonFilterSelectLayer::create - 0x708450
 DemonFilterSelectLayer::init - 0x70c140
 DemonFilterSelectLayer::keyBackClicked - 0x70c720
 DemonFilterSelectLayer::onClose - 0x70c6d0
@@ -5400,6 +5401,7 @@ EditorUI::addSnapPosition - 0x11c60
 EditorUI::adjustCustomGridSize - 0xe200
 EditorUI::alignObjects - 0x611250
 EditorUI::alignObjectsOnAxis - 0x610cc0
+EditorUI::applyOffset - 0x60fec0
 EditorUI::applySpecialOffset - 0x611a20
 EditorUI::arrayContainsClass - 0x18ad0
 EditorUI::assignNewGroups - 0x163f0
@@ -5442,7 +5444,8 @@ EditorUI::createUndoSelectObject - 0xd470
 EditorUI::cycleCustomGridPreset - 0xe0c0
 EditorUI::deactivateRotationControl - 0x611ba0
 EditorUI::deactivateScaleControl - 0x612e60
-EditorUI::deactivateTransformControl - 0x6111a0
+EditorUI::deactivateTransformControl - 0x611790
+EditorUI::deleteObject - 0xfef0
 EditorUI::deleteSmartBlocksFromObjects - 0x14660
 EditorUI::deleteTypeFromObjects - 0x14d00
 EditorUI::deselectAll - 0x5b88f0
@@ -5553,6 +5556,7 @@ EditorUI::onUpdateDeleteFilter - 0x107d0
 EditorUI::orderDownCustomItem - 0x63cad0
 EditorUI::orderUpCustomItem - 0x63ca10
 EditorUI::pasteObjects - 0x5b6630
+EditorUI::playCircleAnim - 0x10570
 EditorUI::playerTouchBegan - 0x60b3e0
 EditorUI::playerTouchEnded - 0x60b4f0
 EditorUI::playSoundForCreatedObject - 0x11850
@@ -6114,6 +6118,7 @@ GameLevelManager::getRateStarsKey - 0x561fc0
 GameLevelManager::getReportKey - 0x581840
 GameLevelManager::getSavedDailyLevel - 0x548fb0
 GameLevelManager::getSavedDailyLevelFromLevelID - 0x5492b0
+GameLevelManager::getSavedGauntlet - 0x55e420
 GameLevelManager::getSavedGauntletLevel - 0x5490b0
 GameLevelManager::getSavedLevel - 0x542e90
 GameLevelManager::getSavedLevel - 0x5491b0
@@ -6247,6 +6252,7 @@ GameLevelManager::saveLocalScore - 0x54ef30
 GameLevelManager::sendAdminAction - 0x56e960
 GameLevelManager::sendThreadMessage - 0x572090
 GameLevelManager::setActiveSmartTemplate - 0x54ef50
+GameLevelManager::setBoolForKey - 0x5823d0
 GameLevelManager::setFolderName - 0x54ee10
 GameLevelManager::setIntForKey - 0x5821e0
 GameLevelManager::setLevelFeatured - 0x563490
@@ -7848,6 +7854,7 @@ GJRobotSprite::updateColor02 - 0x6ae880
 GJRobotSprite::updateColors - 0x6ae570
 GJRobotSprite::updateFrame - 0x6adcb0
 GJRobotSprite::updateGlowColor - 0x6ae8a0
+GJRotationControl::~GJRotationControl - 0x647990
 GJRotationControl::create - 0x640750
 GJRotationControl::init - 0x640880
 GJRotationControl::draw - 0x6417d0
@@ -7867,14 +7874,16 @@ GJScaleControl::ccTouchBegan - 0x642d30
 GJScaleControl::ccTouchMoved - 0x6430c0
 GJScaleControl::ccTouchEnded - 0x6434c0
 GJScaleControl::ccTouchCancelled - 0x643670
+GJScaleControl::createScaleInput - 0x642070
 GJScaleControl::loadValues - 0x642360
+GJScaleControl::onApplyScale - 0x643710
 GJScaleControl::onToggleLockScale - 0x642000
 GJScaleControl::scaleFromValue - 0x642c60
 GJScaleControl::skewFromValue - 0x642ca0
 GJScaleControl::sliderChanged - 0x642060
 GJScaleControl::updateLabelX - 0x642930
-GJScaleControl::updateLabelXY - 0x642a40
-GJScaleControl::updateLabelY - 0x642b50
+GJScaleControl::updateLabelXY - 0x642b50
+GJScaleControl::updateLabelY - 0x642a40
 GJScaleControl::valueFromScale - 0x642cf0
 GJScaleControl::valueFromSkew - 0x6428f0
 GJScoreCell::GJScoreCell - 0x23e8b0
@@ -8029,11 +8038,13 @@ GJTransformControl::ccTouchEnded - 0x647240
 GJTransformControl::ccTouchCancelled - 0x647720
 GJTransformControl::applyFreeRotation - 0x647550
 GJTransformControl::calculateRotationOffset - 0x645730
+GJTransformControl::finishTouch - 0x645530
 GJTransformControl::loadFromState - 0x6453d0
 GJTransformControl::loadValues - 0x6455a0
 GJTransformControl::refreshControl - 0x644660
 GJTransformControl::saveToState - 0x645490
 GJTransformControl::scaleButtons - 0x644590
+GJTransformControl::snapToGrid - 0x646fd0
 GJTransformControl::spriteByTag - 0x6447c0
 GJTransformControl::updateAnchorSprite - 0x6478c0
 GJTransformControl::updateButtons - 0x6447e0
@@ -8181,6 +8192,7 @@ IDNameInput::allowTextInput - 0x9163f0
 IDNameInput::enterPressed - 0x916430
 IDNameInput::dropdownListPopupClosed - 0x916470
 IDNameInput::initCore - 0x913570
+IDNameInput::refreshLabel - 0x9147b0
 IDNameInput::updateAutocomplete - 0x914e80
 InfoAlertButton::~InfoAlertButton - 0x5a3300
 InfoAlertButton::create - 0x5a2f20
@@ -8857,6 +8869,7 @@ LevelSearchLayer::onSpecialDemon - 0x707d50
 LevelSearchLayer::onStarAward - 0x707800
 LevelSearchLayer::toggleDifficulty - 0x707870
 LevelSearchLayer::toggleDifficultyNum - 0x708120
+LevelSearchLayer::toggleNoStar - 0x708000
 LevelSearchLayer::toggleStar - 0x707f20
 LevelSearchLayer::toggleTime - 0x707d90
 LevelSearchLayer::toggleTimeNum - 0x7082a0
@@ -8918,6 +8931,7 @@ LevelSettingsObject::objectFromDict - 0xda220
 LevelSettingsObject::objectFromString - 0xaea60
 LevelSettingsObject::init - 0xda070
 LevelSettingsObject::getCustomSFXPathRaw - 0xd9100
+LevelSettingsObject::getIDName - 0xd91b0
 LevelSettingsObject::getSaveString - 0xb3430
 LevelSettingsObject::setupColorsFromLegacyMode - 0xddeb0
 LevelSettingsObject::shouldUseYSection - 0xda200
@@ -8996,6 +9010,7 @@ LoadingLayer::init - 0x38bca0
 LoadingLayer::loadAssets - 0x38c4d0
 LoadingLayer::loadingFinished - 0x38cc80
 LoadingLayer::updateProgress - 0x38c470
+LocalLevelManager::~LocalLevelManager - 0x6c9690
 LocalLevelManager::sharedState - 0x6c9560
 LocalLevelManager::init - 0x6c98a0
 LocalLevelManager::encodeDataTo - 0x6cadb0
@@ -10595,6 +10610,7 @@ SelectFontLayer::init - 0x285030
 SelectFontLayer::onChangeFont - 0x285640
 SelectFontLayer::onClose - 0x285610
 SelectFontLayer::updateFontLabel - 0x2856e0
+SelectFontLayer2::~SelectFontLayer2 - 0x96fe50
 SelectFontLayer2::create - 0x970160
 SelectFontLayer2::registerWithTouchDispatcher - 0x970120
 SelectFontLayer2::keyBackClicked - 0x970970
@@ -10727,6 +10743,7 @@ SetTextPopup::onCancel - 0x29b8b0
 SetTextPopup::onResetValue - 0x29b800
 SetTextPopup::updateTextInputLabel - 0x29b8d0
 SetupAdvFollowEditPhysicsPopup::valueDidChange - 0x2f5f80
+SetupAdvFollowPopup::~SetupAdvFollowPopup - 0x2191e0
 SetupAdvFollowPopup::create - 0x2eff50
 SetupAdvFollowPopup::onClose - 0x2f4a50
 SetupAdvFollowPopup::updateDefaultTriggerValues - 0x2f3ff0
@@ -11056,6 +11073,7 @@ SetupPulsePopup::updatePulseMode - 0x397d30
 SetupPulsePopup::updatePulseTargetType - 0x397e30
 SetupPulsePopup::updateTargetID - 0x397db0
 SetupPulsePopup::updateTextInputLabel - 0x397940
+SetupRandAdvTriggerPopup::~SetupRandAdvTriggerPopup - 0x3782e0
 SetupRandAdvTriggerPopup::create - 0x378610
 SetupRandAdvTriggerPopup::onClose - 0x379e90
 SetupRandAdvTriggerPopup::textChanged - 0x379e70
@@ -11097,6 +11115,7 @@ SetupRotateGameplayPopup::init - 0x878310
 SetupRotatePopup::onClose - 0x66e890
 SetupRotatePopup::onCustomToggleTriggerValue - 0x66e910
 SetupRotatePopup::init - 0x66e300
+SetupSequenceTriggerPopup::~SetupSequenceTriggerPopup - 0x4d84a0
 SetupSequenceTriggerPopup::create - 0x4d87d0
 SetupSequenceTriggerPopup::onCustomToggleTriggerValue - 0x4d9c60
 SetupSequenceTriggerPopup::init - 0x4d8900
@@ -11194,6 +11213,7 @@ SetupSongTriggerPopup::onSavePlaybackPos - 0x2c08a0
 SetupSongTriggerPopup::updateApplyPrepare - 0x2c0a90
 SetupSongTriggerPopup::updateLength - 0x2c0850
 SetupSongTriggerPopup::updateSongTimeSlider - 0x2c09a0
+SetupSpawnPopup::~SetupSpawnPopup - 0x27a550
 SetupSpawnPopup::create - 0x27a880
 SetupSpawnPopup::onClose - 0x27c0f0
 SetupSpawnPopup::addRemap - 0x27beb0
@@ -11787,6 +11807,7 @@ TextArea::setIgnoreColorCode - 0x30d220
 TextArea::setString - 0x30cf00
 TextArea::showAll - 0x30d760
 TextArea::stopAllCharacterActions - 0x30d6a0
+TextGameObject::~TextGameObject - 0x6a3d50
 TextGameObject::create - 0x6734f0
 TextGameObject::customObjectSetup - 0x6a32f0
 TextGameObject::getSaveString - 0x6a3420
