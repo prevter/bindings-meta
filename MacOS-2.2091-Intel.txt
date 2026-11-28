@@ -3380,6 +3380,7 @@ AccountLayer::onSync - 0x9ac50
 AccountLayer::showLoadingUI - 0x9b620
 AccountLayer::toggleUI - 0x9c090
 AccountLayer::updatePage - 0x9af10
+AccountLoginLayer::create - 0x490e80
 AccountLoginLayer::registerWithTouchDispatcher - 0x492e60
 AccountLoginLayer::keyBackClicked - 0x492d20
 AccountLoginLayer::FLAlert_Clicked - 0x492b60
@@ -10796,6 +10797,7 @@ SetupAreaTriggerPopup::init - 0x4d4ac0
 SetupArtSwitchPopup::selectArtClosed - 0x5b2020
 SetupArtSwitchPopup::init - 0x5b19e0
 SetupArtSwitchPopup::onArt - 0x5b1fd0
+SetupAudioLineGuidePopup::create - 0x5b0020
 SetupAudioLineGuidePopup::selectSettingClosed - 0x5b08c0
 SetupAudioLineGuidePopup::init - 0x5b0140
 SetupAudioLineGuidePopup::onSpeed - 0x5b0870

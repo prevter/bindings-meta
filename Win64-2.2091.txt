@@ -6467,7 +6467,6 @@ SetupArtSwitchPopup::create - 0x608160
 SetupArtSwitchPopup::selectArtClosed - 0x608ec0
 SetupArtSwitchPopup::init - 0x608420
 SetupArtSwitchPopup::onArt - 0x608e60
-SetupAudioLineGuidePopup::~SetupAudioLineGuidePopup - 0x60ac50
 SetupAudioLineGuidePopup::selectSettingClosed - 0x6070e0
 SetupAudioLineGuidePopup::init - 0x606940
 SetupAudioLineGuidePopup::onSpeed - 0x607080
